@@ -1,0 +1,80 @@
+{
+  "skill": {
+    "name": "pre-impl-discussion",
+    "source": "/private/tmp/alibaba-page-agent-review/repo/.agents/skills/pre-impl-discussion",
+    "scanned_at": "2026-07-03T10:30:37.340667+00:00"
+  },
+  "risk_assessment": {
+    "score": 30,
+    "severity": "MEDIUM",
+    "recommendation": "CAUTION"
+  },
+  "components": [
+    {
+      "path": "SKILL.md",
+      "type": "markdown",
+      "lines": 104,
+      "executable": false,
+      "size_bytes": 5113
+    }
+  ],
+  "issues": [
+    {
+      "id": "EA2",
+      "category": "Excessive Agency",
+      "pattern": "Autonomous Decision Making",
+      "severity": "MEDIUM",
+      "confidence": 0.75,
+      "location": {
+        "file": "SKILL.md",
+        "start_line": 44,
+        "end_line": null
+      },
+      "finding": "without checking",
+      "explanation": "Skill enables autonomous high-impact decisions without human-in-the-loop verification. Critical operations (destructive commands, financial transactions, data deletion) should require explicit user confirmation.",
+      "remediation": "Add human-in-the-loop confirmation for destructive, irreversible, or high-impact operations. Never auto-execute commands that modify files, send data, or alter system state.",
+      "code_snippet": "\nCommon pitfalls:\n\n- Assuming compatibility without checking actual version constraints\n- Confusing roadmap/aspirations with actual released state\n- Missing transitive constraints (a dependency of a dependency)\n",
+      "intent": null
+    },
+    {
+      "id": "EA2",
+      "category": "Excessive Agency",
+      "pattern": "Autonomous Decision Making",
+      "severity": "MEDIUM",
+      "confidence": 0.75,
+      "location": {
+        "file": "SKILL.md",
+        "start_line": 99,
+        "end_line": null
+      },
+      "finding": "without confirmation",
+      "explanation": "Skill enables autonomous high-impact decisions without human-in-the-loop verification. Critical operations (destructive commands, financial transactions, data deletion) should require explicit user confirmation.",
+      "remediation": "Add human-in-the-loop confirmation for destructive, irreversible, or high-impact operations. Never auto-execute commands that modify files, send data, or alter system state.",
+      "code_snippet": "\n| Don't                                               | Do Instead                               |\n| --------------------------------------------------- | ---------------------------------------- |\n| Start implementation \"to test\" without confirmation | Present findings and wait                |\n| Repeat the full plan in every response              | Answer the specific question asked       |\n| Say \"X should work\" without checking                | Say \"I need to verify X\" and research it |\n| Assume project structure or constraints             | Read the actual files                    |",
+      "intent": null
+    },
+    {
+      "id": "EA2",
+      "category": "Excessive Agency",
+      "pattern": "Autonomous Decision Making",
+      "severity": "MEDIUM",
+      "confidence": 0.75,
+      "location": {
+        "file": "SKILL.md",
+        "start_line": 101,
+        "end_line": null
+      },
+      "finding": "without checking",
+      "explanation": "Skill enables autonomous high-impact decisions without human-in-the-loop verification. Critical operations (destructive commands, financial transactions, data deletion) should require explicit user confirmation.",
+      "remediation": "Add human-in-the-loop confirmation for destructive, irreversible, or high-impact operations. Never auto-execute commands that modify files, send data, or alter system state.",
+      "code_snippet": "| --------------------------------------------------- | ---------------------------------------- |\n| Start implementation \"to test\" without confirmation | Present findings and wait                |\n| Repeat the full plan in every response              | Answer the specific question asked       |\n| Say \"X should work\" without checking                | Say \"I need to verify X\" and research it |\n| Assume project structure or constraints             | Read the actual files                    |\n| Present one recommendation as the only option       | Present 2-3 options with trade-offs      |\n| Write long paragraphs explaining trade-offs         | Use tables and bullet points             |",
+      "intent": null
+    }
+  ],
+  "metadata": {
+    "has_executable_scripts": false,
+    "skillspector_version": "2.1.4",
+    "llm_requested": false,
+    "llm_available": false
+  }
+}

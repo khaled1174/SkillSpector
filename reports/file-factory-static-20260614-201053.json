@@ -1,0 +1,2143 @@
+{
+  "skill": {
+    "name": "file-factory",
+    "source": "/private/tmp/cc-fundamentals-05-skills-18184/skills/file-factory",
+    "scanned_at": "2026-06-14T17:11:11.008074+00:00"
+  },
+  "risk_assessment": {
+    "score": 100,
+    "severity": "CRITICAL",
+    "recommendation": "DO_NOT_INSTALL"
+  },
+  "components": [
+    {
+      "path": "COMPLEXITY_LEVELS.md",
+      "type": "markdown",
+      "lines": 330,
+      "executable": false,
+      "size_bytes": 9562
+    },
+    {
+      "path": "MIGRATION_SUMMARY.md",
+      "type": "markdown",
+      "lines": 191,
+      "executable": false,
+      "size_bytes": 6372
+    },
+    {
+      "path": "README.md",
+      "type": "markdown",
+      "lines": 159,
+      "executable": false,
+      "size_bytes": 5947
+    },
+    {
+      "path": "SKILL.md",
+      "type": "markdown",
+      "lines": 165,
+      "executable": false,
+      "size_bytes": 5904
+    },
+    {
+      "path": "cookbook/curriculum-slides.md",
+      "type": "markdown",
+      "lines": 187,
+      "executable": false,
+      "size_bytes": 4418
+    },
+    {
+      "path": "cookbook/tier-rankings.md",
+      "type": "markdown",
+      "lines": 79,
+      "executable": false,
+      "size_bytes": 2344
+    },
+    {
+      "path": "docx/DOCX.md",
+      "type": "markdown",
+      "lines": 685,
+      "executable": false,
+      "size_bytes": 27474
+    },
+    {
+      "path": "docx/LICENSE.txt",
+      "type": "text",
+      "lines": 30,
+      "executable": false,
+      "size_bytes": 1467
+    },
+    {
+      "path": "docx/brand-templates/apple.md",
+      "type": "markdown",
+      "lines": 76,
+      "executable": false,
+      "size_bytes": 1902
+    },
+    {
+      "path": "docx/brand-templates/deloitte.md",
+      "type": "markdown",
+      "lines": 73,
+      "executable": false,
+      "size_bytes": 1782
+    },
+    {
+      "path": "docx/brand-templates/economist.md",
+      "type": "markdown",
+      "lines": 73,
+      "executable": false,
+      "size_bytes": 1732
+    },
+    {
+      "path": "docx/brand-templates/figma.md",
+      "type": "markdown",
+      "lines": 85,
+      "executable": false,
+      "size_bytes": 2066
+    },
+    {
+      "path": "docx/brand-templates/ibm.md",
+      "type": "markdown",
+      "lines": 74,
+      "executable": false,
+      "size_bytes": 1716
+    },
+    {
+      "path": "docx/brand-templates/kpmg.md",
+      "type": "markdown",
+      "lines": 77,
+      "executable": false,
+      "size_bytes": 1822
+    },
+    {
+      "path": "docx/brand-templates/linear.md",
+      "type": "markdown",
+      "lines": 78,
+      "executable": false,
+      "size_bytes": 1948
+    },
+    {
+      "path": "docx/brand-templates/mckinsey.md",
+      "type": "markdown",
+      "lines": 70,
+      "executable": false,
+      "size_bytes": 1769
+    },
+    {
+      "path": "docx/brand-templates/notion.md",
+      "type": "markdown",
+      "lines": 75,
+      "executable": false,
+      "size_bytes": 1832
+    },
+    {
+      "path": "docx/brand-templates/stripe.md",
+      "type": "markdown",
+      "lines": 67,
+      "executable": false,
+      "size_bytes": 1626
+    },
+    {
+      "path": "docx/docx-js.md",
+      "type": "markdown",
+      "lines": 350,
+      "executable": false,
+      "size_bytes": 16509
+    },
+    {
+      "path": "docx/ooxml.md",
+      "type": "markdown",
+      "lines": 610,
+      "executable": false,
+      "size_bytes": 23572
+    },
+    {
+      "path": "docx/ooxml/schemas/ISO-IEC29500-4_2016/dml-chart.xsd",
+      "type": "other",
+      "lines": 1499,
+      "executable": false,
+      "size_bytes": 74984
+    },
+    {
+      "path": "docx/ooxml/schemas/ISO-IEC29500-4_2016/dml-chartDrawing.xsd",
+      "type": "other",
+      "lines": 146,
+      "executable": false,
+      "size_bytes": 6956
+    },
+    {
+      "path": "docx/ooxml/schemas/ISO-IEC29500-4_2016/dml-diagram.xsd",
+      "type": "other",
+      "lines": 1085,
+      "executable": false,
+      "size_bytes": 51302
+    },
+    {
+      "path": "docx/ooxml/schemas/ISO-IEC29500-4_2016/dml-lockedCanvas.xsd",
+      "type": "other",
+      "lines": 11,
+      "executable": false,
+      "size_bytes": 624
+    },
+    {
+      "path": "docx/ooxml/schemas/ISO-IEC29500-4_2016/dml-main.xsd",
+      "type": "other",
+      "lines": 3081,
+      "executable": false,
+      "size_bytes": 152039
+    },
+    {
+      "path": "docx/ooxml/schemas/ISO-IEC29500-4_2016/dml-picture.xsd",
+      "type": "other",
+      "lines": 23,
+      "executable": false,
+      "size_bytes": 1231
+    },
+    {
+      "path": "docx/ooxml/schemas/ISO-IEC29500-4_2016/dml-spreadsheetDrawing.xsd",
+      "type": "other",
+      "lines": 185,
+      "executable": false,
+      "size_bytes": 8862
+    },
+    {
+      "path": "docx/ooxml/schemas/ISO-IEC29500-4_2016/dml-wordprocessingDrawing.xsd",
+      "type": "other",
+      "lines": 287,
+      "executable": false,
+      "size_bytes": 14795
+    },
+    {
+      "path": "docx/ooxml/schemas/ISO-IEC29500-4_2016/pml.xsd",
+      "type": "other",
+      "lines": 1676,
+      "executable": false,
+      "size_bytes": 83612
+    },
+    {
+      "path": "docx/ooxml/schemas/ISO-IEC29500-4_2016/shared-additionalCharacteristics.xsd",
+      "type": "other",
+      "lines": 28,
+      "executable": false,
+      "size_bytes": 1269
+    },
+    {
+      "path": "docx/ooxml/schemas/ISO-IEC29500-4_2016/shared-bibliography.xsd",
+      "type": "other",
+      "lines": 144,
+      "executable": false,
+      "size_bytes": 7328
+    },
+    {
+      "path": "docx/ooxml/schemas/ISO-IEC29500-4_2016/shared-commonSimpleTypes.xsd",
+      "type": "other",
+      "lines": 174,
+      "executable": false,
+      "size_bytes": 6382
+    },
+    {
+      "path": "docx/ooxml/schemas/ISO-IEC29500-4_2016/shared-customXmlDataProperties.xsd",
+      "type": "other",
+      "lines": 25,
+      "executable": false,
+      "size_bytes": 1248
+    },
+    {
+      "path": "docx/ooxml/schemas/ISO-IEC29500-4_2016/shared-customXmlSchemaProperties.xsd",
+      "type": "other",
+      "lines": 18,
+      "executable": false,
+      "size_bytes": 880
+    },
+    {
+      "path": "docx/ooxml/schemas/ISO-IEC29500-4_2016/shared-documentPropertiesCustom.xsd",
+      "type": "other",
+      "lines": 59,
+      "executable": false,
+      "size_bytes": 2608
+    },
+    {
+      "path": "docx/ooxml/schemas/ISO-IEC29500-4_2016/shared-documentPropertiesExtended.xsd",
+      "type": "other",
+      "lines": 56,
+      "executable": false,
+      "size_bytes": 3507
+    },
+    {
+      "path": "docx/ooxml/schemas/ISO-IEC29500-4_2016/shared-documentPropertiesVariantTypes.xsd",
+      "type": "other",
+      "lines": 195,
+      "executable": false,
+      "size_bytes": 7507
+    },
+    {
+      "path": "docx/ooxml/schemas/ISO-IEC29500-4_2016/shared-math.xsd",
+      "type": "other",
+      "lines": 582,
+      "executable": false,
+      "size_bytes": 23313
+    },
+    {
+      "path": "docx/ooxml/schemas/ISO-IEC29500-4_2016/shared-relationshipReference.xsd",
+      "type": "other",
+      "lines": 25,
+      "executable": false,
+      "size_bytes": 1367
+    },
+    {
+      "path": "docx/ooxml/schemas/ISO-IEC29500-4_2016/sml.xsd",
+      "type": "other",
+      "lines": 4439,
+      "executable": false,
+      "size_bytes": 242277
+    },
+    {
+      "path": "docx/ooxml/schemas/ISO-IEC29500-4_2016/vml-main.xsd",
+      "type": "other",
+      "lines": 570,
+      "executable": false,
+      "size_bytes": 26148
+    },
+    {
+      "path": "docx/ooxml/schemas/ISO-IEC29500-4_2016/vml-officeDrawing.xsd",
+      "type": "other",
+      "lines": 509,
+      "executable": false,
+      "size_bytes": 25279
+    },
+    {
+      "path": "docx/ooxml/schemas/ISO-IEC29500-4_2016/vml-presentationDrawing.xsd",
+      "type": "other",
+      "lines": 12,
+      "executable": false,
+      "size_bytes": 535
+    },
+    {
+      "path": "docx/ooxml/schemas/ISO-IEC29500-4_2016/vml-spreadsheetDrawing.xsd",
+      "type": "other",
+      "lines": 108,
+      "executable": false,
+      "size_bytes": 5712
+    },
+    {
+      "path": "docx/ooxml/schemas/ISO-IEC29500-4_2016/vml-wordprocessingDrawing.xsd",
+      "type": "other",
+      "lines": 96,
+      "executable": false,
+      "size_bytes": 4010
+    },
+    {
+      "path": "docx/ooxml/schemas/ISO-IEC29500-4_2016/wml.xsd",
+      "type": "other",
+      "lines": 3646,
+      "executable": false,
+      "size_bytes": 171367
+    },
+    {
+      "path": "docx/ooxml/schemas/ISO-IEC29500-4_2016/xml.xsd",
+      "type": "other",
+      "lines": 116,
+      "executable": false,
+      "size_bytes": 4646
+    },
+    {
+      "path": "docx/ooxml/schemas/ecma/fouth-edition/opc-contentTypes.xsd",
+      "type": "other",
+      "lines": 42,
+      "executable": false,
+      "size_bytes": 1963
+    },
+    {
+      "path": "docx/ooxml/schemas/ecma/fouth-edition/opc-coreProperties.xsd",
+      "type": "other",
+      "lines": 50,
+      "executable": false,
+      "size_bytes": 2515
+    },
+    {
+      "path": "docx/ooxml/schemas/ecma/fouth-edition/opc-digSig.xsd",
+      "type": "other",
+      "lines": 49,
+      "executable": false,
+      "size_bytes": 2856
+    },
+    {
+      "path": "docx/ooxml/schemas/ecma/fouth-edition/opc-relationships.xsd",
+      "type": "other",
+      "lines": 33,
+      "executable": false,
+      "size_bytes": 1344
+    },
+    {
+      "path": "docx/ooxml/schemas/mce/mc.xsd",
+      "type": "other",
+      "lines": 75,
+      "executable": false,
+      "size_bytes": 3127
+    },
+    {
+      "path": "docx/ooxml/schemas/microsoft/wml-2010.xsd",
+      "type": "other",
+      "lines": 560,
+      "executable": false,
+      "size_bytes": 26549
+    },
+    {
+      "path": "docx/ooxml/schemas/microsoft/wml-2012.xsd",
+      "type": "other",
+      "lines": 67,
+      "executable": false,
+      "size_bytes": 3745
+    },
+    {
+      "path": "docx/ooxml/schemas/microsoft/wml-2018.xsd",
+      "type": "other",
+      "lines": 14,
+      "executable": false,
+      "size_bytes": 901
+    },
+    {
+      "path": "docx/ooxml/schemas/microsoft/wml-cex-2018.xsd",
+      "type": "other",
+      "lines": 20,
+      "executable": false,
+      "size_bytes": 1778
+    },
+    {
+      "path": "docx/ooxml/schemas/microsoft/wml-cid-2016.xsd",
+      "type": "other",
+      "lines": 13,
+      "executable": false,
+      "size_bytes": 1002
+    },
+    {
+      "path": "docx/ooxml/schemas/microsoft/wml-sdtdatahash-2020.xsd",
+      "type": "other",
+      "lines": 4,
+      "executable": false,
+      "size_bytes": 600
+    },
+    {
+      "path": "docx/ooxml/schemas/microsoft/wml-symex-2015.xsd",
+      "type": "other",
+      "lines": 8,
+      "executable": false,
+      "size_bytes": 745
+    },
+    {
+      "path": "docx/ooxml/scripts/pack.py",
+      "type": "python",
+      "lines": 159,
+      "executable": true,
+      "size_bytes": 5596
+    },
+    {
+      "path": "docx/ooxml/scripts/unpack.py",
+      "type": "python",
+      "lines": 29,
+      "executable": true,
+      "size_bytes": 1037
+    },
+    {
+      "path": "docx/ooxml/scripts/validate.py",
+      "type": "python",
+      "lines": 69,
+      "executable": true,
+      "size_bytes": 1959
+    },
+    {
+      "path": "docx/ooxml/scripts/validation/__init__.py",
+      "type": "python",
+      "lines": 15,
+      "executable": true,
+      "size_bytes": 336
+    },
+    {
+      "path": "docx/ooxml/scripts/validation/base.py",
+      "type": "python",
+      "lines": 951,
+      "executable": true,
+      "size_bytes": 39892
+    },
+    {
+      "path": "docx/ooxml/scripts/validation/docx.py",
+      "type": "python",
+      "lines": 274,
+      "executable": true,
+      "size_bytes": 9996
+    },
+    {
+      "path": "docx/ooxml/scripts/validation/pptx.py",
+      "type": "python",
+      "lines": 315,
+      "executable": true,
+      "size_bytes": 12327
+    },
+    {
+      "path": "docx/ooxml/scripts/validation/redlining.py",
+      "type": "python",
+      "lines": 279,
+      "executable": true,
+      "size_bytes": 11179
+    },
+    {
+      "path": "docx/scripts/__init__.py",
+      "type": "python",
+      "lines": 1,
+      "executable": true,
+      "size_bytes": 65
+    },
+    {
+      "path": "docx/scripts/apply_brand.py",
+      "type": "python",
+      "lines": 367,
+      "executable": true,
+      "size_bytes": 12931
+    },
+    {
+      "path": "docx/scripts/document.py",
+      "type": "python",
+      "lines": 1276,
+      "executable": true,
+      "size_bytes": 50409
+    },
+    {
+      "path": "docx/scripts/templates/comments.xml",
+      "type": "other",
+      "lines": 3,
+      "executable": false,
+      "size_bytes": 2635
+    },
+    {
+      "path": "docx/scripts/templates/commentsExtended.xml",
+      "type": "other",
+      "lines": 3,
+      "executable": false,
+      "size_bytes": 2643
+    },
+    {
+      "path": "docx/scripts/templates/commentsExtensible.xml",
+      "type": "other",
+      "lines": 3,
+      "executable": false,
+      "size_bytes": 2739
+    },
+    {
+      "path": "docx/scripts/templates/commentsIds.xml",
+      "type": "other",
+      "lines": 3,
+      "executable": false,
+      "size_bytes": 2651
+    },
+    {
+      "path": "docx/scripts/templates/people.xml",
+      "type": "other",
+      "lines": 3,
+      "executable": false,
+      "size_bytes": 147
+    },
+    {
+      "path": "docx/scripts/utilities.py",
+      "type": "python",
+      "lines": 374,
+      "executable": true,
+      "size_bytes": 13694
+    },
+    {
+      "path": "docx/templates/brand-mapping.json",
+      "type": "json",
+      "lines": 311,
+      "executable": false,
+      "size_bytes": 10352
+    },
+    {
+      "path": "package-lock.json",
+      "type": "json",
+      "lines": 6,
+      "executable": false,
+      "size_bytes": 91
+    },
+    {
+      "path": "pdf/LICENSE.txt",
+      "type": "text",
+      "lines": 30,
+      "executable": false,
+      "size_bytes": 1467
+    },
+    {
+      "path": "pdf/PDF.md",
+      "type": "markdown",
+      "lines": 443,
+      "executable": false,
+      "size_bytes": 11744
+    },
+    {
+      "path": "pdf/artistic-covers/ARTISTIC-STYLES.md",
+      "type": "markdown",
+      "lines": 241,
+      "executable": false,
+      "size_bytes": 8427
+    },
+    {
+      "path": "pdf/artistic-covers/META-PROMPT.md",
+      "type": "markdown",
+      "lines": 247,
+      "executable": false,
+      "size_bytes": 8256
+    },
+    {
+      "path": "pdf/artistic-covers/__init__.py",
+      "type": "python",
+      "lines": 84,
+      "executable": true,
+      "size_bytes": 1755
+    },
+    {
+      "path": "pdf/artistic-covers/components.py",
+      "type": "python",
+      "lines": 1155,
+      "executable": true,
+      "size_bytes": 41004
+    },
+    {
+      "path": "pdf/artistic-covers/generator.py",
+      "type": "python",
+      "lines": 272,
+      "executable": true,
+      "size_bytes": 10259
+    },
+    {
+      "path": "pdf/artistic-covers/styles/__init__.py",
+      "type": "python",
+      "lines": 17,
+      "executable": true,
+      "size_bytes": 400
+    },
+    {
+      "path": "pdf/artistic-covers/styles/cosmic.py",
+      "type": "python",
+      "lines": 330,
+      "executable": true,
+      "size_bytes": 11057
+    },
+    {
+      "path": "pdf/forms.md",
+      "type": "markdown",
+      "lines": 205,
+      "executable": false,
+      "size_bytes": 9438
+    },
+    {
+      "path": "pdf/reference.md",
+      "type": "markdown",
+      "lines": 1308,
+      "executable": false,
+      "size_bytes": 37864
+    },
+    {
+      "path": "pdf/scripts/check_bounding_boxes.py",
+      "type": "python",
+      "lines": 70,
+      "executable": true,
+      "size_bytes": 3139
+    },
+    {
+      "path": "pdf/scripts/check_bounding_boxes_test.py",
+      "type": "python",
+      "lines": 226,
+      "executable": true,
+      "size_bytes": 8818
+    },
+    {
+      "path": "pdf/scripts/check_fillable_fields.py",
+      "type": "python",
+      "lines": 12,
+      "executable": true,
+      "size_bytes": 362
+    },
+    {
+      "path": "pdf/scripts/convert_pdf_to_images.py",
+      "type": "python",
+      "lines": 35,
+      "executable": true,
+      "size_bytes": 1123
+    },
+    {
+      "path": "pdf/scripts/create_validation_image.py",
+      "type": "python",
+      "lines": 41,
+      "executable": true,
+      "size_bytes": 1603
+    },
+    {
+      "path": "pdf/scripts/extract_form_field_info.py",
+      "type": "python",
+      "lines": 152,
+      "executable": true,
+      "size_bytes": 6127
+    },
+    {
+      "path": "pdf/scripts/fill_fillable_fields.py",
+      "type": "python",
+      "lines": 114,
+      "executable": true,
+      "size_bytes": 4863
+    },
+    {
+      "path": "pdf/scripts/fill_pdf_form_with_annotations.py",
+      "type": "python",
+      "lines": 108,
+      "executable": true,
+      "size_bytes": 3596
+    },
+    {
+      "path": "pdf/workspace/tony_summary/create_pdf.py",
+      "type": "python",
+      "lines": 410,
+      "executable": true,
+      "size_bytes": 13646
+    },
+    {
+      "path": "pptx/MAXIMUM-IMPACT-PROMPTING.md",
+      "type": "markdown",
+      "lines": 348,
+      "executable": false,
+      "size_bytes": 10412
+    },
+    {
+      "path": "pptx/PPTX.md",
+      "type": "markdown",
+      "lines": 877,
+      "executable": false,
+      "size_bytes": 39726
+    },
+    {
+      "path": "pptx/advanced-techniques.md",
+      "type": "markdown",
+      "lines": 521,
+      "executable": false,
+      "size_bytes": 17493
+    },
+    {
+      "path": "pptx/design_system.py",
+      "type": "python",
+      "lines": 275,
+      "executable": true,
+      "size_bytes": 9429
+    },
+    {
+      "path": "pptx/html2pptx.md",
+      "type": "markdown",
+      "lines": 764,
+      "executable": false,
+      "size_bytes": 23521
+    },
+    {
+      "path": "pptx/ooxml.md",
+      "type": "markdown",
+      "lines": 427,
+      "executable": false,
+      "size_bytes": 10388
+    },
+    {
+      "path": "pptx/ooxml/scripts/pack.py",
+      "type": "python",
+      "lines": 159,
+      "executable": true,
+      "size_bytes": 5596
+    },
+    {
+      "path": "pptx/ooxml/scripts/unpack.py",
+      "type": "python",
+      "lines": 29,
+      "executable": true,
+      "size_bytes": 1037
+    },
+    {
+      "path": "pptx/ooxml/scripts/validate.py",
+      "type": "python",
+      "lines": 69,
+      "executable": true,
+      "size_bytes": 1959
+    },
+    {
+      "path": "pptx/ooxml/scripts/validation/__init__.py",
+      "type": "python",
+      "lines": 15,
+      "executable": true,
+      "size_bytes": 336
+    },
+    {
+      "path": "pptx/ooxml/scripts/validation/base.py",
+      "type": "python",
+      "lines": 951,
+      "executable": true,
+      "size_bytes": 39892
+    },
+    {
+      "path": "pptx/ooxml/scripts/validation/docx.py",
+      "type": "python",
+      "lines": 274,
+      "executable": true,
+      "size_bytes": 9996
+    },
+    {
+      "path": "pptx/ooxml/scripts/validation/pptx.py",
+      "type": "python",
+      "lines": 315,
+      "executable": true,
+      "size_bytes": 12327
+    },
+    {
+      "path": "pptx/ooxml/scripts/validation/redlining.py",
+      "type": "python",
+      "lines": 279,
+      "executable": true,
+      "size_bytes": 11179
+    },
+    {
+      "path": "pptx/package-lock.json",
+      "type": "json",
+      "lines": 761,
+      "executable": false,
+      "size_bytes": 26391
+    },
+    {
+      "path": "pptx/package.json",
+      "type": "json",
+      "lines": 7,
+      "executable": false,
+      "size_bytes": 107
+    },
+    {
+      "path": "pptx/scripts/html2pptx.js",
+      "type": "javascript",
+      "lines": 979,
+      "executable": true,
+      "size_bytes": 37795
+    },
+    {
+      "path": "pptx/scripts/inventory.py",
+      "type": "python",
+      "lines": 1020,
+      "executable": true,
+      "size_bytes": 38126
+    },
+    {
+      "path": "pptx/scripts/package-lock.json",
+      "type": "json",
+      "lines": 798,
+      "executable": false,
+      "size_bytes": 27896
+    },
+    {
+      "path": "pptx/scripts/package.json",
+      "type": "json",
+      "lines": 8,
+      "executable": false,
+      "size_bytes": 133
+    },
+    {
+      "path": "pptx/scripts/rearrange.py",
+      "type": "python",
+      "lines": 231,
+      "executable": true,
+      "size_bytes": 8514
+    },
+    {
+      "path": "pptx/scripts/replace.py",
+      "type": "python",
+      "lines": 385,
+      "executable": true,
+      "size_bytes": 13594
+    },
+    {
+      "path": "pptx/scripts/thumbnail.py",
+      "type": "python",
+      "lines": 450,
+      "executable": true,
+      "size_bytes": 15484
+    },
+    {
+      "path": "pptx/templates/safe-margins-16x9.html",
+      "type": "other",
+      "lines": 138,
+      "executable": false,
+      "size_bytes": 2872
+    },
+    {
+      "path": "pptx/workspace/career_framework/build_pdf.js",
+      "type": "javascript",
+      "lines": 82,
+      "executable": true,
+      "size_bytes": 2864
+    },
+    {
+      "path": "pptx/workspace/career_framework/build_pptx.js",
+      "type": "javascript",
+      "lines": 50,
+      "executable": true,
+      "size_bytes": 1822
+    },
+    {
+      "path": "pptx/workspace/career_framework/slide01_title.html",
+      "type": "other",
+      "lines": 56,
+      "executable": false,
+      "size_bytes": 1378
+    },
+    {
+      "path": "pptx/workspace/career_framework/slide02_overview.html",
+      "type": "other",
+      "lines": 79,
+      "executable": false,
+      "size_bytes": 2259
+    },
+    {
+      "path": "pptx/workspace/career_framework/slide03_5whys_intro.html",
+      "type": "other",
+      "lines": 68,
+      "executable": false,
+      "size_bytes": 2010
+    },
+    {
+      "path": "pptx/workspace/career_framework/slide04_5questions.html",
+      "type": "other",
+      "lines": 91,
+      "executable": false,
+      "size_bytes": 2526
+    },
+    {
+      "path": "pptx/workspace/career_framework/slide05_data_sources.html",
+      "type": "other",
+      "lines": 81,
+      "executable": false,
+      "size_bytes": 2388
+    },
+    {
+      "path": "pptx/workspace/career_framework/slide06_tools.html",
+      "type": "other",
+      "lines": 99,
+      "executable": false,
+      "size_bytes": 2742
+    },
+    {
+      "path": "pptx/workspace/career_framework/slide07_doc_gen.html",
+      "type": "other",
+      "lines": 110,
+      "executable": false,
+      "size_bytes": 2989
+    },
+    {
+      "path": "pptx/workspace/career_framework/slide08_process_flow.html",
+      "type": "other",
+      "lines": 88,
+      "executable": false,
+      "size_bytes": 2199
+    },
+    {
+      "path": "pptx/workspace/career_framework/slide09_outputs.html",
+      "type": "other",
+      "lines": 82,
+      "executable": false,
+      "size_bytes": 2346
+    },
+    {
+      "path": "pptx/workspace/career_framework/slide10_replicate.html",
+      "type": "other",
+      "lines": 128,
+      "executable": false,
+      "size_bytes": 3756
+    },
+    {
+      "path": "pptx/workspace/career_framework/slide11_section2_title.html",
+      "type": "other",
+      "lines": 79,
+      "executable": false,
+      "size_bytes": 1834
+    },
+    {
+      "path": "pptx/workspace/career_framework/slide12_architecture.html",
+      "type": "other",
+      "lines": 79,
+      "executable": false,
+      "size_bytes": 2386
+    },
+    {
+      "path": "pptx/workspace/career_framework/slide13_directory.html",
+      "type": "other",
+      "lines": 93,
+      "executable": false,
+      "size_bytes": 3479
+    },
+    {
+      "path": "pptx/workspace/career_framework/slide14_ticktick.html",
+      "type": "other",
+      "lines": 147,
+      "executable": false,
+      "size_bytes": 3832
+    },
+    {
+      "path": "pptx/workspace/career_framework/slide15_commands.html",
+      "type": "other",
+      "lines": 98,
+      "executable": false,
+      "size_bytes": 3009
+    },
+    {
+      "path": "pptx/workspace/career_framework/slide16_daily_workflow.html",
+      "type": "other",
+      "lines": 112,
+      "executable": false,
+      "size_bytes": 2954
+    },
+    {
+      "path": "pptx/workspace/career_framework/slide17_supabase.html",
+      "type": "other",
+      "lines": 90,
+      "executable": false,
+      "size_bytes": 3265
+    },
+    {
+      "path": "pptx/workspace/career_framework/slide18_self_improving.html",
+      "type": "other",
+      "lines": 118,
+      "executable": false,
+      "size_bytes": 3325
+    },
+    {
+      "path": "pptx/workspace/career_framework/slide19_conclusion.html",
+      "type": "other",
+      "lines": 76,
+      "executable": false,
+      "size_bytes": 2153
+    },
+    {
+      "path": "pptx/workspace/framework_slides/slide01_title.html",
+      "type": "other",
+      "lines": 59,
+      "executable": false,
+      "size_bytes": 1656
+    },
+    {
+      "path": "pptx/workspace/tony_slides/create_pptx.js",
+      "type": "javascript",
+      "lines": 47,
+      "executable": true,
+      "size_bytes": 1619
+    },
+    {
+      "path": "pptx/workspace/tony_slides/slide01_title.html",
+      "type": "other",
+      "lines": 77,
+      "executable": false,
+      "size_bytes": 2219
+    },
+    {
+      "path": "pptx/workspace/tony_slides/slide02_situation.html",
+      "type": "other",
+      "lines": 86,
+      "executable": false,
+      "size_bytes": 2779
+    },
+    {
+      "path": "pptx/workspace/tony_slides/slide03_opportunities.html",
+      "type": "other",
+      "lines": 84,
+      "executable": false,
+      "size_bytes": 3219
+    },
+    {
+      "path": "pptx/workspace/tony_slides/slide04_5whys.html",
+      "type": "other",
+      "lines": 81,
+      "executable": false,
+      "size_bytes": 2941
+    },
+    {
+      "path": "pptx/workspace/tony_slides/slide05_values.html",
+      "type": "other",
+      "lines": 102,
+      "executable": false,
+      "size_bytes": 3466
+    },
+    {
+      "path": "pptx/workspace/tony_slides/slide06_tension.html",
+      "type": "other",
+      "lines": 81,
+      "executable": false,
+      "size_bytes": 2315
+    },
+    {
+      "path": "pptx/workspace/tony_slides/slide07_matrix.html",
+      "type": "other",
+      "lines": 114,
+      "executable": false,
+      "size_bytes": 4265
+    },
+    {
+      "path": "pptx/workspace/tony_slides/slide08_verdict.html",
+      "type": "other",
+      "lines": 81,
+      "executable": false,
+      "size_bytes": 2690
+    },
+    {
+      "path": "pptx/workspace/tony_slides/slide09_not_jasen.html",
+      "type": "other",
+      "lines": 79,
+      "executable": false,
+      "size_bytes": 3065
+    },
+    {
+      "path": "pptx/workspace/tony_slides/slide10_phase1.html",
+      "type": "other",
+      "lines": 110,
+      "executable": false,
+      "size_bytes": 3714
+    },
+    {
+      "path": "pptx/workspace/tony_slides/slide11_phase2.html",
+      "type": "other",
+      "lines": 110,
+      "executable": false,
+      "size_bytes": 3713
+    },
+    {
+      "path": "pptx/workspace/tony_slides/slide12_phase3.html",
+      "type": "other",
+      "lines": 112,
+      "executable": false,
+      "size_bytes": 3790
+    },
+    {
+      "path": "pptx/workspace/tony_slides/slide13_metrics.html",
+      "type": "other",
+      "lines": 90,
+      "executable": false,
+      "size_bytes": 3351
+    },
+    {
+      "path": "pptx/workspace/tony_slides/slide14_decision_points.html",
+      "type": "other",
+      "lines": 80,
+      "executable": false,
+      "size_bytes": 3248
+    },
+    {
+      "path": "pptx/workspace/tony_slides/slide15_next_steps.html",
+      "type": "other",
+      "lines": 105,
+      "executable": false,
+      "size_bytes": 3523
+    },
+    {
+      "path": "themes/MAXIMUM-IMPACT-THEMES.md",
+      "type": "markdown",
+      "lines": 100,
+      "executable": false,
+      "size_bytes": 2762
+    },
+    {
+      "path": "themes/THEMES.md",
+      "type": "markdown",
+      "lines": 77,
+      "executable": false,
+      "size_bytes": 3089
+    },
+    {
+      "path": "themes/color-palettes.md",
+      "type": "markdown",
+      "lines": 261,
+      "executable": false,
+      "size_bytes": 9867
+    },
+    {
+      "path": "themes/presets/anthropic-claude.md",
+      "type": "markdown",
+      "lines": 64,
+      "executable": false,
+      "size_bytes": 1764
+    },
+    {
+      "path": "themes/presets/arctic-frost.md",
+      "type": "markdown",
+      "lines": 19,
+      "executable": false,
+      "size_bytes": 544
+    },
+    {
+      "path": "themes/presets/art-deco-gold.md",
+      "type": "markdown",
+      "lines": 39,
+      "executable": false,
+      "size_bytes": 886
+    },
+    {
+      "path": "themes/presets/botanical-garden.md",
+      "type": "markdown",
+      "lines": 19,
+      "executable": false,
+      "size_bytes": 519
+    },
+    {
+      "path": "themes/presets/brutal-force.md",
+      "type": "markdown",
+      "lines": 39,
+      "executable": false,
+      "size_bytes": 906
+    },
+    {
+      "path": "themes/presets/cosmic-explosion.md",
+      "type": "markdown",
+      "lines": 32,
+      "executable": false,
+      "size_bytes": 853
+    },
+    {
+      "path": "themes/presets/cyberpunk-neon.md",
+      "type": "markdown",
+      "lines": 57,
+      "executable": false,
+      "size_bytes": 1522
+    },
+    {
+      "path": "themes/presets/desert-rose.md",
+      "type": "markdown",
+      "lines": 19,
+      "executable": false,
+      "size_bytes": 496
+    },
+    {
+      "path": "themes/presets/forest-canopy.md",
+      "type": "markdown",
+      "lines": 19,
+      "executable": false,
+      "size_bytes": 506
+    },
+    {
+      "path": "themes/presets/golden-hour.md",
+      "type": "markdown",
+      "lines": 19,
+      "executable": false,
+      "size_bytes": 528
+    },
+    {
+      "path": "themes/presets/google-gemini.md",
+      "type": "markdown",
+      "lines": 68,
+      "executable": false,
+      "size_bytes": 1926
+    },
+    {
+      "path": "themes/presets/midnight-galaxy.md",
+      "type": "markdown",
+      "lines": 19,
+      "executable": false,
+      "size_bytes": 513
+    },
+    {
+      "path": "themes/presets/modern-minimalist.md",
+      "type": "markdown",
+      "lines": 19,
+      "executable": false,
+      "size_bytes": 549
+    },
+    {
+      "path": "themes/presets/neon-cyberpunk.md",
+      "type": "markdown",
+      "lines": 32,
+      "executable": false,
+      "size_bytes": 939
+    },
+    {
+      "path": "themes/presets/ocean-depths.md",
+      "type": "markdown",
+      "lines": 19,
+      "executable": false,
+      "size_bytes": 555
+    },
+    {
+      "path": "themes/presets/sunset-boulevard.md",
+      "type": "markdown",
+      "lines": 19,
+      "executable": false,
+      "size_bytes": 558
+    },
+    {
+      "path": "themes/presets/tech-innovation.md",
+      "type": "markdown",
+      "lines": 19,
+      "executable": false,
+      "size_bytes": 547
+    },
+    {
+      "path": "themes/presets/zen-balance.md",
+      "type": "markdown",
+      "lines": 32,
+      "executable": false,
+      "size_bytes": 779
+    },
+    {
+      "path": "xlsx/LICENSE.txt",
+      "type": "text",
+      "lines": 30,
+      "executable": false,
+      "size_bytes": 1467
+    },
+    {
+      "path": "xlsx/XLSX.md",
+      "type": "markdown",
+      "lines": 1402,
+      "executable": false,
+      "size_bytes": 47076
+    },
+    {
+      "path": "xlsx/scripts/recalc.py",
+      "type": "python",
+      "lines": 178,
+      "executable": true,
+      "size_bytes": 6408
+    }
+  ],
+  "issues": [
+    {
+      "id": "AST4",
+      "category": "Dangerous Code Execution",
+      "pattern": "subprocess module call",
+      "severity": "MEDIUM",
+      "confidence": 0.7,
+      "location": {
+        "file": "docx/ooxml/scripts/pack.py",
+        "start_line": 103,
+        "end_line": 116
+      },
+      "finding": "            result = subprocess.run(\n                [\n                    \"soffice\",\n                    \"--headless\",\n                    \"--convert-to\",\n                    filter_name,\n           ",
+      "explanation": "subprocess module calls execute external commands. Without careful input validation, this enables command injection.",
+      "remediation": "Use subprocess.run() with shell=False and an explicit argument list. Validate all inputs and avoid passing user-controlled data to commands.",
+      "code_snippet": "\n    with tempfile.TemporaryDirectory() as temp_dir:\n        try:\n            result = subprocess.run(\n                [\n                    \"soffice\",\n                    \"--headless\",",
+      "intent": null
+    },
+    {
+      "id": "AST4",
+      "category": "Dangerous Code Execution",
+      "pattern": "subprocess module call",
+      "severity": "MEDIUM",
+      "confidence": 0.7,
+      "location": {
+        "file": "docx/ooxml/scripts/validation/redlining.py",
+        "start_line": 153,
+        "end_line": 166
+      },
+      "finding": "                result = subprocess.run(\n                    [\n                        \"git\",\n                        \"diff\",\n                        \"--word-diff=plain\",\n                        \"--wo",
+      "explanation": "subprocess module calls execute external commands. Without careful input validation, this enables command injection.",
+      "remediation": "Use subprocess.run() with shell=False and an explicit argument list. Validate all inputs and avoid passing user-controlled data to commands.",
+      "code_snippet": "                modified_file.write_text(modified_text, encoding=\"utf-8\")\n\n                # Try character-level diff first for precise differences\n                result = subprocess.run(\n                    [\n                        \"git\",\n                        \"diff\",",
+      "intent": null
+    },
+    {
+      "id": "AST4",
+      "category": "Dangerous Code Execution",
+      "pattern": "subprocess module call",
+      "severity": "MEDIUM",
+      "confidence": 0.7,
+      "location": {
+        "file": "docx/ooxml/scripts/validation/redlining.py",
+        "start_line": 185,
+        "end_line": 197
+      },
+      "finding": "                result = subprocess.run(\n                    [\n                        \"git\",\n                        \"diff\",\n                        \"--word-diff=plain\",\n                        \"-U0\"",
+      "explanation": "subprocess module calls execute external commands. Without careful input validation, this enables command injection.",
+      "remediation": "Use subprocess.run() with shell=False and an explicit argument list. Validate all inputs and avoid passing user-controlled data to commands.",
+      "code_snippet": "                        return \"\\n\".join(content_lines)\n\n                # Fallback to word-level diff if character-level is too verbose\n                result = subprocess.run(\n                    [\n                        \"git\",\n                        \"diff\",",
+      "intent": null
+    },
+    {
+      "id": "AST4",
+      "category": "Dangerous Code Execution",
+      "pattern": "subprocess module call",
+      "severity": "MEDIUM",
+      "confidence": 0.7,
+      "location": {
+        "file": "pptx/ooxml/scripts/pack.py",
+        "start_line": 103,
+        "end_line": 116
+      },
+      "finding": "            result = subprocess.run(\n                [\n                    \"soffice\",\n                    \"--headless\",\n                    \"--convert-to\",\n                    filter_name,\n           ",
+      "explanation": "subprocess module calls execute external commands. Without careful input validation, this enables command injection.",
+      "remediation": "Use subprocess.run() with shell=False and an explicit argument list. Validate all inputs and avoid passing user-controlled data to commands.",
+      "code_snippet": "\n    with tempfile.TemporaryDirectory() as temp_dir:\n        try:\n            result = subprocess.run(\n                [\n                    \"soffice\",\n                    \"--headless\",",
+      "intent": null
+    },
+    {
+      "id": "AST4",
+      "category": "Dangerous Code Execution",
+      "pattern": "subprocess module call",
+      "severity": "MEDIUM",
+      "confidence": 0.7,
+      "location": {
+        "file": "pptx/ooxml/scripts/validation/redlining.py",
+        "start_line": 153,
+        "end_line": 166
+      },
+      "finding": "                result = subprocess.run(\n                    [\n                        \"git\",\n                        \"diff\",\n                        \"--word-diff=plain\",\n                        \"--wo",
+      "explanation": "subprocess module calls execute external commands. Without careful input validation, this enables command injection.",
+      "remediation": "Use subprocess.run() with shell=False and an explicit argument list. Validate all inputs and avoid passing user-controlled data to commands.",
+      "code_snippet": "                modified_file.write_text(modified_text, encoding=\"utf-8\")\n\n                # Try character-level diff first for precise differences\n                result = subprocess.run(\n                    [\n                        \"git\",\n                        \"diff\",",
+      "intent": null
+    },
+    {
+      "id": "AST4",
+      "category": "Dangerous Code Execution",
+      "pattern": "subprocess module call",
+      "severity": "MEDIUM",
+      "confidence": 0.7,
+      "location": {
+        "file": "pptx/ooxml/scripts/validation/redlining.py",
+        "start_line": 185,
+        "end_line": 197
+      },
+      "finding": "                result = subprocess.run(\n                    [\n                        \"git\",\n                        \"diff\",\n                        \"--word-diff=plain\",\n                        \"-U0\"",
+      "explanation": "subprocess module calls execute external commands. Without careful input validation, this enables command injection.",
+      "remediation": "Use subprocess.run() with shell=False and an explicit argument list. Validate all inputs and avoid passing user-controlled data to commands.",
+      "code_snippet": "                        return \"\\n\".join(content_lines)\n\n                # Fallback to word-level diff if character-level is too verbose\n                result = subprocess.run(\n                    [\n                        \"git\",\n                        \"diff\",",
+      "intent": null
+    },
+    {
+      "id": "AST7",
+      "category": "Dangerous Code Execution",
+      "pattern": "Dynamic attribute access via getattr()",
+      "severity": "LOW",
+      "confidence": 0.5,
+      "location": {
+        "file": "pptx/scripts/replace.py",
+        "start_line": 138,
+        "end_line": 138
+      },
+      "finding": "            run.font.color.theme_color = getattr(MSO_THEME_COLOR, theme_name)",
+      "explanation": "Dynamic getattr() with a non-literal attribute name can access arbitrary object attributes, potentially bypassing access controls.",
+      "remediation": "Replace dynamic getattr() with explicit attribute access or a dictionary lookup with an allowlist of permitted attributes.",
+      "code_snippet": "        # Get theme color by name (e.g., \"DARK_1\", \"ACCENT_1\")\n        theme_name = para_data[\"theme_color\"]\n        try:\n            run.font.color.theme_color = getattr(MSO_THEME_COLOR, theme_name)\n        except AttributeError:\n            print(f\"  WARNING: Unknown theme color name '{theme_name}'\")\n",
+      "intent": null
+    },
+    {
+      "id": "AST4",
+      "category": "Dangerous Code Execution",
+      "pattern": "subprocess module call",
+      "severity": "MEDIUM",
+      "confidence": 0.7,
+      "location": {
+        "file": "pptx/scripts/thumbnail.py",
+        "start_line": 219,
+        "end_line": 231
+      },
+      "finding": "    result = subprocess.run(\n        [\n            \"soffice\",\n            \"--headless\",\n            \"--convert-to\",\n            \"pdf\",\n            \"--outdir\",\n            str(temp_dir),\n            st",
+      "explanation": "subprocess module calls execute external commands. Without careful input validation, this enables command injection.",
+      "remediation": "Use subprocess.run() with shell=False and an explicit argument list. Validate all inputs and avoid passing user-controlled data to commands.",
+      "code_snippet": "\n    # Convert to PDF\n    print(\"Converting to PDF...\")\n    result = subprocess.run(\n        [\n            \"soffice\",\n            \"--headless\",",
+      "intent": null
+    },
+    {
+      "id": "AST4",
+      "category": "Dangerous Code Execution",
+      "pattern": "subprocess module call",
+      "severity": "MEDIUM",
+      "confidence": 0.7,
+      "location": {
+        "file": "pptx/scripts/thumbnail.py",
+        "start_line": 237,
+        "end_line": 241
+      },
+      "finding": "    result = subprocess.run(\n        [\"pdftoppm\", \"-jpeg\", \"-r\", str(dpi), str(pdf_path), str(temp_dir / \"slide\")],\n        capture_output=True,\n        text=True,\n    )",
+      "explanation": "subprocess module calls execute external commands. Without careful input validation, this enables command injection.",
+      "remediation": "Use subprocess.run() with shell=False and an explicit argument list. Validate all inputs and avoid passing user-controlled data to commands.",
+      "code_snippet": "\n    # Convert PDF to images\n    print(f\"Converting to images at {dpi} DPI...\")\n    result = subprocess.run(\n        [\"pdftoppm\", \"-jpeg\", \"-r\", str(dpi), str(pdf_path), str(temp_dir / \"slide\")],\n        capture_output=True,\n        text=True,",
+      "intent": null
+    },
+    {
+      "id": "AST4",
+      "category": "Dangerous Code Execution",
+      "pattern": "subprocess module call",
+      "severity": "MEDIUM",
+      "confidence": 0.7,
+      "location": {
+        "file": "xlsx/scripts/recalc.py",
+        "start_line": 92,
+        "end_line": 92
+      },
+      "finding": "    result = subprocess.run(cmd, capture_output=True, text=True)",
+      "explanation": "subprocess module calls execute external commands. Without careful input validation, this enables command injection.",
+      "remediation": "Use subprocess.run() with shell=False and an explicit argument list. Validate all inputs and avoid passing user-controlled data to commands.",
+      "code_snippet": "        if timeout_cmd:\n            cmd = [timeout_cmd, str(timeout)] + cmd\n    \n    result = subprocess.run(cmd, capture_output=True, text=True)\n    \n    if result.returncode != 0 and result.returncode != 124:  # 124 is timeout exit code\n        error_msg = result.stderr or 'Unknown error during recalculation'",
+      "intent": null
+    },
+    {
+      "id": "AST4",
+      "category": "Dangerous Code Execution",
+      "pattern": "subprocess module call",
+      "severity": "MEDIUM",
+      "confidence": 0.7,
+      "location": {
+        "file": "xlsx/scripts/recalc.py",
+        "start_line": 31,
+        "end_line": 32
+      },
+      "finding": "        subprocess.run(['soffice', '--headless', '--terminate_after_init'], \n                      capture_output=True, timeout=10)",
+      "explanation": "subprocess module calls execute external commands. Without careful input validation, this enables command injection.",
+      "remediation": "Use subprocess.run() with shell=False and an explicit argument list. Validate all inputs and avoid passing user-controlled data to commands.",
+      "code_snippet": "                return True\n    \n    if not os.path.exists(macro_dir):\n        subprocess.run(['soffice', '--headless', '--terminate_after_init'], \n                      capture_output=True, timeout=10)\n        os.makedirs(macro_dir, exist_ok=True)\n    ",
+      "intent": null
+    },
+    {
+      "id": "AST4",
+      "category": "Dangerous Code Execution",
+      "pattern": "subprocess module call",
+      "severity": "MEDIUM",
+      "confidence": 0.7,
+      "location": {
+        "file": "xlsx/scripts/recalc.py",
+        "start_line": 84,
+        "end_line": 84
+      },
+      "finding": "                subprocess.run(['gtimeout', '--version'], capture_output=True, timeout=1, check=False)",
+      "explanation": "subprocess module calls execute external commands. Without careful input validation, this enables command injection.",
+      "remediation": "Use subprocess.run() with shell=False and an explicit argument list. Validate all inputs and avoid passing user-controlled data to commands.",
+      "code_snippet": "        if platform.system() == 'Darwin':\n            # Check if gtimeout is available on macOS\n            try:\n                subprocess.run(['gtimeout', '--version'], capture_output=True, timeout=1, check=False)\n                timeout_cmd = 'gtimeout'\n            except (FileNotFoundError, subprocess.TimeoutExpired):\n                pass",
+      "intent": null
+    },
+    {
+      "id": "LP3",
+      "category": "MCP Least Privilege",
+      "pattern": null,
+      "severity": "MEDIUM",
+      "confidence": 0.7,
+      "location": {
+        "file": "SKILL.md",
+        "start_line": 1,
+        "end_line": null
+      },
+      "finding": null,
+      "explanation": "Without declared permissions the skill's intent is opaque and cannot be validated.",
+      "remediation": "Add a 'permissions' field to SKILL.md listing the capabilities this skill requires.",
+      "code_snippet": null,
+      "intent": null
+    },
+    {
+      "id": "OH1",
+      "category": "Output Handling",
+      "pattern": "Unvalidated Output Injection",
+      "severity": "HIGH",
+      "confidence": 0.95,
+      "location": {
+        "file": "xlsx/scripts/recalc.py",
+        "start_line": 31,
+        "end_line": null
+      },
+      "finding": "subprocess.run(['soffice', '--headless', '--terminate_after_init'], \n                      capture_output",
+      "explanation": "Model output is used without validation or sanitization. Unvalidated output injected into downstream contexts (SQL, shell, HTML) enables injection attacks and arbitrary code execution.",
+      "remediation": "Validate and sanitize all model output before using it in downstream contexts. Use parameterized queries for SQL, shell quoting for commands, and HTML encoding for web output.",
+      "code_snippet": "                return True\n    \n    if not os.path.exists(macro_dir):\n        subprocess.run(['soffice', '--headless', '--terminate_after_init'], \n                      capture_output=True, timeout=10)\n        os.makedirs(macro_dir, exist_ok=True)\n    ",
+      "intent": null
+    },
+    {
+      "id": "OH1",
+      "category": "Output Handling",
+      "pattern": "Unvalidated Output Injection",
+      "severity": "HIGH",
+      "confidence": 0.95,
+      "location": {
+        "file": "xlsx/scripts/recalc.py",
+        "start_line": 84,
+        "end_line": null
+      },
+      "finding": "subprocess.run(['gtimeout', '--version'], capture_output",
+      "explanation": "Model output is used without validation or sanitization. Unvalidated output injected into downstream contexts (SQL, shell, HTML) enables injection attacks and arbitrary code execution.",
+      "remediation": "Validate and sanitize all model output before using it in downstream contexts. Use parameterized queries for SQL, shell quoting for commands, and HTML encoding for web output.",
+      "code_snippet": "        if platform.system() == 'Darwin':\n            # Check if gtimeout is available on macOS\n            try:\n                subprocess.run(['gtimeout', '--version'], capture_output=True, timeout=1, check=False)\n                timeout_cmd = 'gtimeout'\n            except (FileNotFoundError, subprocess.TimeoutExpired):\n                pass",
+      "intent": null
+    },
+    {
+      "id": "OH1",
+      "category": "Output Handling",
+      "pattern": "Unvalidated Output Injection",
+      "severity": "HIGH",
+      "confidence": 0.95,
+      "location": {
+        "file": "xlsx/scripts/recalc.py",
+        "start_line": 92,
+        "end_line": null
+      },
+      "finding": "subprocess.run(cmd, capture_output",
+      "explanation": "Model output is used without validation or sanitization. Unvalidated output injected into downstream contexts (SQL, shell, HTML) enables injection attacks and arbitrary code execution.",
+      "remediation": "Validate and sanitize all model output before using it in downstream contexts. Use parameterized queries for SQL, shell quoting for commands, and HTML encoding for web output.",
+      "code_snippet": "        if timeout_cmd:\n            cmd = [timeout_cmd, str(timeout)] + cmd\n    \n    result = subprocess.run(cmd, capture_output=True, text=True)\n    \n    if result.returncode != 0 and result.returncode != 124:  # 124 is timeout exit code\n        error_msg = result.stderr or 'Unknown error during recalculation'",
+      "intent": null
+    },
+    {
+      "id": "PE2",
+      "category": "Privilege Escalation",
+      "pattern": "Sudo/Root Execution",
+      "severity": "MEDIUM",
+      "confidence": 0.7,
+      "location": {
+        "file": "pptx/PPTX.md",
+        "start_line": 875,
+        "end_line": null
+      },
+      "finding": "sudo ",
+      "explanation": "Commands invoke sudo or root privileges. Verify this elevated access is necessary and justified.",
+      "remediation": "Avoid sudo/root unless strictly required. Prefer least-privilege patterns. If elevation is needed, document the justification and scope.",
+      "code_snippet": "- **playwright**: `npm install -g playwright` (for HTML rendering in html2pptx)\n- **react-icons**: `npm install -g react-icons react react-dom` (for icons)\n- **sharp**: `npm install -g sharp` (for SVG rasterization and image processing)\n- **LibreOffice**: `sudo apt-get install libreoffice` (for PDF conversion)\n- **Poppler**: `sudo apt-get install poppler-utils` (for pdftoppm to convert PDF to images)\n- **defusedxml**: `pip install defusedxml` (for secure XML parsing)",
+      "intent": null
+    },
+    {
+      "id": "PE2",
+      "category": "Privilege Escalation",
+      "pattern": "Sudo/Root Execution",
+      "severity": "MEDIUM",
+      "confidence": 0.7,
+      "location": {
+        "file": "pptx/PPTX.md",
+        "start_line": 876,
+        "end_line": null
+      },
+      "finding": "sudo ",
+      "explanation": "Commands invoke sudo or root privileges. Verify this elevated access is necessary and justified.",
+      "remediation": "Avoid sudo/root unless strictly required. Prefer least-privilege patterns. If elevation is needed, document the justification and scope.",
+      "code_snippet": "- **react-icons**: `npm install -g react-icons react react-dom` (for icons)\n- **sharp**: `npm install -g sharp` (for SVG rasterization and image processing)\n- **LibreOffice**: `sudo apt-get install libreoffice` (for PDF conversion)\n- **Poppler**: `sudo apt-get install poppler-utils` (for pdftoppm to convert PDF to images)\n- **defusedxml**: `pip install defusedxml` (for secure XML parsing)",
+      "intent": null
+    },
+    {
+      "id": "P2",
+      "category": "Prompt Injection",
+      "pattern": "Hidden Instructions",
+      "severity": "HIGH",
+      "confidence": 0.7,
+      "location": {
+        "file": "docx/ooxml.md",
+        "start_line": 49,
+        "end_line": null
+      },
+      "finding": "<!-- Bold -->\n<w:r><w:rPr><w:b/><w:bCs/></w:rPr><w:t>Bold</w:t></w:r>\n<!-- Italic -->\n<w:r><w:rPr><w:i/><w:iCs/></w:rPr><w:t>Italic</w:t></w:r>\n<!-- Underline -->\n<w:r><w:rPr><w:u w:val=\"single\"/></w:",
+      "explanation": "Hidden instructions were detected in comments or invisible text. These could contain malicious directives. Manual review is recommended.",
+      "remediation": "Audit all comments and invisible characters. Remove any instructions that direct the agent to perform unauthorized actions. Use plain, reviewable content.",
+      "code_snippet": "\n### Text Formatting\n```xml\n<!-- Bold -->\n<w:r><w:rPr><w:b/><w:bCs/></w:rPr><w:t>Bold</w:t></w:r>\n<!-- Italic -->\n<w:r><w:rPr><w:i/><w:iCs/></w:rPr><w:t>Italic</w:t></w:r>",
+      "intent": null
+    },
+    {
+      "id": "P2",
+      "category": "Prompt Injection",
+      "pattern": "Hidden Instructions",
+      "severity": "HIGH",
+      "confidence": 0.7,
+      "location": {
+        "file": "docx/ooxml.md",
+        "start_line": 196,
+        "end_line": null
+      },
+      "finding": "<!-- Add for stretch fill with aspect ratio preservation -->\n                <a:stretch>\n                  <a:fillRect/>\n                </a:stretch>\n              </pic:blipFill>\n              <pic:s",
+      "explanation": "Hidden instructions were detected in comments or invisible text. These could contain malicious directives. Manual review is recommended.",
+      "remediation": "Audit all comments and invisible characters. Remove any instructions that direct the agent to perform unauthorized actions. Use plain, reviewable content.",
+      "code_snippet": "              </pic:nvPicPr>\n              <pic:blipFill>\n                <a:blip r:embed=\"rId5\"/>\n                <!-- Add for stretch fill with aspect ratio preservation -->\n                <a:stretch>\n                  <a:fillRect/>\n                </a:stretch>",
+      "intent": null
+    },
+    {
+      "id": "P2",
+      "category": "Prompt Injection",
+      "pattern": "Hidden Instructions",
+      "severity": "HIGH",
+      "confidence": 0.7,
+      "location": {
+        "file": "docx/ooxml.md",
+        "start_line": 246,
+        "end_line": null
+      },
+      "finding": "<!-- Bookmark target -->",
+      "explanation": "Hidden instructions were detected in comments or invisible text. These could contain malicious directives. Manual review is recommended.",
+      "remediation": "Audit all comments and invisible characters. Remove any instructions that direct the agent to perform unauthorized actions. Use plain, reviewable content.",
+      "code_snippet": "  </w:r>\n</w:hyperlink>\n\n<!-- Bookmark target -->\n<w:bookmarkStart w:id=\"0\" w:name=\"myBookmark\"/>\n<w:r><w:t>Target content</w:t></w:r>\n<w:bookmarkEnd w:id=\"0\"/>",
+      "intent": null
+    },
+    {
+      "id": "P2",
+      "category": "Prompt Injection",
+      "pattern": "Hidden Instructions",
+      "severity": "HIGH",
+      "confidence": 0.6,
+      "location": {
+        "file": "docx/ooxml/schemas/ecma/fouth-edition/opc-contentTypes.xsd",
+        "start_line": 1,
+        "end_line": null
+      },
+      "finding": "\ufeff",
+      "explanation": "Hidden instructions were detected in comments or invisible text. These could contain malicious directives. Manual review is recommended.",
+      "remediation": "Audit all comments and invisible characters. Remove any instructions that direct the agent to perform unauthorized actions. Use plain, reviewable content.",
+      "code_snippet": "\ufeff<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?>\n<xs:schema xmlns=\"http://schemas.openxmlformats.org/package/2006/content-types\"\n  xmlns:xs=\"http://www.w3.org/2001/XMLSchema\"\n  targetNamespace=\"http://schemas.openxmlformats.org/package/2006/content-types\"",
+      "intent": null
+    },
+    {
+      "id": "P2",
+      "category": "Prompt Injection",
+      "pattern": "Hidden Instructions",
+      "severity": "HIGH",
+      "confidence": 0.6,
+      "location": {
+        "file": "docx/ooxml/schemas/ecma/fouth-edition/opc-coreProperties.xsd",
+        "start_line": 1,
+        "end_line": null
+      },
+      "finding": "\ufeff",
+      "explanation": "Hidden instructions were detected in comments or invisible text. These could contain malicious directives. Manual review is recommended.",
+      "remediation": "Audit all comments and invisible characters. Remove any instructions that direct the agent to perform unauthorized actions. Use plain, reviewable content.",
+      "code_snippet": "\ufeff<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<xs:schema targetNamespace=\"http://schemas.openxmlformats.org/package/2006/metadata/core-properties\"\n  xmlns=\"http://schemas.openxmlformats.org/package/2006/metadata/core-properties\"\n  xmlns:xs=\"http://www.w3.org/2001/XMLSchema\" xmlns:dc=\"http://purl.org/dc/elements/1.1/\"",
+      "intent": null
+    },
+    {
+      "id": "P2",
+      "category": "Prompt Injection",
+      "pattern": "Hidden Instructions",
+      "severity": "HIGH",
+      "confidence": 0.6,
+      "location": {
+        "file": "docx/ooxml/schemas/ecma/fouth-edition/opc-relationships.xsd",
+        "start_line": 1,
+        "end_line": null
+      },
+      "finding": "\ufeff",
+      "explanation": "Hidden instructions were detected in comments or invisible text. These could contain malicious directives. Manual review is recommended.",
+      "remediation": "Audit all comments and invisible characters. Remove any instructions that direct the agent to perform unauthorized actions. Use plain, reviewable content.",
+      "code_snippet": "\ufeff<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?>\n<xsd:schema xmlns=\"http://schemas.openxmlformats.org/package/2006/relationships\"\n  xmlns:xsd=\"http://www.w3.org/2001/XMLSchema\"\n  targetNamespace=\"http://schemas.openxmlformats.org/package/2006/relationships\"",
+      "intent": null
+    },
+    {
+      "id": "P2",
+      "category": "Prompt Injection",
+      "pattern": "Hidden Instructions",
+      "severity": "HIGH",
+      "confidence": 0.7,
+      "location": {
+        "file": "pptx/advanced-techniques.md",
+        "start_line": 175,
+        "end_line": null
+      },
+      "finding": "<!-- Card with 80% white background -->\n<div style=\"background: rgba(255, 255, 255, 0.8); padding: 20pt;\">\n  <p>Content here</p>\n</div>\n\n<!-- Dark overlay for contrast -->\n<div style=\"background: rgba",
+      "explanation": "Hidden instructions were detected in comments or invisible text. These could contain malicious directives. Manual review is recommended.",
+      "remediation": "Audit all comments and invisible characters. Remove any instructions that direct the agent to perform unauthorized actions. Use plain, reviewable content.",
+      "code_snippet": "Create depth with transparent shapes:\n\n```html\n<!-- Card with 80% white background -->\n<div style=\"background: rgba(255, 255, 255, 0.8); padding: 20pt;\">\n  <p>Content here</p>\n</div>",
+      "intent": null
+    },
+    {
+      "id": "P2",
+      "category": "Prompt Injection",
+      "pattern": "Hidden Instructions",
+      "severity": "HIGH",
+      "confidence": 0.7,
+      "location": {
+        "file": "pptx/ooxml.md",
+        "start_line": 19,
+        "end_line": null
+      },
+      "finding": "<!-- ppt/slides/slide1.xml -->\n<p:sld>\n  <p:cSld>\n    <p:spTree>\n      <p:nvGrpSpPr>...</p:nvGrpSpPr>\n      <p:grpSpPr>...</p:grpSpPr>\n      <!-- Shapes go here -->\n    </p:spTree>\n  </p:cSld>\n</p:sld",
+      "explanation": "Hidden instructions were detected in comments or invisible text. These could contain malicious directives. Manual review is recommended.",
+      "remediation": "Audit all comments and invisible characters. Remove any instructions that direct the agent to perform unauthorized actions. Use plain, reviewable content.",
+      "code_snippet": "\n### Basic Slide Structure\n```xml\n<!-- ppt/slides/slide1.xml -->\n<p:sld>\n  <p:cSld>\n    <p:spTree>",
+      "intent": null
+    },
+    {
+      "id": "P4",
+      "category": "Prompt Injection",
+      "pattern": "Behavior Manipulation",
+      "severity": "MEDIUM",
+      "confidence": 0.7,
+      "location": {
+        "file": "xlsx/XLSX.md",
+        "start_line": 1064,
+        "end_line": null
+      },
+      "finding": "Always use Excel formulas instead of",
+      "explanation": "Subtle instructions detected that may alter agent decision-making or introduce hidden biases.",
+      "remediation": "Review content for implicit steering or bias. Ensure instructions are explicit and align with the skill's stated purpose.",
+      "code_snippet": "\n## CRITICAL: Use Formulas, Not Hardcoded Values\n\n**Always use Excel formulas instead of calculating values in Python.**\n\n### WRONG - Hardcoding\n```python",
+      "intent": null
+    },
+    {
+      "id": "RA2",
+      "category": "Rogue Agent",
+      "pattern": "Session Persistence",
+      "severity": "MEDIUM",
+      "confidence": 0.75,
+      "location": {
+        "file": "docx/ooxml/schemas/ISO-IEC29500-4_2016/dml-main.xsd",
+        "start_line": 1455,
+        "end_line": null
+      },
+      "finding": "pList",
+      "explanation": "Skill establishes unauthorized persistence across sessions via cron jobs, startup scripts, or state files. Session persistence allows an attacker to maintain access beyond the current interaction.",
+      "remediation": "Remove any persistence mechanisms (cron jobs, startup scripts, state files). Skills should not maintain state across sessions without explicit user consent.",
+      "code_snippet": "    </xsd:sequence>\n    <xsd:attribute name=\"pos\" type=\"ST_PositiveFixedPercentage\" use=\"required\"/>\n  </xsd:complexType>\n  <xsd:complexType name=\"CT_GradientStopList\">\n    <xsd:sequence>\n      <xsd:element name=\"gs\" type=\"CT_GradientStop\" minOccurs=\"2\" maxOccurs=\"unbounded\"/>\n    </xsd:sequence>",
+      "intent": null
+    },
+    {
+      "id": "RA2",
+      "category": "Rogue Agent",
+      "pattern": "Session Persistence",
+      "severity": "MEDIUM",
+      "confidence": 0.75,
+      "location": {
+        "file": "docx/ooxml/schemas/ISO-IEC29500-4_2016/dml-main.xsd",
+        "start_line": 1462,
+        "end_line": null
+      },
+      "finding": "pList",
+      "explanation": "Skill establishes unauthorized persistence across sessions via cron jobs, startup scripts, or state files. Session persistence allows an attacker to maintain access beyond the current interaction.",
+      "remediation": "Remove any persistence mechanisms (cron jobs, startup scripts, state files). Skills should not maintain state across sessions without explicit user consent.",
+      "code_snippet": "  </xsd:complexType>\n  <xsd:complexType name=\"CT_GradientFillProperties\">\n    <xsd:sequence>\n      <xsd:element name=\"gsLst\" type=\"CT_GradientStopList\" minOccurs=\"0\" maxOccurs=\"1\"/>\n      <xsd:group ref=\"EG_ShadeProperties\" minOccurs=\"0\" maxOccurs=\"1\"/>\n      <xsd:element name=\"tileRect\" type=\"CT_RelativeRect\" minOccurs=\"0\" maxOccurs=\"1\"/>\n    </xsd:sequence>",
+      "intent": null
+    },
+    {
+      "id": "RA2",
+      "category": "Rogue Agent",
+      "pattern": "Session Persistence",
+      "severity": "MEDIUM",
+      "confidence": 0.75,
+      "location": {
+        "file": "docx/ooxml/schemas/ISO-IEC29500-4_2016/dml-main.xsd",
+        "start_line": 2189,
+        "end_line": null
+      },
+      "finding": "pList",
+      "explanation": "Skill establishes unauthorized persistence across sessions via cron jobs, startup scripts, or state files. Session persistence allows an attacker to maintain access beyond the current interaction.",
+      "remediation": "Remove any persistence mechanisms (cron jobs, startup scripts, state files). Skills should not maintain state across sessions without explicit user consent.",
+      "code_snippet": "    <xsd:attribute name=\"d\" type=\"ST_PositivePercentage\" use=\"required\"/>\n    <xsd:attribute name=\"sp\" type=\"ST_PositivePercentage\" use=\"required\"/>\n  </xsd:complexType>\n  <xsd:complexType name=\"CT_DashStopList\">\n    <xsd:sequence>\n      <xsd:element name=\"ds\" type=\"CT_DashStop\" minOccurs=\"0\" maxOccurs=\"unbounded\"/>\n    </xsd:sequence>",
+      "intent": null
+    },
+    {
+      "id": "RA2",
+      "category": "Rogue Agent",
+      "pattern": "Session Persistence",
+      "severity": "MEDIUM",
+      "confidence": 0.75,
+      "location": {
+        "file": "docx/ooxml/schemas/ISO-IEC29500-4_2016/dml-main.xsd",
+        "start_line": 2197,
+        "end_line": null
+      },
+      "finding": "pList",
+      "explanation": "Skill establishes unauthorized persistence across sessions via cron jobs, startup scripts, or state files. Session persistence allows an attacker to maintain access beyond the current interaction.",
+      "remediation": "Remove any persistence mechanisms (cron jobs, startup scripts, state files). Skills should not maintain state across sessions without explicit user consent.",
+      "code_snippet": "  <xsd:group name=\"EG_LineDashProperties\">\n    <xsd:choice>\n      <xsd:element name=\"prstDash\" type=\"CT_PresetLineDashProperties\" minOccurs=\"1\" maxOccurs=\"1\"/>\n      <xsd:element name=\"custDash\" type=\"CT_DashStopList\" minOccurs=\"1\" maxOccurs=\"1\"/>\n    </xsd:choice>\n  </xsd:group>\n  <xsd:simpleType name=\"ST_LineCap\">",
+      "intent": null
+    },
+    {
+      "id": "RA2",
+      "category": "Rogue Agent",
+      "pattern": "Session Persistence",
+      "severity": "MEDIUM",
+      "confidence": 0.75,
+      "location": {
+        "file": "docx/ooxml/schemas/ISO-IEC29500-4_2016/dml-main.xsd",
+        "start_line": 2992,
+        "end_line": null
+      },
+      "finding": "pList",
+      "explanation": "Skill establishes unauthorized persistence across sessions via cron jobs, startup scripts, or state files. Session persistence allows an attacker to maintain access beyond the current interaction.",
+      "remediation": "Remove any persistence mechanisms (cron jobs, startup scripts, state files). Skills should not maintain state across sessions without explicit user consent.",
+      "code_snippet": "    <xsd:attribute name=\"pos\" type=\"ST_Coordinate32\" use=\"optional\"/>\n    <xsd:attribute name=\"algn\" type=\"ST_TextTabAlignType\" use=\"optional\"/>\n  </xsd:complexType>\n  <xsd:complexType name=\"CT_TextTabStopList\">\n    <xsd:sequence>\n      <xsd:element name=\"tab\" type=\"CT_TextTabStop\" minOccurs=\"0\" maxOccurs=\"32\"/>\n    </xsd:sequence>",
+      "intent": null
+    },
+    {
+      "id": "RA2",
+      "category": "Rogue Agent",
+      "pattern": "Session Persistence",
+      "severity": "MEDIUM",
+      "confidence": 0.75,
+      "location": {
+        "file": "docx/ooxml/schemas/ISO-IEC29500-4_2016/dml-main.xsd",
+        "start_line": 3043,
+        "end_line": null
+      },
+      "finding": "pList",
+      "explanation": "Skill establishes unauthorized persistence across sessions via cron jobs, startup scripts, or state files. Session persistence allows an attacker to maintain access beyond the current interaction.",
+      "remediation": "Remove any persistence mechanisms (cron jobs, startup scripts, state files). Skills should not maintain state across sessions without explicit user consent.",
+      "code_snippet": "      <xsd:group ref=\"EG_TextBulletSize\" minOccurs=\"0\" maxOccurs=\"1\"/>\n      <xsd:group ref=\"EG_TextBulletTypeface\" minOccurs=\"0\" maxOccurs=\"1\"/>\n      <xsd:group ref=\"EG_TextBullet\" minOccurs=\"0\" maxOccurs=\"1\"/>\n      <xsd:element name=\"tabLst\" type=\"CT_TextTabStopList\" minOccurs=\"0\" maxOccurs=\"1\"/>\n      <xsd:element name=\"defRPr\" type=\"CT_TextCharacterProperties\" minOccurs=\"0\" maxOccurs=\"1\"/>\n      <xsd:element name=\"extLst\" type=\"CT_OfficeArtExtensionList\" minOccurs=\"0\" maxOccurs=\"1\"/>\n    </xsd:sequence>",
+      "intent": null
+    },
+    {
+      "id": "RA2",
+      "category": "Rogue Agent",
+      "pattern": "Session Persistence",
+      "severity": "MEDIUM",
+      "confidence": 0.75,
+      "location": {
+        "file": "docx/ooxml/schemas/ISO-IEC29500-4_2016/pml.xsd",
+        "start_line": 730,
+        "end_line": null
+      },
+      "finding": "pList",
+      "explanation": "Skill establishes unauthorized persistence across sessions via cron jobs, startup scripts, or state files. Session persistence allows an attacker to maintain access beyond the current interaction.",
+      "remediation": "Remove any persistence mechanisms (cron jobs, startup scripts, state files). Skills should not maintain state across sessions without explicit user consent.",
+      "code_snippet": "    <xsd:attribute name=\"st\" type=\"ST_Index\" use=\"required\"/>\n    <xsd:attribute name=\"end\" type=\"ST_Index\" use=\"required\"/>\n  </xsd:complexType>\n  <xsd:complexType name=\"CT_SlideRelationshipListEntry\">\n    <xsd:attribute ref=\"r:id\" use=\"required\"/>\n  </xsd:complexType>\n  <xsd:complexType name=\"CT_SlideRelationshipList\">",
+      "intent": null
+    },
+    {
+      "id": "RA2",
+      "category": "Rogue Agent",
+      "pattern": "Session Persistence",
+      "severity": "MEDIUM",
+      "confidence": 0.75,
+      "location": {
+        "file": "docx/ooxml/schemas/ISO-IEC29500-4_2016/pml.xsd",
+        "start_line": 733,
+        "end_line": null
+      },
+      "finding": "pList",
+      "explanation": "Skill establishes unauthorized persistence across sessions via cron jobs, startup scripts, or state files. Session persistence allows an attacker to maintain access beyond the current interaction.",
+      "remediation": "Remove any persistence mechanisms (cron jobs, startup scripts, state files). Skills should not maintain state across sessions without explicit user consent.",
+      "code_snippet": "  <xsd:complexType name=\"CT_SlideRelationshipListEntry\">\n    <xsd:attribute ref=\"r:id\" use=\"required\"/>\n  </xsd:complexType>\n  <xsd:complexType name=\"CT_SlideRelationshipList\">\n    <xsd:sequence>\n      <xsd:element name=\"sld\" type=\"CT_SlideRelationshipListEntry\" minOccurs=\"0\"\n        maxOccurs=\"unbounded\"/>",
+      "intent": null
+    },
+    {
+      "id": "RA2",
+      "category": "Rogue Agent",
+      "pattern": "Session Persistence",
+      "severity": "MEDIUM",
+      "confidence": 0.75,
+      "location": {
+        "file": "docx/ooxml/schemas/ISO-IEC29500-4_2016/pml.xsd",
+        "start_line": 735,
+        "end_line": null
+      },
+      "finding": "pList",
+      "explanation": "Skill establishes unauthorized persistence across sessions via cron jobs, startup scripts, or state files. Session persistence allows an attacker to maintain access beyond the current interaction.",
+      "remediation": "Remove any persistence mechanisms (cron jobs, startup scripts, state files). Skills should not maintain state across sessions without explicit user consent.",
+      "code_snippet": "  </xsd:complexType>\n  <xsd:complexType name=\"CT_SlideRelationshipList\">\n    <xsd:sequence>\n      <xsd:element name=\"sld\" type=\"CT_SlideRelationshipListEntry\" minOccurs=\"0\"\n        maxOccurs=\"unbounded\"/>\n    </xsd:sequence>\n  </xsd:complexType>",
+      "intent": null
+    },
+    {
+      "id": "RA2",
+      "category": "Rogue Agent",
+      "pattern": "Session Persistence",
+      "severity": "MEDIUM",
+      "confidence": 0.75,
+      "location": {
+        "file": "docx/ooxml/schemas/ISO-IEC29500-4_2016/pml.xsd",
+        "start_line": 950,
+        "end_line": null
+      },
+      "finding": "pList",
+      "explanation": "Skill establishes unauthorized persistence across sessions via cron jobs, startup scripts, or state files. Session persistence allows an attacker to maintain access beyond the current interaction.",
+      "remediation": "Remove any persistence mechanisms (cron jobs, startup scripts, state files). Skills should not maintain state across sessions without explicit user consent.",
+      "code_snippet": "  </xsd:complexType>\n  <xsd:complexType name=\"CT_CustomShow\">\n    <xsd:sequence>\n      <xsd:element name=\"sldLst\" type=\"CT_SlideRelationshipList\" minOccurs=\"1\" maxOccurs=\"1\"/>\n      <xsd:element name=\"extLst\" type=\"CT_ExtensionList\" minOccurs=\"0\" maxOccurs=\"1\"/>\n    </xsd:sequence>\n    <xsd:attribute name=\"name\" type=\"ST_Name\" use=\"required\"/>",
+      "intent": null
+    },
+    {
+      "id": "RA2",
+      "category": "Rogue Agent",
+      "pattern": "Session Persistence",
+      "severity": "MEDIUM",
+      "confidence": 0.75,
+      "location": {
+        "file": "docx/ooxml/schemas/microsoft/wml-2010.xsd",
+        "start_line": 181,
+        "end_line": null
+      },
+      "finding": "pList",
+      "explanation": "Skill establishes unauthorized persistence across sessions via cron jobs, startup scripts, or state files. Session persistence allows an attacker to maintain access beyond the current interaction.",
+      "remediation": "Remove any persistence mechanisms (cron jobs, startup scripts, state files). Skills should not maintain state across sessions without explicit user consent.",
+      "code_snippet": "     </xsd:sequence>\n     <xsd:attribute name=\"pos\" type=\"a:ST_PositiveFixedPercentage\" use=\"required\"/>\n   </xsd:complexType>\n   <xsd:complexType name=\"CT_GradientStopList\">\n     <xsd:sequence>\n       <xsd:element name=\"gs\" type=\"CT_GradientStop\" minOccurs=\"2\" maxOccurs=\"10\"/>\n     </xsd:sequence>",
+      "intent": null
+    },
+    {
+      "id": "RA2",
+      "category": "Rogue Agent",
+      "pattern": "Session Persistence",
+      "severity": "MEDIUM",
+      "confidence": 0.75,
+      "location": {
+        "file": "docx/ooxml/schemas/microsoft/wml-2010.xsd",
+        "start_line": 209,
+        "end_line": null
+      },
+      "finding": "pList",
+      "explanation": "Skill establishes unauthorized persistence across sessions via cron jobs, startup scripts, or state files. Session persistence allows an attacker to maintain access beyond the current interaction.",
+      "remediation": "Remove any persistence mechanisms (cron jobs, startup scripts, state files). Skills should not maintain state across sessions without explicit user consent.",
+      "code_snippet": "   </xsd:complexType>\n   <xsd:complexType name=\"CT_GradientFillProperties\">\n     <xsd:sequence>\n       <xsd:element name=\"gsLst\" type=\"CT_GradientStopList\" minOccurs=\"0\"/>\n       <xsd:group ref=\"EG_ShadeProperties\" minOccurs=\"0\"/>\n     </xsd:sequence>\n   </xsd:complexType>",
+      "intent": null
+    },
+    {
+      "id": "SC1",
+      "category": "Supply Chain",
+      "pattern": "Unpinned Dependencies",
+      "severity": "LOW",
+      "confidence": 0.4,
+      "location": {
+        "file": "pptx/package.json",
+        "start_line": 3,
+        "end_line": null
+      },
+      "finding": "\"playwright\": \"^1.57.0\"",
+      "explanation": "Dependencies lack version pinning, allowing potential malicious package updates. Consider pinning versions.",
+      "remediation": "Pin all dependency versions in requirements.txt or pyproject.toml. Use exact versions (==) or compatible ranges. Run pip-audit regularly.",
+      "code_snippet": "{\n  \"dependencies\": {\n    \"playwright\": \"^1.57.0\",\n    \"pptxgenjs\": \"^4.0.1\",\n    \"sharp\": \"^0.34.5\"\n  }",
+      "intent": null
+    },
+    {
+      "id": "SC1",
+      "category": "Supply Chain",
+      "pattern": "Unpinned Dependencies",
+      "severity": "LOW",
+      "confidence": 0.4,
+      "location": {
+        "file": "pptx/package.json",
+        "start_line": 4,
+        "end_line": null
+      },
+      "finding": "\"pptxgenjs\": \"^4.0.1\"",
+      "explanation": "Dependencies lack version pinning, allowing potential malicious package updates. Consider pinning versions.",
+      "remediation": "Pin all dependency versions in requirements.txt or pyproject.toml. Use exact versions (==) or compatible ranges. Run pip-audit regularly.",
+      "code_snippet": "{\n  \"dependencies\": {\n    \"playwright\": \"^1.57.0\",\n    \"pptxgenjs\": \"^4.0.1\",\n    \"sharp\": \"^0.34.5\"\n  }\n}",
+      "intent": null
+    },
+    {
+      "id": "SC1",
+      "category": "Supply Chain",
+      "pattern": "Unpinned Dependencies",
+      "severity": "LOW",
+      "confidence": 0.4,
+      "location": {
+        "file": "pptx/package.json",
+        "start_line": 5,
+        "end_line": null
+      },
+      "finding": "\"sharp\": \"^0.34.5\"",
+      "explanation": "Dependencies lack version pinning, allowing potential malicious package updates. Consider pinning versions.",
+      "remediation": "Pin all dependency versions in requirements.txt or pyproject.toml. Use exact versions (==) or compatible ranges. Run pip-audit regularly.",
+      "code_snippet": "  \"dependencies\": {\n    \"playwright\": \"^1.57.0\",\n    \"pptxgenjs\": \"^4.0.1\",\n    \"sharp\": \"^0.34.5\"\n  }\n}",
+      "intent": null
+    },
+    {
+      "id": "SC1",
+      "category": "Supply Chain",
+      "pattern": "Unpinned Dependencies",
+      "severity": "LOW",
+      "confidence": 0.4,
+      "location": {
+        "file": "pptx/scripts/package.json",
+        "start_line": 3,
+        "end_line": null
+      },
+      "finding": "\"pdf-lib\": \"^1.17.1\"",
+      "explanation": "Dependencies lack version pinning, allowing potential malicious package updates. Consider pinning versions.",
+      "remediation": "Pin all dependency versions in requirements.txt or pyproject.toml. Use exact versions (==) or compatible ranges. Run pip-audit regularly.",
+      "code_snippet": "{\n  \"dependencies\": {\n    \"pdf-lib\": \"^1.17.1\",\n    \"playwright\": \"^1.57.0\",\n    \"pptxgenjs\": \"^4.0.1\",\n    \"sharp\": \"^0.34.5\"",
+      "intent": null
+    },
+    {
+      "id": "SC1",
+      "category": "Supply Chain",
+      "pattern": "Unpinned Dependencies",
+      "severity": "LOW",
+      "confidence": 0.4,
+      "location": {
+        "file": "pptx/scripts/package.json",
+        "start_line": 4,
+        "end_line": null
+      },
+      "finding": "\"playwright\": \"^1.57.0\"",
+      "explanation": "Dependencies lack version pinning, allowing potential malicious package updates. Consider pinning versions.",
+      "remediation": "Pin all dependency versions in requirements.txt or pyproject.toml. Use exact versions (==) or compatible ranges. Run pip-audit regularly.",
+      "code_snippet": "{\n  \"dependencies\": {\n    \"pdf-lib\": \"^1.17.1\",\n    \"playwright\": \"^1.57.0\",\n    \"pptxgenjs\": \"^4.0.1\",\n    \"sharp\": \"^0.34.5\"\n  }",
+      "intent": null
+    },
+    {
+      "id": "SC1",
+      "category": "Supply Chain",
+      "pattern": "Unpinned Dependencies",
+      "severity": "LOW",
+      "confidence": 0.4,
+      "location": {
+        "file": "pptx/scripts/package.json",
+        "start_line": 5,
+        "end_line": null
+      },
+      "finding": "\"pptxgenjs\": \"^4.0.1\"",
+      "explanation": "Dependencies lack version pinning, allowing potential malicious package updates. Consider pinning versions.",
+      "remediation": "Pin all dependency versions in requirements.txt or pyproject.toml. Use exact versions (==) or compatible ranges. Run pip-audit regularly.",
+      "code_snippet": "  \"dependencies\": {\n    \"pdf-lib\": \"^1.17.1\",\n    \"playwright\": \"^1.57.0\",\n    \"pptxgenjs\": \"^4.0.1\",\n    \"sharp\": \"^0.34.5\"\n  }\n}",
+      "intent": null
+    },
+    {
+      "id": "SC1",
+      "category": "Supply Chain",
+      "pattern": "Unpinned Dependencies",
+      "severity": "LOW",
+      "confidence": 0.4,
+      "location": {
+        "file": "pptx/scripts/package.json",
+        "start_line": 6,
+        "end_line": null
+      },
+      "finding": "\"sharp\": \"^0.34.5\"",
+      "explanation": "Dependencies lack version pinning, allowing potential malicious package updates. Consider pinning versions.",
+      "remediation": "Pin all dependency versions in requirements.txt or pyproject.toml. Use exact versions (==) or compatible ranges. Run pip-audit regularly.",
+      "code_snippet": "    \"pdf-lib\": \"^1.17.1\",\n    \"playwright\": \"^1.57.0\",\n    \"pptxgenjs\": \"^4.0.1\",\n    \"sharp\": \"^0.34.5\"\n  }\n}",
+      "intent": null
+    },
+    {
+      "id": "TM1",
+      "category": "Tool Misuse",
+      "pattern": "Tool Parameter Abuse",
+      "severity": "HIGH",
+      "confidence": 0.85,
+      "location": {
+        "file": "docx/ooxml/schemas/ISO-IEC29500-4_2016/dml-diagram.xsd",
+        "start_line": 658,
+        "end_line": null
+      },
+      "finding": "rMarg\"/",
+      "explanation": "Tool parameters are crafted to achieve unintended or unsafe behavior. Parameter abuse can bypass intended safety checks (e.g. shell=True, --force, dangerous glob patterns).",
+      "remediation": "Validate all tool parameters against an allowlist. Reject dangerous parameter values (shell=True, --force, -rf /) and use safe defaults.",
+      "code_snippet": "      <xsd:enumeration value=\"lMarg\"/>\n      <xsd:enumeration value=\"lOff\"/>\n      <xsd:enumeration value=\"r\"/>\n      <xsd:enumeration value=\"rMarg\"/>\n      <xsd:enumeration value=\"rOff\"/>\n      <xsd:enumeration value=\"primFontSz\"/>\n      <xsd:enumeration value=\"pyraAcctRatio\"/>",
+      "intent": null
+    },
+    {
+      "id": "TM1",
+      "category": "Tool Misuse",
+      "pattern": "Tool Parameter Abuse",
+      "severity": "HIGH",
+      "confidence": 0.85,
+      "location": {
+        "file": "docx/ooxml/schemas/ISO-IEC29500-4_2016/shared-math.xsd",
+        "start_line": 554,
+        "end_line": null
+      },
+      "finding": "rMargin\" type=\"CT_TwipsMeasure\" minOccurs=\"0\"/",
+      "explanation": "Tool parameters are crafted to achieve unintended or unsafe behavior. Parameter abuse can bypass intended safety checks (e.g. shell=True, --force, dangerous glob patterns).",
+      "remediation": "Validate all tool parameters against an allowlist. Reject dangerous parameter values (shell=True, --force, -rf /) and use safe defaults.",
+      "code_snippet": "      <xsd:element name=\"smallFrac\" type=\"CT_OnOff\" minOccurs=\"0\"/>\n      <xsd:element name=\"dispDef\" type=\"CT_OnOff\" minOccurs=\"0\"/>\n      <xsd:element name=\"lMargin\" type=\"CT_TwipsMeasure\" minOccurs=\"0\"/>\n      <xsd:element name=\"rMargin\" type=\"CT_TwipsMeasure\" minOccurs=\"0\"/>\n      <xsd:element name=\"defJc\" type=\"CT_OMathJc\" minOccurs=\"0\"/>\n      <xsd:element name=\"preSp\" type=\"CT_TwipsMeasure\" minOccurs=\"0\"/>\n      <xsd:element name=\"postSp\" type=\"CT_TwipsMeasure\" minOccurs=\"0\"/>",
+      "intent": null
+    },
+    {
+      "id": "TM1",
+      "category": "Tool Misuse",
+      "pattern": "Tool Parameter Abuse",
+      "severity": "HIGH",
+      "confidence": 0.85,
+      "location": {
+        "file": "docx/ooxml/schemas/ISO-IEC29500-4_2016/sml.xsd",
+        "start_line": 1880,
+        "end_line": null
+      },
+      "finding": "rm\" type=\"CT_RevisionMove\" minOccurs=\"0\" maxOccurs=\"unbounded\"/",
+      "explanation": "Tool parameters are crafted to achieve unintended or unsafe behavior. Parameter abuse can bypass intended safety checks (e.g. shell=True, --force, dangerous glob patterns).",
+      "remediation": "Validate all tool parameters against an allowlist. Reject dangerous parameter values (shell=True, --force, -rf /) and use safe defaults.",
+      "code_snippet": "  <xsd:complexType name=\"CT_Revisions\">\n    <xsd:choice maxOccurs=\"unbounded\">\n      <xsd:element name=\"rrc\" type=\"CT_RevisionRowColumn\" minOccurs=\"0\" maxOccurs=\"unbounded\"/>\n      <xsd:element name=\"rm\" type=\"CT_RevisionMove\" minOccurs=\"0\" maxOccurs=\"unbounded\"/>\n      <xsd:element name=\"rcv\" type=\"CT_RevisionCustomView\" minOccurs=\"0\" maxOccurs=\"unbounded\"/>\n      <xsd:element name=\"rsnm\" type=\"CT_RevisionSheetRename\" minOccurs=\"0\" maxOccurs=\"unbounded\"/>\n      <xsd:element name=\"ris\" type=\"CT_RevisionInsertSheet\" minOccurs=\"0\" maxOccurs=\"unbounded\"/>",
+      "intent": null
+    }
+  ],
+  "metadata": {
+    "has_executable_scripts": true,
+    "skillspector_version": "2.1.4",
+    "llm_requested": false,
+    "llm_available": false
+  }
+}

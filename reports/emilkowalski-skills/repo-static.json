@@ -1,0 +1,81 @@
+{
+  "skill": {
+    "name": "unknown",
+    "source": "/private/tmp/emilkowalski-skills-review/repo",
+    "scanned_at": "2026-07-03T00:31:21.415126+00:00"
+  },
+  "risk_assessment": {
+    "score": 5,
+    "severity": "LOW",
+    "recommendation": "SAFE"
+  },
+  "components": [
+    {
+      "path": "LICENSE",
+      "type": "other",
+      "lines": 21,
+      "executable": false,
+      "size_bytes": 1068
+    },
+    {
+      "path": "README.md",
+      "type": "markdown",
+      "lines": 43,
+      "executable": false,
+      "size_bytes": 2104
+    },
+    {
+      "path": "skills/animation-vocabulary/SKILL.md",
+      "type": "markdown",
+      "lines": 173,
+      "executable": false,
+      "size_bytes": 13128
+    },
+    {
+      "path": "skills/emil-design-eng/SKILL.md",
+      "type": "markdown",
+      "lines": 679,
+      "executable": false,
+      "size_bytes": 27335
+    },
+    {
+      "path": "skills/review-animations/SKILL.md",
+      "type": "markdown",
+      "lines": 112,
+      "executable": false,
+      "size_bytes": 8127
+    },
+    {
+      "path": "skills/review-animations/STANDARDS.md",
+      "type": "markdown",
+      "lines": 188,
+      "executable": false,
+      "size_bytes": 9959
+    }
+  ],
+  "issues": [
+    {
+      "id": "EA3",
+      "category": "Excessive Agency",
+      "pattern": "Scope Creep",
+      "severity": "LOW",
+      "confidence": 0.7,
+      "location": {
+        "file": "LICENSE",
+        "start_line": 16,
+        "end_line": null
+      },
+      "finding": "NOT LIMITED TO",
+      "explanation": "Skill's behavior or capabilities extend beyond its stated purpose. Scope creep allows an agent to perform actions unrelated to its documented functionality, increasing the attack surface.",
+      "remediation": "Limit the skill's scope to its documented purpose. Remove instructions that enable the agent to perform actions outside its stated functionality.",
+      "code_snippet": "copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,",
+      "intent": null
+    }
+  ],
+  "metadata": {
+    "has_executable_scripts": false,
+    "skillspector_version": "2.1.4",
+    "llm_requested": false,
+    "llm_available": false
+  }
+}

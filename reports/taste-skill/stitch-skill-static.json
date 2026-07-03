@@ -1,0 +1,35 @@
+{
+  "skill": {
+    "name": "stitch-design-taste",
+    "source": "/private/tmp/taste-skill-inspect/repo/skills/stitch-skill",
+    "scanned_at": "2026-06-25T18:12:02.003042+00:00"
+  },
+  "risk_assessment": {
+    "score": 0,
+    "severity": "LOW",
+    "recommendation": "SAFE"
+  },
+  "components": [
+    {
+      "path": "DESIGN.md",
+      "type": "markdown",
+      "lines": 121,
+      "executable": false,
+      "size_bytes": 12053
+    },
+    {
+      "path": "SKILL.md",
+      "type": "markdown",
+      "lines": 184,
+      "executable": false,
+      "size_bytes": 11851
+    }
+  ],
+  "issues": [],
+  "metadata": {
+    "has_executable_scripts": false,
+    "skillspector_version": "2.1.4",
+    "llm_requested": false,
+    "llm_available": false
+  }
+}

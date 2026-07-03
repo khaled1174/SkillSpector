@@ -1,0 +1,28 @@
+{
+  "skill": {
+    "name": "unknown",
+    "source": "/var/folders/j3/gncvd3jn4rq3gtcsq8x6bwsm0000gn/T/skillspector_4xivxohq",
+    "scanned_at": "2026-06-28T08:12:48.114731+00:00"
+  },
+  "risk_assessment": {
+    "score": 0,
+    "severity": "LOW",
+    "recommendation": "SAFE"
+  },
+  "components": [
+    {
+      "path": "doc_544e1ccc7b84_brand-system-builder.md",
+      "type": "markdown",
+      "lines": 751,
+      "executable": false,
+      "size_bytes": 27769
+    }
+  ],
+  "issues": [],
+  "metadata": {
+    "has_executable_scripts": false,
+    "skillspector_version": "2.1.4",
+    "llm_requested": false,
+    "llm_available": false
+  }
+}

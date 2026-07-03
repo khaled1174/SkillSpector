@@ -1,0 +1,1780 @@
+{
+  "skill": {
+    "name": "seedance-20",
+    "source": "/private/tmp/emily2040-seedance-2-review/repo",
+    "scanned_at": "2026-07-03T19:54:17.494512+00:00"
+  },
+  "risk_assessment": {
+    "score": 100,
+    "severity": "CRITICAL",
+    "recommendation": "DO_NOT_INSTALL"
+  },
+  "components": [
+    {
+      "path": ".github/CODEOWNERS",
+      "type": "other",
+      "lines": 23,
+      "executable": false,
+      "size_bytes": 837
+    },
+    {
+      "path": ".github/workflows/validate-skills.yml",
+      "type": "yaml",
+      "lines": 46,
+      "executable": false,
+      "size_bytes": 1846
+    },
+    {
+      "path": "CHANGELOG.md",
+      "type": "markdown",
+      "lines": 365,
+      "executable": false,
+      "size_bytes": 32645
+    },
+    {
+      "path": "LICENSE",
+      "type": "other",
+      "lines": 21,
+      "executable": false,
+      "size_bytes": 1085
+    },
+    {
+      "path": "README.md",
+      "type": "markdown",
+      "lines": 405,
+      "executable": false,
+      "size_bytes": 37401
+    },
+    {
+      "path": "SKILL.md",
+      "type": "markdown",
+      "lines": 102,
+      "executable": false,
+      "size_bytes": 12588
+    },
+    {
+      "path": "V6_SEQUENCE_PROMPT_COMPILER_MANIFEST.md",
+      "type": "markdown",
+      "lines": 137,
+      "executable": false,
+      "size_bytes": 6587
+    },
+    {
+      "path": "agents/openai.yaml",
+      "type": "yaml",
+      "lines": 8,
+      "executable": false,
+      "size_bytes": 381
+    },
+    {
+      "path": "assets/hero-cinematic.png",
+      "type": "other",
+      "lines": 62069,
+      "executable": false,
+      "size_bytes": 2509263
+    },
+    {
+      "path": "assets/hero-command-center.png",
+      "type": "other",
+      "lines": 46405,
+      "executable": false,
+      "size_bytes": 1817913
+    },
+    {
+      "path": "assets/hero-dark.svg",
+      "type": "other",
+      "lines": 58,
+      "executable": false,
+      "size_bytes": 6236
+    },
+    {
+      "path": "assets/hero-global-filmmaker-mode.png",
+      "type": "other",
+      "lines": 51698,
+      "executable": false,
+      "size_bytes": 2113931
+    },
+    {
+      "path": "assets/hero-light.svg",
+      "type": "other",
+      "lines": 58,
+      "executable": false,
+      "size_bytes": 6236
+    },
+    {
+      "path": "assets/infographic-cdn-delivery-map.png",
+      "type": "other",
+      "lines": 41417,
+      "executable": false,
+      "size_bytes": 1521314
+    },
+    {
+      "path": "assets/infographic-production-delivery.png",
+      "type": "other",
+      "lines": 41000,
+      "executable": false,
+      "size_bytes": 1594632
+    },
+    {
+      "path": "assets/infographic-professional-qc-stack.png",
+      "type": "other",
+      "lines": 40557,
+      "executable": false,
+      "size_bytes": 1517597
+    },
+    {
+      "path": "assets/infographic-reference-role-map.png",
+      "type": "other",
+      "lines": 43810,
+      "executable": false,
+      "size_bytes": 1739416
+    },
+    {
+      "path": "assets/infographic-skill-capabilities.png",
+      "type": "other",
+      "lines": 41148,
+      "executable": false,
+      "size_bytes": 1602137
+    },
+    {
+      "path": "assets/skill-map-cinematic.png",
+      "type": "other",
+      "lines": 56705,
+      "executable": false,
+      "size_bytes": 2237215
+    },
+    {
+      "path": "assets/skill-map.svg",
+      "type": "other",
+      "lines": 83,
+      "executable": false,
+      "size_bytes": 5511
+    },
+    {
+      "path": "assets/skill-os-infographic.png",
+      "type": "other",
+      "lines": 51117,
+      "executable": false,
+      "size_bytes": 2030910
+    },
+    {
+      "path": "data/community-patterns.seedance-2026-05-30.json",
+      "type": "json",
+      "lines": 245,
+      "executable": false,
+      "size_bytes": 10856
+    },
+    {
+      "path": "data/generation-runs.example.jsonl",
+      "type": "other",
+      "lines": 2,
+      "executable": false,
+      "size_bytes": 770
+    },
+    {
+      "path": "data/sources.seedance-2026-05-30.json",
+      "type": "json",
+      "lines": 607,
+      "executable": false,
+      "size_bytes": 28702
+    },
+    {
+      "path": "docs/README.ja.md",
+      "type": "markdown",
+      "lines": 47,
+      "executable": false,
+      "size_bytes": 2633
+    },
+    {
+      "path": "docs/README.ko.md",
+      "type": "markdown",
+      "lines": 47,
+      "executable": false,
+      "size_bytes": 2697
+    },
+    {
+      "path": "docs/README.zh.md",
+      "type": "markdown",
+      "lines": 46,
+      "executable": false,
+      "size_bytes": 2243
+    },
+    {
+      "path": "docs/RELEASE_v6.2.0.md",
+      "type": "markdown",
+      "lines": 24,
+      "executable": false,
+      "size_bytes": 2357
+    },
+    {
+      "path": "docs/RELEASE_v6.3.0.md",
+      "type": "markdown",
+      "lines": 26,
+      "executable": false,
+      "size_bytes": 3051
+    },
+    {
+      "path": "docs/frontend-redesign.md",
+      "type": "markdown",
+      "lines": 52,
+      "executable": false,
+      "size_bytes": 3854
+    },
+    {
+      "path": "docs/v6-release-readiness.md",
+      "type": "markdown",
+      "lines": 22,
+      "executable": false,
+      "size_bytes": 1216
+    },
+    {
+      "path": "evals/eval-run-ledger.md",
+      "type": "markdown",
+      "lines": 36,
+      "executable": false,
+      "size_bytes": 1598
+    },
+    {
+      "path": "evals/evals.json",
+      "type": "json",
+      "lines": 2735,
+      "executable": false,
+      "size_bytes": 155743
+    },
+    {
+      "path": "evals/generation-benchmark.json",
+      "type": "json",
+      "lines": 40,
+      "executable": false,
+      "size_bytes": 1186
+    },
+    {
+      "path": "examples/golden-prompts/compact-i2v.md",
+      "type": "markdown",
+      "lines": 23,
+      "executable": false,
+      "size_bytes": 837
+    },
+    {
+      "path": "examples/golden-prompts/continuation-observed-deviation.md",
+      "type": "markdown",
+      "lines": 23,
+      "executable": false,
+      "size_bytes": 967
+    },
+    {
+      "path": "examples/golden-prompts/dense-2d-storyboard.md",
+      "type": "markdown",
+      "lines": 23,
+      "executable": false,
+      "size_bytes": 1011
+    },
+    {
+      "path": "examples/golden-prompts/first-last-frame-transition.md",
+      "type": "markdown",
+      "lines": 23,
+      "executable": false,
+      "size_bytes": 903
+    },
+    {
+      "path": "examples/golden-prompts/phased-single-take.md",
+      "type": "markdown",
+      "lines": 23,
+      "executable": false,
+      "size_bytes": 862
+    },
+    {
+      "path": "examples/golden-prompts/r2v-role-isolation.md",
+      "type": "markdown",
+      "lines": 23,
+      "executable": false,
+      "size_bytes": 992
+    },
+    {
+      "path": "examples/golden-prompts/sequence-continuation.md",
+      "type": "markdown",
+      "lines": 23,
+      "executable": false,
+      "size_bytes": 1074
+    },
+    {
+      "path": "examples/golden-prompts/video-edit-one-layer.md",
+      "type": "markdown",
+      "lines": 23,
+      "executable": false,
+      "size_bytes": 845
+    },
+    {
+      "path": "examples/sequence-airport-arrival/clip-01-contract.json",
+      "type": "json",
+      "lines": 18,
+      "executable": false,
+      "size_bytes": 791
+    },
+    {
+      "path": "examples/sequence-airport-arrival/clip-01-prompt.md",
+      "type": "markdown",
+      "lines": 3,
+      "executable": false,
+      "size_bytes": 608
+    },
+    {
+      "path": "examples/sequence-airport-arrival/clip-01-take-review.json",
+      "type": "json",
+      "lines": 23,
+      "executable": false,
+      "size_bytes": 786
+    },
+    {
+      "path": "examples/sequence-airport-arrival/clip-02-continuation-contract.json",
+      "type": "json",
+      "lines": 18,
+      "executable": false,
+      "size_bytes": 870
+    },
+    {
+      "path": "examples/sequence-airport-arrival/clip-02-prompt.md",
+      "type": "markdown",
+      "lines": 3,
+      "executable": false,
+      "size_bytes": 725
+    },
+    {
+      "path": "examples/sequence-airport-arrival/project-state.json",
+      "type": "json",
+      "lines": 453,
+      "executable": false,
+      "size_bytes": 15458
+    },
+    {
+      "path": "examples/sequence-airport-arrival/sequence-plan.md",
+      "type": "markdown",
+      "lines": 39,
+      "executable": false,
+      "size_bytes": 1759
+    },
+    {
+      "path": "examples/sequence-observed-deviation/project-state-after.json",
+      "type": "json",
+      "lines": 84,
+      "executable": false,
+      "size_bytes": 4650
+    },
+    {
+      "path": "examples/sequence-observed-deviation/project-state-before.json",
+      "type": "json",
+      "lines": 228,
+      "executable": false,
+      "size_bytes": 6161
+    },
+    {
+      "path": "examples/sequence-observed-deviation/take-review.json",
+      "type": "json",
+      "lines": 17,
+      "executable": false,
+      "size_bytes": 717
+    },
+    {
+      "path": "examples/standalone-clip/project-state.json",
+      "type": "json",
+      "lines": 56,
+      "executable": false,
+      "size_bytes": 2237
+    },
+    {
+      "path": "examples/standalone-clip/prompt.md",
+      "type": "markdown",
+      "lines": 3,
+      "executable": false,
+      "size_bytes": 339
+    },
+    {
+      "path": "references/2d-anime-grammar.md",
+      "type": "markdown",
+      "lines": 52,
+      "executable": false,
+      "size_bytes": 3859
+    },
+    {
+      "path": "references/agent-compatibility.md",
+      "type": "markdown",
+      "lines": 73,
+      "executable": false,
+      "size_bytes": 6208
+    },
+    {
+      "path": "references/allocation-model.md",
+      "type": "markdown",
+      "lines": 50,
+      "executable": false,
+      "size_bytes": 3548
+    },
+    {
+      "path": "references/anti-slop-lexicon.md",
+      "type": "markdown",
+      "lines": 47,
+      "executable": false,
+      "size_bytes": 3816
+    },
+    {
+      "path": "references/api-status.md",
+      "type": "markdown",
+      "lines": 173,
+      "executable": false,
+      "size_bytes": 18704
+    },
+    {
+      "path": "references/api-workflow.md",
+      "type": "markdown",
+      "lines": 64,
+      "executable": false,
+      "size_bytes": 5986
+    },
+    {
+      "path": "references/aspect-ratio-delivery.md",
+      "type": "markdown",
+      "lines": 48,
+      "executable": false,
+      "size_bytes": 2627
+    },
+    {
+      "path": "references/audio-guide.md",
+      "type": "markdown",
+      "lines": 93,
+      "executable": false,
+      "size_bytes": 8567
+    },
+    {
+      "path": "references/audio-post-delivery.md",
+      "type": "markdown",
+      "lines": 54,
+      "executable": false,
+      "size_bytes": 2282
+    },
+    {
+      "path": "references/capability-map.md",
+      "type": "markdown",
+      "lines": 31,
+      "executable": false,
+      "size_bytes": 3469
+    },
+    {
+      "path": "references/cinematography-shot-language.md",
+      "type": "markdown",
+      "lines": 62,
+      "executable": false,
+      "size_bytes": 3328
+    },
+    {
+      "path": "references/color-pipeline-aces.md",
+      "type": "markdown",
+      "lines": 58,
+      "executable": false,
+      "size_bytes": 3087
+    },
+    {
+      "path": "references/community-source-methodology.md",
+      "type": "markdown",
+      "lines": 42,
+      "executable": false,
+      "size_bytes": 1976
+    },
+    {
+      "path": "references/continuation-handoff.md",
+      "type": "markdown",
+      "lines": 59,
+      "executable": false,
+      "size_bytes": 2287
+    },
+    {
+      "path": "references/continuity-qc.md",
+      "type": "markdown",
+      "lines": 38,
+      "executable": false,
+      "size_bytes": 1068
+    },
+    {
+      "path": "references/delivery-qc.md",
+      "type": "markdown",
+      "lines": 54,
+      "executable": false,
+      "size_bytes": 2305
+    },
+    {
+      "path": "references/dense-storyboard-mode.md",
+      "type": "markdown",
+      "lines": 27,
+      "executable": false,
+      "size_bytes": 1445
+    },
+    {
+      "path": "references/directing-engine-genre-library.md",
+      "type": "markdown",
+      "lines": 304,
+      "executable": false,
+      "size_bytes": 32952
+    },
+    {
+      "path": "references/directing-engine.md",
+      "type": "markdown",
+      "lines": 157,
+      "executable": false,
+      "size_bytes": 19870
+    },
+    {
+      "path": "references/eval-rubric.md",
+      "type": "markdown",
+      "lines": 26,
+      "executable": false,
+      "size_bytes": 1248
+    },
+    {
+      "path": "references/event-density.md",
+      "type": "markdown",
+      "lines": 25,
+      "executable": false,
+      "size_bytes": 1047
+    },
+    {
+      "path": "references/examples-by-mode.md",
+      "type": "markdown",
+      "lines": 87,
+      "executable": false,
+      "size_bytes": 6991
+    },
+    {
+      "path": "references/failure-atlas.md",
+      "type": "markdown",
+      "lines": 18,
+      "executable": false,
+      "size_bytes": 1521
+    },
+    {
+      "path": "references/field-observed-tips.md",
+      "type": "markdown",
+      "lines": 43,
+      "executable": false,
+      "size_bytes": 2592
+    },
+    {
+      "path": "references/filter-vocab.md",
+      "type": "markdown",
+      "lines": 40,
+      "executable": false,
+      "size_bytes": 2119
+    },
+    {
+      "path": "references/first-last-frame-guide.md",
+      "type": "markdown",
+      "lines": 68,
+      "executable": false,
+      "size_bytes": 4823
+    },
+    {
+      "path": "references/frontend-design-system.md",
+      "type": "markdown",
+      "lines": 51,
+      "executable": false,
+      "size_bytes": 4158
+    },
+    {
+      "path": "references/genre-guides.md",
+      "type": "markdown",
+      "lines": 35,
+      "executable": false,
+      "size_bytes": 2604
+    },
+    {
+      "path": "references/i2v-guide.md",
+      "type": "markdown",
+      "lines": 40,
+      "executable": false,
+      "size_bytes": 2715
+    },
+    {
+      "path": "references/intent-vs-precision.md",
+      "type": "markdown",
+      "lines": 26,
+      "executable": false,
+      "size_bytes": 632
+    },
+    {
+      "path": "references/json-schema.md",
+      "type": "markdown",
+      "lines": 96,
+      "executable": false,
+      "size_bytes": 3248
+    },
+    {
+      "path": "references/migrated/README.md",
+      "type": "markdown",
+      "lines": 5,
+      "executable": false,
+      "size_bytes": 521
+    },
+    {
+      "path": "references/migrated/seedance-antislop-original.md",
+      "type": "markdown",
+      "lines": 399,
+      "executable": false,
+      "size_bytes": 13695
+    },
+    {
+      "path": "references/migrated/seedance-audio-original.md",
+      "type": "markdown",
+      "lines": 419,
+      "executable": false,
+      "size_bytes": 16664
+    },
+    {
+      "path": "references/migrated/seedance-copyright-original.md",
+      "type": "markdown",
+      "lines": 289,
+      "executable": false,
+      "size_bytes": 13479
+    },
+    {
+      "path": "references/migrated/seedance-examples-zh-original.md",
+      "type": "markdown",
+      "lines": 166,
+      "executable": false,
+      "size_bytes": 8532
+    },
+    {
+      "path": "references/migrated/seedance-filter-original.md",
+      "type": "markdown",
+      "lines": 394,
+      "executable": false,
+      "size_bytes": 28770
+    },
+    {
+      "path": "references/migrated/seedance-pipeline-original.md",
+      "type": "markdown",
+      "lines": 113,
+      "executable": false,
+      "size_bytes": 3544
+    },
+    {
+      "path": "references/migrated/seedance-recipes-original.md",
+      "type": "markdown",
+      "lines": 104,
+      "executable": false,
+      "size_bytes": 4089
+    },
+    {
+      "path": "references/migrated/seedance-vocab-es-original.md",
+      "type": "markdown",
+      "lines": 413,
+      "executable": false,
+      "size_bytes": 14686
+    },
+    {
+      "path": "references/migrated/seedance-vocab-ja-original.md",
+      "type": "markdown",
+      "lines": 413,
+      "executable": false,
+      "size_bytes": 20067
+    },
+    {
+      "path": "references/migrated/seedance-vocab-ko-original.md",
+      "type": "markdown",
+      "lines": 425,
+      "executable": false,
+      "size_bytes": 18968
+    },
+    {
+      "path": "references/migrated/seedance-vocab-ru-original.md",
+      "type": "markdown",
+      "lines": 430,
+      "executable": false,
+      "size_bytes": 27850
+    },
+    {
+      "path": "references/migrated/seedance-vocab-zh-original.md",
+      "type": "markdown",
+      "lines": 458,
+      "executable": false,
+      "size_bytes": 20989
+    },
+    {
+      "path": "references/migrated/v5.2-legacy-skill-bodies/seedance-antislop.md",
+      "type": "markdown",
+      "lines": 37,
+      "executable": false,
+      "size_bytes": 1531
+    },
+    {
+      "path": "references/migrated/v5.2-legacy-skill-bodies/seedance-audio.md",
+      "type": "markdown",
+      "lines": 38,
+      "executable": false,
+      "size_bytes": 1595
+    },
+    {
+      "path": "references/migrated/v5.2-legacy-skill-bodies/seedance-copyright.md",
+      "type": "markdown",
+      "lines": 42,
+      "executable": false,
+      "size_bytes": 2017
+    },
+    {
+      "path": "references/migrated/v5.2-legacy-skill-bodies/seedance-examples-zh.md",
+      "type": "markdown",
+      "lines": 34,
+      "executable": false,
+      "size_bytes": 1391
+    },
+    {
+      "path": "references/migrated/v5.2-legacy-skill-bodies/seedance-filter.md",
+      "type": "markdown",
+      "lines": 41,
+      "executable": false,
+      "size_bytes": 1686
+    },
+    {
+      "path": "references/migrated/v5.2-legacy-skill-bodies/seedance-vocab-es.md",
+      "type": "markdown",
+      "lines": 33,
+      "executable": false,
+      "size_bytes": 1392
+    },
+    {
+      "path": "references/migrated/v5.2-legacy-skill-bodies/seedance-vocab-ja.md",
+      "type": "markdown",
+      "lines": 33,
+      "executable": false,
+      "size_bytes": 1378
+    },
+    {
+      "path": "references/migrated/v5.2-legacy-skill-bodies/seedance-vocab-ko.md",
+      "type": "markdown",
+      "lines": 33,
+      "executable": false,
+      "size_bytes": 1366
+    },
+    {
+      "path": "references/migrated/v5.2-legacy-skill-bodies/seedance-vocab-ru.md",
+      "type": "markdown",
+      "lines": 33,
+      "executable": false,
+      "size_bytes": 1372
+    },
+    {
+      "path": "references/migrated/v5.2-legacy-skill-bodies/seedance-vocab-zh.md",
+      "type": "markdown",
+      "lines": 33,
+      "executable": false,
+      "size_bytes": 1373
+    },
+    {
+      "path": "references/model-mechanics.md",
+      "type": "markdown",
+      "lines": 74,
+      "executable": false,
+      "size_bytes": 7054
+    },
+    {
+      "path": "references/model-name-map.md",
+      "type": "markdown",
+      "lines": 65,
+      "executable": false,
+      "size_bytes": 8285
+    },
+    {
+      "path": "references/multilingual-community-examples.md",
+      "type": "markdown",
+      "lines": 153,
+      "executable": false,
+      "size_bytes": 11313
+    },
+    {
+      "path": "references/multishot-grammar.md",
+      "type": "markdown",
+      "lines": 43,
+      "executable": false,
+      "size_bytes": 4166
+    },
+    {
+      "path": "references/platform-constraints.md",
+      "type": "markdown",
+      "lines": 20,
+      "executable": false,
+      "size_bytes": 1279
+    },
+    {
+      "path": "references/platform-surface-matrix.md",
+      "type": "markdown",
+      "lines": 56,
+      "executable": false,
+      "size_bytes": 9887
+    },
+    {
+      "path": "references/pro-filmmaking-standards.md",
+      "type": "markdown",
+      "lines": 52,
+      "executable": false,
+      "size_bytes": 4089
+    },
+    {
+      "path": "references/progressive-disclosure.md",
+      "type": "markdown",
+      "lines": 40,
+      "executable": false,
+      "size_bytes": 3365
+    },
+    {
+      "path": "references/prompt-compiler.md",
+      "type": "markdown",
+      "lines": 52,
+      "executable": false,
+      "size_bytes": 2238
+    },
+    {
+      "path": "references/prompt-examples.md",
+      "type": "markdown",
+      "lines": 159,
+      "executable": false,
+      "size_bytes": 13530
+    },
+    {
+      "path": "references/quick-ref.md",
+      "type": "markdown",
+      "lines": 45,
+      "executable": false,
+      "size_bytes": 2466
+    },
+    {
+      "path": "references/reference-transfer-contract.md",
+      "type": "markdown",
+      "lines": 34,
+      "executable": false,
+      "size_bytes": 1888
+    },
+    {
+      "path": "references/reference-workflow.md",
+      "type": "markdown",
+      "lines": 63,
+      "executable": false,
+      "size_bytes": 5056
+    },
+    {
+      "path": "references/research-2026-05-30.md",
+      "type": "markdown",
+      "lines": 63,
+      "executable": false,
+      "size_bytes": 6129
+    },
+    {
+      "path": "references/retake-protocol.md",
+      "type": "markdown",
+      "lines": 52,
+      "executable": false,
+      "size_bytes": 4316
+    },
+    {
+      "path": "references/sequence-project-state.md",
+      "type": "markdown",
+      "lines": 83,
+      "executable": false,
+      "size_bytes": 4122
+    },
+    {
+      "path": "references/shot-list-continuity.md",
+      "type": "markdown",
+      "lines": 88,
+      "executable": false,
+      "size_bytes": 4119
+    },
+    {
+      "path": "references/source-registry.md",
+      "type": "markdown",
+      "lines": 59,
+      "executable": false,
+      "size_bytes": 14296
+    },
+    {
+      "path": "references/storytelling-framework.md",
+      "type": "markdown",
+      "lines": 38,
+      "executable": false,
+      "size_bytes": 2412
+    },
+    {
+      "path": "references/subtitles-localization.md",
+      "type": "markdown",
+      "lines": 54,
+      "executable": false,
+      "size_bytes": 2974
+    },
+    {
+      "path": "references/surface-prompt-profiles.md",
+      "type": "markdown",
+      "lines": 34,
+      "executable": false,
+      "size_bytes": 1296
+    },
+    {
+      "path": "references/vocab/en.md",
+      "type": "markdown",
+      "lines": 102,
+      "executable": false,
+      "size_bytes": 7054
+    },
+    {
+      "path": "references/vocab/es.md",
+      "type": "markdown",
+      "lines": 90,
+      "executable": false,
+      "size_bytes": 6570
+    },
+    {
+      "path": "references/vocab/ja.md",
+      "type": "markdown",
+      "lines": 113,
+      "executable": false,
+      "size_bytes": 8891
+    },
+    {
+      "path": "references/vocab/ko.md",
+      "type": "markdown",
+      "lines": 112,
+      "executable": false,
+      "size_bytes": 8703
+    },
+    {
+      "path": "references/vocab/ru.md",
+      "type": "markdown",
+      "lines": 96,
+      "executable": false,
+      "size_bytes": 10244
+    },
+    {
+      "path": "references/vocab/zh.md",
+      "type": "markdown",
+      "lines": 126,
+      "executable": false,
+      "size_bytes": 8370
+    },
+    {
+      "path": "schemas/clip-contract.schema.json",
+      "type": "json",
+      "lines": 42,
+      "executable": false,
+      "size_bytes": 1606
+    },
+    {
+      "path": "schemas/generation-run.schema.json",
+      "type": "json",
+      "lines": 30,
+      "executable": false,
+      "size_bytes": 936
+    },
+    {
+      "path": "schemas/project-state.schema.json",
+      "type": "json",
+      "lines": 133,
+      "executable": false,
+      "size_bytes": 4914
+    },
+    {
+      "path": "schemas/prompt-spec.schema.json",
+      "type": "json",
+      "lines": 34,
+      "executable": false,
+      "size_bytes": 1387
+    },
+    {
+      "path": "schemas/take-review.schema.json",
+      "type": "json",
+      "lines": 40,
+      "executable": false,
+      "size_bytes": 1512
+    },
+    {
+      "path": "scripts/behavior_contract_check.py",
+      "type": "python",
+      "lines": 93,
+      "executable": true,
+      "size_bytes": 2848
+    },
+    {
+      "path": "scripts/content_audit.py",
+      "type": "python",
+      "lines": 97,
+      "executable": true,
+      "size_bytes": 3564
+    },
+    {
+      "path": "scripts/continuity_chain_check.py",
+      "type": "python",
+      "lines": 127,
+      "executable": true,
+      "size_bytes": 4211
+    },
+    {
+      "path": "scripts/design_audit.py",
+      "type": "python",
+      "lines": 172,
+      "executable": true,
+      "size_bytes": 6369
+    },
+    {
+      "path": "scripts/eval_run.py",
+      "type": "python",
+      "lines": 249,
+      "executable": true,
+      "size_bytes": 11467
+    },
+    {
+      "path": "scripts/eval_schema_check.py",
+      "type": "python",
+      "lines": 190,
+      "executable": true,
+      "size_bytes": 6675
+    },
+    {
+      "path": "scripts/generation_run_check.py",
+      "type": "python",
+      "lines": 80,
+      "executable": true,
+      "size_bytes": 2895
+    },
+    {
+      "path": "scripts/install_codex_skill.py",
+      "type": "python",
+      "lines": 95,
+      "executable": true,
+      "size_bytes": 3091
+    },
+    {
+      "path": "scripts/project_state_check.py",
+      "type": "python",
+      "lines": 178,
+      "executable": true,
+      "size_bytes": 7766
+    },
+    {
+      "path": "scripts/prompt_lint.py",
+      "type": "python",
+      "lines": 114,
+      "executable": true,
+      "size_bytes": 3371
+    },
+    {
+      "path": "scripts/sequence_eval_check.py",
+      "type": "python",
+      "lines": 110,
+      "executable": true,
+      "size_bytes": 4197
+    },
+    {
+      "path": "scripts/source_registry_check.py",
+      "type": "python",
+      "lines": 131,
+      "executable": true,
+      "size_bytes": 5496
+    },
+    {
+      "path": "scripts/validate_skills.py",
+      "type": "python",
+      "lines": 356,
+      "executable": true,
+      "size_bytes": 13968
+    },
+    {
+      "path": "scripts/vocab_schema_check.py",
+      "type": "python",
+      "lines": 94,
+      "executable": true,
+      "size_bytes": 3513
+    },
+    {
+      "path": "skills/seedance-antislop/SKILL.md",
+      "type": "markdown",
+      "lines": 64,
+      "executable": false,
+      "size_bytes": 4242
+    },
+    {
+      "path": "skills/seedance-audio/SKILL.md",
+      "type": "markdown",
+      "lines": 66,
+      "executable": false,
+      "size_bytes": 4743
+    },
+    {
+      "path": "skills/seedance-camera/SKILL.md",
+      "type": "markdown",
+      "lines": 67,
+      "executable": false,
+      "size_bytes": 4653
+    },
+    {
+      "path": "skills/seedance-characters/SKILL.md",
+      "type": "markdown",
+      "lines": 71,
+      "executable": false,
+      "size_bytes": 4692
+    },
+    {
+      "path": "skills/seedance-continuation/SKILL.md",
+      "type": "markdown",
+      "lines": 85,
+      "executable": false,
+      "size_bytes": 4306
+    },
+    {
+      "path": "skills/seedance-copyright/SKILL.md",
+      "type": "markdown",
+      "lines": 56,
+      "executable": false,
+      "size_bytes": 3362
+    },
+    {
+      "path": "skills/seedance-examples-ja/SKILL.md",
+      "type": "markdown",
+      "lines": 58,
+      "executable": false,
+      "size_bytes": 4004
+    },
+    {
+      "path": "skills/seedance-examples-ko/SKILL.md",
+      "type": "markdown",
+      "lines": 58,
+      "executable": false,
+      "size_bytes": 4035
+    },
+    {
+      "path": "skills/seedance-examples-zh/SKILL.md",
+      "type": "markdown",
+      "lines": 64,
+      "executable": false,
+      "size_bytes": 4508
+    },
+    {
+      "path": "skills/seedance-filter/SKILL.md",
+      "type": "markdown",
+      "lines": 64,
+      "executable": false,
+      "size_bytes": 4052
+    },
+    {
+      "path": "skills/seedance-interview-short/SKILL.md",
+      "type": "markdown",
+      "lines": 52,
+      "executable": false,
+      "size_bytes": 3463
+    },
+    {
+      "path": "skills/seedance-interview/SKILL.md",
+      "type": "markdown",
+      "lines": 105,
+      "executable": false,
+      "size_bytes": 10483
+    },
+    {
+      "path": "skills/seedance-lighting/SKILL.md",
+      "type": "markdown",
+      "lines": 61,
+      "executable": false,
+      "size_bytes": 3985
+    },
+    {
+      "path": "skills/seedance-motion/SKILL.md",
+      "type": "markdown",
+      "lines": 68,
+      "executable": false,
+      "size_bytes": 4836
+    },
+    {
+      "path": "skills/seedance-pipeline/SKILL.md",
+      "type": "markdown",
+      "lines": 51,
+      "executable": false,
+      "size_bytes": 3509
+    },
+    {
+      "path": "skills/seedance-prompt-short/SKILL.md",
+      "type": "markdown",
+      "lines": 59,
+      "executable": false,
+      "size_bytes": 2967
+    },
+    {
+      "path": "skills/seedance-prompt/SKILL.md",
+      "type": "markdown",
+      "lines": 86,
+      "executable": false,
+      "size_bytes": 7897
+    },
+    {
+      "path": "skills/seedance-recipes/SKILL.md",
+      "type": "markdown",
+      "lines": 72,
+      "executable": false,
+      "size_bytes": 5407
+    },
+    {
+      "path": "skills/seedance-sequence/SKILL.md",
+      "type": "markdown",
+      "lines": 81,
+      "executable": false,
+      "size_bytes": 5881
+    },
+    {
+      "path": "skills/seedance-style/SKILL.md",
+      "type": "markdown",
+      "lines": 72,
+      "executable": false,
+      "size_bytes": 4575
+    },
+    {
+      "path": "skills/seedance-troubleshoot/SKILL.md",
+      "type": "markdown",
+      "lines": 72,
+      "executable": false,
+      "size_bytes": 6150
+    },
+    {
+      "path": "skills/seedance-vfx/SKILL.md",
+      "type": "markdown",
+      "lines": 52,
+      "executable": false,
+      "size_bytes": 2891
+    },
+    {
+      "path": "skills/seedance-vocab-en/SKILL.md",
+      "type": "markdown",
+      "lines": 58,
+      "executable": false,
+      "size_bytes": 3635
+    },
+    {
+      "path": "skills/seedance-vocab-es/SKILL.md",
+      "type": "markdown",
+      "lines": 51,
+      "executable": false,
+      "size_bytes": 2458
+    },
+    {
+      "path": "skills/seedance-vocab-ja/SKILL.md",
+      "type": "markdown",
+      "lines": 51,
+      "executable": false,
+      "size_bytes": 2555
+    },
+    {
+      "path": "skills/seedance-vocab-ko/SKILL.md",
+      "type": "markdown",
+      "lines": 51,
+      "executable": false,
+      "size_bytes": 2584
+    },
+    {
+      "path": "skills/seedance-vocab-ru/SKILL.md",
+      "type": "markdown",
+      "lines": 58,
+      "executable": false,
+      "size_bytes": 3811
+    },
+    {
+      "path": "skills/seedance-vocab-zh/SKILL.md",
+      "type": "markdown",
+      "lines": 54,
+      "executable": false,
+      "size_bytes": 2766
+    },
+    {
+      "path": "tests/test_behavior_contract.py",
+      "type": "python",
+      "lines": 24,
+      "executable": true,
+      "size_bytes": 586
+    },
+    {
+      "path": "tests/test_continuity_chain.py",
+      "type": "python",
+      "lines": 24,
+      "executable": true,
+      "size_bytes": 590
+    },
+    {
+      "path": "tests/test_generation_run_check.py",
+      "type": "python",
+      "lines": 24,
+      "executable": true,
+      "size_bytes": 584
+    },
+    {
+      "path": "tests/test_project_state.py",
+      "type": "python",
+      "lines": 24,
+      "executable": true,
+      "size_bytes": 581
+    },
+    {
+      "path": "tests/test_prompt_lint.py",
+      "type": "python",
+      "lines": 24,
+      "executable": true,
+      "size_bytes": 589
+    },
+    {
+      "path": "tests/test_sequence_eval.py",
+      "type": "python",
+      "lines": 24,
+      "executable": true,
+      "size_bytes": 570
+    }
+  ],
+  "issues": [
+    {
+      "id": "AST4",
+      "category": "Dangerous Code Execution",
+      "pattern": "subprocess module call",
+      "severity": "MEDIUM",
+      "confidence": 0.7,
+      "location": {
+        "file": "tests/test_behavior_contract.py",
+        "start_line": 14,
+        "end_line": 19
+      },
+      "finding": "        result = subprocess.run(\n            [sys.executable, \"scripts/behavior_contract_check.py\", \"--strict\"],\n            cwd=ROOT,\n            text=True,\n            capture_output=True,\n        )",
+      "explanation": "subprocess module calls execute external commands. Without careful input validation, this enables command injection.",
+      "remediation": "Use subprocess.run() with shell=False and an explicit argument list. Validate all inputs and avoid passing user-controlled data to commands.",
+      "code_snippet": "\nclass BehaviorContractTests(unittest.TestCase):\n    def test_behavior_contract_is_present(self) -> None:\n        result = subprocess.run(\n            [sys.executable, \"scripts/behavior_contract_check.py\", \"--strict\"],\n            cwd=ROOT,\n            text=True,",
+      "intent": null
+    },
+    {
+      "id": "AST4",
+      "category": "Dangerous Code Execution",
+      "pattern": "subprocess module call",
+      "severity": "MEDIUM",
+      "confidence": 0.7,
+      "location": {
+        "file": "tests/test_continuity_chain.py",
+        "start_line": 14,
+        "end_line": 19
+      },
+      "finding": "        result = subprocess.run(\n            [sys.executable, \"scripts/continuity_chain_check.py\", \"--strict\"],\n            cwd=ROOT,\n            text=True,\n            capture_output=True,\n        )",
+      "explanation": "subprocess module calls execute external commands. Without careful input validation, this enables command injection.",
+      "remediation": "Use subprocess.run() with shell=False and an explicit argument list. Validate all inputs and avoid passing user-controlled data to commands.",
+      "code_snippet": "\nclass ContinuityChainTests(unittest.TestCase):\n    def test_continuity_chain_examples_validate(self) -> None:\n        result = subprocess.run(\n            [sys.executable, \"scripts/continuity_chain_check.py\", \"--strict\"],\n            cwd=ROOT,\n            text=True,",
+      "intent": null
+    },
+    {
+      "id": "AST4",
+      "category": "Dangerous Code Execution",
+      "pattern": "subprocess module call",
+      "severity": "MEDIUM",
+      "confidence": 0.7,
+      "location": {
+        "file": "tests/test_generation_run_check.py",
+        "start_line": 14,
+        "end_line": 19
+      },
+      "finding": "        result = subprocess.run(\n            [sys.executable, \"scripts/generation_run_check.py\", \"--strict\"],\n            cwd=ROOT,\n            text=True,\n            capture_output=True,\n        )",
+      "explanation": "subprocess module calls execute external commands. Without careful input validation, this enables command injection.",
+      "remediation": "Use subprocess.run() with shell=False and an explicit argument list. Validate all inputs and avoid passing user-controlled data to commands.",
+      "code_snippet": "\nclass GenerationRunTests(unittest.TestCase):\n    def test_generation_run_fixtures_validate(self) -> None:\n        result = subprocess.run(\n            [sys.executable, \"scripts/generation_run_check.py\", \"--strict\"],\n            cwd=ROOT,\n            text=True,",
+      "intent": null
+    },
+    {
+      "id": "AST4",
+      "category": "Dangerous Code Execution",
+      "pattern": "subprocess module call",
+      "severity": "MEDIUM",
+      "confidence": 0.7,
+      "location": {
+        "file": "tests/test_project_state.py",
+        "start_line": 14,
+        "end_line": 19
+      },
+      "finding": "        result = subprocess.run(\n            [sys.executable, \"scripts/project_state_check.py\", \"--strict\"],\n            cwd=ROOT,\n            text=True,\n            capture_output=True,\n        )",
+      "explanation": "subprocess module calls execute external commands. Without careful input validation, this enables command injection.",
+      "remediation": "Use subprocess.run() with shell=False and an explicit argument list. Validate all inputs and avoid passing user-controlled data to commands.",
+      "code_snippet": "\nclass ProjectStateTests(unittest.TestCase):\n    def test_project_state_examples_validate(self) -> None:\n        result = subprocess.run(\n            [sys.executable, \"scripts/project_state_check.py\", \"--strict\"],\n            cwd=ROOT,\n            text=True,",
+      "intent": null
+    },
+    {
+      "id": "AST4",
+      "category": "Dangerous Code Execution",
+      "pattern": "subprocess module call",
+      "severity": "MEDIUM",
+      "confidence": 0.7,
+      "location": {
+        "file": "tests/test_prompt_lint.py",
+        "start_line": 14,
+        "end_line": 19
+      },
+      "finding": "        result = subprocess.run(\n            [sys.executable, \"scripts/prompt_lint.py\", \"--self-test\", \"--strict\"],\n            cwd=ROOT,\n            text=True,\n            capture_output=True,\n      ",
+      "explanation": "subprocess module calls execute external commands. Without careful input validation, this enables command injection.",
+      "remediation": "Use subprocess.run() with shell=False and an explicit argument list. Validate all inputs and avoid passing user-controlled data to commands.",
+      "code_snippet": "\nclass PromptLintTests(unittest.TestCase):\n    def test_prompt_lint_self_test_and_examples(self) -> None:\n        result = subprocess.run(\n            [sys.executable, \"scripts/prompt_lint.py\", \"--self-test\", \"--strict\"],\n            cwd=ROOT,\n            text=True,",
+      "intent": null
+    },
+    {
+      "id": "AST4",
+      "category": "Dangerous Code Execution",
+      "pattern": "subprocess module call",
+      "severity": "MEDIUM",
+      "confidence": 0.7,
+      "location": {
+        "file": "tests/test_sequence_eval.py",
+        "start_line": 14,
+        "end_line": 19
+      },
+      "finding": "        result = subprocess.run(\n            [sys.executable, \"scripts/sequence_eval_check.py\", \"--strict\"],\n            cwd=ROOT,\n            text=True,\n            capture_output=True,\n        )",
+      "explanation": "subprocess module calls execute external commands. Without careful input validation, this enables command injection.",
+      "remediation": "Use subprocess.run() with shell=False and an explicit argument list. Validate all inputs and avoid passing user-controlled data to commands.",
+      "code_snippet": "\nclass SequenceEvalTests(unittest.TestCase):\n    def test_sequence_eval_schema(self) -> None:\n        result = subprocess.run(\n            [sys.executable, \"scripts/sequence_eval_check.py\", \"--strict\"],\n            cwd=ROOT,\n            text=True,",
+      "intent": null
+    },
+    {
+      "id": "LP3",
+      "category": "MCP Least Privilege",
+      "pattern": null,
+      "severity": "MEDIUM",
+      "confidence": 0.7,
+      "location": {
+        "file": "SKILL.md",
+        "start_line": 1,
+        "end_line": null
+      },
+      "finding": null,
+      "explanation": "Without declared permissions the skill's intent is opaque and cannot be validated.",
+      "remediation": "Add a 'permissions' field to SKILL.md listing the capabilities this skill requires.",
+      "code_snippet": null,
+      "intent": null
+    },
+    {
+      "id": "E1",
+      "category": "Data Exfiltration",
+      "pattern": "External Transmission",
+      "severity": "MEDIUM",
+      "confidence": 0.6,
+      "location": {
+        "file": "scripts/eval_run.py",
+        "start_line": 34,
+        "end_line": null
+      },
+      "finding": "https://api.anthropic.com/",
+      "explanation": "Data is being sent to an external URL. This could be legitimate telemetry or data exfiltration. Manual review is recommended.",
+      "remediation": "Verify the destination URL is trusted and necessary. Remove or replace with documented APIs. Ensure no secrets, tokens, or PII are transmitted.",
+      "code_snippet": "import urllib.error\nfrom pathlib import Path\n\nAPI_URL = \"https://api.anthropic.com/v1/messages\"\nANTHROPIC_VERSION = \"2023-06-01\"\nDEFAULT_MODEL = \"claude-sonnet-4-6\"\n# Thresholds sourced from references/eval-rubric.md.",
+      "intent": null
+    },
+    {
+      "id": "E2",
+      "category": "Data Exfiltration",
+      "pattern": "Env Variable Harvesting",
+      "severity": "HIGH",
+      "confidence": 0.7,
+      "location": {
+        "file": "scripts/eval_run.py",
+        "start_line": 212,
+        "end_line": null
+      },
+      "finding": "os.environ.get(\"ANTHROPIC_API_KEY",
+      "explanation": "Code accesses environment variables that may contain secrets (API keys, tokens). This is a common pattern for credential theft.",
+      "remediation": "Avoid reading sensitive env vars (API keys, tokens) unless strictly required. Use secrets managers or secure config. Never log or transmit credentials.",
+      "code_snippet": "    if args.self_test:\n        return self_test(root)\n\n    api_key = os.environ.get(\"ANTHROPIC_API_KEY\")\n    if not api_key:\n        print(\"ANTHROPIC_API_KEY not set. Use --self-test for an offline wiring check, \"\n              \"or export a key to run a live scored pass.\")",
+      "intent": null
+    },
+    {
+      "id": "EA3",
+      "category": "Excessive Agency",
+      "pattern": "Scope Creep",
+      "severity": "LOW",
+      "confidence": 0.7,
+      "location": {
+        "file": "LICENSE",
+        "start_line": 16,
+        "end_line": null
+      },
+      "finding": "NOT LIMITED TO",
+      "explanation": "Skill's behavior or capabilities extend beyond its stated purpose. Scope creep allows an agent to perform actions unrelated to its documented functionality, increasing the attack surface.",
+      "remediation": "Limit the skill's scope to its documented purpose. Remove instructions that enable the agent to perform actions outside its stated functionality.",
+      "code_snippet": "copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,",
+      "intent": null
+    },
+    {
+      "id": "EA2",
+      "category": "Excessive Agency",
+      "pattern": "Autonomous Decision Making",
+      "severity": "MEDIUM",
+      "confidence": 0.85,
+      "location": {
+        "file": "data/community-patterns.seedance-2026-05-30.json",
+        "start_line": 4,
+        "end_line": null
+      },
+      "finding": "bypass prompt",
+      "explanation": "Skill enables autonomous high-impact decisions without human-in-the-loop verification. Critical operations (destructive commands, financial transactions, data deletion) should require explicit user confirmation.",
+      "remediation": "Add human-in-the-loop confirmation for destructive, irreversible, or high-impact operations. Never auto-execute commands that modify files, send data, or alter system state.",
+      "code_snippet": "{\n  \"schema_version\": \"seedance-community-patterns.v2\",\n  \"generated_at\": \"2026-05-30\",\n  \"usage_rule\": \"Mine structure, vocabulary, timing syntax, failure modes, and constraints only. Do not copy unsafe, IP-sensitive, real-person, celebrity, brand, or bypass prompts into active examples.\",\n  \"labels\": [\n    \"safe-example-candidate\",\n    \"safe-structure-only\",",
+      "intent": null
+    },
+    {
+      "id": "EA2",
+      "category": "Excessive Agency",
+      "pattern": "Autonomous Decision Making",
+      "severity": "MEDIUM",
+      "confidence": 0.75,
+      "location": {
+        "file": "references/platform-surface-matrix.md",
+        "start_line": 26,
+        "end_line": null
+      },
+      "finding": "without checking",
+      "explanation": "Skill enables autonomous high-impact decisions without human-in-the-loop verification. Critical operations (destructive commands, financial transactions, data deletion) should require explicit user confirmation.",
+      "remediation": "Add human-in-the-loop confirmation for destructive, irreversible, or high-impact operations. Never auto-execute commands that modify files, send data, or alter system state.",
+      "code_snippet": "| EvoLink / OpenRouter / Kie.ai / PiAPI / LaoZhang | third-party provider/router surfaces | Additional Seedance 2.0 API access routes | Verified 2026-06-20 from provider-owned pages or docs: EvoLink documents `/v1/videos/generations` plus `/v1/tasks/{task_id}`; OpenRouter lists `bytedance/seedance-2.0`; PiAPI documents a generic task API with Seedance task types; LaoZhang documents a `/seedance/api/v3` base path; Kie.ai publishes Seedance 2.0 API access. Treat model IDs, auth, base URL, polling, pricing, face/reference support, output URLs, and content policy as provider-specific. The repo endorses no reseller. |\n| Runware / ModelsLab / AI/ML API / MuAPI / SeeGen / Segmind | third-party provider/router surfaces | Additional Seedance 2.0 or Seedance 2 Fast model-host routes | Verified 2026-06-20 from provider-owned pages or docs. These pages list Seedance 2.0, Seedance 2.0 Fast, or related ByteDance video routes, but their fields and model names differ. Use them as candidates for provider-specific integration only after live docs and account access are checked. The repo endorses no reseller. |\n| Dreamina / Jimeng web UI | official product surface | Creator workflow | Behavior may differ from API. Do not generalize web UI limits, credits, face checks, or upload rules to every surface. |\n| Dreamina Seedance 2.0 Mini | official product surface | Lower-cost/faster Dreamina web generation lane | Use as Dreamina web-surface evidence only. Do not infer API fields, model IDs, pricing, or 1080p support from marketing copy without checking Volcengine/BytePlus docs or console. |\n| ComfyUI partner node docs | partner workflow docs | T2V, R2V, FLF2V workflows | Useful for workflow vocabulary and surface caveats. Label as ComfyUI-specific rather than universal Seedance behavior. |\n| Third-party wrappers | community/commercial wrapper | Access abstraction | Useful for field patterns and integration ideas only. Do not present wrapper model names, prices, or guardrail behavior as official. |\n| Community prompt corpora | field-observed | Prompt pattern mining | Mine structures, timing syntax, vocab, and failure modes. Do not copy unsafe, IP-sensitive, or real-person examples directly. |",
+      "intent": null
+    },
+    {
+      "id": "EA2",
+      "category": "Excessive Agency",
+      "pattern": "Autonomous Decision Making",
+      "severity": "MEDIUM",
+      "confidence": 0.75,
+      "location": {
+        "file": "skills/seedance-copyright/SKILL.md",
+        "start_line": 48,
+        "end_line": null
+      },
+      "finding": "without consent",
+      "explanation": "Skill enables autonomous high-impact decisions without human-in-the-loop verification. Critical operations (destructive commands, financial transactions, data deletion) should require explicit user confirmation.",
+      "remediation": "Add human-in-the-loop confirmation for destructive, irreversible, or high-impact operations. Never auto-execute commands that modify files, send data, or alter system state.",
+      "code_snippet": "\nIf the user clearly owns the brand, asset, or likeness rights, keep the authorized elements but still preserve them with explicit constraints. If authorization is unclear, ask a short confirmation or provide a safe original rewrite. Do not assume rights from an uploaded image, song, or video.\n\nFor real human faces, portraits, or voices, separate three questions: does the active surface support the input, does the user have authorization, and does the prompt avoid imitation of a public figure or private person without consent. Some surfaces use verified virtual portrait assets or authorization flows; do not collapse those into a universal allow or deny rule.\n\n## Safe Replacement Example\n",
+      "intent": null
+    },
+    {
+      "id": "OH1",
+      "category": "Output Handling",
+      "pattern": "Unvalidated Output Injection",
+      "severity": "HIGH",
+      "confidence": 0.95,
+      "location": {
+        "file": "tests/test_behavior_contract.py",
+        "start_line": 14,
+        "end_line": null
+      },
+      "finding": "subprocess.run(\n            [sys.executable, \"scripts/behavior_contract_check.py\", \"--strict\"],\n            cwd=ROOT,\n            text=True,\n            capture_output",
+      "explanation": "Model output is used without validation or sanitization. Unvalidated output injected into downstream contexts (SQL, shell, HTML) enables injection attacks and arbitrary code execution.",
+      "remediation": "Validate and sanitize all model output before using it in downstream contexts. Use parameterized queries for SQL, shell quoting for commands, and HTML encoding for web output.",
+      "code_snippet": "\nclass BehaviorContractTests(unittest.TestCase):\n    def test_behavior_contract_is_present(self) -> None:\n        result = subprocess.run(\n            [sys.executable, \"scripts/behavior_contract_check.py\", \"--strict\"],\n            cwd=ROOT,\n            text=True,",
+      "intent": null
+    },
+    {
+      "id": "OH1",
+      "category": "Output Handling",
+      "pattern": "Unvalidated Output Injection",
+      "severity": "HIGH",
+      "confidence": 0.95,
+      "location": {
+        "file": "tests/test_continuity_chain.py",
+        "start_line": 14,
+        "end_line": null
+      },
+      "finding": "subprocess.run(\n            [sys.executable, \"scripts/continuity_chain_check.py\", \"--strict\"],\n            cwd=ROOT,\n            text=True,\n            capture_output",
+      "explanation": "Model output is used without validation or sanitization. Unvalidated output injected into downstream contexts (SQL, shell, HTML) enables injection attacks and arbitrary code execution.",
+      "remediation": "Validate and sanitize all model output before using it in downstream contexts. Use parameterized queries for SQL, shell quoting for commands, and HTML encoding for web output.",
+      "code_snippet": "\nclass ContinuityChainTests(unittest.TestCase):\n    def test_continuity_chain_examples_validate(self) -> None:\n        result = subprocess.run(\n            [sys.executable, \"scripts/continuity_chain_check.py\", \"--strict\"],\n            cwd=ROOT,\n            text=True,",
+      "intent": null
+    },
+    {
+      "id": "OH1",
+      "category": "Output Handling",
+      "pattern": "Unvalidated Output Injection",
+      "severity": "HIGH",
+      "confidence": 0.95,
+      "location": {
+        "file": "tests/test_generation_run_check.py",
+        "start_line": 14,
+        "end_line": null
+      },
+      "finding": "subprocess.run(\n            [sys.executable, \"scripts/generation_run_check.py\", \"--strict\"],\n            cwd=ROOT,\n            text=True,\n            capture_output",
+      "explanation": "Model output is used without validation or sanitization. Unvalidated output injected into downstream contexts (SQL, shell, HTML) enables injection attacks and arbitrary code execution.",
+      "remediation": "Validate and sanitize all model output before using it in downstream contexts. Use parameterized queries for SQL, shell quoting for commands, and HTML encoding for web output.",
+      "code_snippet": "\nclass GenerationRunTests(unittest.TestCase):\n    def test_generation_run_fixtures_validate(self) -> None:\n        result = subprocess.run(\n            [sys.executable, \"scripts/generation_run_check.py\", \"--strict\"],\n            cwd=ROOT,\n            text=True,",
+      "intent": null
+    },
+    {
+      "id": "OH1",
+      "category": "Output Handling",
+      "pattern": "Unvalidated Output Injection",
+      "severity": "HIGH",
+      "confidence": 0.95,
+      "location": {
+        "file": "tests/test_project_state.py",
+        "start_line": 14,
+        "end_line": null
+      },
+      "finding": "subprocess.run(\n            [sys.executable, \"scripts/project_state_check.py\", \"--strict\"],\n            cwd=ROOT,\n            text=True,\n            capture_output",
+      "explanation": "Model output is used without validation or sanitization. Unvalidated output injected into downstream contexts (SQL, shell, HTML) enables injection attacks and arbitrary code execution.",
+      "remediation": "Validate and sanitize all model output before using it in downstream contexts. Use parameterized queries for SQL, shell quoting for commands, and HTML encoding for web output.",
+      "code_snippet": "\nclass ProjectStateTests(unittest.TestCase):\n    def test_project_state_examples_validate(self) -> None:\n        result = subprocess.run(\n            [sys.executable, \"scripts/project_state_check.py\", \"--strict\"],\n            cwd=ROOT,\n            text=True,",
+      "intent": null
+    },
+    {
+      "id": "OH1",
+      "category": "Output Handling",
+      "pattern": "Unvalidated Output Injection",
+      "severity": "HIGH",
+      "confidence": 0.95,
+      "location": {
+        "file": "tests/test_prompt_lint.py",
+        "start_line": 14,
+        "end_line": null
+      },
+      "finding": "subprocess.run(\n            [sys.executable, \"scripts/prompt_lint.py\", \"--self-test\", \"--strict\"],\n            cwd=ROOT,\n            text=True,\n            capture_output",
+      "explanation": "Model output is used without validation or sanitization. Unvalidated output injected into downstream contexts (SQL, shell, HTML) enables injection attacks and arbitrary code execution.",
+      "remediation": "Validate and sanitize all model output before using it in downstream contexts. Use parameterized queries for SQL, shell quoting for commands, and HTML encoding for web output.",
+      "code_snippet": "\nclass PromptLintTests(unittest.TestCase):\n    def test_prompt_lint_self_test_and_examples(self) -> None:\n        result = subprocess.run(\n            [sys.executable, \"scripts/prompt_lint.py\", \"--self-test\", \"--strict\"],\n            cwd=ROOT,\n            text=True,",
+      "intent": null
+    },
+    {
+      "id": "OH1",
+      "category": "Output Handling",
+      "pattern": "Unvalidated Output Injection",
+      "severity": "HIGH",
+      "confidence": 0.95,
+      "location": {
+        "file": "tests/test_sequence_eval.py",
+        "start_line": 14,
+        "end_line": null
+      },
+      "finding": "subprocess.run(\n            [sys.executable, \"scripts/sequence_eval_check.py\", \"--strict\"],\n            cwd=ROOT,\n            text=True,\n            capture_output",
+      "explanation": "Model output is used without validation or sanitization. Unvalidated output injected into downstream contexts (SQL, shell, HTML) enables injection attacks and arbitrary code execution.",
+      "remediation": "Validate and sanitize all model output before using it in downstream contexts. Use parameterized queries for SQL, shell quoting for commands, and HTML encoding for web output.",
+      "code_snippet": "\nclass SequenceEvalTests(unittest.TestCase):\n    def test_sequence_eval_schema(self) -> None:\n        result = subprocess.run(\n            [sys.executable, \"scripts/sequence_eval_check.py\", \"--strict\"],\n            cwd=ROOT,\n            text=True,",
+      "intent": null
+    },
+    {
+      "id": "P2",
+      "category": "Prompt Injection",
+      "pattern": "Hidden Instructions",
+      "severity": "HIGH",
+      "confidence": 0.7,
+      "location": {
+        "file": "assets/skill-map.svg",
+        "start_line": 23,
+        "end_line": null
+      },
+      "finding": "<!-- GATES column -->\n  <text x=\"72\" y=\"116\" class=\"grp\">GATES</text>\n  <g>\n    <rect x=\"72\" y=\"132\" width=\"220\" height=\"34\" class=\"box\"/><text x=\"86\" y=\"154\" class=\"item-b\">SOURCE</text><text x=\"196\"",
+      "explanation": "Hidden instructions were detected in comments or invisible text. These could contain malicious directives. Manual review is recommended.",
+      "remediation": "Audit all comments and invisible characters. Remove any instructions that direct the agent to perform unauthorized actions. Use plain, reviewable content.",
+      "code_snippet": "  <text x=\"72\" y=\"52\" class=\"h1\">SEEDANCE 2.0 SKILL OS \u2014 OPERATING DIAGRAM</text>\n  <line x1=\"72\" y1=\"70\" x2=\"1128\" y2=\"70\" class=\"hair\"/>\n\n  <!-- GATES column -->\n  <text x=\"72\" y=\"116\" class=\"grp\">GATES</text>\n  <g>\n    <rect x=\"72\" y=\"132\" width=\"220\" height=\"34\" class=\"box\"/><text x=\"86\" y=\"154\" class=\"item-b\">SOURCE</text><text x=\"196\" y=\"154\" class=\"item\">api-status</text>",
+      "intent": null
+    },
+    {
+      "id": "P2",
+      "category": "Prompt Injection",
+      "pattern": "Hidden Instructions",
+      "severity": "HIGH",
+      "confidence": 0.7,
+      "location": {
+        "file": "assets/skill-map.svg",
+        "start_line": 38,
+        "end_line": null
+      },
+      "finding": "<!-- ROOT -->\n  <rect x=\"430\" y=\"216\" width=\"340\" height=\"108\" class=\"boxa\"/>\n  <text x=\"600\" y=\"268\" text-anchor=\"middle\" class=\"root\">seedance-20</text>\n  <text x=\"600\" y=\"300\" text-anchor=\"middle\" ",
+      "explanation": "Hidden instructions were detected in comments or invisible text. These could contain malicious directives. Manual review is recommended.",
+      "remediation": "Audit all comments and invisible characters. Remove any instructions that direct the agent to perform unauthorized actions. Use plain, reviewable content.",
+      "code_snippet": "  <!-- connectors gates -> root -->\n  <line x1=\"292\" y1=\"270\" x2=\"430\" y2=\"270\" class=\"hair\"/>\n\n  <!-- ROOT -->\n  <rect x=\"430\" y=\"216\" width=\"340\" height=\"108\" class=\"boxa\"/>\n  <text x=\"600\" y=\"268\" text-anchor=\"middle\" class=\"root\">seedance-20</text>\n  <text x=\"600\" y=\"300\" text-anchor=\"middle\" class=\"item\">OPERATING LOOP \u00b7 LOAD MAP</text>",
+      "intent": null
+    },
+    {
+      "id": "P1",
+      "category": "Prompt Injection",
+      "pattern": "Instruction Override",
+      "severity": "HIGH",
+      "confidence": 0.9,
+      "location": {
+        "file": "references/filter-vocab.md",
+        "start_line": 3,
+        "end_line": null
+      },
+      "finding": "bypass safety",
+      "explanation": "This pattern attempts to override system instructions or ignore safety constraints. Without LLM analysis, manual review is recommended.",
+      "remediation": "Remove or rewrite any text that instructs the agent to ignore prompts, override safety rules, or trust unverified content. Ensure skill content cannot be injected to alter agent behavior.",
+      "code_snippet": "# Filter-Safe Vocabulary\n\nUse professional, non-graphic, production-context language. Do not use this reference to bypass safety systems.\n\n| Risky surface | Safer production wording |\n|---|---|",
+      "intent": null
+    },
+    {
+      "id": "P1",
+      "category": "Prompt Injection",
+      "pattern": "Instruction Override",
+      "severity": "HIGH",
+      "confidence": 0.9,
+      "location": {
+        "file": "references/migrated/v5.2-legacy-skill-bodies/seedance-filter.md",
+        "start_line": 25,
+        "end_line": null
+      },
+      "finding": "bypass safety",
+      "explanation": "This pattern attempts to override system instructions or ignore safety constraints. Without LLM analysis, manual review is recommended.",
+      "remediation": "Remove or rewrite any text that instructs the agent to ignore prompts, override safety rules, or trust unverified content. Ensure skill content cannot be injected to alter agent behavior.",
+      "code_snippet": "\n# seedance-filter\n\nUse this skill when a prompt is blocked, degraded, or likely to trigger content filters. The job is not to bypass safety systems; it is to preserve legitimate creative intent with safer surface wording.\n\nDiagnostic questions:\n1. Is the risk identity-based: celebrity, public figure, named character, brand, logo, voice, or face?",
+      "intent": null
+    },
+    {
+      "id": "P1",
+      "category": "Prompt Injection",
+      "pattern": "Instruction Override",
+      "severity": "HIGH",
+      "confidence": 0.9,
+      "location": {
+        "file": "skills/seedance-filter/SKILL.md",
+        "start_line": 39,
+        "end_line": null
+      },
+      "finding": "bypass safety",
+      "explanation": "This pattern attempts to override system instructions or ignore safety constraints. Without LLM analysis, manual review is recommended.",
+      "remediation": "Remove or rewrite any text that instructs the agent to ignore prompts, override safety rules, or trust unverified content. Ensure skill content cannot be injected to alter agent behavior.",
+      "code_snippet": "2. Identify risky surface wording: graphic harm, protected identity, sexualized framing, real-person likeness, weapons, self-harm, hate, evasion language, or exact IP copying.\n3. Replace risky terms with professional, non-graphic, production-context language.\n4. Preserve composition, action, mood, camera logic, and authorized references.\n5. For likely false positives, clarify benign production context, ownership, and non-graphic intent. Do not help bypass safety systems or provide evasion tactics.\n\n## Safer Rewrite Patterns\n",
+      "intent": null
+    },
+    {
+      "id": "RA1",
+      "category": "Rogue Agent",
+      "pattern": "Self-Modification",
+      "severity": "HIGH",
+      "confidence": 0.85,
+      "location": {
+        "file": "CHANGELOG.md",
+        "start_line": 76,
+        "end_line": null
+      },
+      "finding": "write skill",
+      "explanation": "Skill modifies its own code, configuration, or behavior at runtime. Self-modification enables an agent to escalate privileges, disable safety constraints, or install persistent backdoors.",
+      "remediation": "Prevent the skill from modifying its own code, SKILL.md, or configuration files. Treat skill files as read-only at runtime.",
+      "code_snippet": "### Added\n\n- Added full native-reader entry docs for Chinese, Japanese, and Korean: `docs/README.zh.md`, `docs/README.ja.md`, and `docs/README.ko.md`.\n- Added `seedance-examples-ja` and `seedance-examples-ko` so Japanese and Korean users have active example/rewrite skills, not only vocabulary translation.\n- Added CJK sequence/continuation, accepted-footage, textless-localization, and safety rewrite phrases to the active Chinese, Japanese, and Korean vocabulary references.\n- Added eval coverage for the CJK front page, Japanese examples, Korean examples, and localized CJK continuation behavior.\n",
+      "intent": null
+    },
+    {
+      "id": "RA2",
+      "category": "Rogue Agent",
+      "pattern": "Session Persistence",
+      "severity": "MEDIUM",
+      "confidence": 0.6,
+      "location": {
+        "file": "CHANGELOG.md",
+        "start_line": 76,
+        "end_line": null
+      },
+      "finding": "write skills, not only vocabulary translation.\n- Added CJK sequence/continuation, accepted-footage, textless-localization, and safety rewrite phrases to the active Chinese, Japanese, and Korean vocabu",
+      "explanation": "Skill establishes unauthorized persistence across sessions via cron jobs, startup scripts, or state files. Session persistence allows an attacker to maintain access beyond the current interaction.",
+      "remediation": "Remove any persistence mechanisms (cron jobs, startup scripts, state files). Skills should not maintain state across sessions without explicit user consent.",
+      "code_snippet": "### Added\n\n- Added full native-reader entry docs for Chinese, Japanese, and Korean: `docs/README.zh.md`, `docs/README.ja.md`, and `docs/README.ko.md`.\n- Added `seedance-examples-ja` and `seedance-examples-ko` so Japanese and Korean users have active example/rewrite skills, not only vocabulary translation.\n- Added CJK sequence/continuation, accepted-footage, textless-localization, and safety rewrite phrases to the active Chinese, Japanese, and Korean vocabulary references.\n- Added eval coverage for the CJK front page, Japanese examples, Korean examples, and localized CJK continuation behavior.\n",
+      "intent": null
+    }
+  ],
+  "metadata": {
+    "has_executable_scripts": true,
+    "skillspector_version": "2.1.4",
+    "llm_requested": false,
+    "llm_available": false
+  }
+}

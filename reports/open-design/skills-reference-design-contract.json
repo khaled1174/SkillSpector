@@ -1,0 +1,77 @@
+{
+  "skill": {
+    "name": "reference-design-contract",
+    "source": "/private/tmp/open-design-review/skills/reference-design-contract",
+    "scanned_at": "2026-06-17T14:40:01.922234+00:00"
+  },
+  "risk_assessment": {
+    "score": 35,
+    "severity": "MEDIUM",
+    "recommendation": "CAUTION"
+  },
+  "components": [
+    {
+      "path": "SKILL.md",
+      "type": "markdown",
+      "lines": 130,
+      "executable": false,
+      "size_bytes": 5367
+    },
+    {
+      "path": "example.html",
+      "type": "other",
+      "lines": 236,
+      "executable": false,
+      "size_bytes": 5848
+    },
+    {
+      "path": "references/checklist.md",
+      "type": "markdown",
+      "lines": 26,
+      "executable": false,
+      "size_bytes": 1135
+    }
+  ],
+  "issues": [
+    {
+      "id": "EA2",
+      "category": "Excessive Agency",
+      "pattern": "Autonomous Decision Making",
+      "severity": "MEDIUM",
+      "confidence": 0.75,
+      "location": {
+        "file": "references/checklist.md",
+        "start_line": 18,
+        "end_line": null
+      },
+      "finding": "without asking",
+      "explanation": "Skill enables autonomous high-impact decisions without human-in-the-loop verification. Critical operations (destructive commands, financial transactions, data deletion) should require explicit user confirmation.",
+      "remediation": "Add human-in-the-loop confirmation for destructive, irreversible, or high-impact operations. Never auto-execute commands that modify files, send data, or alter system state.",
+      "code_snippet": "\n## Quality bar\n\nThe contract should let a second agent build the first artifact without asking:\n\n- What is the product or surface?\n- What should be preserved from the references?",
+      "intent": null
+    },
+    {
+      "id": "P6",
+      "category": "System Prompt Leakage",
+      "pattern": "Direct Prompt Extraction",
+      "severity": "HIGH",
+      "confidence": 0.85,
+      "location": {
+        "file": "SKILL.md",
+        "start_line": 121,
+        "end_line": null
+      },
+      "finding": "Output rules",
+      "explanation": "Skill contains instructions that could directly expose system prompts, internal rules, or hidden instructions to users or external parties.",
+      "remediation": "Remove any instructions that reveal, print, or output system prompts or internal rules. System instructions should never be exposed to end users.",
+      "code_snippet": "8. **Validate.** Read `references/checklist.md` and satisfy every P0 gate\n   before final handoff.\n\n## Output rules\n\n- Make every claim traceable to user input, observed reference evidence, or an\n  explicitly labeled inference.",
+      "intent": null
+    }
+  ],
+  "metadata": {
+    "has_executable_scripts": false,
+    "skillspector_version": "2.1.4",
+    "llm_requested": false,
+    "llm_available": false
+  }
+}

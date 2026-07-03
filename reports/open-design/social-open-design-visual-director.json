@@ -1,0 +1,42 @@
+{
+  "skill": {
+    "name": "open-design-visual-director",
+    "source": "/Users/khaledmac/project/social-media-agent/.claude/skills/open-design-visual-director",
+    "scanned_at": "2026-06-17T14:46:28.652526+00:00"
+  },
+  "risk_assessment": {
+    "score": 0,
+    "severity": "LOW",
+    "recommendation": "SAFE"
+  },
+  "components": [
+    {
+      "path": "SKILL.md",
+      "type": "markdown",
+      "lines": 137,
+      "executable": false,
+      "size_bytes": 6318
+    },
+    {
+      "path": "references/open-design-curated-stack.md",
+      "type": "markdown",
+      "lines": 101,
+      "executable": false,
+      "size_bytes": 5880
+    },
+    {
+      "path": "references/open-design-design-systems.md",
+      "type": "markdown",
+      "lines": 111,
+      "executable": false,
+      "size_bytes": 3374
+    }
+  ],
+  "issues": [],
+  "metadata": {
+    "has_executable_scripts": false,
+    "skillspector_version": "2.1.4",
+    "llm_requested": false,
+    "llm_available": false
+  }
+}

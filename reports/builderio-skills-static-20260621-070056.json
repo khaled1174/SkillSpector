@@ -1,0 +1,534 @@
+{
+  "skill": {
+    "name": "unknown",
+    "source": "/private/tmp/builderio-skills-review-20260621-070053",
+    "scanned_at": "2026-06-21T04:01:00.183245+00:00"
+  },
+  "risk_assessment": {
+    "score": 100,
+    "severity": "CRITICAL",
+    "recommendation": "DO_NOT_INSTALL"
+  },
+  "components": [
+    {
+      "path": ".agents/skills/adding-a-skill/SKILL.md",
+      "type": "markdown",
+      "lines": 128,
+      "executable": false,
+      "size_bytes": 5288
+    },
+    {
+      "path": ".agents/skills/adding-a-skill/agents/openai.yaml",
+      "type": "yaml",
+      "lines": 4,
+      "executable": false,
+      "size_bytes": 198
+    },
+    {
+      "path": ".claude-plugin/plugin.json",
+      "type": "json",
+      "lines": 14,
+      "executable": false,
+      "size_bytes": 557
+    },
+    {
+      "path": ".codex-plugin/plugin.json",
+      "type": "json",
+      "lines": 28,
+      "executable": false,
+      "size_bytes": 1336
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "type": "yaml",
+      "lines": 27,
+      "executable": false,
+      "size_bytes": 698
+    },
+    {
+      "path": ".github/workflows/update-agent-native-plan-skills.yml",
+      "type": "yaml",
+      "lines": 137,
+      "executable": false,
+      "size_bytes": 5172
+    },
+    {
+      "path": "LICENSE",
+      "type": "other",
+      "lines": 21,
+      "executable": false,
+      "size_bytes": 1067
+    },
+    {
+      "path": "README.md",
+      "type": "markdown",
+      "lines": 192,
+      "executable": false,
+      "size_bytes": 7317
+    },
+    {
+      "path": "media/visual-plan.png",
+      "type": "other",
+      "lines": 6648,
+      "executable": false,
+      "size_bytes": 245648
+    },
+    {
+      "path": "media/visual-recap.gif",
+      "type": "other",
+      "lines": 94649,
+      "executable": false,
+      "size_bytes": 3114932
+    },
+    {
+      "path": "package.json",
+      "type": "json",
+      "lines": 12,
+      "executable": false,
+      "size_bytes": 498
+    },
+    {
+      "path": "scripts/sync-agent-native-plan-skills.mjs",
+      "type": "other",
+      "lines": 165,
+      "executable": false,
+      "size_bytes": 4995
+    },
+    {
+      "path": "skills/agent-watchdog/README.md",
+      "type": "markdown",
+      "lines": 43,
+      "executable": false,
+      "size_bytes": 1378
+    },
+    {
+      "path": "skills/agent-watchdog/SKILL.md",
+      "type": "markdown",
+      "lines": 110,
+      "executable": false,
+      "size_bytes": 4560
+    },
+    {
+      "path": "skills/agent-watchdog/agents/openai.yaml",
+      "type": "yaml",
+      "lines": 4,
+      "executable": false,
+      "size_bytes": 210
+    },
+    {
+      "path": "skills/efficient-fable/README.md",
+      "type": "markdown",
+      "lines": 75,
+      "executable": false,
+      "size_bytes": 2904
+    },
+    {
+      "path": "skills/efficient-fable/SKILL.md",
+      "type": "markdown",
+      "lines": 95,
+      "executable": false,
+      "size_bytes": 3983
+    },
+    {
+      "path": "skills/efficient-fable/assets/fable-orchestrator-dark.png",
+      "type": "other",
+      "lines": 2465,
+      "executable": false,
+      "size_bytes": 111350
+    },
+    {
+      "path": "skills/efficient-fable/assets/fable-orchestrator.excalidraw",
+      "type": "other",
+      "lines": 833,
+      "executable": false,
+      "size_bytes": 19562
+    },
+    {
+      "path": "skills/efficient-fable/assets/fable-orchestrator.png",
+      "type": "other",
+      "lines": 2491,
+      "executable": false,
+      "size_bytes": 111227
+    },
+    {
+      "path": "skills/efficient-frontier/README.md",
+      "type": "markdown",
+      "lines": 53,
+      "executable": false,
+      "size_bytes": 2035
+    },
+    {
+      "path": "skills/efficient-frontier/SKILL.md",
+      "type": "markdown",
+      "lines": 73,
+      "executable": false,
+      "size_bytes": 3413
+    },
+    {
+      "path": "skills/plan-arbiter/README.md",
+      "type": "markdown",
+      "lines": 41,
+      "executable": false,
+      "size_bytes": 1353
+    },
+    {
+      "path": "skills/plan-arbiter/SKILL.md",
+      "type": "markdown",
+      "lines": 114,
+      "executable": false,
+      "size_bytes": 4085
+    },
+    {
+      "path": "skills/plan-arbiter/agents/openai.yaml",
+      "type": "yaml",
+      "lines": 4,
+      "executable": false,
+      "size_bytes": 224
+    },
+    {
+      "path": "skills/plow-ahead/README.md",
+      "type": "markdown",
+      "lines": 42,
+      "executable": false,
+      "size_bytes": 1387
+    },
+    {
+      "path": "skills/plow-ahead/SKILL.md",
+      "type": "markdown",
+      "lines": 104,
+      "executable": false,
+      "size_bytes": 3889
+    },
+    {
+      "path": "skills/plow-ahead/agents/openai.yaml",
+      "type": "yaml",
+      "lines": 4,
+      "executable": false,
+      "size_bytes": 260
+    },
+    {
+      "path": "skills/quick-recap/README.md",
+      "type": "markdown",
+      "lines": 55,
+      "executable": false,
+      "size_bytes": 1442
+    },
+    {
+      "path": "skills/quick-recap/SKILL.md",
+      "type": "markdown",
+      "lines": 54,
+      "executable": false,
+      "size_bytes": 1420
+    },
+    {
+      "path": "skills/read-the-damn-docs/README.md",
+      "type": "markdown",
+      "lines": 54,
+      "executable": false,
+      "size_bytes": 2291
+    },
+    {
+      "path": "skills/read-the-damn-docs/SKILL.md",
+      "type": "markdown",
+      "lines": 126,
+      "executable": false,
+      "size_bytes": 7029
+    },
+    {
+      "path": "skills/read-the-damn-docs/agents/openai.yaml",
+      "type": "yaml",
+      "lines": 4,
+      "executable": false,
+      "size_bytes": 215
+    },
+    {
+      "path": "skills/stay-within-limits/README.md",
+      "type": "markdown",
+      "lines": 61,
+      "executable": false,
+      "size_bytes": 2423
+    },
+    {
+      "path": "skills/stay-within-limits/SKILL.md",
+      "type": "markdown",
+      "lines": 83,
+      "executable": false,
+      "size_bytes": 3427
+    },
+    {
+      "path": "skills/visual-plan/README.md",
+      "type": "markdown",
+      "lines": 92,
+      "executable": false,
+      "size_bytes": 3812
+    },
+    {
+      "path": "skills/visual-plan/SKILL.md",
+      "type": "markdown",
+      "lines": 489,
+      "executable": false,
+      "size_bytes": 29697
+    },
+    {
+      "path": "skills/visual-plan/references/canvas.md",
+      "type": "markdown",
+      "lines": 104,
+      "executable": false,
+      "size_bytes": 6854
+    },
+    {
+      "path": "skills/visual-plan/references/document-quality.md",
+      "type": "markdown",
+      "lines": 169,
+      "executable": false,
+      "size_bytes": 11388
+    },
+    {
+      "path": "skills/visual-plan/references/exemplar.md",
+      "type": "markdown",
+      "lines": 62,
+      "executable": false,
+      "size_bytes": 4028
+    },
+    {
+      "path": "skills/visual-plan/references/wireframe.md",
+      "type": "markdown",
+      "lines": 261,
+      "executable": false,
+      "size_bytes": 15620
+    },
+    {
+      "path": "skills/visual-recap/README.md",
+      "type": "markdown",
+      "lines": 103,
+      "executable": false,
+      "size_bytes": 4234
+    },
+    {
+      "path": "skills/visual-recap/SKILL.md",
+      "type": "markdown",
+      "lines": 578,
+      "executable": false,
+      "size_bytes": 35098
+    },
+    {
+      "path": "skills/visual-recap/references/wireframe.md",
+      "type": "markdown",
+      "lines": 261,
+      "executable": false,
+      "size_bytes": 15620
+    }
+  ],
+  "issues": [
+    {
+      "id": "EA3",
+      "category": "Excessive Agency",
+      "pattern": "Scope Creep",
+      "severity": "LOW",
+      "confidence": 0.7,
+      "location": {
+        "file": "LICENSE",
+        "start_line": 16,
+        "end_line": null
+      },
+      "finding": "NOT LIMITED TO",
+      "explanation": "Skill's behavior or capabilities extend beyond its stated purpose. Scope creep allows an agent to perform actions unrelated to its documented functionality, increasing the attack surface.",
+      "remediation": "Limit the skill's scope to its documented purpose. Remove instructions that enable the agent to perform actions outside its stated functionality.",
+      "code_snippet": "copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,",
+      "intent": null
+    },
+    {
+      "id": "EA2",
+      "category": "Excessive Agency",
+      "pattern": "Autonomous Decision Making",
+      "severity": "MEDIUM",
+      "confidence": 0.75,
+      "location": {
+        "file": "README.md",
+        "start_line": 108,
+        "end_line": null
+      },
+      "finding": "without asking",
+      "explanation": "Skill enables autonomous high-impact decisions without human-in-the-loop verification. Critical operations (destructive commands, financial transactions, data deletion) should require explicit user confirmation.",
+      "remediation": "Add human-in-the-loop confirmation for destructive, irreversible, or high-impact operations. Never auto-execute commands that modify files, send data, or alter system state.",
+      "code_snippet": "validation strategy, and final review; use cheaper agents for bounded heavy\nlifting.\n\nSolves for broad work that can be parallelized without asking the most expensive\nmodel to do every scan and every edit itself.\n\n### [`/stay-within-limits`](skills/stay-within-limits/README.md)",
+      "intent": null
+    },
+    {
+      "id": "P2",
+      "category": "Prompt Injection",
+      "pattern": "Hidden Instructions",
+      "severity": "HIGH",
+      "confidence": 0.7,
+      "location": {
+        "file": "skills/visual-plan/references/canvas.md",
+        "start_line": 8,
+        "end_line": null
+      },
+      "finding": "<!-- SHARED-CORE:canvas-surface START -->\n\n**The coordinate rule.** The `surface` locks each artboard's footprint and\naspect \u2014 never set artboard width/height and never use coordinates inside the\nwire",
+      "explanation": "Hidden instructions were detected in comments or invisible text. These could contain malicious directives. Manual review is recommended.",
+      "remediation": "Audit all comments and invisible characters. Remove any instructions that direct the agent to perform unauthorized actions. Use plain, reviewable content.",
+      "code_snippet": "in full before authoring or editing any canvas/artboard content; do not author\ncanvas layouts from memory or paraphrase these rules per mode.\n\n<!-- SHARED-CORE:canvas-surface START -->\n\n**The coordinate rule.** The `surface` locks each artboard's footprint and\naspect \u2014 never set artboard width/height and never use coordinates inside the",
+      "intent": null
+    },
+    {
+      "id": "P2",
+      "category": "Prompt Injection",
+      "pattern": "Hidden Instructions",
+      "severity": "HIGH",
+      "confidence": 0.7,
+      "location": {
+        "file": "skills/visual-plan/references/document-quality.md",
+        "start_line": 9,
+        "end_line": null
+      },
+      "finding": "<!-- SHARED-CORE:document-quality START -->\n\n**The document is a serious technical plan, not marketing.** Write it the way a\nstrong Claude or Codex implementation plan reads: outcome-first, prose-firs",
+      "explanation": "Hidden instructions were detected in comments or invisible text. These could contain malicious directives. Manual review is recommended.",
+      "remediation": "Audit all comments and invisible characters. Remove any instructions that direct the agent to perform unauthorized actions. Use plain, reviewable content.",
+      "code_snippet": "quality bar. Do not write the document from memory or paraphrase these rules per\nmode.\n\n<!-- SHARED-CORE:document-quality START -->\n\n**The document is a serious technical plan, not marketing.** Write it the way a\nstrong Claude or Codex implementation plan reads: outcome-first, prose-first,",
+      "intent": null
+    },
+    {
+      "id": "P2",
+      "category": "Prompt Injection",
+      "pattern": "Hidden Instructions",
+      "severity": "HIGH",
+      "confidence": 0.7,
+      "location": {
+        "file": "skills/visual-plan/references/exemplar.md",
+        "start_line": 7,
+        "end_line": null
+      },
+      "finding": "<!-- SHARED-CORE:exemplar START -->\n\n**GOOD.** A UI-first plan for a todo app: a canvas with a `desktop` artboard whose\n`data.html` is a real flex layout \u2014 a sidebar of links (`Inbox 12`, `Today 4`,\n`",
+      "explanation": "Hidden instructions were detected in comments or invisible text. These could contain malicious directives. Manual review is recommended.",
+      "remediation": "Audit all comments and invisible characters. Remove any instructions that direct the agent to perform unauthorized actions. Use plain, reviewable content.",
+      "code_snippet": "to avoid). Read it alongside the document-quality and canvas references before\nauthoring a plan; it is the bar these plans must clear.\n\n<!-- SHARED-CORE:exemplar START -->\n\n**GOOD.** A UI-first plan for a todo app: a canvas with a `desktop` artboard whose\n`data.html` is a real flex layout \u2014 a sidebar of links (`Inbox 12`, `Today 4`,",
+      "intent": null
+    },
+    {
+      "id": "P2",
+      "category": "Prompt Injection",
+      "pattern": "Hidden Instructions",
+      "severity": "HIGH",
+      "confidence": 0.7,
+      "location": {
+        "file": "skills/visual-plan/references/wireframe.md",
+        "start_line": 8,
+        "end_line": null
+      },
+      "finding": "<!-- SHARED-CORE:wireframe-quality START -->\n\n**A wireframe is an HTML mockup. The renderer owns the look; you write the\ncontent.** Set `data.html` to a self-contained, semantic HTML fragment of the\ns",
+      "explanation": "Hidden instructions were detected in comments or invisible text. These could contain malicious directives. Manual review is recommended.",
+      "remediation": "Audit all comments and invisible characters. Remove any instructions that direct the agent to perform unauthorized actions. Use plain, reviewable content.",
+      "code_snippet": "`/visual-recap`. Read it in full before authoring ANY wireframe; do not\nauthor wireframes from memory or paraphrase these rules per command.\n\n<!-- SHARED-CORE:wireframe-quality START -->\n\n**A wireframe is an HTML mockup. The renderer owns the look; you write the\ncontent.** Set `data.html` to a self-contained, semantic HTML fragment of the",
+      "intent": null
+    },
+    {
+      "id": "P2",
+      "category": "Prompt Injection",
+      "pattern": "Hidden Instructions",
+      "severity": "HIGH",
+      "confidence": 0.7,
+      "location": {
+        "file": "skills/visual-recap/references/wireframe.md",
+        "start_line": 8,
+        "end_line": null
+      },
+      "finding": "<!-- SHARED-CORE:wireframe-quality START -->\n\n**A wireframe is an HTML mockup. The renderer owns the look; you write the\ncontent.** Set `data.html` to a self-contained, semantic HTML fragment of the\ns",
+      "explanation": "Hidden instructions were detected in comments or invisible text. These could contain malicious directives. Manual review is recommended.",
+      "remediation": "Audit all comments and invisible characters. Remove any instructions that direct the agent to perform unauthorized actions. Use plain, reviewable content.",
+      "code_snippet": "`/visual-recap`. Read it in full before authoring ANY wireframe; do not\nauthor wireframes from memory or paraphrase these rules per command.\n\n<!-- SHARED-CORE:wireframe-quality START -->\n\n**A wireframe is an HTML mockup. The renderer owns the look; you write the\ncontent.** Set `data.html` to a self-contained, semantic HTML fragment of the",
+      "intent": null
+    },
+    {
+      "id": "TM1",
+      "category": "Tool Misuse",
+      "pattern": "Tool Parameter Abuse",
+      "severity": "HIGH",
+      "confidence": 0.7,
+      "location": {
+        "file": ".github/workflows/update-agent-native-plan-skills.yml",
+        "start_line": 94,
+        "end_line": null
+      },
+      "finding": "git push --force",
+      "explanation": "Tool parameters are crafted to achieve unintended or unsafe behavior. Parameter abuse can bypass intended safety checks (e.g. shell=True, --force, dangerous glob patterns).",
+      "remediation": "Validate all tool parameters against an allowlist. Reject dangerous parameter values (shell=True, --force, -rf /) and use safe defaults.",
+      "code_snippet": "          git checkout -B \"$UPDATE_BRANCH\"\n          git add skills/visual-plan skills/visual-recap\n          git commit -m \"chore: update Agent Native visual skills\"\n          git push --force-with-lease origin \"$UPDATE_BRANCH\"\n\n      - name: Open or update PR\n        if: steps.diff.outputs.changed == 'true'",
+      "intent": null
+    },
+    {
+      "id": "TM1",
+      "category": "Tool Misuse",
+      "pattern": "Tool Parameter Abuse",
+      "severity": "HIGH",
+      "confidence": 0.85,
+      "location": {
+        "file": "media/visual-plan.png",
+        "start_line": 480,
+        "end_line": null
+      },
+      "finding": "rm\u06f6\u001d/",
+      "explanation": "Tool parameters are crafted to achieve unintended or unsafe behavior. Parameter abuse can bypass intended safety checks (e.g. shell=True, --force, dangerous glob patterns).",
+      "remediation": "Validate all tool parameters against an allowlist. Reject dangerous parameter values (shell=True, --force, -rf /) and use safe defaults.",
+      "code_snippet": "\ufffd\u055f}\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd6V:\ufffdV\ufffdJ\ufffd\nB\ufffdM\ufffd\ufffdb`W\ufffd5k\u05b0\ufffd\u0018\ufffd\u04b6m\ufffdF\u001b7n\ufffd\ufffdK\ufffdP\ufffd\u0006\n\u0005\ufffdV\ufffdb\ufffd\ufffd[\ufffdAk\u007fK/\ufffd1\ufffd\u0012!\ufffd\ufffd\u0005e\ufffd)\u0001\ufffd-\u0013V\ufffd\ufffdD\ufffd\ufffd#\ufffd\u007f\ufffd\t`\ufffde\ufffd\ufffd\ufffd}\ufffd\ufffd\ufffdN\ufffdaU\ufffdN\u00049\ufffdl\ufffd\ufffd\ufffdXx\n\u0010\n-\ufffdm\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u07c7^{\ufffdE\u001a2x0}\ufffd\ufffd\u000f\ufffdUp\u06ed\ufffd\b\ufffd\ufffd#\ufffd]\ufffd\u0016\ufffd\ufffd\ufffdg\u06b9sW\ufffd\ufffd\ufffd\ufffdr#\ufffdu\ufffdmLJ\ufffd\u07b5\ufffd\ufffdx\ufffd\u0015\ufffd\u0019\u069e6m\ufffdD\ufffd7o\ufffd{p\nV\n\u000f<p\u000fA",
+      "intent": null
+    },
+    {
+      "id": "TM1",
+      "category": "Tool Misuse",
+      "pattern": "Tool Parameter Abuse",
+      "severity": "HIGH",
+      "confidence": 0.85,
+      "location": {
+        "file": "media/visual-plan.png",
+        "start_line": 1156,
+        "end_line": null
+      },
+      "finding": "rm\ufffd\ufffd\ufffd\ufffd \ufffd\ufffd\ufffd/",
+      "explanation": "Tool parameters are crafted to achieve unintended or unsafe behavior. Parameter abuse can bypass intended safety checks (e.g. shell=True, --force, dangerous glob patterns).",
+      "remediation": "Validate all tool parameters against an allowlist. Reject dangerous parameter values (shell=True, --force, -rf /) and use safe defaults.",
+      "code_snippet": "z\ufffd\udae3\udfd1\u0016\u0016\ufffd\u0019\u0019\ufffd\ufffd\ufffd \ufffdP\ufffd\ufffd\ufffd\ufffd\ufffd\u0319\ufffd_\u0007\ufffd\ufffd\n\u0005\ufffd\ufffdG\ufffd?\ufffd7\ufffd\nB~\u06f6m\ufffd\ufffd\u0016j\ufffd\ufffd\ufffd\u0018\ufffd\ufffd&N\ufffd\ufffd\ufffd\ufffd\ufffd\u0017\ufffd\u04a7\ufffd~\u0124\u001bbj \u000eW(\ufffd\ufffdQ\ufffd \ufffd\ufffd\u0001u\u0005\ufffd\u0014\n1\ufffdE\ufffd\ufffdx\u0012B>\u05ad[K\u001b6\ufffd\u0017\ufffdwq\ufffd\ufffd7\ufffd\ufffdS\ufffd\ufffd!v\ufffd?g%\u001b\u0013(\u028a2\ufffd&\ufffdclF=q\ufffdo\ufffd\ufffd\ufffd\ufffd\n\u07ff\ufffd\ufffd\u000f\ufffd\u0017;3\u0013\ufffd\ufffd\u6adb\ufffdB\ufffd0\u048f\u0004\ufffd\u000f\ufffd\nu\ufffd|\u0007>\ufffd\ufffdy\ufffd\ufffdG\ufffd\u0233\ufffd\ufffd\u0000\ufffd-\ufffdy\ufffd\ufffd\u065c?_\ufffd\ufffd\ufffd\ufffd}{\ufffd\u0728\ufffdP\ufffd\ufffd\u039d;\ufffd\n\ufffd\ufffd",
+      "intent": null
+    },
+    {
+      "id": "TM1",
+      "category": "Tool Misuse",
+      "pattern": "Tool Parameter Abuse",
+      "severity": "HIGH",
+      "confidence": 0.85,
+      "location": {
+        "file": "scripts/sync-agent-native-plan-skills.mjs",
+        "start_line": 2,
+        "end_line": null
+      },
+      "finding": "rm, writeFile } from \"node:fs/",
+      "explanation": "Tool parameters are crafted to achieve unintended or unsafe behavior. Parameter abuse can bypass intended safety checks (e.g. shell=True, --force, dangerous glob patterns).",
+      "remediation": "Validate all tool parameters against an allowlist. Reject dangerous parameter values (shell=True, --force, -rf /) and use safe defaults.",
+      "code_snippet": "#!/usr/bin/env node\nimport { cp, mkdir, readdir, readFile, rm, writeFile } from \"node:fs/promises\";\nimport { existsSync } from \"node:fs\";\nimport path from \"node:path\";\nimport { fileURLToPath } from \"node:url\";",
+      "intent": null
+    },
+    {
+      "id": "TM1",
+      "category": "Tool Misuse",
+      "pattern": "Tool Parameter Abuse",
+      "severity": "HIGH",
+      "confidence": 0.85,
+      "location": {
+        "file": "skills/efficient-fable/assets/fable-orchestrator-dark.png",
+        "start_line": 184,
+        "end_line": null
+      },
+      "finding": "RM}\ufffd\ufffd\u0007\ufffd\ufffdN\ufffd\ufffdi\ufffdo\ufffd\ufffd\ufffd\u0003.\ufffd/\ufffd\ufffd\u0615\ufffd\ufffd\u0012\ufffd\u0007D\\\ufffd\u0000\ufffdF\ufffd9=6\ufffd%\ufffd\ufffd\ufffd\ufffd\ufffdml\ufffd\ufffd\u0004z_</",
+      "explanation": "Tool parameters are crafted to achieve unintended or unsafe behavior. Parameter abuse can bypass intended safety checks (e.g. shell=True, --force, dangerous glob patterns).",
+      "remediation": "Validate all tool parameters against an allowlist. Reject dangerous parameter values (shell=True, --force, -rf /) and use safe defaults.",
+      "code_snippet": "\ufffda\ufffd\ufffd\ufffd\ufffd\ufffdnEZ\ufffdP:\ufffdkv\ufffd\ufffd\n\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u03ac5\ufffd0\ufffd2\n\n\ufffd\b|-\ufffd\ufffd'\ufffd\ufffd\ufffdC\ufffd\ufffd\ufffde\u0000\ufffdp\ufffd,\ufffd\ufffdN\ufffdXzL\ufffd\ufffd\ufffd#\nX\ufffd\ufffd\ufffd\u0019\ufffd\u0015\\\ufffd\ufffd\ufffd%U\ufffd\ufffd]\u001a\u0086\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffdapgP\u0612A\ufffdj\u0019\u0000\ufffdDd\ufffd\u001a\u0155\ufffd\u063f\ufffd[b@\ufffd\u02b3\ufffd\ufffd\u0006\ufffd\u00062\ufffd\u0014\u0378\t\ufffdV\ufffd\ufffd\ufffd\ufffdf\ufffd#?\ufffdi\ufffd\ufffd\n\ufffd;\ufffd\u0012\u000fv\ufffd\u001a\ufffdS\ufffdP\ufffd,\ufffd3\ufffdm\ufffd\ufffdg\ufffd%V\ufffd\ufffd\u3231\ufffd\ufffd;k\ufffd)\ufffd\u00064\ufffd \ufffdA\ufffd\n\ufffdcdl;\ufffd9~\ufffd\u0012,\ufffd\u0015\ufffd[\ufffd\ufffd;g\u000f$_!\ufffd|\ufffd\ufffdn\tr\ufffd\ufffdM\ufffd\ufffd\ufffd\ufffd\ufffd4.B\ufffd\ufffd\ufffd(\u007f\ufffd\u0006\ufffd\u0006\ufffdu\u0325\ufffd\ufffd\ufffd@\ufffd#U<\ufffd\ufffd\ufffdZ\ufffd(N\ufffd\ufffdcm/\ufffdP\u0290(,\ufffdm\ufffd\ufffd\ufffd{K)\ufffd\u001f'\u0006\ufffdm8",
+      "intent": null
+    }
+  ],
+  "metadata": {
+    "has_executable_scripts": false,
+    "skillspector_version": "2.1.4",
+    "llm_requested": false,
+    "llm_available": false
+  }
+}

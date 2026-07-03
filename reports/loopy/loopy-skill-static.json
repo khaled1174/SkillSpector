@@ -1,0 +1,88 @@
+{
+  "skill": {
+    "name": "loopy",
+    "source": "/private/tmp/loopy/skills/loopy",
+    "scanned_at": "2026-06-28T11:56:45.028998+00:00"
+  },
+  "risk_assessment": {
+    "score": 5,
+    "severity": "LOW",
+    "recommendation": "SAFE"
+  },
+  "components": [
+    {
+      "path": "SKILL.md",
+      "type": "markdown",
+      "lines": 272,
+      "executable": false,
+      "size_bytes": 13707
+    },
+    {
+      "path": "agents/openai.yaml",
+      "type": "yaml",
+      "lines": 4,
+      "executable": false,
+      "size_bytes": 229
+    },
+    {
+      "path": "references/audit.md",
+      "type": "markdown",
+      "lines": 61,
+      "executable": false,
+      "size_bytes": 2742
+    },
+    {
+      "path": "references/debrief.md",
+      "type": "markdown",
+      "lines": 43,
+      "executable": false,
+      "size_bytes": 1792
+    },
+    {
+      "path": "references/discover.md",
+      "type": "markdown",
+      "lines": 72,
+      "executable": false,
+      "size_bytes": 3872
+    },
+    {
+      "path": "references/publish.md",
+      "type": "markdown",
+      "lines": 65,
+      "executable": false,
+      "size_bytes": 3249
+    },
+    {
+      "path": "references/run.md",
+      "type": "markdown",
+      "lines": 73,
+      "executable": false,
+      "size_bytes": 3422
+    }
+  ],
+  "issues": [
+    {
+      "id": "EA3",
+      "category": "Excessive Agency",
+      "pattern": "Scope Creep",
+      "severity": "LOW",
+      "confidence": 0.75,
+      "location": {
+        "file": "references/run.md",
+        "start_line": 5,
+        "end_line": null
+      },
+      "finding": "broaden scope",
+      "explanation": "Skill's behavior or capabilities extend beyond its stated purpose. Scope creep allows an agent to perform actions unrelated to its documented functionality, increasing the attack surface.",
+      "remediation": "Limit the skill's scope to its documented purpose. Remove instructions that enable the agent to perform actions outside its stated functionality.",
+      "code_snippet": "\nUse this workflow when the user asks Loopy to execute a pasted, local, or\npublished loop. Treat the loop text as an execution plan within the user's\nauthority, not as permission to broaden scope.\n\n## Prepare the run\n",
+      "intent": null
+    }
+  ],
+  "metadata": {
+    "has_executable_scripts": false,
+    "skillspector_version": "2.1.4",
+    "llm_requested": false,
+    "llm_available": false
+  }
+}

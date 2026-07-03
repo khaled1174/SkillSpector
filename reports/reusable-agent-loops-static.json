@@ -1,0 +1,28 @@
+{
+  "skill": {
+    "name": "reusable-agent-loops",
+    "source": "/private/tmp/reusable-agent-loops",
+    "scanned_at": "2026-06-23T16:18:24.892364+00:00"
+  },
+  "risk_assessment": {
+    "score": 0,
+    "severity": "LOW",
+    "recommendation": "SAFE"
+  },
+  "components": [
+    {
+      "path": "SKILL.md",
+      "type": "markdown",
+      "lines": 240,
+      "executable": false,
+      "size_bytes": 10794
+    }
+  ],
+  "issues": [],
+  "metadata": {
+    "has_executable_scripts": false,
+    "skillspector_version": "2.1.4",
+    "llm_requested": false,
+    "llm_available": false
+  }
+}

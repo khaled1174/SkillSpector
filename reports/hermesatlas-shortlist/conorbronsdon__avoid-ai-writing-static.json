@@ -1,0 +1,258 @@
+{
+  "skill": {
+    "name": "avoid-ai-writing",
+    "source": "/private/tmp/hermesatlas-skill-triage/conorbronsdon__avoid-ai-writing",
+    "scanned_at": "2026-06-26T10:44:42.982835+00:00"
+  },
+  "risk_assessment": {
+    "score": 65,
+    "severity": "HIGH",
+    "recommendation": "DO_NOT_INSTALL"
+  },
+  "components": [
+    {
+      "path": ".claude-plugin/marketplace.json",
+      "type": "json",
+      "lines": 17,
+      "executable": false,
+      "size_bytes": 629
+    },
+    {
+      "path": ".github/PULL_REQUEST_TEMPLATE.md",
+      "type": "markdown",
+      "lines": 13,
+      "executable": false,
+      "size_bytes": 850
+    },
+    {
+      "path": ".github/workflows/detector-test.yml",
+      "type": "yaml",
+      "lines": 23,
+      "executable": false,
+      "size_bytes": 436
+    },
+    {
+      "path": ".github/workflows/plugin-skill-sync.yml",
+      "type": "yaml",
+      "lines": 45,
+      "executable": false,
+      "size_bytes": 1272
+    },
+    {
+      "path": "CHANGELOG.md",
+      "type": "markdown",
+      "lines": 270,
+      "executable": false,
+      "size_bytes": 18747
+    },
+    {
+      "path": "CLAUDE.md",
+      "type": "markdown",
+      "lines": 44,
+      "executable": false,
+      "size_bytes": 3005
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "type": "markdown",
+      "lines": 71,
+      "executable": false,
+      "size_bytes": 3172
+    },
+    {
+      "path": "LICENSE",
+      "type": "other",
+      "lines": 21,
+      "executable": false,
+      "size_bytes": 1071
+    },
+    {
+      "path": "README.md",
+      "type": "markdown",
+      "lines": 352,
+      "executable": false,
+      "size_bytes": 25499
+    },
+    {
+      "path": "SKILL.md",
+      "type": "markdown",
+      "lines": 653,
+      "executable": false,
+      "size_bytes": 61984
+    },
+    {
+      "path": "cursor-rules/README.md",
+      "type": "markdown",
+      "lines": 31,
+      "executable": false,
+      "size_bytes": 1635
+    },
+    {
+      "path": "cursor-rules/avoid-ai-writing.mdc",
+      "type": "other",
+      "lines": 620,
+      "executable": false,
+      "size_bytes": 56288
+    },
+    {
+      "path": "detector/CATEGORIES.md",
+      "type": "markdown",
+      "lines": 102,
+      "executable": false,
+      "size_bytes": 5877
+    },
+    {
+      "path": "detector/README.md",
+      "type": "markdown",
+      "lines": 55,
+      "executable": false,
+      "size_bytes": 2588
+    },
+    {
+      "path": "detector/categories.test.js",
+      "type": "javascript",
+      "lines": 73,
+      "executable": true,
+      "size_bytes": 2482
+    },
+    {
+      "path": "detector/patterns.js",
+      "type": "javascript",
+      "lines": 1661,
+      "executable": true,
+      "size_bytes": 80792
+    },
+    {
+      "path": "detector/patterns.test.js",
+      "type": "javascript",
+      "lines": 781,
+      "executable": true,
+      "size_bytes": 49993
+    },
+    {
+      "path": "docs/demo.gif",
+      "type": "other",
+      "lines": 5468,
+      "executable": false,
+      "size_bytes": 135243
+    },
+    {
+      "path": "docs/social-preview.png",
+      "type": "other",
+      "lines": 620,
+      "executable": false,
+      "size_bytes": 27697
+    },
+    {
+      "path": "package.json",
+      "type": "json",
+      "lines": 20,
+      "executable": false,
+      "size_bytes": 563
+    },
+    {
+      "path": "plugins/avoid-ai-writing/.claude-plugin/plugin.json",
+      "type": "json",
+      "lines": 12,
+      "executable": false,
+      "size_bytes": 505
+    },
+    {
+      "path": "plugins/avoid-ai-writing/skills/avoid-ai-writing/SKILL.md",
+      "type": "markdown",
+      "lines": 653,
+      "executable": false,
+      "size_bytes": 61984
+    },
+    {
+      "path": "scripts/check-pattern-count.sh",
+      "type": "shell",
+      "lines": 41,
+      "executable": true,
+      "size_bytes": 1611
+    },
+    {
+      "path": "scripts/sync-plugin-skill.sh",
+      "type": "shell",
+      "lines": 52,
+      "executable": true,
+      "size_bytes": 1853
+    }
+  ],
+  "issues": [
+    {
+      "id": "LP3",
+      "category": "MCP Least Privilege",
+      "pattern": null,
+      "severity": "MEDIUM",
+      "confidence": 0.7,
+      "location": {
+        "file": "SKILL.md",
+        "start_line": 1,
+        "end_line": null
+      },
+      "finding": null,
+      "explanation": "Without declared permissions the skill's intent is opaque and cannot be validated.",
+      "remediation": "Add a 'permissions' field to SKILL.md listing the capabilities this skill requires.",
+      "code_snippet": null,
+      "intent": null
+    },
+    {
+      "id": "EA3",
+      "category": "Excessive Agency",
+      "pattern": "Scope Creep",
+      "severity": "LOW",
+      "confidence": 0.7,
+      "location": {
+        "file": "LICENSE",
+        "start_line": 16,
+        "end_line": null
+      },
+      "finding": "NOT LIMITED TO",
+      "explanation": "Skill's behavior or capabilities extend beyond its stated purpose. Scope creep allows an agent to perform actions unrelated to its documented functionality, increasing the attack surface.",
+      "remediation": "Limit the skill's scope to its documented purpose. Remove instructions that enable the agent to perform actions outside its stated functionality.",
+      "code_snippet": "copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,",
+      "intent": null
+    },
+    {
+      "id": "RA2",
+      "category": "Rogue Agent",
+      "pattern": "Session Persistence",
+      "severity": "MEDIUM",
+      "confidence": 0.6,
+      "location": {
+        "file": "README.md",
+        "start_line": 5,
+        "end_line": null
+      },
+      "finding": "write content to remove AI writing patterns. A practical skill for any AI agent. Supports detect-only and edit-in-place modes, plus voice profiles.\n\n[![GitHub stars](https://img.shields.io/github/star",
+      "explanation": "Skill establishes unauthorized persistence across sessions via cron jobs, startup scripts, or state files. Session persistence allows an attacker to maintain access beyond the current interaction.",
+      "remediation": "Remove any persistence mechanisms (cron jobs, startup scripts, state files). Skills should not maintain state across sessions without explicit user consent.",
+      "code_snippet": "\n# avoid-ai-writing\n\nAudit & rewrite content to remove AI writing patterns. A practical skill for any AI agent. Supports detect-only and edit-in-place modes, plus voice profiles.\n\n[![GitHub stars](https://img.shields.io/github/stars/conorbronsdon/avoid-ai-writing?style=social)](https://github.com/conorbronsdon/avoid-ai-writing/stargazers)\n[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square)](LICENSE)",
+      "intent": null
+    },
+    {
+      "id": "TM1",
+      "category": "Tool Misuse",
+      "pattern": "Tool Parameter Abuse",
+      "severity": "HIGH",
+      "confidence": 0.85,
+      "location": {
+        "file": "detector/patterns.test.js",
+        "start_line": 98,
+        "end_line": null
+      },
+      "finding": "--no-verify",
+      "explanation": "Tool parameters are crafted to achieve unintended or unsafe behavior. Parameter abuse can bypass intended safety checks (e.g. shell=True, --force, dangerous glob patterns).",
+      "remediation": "Validate all tool parameters against an allowlist. Reject dangerous parameter values (shell=True, --force, -rf /) and use safe defaults.",
+      "code_snippet": "});\n\ntest('em-dash detector ignores CLI flags like --save-dev', () => {\n  const text = 'Run npm install --save-dev and then npm run build --no-verify --silent. Takes about ten seconds on this machine. The package is installed into node_modules directly after the install command completes successfully.';\n  const r = AIDetector.analyzeText(text);\n  const emDashIssues = r.issues.filter((i) => i.type === 'em-dash');\n  assert.equal(emDashIssues.length, 0, 'CLI flags should not count as em dashes');",
+      "intent": null
+    }
+  ],
+  "metadata": {
+    "has_executable_scripts": true,
+    "skillspector_version": "2.1.4",
+    "llm_requested": false,
+    "llm_available": false
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "skill": {
+    "name": "leadership-assessment-readiness",
+    "source": "/Users/khaledmac/.hermes/skills/leadership-assessment-readiness",
+    "scanned_at": "2026-06-22T17:39:04.738255+00:00"
+  },
+  "risk_assessment": {
+    "score": 0,
+    "severity": "LOW",
+    "recommendation": "SAFE"
+  },
+  "components": [
+    {
+      "path": "SKILL.md",
+      "type": "markdown",
+      "lines": 113,
+      "executable": false,
+      "size_bytes": 11324
+    },
+    {
+      "path": "references/cognitive-drill-bank.md",
+      "type": "markdown",
+      "lines": 93,
+      "executable": false,
+      "size_bytes": 5846
+    },
+    {
+      "path": "references/leadership-profile-worksheet.md",
+      "type": "markdown",
+      "lines": 77,
+      "executable": false,
+      "size_bytes": 5430
+    }
+  ],
+  "issues": [],
+  "metadata": {
+    "has_executable_scripts": false,
+    "skillspector_version": "2.1.4",
+    "llm_requested": false,
+    "llm_available": false
+  }
+}

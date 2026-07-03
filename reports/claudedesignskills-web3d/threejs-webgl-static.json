@@ -1,0 +1,95 @@
+{
+  "skill": {
+    "name": "threejs-webgl",
+    "source": "/private/tmp/claudedesignskills-inspect/.claude/skills/threejs-webgl",
+    "scanned_at": "2026-06-19T11:15:37.807472+00:00"
+  },
+  "risk_assessment": {
+    "score": 13,
+    "severity": "LOW",
+    "recommendation": "SAFE"
+  },
+  "components": [
+    {
+      "path": "SKILL.md",
+      "type": "markdown",
+      "lines": 581,
+      "executable": false,
+      "size_bytes": 15731
+    },
+    {
+      "path": "assets/starter_scene/README.md",
+      "type": "markdown",
+      "lines": 133,
+      "executable": false,
+      "size_bytes": 2983
+    },
+    {
+      "path": "assets/starter_scene/index.html",
+      "type": "other",
+      "lines": 85,
+      "executable": false,
+      "size_bytes": 1733
+    },
+    {
+      "path": "assets/starter_scene/main.js",
+      "type": "javascript",
+      "lines": 156,
+      "executable": true,
+      "size_bytes": 4481
+    },
+    {
+      "path": "references/api_reference.md",
+      "type": "markdown",
+      "lines": 459,
+      "executable": false,
+      "size_bytes": 11038
+    },
+    {
+      "path": "references/materials_guide.md",
+      "type": "markdown",
+      "lines": 473,
+      "executable": false,
+      "size_bytes": 11484
+    },
+    {
+      "path": "references/optimization_checklist.md",
+      "type": "markdown",
+      "lines": 364,
+      "executable": false,
+      "size_bytes": 9675
+    },
+    {
+      "path": "scripts/setup_scene.py",
+      "type": "python",
+      "lines": 279,
+      "executable": true,
+      "size_bytes": 6813
+    }
+  ],
+  "issues": [
+    {
+      "id": "LP3",
+      "category": "MCP Least Privilege",
+      "pattern": null,
+      "severity": "MEDIUM",
+      "confidence": 0.7,
+      "location": {
+        "file": "SKILL.md",
+        "start_line": 1,
+        "end_line": null
+      },
+      "finding": null,
+      "explanation": "Without declared permissions the skill's intent is opaque and cannot be validated.",
+      "remediation": "Add a 'permissions' field to SKILL.md listing the capabilities this skill requires.",
+      "code_snippet": null,
+      "intent": null
+    }
+  ],
+  "metadata": {
+    "has_executable_scripts": true,
+    "skillspector_version": "2.1.4",
+    "llm_requested": false,
+    "llm_available": false
+  }
+}

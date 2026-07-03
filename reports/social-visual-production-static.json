@@ -1,0 +1,28 @@
+{
+  "skill": {
+    "name": "social-visual-production",
+    "source": "/Users/khaledmac/.hermes/profiles/social/skills/social-media/social-visual-production",
+    "scanned_at": "2026-06-14T04:14:53.952529+00:00"
+  },
+  "risk_assessment": {
+    "score": 0,
+    "severity": "LOW",
+    "recommendation": "SAFE"
+  },
+  "components": [
+    {
+      "path": "SKILL.md",
+      "type": "markdown",
+      "lines": 242,
+      "executable": false,
+      "size_bytes": 10330
+    }
+  ],
+  "issues": [],
+  "metadata": {
+    "has_executable_scripts": false,
+    "skillspector_version": "2.1.4",
+    "llm_requested": false,
+    "llm_available": false
+  }
+}

@@ -1,0 +1,297 @@
+{
+  "skill": {
+    "name": "motion-framer",
+    "source": "/Users/khaledmac/project/web-3d/.claude/skills/motion-framer",
+    "scanned_at": "2026-06-19T11:19:30.426793+00:00"
+  },
+  "risk_assessment": {
+    "score": 100,
+    "severity": "CRITICAL",
+    "recommendation": "DO_NOT_INSTALL"
+  },
+  "components": [
+    {
+      "path": "SKILL.md",
+      "type": "markdown",
+      "lines": 932,
+      "executable": false,
+      "size_bytes": 21032
+    },
+    {
+      "path": "assets/examples/README.md",
+      "type": "markdown",
+      "lines": 2930,
+      "executable": false,
+      "size_bytes": 73986
+    },
+    {
+      "path": "assets/starter_motion/README.md",
+      "type": "markdown",
+      "lines": 334,
+      "executable": false,
+      "size_bytes": 6762
+    },
+    {
+      "path": "assets/starter_motion/index.html",
+      "type": "other",
+      "lines": 40,
+      "executable": false,
+      "size_bytes": 958
+    },
+    {
+      "path": "assets/starter_motion/package.json",
+      "type": "json",
+      "lines": 22,
+      "executable": false,
+      "size_bytes": 452
+    },
+    {
+      "path": "assets/starter_motion/src/App.css",
+      "type": "other",
+      "lines": 117,
+      "executable": false,
+      "size_bytes": 1747
+    },
+    {
+      "path": "assets/starter_motion/src/App.jsx",
+      "type": "other",
+      "lines": 115,
+      "executable": false,
+      "size_bytes": 3513
+    },
+    {
+      "path": "assets/starter_motion/src/components/DraggableBox.jsx",
+      "type": "other",
+      "lines": 54,
+      "executable": false,
+      "size_bytes": 1439
+    },
+    {
+      "path": "assets/starter_motion/src/components/HoverCard.jsx",
+      "type": "other",
+      "lines": 28,
+      "executable": false,
+      "size_bytes": 803
+    },
+    {
+      "path": "assets/starter_motion/src/components/StaggerList.jsx",
+      "type": "other",
+      "lines": 65,
+      "executable": false,
+      "size_bytes": 1582
+    },
+    {
+      "path": "assets/starter_motion/src/main.jsx",
+      "type": "other",
+      "lines": 9,
+      "executable": false,
+      "size_bytes": 208
+    },
+    {
+      "path": "assets/starter_motion/vite.config.js",
+      "type": "javascript",
+      "lines": 11,
+      "executable": true,
+      "size_bytes": 210
+    },
+    {
+      "path": "references/api_reference.md",
+      "type": "markdown",
+      "lines": 1077,
+      "executable": false,
+      "size_bytes": 20478
+    },
+    {
+      "path": "scripts/animation_generator.py",
+      "type": "python",
+      "lines": 570,
+      "executable": true,
+      "size_bytes": 15573
+    },
+    {
+      "path": "scripts/variant_builder.py",
+      "type": "python",
+      "lines": 455,
+      "executable": true,
+      "size_bytes": 13942
+    }
+  ],
+  "issues": [
+    {
+      "id": "LP3",
+      "category": "MCP Least Privilege",
+      "pattern": null,
+      "severity": "MEDIUM",
+      "confidence": 0.7,
+      "location": {
+        "file": "SKILL.md",
+        "start_line": 1,
+        "end_line": null
+      },
+      "finding": null,
+      "explanation": "Without declared permissions the skill's intent is opaque and cannot be validated.",
+      "remediation": "Add a 'permissions' field to SKILL.md listing the capabilities this skill requires.",
+      "code_snippet": null,
+      "intent": null
+    },
+    {
+      "id": "SC1",
+      "category": "Supply Chain",
+      "pattern": "Unpinned Dependencies",
+      "severity": "LOW",
+      "confidence": 0.4,
+      "location": {
+        "file": "assets/starter_motion/package.json",
+        "start_line": 12,
+        "end_line": null
+      },
+      "finding": "\"react\": \"^18.3.1\"",
+      "explanation": "Dependencies lack version pinning, allowing potential malicious package updates. Consider pinning versions.",
+      "remediation": "Pin all dependency versions in requirements.txt or pyproject.toml. Use exact versions (==) or compatible ranges. Run pip-audit regularly.",
+      "code_snippet": "    \"preview\": \"vite preview\"\n  },\n  \"dependencies\": {\n    \"react\": \"^18.3.1\",\n    \"react-dom\": \"^18.3.1\",\n    \"framer-motion\": \"^11.15.0\"\n  },",
+      "intent": null
+    },
+    {
+      "id": "SC1",
+      "category": "Supply Chain",
+      "pattern": "Unpinned Dependencies",
+      "severity": "LOW",
+      "confidence": 0.4,
+      "location": {
+        "file": "assets/starter_motion/package.json",
+        "start_line": 13,
+        "end_line": null
+      },
+      "finding": "\"react-dom\": \"^18.3.1\"",
+      "explanation": "Dependencies lack version pinning, allowing potential malicious package updates. Consider pinning versions.",
+      "remediation": "Pin all dependency versions in requirements.txt or pyproject.toml. Use exact versions (==) or compatible ranges. Run pip-audit regularly.",
+      "code_snippet": "  },\n  \"dependencies\": {\n    \"react\": \"^18.3.1\",\n    \"react-dom\": \"^18.3.1\",\n    \"framer-motion\": \"^11.15.0\"\n  },\n  \"devDependencies\": {",
+      "intent": null
+    },
+    {
+      "id": "SC1",
+      "category": "Supply Chain",
+      "pattern": "Unpinned Dependencies",
+      "severity": "LOW",
+      "confidence": 0.4,
+      "location": {
+        "file": "assets/starter_motion/package.json",
+        "start_line": 14,
+        "end_line": null
+      },
+      "finding": "\"framer-motion\": \"^11.15.0\"",
+      "explanation": "Dependencies lack version pinning, allowing potential malicious package updates. Consider pinning versions.",
+      "remediation": "Pin all dependency versions in requirements.txt or pyproject.toml. Use exact versions (==) or compatible ranges. Run pip-audit regularly.",
+      "code_snippet": "  \"dependencies\": {\n    \"react\": \"^18.3.1\",\n    \"react-dom\": \"^18.3.1\",\n    \"framer-motion\": \"^11.15.0\"\n  },\n  \"devDependencies\": {\n    \"@types/react\": \"^18.3.18\",",
+      "intent": null
+    },
+    {
+      "id": "SC1",
+      "category": "Supply Chain",
+      "pattern": "Unpinned Dependencies",
+      "severity": "LOW",
+      "confidence": 0.4,
+      "location": {
+        "file": "assets/starter_motion/package.json",
+        "start_line": 17,
+        "end_line": null
+      },
+      "finding": "\"@types/react\": \"^18.3.18\"",
+      "explanation": "Dependencies lack version pinning, allowing potential malicious package updates. Consider pinning versions.",
+      "remediation": "Pin all dependency versions in requirements.txt or pyproject.toml. Use exact versions (==) or compatible ranges. Run pip-audit regularly.",
+      "code_snippet": "    \"framer-motion\": \"^11.15.0\"\n  },\n  \"devDependencies\": {\n    \"@types/react\": \"^18.3.18\",\n    \"@types/react-dom\": \"^18.3.5\",\n    \"@vitejs/plugin-react\": \"^4.3.4\",\n    \"vite\": \"^6.0.11\"",
+      "intent": null
+    },
+    {
+      "id": "SC1",
+      "category": "Supply Chain",
+      "pattern": "Unpinned Dependencies",
+      "severity": "LOW",
+      "confidence": 0.4,
+      "location": {
+        "file": "assets/starter_motion/package.json",
+        "start_line": 18,
+        "end_line": null
+      },
+      "finding": "\"@types/react-dom\": \"^18.3.5\"",
+      "explanation": "Dependencies lack version pinning, allowing potential malicious package updates. Consider pinning versions.",
+      "remediation": "Pin all dependency versions in requirements.txt or pyproject.toml. Use exact versions (==) or compatible ranges. Run pip-audit regularly.",
+      "code_snippet": "  },\n  \"devDependencies\": {\n    \"@types/react\": \"^18.3.18\",\n    \"@types/react-dom\": \"^18.3.5\",\n    \"@vitejs/plugin-react\": \"^4.3.4\",\n    \"vite\": \"^6.0.11\"\n  }",
+      "intent": null
+    },
+    {
+      "id": "SC1",
+      "category": "Supply Chain",
+      "pattern": "Unpinned Dependencies",
+      "severity": "LOW",
+      "confidence": 0.4,
+      "location": {
+        "file": "assets/starter_motion/package.json",
+        "start_line": 19,
+        "end_line": null
+      },
+      "finding": "\"@vitejs/plugin-react\": \"^4.3.4\"",
+      "explanation": "Dependencies lack version pinning, allowing potential malicious package updates. Consider pinning versions.",
+      "remediation": "Pin all dependency versions in requirements.txt or pyproject.toml. Use exact versions (==) or compatible ranges. Run pip-audit regularly.",
+      "code_snippet": "  \"devDependencies\": {\n    \"@types/react\": \"^18.3.18\",\n    \"@types/react-dom\": \"^18.3.5\",\n    \"@vitejs/plugin-react\": \"^4.3.4\",\n    \"vite\": \"^6.0.11\"\n  }\n}",
+      "intent": null
+    },
+    {
+      "id": "SC1",
+      "category": "Supply Chain",
+      "pattern": "Unpinned Dependencies",
+      "severity": "LOW",
+      "confidence": 0.4,
+      "location": {
+        "file": "assets/starter_motion/package.json",
+        "start_line": 20,
+        "end_line": null
+      },
+      "finding": "\"vite\": \"^6.0.11\"",
+      "explanation": "Dependencies lack version pinning, allowing potential malicious package updates. Consider pinning versions.",
+      "remediation": "Pin all dependency versions in requirements.txt or pyproject.toml. Use exact versions (==) or compatible ranges. Run pip-audit regularly.",
+      "code_snippet": "    \"@types/react\": \"^18.3.18\",\n    \"@types/react-dom\": \"^18.3.5\",\n    \"@vitejs/plugin-react\": \"^4.3.4\",\n    \"vite\": \"^6.0.11\"\n  }\n}",
+      "intent": null
+    },
+    {
+      "id": "SC4",
+      "category": "Supply Chain",
+      "pattern": "Known Vulnerable Dependency: vite==6.0.11 \u2014 10 advisory(ies): CVE-2025-32395 (Vite has an `server.fs.deny` bypass with an invalid `request-target`); CVE-2025-31125 (Vite has a `server.fs.deny` bypassed for `inline` and `raw` with `?import` query); CVE-2026-39365 (Vite Vulnerable to Path Traversal in Optimized Deps `.map` Handling) +7 more",
+      "severity": "HIGH",
+      "confidence": 0.8,
+      "location": {
+        "file": "assets/starter_motion/package.json",
+        "start_line": 20,
+        "end_line": null
+      },
+      "finding": "vite==6.0.11",
+      "explanation": "Dependency has known vulnerabilities (CVEs). Using packages with unpatched security flaws exposes the environment to known exploits.",
+      "remediation": "Update the dependency to a patched version that addresses the known CVE. Check OSV (osv.dev) or NVD for details on the vulnerability.",
+      "code_snippet": null,
+      "intent": null
+    },
+    {
+      "id": "SC6",
+      "category": "Supply Chain",
+      "pattern": "Possible Typosquatting: 'vite' resembles popular package 'vue'",
+      "severity": "HIGH",
+      "confidence": 0.7,
+      "location": {
+        "file": "assets/starter_motion/package.json",
+        "start_line": 20,
+        "end_line": null
+      },
+      "finding": "vite",
+      "explanation": "Package name closely resembles a popular package, suggesting possible typosquatting. Attackers publish malicious packages with similar names to trick developers into installing them.",
+      "remediation": "Verify the package name is correct and not a typosquatting variant. Compare against the official package name on PyPI or npm.",
+      "code_snippet": null,
+      "intent": null
+    }
+  ],
+  "metadata": {
+    "has_executable_scripts": true,
+    "skillspector_version": "2.1.4",
+    "llm_requested": false,
+    "llm_available": false
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "skill": {
+    "name": "khaled-agent-self-learning",
+    "source": "/private/tmp/khaled-agent-self-learning-skill-v101",
+    "scanned_at": "2026-06-26T23:04:42.635933+00:00"
+  },
+  "risk_assessment": {
+    "score": 0,
+    "severity": "LOW",
+    "recommendation": "SAFE"
+  },
+  "components": [
+    {
+      "path": "SKILL.md",
+      "type": "markdown",
+      "lines": 215,
+      "executable": false,
+      "size_bytes": 7148
+    }
+  ],
+  "issues": [],
+  "metadata": {
+    "has_executable_scripts": false,
+    "skillspector_version": "2.1.4",
+    "llm_requested": false,
+    "llm_available": false
+  }
+}

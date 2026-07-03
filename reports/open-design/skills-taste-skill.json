@@ -1,0 +1,87 @@
+{
+  "skill": {
+    "name": "design-taste-frontend",
+    "source": "/private/tmp/open-design-review/skills/taste-skill",
+    "scanned_at": "2026-06-17T14:39:59.149571+00:00"
+  },
+  "risk_assessment": {
+    "score": 40,
+    "severity": "MEDIUM",
+    "recommendation": "CAUTION"
+  },
+  "components": [
+    {
+      "path": "LICENSE",
+      "type": "other",
+      "lines": 21,
+      "executable": false,
+      "size_bytes": 1065
+    },
+    {
+      "path": "SKILL.md",
+      "type": "markdown",
+      "lines": 1233,
+      "executable": false,
+      "size_bytes": 87915
+    }
+  ],
+  "issues": [
+    {
+      "id": "EA3",
+      "category": "Excessive Agency",
+      "pattern": "Scope Creep",
+      "severity": "LOW",
+      "confidence": 0.7,
+      "location": {
+        "file": "LICENSE",
+        "start_line": 16,
+        "end_line": null
+      },
+      "finding": "NOT LIMITED TO",
+      "explanation": "Skill's behavior or capabilities extend beyond its stated purpose. Scope creep allows an agent to perform actions unrelated to its documented functionality, increasing the attack surface.",
+      "remediation": "Limit the skill's scope to its documented purpose. Remove instructions that enable the agent to perform actions outside its stated functionality.",
+      "code_snippet": "copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,",
+      "intent": null
+    },
+    {
+      "id": "EA2",
+      "category": "Excessive Agency",
+      "pattern": "Autonomous Decision Making",
+      "severity": "MEDIUM",
+      "confidence": 0.8,
+      "location": {
+        "file": "SKILL.md",
+        "start_line": 78,
+        "end_line": null
+      },
+      "finding": "Do not ask the user",
+      "explanation": "Skill enables autonomous high-impact decisions without human-in-the-loop verification. Critical operations (destructive commands, financial transactions, data deletion) should require explicit user confirmation.",
+      "remediation": "Add human-in-the-loop confirmation for destructive, irreversible, or high-impact operations. Never auto-execute commands that modify files, send data, or alter system state.",
+      "code_snippet": "* **`MOTION_INTENSITY: 6`** - 1 = Static, 10 = Cinematic / Physics\n* **`VISUAL_DENSITY: 4`** - 1 = Art Gallery / Airy, 10 = Cockpit / Packed Data\n\n**Baseline:** `8 / 6 / 4`. Use these unless the design read overrides them. Do not ask the user to edit this file - overrides happen conversationally.\n\n### 1.A Dial Inference (design read \u2192 dial values)\n| Signal | VARIANCE | MOTION | DENSITY |",
+      "intent": null
+    },
+    {
+      "id": "P2",
+      "category": "Prompt Injection",
+      "pattern": "Hidden Instructions",
+      "severity": "HIGH",
+      "confidence": 0.7,
+      "location": {
+        "file": "SKILL.md",
+        "start_line": 299,
+        "end_line": null
+      },
+      "finding": "<!-- TODO: hero product photo, 1600x1200 -->`) and at the end of the response say: *\"This page needs real images at: \\[list of placements\\]. Please generate or provide them.\"*\n\n**Even minimalist sites",
+      "explanation": "Hidden instructions were detected in comments or invisible text. These could contain malicious directives. Manual review is recommended.",
+      "remediation": "Audit all comments and invisible characters. Remove any instructions that direct the agent to perform unauthorized actions. Use plain, reviewable content.",
+      "code_snippet": "   * `https://picsum.photos/seed/{descriptive-seed}/{w}/{h}` for placeholder photography (seed should describe the section, e.g. `marrow-cookware-kitchen`)\n   * Actual stock or brand URLs when the brief provides them\n   * Open-license sources (Unsplash via direct URL, Pexels) if explicitly allowed\n3. **Last resort: tell the user.** If neither is possible, do NOT fill the page with hand-rolled SVG illustrations or div-based \"fake screenshots.\" Instead, leave clearly-labeled placeholder slots (`<!-- TODO: hero product photo, 1600x1200 -->`) and at the end of the response say: *\"This page needs real images at: \\[list of placements\\]. Please generate or provide them.\"*\n\n**Even minimalist sites need real images.** A pure-text page is not minimalism. It is incomplete work. Even an editorial Linear-style site needs at least 2-3 real images (hero, one product/lifestyle shot, one supporting image). Generate B&W minimalist photography if the brief is restrained; do not skip images entirely because the dial is low.\n",
+      "intent": null
+    }
+  ],
+  "metadata": {
+    "has_executable_scripts": false,
+    "skillspector_version": "2.1.4",
+    "llm_requested": false,
+    "llm_available": false
+  }
+}

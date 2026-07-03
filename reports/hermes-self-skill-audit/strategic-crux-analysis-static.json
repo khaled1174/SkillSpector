@@ -1,0 +1,46 @@
+{
+  "skill": {
+    "name": "strategic-crux-analysis",
+    "source": "/Users/khaledmac/.hermes/skills/productivity/strategic-crux-analysis",
+    "scanned_at": "2026-07-03T17:24:45.874202+00:00"
+  },
+  "risk_assessment": {
+    "score": 10,
+    "severity": "LOW",
+    "recommendation": "SAFE"
+  },
+  "components": [
+    {
+      "path": "SKILL.md",
+      "type": "markdown",
+      "lines": 255,
+      "executable": false,
+      "size_bytes": 8194
+    }
+  ],
+  "issues": [
+    {
+      "id": "EA2",
+      "category": "Excessive Agency",
+      "pattern": "Autonomous Decision Making",
+      "severity": "MEDIUM",
+      "confidence": 0.75,
+      "location": {
+        "file": "SKILL.md",
+        "start_line": 211,
+        "end_line": null
+      },
+      "finding": "without approval",
+      "explanation": "Skill enables autonomous high-impact decisions without human-in-the-loop verification. Critical operations (destructive commands, financial transactions, data deletion) should require explicit user confirmation.",
+      "remediation": "Add human-in-the-loop confirmation for destructive, irreversible, or high-impact operations. Never auto-execute commands that modify files, send data, or alter system state.",
+      "code_snippet": "- `GO`: crux is evidence-backed enough, recommendation is scoped, and first move is low-risk or approved.\n- `REVIEW`: likely crux and options exist, but assumptions, politics, or feasibility need Khaled's decision.\n- `HOLD`: evidence is insufficient or the problem framing is still too vague.\n- `NO-GO`: recommendation would act on a symptom, skip governance, violate safety boundaries, or create irreversible/public/financial impact without approval.\n\n## Safety and Boundaries\n",
+      "intent": null
+    }
+  ],
+  "metadata": {
+    "has_executable_scripts": false,
+    "skillspector_version": "2.1.4",
+    "llm_requested": false,
+    "llm_available": false
+  }
+}

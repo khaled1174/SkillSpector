@@ -1,0 +1,63 @@
+{
+  "skill": {
+    "name": "unknown",
+    "source": "/var/folders/j3/gncvd3jn4rq3gtcsq8x6bwsm0000gn/T/skillspector_n38c83xg",
+    "scanned_at": "2026-06-15T16:30:51.762838+00:00"
+  },
+  "risk_assessment": {
+    "score": 35,
+    "severity": "MEDIUM",
+    "recommendation": "CAUTION"
+  },
+  "components": [
+    {
+      "path": "CLAUDE.md",
+      "type": "markdown",
+      "lines": 83,
+      "executable": false,
+      "size_bytes": 5708
+    }
+  ],
+  "issues": [
+    {
+      "id": "EA4",
+      "category": "Excessive Agency",
+      "pattern": "Unbounded Resource Access",
+      "severity": "MEDIUM",
+      "confidence": 0.75,
+      "location": {
+        "file": "CLAUDE.md",
+        "start_line": 51,
+        "end_line": null
+      },
+      "finding": "loop forever",
+      "explanation": "Skill allows unbounded resource consumption (API calls, storage, compute). Without rate limits or quotas, a compromised or misbehaving agent can cause denial-of-service or cost overruns.",
+      "remediation": "Set explicit rate limits, timeouts, and resource quotas for API calls, file operations, and compute. Implement circuit breakers for runaway loops.",
+      "code_snippet": "3. **Verification gates** \u2014 never mark a task done on vibes. A gate must convert\n   feedback into a binary verdict tied to ORACLE.\n4. **Termination condition** \u2014 DONE_WHEN is explicit. I do not stop early, and I do\n   not loop forever. If no progress for K iterations \u2192 treat as failure, surface.\n5. **Error handling** \u2014 on any tool/command failure: capture the error, decide\n   recover-or-abort, and NEVER leave the repo in a broken state. Roll back partial\n   changes if a step fails mid-way.",
+      "intent": null
+    },
+    {
+      "id": "P2",
+      "category": "Prompt Injection",
+      "pattern": "Hidden Instructions",
+      "severity": "HIGH",
+      "confidence": 0.7,
+      "location": {
+        "file": "CLAUDE.md",
+        "start_line": 13,
+        "end_line": null
+      },
+      "finding": "<!-- BEGIN KHALED LOOP ENGINEERING: CLAUDE INNER LOOP -->\n<!--\n====================================================================\n  CLAUDE.md \u2014 Loop Engineering Block (Claude Code = INNER LOOP execu",
+      "explanation": "Hidden instructions were detected in comments or invisible text. These could contain malicious directives. Manual review is recommended.",
+      "remediation": "Audit all comments and invisible characters. Remove any instructions that direct the agent to perform unauthorized actions. Use plain, reviewable content.",
+      "code_snippet": "- Use `~/.claude/loop.md` as the default maintenance behavior for `/loop`.\n- Safety defaults: no destructive deletes, force push, deploy/publish, secret exposure, live trading, private exchange APIs, or order placement unless explicitly authorized in the current transcript.\n\n<!-- BEGIN KHALED LOOP ENGINEERING: CLAUDE INNER LOOP -->\n<!--\n====================================================================\n  CLAUDE.md \u2014 Loop Engineering Block (Claude Code = INNER LOOP executor)",
+      "intent": null
+    }
+  ],
+  "metadata": {
+    "has_executable_scripts": false,
+    "skillspector_version": "2.1.4",
+    "llm_requested": false,
+    "llm_available": false
+  }
+}

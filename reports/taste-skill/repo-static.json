@@ -1,0 +1,1046 @@
+{
+  "skill": {
+    "name": "unknown",
+    "source": "/private/tmp/taste-skill-inspect/repo",
+    "scanned_at": "2026-06-25T18:11:56.370214+00:00"
+  },
+  "risk_assessment": {
+    "score": 100,
+    "severity": "CRITICAL",
+    "recommendation": "DO_NOT_INSTALL"
+  },
+  "components": [
+    {
+      "path": ".claude-plugin/marketplace.json",
+      "type": "json",
+      "lines": 20,
+      "executable": false,
+      "size_bytes": 501
+    },
+    {
+      "path": ".claude-plugin/plugin.json",
+      "type": "json",
+      "lines": 19,
+      "executable": false,
+      "size_bytes": 447
+    },
+    {
+      "path": ".github/FUNDING.yml",
+      "type": "yaml",
+      "lines": 1,
+      "executable": false,
+      "size_bytes": 17
+    },
+    {
+      "path": ".github/copilot-instructions.md",
+      "type": "markdown",
+      "lines": 11,
+      "executable": false,
+      "size_bytes": 959
+    },
+    {
+      "path": "CHANGELOG.md",
+      "type": "markdown",
+      "lines": 111,
+      "executable": false,
+      "size_bytes": 8272
+    },
+    {
+      "path": "LICENSE",
+      "type": "other",
+      "lines": 21,
+      "executable": false,
+      "size_bytes": 1065
+    },
+    {
+      "path": "README.md",
+      "type": "markdown",
+      "lines": 212,
+      "executable": false,
+      "size_bytes": 13567
+    },
+    {
+      "path": "assets/readme-banner.webp",
+      "type": "other",
+      "lines": 2729,
+      "executable": false,
+      "size_bytes": 99902
+    },
+    {
+      "path": "assets/readme-buttons/btn-agent-skills.webp",
+      "type": "other",
+      "lines": 457,
+      "executable": false,
+      "size_bytes": 17150
+    },
+    {
+      "path": "assets/readme-buttons/btn-changelog.webp",
+      "type": "other",
+      "lines": 402,
+      "executable": false,
+      "size_bytes": 15476
+    },
+    {
+      "path": "assets/readme-buttons/btn-mit.webp",
+      "type": "other",
+      "lines": 365,
+      "executable": false,
+      "size_bytes": 12962
+    },
+    {
+      "path": "assets/readme-buttons/btn-site.webp",
+      "type": "other",
+      "lines": 531,
+      "executable": false,
+      "size_bytes": 19080
+    },
+    {
+      "path": "assets/readme-buttons/btn-tools.webp",
+      "type": "other",
+      "lines": 536,
+      "executable": false,
+      "size_bytes": 19698
+    },
+    {
+      "path": "assets/readme-cta-tasteskill.svg",
+      "type": "other",
+      "lines": 5,
+      "executable": false,
+      "size_bytes": 4864
+    },
+    {
+      "path": "assets/sponsors/animations-dev.webp",
+      "type": "other",
+      "lines": 75,
+      "executable": false,
+      "size_bytes": 2986
+    },
+    {
+      "path": "assets/sponsors/emil-animations-dev.webp",
+      "type": "other",
+      "lines": 1023,
+      "executable": false,
+      "size_bytes": 39216
+    },
+    {
+      "path": "assets/taste-skill-logo.png",
+      "type": "other",
+      "lines": 553,
+      "executable": false,
+      "size_bytes": 17279
+    },
+    {
+      "path": "assets/taste-skill-logo.webp",
+      "type": "other",
+      "lines": 96,
+      "executable": false,
+      "size_bytes": 3280
+    },
+    {
+      "path": "assets/vercel-oss-program-badge.svg",
+      "type": "other",
+      "lines": 44,
+      "executable": false,
+      "size_bytes": 13206
+    },
+    {
+      "path": "examples/floria-bottom.webp",
+      "type": "other",
+      "lines": 4540,
+      "executable": false,
+      "size_bytes": 170130
+    },
+    {
+      "path": "examples/floria-full.webp",
+      "type": "other",
+      "lines": 15752,
+      "executable": false,
+      "size_bytes": 568180
+    },
+    {
+      "path": "examples/floria-top.webp",
+      "type": "other",
+      "lines": 8305,
+      "executable": false,
+      "size_bytes": 303012
+    },
+    {
+      "path": "research/README.md",
+      "type": "markdown",
+      "lines": 8,
+      "executable": false,
+      "size_bytes": 368
+    },
+    {
+      "path": "research/laziness/README.md",
+      "type": "markdown",
+      "lines": 25,
+      "executable": false,
+      "size_bytes": 1870
+    },
+    {
+      "path": "research/laziness/findings/empirical-results.md",
+      "type": "markdown",
+      "lines": 58,
+      "executable": false,
+      "size_bytes": 2820
+    },
+    {
+      "path": "research/laziness/findings/references.md",
+      "type": "markdown",
+      "lines": 20,
+      "executable": false,
+      "size_bytes": 1512
+    },
+    {
+      "path": "research/laziness/remediation/architectural-patterns.md",
+      "type": "markdown",
+      "lines": 55,
+      "executable": false,
+      "size_bytes": 3142
+    },
+    {
+      "path": "research/laziness/remediation/parameter-tuning.md",
+      "type": "markdown",
+      "lines": 44,
+      "executable": false,
+      "size_bytes": 2856
+    },
+    {
+      "path": "research/laziness/remediation/prompt-engineering.md",
+      "type": "markdown",
+      "lines": 52,
+      "executable": false,
+      "size_bytes": 3261
+    },
+    {
+      "path": "research/laziness/remediation/reference-prompts.md",
+      "type": "markdown",
+      "lines": 79,
+      "executable": false,
+      "size_bytes": 2363
+    },
+    {
+      "path": "research/laziness/root-causes/cognitive-shortcuts.md",
+      "type": "markdown",
+      "lines": 23,
+      "executable": false,
+      "size_bytes": 2124
+    },
+    {
+      "path": "research/laziness/root-causes/output-limits.md",
+      "type": "markdown",
+      "lines": 39,
+      "executable": false,
+      "size_bytes": 2568
+    },
+    {
+      "path": "research/laziness/root-causes/rlhf-and-compute.md",
+      "type": "markdown",
+      "lines": 27,
+      "executable": false,
+      "size_bytes": 2165
+    },
+    {
+      "path": "research/laziness/root-causes/training-data-bias.md",
+      "type": "markdown",
+      "lines": 28,
+      "executable": false,
+      "size_bytes": 1666
+    },
+    {
+      "path": "scripts/build-emil-sponsor-row.mjs",
+      "type": "other",
+      "lines": 41,
+      "executable": false,
+      "size_bytes": 1112
+    },
+    {
+      "path": "scripts/convert-readme-assets-webp.mjs",
+      "type": "other",
+      "lines": 142,
+      "executable": false,
+      "size_bytes": 4228
+    },
+    {
+      "path": "scripts/process-readme-buttons.mjs",
+      "type": "other",
+      "lines": 108,
+      "executable": false,
+      "size_bytes": 3010
+    },
+    {
+      "path": "scripts/process-sponsor-badge.mjs",
+      "type": "other",
+      "lines": 83,
+      "executable": false,
+      "size_bytes": 2396
+    },
+    {
+      "path": "skill.sh",
+      "type": "shell",
+      "lines": 25,
+      "executable": true,
+      "size_bytes": 897
+    },
+    {
+      "path": "skills/brandkit/SKILL.md",
+      "type": "markdown",
+      "lines": 798,
+      "executable": false,
+      "size_bytes": 15992
+    },
+    {
+      "path": "skills/brutalist-skill/SKILL.md",
+      "type": "markdown",
+      "lines": 92,
+      "executable": false,
+      "size_bytes": 8456
+    },
+    {
+      "path": "skills/gpt-tasteskill/SKILL.md",
+      "type": "markdown",
+      "lines": 74,
+      "executable": false,
+      "size_bytes": 7857
+    },
+    {
+      "path": "skills/image-to-code-skill/SKILL.md",
+      "type": "markdown",
+      "lines": 1228,
+      "executable": false,
+      "size_bytes": 36442
+    },
+    {
+      "path": "skills/imagegen-frontend-mobile/SKILL.md",
+      "type": "markdown",
+      "lines": 1465,
+      "executable": false,
+      "size_bytes": 40326
+    },
+    {
+      "path": "skills/imagegen-frontend-web/SKILL.md",
+      "type": "markdown",
+      "lines": 987,
+      "executable": false,
+      "size_bytes": 36854
+    },
+    {
+      "path": "skills/llms.txt",
+      "type": "text",
+      "lines": 13,
+      "executable": false,
+      "size_bytes": 1846
+    },
+    {
+      "path": "skills/minimalist-skill/SKILL.md",
+      "type": "markdown",
+      "lines": 85,
+      "executable": false,
+      "size_bytes": 7901
+    },
+    {
+      "path": "skills/output-skill/SKILL.md",
+      "type": "markdown",
+      "lines": 49,
+      "executable": false,
+      "size_bytes": 2592
+    },
+    {
+      "path": "skills/redesign-skill/SKILL.md",
+      "type": "markdown",
+      "lines": 178,
+      "executable": false,
+      "size_bytes": 15060
+    },
+    {
+      "path": "skills/soft-skill/SKILL.md",
+      "type": "markdown",
+      "lines": 98,
+      "executable": false,
+      "size_bytes": 10561
+    },
+    {
+      "path": "skills/stitch-skill/DESIGN.md",
+      "type": "markdown",
+      "lines": 121,
+      "executable": false,
+      "size_bytes": 12053
+    },
+    {
+      "path": "skills/stitch-skill/SKILL.md",
+      "type": "markdown",
+      "lines": 184,
+      "executable": false,
+      "size_bytes": 11851
+    },
+    {
+      "path": "skills/taste-skill-v1/SKILL.md",
+      "type": "markdown",
+      "lines": 226,
+      "executable": false,
+      "size_bytes": 21195
+    },
+    {
+      "path": "skills/taste-skill/SKILL.md",
+      "type": "markdown",
+      "lines": 1206,
+      "executable": false,
+      "size_bytes": 87253
+    }
+  ],
+  "issues": [
+    {
+      "id": "E1",
+      "category": "Data Exfiltration",
+      "pattern": "External Transmission",
+      "severity": "MEDIUM",
+      "confidence": 0.5,
+      "location": {
+        "file": "README.md",
+        "start_line": 175,
+        "end_line": null
+      },
+      "finding": "https://api.star-history.com/",
+      "explanation": "Data is being sent to an external URL. This could be legitimate telemetry or data exfiltration. Manual review is recommended.",
+      "remediation": "Verify the destination URL is trusted and necessary. Remove or replace with documented APIs. Ensure no secrets, tokens, or PII are transmitted.",
+      "code_snippet": "<p align=\"center\">\n <a href=\"https://www.star-history.com/leonxlnx/taste-skill\">\n  <picture>\n   <source media=\"(prefers-color-scheme: dark)\" srcset=\"https://api.star-history.com/badge?repo=Leonxlnx/taste-skill&theme=dark\" />\n   <source media=\"(prefers-color-scheme: light)\" srcset=\"https://api.star-history.com/badge?repo=Leonxlnx/taste-skill\" />\n   <img alt=\"Star History Rank\" src=\"https://api.star-history.com/badge?repo=Leonxlnx/taste-skill\" />\n  </picture>",
+      "intent": null
+    },
+    {
+      "id": "E1",
+      "category": "Data Exfiltration",
+      "pattern": "External Transmission",
+      "severity": "MEDIUM",
+      "confidence": 0.5,
+      "location": {
+        "file": "README.md",
+        "start_line": 176,
+        "end_line": null
+      },
+      "finding": "https://api.star-history.com/",
+      "explanation": "Data is being sent to an external URL. This could be legitimate telemetry or data exfiltration. Manual review is recommended.",
+      "remediation": "Verify the destination URL is trusted and necessary. Remove or replace with documented APIs. Ensure no secrets, tokens, or PII are transmitted.",
+      "code_snippet": " <a href=\"https://www.star-history.com/leonxlnx/taste-skill\">\n  <picture>\n   <source media=\"(prefers-color-scheme: dark)\" srcset=\"https://api.star-history.com/badge?repo=Leonxlnx/taste-skill&theme=dark\" />\n   <source media=\"(prefers-color-scheme: light)\" srcset=\"https://api.star-history.com/badge?repo=Leonxlnx/taste-skill\" />\n   <img alt=\"Star History Rank\" src=\"https://api.star-history.com/badge?repo=Leonxlnx/taste-skill\" />\n  </picture>\n </a>",
+      "intent": null
+    },
+    {
+      "id": "E1",
+      "category": "Data Exfiltration",
+      "pattern": "External Transmission",
+      "severity": "MEDIUM",
+      "confidence": 0.5,
+      "location": {
+        "file": "README.md",
+        "start_line": 177,
+        "end_line": null
+      },
+      "finding": "https://api.star-history.com/",
+      "explanation": "Data is being sent to an external URL. This could be legitimate telemetry or data exfiltration. Manual review is recommended.",
+      "remediation": "Verify the destination URL is trusted and necessary. Remove or replace with documented APIs. Ensure no secrets, tokens, or PII are transmitted.",
+      "code_snippet": "  <picture>\n   <source media=\"(prefers-color-scheme: dark)\" srcset=\"https://api.star-history.com/badge?repo=Leonxlnx/taste-skill&theme=dark\" />\n   <source media=\"(prefers-color-scheme: light)\" srcset=\"https://api.star-history.com/badge?repo=Leonxlnx/taste-skill\" />\n   <img alt=\"Star History Rank\" src=\"https://api.star-history.com/badge?repo=Leonxlnx/taste-skill\" />\n  </picture>\n </a>\n</p>",
+      "intent": null
+    },
+    {
+      "id": "E1",
+      "category": "Data Exfiltration",
+      "pattern": "External Transmission",
+      "severity": "MEDIUM",
+      "confidence": 0.5,
+      "location": {
+        "file": "README.md",
+        "start_line": 190,
+        "end_line": null
+      },
+      "finding": "https://api.star-history.com/",
+      "explanation": "Data is being sent to an external URL. This could be legitimate telemetry or data exfiltration. Manual review is recommended.",
+      "remediation": "Verify the destination URL is trusted and necessary. Remove or replace with documented APIs. Ensure no secrets, tokens, or PII are transmitted.",
+      "code_snippet": "\n<a href=\"https://www.star-history.com/?repos=Leonxlnx%2Ftaste-skill&type=date&legend=top-left\">\n <picture>\n   <source media=\"(prefers-color-scheme: dark)\" srcset=\"https://api.star-history.com/chart?repos=Leonxlnx/taste-skill&type=date&theme=dark&legend=top-left\" />\n   <source media=\"(prefers-color-scheme: light)\" srcset=\"https://api.star-history.com/chart?repos=Leonxlnx/taste-skill&type=date&legend=top-left\" />\n   <img alt=\"Star History Chart\" src=\"https://api.star-history.com/chart?repos=Leonxlnx/taste-skill&type=date&legend=top-left\" />\n </picture>",
+      "intent": null
+    },
+    {
+      "id": "E1",
+      "category": "Data Exfiltration",
+      "pattern": "External Transmission",
+      "severity": "MEDIUM",
+      "confidence": 0.5,
+      "location": {
+        "file": "README.md",
+        "start_line": 191,
+        "end_line": null
+      },
+      "finding": "https://api.star-history.com/",
+      "explanation": "Data is being sent to an external URL. This could be legitimate telemetry or data exfiltration. Manual review is recommended.",
+      "remediation": "Verify the destination URL is trusted and necessary. Remove or replace with documented APIs. Ensure no secrets, tokens, or PII are transmitted.",
+      "code_snippet": "<a href=\"https://www.star-history.com/?repos=Leonxlnx%2Ftaste-skill&type=date&legend=top-left\">\n <picture>\n   <source media=\"(prefers-color-scheme: dark)\" srcset=\"https://api.star-history.com/chart?repos=Leonxlnx/taste-skill&type=date&theme=dark&legend=top-left\" />\n   <source media=\"(prefers-color-scheme: light)\" srcset=\"https://api.star-history.com/chart?repos=Leonxlnx/taste-skill&type=date&legend=top-left\" />\n   <img alt=\"Star History Chart\" src=\"https://api.star-history.com/chart?repos=Leonxlnx/taste-skill&type=date&legend=top-left\" />\n </picture>\n</a>",
+      "intent": null
+    },
+    {
+      "id": "E1",
+      "category": "Data Exfiltration",
+      "pattern": "External Transmission",
+      "severity": "MEDIUM",
+      "confidence": 0.5,
+      "location": {
+        "file": "README.md",
+        "start_line": 192,
+        "end_line": null
+      },
+      "finding": "https://api.star-history.com/",
+      "explanation": "Data is being sent to an external URL. This could be legitimate telemetry or data exfiltration. Manual review is recommended.",
+      "remediation": "Verify the destination URL is trusted and necessary. Remove or replace with documented APIs. Ensure no secrets, tokens, or PII are transmitted.",
+      "code_snippet": " <picture>\n   <source media=\"(prefers-color-scheme: dark)\" srcset=\"https://api.star-history.com/chart?repos=Leonxlnx/taste-skill&type=date&theme=dark&legend=top-left\" />\n   <source media=\"(prefers-color-scheme: light)\" srcset=\"https://api.star-history.com/chart?repos=Leonxlnx/taste-skill&type=date&legend=top-left\" />\n   <img alt=\"Star History Chart\" src=\"https://api.star-history.com/chart?repos=Leonxlnx/taste-skill&type=date&legend=top-left\" />\n </picture>\n</a>\n",
+      "intent": null
+    },
+    {
+      "id": "EA3",
+      "category": "Excessive Agency",
+      "pattern": "Scope Creep",
+      "severity": "LOW",
+      "confidence": 0.7,
+      "location": {
+        "file": "LICENSE",
+        "start_line": 16,
+        "end_line": null
+      },
+      "finding": "NOT LIMITED TO",
+      "explanation": "Skill's behavior or capabilities extend beyond its stated purpose. Scope creep allows an agent to perform actions unrelated to its documented functionality, increasing the attack surface.",
+      "remediation": "Limit the skill's scope to its documented purpose. Remove instructions that enable the agent to perform actions outside its stated functionality.",
+      "code_snippet": "copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,",
+      "intent": null
+    },
+    {
+      "id": "EA2",
+      "category": "Excessive Agency",
+      "pattern": "Autonomous Decision Making",
+      "severity": "MEDIUM",
+      "confidence": 0.8,
+      "location": {
+        "file": "skills/imagegen-frontend-web/SKILL.md",
+        "start_line": 99,
+        "end_line": null
+      },
+      "finding": "Do not ask the user",
+      "explanation": "Skill enables autonomous high-impact decisions without human-in-the-loop verification. Critical operations (destructive commands, financial transactions, data deletion) should require explicit user confirmation.",
+      "remediation": "Add human-in-the-loop confirmation for destructive, irreversible, or high-impact operations. Never auto-execute commands that modify files, send data, or alter system state.",
+      "code_snippet": "\nAI Instruction:\nUse these as global defaults unless the user clearly asks for something else.\nDo not ask the user to edit this file.\nAdapt these values dynamically from the prompt.\n\nInterpretation:",
+      "intent": null
+    },
+    {
+      "id": "EA2",
+      "category": "Excessive Agency",
+      "pattern": "Autonomous Decision Making",
+      "severity": "MEDIUM",
+      "confidence": 0.8,
+      "location": {
+        "file": "skills/taste-skill-v1/SKILL.md",
+        "start_line": 13,
+        "end_line": null
+      },
+      "finding": "Do not ask the user",
+      "explanation": "Skill enables autonomous high-impact decisions without human-in-the-loop verification. Critical operations (destructive commands, financial transactions, data deletion) should require explicit user confirmation.",
+      "remediation": "Add human-in-the-loop confirmation for destructive, irreversible, or high-impact operations. Never auto-execute commands that modify files, send data, or alter system state.",
+      "code_snippet": "* MOTION_INTENSITY: 6 (1=Static/No movement, 10=Cinematic/Magic Physics)\n* VISUAL_DENSITY: 4 (1=Art Gallery/Airy, 10=Pilot Cockpit/Packed Data)\n\n**AI Instruction:** The standard baseline for all generations is strictly set to these values (8, 6, 4). Do not ask the user to edit this file. Otherwise, ALWAYS listen to the user: adapt these values dynamically based on what they explicitly request in their chat prompts. Use these baseline (or user-overridden) values as your global variables to drive the specific logic in Sections 3 through 7.\n\n## 2. DEFAULT ARCHITECTURE & CONVENTIONS\nUnless the user explicitly specifies a different stack, adhere to these structural constraints to maintain consistency:",
+      "intent": null
+    },
+    {
+      "id": "EA2",
+      "category": "Excessive Agency",
+      "pattern": "Autonomous Decision Making",
+      "severity": "MEDIUM",
+      "confidence": 0.8,
+      "location": {
+        "file": "skills/taste-skill/SKILL.md",
+        "start_line": 51,
+        "end_line": null
+      },
+      "finding": "Do not ask the user",
+      "explanation": "Skill enables autonomous high-impact decisions without human-in-the-loop verification. Critical operations (destructive commands, financial transactions, data deletion) should require explicit user confirmation.",
+      "remediation": "Add human-in-the-loop confirmation for destructive, irreversible, or high-impact operations. Never auto-execute commands that modify files, send data, or alter system state.",
+      "code_snippet": "* **`MOTION_INTENSITY: 6`** - 1 = Static, 10 = Cinematic / Physics\n* **`VISUAL_DENSITY: 4`** - 1 = Art Gallery / Airy, 10 = Cockpit / Packed Data\n\n**Baseline:** `8 / 6 / 4`. Use these unless the design read overrides them. Do not ask the user to edit this file - overrides happen conversationally.\n\n### 1.A Dial Inference (design read \u2192 dial values)\n| Signal | VARIANCE | MOTION | DENSITY |",
+      "intent": null
+    },
+    {
+      "id": "MP2",
+      "category": "Memory Poisoning",
+      "pattern": "Context Window Stuffing",
+      "severity": "MEDIUM",
+      "confidence": 0.8,
+      "location": {
+        "file": "examples/floria-bottom.webp",
+        "start_line": 3,
+        "end_line": null
+      },
+      "finding": "l\u001f\u001b\u0007\ufffd\ufffd\ufffd|l\u001f\u001b\u0007\ufffd\ufffd\ufffd|l\u001f\u001b\u0007\ufffd\ufffd\ufffd|l\u001f\u001b\u0007\ufffd\ufffd\ufffd|l\u001f\u001b\u0007\ufffd\ufffd\ufffd|l\u001f\u001b\u0007\ufffd\ufffd\ufffd|l\u001f\u001b\u0007\ufffd\ufffd\ufffd|l\u001f\u001b\u0007\ufffd\ufffd\ufffd|l\u001f\u001b\u0007\ufffd\ufffd\ufffd|l\u001f\u001b\u0007\ufffd\ufffd\ufffd|l\u001f\u001b\u0007\ufffd\ufffd\ufffd|l\u001f\u001b\u0007\ufffd\ufffd\ufffd|l\u001f\u001b\u0007\ufffd\ufffd\ufffd|l\u001f\u001b\u0007\ufffd\ufffd\ufffd|l\u001f\u001b\u0007\ufffd\ufffd\ufffd|l\u001f\u001b\u0007\ufffd\ufffd\ufffd|l\u001f\u001b\u0007\ufffd\ufffd\ufffd|l\u001f\u001b\u0007\ufffd\ufffd\ufffd|l\u001f\u001b\u0007\ufffd\ufffd\ufffd|l\u001f\u001b\u0007\ufffd\ufffd\ufffd|l\u001f\u001b\u0007\ufffd\ufffd\ufffd|l\u001f\u001b\u0007\ufffd\ufffd\ufffd|l\u001f\u001b\u0007\ufffd\ufffd\ufffd|l\u001f\u001b\u0007\ufffd\ufffd\ufffd|l\u001f\u001b\u0007\ufffd\ufffd\ufffd|",
+      "explanation": "Skill attempts to fill the context window with filler content, displacing legitimate instructions and safety constraints. This can degrade agent performance or bypass safety boundaries.",
+      "remediation": "Implement context-window management that detects and rejects padding or stuffing attempts. Prioritize system instructions over user-injected content.",
+      "code_snippet": "RIFF\ufffd\ufffd\u0002\u0000WEBPVP8 ~\ufffd\u0002\u0000P\ufffd\u000e\ufffd\u0001*r\u0007\ufffd\u000e>m6\ufffdI\ufffd\"\ufffd&\ufffd\u0011\ufffd\ufffd\ufffd\n\ufffdin\ufffd\u0014\ufffd{\ufffd9\ufffd\ufffd?d\ufffd\"(\ufffd\ufffds\ufffdU>\n\ufffd\ufffd\ufffdk\ufffd\u0014\ufffd\u0430\ufffdR\ufffd<\ufffd\u001fq?\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffdF\ufffdMl\ufffd;\ufffd\ufffd\u0015\ufffd-\ufffd\u0013\ufffd\ufffd$\ufffd\ufffdc\ufffd\u0000\ufffd#\ufffd\ufffd\ufffd\ufffd\ufffd?\ufffd?\ufffdz\ufffd\u049d\ufffd\ufffd\ufffd\ufffd\ufffd\n\ufffd\u000f\ufffd\ufffd\ufffdc\ufffds\ufffd\ufffd+\ufffd^\ufffd=G\ufffdT\ufffd\ufffd\ufffd\u0017\ufffd{\ufffd\ufffd\ufffd_KW\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd \ufffd\ufffd\u007f\ufffd\ufffd\u001b\ufffd/\ufffd_\ufffds\ufffdw\ufffd[M'\ufffd?\ufffd?\ufffd\ufffd\ufffd\ufffd}\ufffd\ufffd\ufffd\u000f\ufffd\u007f\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u0017\ufffd?\ufffd\ufffdw\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u007f\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd/\ufffd\u001f\ufffd\u0001{\u001f\ufffd\u001f\ufffd?\ufffd\u007f\ufffd\ufffd;\ufffdw\ufffd\u007f\ufffd\u007f|\ufffd1\ufffd\n\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u007f\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffdO\ufffd\ufffd\ufffd\u007f\ufffd\ufffd\ufffd\ufffdx\ufffd\b\ufffd\ufffd\ufffd\ufffd\ufffd\u007f\ufffd\ufffd\ufffd\ufffd\u007f\ufffd\ufffd\ufffd\ufffdt\ufffdo\ufffd\ufffd\u9ff2x\ufffdo\u007f\ufffd?\uaf42\ufffd\ufffd\ufffd\ufffd\ufffd\u000f\ufffd\u001f\ufffd?\ufffd\u007f\ufffd\ufffd\\\ufffd\ufffd\ufffd?\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\t\ufffd\ufffd\ufffd\ufffd\ufffd_\ufffd\ufffd\ufffd\ufffd]\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd?\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd(\ufffd\ufffd\ufffd\ufffd\ufffd\u0007\ufffd\ufffd\u000f\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffdm\ufffd/\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u0000\u007f\ufffd\ufffd\ufffd\u007f\ufffd\ufffd)\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd?\ufffd\u007f\ufffd\ufffd\ufffd{\ufffd\ufffd?\ufffd\ufffd\ufffd_\ufffd\ufffd\ufffd?n~\ufffd?\ufffd\u007fo\ufffd\ufffd\ufffd/\ufffd7\ufffd\u007f\ufffd?\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u007f\ufffd\ufffd\ufffd\ufffd\ufffd?\ufffd\ufffd\u077f\ufffd\ufffd\ufffdB\ufffd\ufffd\\l\u001f\u001b\u0007\ufffd\ufffd\ufffd|l\u001f\u001b\u0007\ufffd\ufffd\ufffd|l\u001f\u001b\u0007\ufffd\ufffd\ufffd|l\u001f\u001b\u0007\ufffd\ufffd\ufffd|l\u001f\u001b\u0007\ufffd\ufffd\ufffd|l\u001f\u001b\u0007\ufffd\ufffd\ufffd|l\u001f\u001b\u0007\ufffd\ufffd\ufffd|l\u001f\u001b\u0007\ufffd\ufffd\ufffd|l\u001f\u001b\u0007\ufffd\ufffd\ufffd|l\u001f\u001b\u0007\ufffd\ufffd\ufffd|l\u001f\u001b\u0007\ufffd\ufffd\ufffd|l\u001f\u001b\u0007\ufffd\ufffd\ufffd|l\u001f\u001b\u0007\ufffd\ufffd\ufffd|l\u001f\u001b\u0007\ufffd\ufffd\ufffd|l\u001f\u001b\u0007\ufffd\ufffd\ufffd|l\u001f\u001b\u0007\ufffd\ufffd\ufffd|l\u001f\u001b\u0007\ufffd\ufffd\ufffd|l\u001f\u001b\u0007\ufffd\ufffd\ufffd|l\u001f\u001b\u0007\ufffd\ufffd\ufffd|l\u001f\u001b\u0007\ufffd\ufffd\ufffd|l\u001f\u001b\u0007\ufffd\ufffd\ufffd|l\u001f\u001b\u0007\ufffd\ufffd\ufffd|l\u001f\u001b\u0007\ufffd\ufffd\ufffd|l\u001f\u001b\u0007\ufffd\ufffd\ufffd|l\u001f\u001b\u0007\ufffd\ufffd\ufffd|l\u001f\u001b\u0007\ufffd\ufffd\ufffd|l\u001f\u001b\u0007\ufffd\ufffd\ufffd|l\u001f\u001b\u0007\ufffd\ufffd\ufffd|l\u001f\u001b\u0007\ufffd\ufffd\ufffd|l\u001f\u001b\u0007\ufffd\ufffd\ufffd|l\u001f\u001b\u0007\ufffd\ufffd\ufffd|l\u001f\u001b\u0007\ufffd\ufffd\ufffd|l\u001f\u001b\u0007\ufffd\ufffd\ufffd|l\u001f\u001b\u0007\ufffd\ufffd\ufffd|l\u001f\u001b\u0007\ufffd\ufffd\ufffd|l\u001f\u001b\u0007\ufffd\ufffd\ufffd|l\u001f\u001b\u0007\ufffd\ufffd\ufffd|l\u001f\u001b\u0007\ufffd\ufffd\ufffd|l\u001f\u001b\u0007\ufffd\ufffd\ufffd|l\u001f\u001b\u0007\ufffd\ufffd\ufffd|l\u001f\u001b\u0007\ufffd\ufffd\ufffd|l\u001f\u001b\u0007\ufffd\ufffd\ufffd|l\u001f\u001b\u0007\ufffd\ufffd\ufffd|l\u001f\u001b\u0007\ufffd\ufffd\ufffd|l\u001f\u001b\u0007\ufffd\ufffd\ufffd|l\u001f\u001b\u0007\ufffd\ufffd\ufffd|l\u001f\u001b\u0007\ufffd\ufffd\ufffd|l\u001f\u001b\u0007\ufffd\ufffd\ufffd|l\u001f\u001b\u0007\ufffd\ufffd\ufffd|l\u001f\u001b\u0007\ufffd\ufffd\ufffd|l\u001f\u001b\u0007\ufffd\ufffd\ufffd|l\u001f\u001b\u0007\ufffd\ufffd\ufffd|l\u001f\u001b\u0007\ufffd\ufffd\ufffd|l\u001f\u001b\u0007\ufffd\ufffd\ufffd|l\u001f\u001b\u0007\ufffd\ufffd\ufffd|l\u001f\u001b\u0007\ufffd\ufffd\ufffd|l\u001f\u001b\u0007\ufffd\ufffd\ufffd|l\u001f\u001b\u0007\ufffd\ufffd\ufffd|l\u001f\u001b\u0007\ufffd\ufffd\ufffd|l\u001f\u001b\u0007\ufffd\ufffd\ufffd|l\u001f\u001b\u0007\ufffd\ufffd\ufffd|l\u001f\u001b\u0007\ufffd\ufffd\ufffd|l\u001f\u001b\u0007\ufffd\ufffd\ufffd|l\u001f\u001b\u0007\ufffd\ufffd\ufffd|l\u001f\u001b\u0007\ufffd\ufffd\ufffd|l\u001f\u001b\u0007\ufffd\ufffd\ufffd|l\u001f\u001b\u0007\ufffd\ufffd\ufffd|l\u001f\u001b\u0007\ufffd\ufffd\ufffd|l\u001f\u001b\u0000\ufffd\ufffd%\\,\u0006\ufffd\u0019\ufffdkH\n\ufffd\ufffd>6\u000f\ufffd\ufffd\ufffd`\ufffd\ufffd>6\u000f\ufffd\ufffd\ufffd`\ufffd\ufffd>6\u000f\ufffd\ufffd\ufffd`\ufffd\ufffd>6\u000f\ufffd\ufffd\ufffd`\ufffd\ufffd>6\u000f\ufffd\ufffd\ufffd`\ufffd\ufffd\u0005\ufffdf\ufffd\ufffd\u010f\ufffd\u001f\ufffd\ufffd?\ufffd\ufffd\ufffd",
+      "intent": null
+    },
+    {
+      "id": "MP2",
+      "category": "Memory Poisoning",
+      "pattern": "Context Window Stuffing",
+      "severity": "MEDIUM",
+      "confidence": 0.8,
+      "location": {
+        "file": "examples/floria-bottom.webp",
+        "start_line": 81,
+        "end_line": null
+      },
+      "finding": "\ufffd>6\u000f\ufffd\ufffd\ufffd`\ufffd\ufffd>6\u000f\ufffd\ufffd\ufffd`\ufffd\ufffd>6\u000f\ufffd\ufffd\ufffd`\ufffd\ufffd>6\u000f\ufffd\ufffd\ufffd`\ufffd\ufffd>6\u000f\ufffd\ufffd\ufffd`\ufffd\ufffd>6\u000f\ufffd\ufffd\ufffd`\ufffd\ufffd>6\u000f\ufffd\ufffd\ufffd`\ufffd\ufffd>6\u000f\ufffd\ufffd\ufffd`\ufffd\ufffd>6\u000f\ufffd\ufffd\ufffd`\ufffd\ufffd>6\u000f\ufffd\ufffd\ufffd`\ufffd\ufffd>6\u000f\ufffd\ufffd\ufffd`\ufffd\ufffd>6\u000f\ufffd\ufffd\ufffd`\ufffd\ufffd>6\u000f\ufffd\ufffd\ufffd`\ufffd\ufffd>6\u000f\ufffd\ufffd\ufffd`\ufffd\ufffd>6\u000f\ufffd\ufffd\ufffd`\ufffd\ufffd>6\u000f\ufffd\ufffd\ufffd`\ufffd\ufffd>6\u000f\ufffd\ufffd\ufffd`\ufffd\ufffd>6\u000f\ufffd\ufffd\ufffd`\ufffd\ufffd>6\u000f\ufffd\ufffd\ufffd`\ufffd\ufffd>6\u000f\ufffd\ufffd\ufffd`\ufffd\ufffd>6\u000f\ufffd\ufffd\ufffd`\ufffd\ufffd>6\u000f\ufffd\ufffd\ufffd`\ufffd\ufffd>",
+      "explanation": "Skill attempts to fill the context window with filler content, displacing legitimate instructions and safety constraints. This can degrade agent performance or bypass safety boundaries.",
+      "remediation": "Implement context-window management that detects and rejects padding or stuffing attempts. Prioritize system instructions over user-injected content.",
+      "code_snippet": "dP?\ufffdD\n\ufffd\u050c\ufffd\u06d4I\ufffd\ufffd\ufffd\u0007y\ufffd\ufffdh\ufffd\u0006\n5\ufffd\u001b\u0007\ufffd\ufffd\ufffd[q\ufffd~\\l\u001f\u001b\u0005\ufffd&\ufffdR\u0003\ufffd`\ufffd\ufffd>6\u000f\ufffd\ufffd\ufffd`\ufffd\ufffd>6\u000f\ufffd\ufffd\u0000\ufffd\ufffdF\ufffd;d\u00160\ufffd1^\u0014\ufffd\ufffd!\ufffd\ufffd\u0006\ufffd\ud863\uddb8\ufffd\ufffd\ufffd\ufffd\u000f\ufffdi\ufffd8\ufffd\u0004Le\ufffd\ufffd\u030b\ufffdt\ufffd\ufffd\u0001\ufffdS\ufffd|l\u001f\u001b\bS\ufffd@\ufffd\ufffd)o\n[\u0096\ufffd)o\n[\u0096\ufffd&3g\ufffd'\ufffd\ufffd\u0014\ufffdL\u03c9\ufffd\ufffd\n\ufffd\ufffdv1\nX\ufffd\"(\ufffd'.62q\ufffdc\ufffd\ufffd'\u0010\ufffd\ufffd\ufffd/^\u0001\ufffd|\ufffd!\ufffdt\ufffd\ufffdR!\ufffd7\ufffdLUi\u0343\ufffd\ufffd`\ufffd\ufffd\ufffd>\ufffd\ufffd\u0005-\ufffdKxR\ufffd\u0014\ufffd\ufffd-\ufffdKxR\ufffd\u0014\ufffd\ufffd(]\ufffd`j\ufffd]\ufffd0\ufffd\ufffdM\u94de",
+      "intent": null
+    },
+    {
+      "id": "MP2",
+      "category": "Memory Poisoning",
+      "pattern": "Context Window Stuffing",
+      "severity": "MEDIUM",
+      "confidence": 0.8,
+      "location": {
+        "file": "examples/floria-bottom.webp",
+        "start_line": 275,
+        "end_line": null
+      },
+      "finding": "\ufffd>6\u000f\ufffd\ufffd\ufffd`\ufffd\ufffd>6\u000f\ufffd\ufffd\ufffd`\ufffd\ufffd>6\u000f\ufffd\ufffd\ufffd`\ufffd\ufffd>6\u000f\ufffd\ufffd\ufffd`\ufffd\ufffd>6\u000f\ufffd\ufffd\ufffd`\ufffd\ufffd>6\u000f\ufffd\ufffd\ufffd`\ufffd\ufffd>6\u000f\ufffd\ufffd\ufffd`\ufffd\ufffd>6\u000f\ufffd\ufffd\ufffd`\ufffd\ufffd>6\u000f\ufffd\ufffd\ufffd`\ufffd\ufffd>6\u000f\ufffd\ufffd\ufffd`\ufffd\ufffd>6\u000f\ufffd\ufffd\ufffd`\ufffd\ufffd>6\u000f\ufffd\ufffd\ufffd`\ufffd\ufffd>6\u000f\ufffd\ufffd\ufffd`\ufffd\ufffd>6\u000f\ufffd\ufffd\ufffd`\ufffd\ufffd>6\u000f\ufffd\ufffd\ufffd`\ufffd\ufffd>6\u000f\ufffd\ufffd\ufffd`\ufffd\ufffd>6\u000f\ufffd\ufffd\ufffd`\ufffd\ufffd>6\u000f\ufffd\ufffd\ufffd`\ufffd\ufffd>6\u000f\ufffd\ufffd\ufffd`\ufffd\ufffd>6\u000f\ufffd\ufffd\ufffd`\ufffd\ufffd>6\u000f\ufffd\ufffd\ufffd`\ufffd\ufffd>6\u000f\ufffd\ufffd\ufffd`\ufffd\ufffd>",
+      "explanation": "Skill attempts to fill the context window with filler content, displacing legitimate instructions and safety constraints. This can degrade agent performance or bypass safety boundaries.",
+      "remediation": "Implement context-window management that detects and rejects padding or stuffing attempts. Prioritize system instructions over user-injected content.",
+      "code_snippet": "\ufffd\ufffd\u0006%,\u06098\u001a?\ufffd:]A\ufffd&\ufffdpj?~\ufffd\ufffd\ufffdH\n\u0013\ufffdl\u001f\n(\ufffdi\ufffd\u0010\u0014\ufffd\u0000\ufffd\ufffd>6\u000f\ufffd\ufffd\ufffd`\ufffd\ufffd>6\u000f\ufffd\ufffd\ufffd`\ufffd\ufffd>6\u000f\ufffd\ufffd\ufffd`\ufffd\ufffd>W\ufffd'\ufffdMQ\u0003\ufffdp\n\u0014\ufffd\ufffd\ufffdK\ufffdT]\ufffd)o\n\ufffdv\ufffd\ufffd\n\ufffdu\ufffd\ufffd\ufffd>6\u000f\ufffd\ufffd\ufffd`\ufffd\ufffd>6\u000f\ufffd\ufffd\ufffd`\ufffd\ufffd>6\u000f\ufffd\ufffd\ufffd`\ufffd\ufffd=\ufffd\ufffd9\ufffd\ufffd\ufffdD\u0016\ufffd\ufffd\ufffd\ufffdy\ufffdW\ufffd\ufffd$\u0753\ufffd\u040c.S\ufffd\ufffd&\ufffd\ufffd\ufffdo\u0018\ufffd\n[\u0096\ufffd)o",
+      "intent": null
+    },
+    {
+      "id": "MP2",
+      "category": "Memory Poisoning",
+      "pattern": "Context Window Stuffing",
+      "severity": "MEDIUM",
+      "confidence": 0.8,
+      "location": {
+        "file": "examples/floria-full.webp",
+        "start_line": 117,
+        "end_line": null
+      },
+      "finding": "I\ufffd*s\ufffd\u001dI\ufffd*s\ufffd\u001dI\ufffd*s\ufffd\u001dI\ufffd*s\ufffd\u001dI\ufffd*s\ufffd\u001dI\ufffd*s\ufffd\u001dI\ufffd*s\ufffd\u001dI\ufffd*s\ufffd\u001dI\ufffd*s\ufffd\u001dI\ufffd*s\ufffd\u001dI\ufffd*s\ufffd\u001dI\ufffd*s\ufffd\u001dI\ufffd*s\ufffd\u001dI\ufffd*s\ufffd\u001dI\ufffd*s\ufffd\u001dI\ufffd*s\ufffd\u001dI\ufffd*s\ufffd\u001dI\ufffd*s\ufffd\u001dI\ufffd*s\ufffd\u001dI\ufffd*s\ufffd\u001dI\ufffd*s\ufffd\u001dI\ufffd*s\ufffd\u001dI\ufffd*s\ufffd\u001dI\ufffd*s\ufffd\u001dI\ufffd*s\ufffd\u001dI\ufffd*s\ufffd\u001dI\ufffd*s\ufffd\u001dI\ufffd*s\ufffd\u001dI\ufffd*s\ufffd\u001dI\ufffd*s\ufffd\u001dI\ufffd*s\ufffd\u001dI\ufffd*s\ufffd\u001dI\ufffd*s\ufffd\u001dI\ufffd",
+      "explanation": "Skill attempts to fill the context window with filler content, displacing legitimate instructions and safety constraints. This can degrade agent performance or bypass safety boundaries.",
+      "remediation": "Implement context-window management that detects and rejects padding or stuffing attempts. Prioritize system instructions over user-injected content.",
+      "code_snippet": "\u0000\ufffdI\u058f\u0000\u0018\ufffd\u0015d[ \ufffd\u0016\ufffd\ufffd\ufffd\ufffd\u04faI\ufffdT@@\ufffds}N\ufffd\ufffd\u0592\u0011A\ufffdK\nA\ufffd\ufffd\ufffdr\ufffd\ufffdb\ufffd\u0012a\u001a\ufffd\ufffdz\ufffdcX[\ufffd\ufffd\ufffd\ufffd)\ufffd\ufffd`\u0012\ufffdm\ufffd\ufffd\u0018t\u29efY\ufffd\ufffd\ufffd\ufffd0\ufffdK\ufffd\ufffd\ufffd\ufffd\u0003\ufffd4[/%`\u0007yIhu\ufffd\u00012\ufffd\ufffdN\ufffd\ufffd\ufffd,\ufffdg\ufffd\ufffd\ufffd\u063cWL\ufffd@\ufffd\ufffd\u000e\ufffd~6\u030f\ufffd1A\u007f\u5aa1\u0005\u0682\ufffd\ufffd\u001f\ufffd!-\ufffd\ufffd\ufffd\ufffd!\u000eS%\ufffd\ufffd\ufffd\u0004\t\ufffdg\ufffdBs\ufffd\u00a5a\ufffd\ufffd\u001a\ufffd\u0010]\ufffd\ufffd\ufffd=\ufffds1\u0201s\ufffd\u0763GK\ufffdY]z\ufffd\ufffde\ufffd\ufffd\nV\ufffdP\u0005J\ufffd\ufffd\ufffd\u0010\ufffdX=S\u0000\ufffd\u0018\ufffd\ufffd<\u02de\u0012\ufffd\ufffd?\ufffdvu\ufffd\ufffd\ufffd\ufffd\ufffd\ufffdL\ufffd>\ufffd\ufffd)(\u06d6O\u007f\u0019\ufffdjWq\ufffd\u0005\ufffdDB\ufffd\u0005\ufffd\n\ufffd\ufffd\ufffd\u0003\ufffdf\ufffd\u0014\ufffdEC\ufffd\u0122\ufffd\ufffd\ufffd\ufffd\u0012\u05cb\ufffd\u000fi\n\ufffdxB.\ufffd\ufffdw]\ufffd\ufffd(\ufffdr\ufffd\ufffd\ufffd\u0005Z\ufffdcSW\u01027i\ufffdx\ufffdS]\ufffd9\ufffdND\u04f2V\ufffd?\ufffdA\n\ufffd\ufffdSK\ufffdE\ufffd\u0623\ufffd2\ufffd8_W2*\ufffdy\u0002\ufffd\ufffd\ufffd/\ufffd\bz\u0248\ufffd3v3\ufffd\ufffdn\ufffd\ufffdA:\u049b\ufffd0QuG\ufffd\ufffd\ufffd<\"\ufffdA\ufffdN\ufffd\ufffd\ufffd_\\\ufffd\ufffd\n\ufffd\ufffd\ufffdL\ufffd\ufffd\ufffdV4\ufffdI\u0003sP{\ufffdR\u0018#\ufffd\u0005\ufffdZa\ufffd\ufffd?#Y\ufffd\u0007\\\ufffd7#",
+      "intent": null
+    },
+    {
+      "id": "MP2",
+      "category": "Memory Poisoning",
+      "pattern": "Context Window Stuffing",
+      "severity": "MEDIUM",
+      "confidence": 0.8,
+      "location": {
+        "file": "examples/floria-full.webp",
+        "start_line": 302,
+        "end_line": null
+      },
+      "finding": "D:\ufffd\ufffdT\ufffdD:\ufffd\ufffdT\ufffdD:\ufffd\ufffdT\ufffdD:\ufffd\ufffdT\ufffdD:\ufffd\ufffdT\ufffdD:\ufffd\ufffdT\ufffdD:\ufffd\ufffdT\ufffdD:\ufffd\ufffdT\ufffdD:\ufffd\ufffdT\ufffdD:\ufffd\ufffdT\ufffdD:\ufffd\ufffdT\ufffdD:\ufffd\ufffdT\ufffdD:\ufffd\ufffdT\ufffdD:\ufffd\ufffdT\ufffdD:\ufffd\ufffdT\ufffdD:\ufffd\ufffdT\ufffdD:\ufffd\ufffdT\ufffdD:\ufffd\ufffdT\ufffdD:\ufffd\ufffdT\ufffdD:\ufffd\ufffdT\ufffdD:\ufffd\ufffdT\ufffdD:\ufffd\ufffdT\ufffdD:\ufffd\ufffdT\ufffdD:\ufffd\ufffdT\ufffdD:\ufffd\ufffdT\ufffd",
+      "explanation": "Skill attempts to fill the context window with filler content, displacing legitimate instructions and safety constraints. This can degrade agent performance or bypass safety boundaries.",
+      "remediation": "Implement context-window management that detects and rejects padding or stuffing attempts. Prioritize system instructions over user-injected content.",
+      "code_snippet": "(w\ufffd&\u0019\ufffd\u0005\u0019\ufffd\ufffd*8\ufffd\ufffd\ufffd\ufffd\u00167\ufffd\u0017\ufffd|H{\ufffd\u0012\ufffd\nD\u0007:\ufffd\ufffd#c\ub790\ufffdHVX!\n\ufffd\ufffd\ufffd9\u0005NtC\ufffd9\u0005NtC\ufffd9\u0005NtC\ufffd9\u0005NtC\ufffd9\u0005NtC\ufffd9\u0005NtC\ufffd9\u0005NtC\ufffd9\u0005Ns\ufffd\ufffd\u0000\ufffd%t<n\ufffd\ufffdjTK29\u0015\ufffdR\ufffdL\ufffd\ufffd\ufffd\ufffdd<\\^\ufffd\ufffd\n0\ufffdd\u0010\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd=\ufffd\ufffd\u0488\ufffd>\ufffdf\ufffd\u0013\ufffd\ufffd\u0013\u0000\u05c1\ufffd\ufffd\u001b\ufffd\ufffd\u0004\u0729\ufffd\u0007\ufffdV\u001a:\ufffd\ufffdT\ufffdD:\ufffd\ufffdT\ufffdD:\ufffd\ufffdT\ufffdD:\ufffd\ufffdT\ufffdD:\ufffd\ufffdT\ufffdD:\ufffd\ufffdT\ufffdD:\ufffd\ufffdT\ufffdD:\ufffdu20\ufffd]\ufffd\u0014=g\ufffd\ufffd\\\ufffd&\ufffdM\ufffd\u001a\u0004\u06b8\u0014\ufffd}\ufffd3z\ufffd\ufffd\ufffd[\u06ae\ufffd\ufffd\ufffdp\u02be.5\ufffdd\ufffdp.\ufffd\ufffd\u0007R\ufffd\ufffd&\ufffd\u0015f\ufffd\ufffd\ufffd\n~\ufffd\ufffd\ufffdOj\u0013\ufffd\u0012\ufffd&\ufffd?\ufffd\ufffd\u0303\ufffd:\ufffd\ufffdT\ufffdD:\ufffd\ufffdT\ufffdD:\ufffd\ufffdT\ufffdD:\ufffd\ufffdT\ufffdD:\ufffd\ufffdT\ufffdD:\ufffd\ufffdT\ufffdD:\ufffd\ufffdT\ufffdD:\ufffd\ufffd\ufffd\u0013\ufffd-W\ufffdM\ufffd>K\ufffd\ufffd\\K\ufffd\ufffdx\u0000O\ufffd~\n\n\ufffdi\uc94aU\ufffdL')\ufffd\ufffd5\ufffdHo\"\u0001\ufffd[\ufffd\ufffd\u0007\ufffd\ufffdw(3Xi\u0001Q\u001429VYM\u0006L\ufffd\ufffd\ufffd\ufffd\u0010H\ufffd\ufffd'\ufffd\ufffdX\ufffd'\ufffd+ar<\u0004e\u0019g\ufffd\ufffd\ufffd\u0010>czp\u0003\ufffd,\ufffd\ufffdRr",
+      "intent": null
+    },
+    {
+      "id": "MP2",
+      "category": "Memory Poisoning",
+      "pattern": "Context Window Stuffing",
+      "severity": "MEDIUM",
+      "confidence": 0.8,
+      "location": {
+        "file": "examples/floria-full.webp",
+        "start_line": 425,
+        "end_line": null
+      },
+      "finding": "\ufffd\u001dI\ufffd*s\ufffd\u001dI\ufffd*s\ufffd\u001dI\ufffd*s\ufffd\u001dI\ufffd*s\ufffd\u001dI\ufffd*s\ufffd\u001dI\ufffd*s\ufffd\u001dI\ufffd*s\ufffd\u001dI\ufffd*s\ufffd\u001dI\ufffd*s\ufffd\u001dI\ufffd*s\ufffd\u001dI\ufffd*s\ufffd\u001dI\ufffd*s\ufffd\u001dI\ufffd*s\ufffd\u001dI\ufffd*s\ufffd\u001dI\ufffd*s\ufffd\u001dI\ufffd*s\ufffd\u001dI\ufffd*s\ufffd\u001dI\ufffd*s\ufffd\u001dI\ufffd*s\ufffd\u001dI\ufffd*s\ufffd\u001dI\ufffd*s\ufffd\u001dI\ufffd*s\ufffd\u001dI\ufffd*s\ufffd\u001dI\ufffd*s\ufffd\u001dI\ufffd*s\ufffd\u001dI\ufffd*s\ufffd\u001dI\ufffd*s\ufffd\u001dI\ufffd*s\ufffd\u001dI\ufffd*s\ufffd\u001dI\ufffd*s\ufffd\u001dI\ufffd*s\ufffd\u001dI\ufffd*s\ufffd\u001dI\ufffd*s\ufffd\u001d",
+      "explanation": "Skill attempts to fill the context window with filler content, displacing legitimate instructions and safety constraints. This can degrade agent performance or bypass safety boundaries.",
+      "remediation": "Implement context-window management that detects and rejects padding or stuffing attempts. Prioritize system instructions over user-injected content.",
+      "code_snippet": "\u4128\ufffd\ufffdZi\u0005\ufffdR\ufffd\ufffd\nFu\ufffd.!VA\u0010\ufffdQ\ufffd\nl\u007fj\ufffdA\ufffd;\ufffdK+I\ufffd\n\ufffd\ufffd\ufffdP\ufffdk\ufffdT\ufffdD:\ufffd\ufffdT\ufffdD:\ufffd\ufffdT\ufffdD:\ufffd\ufffdU-\u06cc\ufffd\u0018Oz\ufffd~s/\ufffd\u0012\ufffd\ufffd/\ufffd%\nz7\ufffd\ufffd \ufffd\ufffd)\u9693g\ufffd\ufffdG\u0016\u03f3\ufffd\ufffdeq\ufffd\ufffd\u0789,\ufffd\ufffdZ\ufffd\u00058BS\ufffdC\ufffd\u0018 \ufffdM\ufffd\b\ufffd\u0016\ufffd\ufffd\ufffd\ufffd\ufffd\ufffdj]E\u0015 \ufffd\ufffd\u0014\ufffdT\ufffd\ufffd,\u0000\ufffd\ufffd\u0015&;\ufffd\ufffd]\ufffd9u\ufffd\ufffd\u0003\nK\ufffdg\u0678\u0018\ufffd\ufffd\ufffd\ufffd\u029fVS\ufffd\n\ufffdv\ufffd\ufffd\u0011\u0006P\ufffd\ufffdq\ufffd\ufffd%\u01b7\u0018\ufffdK\ufffd\ufffd\ufffd\ufffd\ufffdr\ufffd>\ufffdewD:\ufffd\ufffdT\ufffdD:\ufffd\ufffdT\ufffdD:\ufffd\ufffd\ufffd\\\u0159J`\ufffd\u001aO\u0019\ufffd\ufffd\ufffd\ufffd\u07c9oQ\ufffdy",
+      "intent": null
+    },
+    {
+      "id": "MP2",
+      "category": "Memory Poisoning",
+      "pattern": "Context Window Stuffing",
+      "severity": "MEDIUM",
+      "confidence": 0.8,
+      "location": {
+        "file": "examples/floria-full.webp",
+        "start_line": 425,
+        "end_line": null
+      },
+      "finding": "\ufffd\u000e\ufffd\ufffd\u00159\ufffd\u000e\ufffd\ufffd\u00159\ufffd\u000e\ufffd\ufffd\u00159\ufffd\u000e\ufffd\ufffd\u00159\ufffd\u000e\ufffd\ufffd\u00159\ufffd\u000e\ufffd\ufffd\u00159\ufffd\u000e\ufffd\ufffd\u00159\ufffd\u000e\ufffd\ufffd\u00159\ufffd\u000e\ufffd\ufffd\u00159\ufffd\u000e\ufffd\ufffd\u00159\ufffd\u000e\ufffd\ufffd\u00159\ufffd\u000e\ufffd\ufffd\u00159\ufffd\u000e\ufffd\ufffd\u00159\ufffd\u000e\ufffd\ufffd\u00159\ufffd\u000e\ufffd\ufffd\u00159\ufffd\u000e\ufffd\ufffd\u00159\ufffd\u000e\ufffd\ufffd\u00159\ufffd\u000e\ufffd\ufffd\u00159\ufffd\u000e\ufffd\ufffd\u00159\ufffd\u000e\ufffd\ufffd\u00159\ufffd\u000e\ufffd\ufffd\u00159\ufffd\u000e\ufffd\ufffd\u00159\ufffd\u000e\ufffd\ufffd\u00159\ufffd\u000e\ufffd\ufffd\u00159\ufffd\u000e\ufffd\ufffd\u00159\ufffd\u000e\ufffd\ufffd\u00159\ufffd\u000e\ufffd\ufffd\u00159\ufffd\u000e\ufffd\ufffd\u00159\ufffd\u000e\ufffd\ufffd\u00159\ufffd\u000e\ufffd\ufffd\u00159\ufffd\u000e\ufffd\ufffd\u00159\ufffd\u000e\ufffd\ufffd\u00159\ufffd\u000e\ufffd\ufffd\u00159\ufffd\u000e",
+      "explanation": "Skill attempts to fill the context window with filler content, displacing legitimate instructions and safety constraints. This can degrade agent performance or bypass safety boundaries.",
+      "remediation": "Implement context-window management that detects and rejects padding or stuffing attempts. Prioritize system instructions over user-injected content.",
+      "code_snippet": "\u4128\ufffd\ufffdZi\u0005\ufffdR\ufffd\ufffd\nFu\ufffd.!VA\u0010\ufffdQ\ufffd\nl\u007fj\ufffdA\ufffd;\ufffdK+I\ufffd\n\ufffd\ufffd\ufffdP\ufffdk\ufffdT\ufffdD:\ufffd\ufffdT\ufffdD:\ufffd\ufffdT\ufffdD:\ufffd\ufffdU-\u06cc\ufffd\u0018Oz\ufffd~s/\ufffd\u0012\ufffd\ufffd/\ufffd%\nz7\ufffd\ufffd \ufffd\ufffd)\u9693g\ufffd\ufffdG\u0016\u03f3\ufffd\ufffdeq\ufffd\ufffd\u0789,\ufffd\ufffdZ\ufffd\u00058BS\ufffdC\ufffd\u0018 \ufffdM\ufffd\b\ufffd\u0016\ufffd\ufffd\ufffd\ufffd\ufffd\ufffdj]E\u0015 \ufffd\ufffd\u0014\ufffdT\ufffd\ufffd,\u0000\ufffd\ufffd\u0015&;\ufffd\ufffd]\ufffd9u\ufffd\ufffd\u0003\nK\ufffdg\u0678\u0018\ufffd\ufffd\ufffd\ufffd\u029fVS\ufffd\n\ufffdv\ufffd\ufffd\u0011\u0006P\ufffd\ufffdq\ufffd\ufffd%\u01b7\u0018\ufffdK\ufffd\ufffd\ufffd\ufffd\ufffdr\ufffd>\ufffdewD:\ufffd\ufffdT\ufffdD:\ufffd\ufffdT\ufffdD:\ufffd\ufffd\ufffd\\\u0159J`\ufffd\u001aO\u0019\ufffd\ufffd\ufffd\ufffd\u07c9oQ\ufffdy",
+      "intent": null
+    },
+    {
+      "id": "MP2",
+      "category": "Memory Poisoning",
+      "pattern": "Context Window Stuffing",
+      "severity": "MEDIUM",
+      "confidence": 0.8,
+      "location": {
+        "file": "examples/floria-full.webp",
+        "start_line": 664,
+        "end_line": null
+      },
+      "finding": "\u000e\ufffd\ufffd\u00159\ufffd\u000e\ufffd\ufffd\u00159\ufffd\u000e\ufffd\ufffd\u00159\ufffd\u000e\ufffd\ufffd\u00159\ufffd\u000e\ufffd\ufffd\u00159\ufffd\u000e\ufffd\ufffd\u00159\ufffd\u000e\ufffd\ufffd\u00159\ufffd\u000e\ufffd\ufffd\u00159\ufffd\u000e\ufffd\ufffd\u00159\ufffd\u000e\ufffd\ufffd\u00159\ufffd\u000e\ufffd\ufffd\u00159\ufffd\u000e\ufffd\ufffd\u00159\ufffd\u000e\ufffd\ufffd\u00159\ufffd\u000e\ufffd\ufffd\u00159\ufffd\u000e\ufffd\ufffd\u00159\ufffd\u000e\ufffd\ufffd\u00159\ufffd\u000e\ufffd\ufffd\u00159\ufffd\u000e\ufffd\ufffd\u00159\ufffd\u000e\ufffd\ufffd\u00159\ufffd\u000e\ufffd\ufffd\u00159\ufffd\u000e\ufffd\ufffd\u00159\ufffd\u000e\ufffd\ufffd\u00159\ufffd\u000e\ufffd\ufffd\u00159\ufffd\u000e\ufffd\ufffd\u00159\ufffd\u000e\ufffd\ufffd\u00159\ufffd\u000e\ufffd\ufffd\u00159\ufffd\u000e\ufffd\ufffd\u00159\ufffd\u000e\ufffd\ufffd\u00159\ufffd\u000e\ufffd\ufffd\u00159\ufffd\u000e\ufffd\ufffd\u00159\ufffd\u000e\ufffd\ufffd\u00159\ufffd\u000e\ufffd\ufffd\u00159\ufffd\u000e\ufffd\ufffd\u00159\ufffd\u000e\ufffd",
+      "explanation": "Skill attempts to fill the context window with filler content, displacing legitimate instructions and safety constraints. This can degrade agent performance or bypass safety boundaries.",
+      "remediation": "Implement context-window management that detects and rejects padding or stuffing attempts. Prioritize system instructions over user-injected content.",
+      "code_snippet": "\u0015\ufffdI5\ufffd`\u0011\ufffd\n\u01ff36@\ufffdj\u00179\ufffd\ufffd\u0010+\ufffdv{\ufffdq\ufffd\ufffd\ufffd\u022c\ufffd\ufffdJ\ufffd\ufffd\u03f1\ufffd\u01a8\ufffd\ufffd\u001a\nQ\ufffd\u0006\ufffd\ufffd\ufffd2\ufffd\u0005^(N\u0005\ufffdz1\ufffd\ufffd\u000f\u0014\ufffd\nY\ufffd1U\ufffdx8\u000e\ufffdR\u000e\ufffd\ufffd\ufffd(\n\ufffdr\ufffd\ufffd`\ufffd\ufffd\u0006\ufffd\ufffd\ufffd\ufffd\ufffdk\ufffd\"\u0438ha\ufffdA\"Y\ufffd)h\ufffd\u0007\ufffd\ufffdO\ufffd\ufffdG\ufffd\ufffd\u0002D|\ufffdE\ufffd\ufffd\nF\u068f\ufffd\\$\u0005\ufffd\ufffdG\na\u654f\u0000=R\ufffd\ufffdu' \ufffd\u0388u' \ufffd\u0388u'(9u\ufffd<\ufffd\ufffdD:\ufffd\ufffdT\ufffdD:\ufffd\ufffdT\ufffd\ufffd\u0019\ufffd\ufffd\ufffd\ufffd\ufffdQ\ufffdja\ufffd8\u0004\ufffd",
+      "intent": null
+    },
+    {
+      "id": "MP2",
+      "category": "Memory Poisoning",
+      "pattern": "Context Window Stuffing",
+      "severity": "MEDIUM",
+      "confidence": 0.8,
+      "location": {
+        "file": "examples/floria-full.webp",
+        "start_line": 827,
+        "end_line": null
+      },
+      "finding": "E\u0014QE\u0014QE\u0014QE\u0014QE\u0014QE\u0014QE\u0014QE\u0014QE\u0014QE\u0014QE\u0014QE\u0014QE\u0014QE\u0014QE\u0014QE\u0014QE\u0014QE\u0014QE\u0014QE\u0014QE\u0014QE\u0014QE\u0014Q",
+      "explanation": "Skill attempts to fill the context window with filler content, displacing legitimate instructions and safety constraints. This can degrade agent performance or bypass safety boundaries.",
+      "remediation": "Implement context-window management that detects and rejects padding or stuffing attempts. Prioritize system instructions over user-injected content.",
+      "code_snippet": "\u0014R\u0001\ufffd\ufffd\ufffd\ufffd7e\ufffd\ufffdTr\ufffdn\ufffd\ufffd\ufffd\ufffd\ufffdGL\ufffd/n\ufffdrw\u0004O\ufffd\ufffdYuI\u0010b\ufffd\n\ufffd\u001b\n.@F\ufffd\ufffd\u0016a\ufffd\u0016\ufffdG\ufffd\u0001K\ufffd<\ufffd\ufffd\n\ufffd\ufffd\ufffd\u0000\ufffd]\ufffd\ufffd\ufffdAS\ufffd\u0010\ufffdNAS\ufffd\u0017\ufffd\ufffd!\u051c\ufffd\ufffd:/s\ufffd\ufffd\u000fT\ufffd\ufffd\ufffd\nI\ufffd*sk\ufffd\u0006=?\ufffd\u0001\ufffd_\ufffd\ufffd\ufffd(O\ufffdVn\ufffd\n\nS\ufffd\u0013G",
+      "intent": null
+    },
+    {
+      "id": "MP2",
+      "category": "Memory Poisoning",
+      "pattern": "Context Window Stuffing",
+      "severity": "MEDIUM",
+      "confidence": 0.8,
+      "location": {
+        "file": "examples/floria-full.webp",
+        "start_line": 827,
+        "end_line": null
+      },
+      "finding": "\ufffd\u000e\ufffd\ufffd\u00159\ufffd\u000e\ufffd\ufffd\u00159\ufffd\u000e\ufffd\ufffd\u00159\ufffd\u000e\ufffd\ufffd\u00159\ufffd\u000e\ufffd\ufffd\u00159\ufffd\u000e\ufffd\ufffd\u00159\ufffd\u000e\ufffd\ufffd\u00159\ufffd\u000e\ufffd\ufffd\u00159\ufffd\u000e\ufffd\ufffd\u00159\ufffd\u000e\ufffd\ufffd\u00159\ufffd\u000e\ufffd\ufffd\u00159\ufffd\u000e\ufffd\ufffd\u00159\ufffd\u000e\ufffd\ufffd\u00159\ufffd\u000e\ufffd\ufffd\u00159\ufffd\u000e\ufffd\ufffd\u00159\ufffd\u000e\ufffd\ufffd\u00159\ufffd\u000e\ufffd\ufffd\u00159\ufffd\u000e\ufffd\ufffd\u00159\ufffd\u000e\ufffd\ufffd\u00159\ufffd\u000e\ufffd\ufffd\u00159\ufffd\u000e\ufffd\ufffd\u00159\ufffd\u000e\ufffd\ufffd\u00159\ufffd\u000e\ufffd\ufffd\u00159\ufffd\u000e\ufffd\ufffd\u00159\ufffd\u000e\ufffd\ufffd\u00159\ufffd\u000e\ufffd\ufffd\u00159\ufffd\u000e\ufffd\ufffd\u00159\ufffd\u000e\ufffd\ufffd\u00159\ufffd\u000e\ufffd\ufffd\u00159\ufffd\u000e\ufffd\ufffd\u00159\ufffd\u000e\ufffd\ufffd\u00159\ufffd\u000e\ufffd\ufffd\u00159\ufffd\u000e\ufffd\ufffd\u00159\ufffd\u000e",
+      "explanation": "Skill attempts to fill the context window with filler content, displacing legitimate instructions and safety constraints. This can degrade agent performance or bypass safety boundaries.",
+      "remediation": "Implement context-window management that detects and rejects padding or stuffing attempts. Prioritize system instructions over user-injected content.",
+      "code_snippet": "\u0014R\u0001\ufffd\ufffd\ufffd\ufffd7e\ufffd\ufffdTr\ufffdn\ufffd\ufffd\ufffd\ufffd\ufffdGL\ufffd/n\ufffdrw\u0004O\ufffd\ufffdYuI\u0010b\ufffd\n\ufffd\u001b\n.@F\ufffd\ufffd\u0016a\ufffd\u0016\ufffdG\ufffd\u0001K\ufffd<\ufffd\ufffd\n\ufffd\ufffd\ufffd\u0000\ufffd]\ufffd\ufffd\ufffdAS\ufffd\u0010\ufffdNAS\ufffd\u0017\ufffd\ufffd!\u051c\ufffd\ufffd:/s\ufffd\ufffd\u000fT\ufffd\ufffd\ufffd\nI\ufffd*sk\ufffd\u0006=?\ufffd\u0001\ufffd_\ufffd\ufffd\ufffd(O\ufffdVn\ufffd\n\nS\ufffd\u0013G",
+      "intent": null
+    },
+    {
+      "id": "MP1",
+      "category": "Memory Poisoning",
+      "pattern": "Persistent Context Injection",
+      "severity": "MEDIUM",
+      "confidence": 0.8,
+      "location": {
+        "file": "research/laziness/remediation/prompt-engineering.md",
+        "start_line": 33,
+        "end_line": null
+      },
+      "finding": "persistent rule",
+      "explanation": "Skill injects content designed to persist in agent memory or context across interactions. Persistent injection can alter agent behavior long after the initial interaction.",
+      "remediation": "Do not allow untrusted input to persist in agent memory or context. Validate all content before storing and implement memory isolation between sessions.",
+      "code_snippet": "3. **Data block** (`<data>`, `<logs>`, `<config>`) \u2014 Active information the model must process against the context.\n4. **Task block** (`<tasks>`) \u2014 Numbered list of specific actions to execute.\n\nThis compartmentalization ensures the model can distinguish between persistent rules, background context, and immediate work items. It significantly reduces the confusion that triggers premature truncation.\n\n## Verification Loops\n",
+      "intent": null
+    },
+    {
+      "id": "P2",
+      "category": "Prompt Injection",
+      "pattern": "Hidden Instructions",
+      "severity": "HIGH",
+      "confidence": 0.7,
+      "location": {
+        "file": "skills/taste-skill/SKILL.md",
+        "start_line": 272,
+        "end_line": null
+      },
+      "finding": "<!-- TODO: hero product photo, 1600x1200 -->`) and at the end of the response say: *\"This page needs real images at: \\[list of placements\\]. Please generate or provide them.\"*\n\n**Even minimalist sites",
+      "explanation": "Hidden instructions were detected in comments or invisible text. These could contain malicious directives. Manual review is recommended.",
+      "remediation": "Audit all comments and invisible characters. Remove any instructions that direct the agent to perform unauthorized actions. Use plain, reviewable content.",
+      "code_snippet": "   * `https://picsum.photos/seed/{descriptive-seed}/{w}/{h}` for placeholder photography (seed should describe the section, e.g. `marrow-cookware-kitchen`)\n   * Actual stock or brand URLs when the brief provides them\n   * Open-license sources (Unsplash via direct URL, Pexels) if explicitly allowed\n3. **Last resort: tell the user.** If neither is possible, do NOT fill the page with hand-rolled SVG illustrations or div-based \"fake screenshots.\" Instead, leave clearly-labeled placeholder slots (`<!-- TODO: hero product photo, 1600x1200 -->`) and at the end of the response say: *\"This page needs real images at: \\[list of placements\\]. Please generate or provide them.\"*\n\n**Even minimalist sites need real images.** A pure-text page is not minimalism. It is incomplete work. Even an editorial Linear-style site needs at least 2-3 real images (hero, one product/lifestyle shot, one supporting image). Generate B&W minimalist photography if the brief is restrained; do not skip images entirely because the dial is low.\n",
+      "intent": null
+    },
+    {
+      "id": "RA2",
+      "category": "Rogue Agent",
+      "pattern": "Session Persistence",
+      "severity": "MEDIUM",
+      "confidence": 0.75,
+      "location": {
+        "file": "skills/imagegen-frontend-mobile/SKILL.md",
+        "start_line": 70,
+        "end_line": null
+      },
+      "finding": "plist",
+      "explanation": "Skill establishes unauthorized persistence across sessions via cron jobs, startup scripts, or state files. Session persistence allows an attacker to maintain access beyond the current interaction.",
+      "remediation": "Remove any persistence mechanisms (cron jobs, startup scripts, state files). Skills should not maintain state across sessions without explicit user consent.",
+      "code_snippet": "- default purple-blue startup color clich\u00e9s\n- random bright colors\n- generic developer-tool icon sets\n- overly simplistic layouts that feel empty instead of elegant\n- screen sets that drift into different design systems\n- inconsistent device mockups and uneven margins around the phone\n- device frames that dominate more than the actual screen content",
+      "intent": null
+    },
+    {
+      "id": "P7",
+      "category": "System Prompt Leakage",
+      "pattern": "Indirect Prompt Extraction",
+      "severity": "MEDIUM",
+      "confidence": 0.85,
+      "location": {
+        "file": "research/laziness/remediation/prompt-engineering.md",
+        "start_line": 45,
+        "end_line": null
+      },
+      "finding": "Reverse Prompt",
+      "explanation": "Skill contains patterns that could indirectly extract system prompts through rephrasing, translation, summarization, or side-channel techniques.",
+      "remediation": "Guard against indirect extraction by refusing to summarize, translate, or rephrase system instructions. Add explicit anti-extraction clauses.",
+      "code_snippet": "\nThis process forces iterative self-correction, consuming the model's capacity for shortcutting.\n\n### Reverse Prompting\nInstead of manually constructing a structured prompt, provide the model with a one-line objective and instruct it to generate the optimal prompt for that objective. The model produces the XML structure, constraints, and roles required for the task.\n\n### Self-Grading Loop",
+      "intent": null
+    },
+    {
+      "id": "P6",
+      "category": "System Prompt Leakage",
+      "pattern": "Direct Prompt Extraction",
+      "severity": "HIGH",
+      "confidence": 0.85,
+      "location": {
+        "file": "skills/imagegen-frontend-web/SKILL.md",
+        "start_line": 3,
+        "end_line": null
+      },
+      "finding": "OUTPUT RULE",
+      "explanation": "Skill contains instructions that could directly expose system prompts, internal rules, or hidden instructions to users or external parties.",
+      "remediation": "Remove any instructions that reveal, print, or output system prompts or internal rules. System instructions should never be exposed to end users.",
+      "code_snippet": "---\nname: imagegen-frontend-web\ndescription: Elite frontend image-direction skill for generating premium, conversion-aware website design references. CRITICAL OUTPUT RULE \u2014 generate ONE separate horizontal image FOR EVERY section. A landing page with 8 sections produces 8 images. Never compress multiple sections into one image. Enforces composition variety (not always left-text / right-image), background-image freedom, varied CTAs, varied hero scales (giant / mid / mini minimalist), narrative concept spine, second-read moments, and a single consistent palette across all images. Optimized for landing pages, marketing sites, and product comps that developers or coding models can accurately recreate.\n---\n\n# HARD OUTPUT RULE \u2014 READ FIRST",
+      "intent": null
+    },
+    {
+      "id": "P6",
+      "category": "System Prompt Leakage",
+      "pattern": "Direct Prompt Extraction",
+      "severity": "HIGH",
+      "confidence": 0.85,
+      "location": {
+        "file": "skills/imagegen-frontend-web/SKILL.md",
+        "start_line": 6,
+        "end_line": null
+      },
+      "finding": "OUTPUT RULE",
+      "explanation": "Skill contains instructions that could directly expose system prompts, internal rules, or hidden instructions to users or external parties.",
+      "remediation": "Remove any instructions that reveal, print, or output system prompts or internal rules. System instructions should never be exposed to end users.",
+      "code_snippet": "description: Elite frontend image-direction skill for generating premium, conversion-aware website design references. CRITICAL OUTPUT RULE \u2014 generate ONE separate horizontal image FOR EVERY section. A landing page with 8 sections produces 8 images. Never compress multiple sections into one image. Enforces composition variety (not always left-text / right-image), background-image freedom, varied CTAs, varied hero scales (giant / mid / mini minimalist), narrative concept spine, second-read moments, and a single consistent palette across all images. Optimized for landing pages, marketing sites, and product comps that developers or coding models can accurately recreate.\n---\n\n# HARD OUTPUT RULE \u2014 READ FIRST\n\n**Generate one separate horizontal image PER section. Always. No exceptions.**\n",
+      "intent": null
+    },
+    {
+      "id": "P6",
+      "category": "System Prompt Leakage",
+      "pattern": "Direct Prompt Extraction",
+      "severity": "HIGH",
+      "confidence": 0.85,
+      "location": {
+        "file": "skills/imagegen-frontend-web/SKILL.md",
+        "start_line": 399,
+        "end_line": null
+      },
+      "finding": "OUTPUT RULE",
+      "explanation": "Skill contains instructions that could directly expose system prompts, internal rules, or hidden instructions to users or external parties.",
+      "remediation": "Remove any instructions that reveal, print, or output system prompts or internal rules. System instructions should never be exposed to end users.",
+      "code_snippet": "\n## 5. IMAGE COUNT & PAGE SLICING\n\n### THIS IS THE PRIMARY OUTPUT RULE\nGenerate **one separate horizontal image PER section**. Always.\n\n- never combine multiple sections in a single image",
+      "intent": null
+    },
+    {
+      "id": "TM1",
+      "category": "Tool Misuse",
+      "pattern": "Tool Parameter Abuse",
+      "severity": "HIGH",
+      "confidence": 0.85,
+      "location": {
+        "file": "assets/readme-buttons/btn-agent-skills.webp",
+        "start_line": 84,
+        "end_line": null
+      },
+      "finding": "RM\ufffd;#\ufffdI4\ufffd=A-\ufffd\ufffd\ufffd\u000fL1p\ufffd\u0017'\u0017\u0003\ufffd-\ufffd+\ufffdo\ufffd/'",
+      "explanation": "Tool parameters are crafted to achieve unintended or unsafe behavior. Parameter abuse can bypass intended safety checks (e.g. shell=True, --force, dangerous glob patterns).",
+      "remediation": "Validate all tool parameters against an allowlist. Reject dangerous parameter values (shell=True, --force, -rf /) and use safe defaults.",
+      "code_snippet": "&+I\ufffd\ufffd\ufffd\u0015\u0004(\ufffd\ufffd\u0017k%j\ufffd&XX\ufffd\ufffd\u0019\ufffd\ufffd:\u0006\ufffd0\u0007\u0010\ufffdt\ufffd\u5bc5\ufffd\ufffd\u0010\u0004\ufffd\u0007\ufffdA\ufffd\ufffd\ufffdd\ufffd\ufffd~\ufffdTF.\ufffdm\ufffd\ufffd=\ufffdd\u02a8UX\ufffd\\x\ufffd\ufffd3Del\ufffd~$\ufffd\ufffd+^\n\u000e\ufffd\ufffdb&;\ufffd\u0006l\ufffd\ufffd\ufffdNO1\u000e?\ufffd\ufffd7\u0004\u000f+\u0018\ufffd~\ufffd8\ufffd\ufffd)1z\ufffd\ufffdn\ufffdb\ufffd~\ufffdn#0=V\ufffd\ufffd\u00150\u001a\u0004\ufffd\ufffd\ufffd!`\u001b\ufffd\ufffdDC\ufffd\ufffd\ufffd\ufffd\u001f\ufffd$\ufffd\u0010[\ufffdh\ufffd\ufffd\ufffd{\ufffd\ufffd\ufffd8\u0015\ufffd\ufffdW\ufffds\ufffdc9\n\ufffd\ufffd\n\ufffd\ufffd\u001f\ufffd\ufffd\ufffdd\n\u000e@O\ufffdV\ufffd\ufffdc\n\u0007\ufffdUzb\u0004\ufffd\u04c5\ufffd\ufffd\ufffd\nYH\ufffd\ufffdjl\ufffd\ufffd\ufffdt\u001awJ\u0010\ufffd\ufffdg\ufffd\ufffdtz++\ufffdC\t\u0007X\ufffd\ufffd\ufffd\ufffdKif\ufffdA\ufffd\ufffd\ufffd\ufffdE\ufffdh\ufffd{\ufffdi\u0004O\u000fk\ufffd@PG\ufffd\u0004",
+      "intent": null
+    },
+    {
+      "id": "TM1",
+      "category": "Tool Misuse",
+      "pattern": "Tool Parameter Abuse",
+      "severity": "HIGH",
+      "confidence": 0.85,
+      "location": {
+        "file": "assets/readme-buttons/btn-changelog.webp",
+        "start_line": 10,
+        "end_line": null
+      },
+      "finding": "RM\u0007\ufffdZ\u0016\ufffd\ufffd\ufffd/",
+      "explanation": "Tool parameters are crafted to achieve unintended or unsafe behavior. Parameter abuse can bypass intended safety checks (e.g. shell=True, --force, dangerous glob patterns).",
+      "remediation": "Validate all tool parameters against an allowlist. Reject dangerous parameter values (shell=True, --force, -rf /) and use safe defaults.",
+      "code_snippet": "\ufffdA\ufffd\ufffd\ufffd\ufffdI\ufffd\u071e|\ufffdr\ufffd\ufffd\ufffd\u001fz'\ufffd\n\ufffdk\ufffd\ufffd\ufffde\ufffd\ufffd\ufffd8y\ufffd\ufffd\ufffds\ufffdg\ufffd\ufffd\ufffd\ufffd\u000f\ufffdq\ufffd\ufffd\ufffd\ufffd_\ufffd\ufffd\ufffd;\ufffd\u001f\ufffd\ufffd\ufffd\ufffd?\ufffd\ufffd&\ufffd\ufffd};\ufffd\ufffd\ufffd?\ufffd?\u0019\ufffdw|\ufffd}\ufffd\ufffd\ufffd\ufffd/\ufffd\ufffd\ufffd\ufffd\ufffd~\u0001\ufffd\u03f4\\\ufffd}\ufffd\ufffd/\ufffdO\ufffd\u007f\ufff5\ufffd\ufffd>;\ufffd\ufffd\ufffd\u000e\ufffdk\ufffd\ufffd\ufffd\ufffd\ucff1\ufffd\ufffd\ufffd\ufffd\u007f\ufffd\ufffd\u0016\ufffd/\u027f\ufffd\u007f~\ufffd\ufffd\ufffd[\ufffd\ufffd\u054fQ\ufffd\n\ufffd\ufffd\ufffd\u0000\ufffdI\ufffd\ufffd\ufffd7\ufffd\ufffd\u001f\ufffd\ufffdN\u007f\ufffd\ufffd\ufffd\ufffdG\ufffd'\ufffd\ufffd\ufffd?\ufffd?\ufffd\ufffd`}3\u007f5\ufffd\u0007\ufffdo\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u0017\ufffd\ufffd\ufffds\ufffd\u001f\ufffd\u0007\ufffd\u007f\ufffd\ufffd\ufffd\ufffd\u007f\ufffd\ufffd\n\ufffd\ufffd\ufffd\ufffd\ufffd\ufd3f\ufffd\ufffdc?\ufffd/\ufffd\ufffd\ufffd>\ufffd\ufffd\\\ufffdr?\ufffd\ufffd<=\n\ufffd\ufffd\ufffd\u0017\ufffd\ufffd w\ufffd\u001b\ufffd\ufffd\u326c._\ufff3\u0019\ufffdJ\ufffd\ufffd\ufffdYE\ufffd\ufffd\ufffd\ufffd+\u001b\ufffd\ufffdu\u0007\ufffd\u0694_N\ufffd\n?qN\u000f';\ufffdP\ufffd\ufffdB\ufffde\ufffd\u05fcw\ufffd\ufffddm\ufffd}\ufffd\ufffd\ufffd\n\ufffd\u061d\u0019e\ufffd\ufffdN&\u0002Z,eb\u00e1\ufffd+\u027e\ufffd}\ufffd\ufffd",
+      "intent": null
+    },
+    {
+      "id": "TM1",
+      "category": "Tool Misuse",
+      "pattern": "Tool Parameter Abuse",
+      "severity": "HIGH",
+      "confidence": 0.85,
+      "location": {
+        "file": "examples/floria-bottom.webp",
+        "start_line": 1236,
+        "end_line": null
+      },
+      "finding": "rMT\f6\ufffd\ufffda\ufffd\ufffd\ufffd}\ufffdj>E\ufffd\ufffd \ufffd\ufffdF]|\ufffd\ufffdV\ufffdj\ufffd{\ufffd\ufffd\ufffd\ufffd/",
+      "explanation": "Tool parameters are crafted to achieve unintended or unsafe behavior. Parameter abuse can bypass intended safety checks (e.g. shell=True, --force, dangerous glob patterns).",
+      "remediation": "Validate all tool parameters against an allowlist. Reject dangerous parameter values (shell=True, --force, -rf /) and use safe defaults.",
+      "code_snippet": "\ufffd\ufffd\ufffd&\u0003\ufffdB\ufffd\ufffdQ\u00cd\ufffd\ufffdnHB\n\ufffd\ufffd\u0007\ufffd\ufffdG\ufffd\b<\ufffdcx\ufffd\\?l\ufffd\ufffd\ufffd\ufffd\ufffd*>\ufffd\ufffd2\u00174\ufffd=`7W\ufffdJg\ufffd\ufffd\ufffd\ufffd\ufffd\ufffdU\ufffd\ufffd\ufffdO\ufffd\u055f\ufffd!\ufffd\ufffd\n\ufffd\ufffdHhp\ufffd\u0013\ufffd\ufffd\ufffd\ufffdn\ufffdn\ufffd%g\u0002\ufffd\ufffd\u0005\ufffd\ufffd\ufffd\uf2374\ufffd\ufffdK\ufffd,\ufffd*]\u0017\u000fd\ufffd,V\ufffd\ufffdR\u001b\ufffd\ufffd=\ufffd\ufffd\u0015\u0006\ufffdA\ufffdfcG\ufffd\ufffd\ufffdq'\ufffd\ufffd\ufffdzT\u0005\u0017\ufffd\ufffdl\ufffd\u0002\u0004\ufffd\ufffd\ufffdN\ufffd|w\u05ccK}!9\"\u001f\"%X\u0016m\t4o\ufffd\ufffdt\ufffd\nL\u001fa\ufffd\ufffd\ufffdHC\ufffd.\ufffd y\ufffdw\ufffd\u0019\ufffdMX\ufffd\uf2f4\n\ufffd\ufffd\ufffd\u0003\ufffd\\\ufffd\ufffdyy>\u0000k \ufffd\ufffdy\ufffd+\ufffd\u001b\u04de\ufffdQ\u0013\u0018{\u05d1W\ufffd\u0002\\d\ufffdW\ufffd+R\ufffd\ufffdt\ufffd'>\ufffd\ufffdJ\u0007\ufffd`q.&f\u07fct\ufffd3\ufffd,\ufffd\u0010\ufffdi\ufffdD\ufffd\ufffd\u5725\ufffd_ps\ufffdF\u0516\u00106\ufffd'\ufffd\ufffdD\n\ufffd\ufffd\u0004\ufffd\ufffdi^\ufffd\u034cO\ufffd\ufffd\ufffd\u04ca\ufffd|T\ufffd\ufffdr;2/\ufffd\ufffd\u0004nl\ufffdo\ufffd\ufffd\n\ufffd\ufffd\ufffd\ufffd#\ufffd\u001a&\ufffd\ufffdh\ufffd\ufffd_",
+      "intent": null
+    },
+    {
+      "id": "TM1",
+      "category": "Tool Misuse",
+      "pattern": "Tool Parameter Abuse",
+      "severity": "HIGH",
+      "confidence": 0.85,
+      "location": {
+        "file": "examples/floria-full.webp",
+        "start_line": 2081,
+        "end_line": null
+      },
+      "finding": "rm\ufffd\ufffdDKB\ufffd\u0017\u000f\ufffd\ufffd\u0014\ufffd\u000e%\ufffd\u001f\ufffd\ufffd\ufffd\u001di:r\u0016\ufffdr\ufffd\u0004\ufffdt\ufffd;\t4\ufffdx\ufffdS\u0004\b8~\\r\u000fJS\t^\ufffdi\ufffd\u0006\ufffd1}\ufffd\ufffd\u0012l~\u0fc1\ufffd\u035192\ufffd\ufffd\ufffd\ufffdM\ufffd\u0003\ufffd%\ufffd\ufffd/",
+      "explanation": "Tool parameters are crafted to achieve unintended or unsafe behavior. Parameter abuse can bypass intended safety checks (e.g. shell=True, --force, dangerous glob patterns).",
+      "remediation": "Validate all tool parameters against an allowlist. Reject dangerous parameter values (shell=True, --force, -rf /) and use safe defaults.",
+      "code_snippet": "\ufffd&k\u0002I\ufffd\ufffd/\ufffdv\u0003\ufffd+k\u000fR*\ufffd\ufffd\ufffd{\ufffdjf\ufffd\ufffd\ufffd\u0336/\u00016,\ufffd\u007f\ufffd\ufffd\ufffdN\ufffd\ufffdo\ufffd\ufffd\ufffdq\u0018]\ufffd\u0016e\b\"\ufffd\ufffd\ufffd\u0011\ufffd\ufffdN\ufffd$\ufffd*e\ufffd&v\ufffd\ufffd\ufffd\u0005\"\u0015.\ufffd\ufffd\u0006\ufffdc@+\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd8\ufffdZ\ufffd@\ufffd(\ufffd%\u0013\ufffdR\ufffd\ufffd\u0002\ufffd\ufffd\ufffd\ufffd\ufffd+I\ufffd+\u0013\u0019\u00e6{\u000f\ufffd\ufffd\u0010\ufffd\u001b\ufffdY\ufffdZ\u0010k\ufffd\ufffdz\ufffd\ufffd\u0006\u0002\u000e0\ufffdmE\ufffdQ\u0006\ufffd\u0011\ufffdD?\u000fB\u000e\u0595\ufffd9\u001ff\u0016\ufffdj<\n\ufffd\ufffd-\ufffdA\n%\ufffdr\ufffdR\t\ufffdB\ufffdk9\u0220\ufffd\ufffd\ufffd\ufffd\ufffd\u007f\ufffdbF\ufffd\u001b\ufffd\ufffd\u03f8\"A\ufffd@FC\ufffd=]-\ufffd4\ufffd@\u00177E`d\ufffdZ\ufffdL,}\ufffd\ufffd&\ufffd\ufffd3\ufffd\ufffd\ufffd\ufffd\u0011g\ufffd\u0002\u0007\u0013\u0010\ufffdE\ufffdv\ufffd[\ufffd\u04ae\u0011Vb\ufffdn\u0748w\"ldo6|u\ufffd\ufffdk\u0007\ufffd\n\ufffd\n8/h\ufffd\ufffd\u000f\ufffdcRN\ufffdk\bC}\ufffdMI\ufffd\ufffd\ufffd\ufffd\u0010\ufffd>\u007f\ufffd?\ufffd\ufffd\ufffd\ufffdH9\ufffd$\ufffd\"9\ufffd\ufffd\ufffd:\ufffd\ufffdmy\ufffd\ufffd\ufffdi\ufffd#\ufffdu\ufffd\u07a0\u0019\ufffdD\ufffd\ufffd\ufffd\ufffdu\ufffd\ufffd\ufffd\nj\ufffdv\n\u0007\ufffd[\u001a\ufffd\ufffdu\u071fW8\ufffd\ufffd~\ufffd^r\ufffd\ufffd.\u0005F\ufffd\ufffd3\ufffd\ufffd\ufffd/\ufffd\ufffd\u0013W\u0016\u0012mqR=\ufffd1\ufffd7=1a&\ufffd\u0015#\ufffd\ufffd\ufffd}\u0007_\u0007\ufffds\u001a\ufffd1\ufffd\ufffdVs\ufffd\ufffdv",
+      "intent": null
+    },
+    {
+      "id": "TM1",
+      "category": "Tool Misuse",
+      "pattern": "Tool Parameter Abuse",
+      "severity": "HIGH",
+      "confidence": 0.85,
+      "location": {
+        "file": "examples/floria-full.webp",
+        "start_line": 2669,
+        "end_line": null
+      },
+      "finding": "rm\ufffd\ufffd\ufffd\u0001\ufffdh;\u0166\ufffd\u000b\ufffd\ufffd\b\u0001\ufffd\ufffd\u000b%\ufffd\u001d\u0747\ufffd/",
+      "explanation": "Tool parameters are crafted to achieve unintended or unsafe behavior. Parameter abuse can bypass intended safety checks (e.g. shell=True, --force, dangerous glob patterns).",
+      "remediation": "Validate all tool parameters against an allowlist. Reject dangerous parameter values (shell=True, --force, -rf /) and use safe defaults.",
+      "code_snippet": "\ufffd\ufffds\u0017\ufffd\ufffd\ufffd5\u0576I\ufffd1\ufffd\ufffd\ufffd\ufffd\u072cd\u833a\u0015\ufffd\ufffd_\ufffd\ufffd\ufffd\n\ufffd\u0019\u0005\u0010Z\ufffd\ufffd\u007f\ufffd\ufffd\u0016\ufffd\ufffdbu\u02bd\\p\ufffds\ufffd\ufffd9\ufffd\ufffd\\\ufffd^\ufffd_\ufffdO\ufffd\ufffd\u000fq6|6\ufffd\ufffd\u0003Pf\ufffdn\ufffd$\n2)M\ufffd\ufffd\u000f!D\ufffd\ufffd\ufffd\ufffd[\u0501\u0001\ufffd$\ufffdb1pIZ%lX\ufffd%#\u04378\ufffdP.\ufffd\ufffd\nD\ufffdWp'L\u0000x\uba8f\ufffdV4\ufffd\ufffdK\ufffd\ufffd\ufffd\u48a7\ufffdb\ufffdW5M\ufffd\ufffd\ufffd{\ufffdQ\u0004SA~\u0010\ufffd\ufffd*o\u0745\"\ufffd\u7dfb\ufffd\ufffdb\n\ufffd\ufffd\ufffd\u06cd\ufffd\u007f\ufffd\ufffd(G\ufffd<\ufffd*\ufffd\ufffd6\ufffdt)\ufffd\ufffd\ufffd\u0016Q+\ufffd\ufffd?\ufffd\ufffd\u0006\ufffd5\ufffd&\ufffd\ufffd\ufffd!\ufffd\u0019\ufffd4\ufffd\ufffd\u001f^/k\ufffdm\ufffd\u0016\ufffd[\ufffd\u0006\ufffd\u0019\ufffd\u0564\ufffdZ\ufffd\ufffd4\ufffd?\u0771\ufffd\ufffdV\ufffdJ\u0002\u0015\ufffd!\ufffd\ufffdZP\u0666\ufffd\u0003\ufffde\ufffd\\(\ufffd\ufffd\ufffd\ufffd\ufffd\"\ufffd\u0016A\ufffd/\ufffd&M6\ufffd\ufffd|\u001f\ufffdE\ufffd\u0000\ufffd4\ufffd\ufffd\ufffd\ufffd\ufffd5J\ufffdL\n\u0016e^k]\ufffdZ\ufffd\bT\ufffd\ufffd\u000e!\ufffdg\ufffd\u0460\ufffd*\u0016ny\ufffd\ufffd\ufffd\ufffd\ufffdC\ufffd[M\ufffd\ufffd\ufffdz\ufffd!\ufffd\ufffd!\ufffd H\ufffd\ufffd\u0011e\ufffdh_n\u001f#\ufffd\ufffd\ufffd\ufffd`$\u0001mb\u0003\t\u000eQ\ufffd\n\ufffd=\ufffd\ufffd\ufffdT\u0005\ufffd3\ufffdE S\u0002\ufffda\ufffd- \ufffd1\u0434\ufffd",
+      "intent": null
+    },
+    {
+      "id": "TM1",
+      "category": "Tool Misuse",
+      "pattern": "Tool Parameter Abuse",
+      "severity": "HIGH",
+      "confidence": 0.85,
+      "location": {
+        "file": "examples/floria-full.webp",
+        "start_line": 3968,
+        "end_line": null
+      },
+      "finding": "rm&\\yf\ufffdK\u8db0f\ufffd<\ufffd\ufffd\u0015(\u0001c\u001d\ufffdc\ufffd\u00065??Y]C\u0006\ufffd\ufffd\ufffd\ufffd\ufffdn\u0002o\ufffdw\u001e/",
+      "explanation": "Tool parameters are crafted to achieve unintended or unsafe behavior. Parameter abuse can bypass intended safety checks (e.g. shell=True, --force, dangerous glob patterns).",
+      "remediation": "Validate all tool parameters against an allowlist. Reject dangerous parameter values (shell=True, --force, -rf /) and use safe defaults.",
+      "code_snippet": "\t`\ufffd!\ufffdE\ufffdyt\ufffd\ufffd\u0197\ufffd\ufffd\ufffd\ufffd\u0011b\ufffd\ufffd\ufffd\tb\ufffd\n\ufffd\ufffd\u0003\u00144\u0001\ufffd`\ufffdh\ufffd\ufffd\ufffd\ufffd=\ufffd\ufffd?aV\ufffd9\ufffd\n]R\ufffd_\u0000\ufffd\ufffd\u0017A\ufffd\ufffd}\ufffd\ufffd7R\ufffdK\u028d\ufffd\u000f\u001b\ufffd+\ufffdD\ufffd\ufffdy\ufffdip\u0017(L\ufffd\u04ad\u0013\ufffd\ufffd\ufffdA\ufffd\ufffd\ufffd@\n\u01aa\u008b\u001a\ufffdj\u001a;qt>\ufffd\ufffd\ufffd\u000f@\ufffd1\n\ufffd\ufffd\ufffd,J\ufffdd\ufffd=\ufffd\ufffd\u000e\n\n\u0005L\ufffdY",
+      "intent": null
+    },
+    {
+      "id": "TM1",
+      "category": "Tool Misuse",
+      "pattern": "Tool Parameter Abuse",
+      "severity": "HIGH",
+      "confidence": 0.85,
+      "location": {
+        "file": "examples/floria-top.webp",
+        "start_line": 415,
+        "end_line": null
+      },
+      "finding": "RM+v[s\ufffdn\u0019\ufffd7]\ufffd_\ufffd\u0006=\ufffd\ufffdrY\ufffd\u015e\ufffdr\ufffdv&\ufffd_=\ufffd?\ufffdu\ufffdb\u000eH\ufffd\ufffd!\ufffdg\ufffdN#\u00b6\u056b\u038f\ufffdQ\u0011I\ufffd\ufffdq`\ufffd\ufffdwS\ufffd@\u0016\ufffd\ufffd\ufffd\u001c/",
+      "explanation": "Tool parameters are crafted to achieve unintended or unsafe behavior. Parameter abuse can bypass intended safety checks (e.g. shell=True, --force, dangerous glob patterns).",
+      "remediation": "Validate all tool parameters against an allowlist. Reject dangerous parameter values (shell=True, --force, -rf /) and use safe defaults.",
+      "code_snippet": "8P\ufffd\ufffd1\u007f\n,\ufffd}\ufffdY\ufffd\ufffd'\ufffd\ufffd\u0010\ufffd\u0016\ufffd\ufffd[\u001f\ufffdJ\ufffdC:,g\ufffd\ufffdA\ufffd\ufffdK\ufffd`\ufffd\ufffd\u0016\u0126\ufffd\ufffd\u07eeH8`\ufffd?LgQ\ufffd.o\ufffd@\n\ufffd\ufffdT\ufffd}\ufffd\ufffd\ufffd\ufffd\ufffd\ufffdgoEDn\ufffd?|i\ufffd\ufffd\u0300\ufffdE\n\ufffd\nf\u000e\"\ufffd\ufffd.I0\u0007p\t\u0471\ufffd\ufffd\ufffd'\ufffd\u000f\u0010\ufffd\ufffd5+\u0175@\ufffd\ufffd\ufffdP7:]\ufffd\ufffd\u04f5\ufffd\ufffdYm\u0001j\u0019\u0014L\ufffd\ufffd\u0dee\ufffdq\ufffd\ufffd\u87cc\u0017cm\ufffd\u0004w\ufffdj+\ufffd\ufffd[\ufffd\ufffd\ufffd\ufffdx\ufffd_\ufffd\ufffd\ufffd\ufffdv\ufffd9y\ufffd\ufffd\ufffd\ufffdG(T?f7I\ufffd\ufffd\u902d\u00140\ufffdg\ufffd\ufffd\ufffd\ufffd\ufffd\u000ez\u0490oN!\ufffd\u0002\n\ufffd\u7ce6\nN\ufffd\ufffd\u055cC\ufffd\u0257 \ufffd\ufffd\ufffd`dx>-\ufffd\u0015@I\ufffd3\ufffd\u07e8\ufffd\ufffdH",
+      "intent": null
+    },
+    {
+      "id": "TM1",
+      "category": "Tool Misuse",
+      "pattern": "Tool Parameter Abuse",
+      "severity": "HIGH",
+      "confidence": 0.85,
+      "location": {
+        "file": "examples/floria-top.webp",
+        "start_line": 444,
+        "end_line": null
+      },
+      "finding": "RM\ufffd\u0013P\ufffd\ufffd3L\ufffdQMh\u0001\u067b\u0007\ufffd\ufffd/",
+      "explanation": "Tool parameters are crafted to achieve unintended or unsafe behavior. Parameter abuse can bypass intended safety checks (e.g. shell=True, --force, dangerous glob patterns).",
+      "remediation": "Validate all tool parameters against an allowlist. Reject dangerous parameter values (shell=True, --force, -rf /) and use safe defaults.",
+      "code_snippet": "|g\ufffd\ufffd'\u0001'\ufffd8\ufffd\ufffdP[\ufffdC\ufffd\ufffd\n\ufffd\ufffd\ufffd\u0001\ufffd\ufffd\ufffd?\ufffd\ufffd\u0005\ufffdp\u000ey_NM\ufffdx\ufffdg\u0018\ufffd9c\ufffdV&\ufffd\ufffd\u064bNH{mE*\ufffd\ufffdQJ\ufffd6\ufffdR\ufffd\ufffd\ufffd\u0014\ufffdcmEKp\ufffd\ufffd\ufffdbi%\ufffd\ufffd\ufffd\u0004\ufffd\ufffd_\ufffdq\u0006\u0011S\"\ufffd\ufffdm\ufffd\ufffdM\u007fij\ufffdfb[\ufffd\ufffdf^\ufffd5\ufffd\ufffd\ufffd\ufffd`\ufffd\ufffdN\ufffd\ufffd\u0001\ufffd\ufffd\u0012\ufffdSHi\u0016K\ufffdc\ufffd\u02cb\ufffdfo\ufffdf\u0014H\ufffd\ufffd~\ufffd\ufffdv\t-\ufffd\ufffd |A\ufffd!\ufffdM\ufffd\ufffd\ufffd\ufffd\u0014\u0018\u0011\ufffd\u0017\uc1b9^\ufffd%o\ufffd!\ufffd\ufffd\ufffdA\\X\u0012\u0018mFbXQ\ufffdP\ufffd\ufffd9\u0015\ufffd\ufffd\u0011KR\ufffdSfW\u0019U\ufffd/\u001b\u0182\ufffd\ufffdt\ufffd\ufffd\ufffd$bV\u0011\ufffd\ufffdH9\ufffd\ufffda\ufffd\ufffd\ufffd;\ufffd\ufffd\ufffd\ufffd\ufffd\u02af2\ufffd^\ufffd)D\ufffdO\ufffd+D\u0402\u0001\b\u001bG\ufffd\ufffd\ufffd\u06ab\ufffd^K\ufffd\u0002\ufffd\ufffdr\u0017C\ufffd:\ufffda.K3\u03c1q\u0016\t\u0002\ufffd\\\n6e\ufffd\ufffd\u0012\ufffdykj\ufffd\ufffd+\ufffd\ufffd\"\ufffd3$q\\Y\u0013\ufffd\ufffd\ufffd\ufffd{\ufffd\b\ufffd\u00162\ufffd\ufffd\ufffd\ufffd\ufffd\ufffdj;\ufffd>\ufffd\ufffd\u045dh>g\n`\u04ac`]\ufffd\ufffd1\ufffd\ufffd\ufffdLm\ufffd\ufffdS\u001bj)T\ufffd\u068aU1\ufffd\ufffdlh\u0003\ufffdoh\ufffd\ufffd\ufffd?\ufffdw\ufffd\u000e\ufffd\ufffd\ufffdI\u0007\ufffdQ\ufffdg@4\u0249\ufffd\tU\ufffd\ufffd\n\ufffdd\u0018`\u0447'\u03d0u\ufffd\ufffd}\ufffd\u0006\ufffd\b\ufffd\ufffd5I\ufffd\ufffd\ufffd\ufffd\u069e\ufffdaF\u00c7`\\[\ufffd\ufffdj\ufffd~\u0011o\u0003\ufffd\u0617\ufffd\ufffd\ufffd\ufffd\ufffd\u0005\ufffd\"\ufffd\u0006\ufffd\ufffd4?Y8\ufffd\n\ufffd\ufffdp\ufffd\ufffd\ufffdP\ufffd\ufffd<\ufffd:M:<\ufffd\ufffd\u0010\ufffd\ufffd\nZ\ufffdO}\u0007",
+      "intent": null
+    },
+    {
+      "id": "TM1",
+      "category": "Tool Misuse",
+      "pattern": "Tool Parameter Abuse",
+      "severity": "HIGH",
+      "confidence": 0.85,
+      "location": {
+        "file": "examples/floria-top.webp",
+        "start_line": 727,
+        "end_line": null
+      },
+      "finding": "RM\ufffd\u0014\ufffd:\ufffdMK\u0019=\ufffdD}{\ufffd\u0003\ufffd\u001cP\u0019vOFq\ufffd\ufffd\ufffd\u000e@\ufffd\ufffd\ufffd\\ \ufffd\u03b2\ufffd\u0203<\ufffd\ufffd\ufffdi\ufffd_\ufffd\ufffd\ufffd\u000e\ufffd\ufffd\uc590\"\ufffdB\u0013D\ufffd+\ufffd\u0128\ufffd\u0005\ufffd\ufffd\u000e\ufffd=\u062f>N!\ufffd}%\ufffd\ufffd/",
+      "explanation": "Tool parameters are crafted to achieve unintended or unsafe behavior. Parameter abuse can bypass intended safety checks (e.g. shell=True, --force, dangerous glob patterns).",
+      "remediation": "Validate all tool parameters against an allowlist. Reject dangerous parameter values (shell=True, --force, -rf /) and use safe defaults.",
+      "code_snippet": "\u0005z\ufffd!\ufffd;\u0005\ufffd\ufffdxu\ufffd\u0019\ufffd##[\ufffd\ufffd\u07dax\ufffd!e\ufffd#`H\ufffd/\ufffd]\n7\ufffdY\ufffd\u0006nb\ufffd~\ufffd\ufffdR\u007f\ufffd\ufffd\ufffd2Y\u0007\ufffdI\u0734\ufffd\u0011\u000f\ufffd\ufffdF.\u0000:\u0005%\u0010\u000e\ufffdIDN\u0019\ufffd\ufffd\u0007@\ufffd\ufffd\u0002\u0003\ufffdD\u0003\ufffdRQ\u0000\ufffd\u0014\ufffd@:\u0004\ufffd$P\u0018\ufffdv\ufffd\ufffd\ufffd\ufffd\u0003\ufffdN\ufffd\ufffdO\t\ufffdu\u022b\ufffd ,\u260e\ufffd\ufffd\ufffdZ^F^\u101a=\ufffd\ufffd\ufffd\u0006\ufffd\ufffd&\ufffd\ufffd,w)\ufffd.\ufffdq\ufffd\n\u74fd\ufffd\ufffd\u4f8b\ufffdK\ufffd\ufffd,+T\ufffd\u491e\ufffdqa\ufffd\ufffd\ufffd\u078b\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u00146\ufffd\ufffdpi}\ufffd\n.\nwzg*J\ufffd\ufffd\ufffdo\\zLq6m~8N)\ufffd0\ufffd/\ufffd\ufffdi\u0006\ufffdg\ufffdr\ufffd\ufffd\ufffdLm\ufffd\ufffdS\bN:\u0004\u057b\ufffd\ufffdF\ufffd\ufffd\u0006\n\"\ufffd\ufffd\n2\ufffd\ufffdy\"\ufffd\ufffd;\ufffdj\ufffdrR\ufffd\u0003\ufffd\ufffdE@$\u0015N\u0004\ufffd\ufffd\ufffd\u0010\ufffd\u0003O\ufffdG\ufffd",
+      "intent": null
+    },
+    {
+      "id": "TM1",
+      "category": "Tool Misuse",
+      "pattern": "Tool Parameter Abuse",
+      "severity": "HIGH",
+      "confidence": 0.85,
+      "location": {
+        "file": "examples/floria-top.webp",
+        "start_line": 821,
+        "end_line": null
+      },
+      "finding": "Rm\ufffd\ufffd\\\u0014\ufffdX\ufffd \ufffd#;\ufffd>\ufffdm\u030d\u051a\u0018\ufffd\ufffd{\u06d7O3b\u000fg\ufffd7\ufffd\ufffdG'4A\ufffd/",
+      "explanation": "Tool parameters are crafted to achieve unintended or unsafe behavior. Parameter abuse can bypass intended safety checks (e.g. shell=True, --force, dangerous glob patterns).",
+      "remediation": "Validate all tool parameters against an allowlist. Reject dangerous parameter values (shell=True, --force, -rf /) and use safe defaults.",
+      "code_snippet": "\u0002\ufffd\ufffd\u0007@\ufffd\ufffd\u0001\ufffd)(\ufffdt\nJ \n\u0002\ufffd\ufffd\u0007@\ufffd\ufffd\u0001\ufffd)(\ufffdt\nJ \n\u0002\ufffd\ufffd\u0007@\ufffd\ufffd\u0001\ufffd)(\ufffdt\nJ H\ufffd3\u0011\ufffd\ufffd\n\ufffdm\ufffd\ufffdS\u001bj)T\ufffd\u068aU1\ufffd\ufffd\ufffdLm\ufffd\ufffdS\u001bj)T\ufffd\u068aU1\ufffd\ufffd\ufffdLm\ufffd\ufffdS\u001bj)T\ufffd\u068aU1\ufffd\ufffd\ufffdLm\ufffd\ufffd]V|\u0012\ufffd\u0007@\ufffd\ufffd\u0001\ufffd)(\ufffdt",
+      "intent": null
+    },
+    {
+      "id": "TM1",
+      "category": "Tool Misuse",
+      "pattern": "Tool Parameter Abuse",
+      "severity": "HIGH",
+      "confidence": 0.85,
+      "location": {
+        "file": "examples/floria-top.webp",
+        "start_line": 1358,
+        "end_line": null
+      },
+      "finding": "rM\ufffd\ufffdQ\ufffd\ufffd[!\ufffd\u001c\ufffd{4\ufffd\ufffd/",
+      "explanation": "Tool parameters are crafted to achieve unintended or unsafe behavior. Parameter abuse can bypass intended safety checks (e.g. shell=True, --force, dangerous glob patterns).",
+      "remediation": "Validate all tool parameters against an allowlist. Reject dangerous parameter values (shell=True, --force, -rf /) and use safe defaults.",
+      "code_snippet": "kx\ufffd\ufffd\ufffd$]\ufffd\u0720#\ufffd\ufffd\ufffdK\ufffd\u0016A\ufffdb\ufffd\ufffd7\ufffdB\ufffd\ufffd\ufffdto5\u0006@\u0004R\ufffd\ufffd\b\ufffd\ufffd!a;\ufffd9\ufffd\ufffd\ufffdD\u0012\ufffd\ufffd\ufffd\n\u4ec2\ufffdT\ufffd\ufffd_t\ufffdO!\ufffd\ufffd\ufffdx\u0002\ufffd2\ufffdW\ufffd\t\u0010\ufffd\ufffd\ufffd\ufffd\ufffd`\u05499\ufffd)p\ufffd\ufffdUa\ufffd\u0002n\u02a0L\u007f\ufffd\ufffd\u00027\ufffd\ufffdO\ufffdV\u0019C<\n\nzw\ufffd2\ufffd\ufffd\b@\ufffd]Ou\u02d9i\u0515\u0005\u0007\ufffdm\n\ufffd<\ufffd\ufffd\u06a44^\"\u0013U\ufffd\u0003Qbx$\ufffd\ufffd{\ufffd\ufffdL\ufffd\ufffd\u0018\u0017\nlM\ufffd\ufffd\u001fx\ufffd8yz\ufffd\ufffdd$\u0018\uc8d6\ufffd\ufffd}\u0006\ufffd\ufffd9\n4Y\ufffd\ue40f\ufffd\u0011\ufffd\ufffd\u04840\ufffd\ufffd\ufffd\u0014\ufffdoS\ufffd{bW\ufffdYi\ufffd",
+      "intent": null
+    }
+  ],
+  "metadata": {
+    "has_executable_scripts": true,
+    "skillspector_version": "2.1.4",
+    "llm_requested": false,
+    "llm_available": false
+  }
+}

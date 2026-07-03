@@ -1,0 +1,3995 @@
+{
+  "skill": {
+    "name": "unknown",
+    "source": "/private/tmp/alibaba-page-agent-review/repo",
+    "scanned_at": "2026-07-03T10:30:33.267597+00:00"
+  },
+  "risk_assessment": {
+    "score": 100,
+    "severity": "CRITICAL",
+    "recommendation": "DO_NOT_INSTALL"
+  },
+  "components": [
+    {
+      "path": ".agents/skills/git-cleanup/SKILL.md",
+      "type": "markdown",
+      "lines": 64,
+      "executable": false,
+      "size_bytes": 1472
+    },
+    {
+      "path": ".agents/skills/pre-impl-discussion/SKILL.md",
+      "type": "markdown",
+      "lines": 104,
+      "executable": false,
+      "size_bytes": 5113
+    },
+    {
+      "path": ".agents/skills/submit-pr-from-current-changes/SKILL.md",
+      "type": "markdown",
+      "lines": 102,
+      "executable": false,
+      "size_bytes": 7553
+    },
+    {
+      "path": ".agents/skills/update-changelog/SKILL.md",
+      "type": "markdown",
+      "lines": 109,
+      "executable": false,
+      "size_bytes": 3374
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/bug_report.yml",
+      "type": "yaml",
+      "lines": 59,
+      "executable": false,
+      "size_bytes": 1814
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/config.yml",
+      "type": "yaml",
+      "lines": 8,
+      "executable": false,
+      "size_bytes": 444
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/feature_request.yml",
+      "type": "yaml",
+      "lines": 42,
+      "executable": false,
+      "size_bytes": 1434
+    },
+    {
+      "path": ".github/PULL_REQUEST_TEMPLATE.md",
+      "type": "markdown",
+      "lines": 24,
+      "executable": false,
+      "size_bytes": 715
+    },
+    {
+      "path": ".github/dependabot.yml",
+      "type": "yaml",
+      "lines": 39,
+      "executable": false,
+      "size_bytes": 904
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "type": "yaml",
+      "lines": 33,
+      "executable": false,
+      "size_bytes": 585
+    },
+    {
+      "path": ".github/workflows/deploy-demo.yml",
+      "type": "yaml",
+      "lines": 40,
+      "executable": false,
+      "size_bytes": 768
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "type": "yaml",
+      "lines": 43,
+      "executable": false,
+      "size_bytes": 1041
+    },
+    {
+      "path": ".husky/commit-msg",
+      "type": "other",
+      "lines": 1,
+      "executable": false,
+      "size_bytes": 33
+    },
+    {
+      "path": ".husky/pre-commit",
+      "type": "other",
+      "lines": 1,
+      "executable": false,
+      "size_bytes": 29
+    },
+    {
+      "path": ".vscode/cspell.json",
+      "type": "json",
+      "lines": 81,
+      "executable": false,
+      "size_bytes": 1675
+    },
+    {
+      "path": ".vscode/extensions.json",
+      "type": "json",
+      "lines": 3,
+      "executable": false,
+      "size_bytes": 80
+    },
+    {
+      "path": ".vscode/settings.json",
+      "type": "json",
+      "lines": 24,
+      "executable": false,
+      "size_bytes": 735
+    },
+    {
+      "path": "AGENTS.md",
+      "type": "markdown",
+      "lines": 150,
+      "executable": false,
+      "size_bytes": 6890
+    },
+    {
+      "path": "CLAUDE.md",
+      "type": "markdown",
+      "lines": 1,
+      "executable": false,
+      "size_bytes": 11
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "type": "markdown",
+      "lines": 47,
+      "executable": false,
+      "size_bytes": 1669
+    },
+    {
+      "path": "LICENSE",
+      "type": "other",
+      "lines": 22,
+      "executable": false,
+      "size_bytes": 1119
+    },
+    {
+      "path": "README.md",
+      "type": "markdown",
+      "lines": 123,
+      "executable": false,
+      "size_bytes": 5652
+    },
+    {
+      "path": "docs/CHANGELOG.md",
+      "type": "markdown",
+      "lines": 343,
+      "executable": false,
+      "size_bytes": 16417
+    },
+    {
+      "path": "docs/CODE_OF_CONDUCT.md",
+      "type": "markdown",
+      "lines": 127,
+      "executable": false,
+      "size_bytes": 6029
+    },
+    {
+      "path": "docs/README-zh.md",
+      "type": "markdown",
+      "lines": 112,
+      "executable": false,
+      "size_bytes": 5022
+    },
+    {
+      "path": "docs/SECURITY.md",
+      "type": "markdown",
+      "lines": 50,
+      "executable": false,
+      "size_bytes": 1756
+    },
+    {
+      "path": "docs/developer-guide.md",
+      "type": "markdown",
+      "lines": 105,
+      "executable": false,
+      "size_bytes": 3611
+    },
+    {
+      "path": "docs/terms-and-privacy.md",
+      "type": "markdown",
+      "lines": 85,
+      "executable": false,
+      "size_bytes": 6068
+    },
+    {
+      "path": "eslint.config.js",
+      "type": "javascript",
+      "lines": 62,
+      "executable": true,
+      "size_bytes": 2278
+    },
+    {
+      "path": "package-lock.json",
+      "type": "json",
+      "lines": 11563,
+      "executable": false,
+      "size_bytes": 477997
+    },
+    {
+      "path": "package.json",
+      "type": "json",
+      "lines": 132,
+      "executable": false,
+      "size_bytes": 4050
+    },
+    {
+      "path": "packages/core/package.json",
+      "type": "json",
+      "lines": 67,
+      "executable": false,
+      "size_bytes": 1965
+    },
+    {
+      "path": "packages/core/src/PageAgentCore.test.ts",
+      "type": "typescript",
+      "lines": 365,
+      "executable": true,
+      "size_bytes": 10949
+    },
+    {
+      "path": "packages/core/src/PageAgentCore.ts",
+      "type": "typescript",
+      "lines": 661,
+      "executable": true,
+      "size_bytes": 19998
+    },
+    {
+      "path": "packages/core/src/env.d.ts",
+      "type": "typescript",
+      "lines": 6,
+      "executable": true,
+      "size_bytes": 116
+    },
+    {
+      "path": "packages/core/src/prompts/system_prompt.md",
+      "type": "markdown",
+      "lines": 152,
+      "executable": false,
+      "size_bytes": 9794
+    },
+    {
+      "path": "packages/core/src/tools/index.ts",
+      "type": "typescript",
+      "lines": 202,
+      "executable": true,
+      "size_bytes": 5858
+    },
+    {
+      "path": "packages/core/src/types.ts",
+      "type": "typescript",
+      "lines": 285,
+      "executable": true,
+      "size_bytes": 7489
+    },
+    {
+      "path": "packages/core/src/utils/autoFixer.ts",
+      "type": "typescript",
+      "lines": 216,
+      "executable": true,
+      "size_bytes": 6046
+    },
+    {
+      "path": "packages/core/src/utils/index.ts",
+      "type": "typescript",
+      "lines": 143,
+      "executable": true,
+      "size_bytes": 3524
+    },
+    {
+      "path": "packages/core/tsconfig.json",
+      "type": "json",
+      "lines": 8,
+      "executable": false,
+      "size_bytes": 221
+    },
+    {
+      "path": "packages/core/vite.config.js",
+      "type": "javascript",
+      "lines": 52,
+      "executable": true,
+      "size_bytes": 1142
+    },
+    {
+      "path": "packages/core/vitest.config.js",
+      "type": "javascript",
+      "lines": 9,
+      "executable": true,
+      "size_bytes": 166
+    },
+    {
+      "path": "packages/extension/PRIVACY.md",
+      "type": "markdown",
+      "lines": 5,
+      "executable": false,
+      "size_bytes": 234
+    },
+    {
+      "path": "packages/extension/components.json",
+      "type": "json",
+      "lines": 24,
+      "executable": false,
+      "size_bytes": 581
+    },
+    {
+      "path": "packages/extension/docs/extension_api.md",
+      "type": "markdown",
+      "lines": 228,
+      "executable": false,
+      "size_bytes": 6157
+    },
+    {
+      "path": "packages/extension/package.json",
+      "type": "json",
+      "lines": 51,
+      "executable": false,
+      "size_bytes": 1540
+    },
+    {
+      "path": "packages/extension/public/_locales/en/messages.json",
+      "type": "json",
+      "lines": 11,
+      "executable": false,
+      "size_bytes": 265
+    },
+    {
+      "path": "packages/extension/public/_locales/zh_CN/messages.json",
+      "type": "json",
+      "lines": 11,
+      "executable": false,
+      "size_bytes": 255
+    },
+    {
+      "path": "packages/extension/public/assets/page-agent-256.webp",
+      "type": "other",
+      "lines": 156,
+      "executable": false,
+      "size_bytes": 6204
+    },
+    {
+      "path": "packages/extension/public/assets/page-agent-64.png",
+      "type": "other",
+      "lines": 164,
+      "executable": false,
+      "size_bytes": 6335
+    },
+    {
+      "path": "packages/extension/src/agent/MultiPageAgent.ts",
+      "type": "typescript",
+      "lines": 98,
+      "executable": true,
+      "size_bytes": 3339
+    },
+    {
+      "path": "packages/extension/src/agent/RemotePageController.background.ts",
+      "type": "typescript",
+      "lines": 42,
+      "executable": true,
+      "size_bytes": 1072
+    },
+    {
+      "path": "packages/extension/src/agent/RemotePageController.content.ts",
+      "type": "typescript",
+      "lines": 135,
+      "executable": true,
+      "size_bytes": 3475
+    },
+    {
+      "path": "packages/extension/src/agent/RemotePageController.ts",
+      "type": "typescript",
+      "lines": 192,
+      "executable": true,
+      "size_bytes": 5092
+    },
+    {
+      "path": "packages/extension/src/agent/TabsController.background.ts",
+      "type": "typescript",
+      "lines": 201,
+      "executable": true,
+      "size_bytes": 5831
+    },
+    {
+      "path": "packages/extension/src/agent/TabsController.ts",
+      "type": "typescript",
+      "lines": 439,
+      "executable": true,
+      "size_bytes": 11772
+    },
+    {
+      "path": "packages/extension/src/agent/constants.ts",
+      "type": "typescript",
+      "lines": 30,
+      "executable": true,
+      "size_bytes": 994
+    },
+    {
+      "path": "packages/extension/src/agent/system_prompt.md",
+      "type": "markdown",
+      "lines": 144,
+      "executable": false,
+      "size_bytes": 8928
+    },
+    {
+      "path": "packages/extension/src/agent/tabTools.ts",
+      "type": "typescript",
+      "lines": 74,
+      "executable": true,
+      "size_bytes": 2427
+    },
+    {
+      "path": "packages/extension/src/agent/useAgent.ts",
+      "type": "typescript",
+      "lines": 161,
+      "executable": true,
+      "size_bytes": 4394
+    },
+    {
+      "path": "packages/extension/src/assets/index.css",
+      "type": "other",
+      "lines": 158,
+      "executable": false,
+      "size_bytes": 4565
+    },
+    {
+      "path": "packages/extension/src/assets/page-agent-64.png",
+      "type": "other",
+      "lines": 164,
+      "executable": false,
+      "size_bytes": 6335
+    },
+    {
+      "path": "packages/extension/src/components/ConfigPanel.tsx",
+      "type": "other",
+      "lines": 402,
+      "executable": false,
+      "size_bytes": 12633
+    },
+    {
+      "path": "packages/extension/src/components/ErrorBoundary.tsx",
+      "type": "other",
+      "lines": 60,
+      "executable": false,
+      "size_bytes": 1652
+    },
+    {
+      "path": "packages/extension/src/components/HistoryDetail.tsx",
+      "type": "other",
+      "lines": 79,
+      "executable": false,
+      "size_bytes": 2298
+    },
+    {
+      "path": "packages/extension/src/components/HistoryList.tsx",
+      "type": "other",
+      "lines": 181,
+      "executable": false,
+      "size_bytes": 5532
+    },
+    {
+      "path": "packages/extension/src/components/cards.tsx",
+      "type": "other",
+      "lines": 387,
+      "executable": false,
+      "size_bytes": 11376
+    },
+    {
+      "path": "packages/extension/src/components/misc.tsx",
+      "type": "other",
+      "lines": 155,
+      "executable": false,
+      "size_bytes": 4593
+    },
+    {
+      "path": "packages/extension/src/components/ui/button.tsx",
+      "type": "other",
+      "lines": 60,
+      "executable": false,
+      "size_bytes": 2080
+    },
+    {
+      "path": "packages/extension/src/components/ui/card.tsx",
+      "type": "other",
+      "lines": 75,
+      "executable": false,
+      "size_bytes": 1803
+    },
+    {
+      "path": "packages/extension/src/components/ui/field.tsx",
+      "type": "other",
+      "lines": 232,
+      "executable": false,
+      "size_bytes": 5598
+    },
+    {
+      "path": "packages/extension/src/components/ui/hover-card.tsx",
+      "type": "other",
+      "lines": 36,
+      "executable": false,
+      "size_bytes": 1452
+    },
+    {
+      "path": "packages/extension/src/components/ui/input-group.tsx",
+      "type": "other",
+      "lines": 157,
+      "executable": false,
+      "size_bytes": 4781
+    },
+    {
+      "path": "packages/extension/src/components/ui/input.tsx",
+      "type": "other",
+      "lines": 21,
+      "executable": false,
+      "size_bytes": 925
+    },
+    {
+      "path": "packages/extension/src/components/ui/item.tsx",
+      "type": "other",
+      "lines": 172,
+      "executable": false,
+      "size_bytes": 4091
+    },
+    {
+      "path": "packages/extension/src/components/ui/label.tsx",
+      "type": "other",
+      "lines": 19,
+      "executable": false,
+      "size_bytes": 567
+    },
+    {
+      "path": "packages/extension/src/components/ui/separator.tsx",
+      "type": "other",
+      "lines": 26,
+      "executable": false,
+      "size_bytes": 649
+    },
+    {
+      "path": "packages/extension/src/components/ui/sonner.tsx",
+      "type": "other",
+      "lines": 38,
+      "executable": false,
+      "size_bytes": 939
+    },
+    {
+      "path": "packages/extension/src/components/ui/spinner.tsx",
+      "type": "other",
+      "lines": 16,
+      "executable": false,
+      "size_bytes": 313
+    },
+    {
+      "path": "packages/extension/src/components/ui/switch.tsx",
+      "type": "other",
+      "lines": 26,
+      "executable": false,
+      "size_bytes": 1123
+    },
+    {
+      "path": "packages/extension/src/components/ui/textarea.tsx",
+      "type": "other",
+      "lines": 18,
+      "executable": false,
+      "size_bytes": 733
+    },
+    {
+      "path": "packages/extension/src/components/ui/typing-animation.tsx",
+      "type": "other",
+      "lines": 164,
+      "executable": false,
+      "size_bytes": 4007
+    },
+    {
+      "path": "packages/extension/src/entrypoints/background.ts",
+      "type": "typescript",
+      "lines": 63,
+      "executable": true,
+      "size_bytes": 1879
+    },
+    {
+      "path": "packages/extension/src/entrypoints/content.ts",
+      "type": "typescript",
+      "lines": 164,
+      "executable": true,
+      "size_bytes": 3921
+    },
+    {
+      "path": "packages/extension/src/entrypoints/hub/App.tsx",
+      "type": "other",
+      "lines": 250,
+      "executable": false,
+      "size_bytes": 8284
+    },
+    {
+      "path": "packages/extension/src/entrypoints/hub/hub-ws.ts",
+      "type": "typescript",
+      "lines": 243,
+      "executable": true,
+      "size_bytes": 5515
+    },
+    {
+      "path": "packages/extension/src/entrypoints/hub/index.html",
+      "type": "other",
+      "lines": 13,
+      "executable": false,
+      "size_bytes": 346
+    },
+    {
+      "path": "packages/extension/src/entrypoints/hub/main.tsx",
+      "type": "other",
+      "lines": 25,
+      "executable": false,
+      "size_bytes": 575
+    },
+    {
+      "path": "packages/extension/src/entrypoints/main-world.ts",
+      "type": "typescript",
+      "lines": 131,
+      "executable": true,
+      "size_bytes": 3191
+    },
+    {
+      "path": "packages/extension/src/entrypoints/sidepanel/App.tsx",
+      "type": "other",
+      "lines": 235,
+      "executable": false,
+      "size_bytes": 6310
+    },
+    {
+      "path": "packages/extension/src/entrypoints/sidepanel/index.html",
+      "type": "other",
+      "lines": 13,
+      "executable": false,
+      "size_bytes": 342
+    },
+    {
+      "path": "packages/extension/src/entrypoints/sidepanel/main.tsx",
+      "type": "other",
+      "lines": 26,
+      "executable": false,
+      "size_bytes": 616
+    },
+    {
+      "path": "packages/extension/src/lib/db.ts",
+      "type": "typescript",
+      "lines": 70,
+      "executable": true,
+      "size_bytes": 1680
+    },
+    {
+      "path": "packages/extension/src/lib/history-export.ts",
+      "type": "typescript",
+      "lines": 60,
+      "executable": true,
+      "size_bytes": 1716
+    },
+    {
+      "path": "packages/extension/src/lib/utils.ts",
+      "type": "typescript",
+      "lines": 6,
+      "executable": true,
+      "size_bytes": 165
+    },
+    {
+      "path": "packages/extension/src/types/assets.d.ts",
+      "type": "typescript",
+      "lines": 25,
+      "executable": true,
+      "size_bytes": 363
+    },
+    {
+      "path": "packages/extension/src/types/globals.d.ts",
+      "type": "typescript",
+      "lines": 1,
+      "executable": true,
+      "size_bytes": 34
+    },
+    {
+      "path": "packages/extension/src/types/markdown.d.ts",
+      "type": "typescript",
+      "lines": 4,
+      "executable": true,
+      "size_bytes": 77
+    },
+    {
+      "path": "packages/extension/tsconfig.json",
+      "type": "json",
+      "lines": 13,
+      "executable": false,
+      "size_bytes": 345
+    },
+    {
+      "path": "packages/extension/wxt.config.js",
+      "type": "javascript",
+      "lines": 69,
+      "executable": true,
+      "size_bytes": 2005
+    },
+    {
+      "path": "packages/llms/package.json",
+      "type": "json",
+      "lines": 59,
+      "executable": false,
+      "size_bytes": 1573
+    },
+    {
+      "path": "packages/llms/src/OpenAIClient.test.ts",
+      "type": "typescript",
+      "lines": 369,
+      "executable": true,
+      "size_bytes": 12600
+    },
+    {
+      "path": "packages/llms/src/OpenAIClient.ts",
+      "type": "typescript",
+      "lines": 258,
+      "executable": true,
+      "size_bytes": 6712
+    },
+    {
+      "path": "packages/llms/src/constants.ts",
+      "type": "typescript",
+      "lines": 3,
+      "executable": true,
+      "size_bytes": 135
+    },
+    {
+      "path": "packages/llms/src/errors.ts",
+      "type": "typescript",
+      "lines": 56,
+      "executable": true,
+      "size_bytes": 1936
+    },
+    {
+      "path": "packages/llms/src/index.test.ts",
+      "type": "typescript",
+      "lines": 114,
+      "executable": true,
+      "size_bytes": 3785
+    },
+    {
+      "path": "packages/llms/src/index.ts",
+      "type": "typescript",
+      "lines": 92,
+      "executable": true,
+      "size_bytes": 2772
+    },
+    {
+      "path": "packages/llms/src/types.ts",
+      "type": "typescript",
+      "lines": 120,
+      "executable": true,
+      "size_bytes": 2984
+    },
+    {
+      "path": "packages/llms/src/utils.test.ts",
+      "type": "typescript",
+      "lines": 162,
+      "executable": true,
+      "size_bytes": 4833
+    },
+    {
+      "path": "packages/llms/src/utils.ts",
+      "type": "typescript",
+      "lines": 162,
+      "executable": true,
+      "size_bytes": 5033
+    },
+    {
+      "path": "packages/llms/tsconfig.json",
+      "type": "json",
+      "lines": 8,
+      "executable": false,
+      "size_bytes": 221
+    },
+    {
+      "path": "packages/llms/vite.config.js",
+      "type": "javascript",
+      "lines": 45,
+      "executable": true,
+      "size_bytes": 971
+    },
+    {
+      "path": "packages/llms/vitest.config.js",
+      "type": "javascript",
+      "lines": 10,
+      "executable": true,
+      "size_bytes": 250
+    },
+    {
+      "path": "packages/mcp/README.md",
+      "type": "markdown",
+      "lines": 93,
+      "executable": false,
+      "size_bytes": 4060
+    },
+    {
+      "path": "packages/mcp/package.json",
+      "type": "json",
+      "lines": 35,
+      "executable": false,
+      "size_bytes": 840
+    },
+    {
+      "path": "packages/mcp/src/hub-bridge.js",
+      "type": "javascript",
+      "lines": 139,
+      "executable": true,
+      "size_bytes": 3854
+    },
+    {
+      "path": "packages/mcp/src/index.js",
+      "type": "javascript",
+      "lines": 100,
+      "executable": true,
+      "size_bytes": 2658
+    },
+    {
+      "path": "packages/mcp/src/launcher.html",
+      "type": "other",
+      "lines": 242,
+      "executable": false,
+      "size_bytes": 5733
+    },
+    {
+      "path": "packages/page-agent/package.json",
+      "type": "json",
+      "lines": 69,
+      "executable": false,
+      "size_bytes": 2046
+    },
+    {
+      "path": "packages/page-agent/src/PageAgent.ts",
+      "type": "typescript",
+      "lines": 29,
+      "executable": true,
+      "size_bytes": 800
+    },
+    {
+      "path": "packages/page-agent/src/demo.ts",
+      "type": "typescript",
+      "lines": 55,
+      "executable": true,
+      "size_bytes": 1976
+    },
+    {
+      "path": "packages/page-agent/src/env.d.ts",
+      "type": "typescript",
+      "lines": 9,
+      "executable": true,
+      "size_bytes": 180
+    },
+    {
+      "path": "packages/page-agent/tsconfig.json",
+      "type": "json",
+      "lines": 8,
+      "executable": false,
+      "size_bytes": 221
+    },
+    {
+      "path": "packages/page-agent/vite.config.js",
+      "type": "javascript",
+      "lines": 52,
+      "executable": true,
+      "size_bytes": 1129
+    },
+    {
+      "path": "packages/page-agent/vite.iife.config.js",
+      "type": "javascript",
+      "lines": 49,
+      "executable": true,
+      "size_bytes": 1426
+    },
+    {
+      "path": "packages/page-controller/package.json",
+      "type": "json",
+      "lines": 52,
+      "executable": false,
+      "size_bytes": 1530
+    },
+    {
+      "path": "packages/page-controller/src/PageController.test.ts",
+      "type": "typescript",
+      "lines": 40,
+      "executable": true,
+      "size_bytes": 1341
+    },
+    {
+      "path": "packages/page-controller/src/PageController.ts",
+      "type": "typescript",
+      "lines": 435,
+      "executable": true,
+      "size_bytes": 11382
+    },
+    {
+      "path": "packages/page-controller/src/actions.ts",
+      "type": "typescript",
+      "lines": 556,
+      "executable": true,
+      "size_bytes": 18871
+    },
+    {
+      "path": "packages/page-controller/src/dom/dom_tree/index.d.ts",
+      "type": "typescript",
+      "lines": 16,
+      "executable": true,
+      "size_bytes": 390
+    },
+    {
+      "path": "packages/page-controller/src/dom/dom_tree/index.js",
+      "type": "javascript",
+      "lines": 1745,
+      "executable": true,
+      "size_bytes": 53169
+    },
+    {
+      "path": "packages/page-controller/src/dom/dom_tree/type.ts",
+      "type": "typescript",
+      "lines": 51,
+      "executable": true,
+      "size_bytes": 1189
+    },
+    {
+      "path": "packages/page-controller/src/dom/getPageInfo.ts",
+      "type": "typescript",
+      "lines": 42,
+      "executable": true,
+      "size_bytes": 1264
+    },
+    {
+      "path": "packages/page-controller/src/dom/index.ts",
+      "type": "typescript",
+      "lines": 569,
+      "executable": true,
+      "size_bytes": 15074
+    },
+    {
+      "path": "packages/page-controller/src/env.d.ts",
+      "type": "typescript",
+      "lines": 6,
+      "executable": true,
+      "size_bytes": 136
+    },
+    {
+      "path": "packages/page-controller/src/mask/SimulatorMask.module.css",
+      "type": "other",
+      "lines": 13,
+      "executable": false,
+      "size_bytes": 203
+    },
+    {
+      "path": "packages/page-controller/src/mask/SimulatorMask.ts",
+      "type": "typescript",
+      "lines": 216,
+      "executable": true,
+      "size_bytes": 5971
+    },
+    {
+      "path": "packages/page-controller/src/mask/checkDarkMode.ts",
+      "type": "typescript",
+      "lines": 181,
+      "executable": true,
+      "size_bytes": 6074
+    },
+    {
+      "path": "packages/page-controller/src/mask/cursor-border.svg",
+      "type": "other",
+      "lines": 3,
+      "executable": false,
+      "size_bytes": 495
+    },
+    {
+      "path": "packages/page-controller/src/mask/cursor-fill.svg",
+      "type": "other",
+      "lines": 5,
+      "executable": false,
+      "size_bytes": 557
+    },
+    {
+      "path": "packages/page-controller/src/mask/cursor.module.css",
+      "type": "other",
+      "lines": 70,
+      "executable": false,
+      "size_bytes": 1273
+    },
+    {
+      "path": "packages/page-controller/src/patches/antd.ts",
+      "type": "typescript",
+      "lines": 20,
+      "executable": true,
+      "size_bytes": 687
+    },
+    {
+      "path": "packages/page-controller/src/patches/react.ts",
+      "type": "typescript",
+      "lines": 16,
+      "executable": true,
+      "size_bytes": 760
+    },
+    {
+      "path": "packages/page-controller/src/utils/index.ts",
+      "type": "typescript",
+      "lines": 80,
+      "executable": true,
+      "size_bytes": 2576
+    },
+    {
+      "path": "packages/page-controller/tsconfig.json",
+      "type": "json",
+      "lines": 8,
+      "executable": false,
+      "size_bytes": 228
+    },
+    {
+      "path": "packages/page-controller/vite.config.js",
+      "type": "javascript",
+      "lines": 52,
+      "executable": true,
+      "size_bytes": 1250
+    },
+    {
+      "path": "packages/page-controller/vitest.config.js",
+      "type": "javascript",
+      "lines": 10,
+      "executable": true,
+      "size_bytes": 205
+    },
+    {
+      "path": "packages/ui/package.json",
+      "type": "json",
+      "lines": 48,
+      "executable": false,
+      "size_bytes": 1302
+    },
+    {
+      "path": "packages/ui/src/env.d.ts",
+      "type": "typescript",
+      "lines": 6,
+      "executable": true,
+      "size_bytes": 136
+    },
+    {
+      "path": "packages/ui/src/i18n/index.ts",
+      "type": "typescript",
+      "lines": 50,
+      "executable": true,
+      "size_bytes": 1374
+    },
+    {
+      "path": "packages/ui/src/i18n/locales.ts",
+      "type": "typescript",
+      "lines": 122,
+      "executable": true,
+      "size_bytes": 4184
+    },
+    {
+      "path": "packages/ui/src/index.ts",
+      "type": "typescript",
+      "lines": 2,
+      "executable": true,
+      "size_bytes": 131
+    },
+    {
+      "path": "packages/ui/src/motion-css/createMotion.ts",
+      "type": "typescript",
+      "lines": 64,
+      "executable": true,
+      "size_bytes": 1787
+    },
+    {
+      "path": "packages/ui/src/motion-css/motion.module.css",
+      "type": "other",
+      "lines": 395,
+      "executable": false,
+      "size_bytes": 6763
+    },
+    {
+      "path": "packages/ui/src/motion-css/readme",
+      "type": "other",
+      "lines": 5,
+      "executable": false,
+      "size_bytes": 162
+    },
+    {
+      "path": "packages/ui/src/panel/Panel.module.css",
+      "type": "other",
+      "lines": 601,
+      "executable": false,
+      "size_bytes": 11930
+    },
+    {
+      "path": "packages/ui/src/panel/Panel.ts",
+      "type": "typescript",
+      "lines": 697,
+      "executable": true,
+      "size_bytes": 19570
+    },
+    {
+      "path": "packages/ui/src/panel/cards.ts",
+      "type": "typescript",
+      "lines": 52,
+      "executable": true,
+      "size_bytes": 1441
+    },
+    {
+      "path": "packages/ui/src/panel/types.ts",
+      "type": "typescript",
+      "lines": 81,
+      "executable": true,
+      "size_bytes": 2646
+    },
+    {
+      "path": "packages/ui/src/utils.ts",
+      "type": "typescript",
+      "lines": 18,
+      "executable": true,
+      "size_bytes": 439
+    },
+    {
+      "path": "packages/ui/tsconfig.json",
+      "type": "json",
+      "lines": 8,
+      "executable": false,
+      "size_bytes": 228
+    },
+    {
+      "path": "packages/ui/vite.config.js",
+      "type": "javascript",
+      "lines": 48,
+      "executable": true,
+      "size_bytes": 1087
+    },
+    {
+      "path": "packages/website/AGENTS.md",
+      "type": "markdown",
+      "lines": 127,
+      "executable": false,
+      "size_bytes": 4031
+    },
+    {
+      "path": "packages/website/components.json",
+      "type": "json",
+      "lines": 24,
+      "executable": false,
+      "size_bytes": 570
+    },
+    {
+      "path": "packages/website/index.html",
+      "type": "other",
+      "lines": 97,
+      "executable": false,
+      "size_bytes": 2912
+    },
+    {
+      "path": "packages/website/package.json",
+      "type": "json",
+      "lines": 34,
+      "executable": false,
+      "size_bytes": 1034
+    },
+    {
+      "path": "packages/website/public/robots.txt",
+      "type": "text",
+      "lines": 4,
+      "executable": false,
+      "size_bytes": 82
+    },
+    {
+      "path": "packages/website/src/components/APIReference.tsx",
+      "type": "other",
+      "lines": 175,
+      "executable": false,
+      "size_bytes": 5694
+    },
+    {
+      "path": "packages/website/src/components/BetaNotice.tsx",
+      "type": "other",
+      "lines": 25,
+      "executable": false,
+      "size_bytes": 928
+    },
+    {
+      "path": "packages/website/src/components/CodeEditor.tsx",
+      "type": "other",
+      "lines": 129,
+      "executable": false,
+      "size_bytes": 4198
+    },
+    {
+      "path": "packages/website/src/components/Footer.tsx",
+      "type": "other",
+      "lines": 77,
+      "executable": false,
+      "size_bytes": 2515
+    },
+    {
+      "path": "packages/website/src/components/Header.tsx",
+      "type": "other",
+      "lines": 188,
+      "executable": false,
+      "size_bytes": 6690
+    },
+    {
+      "path": "packages/website/src/components/Heading.tsx",
+      "type": "other",
+      "lines": 46,
+      "executable": false,
+      "size_bytes": 1236
+    },
+    {
+      "path": "packages/website/src/components/HighlightSyntax.module.css",
+      "type": "other",
+      "lines": 128,
+      "executable": false,
+      "size_bytes": 1653
+    },
+    {
+      "path": "packages/website/src/components/HighlightSyntax.tsx",
+      "type": "other",
+      "lines": 175,
+      "executable": false,
+      "size_bytes": 5272
+    },
+    {
+      "path": "packages/website/src/components/JSConsole.module.css",
+      "type": "other",
+      "lines": 164,
+      "executable": false,
+      "size_bytes": 2356
+    },
+    {
+      "path": "packages/website/src/components/JSConsole.tsx",
+      "type": "other",
+      "lines": 371,
+      "executable": false,
+      "size_bytes": 9541
+    },
+    {
+      "path": "packages/website/src/components/LanguageSwitcher.tsx",
+      "type": "other",
+      "lines": 114,
+      "executable": false,
+      "size_bytes": 3414
+    },
+    {
+      "path": "packages/website/src/components/ThemeSwitcher.tsx",
+      "type": "other",
+      "lines": 134,
+      "executable": false,
+      "size_bytes": 4845
+    },
+    {
+      "path": "packages/website/src/components/ui/alert.tsx",
+      "type": "other",
+      "lines": 60,
+      "executable": false,
+      "size_bytes": 1491
+    },
+    {
+      "path": "packages/website/src/components/ui/animated-gradient-text.tsx",
+      "type": "other",
+      "lines": 37,
+      "executable": false,
+      "size_bytes": 819
+    },
+    {
+      "path": "packages/website/src/components/ui/animated-shiny-text.tsx",
+      "type": "other",
+      "lines": 38,
+      "executable": false,
+      "size_bytes": 927
+    },
+    {
+      "path": "packages/website/src/components/ui/aurora-text.tsx",
+      "type": "other",
+      "lines": 39,
+      "executable": false,
+      "size_bytes": 903
+    },
+    {
+      "path": "packages/website/src/components/ui/badge.tsx",
+      "type": "other",
+      "lines": 37,
+      "executable": false,
+      "size_bytes": 1527
+    },
+    {
+      "path": "packages/website/src/components/ui/bento-grid.tsx",
+      "type": "other",
+      "lines": 91,
+      "executable": false,
+      "size_bytes": 2878
+    },
+    {
+      "path": "packages/website/src/components/ui/blur-fade.tsx",
+      "type": "other",
+      "lines": 79,
+      "executable": false,
+      "size_bytes": 1643
+    },
+    {
+      "path": "packages/website/src/components/ui/button.tsx",
+      "type": "other",
+      "lines": 60,
+      "executable": false,
+      "size_bytes": 2080
+    },
+    {
+      "path": "packages/website/src/components/ui/highlighter.tsx",
+      "type": "other",
+      "lines": 92,
+      "executable": false,
+      "size_bytes": 1986
+    },
+    {
+      "path": "packages/website/src/components/ui/hyper-text.tsx",
+      "type": "other",
+      "lines": 140,
+      "executable": false,
+      "size_bytes": 3672
+    },
+    {
+      "path": "packages/website/src/components/ui/kbd.tsx",
+      "type": "other",
+      "lines": 28,
+      "executable": false,
+      "size_bytes": 813
+    },
+    {
+      "path": "packages/website/src/components/ui/magic-card.tsx",
+      "type": "other",
+      "lines": 101,
+      "executable": false,
+      "size_bytes": 2762
+    },
+    {
+      "path": "packages/website/src/components/ui/marquee.tsx",
+      "type": "other",
+      "lines": 74,
+      "executable": false,
+      "size_bytes": 1503
+    },
+    {
+      "path": "packages/website/src/components/ui/neon-gradient-card.tsx",
+      "type": "other",
+      "lines": 136,
+      "executable": false,
+      "size_bytes": 3953
+    },
+    {
+      "path": "packages/website/src/components/ui/particles.tsx",
+      "type": "other",
+      "lines": 297,
+      "executable": false,
+      "size_bytes": 7558
+    },
+    {
+      "path": "packages/website/src/components/ui/separator.tsx",
+      "type": "other",
+      "lines": 26,
+      "executable": false,
+      "size_bytes": 649
+    },
+    {
+      "path": "packages/website/src/components/ui/sonner.tsx",
+      "type": "other",
+      "lines": 38,
+      "executable": false,
+      "size_bytes": 939
+    },
+    {
+      "path": "packages/website/src/components/ui/sparkles-text.tsx",
+      "type": "other",
+      "lines": 150,
+      "executable": false,
+      "size_bytes": 3946
+    },
+    {
+      "path": "packages/website/src/components/ui/spinner.tsx",
+      "type": "other",
+      "lines": 16,
+      "executable": false,
+      "size_bytes": 313
+    },
+    {
+      "path": "packages/website/src/components/ui/switch.tsx",
+      "type": "other",
+      "lines": 26,
+      "executable": false,
+      "size_bytes": 1108
+    },
+    {
+      "path": "packages/website/src/components/ui/text-animate.tsx",
+      "type": "other",
+      "lines": 417,
+      "executable": false,
+      "size_bytes": 7872
+    },
+    {
+      "path": "packages/website/src/components/ui/tooltip.tsx",
+      "type": "other",
+      "lines": 55,
+      "executable": false,
+      "size_bytes": 1790
+    },
+    {
+      "path": "packages/website/src/components/ui/typing-animation.tsx",
+      "type": "other",
+      "lines": 164,
+      "executable": false,
+      "size_bytes": 4007
+    },
+    {
+      "path": "packages/website/src/constants.ts",
+      "type": "typescript",
+      "lines": 10,
+      "executable": true,
+      "size_bytes": 515
+    },
+    {
+      "path": "packages/website/src/env.d.ts",
+      "type": "typescript",
+      "lines": 10,
+      "executable": true,
+      "size_bytes": 191
+    },
+    {
+      "path": "packages/website/src/hooks/useGitHubStars.ts",
+      "type": "typescript",
+      "lines": 29,
+      "executable": true,
+      "size_bytes": 708
+    },
+    {
+      "path": "packages/website/src/i18n/context.tsx",
+      "type": "other",
+      "lines": 34,
+      "executable": false,
+      "size_bytes": 954
+    },
+    {
+      "path": "packages/website/src/index.css",
+      "type": "other",
+      "lines": 471,
+      "executable": false,
+      "size_bytes": 11524
+    },
+    {
+      "path": "packages/website/src/lib/useDocumentTitle.ts",
+      "type": "typescript",
+      "lines": 9,
+      "executable": true,
+      "size_bytes": 260
+    },
+    {
+      "path": "packages/website/src/lib/utils.ts",
+      "type": "typescript",
+      "lines": 6,
+      "executable": true,
+      "size_bytes": 165
+    },
+    {
+      "path": "packages/website/src/main.tsx",
+      "type": "other",
+      "lines": 22,
+      "executable": false,
+      "size_bytes": 600
+    },
+    {
+      "path": "packages/website/src/pages/docs/Layout.tsx",
+      "type": "other",
+      "lines": 141,
+      "executable": false,
+      "size_bytes": 4777
+    },
+    {
+      "path": "packages/website/src/pages/docs/advanced/custom-ui/page.tsx",
+      "type": "other",
+      "lines": 272,
+      "executable": false,
+      "size_bytes": 9920
+    },
+    {
+      "path": "packages/website/src/pages/docs/advanced/page-agent-core/page.tsx",
+      "type": "other",
+      "lines": 492,
+      "executable": false,
+      "size_bytes": 16651
+    },
+    {
+      "path": "packages/website/src/pages/docs/advanced/page-agent/page.tsx",
+      "type": "other",
+      "lines": 224,
+      "executable": false,
+      "size_bytes": 7742
+    },
+    {
+      "path": "packages/website/src/pages/docs/advanced/page-controller/page.tsx",
+      "type": "other",
+      "lines": 294,
+      "executable": false,
+      "size_bytes": 10613
+    },
+    {
+      "path": "packages/website/src/pages/docs/advanced/security-permissions/page.tsx",
+      "type": "other",
+      "lines": 89,
+      "executable": false,
+      "size_bytes": 3627
+    },
+    {
+      "path": "packages/website/src/pages/docs/features/chrome-extension/page.tsx",
+      "type": "other",
+      "lines": 314,
+      "executable": false,
+      "size_bytes": 12853
+    },
+    {
+      "path": "packages/website/src/pages/docs/features/custom-instructions/page.tsx",
+      "type": "other",
+      "lines": 136,
+      "executable": false,
+      "size_bytes": 4294
+    },
+    {
+      "path": "packages/website/src/pages/docs/features/custom-tools/page.tsx",
+      "type": "other",
+      "lines": 114,
+      "executable": false,
+      "size_bytes": 3974
+    },
+    {
+      "path": "packages/website/src/pages/docs/features/data-masking/page.tsx",
+      "type": "other",
+      "lines": 74,
+      "executable": false,
+      "size_bytes": 2399
+    },
+    {
+      "path": "packages/website/src/pages/docs/features/mcp-server/page.tsx",
+      "type": "other",
+      "lines": 70,
+      "executable": false,
+      "size_bytes": 2240
+    },
+    {
+      "path": "packages/website/src/pages/docs/features/models/page.tsx",
+      "type": "other",
+      "lines": 466,
+      "executable": false,
+      "size_bytes": 16745
+    },
+    {
+      "path": "packages/website/src/pages/docs/features/third-party-agent/page.tsx",
+      "type": "other",
+      "lines": 99,
+      "executable": false,
+      "size_bytes": 4033
+    },
+    {
+      "path": "packages/website/src/pages/docs/index.tsx",
+      "type": "other",
+      "lines": 130,
+      "executable": false,
+      "size_bytes": 3239
+    },
+    {
+      "path": "packages/website/src/pages/docs/introduction/limitations/page.tsx",
+      "type": "other",
+      "lines": 158,
+      "executable": false,
+      "size_bytes": 7006
+    },
+    {
+      "path": "packages/website/src/pages/docs/introduction/overview/page.tsx",
+      "type": "other",
+      "lines": 233,
+      "executable": false,
+      "size_bytes": 10652
+    },
+    {
+      "path": "packages/website/src/pages/docs/introduction/quick-start/page.tsx",
+      "type": "other",
+      "lines": 134,
+      "executable": false,
+      "size_bytes": 4961
+    },
+    {
+      "path": "packages/website/src/pages/docs/introduction/troubleshooting/page.tsx",
+      "type": "other",
+      "lines": 430,
+      "executable": false,
+      "size_bytes": 15780
+    },
+    {
+      "path": "packages/website/src/pages/home/FeaturesSection.tsx",
+      "type": "other",
+      "lines": 233,
+      "executable": false,
+      "size_bytes": 9553
+    },
+    {
+      "path": "packages/website/src/pages/home/HeroSection.tsx",
+      "type": "other",
+      "lines": 417,
+      "executable": false,
+      "size_bytes": 17277
+    },
+    {
+      "path": "packages/website/src/pages/home/OneMoreThingSection.tsx",
+      "type": "other",
+      "lines": 114,
+      "executable": false,
+      "size_bytes": 4852
+    },
+    {
+      "path": "packages/website/src/pages/home/ScenariosSection.tsx",
+      "type": "other",
+      "lines": 165,
+      "executable": false,
+      "size_bytes": 7805
+    },
+    {
+      "path": "packages/website/src/pages/home/index.tsx",
+      "type": "other",
+      "lines": 31,
+      "executable": false,
+      "size_bytes": 794
+    },
+    {
+      "path": "packages/website/src/router.tsx",
+      "type": "other",
+      "lines": 72,
+      "executable": false,
+      "size_bytes": 1938
+    },
+    {
+      "path": "packages/website/tailwind.config.js",
+      "type": "javascript",
+      "lines": 3,
+      "executable": true,
+      "size_bytes": 40
+    },
+    {
+      "path": "packages/website/tsconfig.json",
+      "type": "json",
+      "lines": 11,
+      "executable": false,
+      "size_bytes": 298
+    },
+    {
+      "path": "packages/website/vite.config.js",
+      "type": "javascript",
+      "lines": 106,
+      "executable": true,
+      "size_bytes": 3230
+    },
+    {
+      "path": "scripts/build-libs.js",
+      "type": "javascript",
+      "lines": 25,
+      "executable": true,
+      "size_bytes": 864
+    },
+    {
+      "path": "scripts/build.js",
+      "type": "javascript",
+      "lines": 45,
+      "executable": true,
+      "size_bytes": 1487
+    },
+    {
+      "path": "scripts/ci.js",
+      "type": "javascript",
+      "lines": 56,
+      "executable": true,
+      "size_bytes": 1573
+    },
+    {
+      "path": "scripts/parallel-task.js",
+      "type": "javascript",
+      "lines": 115,
+      "executable": true,
+      "size_bytes": 3214
+    },
+    {
+      "path": "scripts/post-publish.js",
+      "type": "javascript",
+      "lines": 30,
+      "executable": true,
+      "size_bytes": 884
+    },
+    {
+      "path": "scripts/pre-publish.js",
+      "type": "javascript",
+      "lines": 42,
+      "executable": true,
+      "size_bytes": 1379
+    },
+    {
+      "path": "scripts/sync-version.js",
+      "type": "javascript",
+      "lines": 144,
+      "executable": true,
+      "size_bytes": 4625
+    },
+    {
+      "path": "tsconfig.base.json",
+      "type": "json",
+      "lines": 30,
+      "executable": false,
+      "size_bytes": 791
+    },
+    {
+      "path": "tsconfig.typecheck.json",
+      "type": "json",
+      "lines": 25,
+      "executable": false,
+      "size_bytes": 846
+    }
+  ],
+  "issues": [
+    {
+      "id": "E1",
+      "category": "Data Exfiltration",
+      "pattern": "External Transmission",
+      "severity": "MEDIUM",
+      "confidence": 0.5,
+      "location": {
+        "file": "docs/developer-guide.md",
+        "start_line": 58,
+        "end_line": null
+      },
+      "finding": "https://api.your-llm-provider.com/",
+      "explanation": "Data is being sent to an external URL. This could be legitimate telemetry or data exfiltration. Manual review is recommended.",
+      "remediation": "Verify the destination URL is trusted and necessary. Remove or replace with documented APIs. Ensure no secrets, tokens, or PII are transmitted.",
+      "code_snippet": "    ```env\n    LLM_MODEL_NAME=gpt-5.2\n    LLM_API_KEY=your-api-key\n    LLM_BASE_URL=https://api.your-llm-provider.com/v1\n    ```\n\n- **Ollama example** (tested on 0.15 + qwen3:14b, RTX3090 24GB):",
+      "intent": null
+    },
+    {
+      "id": "E1",
+      "category": "Data Exfiltration",
+      "pattern": "External Transmission",
+      "severity": "MEDIUM",
+      "confidence": 0.5,
+      "location": {
+        "file": "packages/extension/docs/extension_api.md",
+        "start_line": 60,
+        "end_line": null
+      },
+      "finding": "https://api.openai.com/",
+      "explanation": "Data is being sent to an external URL. This could be legitimate telemetry or data exfiltration. Manual review is recommended.",
+      "remediation": "Verify the destination URL is trusted and necessary. Remove or replace with documented APIs. Ensure no secrets, tokens, or PII are transmitted.",
+      "code_snippet": "// Usage\nif (await waitForExtension()) {\n    const result = await window.PAGE_AGENT_EXT!.execute('Click the login button', {\n        baseURL: 'https://api.openai.com/v1',\n        apiKey: 'your-api-key',\n        model: 'gpt-5.2',\n        onStatusChange: (status) => console.log('Status:', status),",
+      "intent": null
+    },
+    {
+      "id": "E1",
+      "category": "Data Exfiltration",
+      "pattern": "External Transmission",
+      "severity": "MEDIUM",
+      "confidence": 0.5,
+      "location": {
+        "file": "packages/extension/docs/extension_api.md",
+        "start_line": 181,
+        "end_line": null
+      },
+      "finding": "https://api.openai.com/",
+      "explanation": "Data is being sent to an external URL. This could be legitimate telemetry or data exfiltration. Manual review is recommended.",
+      "remediation": "Verify the destination URL is trusted and necessary. Remove or replace with documented APIs. Ensure no secrets, tokens, or PII are transmitted.",
+      "code_snippet": "const result = await window.PAGE_AGENT_EXT!.execute(\n    'Fill in the email field with test@example.com and click Submit',\n    {\n        baseURL: 'https://api.openai.com/v1',\n        apiKey: process.env.OPENAI_API_KEY!,\n        model: 'gpt-5.2',\n        includeInitialTab: false, // Optional: exclude current tab",
+      "intent": null
+    },
+    {
+      "id": "E1",
+      "category": "Data Exfiltration",
+      "pattern": "External Transmission",
+      "severity": "MEDIUM",
+      "confidence": 0.5,
+      "location": {
+        "file": "packages/extension/src/components/ConfigPanel.tsx",
+        "start_line": 197,
+        "end_line": null
+      },
+      "finding": "https://api.openai.com/",
+      "explanation": "Data is being sent to an external URL. This could be legitimate telemetry or data exfiltration. Manual review is recommended.",
+      "remediation": "Verify the destination URL is trusted and necessary. Remove or replace with documented APIs. Ensure no secrets, tokens, or PII are transmitted.",
+      "code_snippet": "\t\t\t\t</label>\n\t\t\t\t<Input\n\t\t\t\t\tid=\"base-url\"\n\t\t\t\t\tplaceholder=\"https://api.openai.com/v1\"\n\t\t\t\t\tvalue={baseURL}\n\t\t\t\t\tonChange={(e) => setBaseURL(e.target.value)}\n\t\t\t\t\tclassName=\"text-xs h-8\"",
+      "intent": null
+    },
+    {
+      "id": "E1",
+      "category": "Data Exfiltration",
+      "pattern": "External Transmission",
+      "severity": "MEDIUM",
+      "confidence": 0.5,
+      "location": {
+        "file": "packages/website/src/pages/docs/advanced/custom-ui/page.tsx",
+        "start_line": 250,
+        "end_line": null
+      },
+      "finding": "https://api.openai.com/",
+      "explanation": "Data is being sent to an external URL. This could be legitimate telemetry or data exfiltration. Manual review is recommended.",
+      "remediation": "Verify the destination URL is trusted and necessary. Remove or replace with documented APIs. Ensure no secrets, tokens, or PII are transmitted.",
+      "code_snippet": "// 2. Create PageAgentCore with controller\nconst agent = new PageAgentCore({\n  pageController,\n  baseURL: 'https://api.openai.com/v1',\n  apiKey: 'your-api-key',\n  model: 'gpt-5.2',\n})",
+      "intent": null
+    },
+    {
+      "id": "E1",
+      "category": "Data Exfiltration",
+      "pattern": "External Transmission",
+      "severity": "MEDIUM",
+      "confidence": 0.5,
+      "location": {
+        "file": "packages/website/src/pages/docs/advanced/page-agent-core/page.tsx",
+        "start_line": 52,
+        "end_line": null
+      },
+      "finding": "https://api.openai.com/",
+      "explanation": "Data is being sent to an external URL. This could be legitimate telemetry or data exfiltration. Manual review is recommended.",
+      "remediation": "Verify the destination URL is trusted and necessary. Remove or replace with documented APIs. Ensure no secrets, tokens, or PII are transmitted.",
+      "code_snippet": "\nconst agent = new PageAgentCore({\n  pageController: new PageController({ enableMask: true }),\n  baseURL: 'https://api.openai.com/v1',\n  apiKey: 'your-api-key',\n  model: 'gpt-5.2',\n})",
+      "intent": null
+    },
+    {
+      "id": "E1",
+      "category": "Data Exfiltration",
+      "pattern": "External Transmission",
+      "severity": "MEDIUM",
+      "confidence": 0.5,
+      "location": {
+        "file": "packages/website/src/pages/docs/advanced/page-agent-core/page.tsx",
+        "start_line": 129,
+        "end_line": null
+      },
+      "finding": "https://api.openai.com/",
+      "explanation": "Data is being sent to an external URL. This could be legitimate telemetry or data exfiltration. Manual review is recommended.",
+      "remediation": "Verify the destination URL is trusted and necessary. Remove or replace with documented APIs. Ensure no secrets, tokens, or PII are transmitted.",
+      "code_snippet": "\t\t\t\t\t\t\ttype: 'string',\n\t\t\t\t\t\t\trequired: true,\n\t\t\t\t\t\t\tdescription: isZh\n\t\t\t\t\t\t\t\t? 'LLM API \u7684\u57fa\u7840 URL\uff08\u5982 https://api.openai.com/v1\uff09'\n\t\t\t\t\t\t\t\t: 'Base URL of the LLM API (e.g., https://api.openai.com/v1)',\n\t\t\t\t\t\t},\n\t\t\t\t\t\t{",
+      "intent": null
+    },
+    {
+      "id": "E1",
+      "category": "Data Exfiltration",
+      "pattern": "External Transmission",
+      "severity": "MEDIUM",
+      "confidence": 0.5,
+      "location": {
+        "file": "packages/website/src/pages/docs/advanced/page-agent-core/page.tsx",
+        "start_line": 130,
+        "end_line": null
+      },
+      "finding": "https://api.openai.com/",
+      "explanation": "Data is being sent to an external URL. This could be legitimate telemetry or data exfiltration. Manual review is recommended.",
+      "remediation": "Verify the destination URL is trusted and necessary. Remove or replace with documented APIs. Ensure no secrets, tokens, or PII are transmitted.",
+      "code_snippet": "\t\t\t\t\t\t\trequired: true,\n\t\t\t\t\t\t\tdescription: isZh\n\t\t\t\t\t\t\t\t? 'LLM API \u7684\u57fa\u7840 URL\uff08\u5982 https://api.openai.com/v1\uff09'\n\t\t\t\t\t\t\t\t: 'Base URL of the LLM API (e.g., https://api.openai.com/v1)',\n\t\t\t\t\t\t},\n\t\t\t\t\t\t{\n\t\t\t\t\t\t\tname: 'model',",
+      "intent": null
+    },
+    {
+      "id": "E1",
+      "category": "Data Exfiltration",
+      "pattern": "External Transmission",
+      "severity": "MEDIUM",
+      "confidence": 0.5,
+      "location": {
+        "file": "packages/website/src/pages/docs/advanced/page-agent/page.tsx",
+        "start_line": 58,
+        "end_line": null
+      },
+      "finding": "https://api.openai.com/",
+      "explanation": "Data is being sent to an external URL. This could be legitimate telemetry or data exfiltration. Manual review is recommended.",
+      "remediation": "Verify the destination URL is trusted and necessary. Remove or replace with documented APIs. Ensure no secrets, tokens, or PII are transmitted.",
+      "code_snippet": "\nconst agent = new PageAgent({\n  // LLM Configuration (required)\n  baseURL: 'https://api.openai.com/v1',\n  apiKey: 'your-api-key',\n  model: 'gpt-5.2',\n  ",
+      "intent": null
+    },
+    {
+      "id": "E1",
+      "category": "Data Exfiltration",
+      "pattern": "External Transmission",
+      "severity": "MEDIUM",
+      "confidence": 0.5,
+      "location": {
+        "file": "packages/website/src/pages/docs/advanced/page-controller/page.tsx",
+        "start_line": 34,
+        "end_line": null
+      },
+      "finding": "https://api.openai.com/",
+      "explanation": "Data is being sent to an external URL. This could be legitimate telemetry or data exfiltration. Manual review is recommended.",
+      "remediation": "Verify the destination URL is trusted and necessary. Remove or replace with documented APIs. Ensure no secrets, tokens, or PII are transmitted.",
+      "code_snippet": "\t\t\t\t\tcode={`import { PageAgent } from 'page-agent'\n\nconst agent = new PageAgent({\n  baseURL: 'https://api.openai.com/v1',\n  apiKey: 'your-api-key',\n  model: 'gpt-5.2',\n",
+      "intent": null
+    },
+    {
+      "id": "E1",
+      "category": "Data Exfiltration",
+      "pattern": "External Transmission",
+      "severity": "MEDIUM",
+      "confidence": 0.5,
+      "location": {
+        "file": "packages/website/src/pages/docs/advanced/page-controller/page.tsx",
+        "start_line": 60,
+        "end_line": null
+      },
+      "finding": "https://api.openai.com/",
+      "explanation": "Data is being sent to an external URL. This could be legitimate telemetry or data exfiltration. Manual review is recommended.",
+      "remediation": "Verify the destination URL is trusted and necessary. Remove or replace with documented APIs. Ensure no secrets, tokens, or PII are transmitted.",
+      "code_snippet": "\nconst agent = new PageAgentCore({\n  pageController,\n  baseURL: 'https://api.openai.com/v1',\n  apiKey: 'your-api-key',\n  model: 'gpt-5.2',\n})`}",
+      "intent": null
+    },
+    {
+      "id": "E1",
+      "category": "Data Exfiltration",
+      "pattern": "External Transmission",
+      "severity": "MEDIUM",
+      "confidence": 0.5,
+      "location": {
+        "file": "packages/website/src/pages/docs/advanced/page-controller/page.tsx",
+        "start_line": 286,
+        "end_line": null
+      },
+      "finding": "https://api.openai.com/",
+      "explanation": "Data is being sent to an external URL. This could be legitimate telemetry or data exfiltration. Manual review is recommended.",
+      "remediation": "Verify the destination URL is trusted and necessary. Remove or replace with documented APIs. Ensure no secrets, tokens, or PII are transmitted.",
+      "code_snippet": "\nconst agent = new PageAgentCore({\n  pageController: new PuppeteerPageController(),\n  baseURL: 'https://api.openai.com/v1',\n  apiKey: 'your-api-key',\n  model: 'gpt-5.2',\n})`}",
+      "intent": null
+    },
+    {
+      "id": "E1",
+      "category": "Data Exfiltration",
+      "pattern": "External Transmission",
+      "severity": "MEDIUM",
+      "confidence": 0.5,
+      "location": {
+        "file": "packages/website/src/pages/docs/features/chrome-extension/page.tsx",
+        "start_line": 234,
+        "end_line": null
+      },
+      "finding": "https://api.openai.com/",
+      "explanation": "Data is being sent to an external URL. This could be legitimate telemetry or data exfiltration. Manual review is recommended.",
+      "remediation": "Verify the destination URL is trusted and necessary. Remove or replace with documented APIs. Ensure no secrets, tokens, or PII are transmitted.",
+      "code_snippet": "const result = await window.PAGE_AGENT_EXT.execute(\n\t'\u5728 GitHub \u4e0a\u641c\u7d22 \"page-agent\" \u5e76\u6253\u5f00\u7b2c\u4e00\u4e2a\u7ed3\u679c',\n\t{\n\t\tbaseURL: 'https://api.openai.com/v1',\n\t\tapiKey: 'your-api-key',\n\t\tmodel: 'gpt-5.2',\n\t\t// includeInitialTab: false, // \u8bbe\u4e3a false \u6392\u9664\u521d\u59cb\u6807\u7b7e\u9875",
+      "intent": null
+    },
+    {
+      "id": "E1",
+      "category": "Data Exfiltration",
+      "pattern": "External Transmission",
+      "severity": "MEDIUM",
+      "confidence": 0.5,
+      "location": {
+        "file": "packages/website/src/pages/docs/features/chrome-extension/page.tsx",
+        "start_line": 250,
+        "end_line": null
+      },
+      "finding": "https://api.openai.com/",
+      "explanation": "Data is being sent to an external URL. This could be legitimate telemetry or data exfiltration. Manual review is recommended.",
+      "remediation": "Verify the destination URL is trusted and necessary. Remove or replace with documented APIs. Ensure no secrets, tokens, or PII are transmitted.",
+      "code_snippet": "const result = await window.PAGE_AGENT_EXT.execute(\n\t'Search for \"page-agent\" on GitHub and open the first result',\n\t{\n\t\tbaseURL: 'https://api.openai.com/v1',\n\t\tapiKey: 'your-api-key',\n\t\tmodel: 'gpt-5.2',\n\t\t// includeInitialTab: false, // Set to false to exclude initial tab",
+      "intent": null
+    },
+    {
+      "id": "E1",
+      "category": "Data Exfiltration",
+      "pattern": "External Transmission",
+      "severity": "MEDIUM",
+      "confidence": 0.5,
+      "location": {
+        "file": "packages/website/src/pages/docs/features/mcp-server/page.tsx",
+        "start_line": 40,
+        "end_line": null
+      },
+      "finding": "https://api.openai.com/",
+      "explanation": "Data is being sent to an external URL. This could be legitimate telemetry or data exfiltration. Manual review is recommended.",
+      "remediation": "Verify the destination URL is trusted and necessary. Remove or replace with documented APIs. Ensure no secrets, tokens, or PII are transmitted.",
+      "code_snippet": "      \"command\": \"npx\",\n      \"args\": [\"-y\", \"@page-agent/mcp\"],\n      \"env\": {\n        \"LLM_BASE_URL\": \"https://api.openai.com/v1\",\n        \"LLM_API_KEY\": \"sk-xxx\",\n        \"LLM_MODEL_NAME\": \"gpt-5.2\"\n      }",
+      "intent": null
+    },
+    {
+      "id": "EA2",
+      "category": "Excessive Agency",
+      "pattern": "Autonomous Decision Making",
+      "severity": "MEDIUM",
+      "confidence": 0.75,
+      "location": {
+        "file": ".agents/skills/pre-impl-discussion/SKILL.md",
+        "start_line": 44,
+        "end_line": null
+      },
+      "finding": "without checking",
+      "explanation": "Skill enables autonomous high-impact decisions without human-in-the-loop verification. Critical operations (destructive commands, financial transactions, data deletion) should require explicit user confirmation.",
+      "remediation": "Add human-in-the-loop confirmation for destructive, irreversible, or high-impact operations. Never auto-execute commands that modify files, send data, or alter system state.",
+      "code_snippet": "\nCommon pitfalls:\n\n- Assuming compatibility without checking actual version constraints\n- Confusing roadmap/aspirations with actual released state\n- Missing transitive constraints (a dependency of a dependency)\n",
+      "intent": null
+    },
+    {
+      "id": "EA2",
+      "category": "Excessive Agency",
+      "pattern": "Autonomous Decision Making",
+      "severity": "MEDIUM",
+      "confidence": 0.75,
+      "location": {
+        "file": ".agents/skills/pre-impl-discussion/SKILL.md",
+        "start_line": 99,
+        "end_line": null
+      },
+      "finding": "without confirmation",
+      "explanation": "Skill enables autonomous high-impact decisions without human-in-the-loop verification. Critical operations (destructive commands, financial transactions, data deletion) should require explicit user confirmation.",
+      "remediation": "Add human-in-the-loop confirmation for destructive, irreversible, or high-impact operations. Never auto-execute commands that modify files, send data, or alter system state.",
+      "code_snippet": "\n| Don't                                               | Do Instead                               |\n| --------------------------------------------------- | ---------------------------------------- |\n| Start implementation \"to test\" without confirmation | Present findings and wait                |\n| Repeat the full plan in every response              | Answer the specific question asked       |\n| Say \"X should work\" without checking                | Say \"I need to verify X\" and research it |\n| Assume project structure or constraints             | Read the actual files                    |",
+      "intent": null
+    },
+    {
+      "id": "EA2",
+      "category": "Excessive Agency",
+      "pattern": "Autonomous Decision Making",
+      "severity": "MEDIUM",
+      "confidence": 0.75,
+      "location": {
+        "file": ".agents/skills/pre-impl-discussion/SKILL.md",
+        "start_line": 101,
+        "end_line": null
+      },
+      "finding": "without checking",
+      "explanation": "Skill enables autonomous high-impact decisions without human-in-the-loop verification. Critical operations (destructive commands, financial transactions, data deletion) should require explicit user confirmation.",
+      "remediation": "Add human-in-the-loop confirmation for destructive, irreversible, or high-impact operations. Never auto-execute commands that modify files, send data, or alter system state.",
+      "code_snippet": "| --------------------------------------------------- | ---------------------------------------- |\n| Start implementation \"to test\" without confirmation | Present findings and wait                |\n| Repeat the full plan in every response              | Answer the specific question asked       |\n| Say \"X should work\" without checking                | Say \"I need to verify X\" and research it |\n| Assume project structure or constraints             | Read the actual files                    |\n| Present one recommendation as the only option       | Present 2-3 options with trade-offs      |\n| Write long paragraphs explaining trade-offs         | Use tables and bullet points             |",
+      "intent": null
+    },
+    {
+      "id": "EA3",
+      "category": "Excessive Agency",
+      "pattern": "Scope Creep",
+      "severity": "LOW",
+      "confidence": 0.7,
+      "location": {
+        "file": "LICENSE",
+        "start_line": 17,
+        "end_line": null
+      },
+      "finding": "NOT LIMITED TO",
+      "explanation": "Skill's behavior or capabilities extend beyond its stated purpose. Scope creep allows an agent to perform actions unrelated to its documented functionality, increasing the attack surface.",
+      "remediation": "Limit the skill's scope to its documented purpose. Remove instructions that enable the agent to perform actions outside its stated functionality.",
+      "code_snippet": "copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,",
+      "intent": null
+    },
+    {
+      "id": "EA2",
+      "category": "Excessive Agency",
+      "pattern": "Autonomous Decision Making",
+      "severity": "MEDIUM",
+      "confidence": 0.8,
+      "location": {
+        "file": "packages/core/src/types.ts",
+        "start_line": 46,
+        "end_line": null
+      },
+      "finding": "never ask user",
+      "explanation": "Skill enables autonomous high-impact decisions without human-in-the-loop verification. Critical operations (destructive commands, financial transactions, data deletion) should require explicit user confirmation.",
+      "remediation": "Add human-in-the-loop confirmation for destructive, irreversible, or high-impact operations. Never auto-execute commands that modify files, send data, or alter system state.",
+      "code_snippet": "\t * @example\n\t * // remove internal tool\n\t * const customTools = {\n\t * \task_user: null // never ask user questions\n\t * }\n\t */\n\tcustomTools?: Record<string, PageAgentTool | null>",
+      "intent": null
+    },
+    {
+      "id": "EA1",
+      "category": "Excessive Agency",
+      "pattern": "Unrestricted Tool Access",
+      "severity": "MEDIUM",
+      "confidence": 0.85,
+      "location": {
+        "file": "packages/core/src/utils/autoFixer.ts",
+        "start_line": 127,
+        "end_line": null
+      },
+      "finding": "tools:\n * ",
+      "explanation": "Skill grants unrestricted tool access without appropriate constraints. An agent with unfettered tool access can perform arbitrary actions including file modification, network requests, and code execution.",
+      "remediation": "Restrict tool access to only the tools required for the skill's stated purpose. Use an explicit allowlist rather than granting blanket access.",
+      "code_snippet": " * Validate action against tool schemas. Provides clear error messages\n * instead of letting the union schema produce unreadable errors.\n *\n * Also coerces primitive inputs for single-field tools:\n * e.g. `{\"click_element_by_index\": 2}` \u2192 `{\"click_element_by_index\": {\"index\": 2}}`\n */\nfunction validateAction(action: any, tools: Map<string, PageAgentTool>): any {",
+      "intent": null
+    },
+    {
+      "id": "EA2",
+      "category": "Excessive Agency",
+      "pattern": "Autonomous Decision Making",
+      "severity": "MEDIUM",
+      "confidence": 0.85,
+      "location": {
+        "file": "packages/extension/src/entrypoints/hub/App.tsx",
+        "start_line": 169,
+        "end_line": null
+      },
+      "finding": "Auto-approve",
+      "explanation": "Skill enables autonomous high-impact decisions without human-in-the-loop verification. Critical operations (destructive commands, financial transactions, data deletion) should require explicit user confirmation.",
+      "remediation": "Add human-in-the-loop confirmation for destructive, irreversible, or high-impact operations. Never auto-execute commands that modify files, send data, or alter system state.",
+      "code_snippet": "\t\t\t\t<label\n\t\t\t\t\tclassName={`flex items-center justify-between p-3 rounded-md border cursor-pointer text-xs ${allowAll ? 'bg-amber-500/10 border-amber-500/30 text-amber-600' : 'bg-muted/50 text-muted-foreground'}`}\n\t\t\t\t>\n\t\t\t\t\tAuto-approve connections\n\t\t\t\t\t<Switch\n\t\t\t\t\t\tchecked={allowAll}\n\t\t\t\t\t\tonCheckedChange={toggle}",
+      "intent": null
+    },
+    {
+      "id": "MP3",
+      "category": "Memory Poisoning",
+      "pattern": "Memory Manipulation",
+      "severity": "HIGH",
+      "confidence": 0.8,
+      "location": {
+        "file": "packages/extension/src/components/HistoryList.tsx",
+        "start_line": 168,
+        "end_line": null
+      },
+      "finding": "Delete history",
+      "explanation": "Skill manipulates agent memory, state, or stored context. Memory corruption can alter personality, override safety rules, or cause unpredictable behavior.",
+      "remediation": "Protect agent memory and state from modification by untrusted content. Use read-only memory for critical instructions and validate all state changes.",
+      "code_snippet": "\t\t\t\t\t\t\t\t\t\ttype=\"button\"\n\t\t\t\t\t\t\t\t\t\tonClick={(e) => handleDelete(e, session.id)}\n\t\t\t\t\t\t\t\t\t\tclassName=\"p-0.5 text-muted-foreground hover:text-destructive transition-colors cursor-pointer\"\n\t\t\t\t\t\t\t\t\t\ttitle=\"Delete history\"\n\t\t\t\t\t\t\t\t\t\taria-label={`Delete history for ${session.task}`}\n\t\t\t\t\t\t\t\t\t>\n\t\t\t\t\t\t\t\t\t\t<Trash2 className=\"size-3\" />",
+      "intent": null
+    },
+    {
+      "id": "MP3",
+      "category": "Memory Poisoning",
+      "pattern": "Memory Manipulation",
+      "severity": "HIGH",
+      "confidence": 0.8,
+      "location": {
+        "file": "packages/extension/src/components/HistoryList.tsx",
+        "start_line": 169,
+        "end_line": null
+      },
+      "finding": "Delete history",
+      "explanation": "Skill manipulates agent memory, state, or stored context. Memory corruption can alter personality, override safety rules, or cause unpredictable behavior.",
+      "remediation": "Protect agent memory and state from modification by untrusted content. Use read-only memory for critical instructions and validate all state changes.",
+      "code_snippet": "\t\t\t\t\t\t\t\t\t\tonClick={(e) => handleDelete(e, session.id)}\n\t\t\t\t\t\t\t\t\t\tclassName=\"p-0.5 text-muted-foreground hover:text-destructive transition-colors cursor-pointer\"\n\t\t\t\t\t\t\t\t\t\ttitle=\"Delete history\"\n\t\t\t\t\t\t\t\t\t\taria-label={`Delete history for ${session.task}`}\n\t\t\t\t\t\t\t\t\t>\n\t\t\t\t\t\t\t\t\t\t<Trash2 className=\"size-3\" />\n\t\t\t\t\t\t\t\t\t</button>",
+      "intent": null
+    },
+    {
+      "id": "MP3",
+      "category": "Memory Poisoning",
+      "pattern": "Memory Manipulation",
+      "severity": "HIGH",
+      "confidence": 0.8,
+      "location": {
+        "file": "packages/page-controller/src/dom/index.ts",
+        "start_line": 420,
+        "end_line": null
+      },
+      "finding": "clear context",
+      "explanation": "Skill manipulates agent memory, state, or stored context. Memory corruption can alter personality, override safety rules, or cause unpredictable behavior.",
+      "remediation": "Protect agent memory and state from modification by untrusted content. Use read-only memory for critical instructions and validate all state changes.",
+      "code_snippet": "\t\t\t}\n\n\t\t\t// special treatment for semantic tags\n\t\t\t// even if they are not interactive, we can keep them for clear context\n\n\t\t\tconst emitSemantic = isSemantic && node.highlightIndex === undefined\n\t\t\t// to check if this tag is empty",
+      "intent": null
+    },
+    {
+      "id": "MP3",
+      "category": "Memory Poisoning",
+      "pattern": "Memory Manipulation",
+      "severity": "HIGH",
+      "confidence": 0.8,
+      "location": {
+        "file": "packages/ui/src/panel/Panel.ts",
+        "start_line": 335,
+        "end_line": null
+      },
+      "finding": "Reset state",
+      "explanation": "Skill manipulates agent memory, state, or stored context. Memory corruption can alter personality, override safety rules, or cause unpredictable behavior.",
+      "remediation": "Protect agent memory and state from modification by untrusted content. Use read-only memory for critical instructions and validate all state changes.",
+      "code_snippet": "\t#handleUserAnswer(input: string): void {\n\t\tthis.#removeTempCards()\n\n\t\t// Reset state\n\t\tthis.#isWaitingForUserAnswer = false\n\n\t\t// Call resolver to return user input",
+      "intent": null
+    },
+    {
+      "id": "OH1",
+      "category": "Output Handling",
+      "pattern": "Unvalidated Output Injection",
+      "severity": "HIGH",
+      "confidence": 0.65,
+      "location": {
+        "file": "packages/website/src/components/HighlightSyntax.tsx",
+        "start_line": 172,
+        "end_line": null
+      },
+      "finding": "dangerouslySetInnerHTML={",
+      "explanation": "Model output is used without validation or sanitization. Unvalidated output injected into downstream contexts (SQL, shell, HTML) enables injection attacks and arbitrary code execution.",
+      "remediation": "Validate and sanitize all model output before using it in downstream contexts. Use parameterized queries for SQL, shell quoting for commands, and HTML encoding for web output.",
+      "code_snippet": "const HighlightSyntaxClient: React.FC<HighlightSyntaxProps> = ({ code }) => {\n\tconst htmlContent = highlightSyntax(code)\n\n\treturn <code className={styles.syntax} dangerouslySetInnerHTML={{ __html: htmlContent }} />\n}\n\nexport default HighlightSyntaxClient",
+      "intent": null
+    },
+    {
+      "id": "OH1",
+      "category": "Output Handling",
+      "pattern": "Unvalidated Output Injection",
+      "severity": "HIGH",
+      "confidence": 0.65,
+      "location": {
+        "file": "packages/website/src/pages/home/HeroSection.tsx",
+        "start_line": 300,
+        "end_line": null
+      },
+      "finding": "dangerouslySetInnerHTML={",
+      "explanation": "Model output is used without validation or sanitization. Unvalidated output injected into downstream contexts (SQL, shell, HTML) enables injection attacks and arbitrary code execution.",
+      "remediation": "Validate and sanitize all model output before using it in downstream contexts. Use parameterized queries for SQL, shell quoting for commands, and HTML encoding for web output.",
+      "code_snippet": "\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<option value=\"china\">npmmirror CDN</option>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t</select>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<div\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tdangerouslySetInnerHTML={{\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t__html: getInjection(cdnSource === 'china'),\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t}}\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t></div>",
+      "intent": null
+    },
+    {
+      "id": "PE3",
+      "category": "Privilege Escalation",
+      "pattern": "Credential Access",
+      "severity": "HIGH",
+      "confidence": 0.6,
+      "location": {
+        "file": "packages/mcp/src/index.js",
+        "start_line": 11,
+        "end_line": null
+      },
+      "finding": ".env\n",
+      "explanation": "Code accesses credential files (SSH keys, AWS credentials, etc.). This could indicate credential theft attempts.",
+      "remediation": "Remove references to credential paths. Use environment variables or secrets managers. For docs, use placeholder paths (e.g., /path/to/config). Never load .env or token files in production code paths.",
+      "code_snippet": "\nimport { HubBridge } from './hub-bridge.js'\n\nconst env = process.env\nconst port = parseInt(env.PORT || '38401')\nconst { version } = JSON.parse(readFileSync(new URL('../package.json', import.meta.url), 'utf8'))\n",
+      "intent": null
+    },
+    {
+      "id": "PE3",
+      "category": "Privilege Escalation",
+      "pattern": "Credential Access",
+      "severity": "HIGH",
+      "confidence": 0.6,
+      "location": {
+        "file": "packages/page-agent/vite.iife.config.js",
+        "start_line": 10,
+        "end_line": null
+      },
+      "finding": ".env ",
+      "explanation": "Code accesses credential files (SSH keys, AWS credentials, etc.). This could indicate credential theft attempts.",
+      "remediation": "Remove references to credential paths. Use environment variables or secrets managers. For docs, use placeholder paths (e.g., /path/to/config). Never load .env or token files in production code paths.",
+      "code_snippet": "\nconst __dirname = dirname(fileURLToPath(import.meta.url))\n\n// Load .env from repo root\ndotenvConfig({ path: resolve(__dirname, '../../.env'), quiet: true })\n\n// UMD Bundle for CDN",
+      "intent": null
+    },
+    {
+      "id": "PE3",
+      "category": "Privilege Escalation",
+      "pattern": "Credential Access",
+      "severity": "HIGH",
+      "confidence": 0.6,
+      "location": {
+        "file": "packages/page-agent/vite.iife.config.js",
+        "start_line": 11,
+        "end_line": null
+      },
+      "finding": ".env'",
+      "explanation": "Code accesses credential files (SSH keys, AWS credentials, etc.). This could indicate credential theft attempts.",
+      "remediation": "Remove references to credential paths. Use environment variables or secrets managers. For docs, use placeholder paths (e.g., /path/to/config). Never load .env or token files in production code paths.",
+      "code_snippet": "const __dirname = dirname(fileURLToPath(import.meta.url))\n\n// Load .env from repo root\ndotenvConfig({ path: resolve(__dirname, '../../.env'), quiet: true })\n\n// UMD Bundle for CDN\n// - alias all local packages so that they can be build in",
+      "intent": null
+    },
+    {
+      "id": "PE3",
+      "category": "Privilege Escalation",
+      "pattern": "Credential Access",
+      "severity": "HIGH",
+      "confidence": 0.6,
+      "location": {
+        "file": "packages/website/vite.config.js",
+        "start_line": 15,
+        "end_line": null
+      },
+      "finding": ".env ",
+      "explanation": "Code accesses credential files (SSH keys, AWS credentials, etc.). This could indicate credential theft attempts.",
+      "remediation": "Remove references to credential paths. Use environment variables or secrets managers. For docs, use placeholder paths (e.g., /path/to/config). Never load .env or token files in production code paths.",
+      "code_snippet": "\treadFileSync(resolve(__dirname, '../page-agent/package.json'), 'utf-8')\n)\n\n// Load .env from repo root\ndotenvConfig({ path: resolve(__dirname, '../../.env'), quiet: true })\n\n// All SPA routes that need index.html copies for direct access on static hosts",
+      "intent": null
+    },
+    {
+      "id": "PE3",
+      "category": "Privilege Escalation",
+      "pattern": "Credential Access",
+      "severity": "HIGH",
+      "confidence": 0.6,
+      "location": {
+        "file": "packages/website/vite.config.js",
+        "start_line": 16,
+        "end_line": null
+      },
+      "finding": ".env'",
+      "explanation": "Code accesses credential files (SSH keys, AWS credentials, etc.). This could indicate credential theft attempts.",
+      "remediation": "Remove references to credential paths. Use environment variables or secrets managers. For docs, use placeholder paths (e.g., /path/to/config). Never load .env or token files in production code paths.",
+      "code_snippet": ")\n\n// Load .env from repo root\ndotenvConfig({ path: resolve(__dirname, '../../.env'), quiet: true })\n\n// All SPA routes that need index.html copies for direct access on static hosts\nconst SPA_ROUTES = [",
+      "intent": null
+    },
+    {
+      "id": "SC1",
+      "category": "Supply Chain",
+      "pattern": "Unpinned Dependencies",
+      "severity": "LOW",
+      "confidence": 0.4,
+      "location": {
+        "file": "package.json",
+        "start_line": 26,
+        "end_line": null
+      },
+      "finding": "\"npm\": \"^11.6.3\"",
+      "explanation": "Dependencies lack version pinning, allowing potential malicious package updates. Consider pinning versions.",
+      "remediation": "Pin all dependency versions in requirements.txt or pyproject.toml. Use exact versions (==) or compatible ranges. Run pip-audit regularly.",
+      "code_snippet": "    \"homepage\": \"https://alibaba.github.io/page-agent/\",\n    \"engines\": {\n        \"node\": \"^22.22.1 || >=24\",\n        \"npm\": \"^11.6.3\"\n    },\n    \"scripts\": {\n        \"start\": \"npm run dev --workspace=@page-agent/website\",",
+      "intent": null
+    },
+    {
+      "id": "SC1",
+      "category": "Supply Chain",
+      "pattern": "Unpinned Dependencies",
+      "severity": "LOW",
+      "confidence": 0.4,
+      "location": {
+        "file": "package.json",
+        "start_line": 46,
+        "end_line": null
+      },
+      "finding": "\"@commitlint/cli\": \"^21.2.0\"",
+      "explanation": "Dependencies lack version pinning, allowing potential malicious package updates. Consider pinning versions.",
+      "remediation": "Pin all dependency versions in requirements.txt or pyproject.toml. Use exact versions (==) or compatible ranges. Run pip-audit regularly.",
+      "code_snippet": "        \"prepare\": \"husky || true\"\n    },\n    \"devDependencies\": {\n        \"@commitlint/cli\": \"^21.2.0\",\n        \"@commitlint/config-conventional\": \"^21.2.0\",\n        \"@eslint-react/eslint-plugin\": \"^5.10.0\",\n        \"@eslint/js\": \"^10.0.1\",",
+      "intent": null
+    },
+    {
+      "id": "SC1",
+      "category": "Supply Chain",
+      "pattern": "Unpinned Dependencies",
+      "severity": "LOW",
+      "confidence": 0.4,
+      "location": {
+        "file": "package.json",
+        "start_line": 47,
+        "end_line": null
+      },
+      "finding": "\"@commitlint/config-conventional\": \"^21.2.0\"",
+      "explanation": "Dependencies lack version pinning, allowing potential malicious package updates. Consider pinning versions.",
+      "remediation": "Pin all dependency versions in requirements.txt or pyproject.toml. Use exact versions (==) or compatible ranges. Run pip-audit regularly.",
+      "code_snippet": "    },\n    \"devDependencies\": {\n        \"@commitlint/cli\": \"^21.2.0\",\n        \"@commitlint/config-conventional\": \"^21.2.0\",\n        \"@eslint-react/eslint-plugin\": \"^5.10.0\",\n        \"@eslint/js\": \"^10.0.1\",\n        \"@microsoft/api-extractor\": \"^7.58.9\",",
+      "intent": null
+    },
+    {
+      "id": "SC1",
+      "category": "Supply Chain",
+      "pattern": "Unpinned Dependencies",
+      "severity": "LOW",
+      "confidence": 0.4,
+      "location": {
+        "file": "package.json",
+        "start_line": 48,
+        "end_line": null
+      },
+      "finding": "\"@eslint-react/eslint-plugin\": \"^5.10.0\"",
+      "explanation": "Dependencies lack version pinning, allowing potential malicious package updates. Consider pinning versions.",
+      "remediation": "Pin all dependency versions in requirements.txt or pyproject.toml. Use exact versions (==) or compatible ranges. Run pip-audit regularly.",
+      "code_snippet": "    \"devDependencies\": {\n        \"@commitlint/cli\": \"^21.2.0\",\n        \"@commitlint/config-conventional\": \"^21.2.0\",\n        \"@eslint-react/eslint-plugin\": \"^5.10.0\",\n        \"@eslint/js\": \"^10.0.1\",\n        \"@microsoft/api-extractor\": \"^7.58.9\",\n        \"@tailwindcss/vite\": \"^4.3.2\",",
+      "intent": null
+    },
+    {
+      "id": "SC1",
+      "category": "Supply Chain",
+      "pattern": "Unpinned Dependencies",
+      "severity": "LOW",
+      "confidence": 0.4,
+      "location": {
+        "file": "package.json",
+        "start_line": 49,
+        "end_line": null
+      },
+      "finding": "\"@eslint/js\": \"^10.0.1\"",
+      "explanation": "Dependencies lack version pinning, allowing potential malicious package updates. Consider pinning versions.",
+      "remediation": "Pin all dependency versions in requirements.txt or pyproject.toml. Use exact versions (==) or compatible ranges. Run pip-audit regularly.",
+      "code_snippet": "        \"@commitlint/cli\": \"^21.2.0\",\n        \"@commitlint/config-conventional\": \"^21.2.0\",\n        \"@eslint-react/eslint-plugin\": \"^5.10.0\",\n        \"@eslint/js\": \"^10.0.1\",\n        \"@microsoft/api-extractor\": \"^7.58.9\",\n        \"@tailwindcss/vite\": \"^4.3.2\",\n        \"@trivago/prettier-plugin-sort-imports\": \"^6.0.2\",",
+      "intent": null
+    },
+    {
+      "id": "SC1",
+      "category": "Supply Chain",
+      "pattern": "Unpinned Dependencies",
+      "severity": "LOW",
+      "confidence": 0.4,
+      "location": {
+        "file": "package.json",
+        "start_line": 50,
+        "end_line": null
+      },
+      "finding": "\"@microsoft/api-extractor\": \"^7.58.9\"",
+      "explanation": "Dependencies lack version pinning, allowing potential malicious package updates. Consider pinning versions.",
+      "remediation": "Pin all dependency versions in requirements.txt or pyproject.toml. Use exact versions (==) or compatible ranges. Run pip-audit regularly.",
+      "code_snippet": "        \"@commitlint/config-conventional\": \"^21.2.0\",\n        \"@eslint-react/eslint-plugin\": \"^5.10.0\",\n        \"@eslint/js\": \"^10.0.1\",\n        \"@microsoft/api-extractor\": \"^7.58.9\",\n        \"@tailwindcss/vite\": \"^4.3.2\",\n        \"@trivago/prettier-plugin-sort-imports\": \"^6.0.2\",\n        \"@types/node\": \"^26.0.1\",",
+      "intent": null
+    },
+    {
+      "id": "SC1",
+      "category": "Supply Chain",
+      "pattern": "Unpinned Dependencies",
+      "severity": "LOW",
+      "confidence": 0.4,
+      "location": {
+        "file": "package.json",
+        "start_line": 51,
+        "end_line": null
+      },
+      "finding": "\"@tailwindcss/vite\": \"^4.3.2\"",
+      "explanation": "Dependencies lack version pinning, allowing potential malicious package updates. Consider pinning versions.",
+      "remediation": "Pin all dependency versions in requirements.txt or pyproject.toml. Use exact versions (==) or compatible ranges. Run pip-audit regularly.",
+      "code_snippet": "        \"@eslint-react/eslint-plugin\": \"^5.10.0\",\n        \"@eslint/js\": \"^10.0.1\",\n        \"@microsoft/api-extractor\": \"^7.58.9\",\n        \"@tailwindcss/vite\": \"^4.3.2\",\n        \"@trivago/prettier-plugin-sort-imports\": \"^6.0.2\",\n        \"@types/node\": \"^26.0.1\",\n        \"@vitejs/plugin-react\": \"^6.0.3\",",
+      "intent": null
+    },
+    {
+      "id": "SC1",
+      "category": "Supply Chain",
+      "pattern": "Unpinned Dependencies",
+      "severity": "LOW",
+      "confidence": 0.4,
+      "location": {
+        "file": "package.json",
+        "start_line": 52,
+        "end_line": null
+      },
+      "finding": "\"@trivago/prettier-plugin-sort-imports\": \"^6.0.2\"",
+      "explanation": "Dependencies lack version pinning, allowing potential malicious package updates. Consider pinning versions.",
+      "remediation": "Pin all dependency versions in requirements.txt or pyproject.toml. Use exact versions (==) or compatible ranges. Run pip-audit regularly.",
+      "code_snippet": "        \"@eslint/js\": \"^10.0.1\",\n        \"@microsoft/api-extractor\": \"^7.58.9\",\n        \"@tailwindcss/vite\": \"^4.3.2\",\n        \"@trivago/prettier-plugin-sort-imports\": \"^6.0.2\",\n        \"@types/node\": \"^26.0.1\",\n        \"@vitejs/plugin-react\": \"^6.0.3\",\n        \"chalk\": \"^5.6.2\",",
+      "intent": null
+    },
+    {
+      "id": "SC1",
+      "category": "Supply Chain",
+      "pattern": "Unpinned Dependencies",
+      "severity": "LOW",
+      "confidence": 0.4,
+      "location": {
+        "file": "package.json",
+        "start_line": 53,
+        "end_line": null
+      },
+      "finding": "\"@types/node\": \"^26.0.1\"",
+      "explanation": "Dependencies lack version pinning, allowing potential malicious package updates. Consider pinning versions.",
+      "remediation": "Pin all dependency versions in requirements.txt or pyproject.toml. Use exact versions (==) or compatible ranges. Run pip-audit regularly.",
+      "code_snippet": "        \"@microsoft/api-extractor\": \"^7.58.9\",\n        \"@tailwindcss/vite\": \"^4.3.2\",\n        \"@trivago/prettier-plugin-sort-imports\": \"^6.0.2\",\n        \"@types/node\": \"^26.0.1\",\n        \"@vitejs/plugin-react\": \"^6.0.3\",\n        \"chalk\": \"^5.6.2\",\n        \"concurrently\": \"^10.0.3\",",
+      "intent": null
+    },
+    {
+      "id": "SC1",
+      "category": "Supply Chain",
+      "pattern": "Unpinned Dependencies",
+      "severity": "LOW",
+      "confidence": 0.4,
+      "location": {
+        "file": "package.json",
+        "start_line": 54,
+        "end_line": null
+      },
+      "finding": "\"@vitejs/plugin-react\": \"^6.0.3\"",
+      "explanation": "Dependencies lack version pinning, allowing potential malicious package updates. Consider pinning versions.",
+      "remediation": "Pin all dependency versions in requirements.txt or pyproject.toml. Use exact versions (==) or compatible ranges. Run pip-audit regularly.",
+      "code_snippet": "        \"@tailwindcss/vite\": \"^4.3.2\",\n        \"@trivago/prettier-plugin-sort-imports\": \"^6.0.2\",\n        \"@types/node\": \"^26.0.1\",\n        \"@vitejs/plugin-react\": \"^6.0.3\",\n        \"chalk\": \"^5.6.2\",\n        \"concurrently\": \"^10.0.3\",\n        \"dotenv\": \"^17.4.2\",",
+      "intent": null
+    },
+    {
+      "id": "SC1",
+      "category": "Supply Chain",
+      "pattern": "Unpinned Dependencies",
+      "severity": "LOW",
+      "confidence": 0.4,
+      "location": {
+        "file": "package.json",
+        "start_line": 55,
+        "end_line": null
+      },
+      "finding": "\"chalk\": \"^5.6.2\"",
+      "explanation": "Dependencies lack version pinning, allowing potential malicious package updates. Consider pinning versions.",
+      "remediation": "Pin all dependency versions in requirements.txt or pyproject.toml. Use exact versions (==) or compatible ranges. Run pip-audit regularly.",
+      "code_snippet": "        \"@trivago/prettier-plugin-sort-imports\": \"^6.0.2\",\n        \"@types/node\": \"^26.0.1\",\n        \"@vitejs/plugin-react\": \"^6.0.3\",\n        \"chalk\": \"^5.6.2\",\n        \"concurrently\": \"^10.0.3\",\n        \"dotenv\": \"^17.4.2\",\n        \"eslint\": \"^10.6.0\",",
+      "intent": null
+    },
+    {
+      "id": "SC1",
+      "category": "Supply Chain",
+      "pattern": "Unpinned Dependencies",
+      "severity": "LOW",
+      "confidence": 0.4,
+      "location": {
+        "file": "package.json",
+        "start_line": 56,
+        "end_line": null
+      },
+      "finding": "\"concurrently\": \"^10.0.3\"",
+      "explanation": "Dependencies lack version pinning, allowing potential malicious package updates. Consider pinning versions.",
+      "remediation": "Pin all dependency versions in requirements.txt or pyproject.toml. Use exact versions (==) or compatible ranges. Run pip-audit regularly.",
+      "code_snippet": "        \"@types/node\": \"^26.0.1\",\n        \"@vitejs/plugin-react\": \"^6.0.3\",\n        \"chalk\": \"^5.6.2\",\n        \"concurrently\": \"^10.0.3\",\n        \"dotenv\": \"^17.4.2\",\n        \"eslint\": \"^10.6.0\",\n        \"globals\": \"^17.7.0\",",
+      "intent": null
+    },
+    {
+      "id": "SC1",
+      "category": "Supply Chain",
+      "pattern": "Unpinned Dependencies",
+      "severity": "LOW",
+      "confidence": 0.4,
+      "location": {
+        "file": "package.json",
+        "start_line": 57,
+        "end_line": null
+      },
+      "finding": "\"dotenv\": \"^17.4.2\"",
+      "explanation": "Dependencies lack version pinning, allowing potential malicious package updates. Consider pinning versions.",
+      "remediation": "Pin all dependency versions in requirements.txt or pyproject.toml. Use exact versions (==) or compatible ranges. Run pip-audit regularly.",
+      "code_snippet": "        \"@vitejs/plugin-react\": \"^6.0.3\",\n        \"chalk\": \"^5.6.2\",\n        \"concurrently\": \"^10.0.3\",\n        \"dotenv\": \"^17.4.2\",\n        \"eslint\": \"^10.6.0\",\n        \"globals\": \"^17.7.0\",\n        \"happy-dom\": \"^20.10.6\",",
+      "intent": null
+    },
+    {
+      "id": "SC1",
+      "category": "Supply Chain",
+      "pattern": "Unpinned Dependencies",
+      "severity": "LOW",
+      "confidence": 0.4,
+      "location": {
+        "file": "package.json",
+        "start_line": 58,
+        "end_line": null
+      },
+      "finding": "\"eslint\": \"^10.6.0\"",
+      "explanation": "Dependencies lack version pinning, allowing potential malicious package updates. Consider pinning versions.",
+      "remediation": "Pin all dependency versions in requirements.txt or pyproject.toml. Use exact versions (==) or compatible ranges. Run pip-audit regularly.",
+      "code_snippet": "        \"chalk\": \"^5.6.2\",\n        \"concurrently\": \"^10.0.3\",\n        \"dotenv\": \"^17.4.2\",\n        \"eslint\": \"^10.6.0\",\n        \"globals\": \"^17.7.0\",\n        \"happy-dom\": \"^20.10.6\",\n        \"husky\": \"^9.1.7\",",
+      "intent": null
+    },
+    {
+      "id": "SC1",
+      "category": "Supply Chain",
+      "pattern": "Unpinned Dependencies",
+      "severity": "LOW",
+      "confidence": 0.4,
+      "location": {
+        "file": "package.json",
+        "start_line": 59,
+        "end_line": null
+      },
+      "finding": "\"globals\": \"^17.7.0\"",
+      "explanation": "Dependencies lack version pinning, allowing potential malicious package updates. Consider pinning versions.",
+      "remediation": "Pin all dependency versions in requirements.txt or pyproject.toml. Use exact versions (==) or compatible ranges. Run pip-audit regularly.",
+      "code_snippet": "        \"concurrently\": \"^10.0.3\",\n        \"dotenv\": \"^17.4.2\",\n        \"eslint\": \"^10.6.0\",\n        \"globals\": \"^17.7.0\",\n        \"happy-dom\": \"^20.10.6\",\n        \"husky\": \"^9.1.7\",\n        \"lint-staged\": \"^17.0.8\",",
+      "intent": null
+    },
+    {
+      "id": "SC1",
+      "category": "Supply Chain",
+      "pattern": "Unpinned Dependencies",
+      "severity": "LOW",
+      "confidence": 0.4,
+      "location": {
+        "file": "package.json",
+        "start_line": 60,
+        "end_line": null
+      },
+      "finding": "\"happy-dom\": \"^20.10.6\"",
+      "explanation": "Dependencies lack version pinning, allowing potential malicious package updates. Consider pinning versions.",
+      "remediation": "Pin all dependency versions in requirements.txt or pyproject.toml. Use exact versions (==) or compatible ranges. Run pip-audit regularly.",
+      "code_snippet": "        \"dotenv\": \"^17.4.2\",\n        \"eslint\": \"^10.6.0\",\n        \"globals\": \"^17.7.0\",\n        \"happy-dom\": \"^20.10.6\",\n        \"husky\": \"^9.1.7\",\n        \"lint-staged\": \"^17.0.8\",\n        \"prettier\": \"^3.9.4\",",
+      "intent": null
+    },
+    {
+      "id": "SC1",
+      "category": "Supply Chain",
+      "pattern": "Unpinned Dependencies",
+      "severity": "LOW",
+      "confidence": 0.4,
+      "location": {
+        "file": "package.json",
+        "start_line": 61,
+        "end_line": null
+      },
+      "finding": "\"husky\": \"^9.1.7\"",
+      "explanation": "Dependencies lack version pinning, allowing potential malicious package updates. Consider pinning versions.",
+      "remediation": "Pin all dependency versions in requirements.txt or pyproject.toml. Use exact versions (==) or compatible ranges. Run pip-audit regularly.",
+      "code_snippet": "        \"eslint\": \"^10.6.0\",\n        \"globals\": \"^17.7.0\",\n        \"happy-dom\": \"^20.10.6\",\n        \"husky\": \"^9.1.7\",\n        \"lint-staged\": \"^17.0.8\",\n        \"prettier\": \"^3.9.4\",\n        \"typescript\": \"^6.0.3\",",
+      "intent": null
+    },
+    {
+      "id": "SC1",
+      "category": "Supply Chain",
+      "pattern": "Unpinned Dependencies",
+      "severity": "LOW",
+      "confidence": 0.4,
+      "location": {
+        "file": "package.json",
+        "start_line": 62,
+        "end_line": null
+      },
+      "finding": "\"lint-staged\": \"^17.0.8\"",
+      "explanation": "Dependencies lack version pinning, allowing potential malicious package updates. Consider pinning versions.",
+      "remediation": "Pin all dependency versions in requirements.txt or pyproject.toml. Use exact versions (==) or compatible ranges. Run pip-audit regularly.",
+      "code_snippet": "        \"globals\": \"^17.7.0\",\n        \"happy-dom\": \"^20.10.6\",\n        \"husky\": \"^9.1.7\",\n        \"lint-staged\": \"^17.0.8\",\n        \"prettier\": \"^3.9.4\",\n        \"typescript\": \"^6.0.3\",\n        \"typescript-eslint\": \"^8.62.1\",",
+      "intent": null
+    },
+    {
+      "id": "SC1",
+      "category": "Supply Chain",
+      "pattern": "Unpinned Dependencies",
+      "severity": "LOW",
+      "confidence": 0.4,
+      "location": {
+        "file": "package.json",
+        "start_line": 63,
+        "end_line": null
+      },
+      "finding": "\"prettier\": \"^3.9.4\"",
+      "explanation": "Dependencies lack version pinning, allowing potential malicious package updates. Consider pinning versions.",
+      "remediation": "Pin all dependency versions in requirements.txt or pyproject.toml. Use exact versions (==) or compatible ranges. Run pip-audit regularly.",
+      "code_snippet": "        \"happy-dom\": \"^20.10.6\",\n        \"husky\": \"^9.1.7\",\n        \"lint-staged\": \"^17.0.8\",\n        \"prettier\": \"^3.9.4\",\n        \"typescript\": \"^6.0.3\",\n        \"typescript-eslint\": \"^8.62.1\",\n        \"unplugin-dts\": \"^1.0.3\",",
+      "intent": null
+    },
+    {
+      "id": "SC1",
+      "category": "Supply Chain",
+      "pattern": "Unpinned Dependencies",
+      "severity": "LOW",
+      "confidence": 0.4,
+      "location": {
+        "file": "package.json",
+        "start_line": 64,
+        "end_line": null
+      },
+      "finding": "\"typescript\": \"^6.0.3\"",
+      "explanation": "Dependencies lack version pinning, allowing potential malicious package updates. Consider pinning versions.",
+      "remediation": "Pin all dependency versions in requirements.txt or pyproject.toml. Use exact versions (==) or compatible ranges. Run pip-audit regularly.",
+      "code_snippet": "        \"husky\": \"^9.1.7\",\n        \"lint-staged\": \"^17.0.8\",\n        \"prettier\": \"^3.9.4\",\n        \"typescript\": \"^6.0.3\",\n        \"typescript-eslint\": \"^8.62.1\",\n        \"unplugin-dts\": \"^1.0.3\",\n        \"vite\": \"^8.1.2\",",
+      "intent": null
+    },
+    {
+      "id": "SC1",
+      "category": "Supply Chain",
+      "pattern": "Unpinned Dependencies",
+      "severity": "LOW",
+      "confidence": 0.4,
+      "location": {
+        "file": "package.json",
+        "start_line": 65,
+        "end_line": null
+      },
+      "finding": "\"typescript-eslint\": \"^8.62.1\"",
+      "explanation": "Dependencies lack version pinning, allowing potential malicious package updates. Consider pinning versions.",
+      "remediation": "Pin all dependency versions in requirements.txt or pyproject.toml. Use exact versions (==) or compatible ranges. Run pip-audit regularly.",
+      "code_snippet": "        \"lint-staged\": \"^17.0.8\",\n        \"prettier\": \"^3.9.4\",\n        \"typescript\": \"^6.0.3\",\n        \"typescript-eslint\": \"^8.62.1\",\n        \"unplugin-dts\": \"^1.0.3\",\n        \"vite\": \"^8.1.2\",\n        \"vite-plugin-css-injected-by-js\": \"^5.0.1\",",
+      "intent": null
+    },
+    {
+      "id": "SC1",
+      "category": "Supply Chain",
+      "pattern": "Unpinned Dependencies",
+      "severity": "LOW",
+      "confidence": 0.4,
+      "location": {
+        "file": "package.json",
+        "start_line": 66,
+        "end_line": null
+      },
+      "finding": "\"unplugin-dts\": \"^1.0.3\"",
+      "explanation": "Dependencies lack version pinning, allowing potential malicious package updates. Consider pinning versions.",
+      "remediation": "Pin all dependency versions in requirements.txt or pyproject.toml. Use exact versions (==) or compatible ranges. Run pip-audit regularly.",
+      "code_snippet": "        \"prettier\": \"^3.9.4\",\n        \"typescript\": \"^6.0.3\",\n        \"typescript-eslint\": \"^8.62.1\",\n        \"unplugin-dts\": \"^1.0.3\",\n        \"vite\": \"^8.1.2\",\n        \"vite-plugin-css-injected-by-js\": \"^5.0.1\",\n        \"vitest\": \"^4.1.9\"",
+      "intent": null
+    },
+    {
+      "id": "SC1",
+      "category": "Supply Chain",
+      "pattern": "Unpinned Dependencies",
+      "severity": "LOW",
+      "confidence": 0.4,
+      "location": {
+        "file": "package.json",
+        "start_line": 67,
+        "end_line": null
+      },
+      "finding": "\"vite\": \"^8.1.2\"",
+      "explanation": "Dependencies lack version pinning, allowing potential malicious package updates. Consider pinning versions.",
+      "remediation": "Pin all dependency versions in requirements.txt or pyproject.toml. Use exact versions (==) or compatible ranges. Run pip-audit regularly.",
+      "code_snippet": "        \"typescript\": \"^6.0.3\",\n        \"typescript-eslint\": \"^8.62.1\",\n        \"unplugin-dts\": \"^1.0.3\",\n        \"vite\": \"^8.1.2\",\n        \"vite-plugin-css-injected-by-js\": \"^5.0.1\",\n        \"vitest\": \"^4.1.9\"\n    },",
+      "intent": null
+    },
+    {
+      "id": "SC1",
+      "category": "Supply Chain",
+      "pattern": "Unpinned Dependencies",
+      "severity": "LOW",
+      "confidence": 0.4,
+      "location": {
+        "file": "package.json",
+        "start_line": 68,
+        "end_line": null
+      },
+      "finding": "\"vite-plugin-css-injected-by-js\": \"^5.0.1\"",
+      "explanation": "Dependencies lack version pinning, allowing potential malicious package updates. Consider pinning versions.",
+      "remediation": "Pin all dependency versions in requirements.txt or pyproject.toml. Use exact versions (==) or compatible ranges. Run pip-audit regularly.",
+      "code_snippet": "        \"typescript-eslint\": \"^8.62.1\",\n        \"unplugin-dts\": \"^1.0.3\",\n        \"vite\": \"^8.1.2\",\n        \"vite-plugin-css-injected-by-js\": \"^5.0.1\",\n        \"vitest\": \"^4.1.9\"\n    },\n    \"overrides\": {",
+      "intent": null
+    },
+    {
+      "id": "SC1",
+      "category": "Supply Chain",
+      "pattern": "Unpinned Dependencies",
+      "severity": "LOW",
+      "confidence": 0.4,
+      "location": {
+        "file": "package.json",
+        "start_line": 69,
+        "end_line": null
+      },
+      "finding": "\"vitest\": \"^4.1.9\"",
+      "explanation": "Dependencies lack version pinning, allowing potential malicious package updates. Consider pinning versions.",
+      "remediation": "Pin all dependency versions in requirements.txt or pyproject.toml. Use exact versions (==) or compatible ranges. Run pip-audit regularly.",
+      "code_snippet": "        \"unplugin-dts\": \"^1.0.3\",\n        \"vite\": \"^8.1.2\",\n        \"vite-plugin-css-injected-by-js\": \"^5.0.1\",\n        \"vitest\": \"^4.1.9\"\n    },\n    \"overrides\": {\n        \"typescript\": \"^6.0.3\"",
+      "intent": null
+    },
+    {
+      "id": "SC1",
+      "category": "Supply Chain",
+      "pattern": "Unpinned Dependencies",
+      "severity": "LOW",
+      "confidence": 0.4,
+      "location": {
+        "file": "package.json",
+        "start_line": 72,
+        "end_line": null
+      },
+      "finding": "\"typescript\": \"^6.0.3\"",
+      "explanation": "Dependencies lack version pinning, allowing potential malicious package updates. Consider pinning versions.",
+      "remediation": "Pin all dependency versions in requirements.txt or pyproject.toml. Use exact versions (==) or compatible ranges. Run pip-audit regularly.",
+      "code_snippet": "        \"vitest\": \"^4.1.9\"\n    },\n    \"overrides\": {\n        \"typescript\": \"^6.0.3\"\n    },\n    \"lint-staged\": {\n        \"*.{js,ts,cjs,cts,mjs,mts}\": [",
+      "intent": null
+    },
+    {
+      "id": "SC1",
+      "category": "Supply Chain",
+      "pattern": "Unpinned Dependencies",
+      "severity": "LOW",
+      "confidence": 0.4,
+      "location": {
+        "file": "packages/core/package.json",
+        "start_line": 57,
+        "end_line": null
+      },
+      "finding": "\"chalk\": \"^5.6.2\"",
+      "explanation": "Dependencies lack version pinning, allowing potential malicious package updates. Consider pinning versions.",
+      "remediation": "Pin all dependency versions in requirements.txt or pyproject.toml. Use exact versions (==) or compatible ranges. Run pip-audit regularly.",
+      "code_snippet": "        \"postpublish\": \"node ../../scripts/post-publish.js\"\n    },\n    \"dependencies\": {\n        \"chalk\": \"^5.6.2\",\n        \"@page-agent/llms\": \"1.10.0\",\n        \"@page-agent/page-controller\": \"1.10.0\"\n    },",
+      "intent": null
+    },
+    {
+      "id": "SC1",
+      "category": "Supply Chain",
+      "pattern": "Unpinned Dependencies",
+      "severity": "LOW",
+      "confidence": 0.4,
+      "location": {
+        "file": "packages/core/package.json",
+        "start_line": 65,
+        "end_line": null
+      },
+      "finding": "\"zod\": \"^4.4.3\"",
+      "explanation": "Dependencies lack version pinning, allowing potential malicious package updates. Consider pinning versions.",
+      "remediation": "Pin all dependency versions in requirements.txt or pyproject.toml. Use exact versions (==) or compatible ranges. Run pip-audit regularly.",
+      "code_snippet": "        \"zod\": \"^3.25.0 || ^4.0.0\"\n    },\n    \"devDependencies\": {\n        \"zod\": \"^4.4.3\"\n    }\n}",
+      "intent": null
+    },
+    {
+      "id": "SC1",
+      "category": "Supply Chain",
+      "pattern": "Unpinned Dependencies",
+      "severity": "LOW",
+      "confidence": 0.4,
+      "location": {
+        "file": "packages/extension/package.json",
+        "start_line": 13,
+        "end_line": null
+      },
+      "finding": "\"@radix-ui/react-hover-card\": \"^1.1.18\"",
+      "explanation": "Dependencies lack version pinning, allowing potential malicious package updates. Consider pinning versions.",
+      "remediation": "Pin all dependency versions in requirements.txt or pyproject.toml. Use exact versions (==) or compatible ranges. Run pip-audit regularly.",
+      "code_snippet": "        \"postinstall\": \"wxt prepare\"\n    },\n    \"devDependencies\": {\n        \"@radix-ui/react-hover-card\": \"^1.1.18\",\n        \"@radix-ui/react-icons\": \"^1.3.2\",\n        \"@radix-ui/react-label\": \"^2.1.11\",\n        \"@radix-ui/react-separator\": \"^1.1.11\",",
+      "intent": null
+    },
+    {
+      "id": "SC1",
+      "category": "Supply Chain",
+      "pattern": "Unpinned Dependencies",
+      "severity": "LOW",
+      "confidence": 0.4,
+      "location": {
+        "file": "packages/extension/package.json",
+        "start_line": 14,
+        "end_line": null
+      },
+      "finding": "\"@radix-ui/react-icons\": \"^1.3.2\"",
+      "explanation": "Dependencies lack version pinning, allowing potential malicious package updates. Consider pinning versions.",
+      "remediation": "Pin all dependency versions in requirements.txt or pyproject.toml. Use exact versions (==) or compatible ranges. Run pip-audit regularly.",
+      "code_snippet": "    },\n    \"devDependencies\": {\n        \"@radix-ui/react-hover-card\": \"^1.1.18\",\n        \"@radix-ui/react-icons\": \"^1.3.2\",\n        \"@radix-ui/react-label\": \"^2.1.11\",\n        \"@radix-ui/react-separator\": \"^1.1.11\",\n        \"@radix-ui/react-slot\": \"^1.3.0\",",
+      "intent": null
+    },
+    {
+      "id": "SC1",
+      "category": "Supply Chain",
+      "pattern": "Unpinned Dependencies",
+      "severity": "LOW",
+      "confidence": 0.4,
+      "location": {
+        "file": "packages/extension/package.json",
+        "start_line": 15,
+        "end_line": null
+      },
+      "finding": "\"@radix-ui/react-label\": \"^2.1.11\"",
+      "explanation": "Dependencies lack version pinning, allowing potential malicious package updates. Consider pinning versions.",
+      "remediation": "Pin all dependency versions in requirements.txt or pyproject.toml. Use exact versions (==) or compatible ranges. Run pip-audit regularly.",
+      "code_snippet": "    \"devDependencies\": {\n        \"@radix-ui/react-hover-card\": \"^1.1.18\",\n        \"@radix-ui/react-icons\": \"^1.3.2\",\n        \"@radix-ui/react-label\": \"^2.1.11\",\n        \"@radix-ui/react-separator\": \"^1.1.11\",\n        \"@radix-ui/react-slot\": \"^1.3.0\",\n        \"@radix-ui/react-switch\": \"^1.3.2\",",
+      "intent": null
+    },
+    {
+      "id": "SC1",
+      "category": "Supply Chain",
+      "pattern": "Unpinned Dependencies",
+      "severity": "LOW",
+      "confidence": 0.4,
+      "location": {
+        "file": "packages/extension/package.json",
+        "start_line": 16,
+        "end_line": null
+      },
+      "finding": "\"@radix-ui/react-separator\": \"^1.1.11\"",
+      "explanation": "Dependencies lack version pinning, allowing potential malicious package updates. Consider pinning versions.",
+      "remediation": "Pin all dependency versions in requirements.txt or pyproject.toml. Use exact versions (==) or compatible ranges. Run pip-audit regularly.",
+      "code_snippet": "        \"@radix-ui/react-hover-card\": \"^1.1.18\",\n        \"@radix-ui/react-icons\": \"^1.3.2\",\n        \"@radix-ui/react-label\": \"^2.1.11\",\n        \"@radix-ui/react-separator\": \"^1.1.11\",\n        \"@radix-ui/react-slot\": \"^1.3.0\",\n        \"@radix-ui/react-switch\": \"^1.3.2\",\n        \"@tailwindcss/vite\": \"^4.3.2\",",
+      "intent": null
+    },
+    {
+      "id": "SC1",
+      "category": "Supply Chain",
+      "pattern": "Unpinned Dependencies",
+      "severity": "LOW",
+      "confidence": 0.4,
+      "location": {
+        "file": "packages/extension/package.json",
+        "start_line": 17,
+        "end_line": null
+      },
+      "finding": "\"@radix-ui/react-slot\": \"^1.3.0\"",
+      "explanation": "Dependencies lack version pinning, allowing potential malicious package updates. Consider pinning versions.",
+      "remediation": "Pin all dependency versions in requirements.txt or pyproject.toml. Use exact versions (==) or compatible ranges. Run pip-audit regularly.",
+      "code_snippet": "        \"@radix-ui/react-icons\": \"^1.3.2\",\n        \"@radix-ui/react-label\": \"^2.1.11\",\n        \"@radix-ui/react-separator\": \"^1.1.11\",\n        \"@radix-ui/react-slot\": \"^1.3.0\",\n        \"@radix-ui/react-switch\": \"^1.3.2\",\n        \"@tailwindcss/vite\": \"^4.3.2\",\n        \"@types/chrome\": \"^0.2.1\",",
+      "intent": null
+    },
+    {
+      "id": "SC1",
+      "category": "Supply Chain",
+      "pattern": "Unpinned Dependencies",
+      "severity": "LOW",
+      "confidence": 0.4,
+      "location": {
+        "file": "packages/extension/package.json",
+        "start_line": 18,
+        "end_line": null
+      },
+      "finding": "\"@radix-ui/react-switch\": \"^1.3.2\"",
+      "explanation": "Dependencies lack version pinning, allowing potential malicious package updates. Consider pinning versions.",
+      "remediation": "Pin all dependency versions in requirements.txt or pyproject.toml. Use exact versions (==) or compatible ranges. Run pip-audit regularly.",
+      "code_snippet": "        \"@radix-ui/react-label\": \"^2.1.11\",\n        \"@radix-ui/react-separator\": \"^1.1.11\",\n        \"@radix-ui/react-slot\": \"^1.3.0\",\n        \"@radix-ui/react-switch\": \"^1.3.2\",\n        \"@tailwindcss/vite\": \"^4.3.2\",\n        \"@types/chrome\": \"^0.2.1\",\n        \"@types/react\": \"^19.2.17\",",
+      "intent": null
+    },
+    {
+      "id": "SC1",
+      "category": "Supply Chain",
+      "pattern": "Unpinned Dependencies",
+      "severity": "LOW",
+      "confidence": 0.4,
+      "location": {
+        "file": "packages/extension/package.json",
+        "start_line": 19,
+        "end_line": null
+      },
+      "finding": "\"@tailwindcss/vite\": \"^4.3.2\"",
+      "explanation": "Dependencies lack version pinning, allowing potential malicious package updates. Consider pinning versions.",
+      "remediation": "Pin all dependency versions in requirements.txt or pyproject.toml. Use exact versions (==) or compatible ranges. Run pip-audit regularly.",
+      "code_snippet": "        \"@radix-ui/react-separator\": \"^1.1.11\",\n        \"@radix-ui/react-slot\": \"^1.3.0\",\n        \"@radix-ui/react-switch\": \"^1.3.2\",\n        \"@tailwindcss/vite\": \"^4.3.2\",\n        \"@types/chrome\": \"^0.2.1\",\n        \"@types/react\": \"^19.2.17\",\n        \"@types/react-dom\": \"^19.2.3\",",
+      "intent": null
+    },
+    {
+      "id": "SC1",
+      "category": "Supply Chain",
+      "pattern": "Unpinned Dependencies",
+      "severity": "LOW",
+      "confidence": 0.4,
+      "location": {
+        "file": "packages/extension/package.json",
+        "start_line": 20,
+        "end_line": null
+      },
+      "finding": "\"@types/chrome\": \"^0.2.1\"",
+      "explanation": "Dependencies lack version pinning, allowing potential malicious package updates. Consider pinning versions.",
+      "remediation": "Pin all dependency versions in requirements.txt or pyproject.toml. Use exact versions (==) or compatible ranges. Run pip-audit regularly.",
+      "code_snippet": "        \"@radix-ui/react-slot\": \"^1.3.0\",\n        \"@radix-ui/react-switch\": \"^1.3.2\",\n        \"@tailwindcss/vite\": \"^4.3.2\",\n        \"@types/chrome\": \"^0.2.1\",\n        \"@types/react\": \"^19.2.17\",\n        \"@types/react-dom\": \"^19.2.3\",\n        \"@wxt-dev/module-react\": \"^1.2.2\",",
+      "intent": null
+    },
+    {
+      "id": "SC1",
+      "category": "Supply Chain",
+      "pattern": "Unpinned Dependencies",
+      "severity": "LOW",
+      "confidence": 0.4,
+      "location": {
+        "file": "packages/extension/package.json",
+        "start_line": 21,
+        "end_line": null
+      },
+      "finding": "\"@types/react\": \"^19.2.17\"",
+      "explanation": "Dependencies lack version pinning, allowing potential malicious package updates. Consider pinning versions.",
+      "remediation": "Pin all dependency versions in requirements.txt or pyproject.toml. Use exact versions (==) or compatible ranges. Run pip-audit regularly.",
+      "code_snippet": "        \"@radix-ui/react-switch\": \"^1.3.2\",\n        \"@tailwindcss/vite\": \"^4.3.2\",\n        \"@types/chrome\": \"^0.2.1\",\n        \"@types/react\": \"^19.2.17\",\n        \"@types/react-dom\": \"^19.2.3\",\n        \"@wxt-dev/module-react\": \"^1.2.2\",\n        \"class-variance-authority\": \"^0.7.1\",",
+      "intent": null
+    },
+    {
+      "id": "SC1",
+      "category": "Supply Chain",
+      "pattern": "Unpinned Dependencies",
+      "severity": "LOW",
+      "confidence": 0.4,
+      "location": {
+        "file": "packages/extension/package.json",
+        "start_line": 22,
+        "end_line": null
+      },
+      "finding": "\"@types/react-dom\": \"^19.2.3\"",
+      "explanation": "Dependencies lack version pinning, allowing potential malicious package updates. Consider pinning versions.",
+      "remediation": "Pin all dependency versions in requirements.txt or pyproject.toml. Use exact versions (==) or compatible ranges. Run pip-audit regularly.",
+      "code_snippet": "        \"@tailwindcss/vite\": \"^4.3.2\",\n        \"@types/chrome\": \"^0.2.1\",\n        \"@types/react\": \"^19.2.17\",\n        \"@types/react-dom\": \"^19.2.3\",\n        \"@wxt-dev/module-react\": \"^1.2.2\",\n        \"class-variance-authority\": \"^0.7.1\",\n        \"clsx\": \"^2.1.1\",",
+      "intent": null
+    },
+    {
+      "id": "SC1",
+      "category": "Supply Chain",
+      "pattern": "Unpinned Dependencies",
+      "severity": "LOW",
+      "confidence": 0.4,
+      "location": {
+        "file": "packages/extension/package.json",
+        "start_line": 23,
+        "end_line": null
+      },
+      "finding": "\"@wxt-dev/module-react\": \"^1.2.2\"",
+      "explanation": "Dependencies lack version pinning, allowing potential malicious package updates. Consider pinning versions.",
+      "remediation": "Pin all dependency versions in requirements.txt or pyproject.toml. Use exact versions (==) or compatible ranges. Run pip-audit regularly.",
+      "code_snippet": "        \"@types/chrome\": \"^0.2.1\",\n        \"@types/react\": \"^19.2.17\",\n        \"@types/react-dom\": \"^19.2.3\",\n        \"@wxt-dev/module-react\": \"^1.2.2\",\n        \"class-variance-authority\": \"^0.7.1\",\n        \"clsx\": \"^2.1.1\",\n        \"idb\": \"^8.0.3\",",
+      "intent": null
+    },
+    {
+      "id": "SC1",
+      "category": "Supply Chain",
+      "pattern": "Unpinned Dependencies",
+      "severity": "LOW",
+      "confidence": 0.4,
+      "location": {
+        "file": "packages/extension/package.json",
+        "start_line": 24,
+        "end_line": null
+      },
+      "finding": "\"class-variance-authority\": \"^0.7.1\"",
+      "explanation": "Dependencies lack version pinning, allowing potential malicious package updates. Consider pinning versions.",
+      "remediation": "Pin all dependency versions in requirements.txt or pyproject.toml. Use exact versions (==) or compatible ranges. Run pip-audit regularly.",
+      "code_snippet": "        \"@types/react\": \"^19.2.17\",\n        \"@types/react-dom\": \"^19.2.3\",\n        \"@wxt-dev/module-react\": \"^1.2.2\",\n        \"class-variance-authority\": \"^0.7.1\",\n        \"clsx\": \"^2.1.1\",\n        \"idb\": \"^8.0.3\",\n        \"lucide-react\": \"^1.22.0\",",
+      "intent": null
+    },
+    {
+      "id": "SC1",
+      "category": "Supply Chain",
+      "pattern": "Unpinned Dependencies",
+      "severity": "LOW",
+      "confidence": 0.4,
+      "location": {
+        "file": "packages/extension/package.json",
+        "start_line": 25,
+        "end_line": null
+      },
+      "finding": "\"clsx\": \"^2.1.1\"",
+      "explanation": "Dependencies lack version pinning, allowing potential malicious package updates. Consider pinning versions.",
+      "remediation": "Pin all dependency versions in requirements.txt or pyproject.toml. Use exact versions (==) or compatible ranges. Run pip-audit regularly.",
+      "code_snippet": "        \"@types/react-dom\": \"^19.2.3\",\n        \"@wxt-dev/module-react\": \"^1.2.2\",\n        \"class-variance-authority\": \"^0.7.1\",\n        \"clsx\": \"^2.1.1\",\n        \"idb\": \"^8.0.3\",\n        \"lucide-react\": \"^1.22.0\",\n        \"motion\": \"^12.42.2\",",
+      "intent": null
+    },
+    {
+      "id": "SC1",
+      "category": "Supply Chain",
+      "pattern": "Unpinned Dependencies",
+      "severity": "LOW",
+      "confidence": 0.4,
+      "location": {
+        "file": "packages/extension/package.json",
+        "start_line": 26,
+        "end_line": null
+      },
+      "finding": "\"idb\": \"^8.0.3\"",
+      "explanation": "Dependencies lack version pinning, allowing potential malicious package updates. Consider pinning versions.",
+      "remediation": "Pin all dependency versions in requirements.txt or pyproject.toml. Use exact versions (==) or compatible ranges. Run pip-audit regularly.",
+      "code_snippet": "        \"@wxt-dev/module-react\": \"^1.2.2\",\n        \"class-variance-authority\": \"^0.7.1\",\n        \"clsx\": \"^2.1.1\",\n        \"idb\": \"^8.0.3\",\n        \"lucide-react\": \"^1.22.0\",\n        \"motion\": \"^12.42.2\",\n        \"next-themes\": \"^0.4.6\",",
+      "intent": null
+    },
+    {
+      "id": "SC1",
+      "category": "Supply Chain",
+      "pattern": "Unpinned Dependencies",
+      "severity": "LOW",
+      "confidence": 0.4,
+      "location": {
+        "file": "packages/extension/package.json",
+        "start_line": 27,
+        "end_line": null
+      },
+      "finding": "\"lucide-react\": \"^1.22.0\"",
+      "explanation": "Dependencies lack version pinning, allowing potential malicious package updates. Consider pinning versions.",
+      "remediation": "Pin all dependency versions in requirements.txt or pyproject.toml. Use exact versions (==) or compatible ranges. Run pip-audit regularly.",
+      "code_snippet": "        \"class-variance-authority\": \"^0.7.1\",\n        \"clsx\": \"^2.1.1\",\n        \"idb\": \"^8.0.3\",\n        \"lucide-react\": \"^1.22.0\",\n        \"motion\": \"^12.42.2\",\n        \"next-themes\": \"^0.4.6\",\n        \"react\": \"^19.2.7\",",
+      "intent": null
+    },
+    {
+      "id": "SC1",
+      "category": "Supply Chain",
+      "pattern": "Unpinned Dependencies",
+      "severity": "LOW",
+      "confidence": 0.4,
+      "location": {
+        "file": "packages/extension/package.json",
+        "start_line": 28,
+        "end_line": null
+      },
+      "finding": "\"motion\": \"^12.42.2\"",
+      "explanation": "Dependencies lack version pinning, allowing potential malicious package updates. Consider pinning versions.",
+      "remediation": "Pin all dependency versions in requirements.txt or pyproject.toml. Use exact versions (==) or compatible ranges. Run pip-audit regularly.",
+      "code_snippet": "        \"clsx\": \"^2.1.1\",\n        \"idb\": \"^8.0.3\",\n        \"lucide-react\": \"^1.22.0\",\n        \"motion\": \"^12.42.2\",\n        \"next-themes\": \"^0.4.6\",\n        \"react\": \"^19.2.7\",\n        \"react-dom\": \"^19.2.7\",",
+      "intent": null
+    },
+    {
+      "id": "SC1",
+      "category": "Supply Chain",
+      "pattern": "Unpinned Dependencies",
+      "severity": "LOW",
+      "confidence": 0.4,
+      "location": {
+        "file": "packages/extension/package.json",
+        "start_line": 29,
+        "end_line": null
+      },
+      "finding": "\"next-themes\": \"^0.4.6\"",
+      "explanation": "Dependencies lack version pinning, allowing potential malicious package updates. Consider pinning versions.",
+      "remediation": "Pin all dependency versions in requirements.txt or pyproject.toml. Use exact versions (==) or compatible ranges. Run pip-audit regularly.",
+      "code_snippet": "        \"idb\": \"^8.0.3\",\n        \"lucide-react\": \"^1.22.0\",\n        \"motion\": \"^12.42.2\",\n        \"next-themes\": \"^0.4.6\",\n        \"react\": \"^19.2.7\",\n        \"react-dom\": \"^19.2.7\",\n        \"rough-notation\": \"^0.5.1\",",
+      "intent": null
+    },
+    {
+      "id": "SC1",
+      "category": "Supply Chain",
+      "pattern": "Unpinned Dependencies",
+      "severity": "LOW",
+      "confidence": 0.4,
+      "location": {
+        "file": "packages/extension/package.json",
+        "start_line": 30,
+        "end_line": null
+      },
+      "finding": "\"react\": \"^19.2.7\"",
+      "explanation": "Dependencies lack version pinning, allowing potential malicious package updates. Consider pinning versions.",
+      "remediation": "Pin all dependency versions in requirements.txt or pyproject.toml. Use exact versions (==) or compatible ranges. Run pip-audit regularly.",
+      "code_snippet": "        \"lucide-react\": \"^1.22.0\",\n        \"motion\": \"^12.42.2\",\n        \"next-themes\": \"^0.4.6\",\n        \"react\": \"^19.2.7\",\n        \"react-dom\": \"^19.2.7\",\n        \"rough-notation\": \"^0.5.1\",\n        \"simple-icons\": \"^16.24.1\",",
+      "intent": null
+    },
+    {
+      "id": "SC1",
+      "category": "Supply Chain",
+      "pattern": "Unpinned Dependencies",
+      "severity": "LOW",
+      "confidence": 0.4,
+      "location": {
+        "file": "packages/extension/package.json",
+        "start_line": 31,
+        "end_line": null
+      },
+      "finding": "\"react-dom\": \"^19.2.7\"",
+      "explanation": "Dependencies lack version pinning, allowing potential malicious package updates. Consider pinning versions.",
+      "remediation": "Pin all dependency versions in requirements.txt or pyproject.toml. Use exact versions (==) or compatible ranges. Run pip-audit regularly.",
+      "code_snippet": "        \"motion\": \"^12.42.2\",\n        \"next-themes\": \"^0.4.6\",\n        \"react\": \"^19.2.7\",\n        \"react-dom\": \"^19.2.7\",\n        \"rough-notation\": \"^0.5.1\",\n        \"simple-icons\": \"^16.24.1\",\n        \"sonner\": \"^2.0.7\",",
+      "intent": null
+    },
+    {
+      "id": "SC1",
+      "category": "Supply Chain",
+      "pattern": "Unpinned Dependencies",
+      "severity": "LOW",
+      "confidence": 0.4,
+      "location": {
+        "file": "packages/extension/package.json",
+        "start_line": 32,
+        "end_line": null
+      },
+      "finding": "\"rough-notation\": \"^0.5.1\"",
+      "explanation": "Dependencies lack version pinning, allowing potential malicious package updates. Consider pinning versions.",
+      "remediation": "Pin all dependency versions in requirements.txt or pyproject.toml. Use exact versions (==) or compatible ranges. Run pip-audit regularly.",
+      "code_snippet": "        \"next-themes\": \"^0.4.6\",\n        \"react\": \"^19.2.7\",\n        \"react-dom\": \"^19.2.7\",\n        \"rough-notation\": \"^0.5.1\",\n        \"simple-icons\": \"^16.24.1\",\n        \"sonner\": \"^2.0.7\",\n        \"tailwind-merge\": \"^3.6.0\",",
+      "intent": null
+    },
+    {
+      "id": "SC1",
+      "category": "Supply Chain",
+      "pattern": "Unpinned Dependencies",
+      "severity": "LOW",
+      "confidence": 0.4,
+      "location": {
+        "file": "packages/extension/package.json",
+        "start_line": 33,
+        "end_line": null
+      },
+      "finding": "\"simple-icons\": \"^16.24.1\"",
+      "explanation": "Dependencies lack version pinning, allowing potential malicious package updates. Consider pinning versions.",
+      "remediation": "Pin all dependency versions in requirements.txt or pyproject.toml. Use exact versions (==) or compatible ranges. Run pip-audit regularly.",
+      "code_snippet": "        \"react\": \"^19.2.7\",\n        \"react-dom\": \"^19.2.7\",\n        \"rough-notation\": \"^0.5.1\",\n        \"simple-icons\": \"^16.24.1\",\n        \"sonner\": \"^2.0.7\",\n        \"tailwind-merge\": \"^3.6.0\",\n        \"tailwindcss\": \"^4.3.2\",",
+      "intent": null
+    },
+    {
+      "id": "SC1",
+      "category": "Supply Chain",
+      "pattern": "Unpinned Dependencies",
+      "severity": "LOW",
+      "confidence": 0.4,
+      "location": {
+        "file": "packages/extension/package.json",
+        "start_line": 34,
+        "end_line": null
+      },
+      "finding": "\"sonner\": \"^2.0.7\"",
+      "explanation": "Dependencies lack version pinning, allowing potential malicious package updates. Consider pinning versions.",
+      "remediation": "Pin all dependency versions in requirements.txt or pyproject.toml. Use exact versions (==) or compatible ranges. Run pip-audit regularly.",
+      "code_snippet": "        \"react-dom\": \"^19.2.7\",\n        \"rough-notation\": \"^0.5.1\",\n        \"simple-icons\": \"^16.24.1\",\n        \"sonner\": \"^2.0.7\",\n        \"tailwind-merge\": \"^3.6.0\",\n        \"tailwindcss\": \"^4.3.2\",\n        \"tw-animate-css\": \"^1.4.0\",",
+      "intent": null
+    },
+    {
+      "id": "SC1",
+      "category": "Supply Chain",
+      "pattern": "Unpinned Dependencies",
+      "severity": "LOW",
+      "confidence": 0.4,
+      "location": {
+        "file": "packages/extension/package.json",
+        "start_line": 35,
+        "end_line": null
+      },
+      "finding": "\"tailwind-merge\": \"^3.6.0\"",
+      "explanation": "Dependencies lack version pinning, allowing potential malicious package updates. Consider pinning versions.",
+      "remediation": "Pin all dependency versions in requirements.txt or pyproject.toml. Use exact versions (==) or compatible ranges. Run pip-audit regularly.",
+      "code_snippet": "        \"rough-notation\": \"^0.5.1\",\n        \"simple-icons\": \"^16.24.1\",\n        \"sonner\": \"^2.0.7\",\n        \"tailwind-merge\": \"^3.6.0\",\n        \"tailwindcss\": \"^4.3.2\",\n        \"tw-animate-css\": \"^1.4.0\",\n        \"wxt\": \"^0.20.27\"",
+      "intent": null
+    },
+    {
+      "id": "SC1",
+      "category": "Supply Chain",
+      "pattern": "Unpinned Dependencies",
+      "severity": "LOW",
+      "confidence": 0.4,
+      "location": {
+        "file": "packages/extension/package.json",
+        "start_line": 36,
+        "end_line": null
+      },
+      "finding": "\"tailwindcss\": \"^4.3.2\"",
+      "explanation": "Dependencies lack version pinning, allowing potential malicious package updates. Consider pinning versions.",
+      "remediation": "Pin all dependency versions in requirements.txt or pyproject.toml. Use exact versions (==) or compatible ranges. Run pip-audit regularly.",
+      "code_snippet": "        \"simple-icons\": \"^16.24.1\",\n        \"sonner\": \"^2.0.7\",\n        \"tailwind-merge\": \"^3.6.0\",\n        \"tailwindcss\": \"^4.3.2\",\n        \"tw-animate-css\": \"^1.4.0\",\n        \"wxt\": \"^0.20.27\"\n    },",
+      "intent": null
+    },
+    {
+      "id": "SC1",
+      "category": "Supply Chain",
+      "pattern": "Unpinned Dependencies",
+      "severity": "LOW",
+      "confidence": 0.4,
+      "location": {
+        "file": "packages/extension/package.json",
+        "start_line": 37,
+        "end_line": null
+      },
+      "finding": "\"tw-animate-css\": \"^1.4.0\"",
+      "explanation": "Dependencies lack version pinning, allowing potential malicious package updates. Consider pinning versions.",
+      "remediation": "Pin all dependency versions in requirements.txt or pyproject.toml. Use exact versions (==) or compatible ranges. Run pip-audit regularly.",
+      "code_snippet": "        \"sonner\": \"^2.0.7\",\n        \"tailwind-merge\": \"^3.6.0\",\n        \"tailwindcss\": \"^4.3.2\",\n        \"tw-animate-css\": \"^1.4.0\",\n        \"wxt\": \"^0.20.27\"\n    },\n    \"dependencies\": {",
+      "intent": null
+    },
+    {
+      "id": "SC1",
+      "category": "Supply Chain",
+      "pattern": "Unpinned Dependencies",
+      "severity": "LOW",
+      "confidence": 0.4,
+      "location": {
+        "file": "packages/extension/package.json",
+        "start_line": 38,
+        "end_line": null
+      },
+      "finding": "\"wxt\": \"^0.20.27\"",
+      "explanation": "Dependencies lack version pinning, allowing potential malicious package updates. Consider pinning versions.",
+      "remediation": "Pin all dependency versions in requirements.txt or pyproject.toml. Use exact versions (==) or compatible ranges. Run pip-audit regularly.",
+      "code_snippet": "        \"tailwind-merge\": \"^3.6.0\",\n        \"tailwindcss\": \"^4.3.2\",\n        \"tw-animate-css\": \"^1.4.0\",\n        \"wxt\": \"^0.20.27\"\n    },\n    \"dependencies\": {\n        \"@page-agent/core\": \"1.10.0\",",
+      "intent": null
+    },
+    {
+      "id": "SC1",
+      "category": "Supply Chain",
+      "pattern": "Unpinned Dependencies",
+      "severity": "LOW",
+      "confidence": 0.4,
+      "location": {
+        "file": "packages/extension/package.json",
+        "start_line": 45,
+        "end_line": null
+      },
+      "finding": "\"ai-motion\": \"^0.4.8\"",
+      "explanation": "Dependencies lack version pinning, allowing potential malicious package updates. Consider pinning versions.",
+      "remediation": "Pin all dependency versions in requirements.txt or pyproject.toml. Use exact versions (==) or compatible ranges. Run pip-audit regularly.",
+      "code_snippet": "        \"@page-agent/llms\": \"1.10.0\",\n        \"@page-agent/page-controller\": \"1.10.0\",\n        \"@page-agent/ui\": \"1.10.0\",\n        \"ai-motion\": \"^0.4.8\",\n        \"chalk\": \"^5.6.2\"\n    },\n    \"peerDependencies\": {",
+      "intent": null
+    },
+    {
+      "id": "SC1",
+      "category": "Supply Chain",
+      "pattern": "Unpinned Dependencies",
+      "severity": "LOW",
+      "confidence": 0.4,
+      "location": {
+        "file": "packages/extension/package.json",
+        "start_line": 46,
+        "end_line": null
+      },
+      "finding": "\"chalk\": \"^5.6.2\"",
+      "explanation": "Dependencies lack version pinning, allowing potential malicious package updates. Consider pinning versions.",
+      "remediation": "Pin all dependency versions in requirements.txt or pyproject.toml. Use exact versions (==) or compatible ranges. Run pip-audit regularly.",
+      "code_snippet": "        \"@page-agent/page-controller\": \"1.10.0\",\n        \"@page-agent/ui\": \"1.10.0\",\n        \"ai-motion\": \"^0.4.8\",\n        \"chalk\": \"^5.6.2\"\n    },\n    \"peerDependencies\": {\n        \"zod\": \"^3.25.0 || ^4.0.0\"",
+      "intent": null
+    },
+    {
+      "id": "SC3",
+      "category": "Supply Chain",
+      "pattern": "Obfuscated Code",
+      "severity": "HIGH",
+      "confidence": 0.5,
+      "location": {
+        "file": "packages/extension/wxt.config.js",
+        "start_line": 43,
+        "end_line": null
+      },
+      "finding": "'MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAqbzT0iTYeYlnCvDJIGDnGU8oarJgZILDzSfLi/ufuSxXEPDKuMyD892GhvrMCZNVHS11Sh6NYUOc/PcUOhtaR2urHtcNkrpSJNV10zUamY7fxBdVEkOucfyLu8INVy+teis62MoRWYPaUPkfZUjrLGW8MsZ",
+      "explanation": "Code contains obfuscation (base64, hex encoding with execution). This is often used to hide malicious functionality.",
+      "remediation": "Remove obfuscated code. Use plain, readable implementations. Obfuscation hinders security review and raises trust concerns.",
+      "code_snippet": "\t\tartifactTemplate: 'page-agent-ext-{{version}}-{{browser}}.zip',\n\t},\n\tmanifest: {\n\t\tkey: 'MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAqbzT0iTYeYlnCvDJIGDnGU8oarJgZILDzSfLi/ufuSxXEPDKuMyD892GhvrMCZNVHS11Sh6NYUOc/PcUOhtaR2urHtcNkrpSJNV10zUamY7fxBdVEkOucfyLu8INVy+teis62MoRWYPaUPkfZUjrLGW8MsZ9aFzARfu9GGDEp2EAYsWDN6w6vyz9LJ82pm542EWnVT4MjmDPgvYFCWGBtaU/dfHD+GAX6URJFapsCvryVURKJ+76c/GO9/I3EX1IBfbY6dec78bLCMvVxiTmiv36KyGPwX1OpakW8IiCpXWdbAxjm+plbYlp5t5zTyyoE3sOSFeXsBH0Kg27o8GcvQIDAQAB',\n\t\tdefault_locale: 'en',\n\t\tname: '__MSG_extName__',\n\t\tdescription: '__MSG_extDescription__',",
+      "intent": null
+    },
+    {
+      "id": "SC1",
+      "category": "Supply Chain",
+      "pattern": "Unpinned Dependencies",
+      "severity": "LOW",
+      "confidence": 0.4,
+      "location": {
+        "file": "packages/llms/package.json",
+        "start_line": 51,
+        "end_line": null
+      },
+      "finding": "\"chalk\": \"^5.6.2\"",
+      "explanation": "Dependencies lack version pinning, allowing potential malicious package updates. Consider pinning versions.",
+      "remediation": "Pin all dependency versions in requirements.txt or pyproject.toml. Use exact versions (==) or compatible ranges. Run pip-audit regularly.",
+      "code_snippet": "        \"postpublish\": \"node ../../scripts/post-publish.js\"\n    },\n    \"dependencies\": {\n        \"chalk\": \"^5.6.2\"\n    },\n    \"peerDependencies\": {\n        \"zod\": \"^3.25.0 || ^4.0.0\"",
+      "intent": null
+    },
+    {
+      "id": "SC1",
+      "category": "Supply Chain",
+      "pattern": "Unpinned Dependencies",
+      "severity": "LOW",
+      "confidence": 0.4,
+      "location": {
+        "file": "packages/llms/package.json",
+        "start_line": 57,
+        "end_line": null
+      },
+      "finding": "\"zod\": \"^4.4.3\"",
+      "explanation": "Dependencies lack version pinning, allowing potential malicious package updates. Consider pinning versions.",
+      "remediation": "Pin all dependency versions in requirements.txt or pyproject.toml. Use exact versions (==) or compatible ranges. Run pip-audit regularly.",
+      "code_snippet": "        \"zod\": \"^3.25.0 || ^4.0.0\"\n    },\n    \"devDependencies\": {\n        \"zod\": \"^4.4.3\"\n    }\n}",
+      "intent": null
+    },
+    {
+      "id": "SC1",
+      "category": "Supply Chain",
+      "pattern": "Unpinned Dependencies",
+      "severity": "LOW",
+      "confidence": 0.4,
+      "location": {
+        "file": "packages/mcp/package.json",
+        "start_line": 31,
+        "end_line": null
+      },
+      "finding": "\"@modelcontextprotocol/sdk\": \"^1.29.0\"",
+      "explanation": "Dependencies lack version pinning, allowing potential malicious package updates. Consider pinning versions.",
+      "remediation": "Pin all dependency versions in requirements.txt or pyproject.toml. Use exact versions (==) or compatible ranges. Run pip-audit regularly.",
+      "code_snippet": "        \"node\": \">=20\"\n    },\n    \"dependencies\": {\n        \"@modelcontextprotocol/sdk\": \"^1.29.0\",\n        \"ws\": \"^8.21.0\",\n        \"zod\": \"^4.4.3\"\n    }",
+      "intent": null
+    },
+    {
+      "id": "SC1",
+      "category": "Supply Chain",
+      "pattern": "Unpinned Dependencies",
+      "severity": "LOW",
+      "confidence": 0.4,
+      "location": {
+        "file": "packages/mcp/package.json",
+        "start_line": 32,
+        "end_line": null
+      },
+      "finding": "\"ws\": \"^8.21.0\"",
+      "explanation": "Dependencies lack version pinning, allowing potential malicious package updates. Consider pinning versions.",
+      "remediation": "Pin all dependency versions in requirements.txt or pyproject.toml. Use exact versions (==) or compatible ranges. Run pip-audit regularly.",
+      "code_snippet": "    },\n    \"dependencies\": {\n        \"@modelcontextprotocol/sdk\": \"^1.29.0\",\n        \"ws\": \"^8.21.0\",\n        \"zod\": \"^4.4.3\"\n    }\n}",
+      "intent": null
+    },
+    {
+      "id": "SC1",
+      "category": "Supply Chain",
+      "pattern": "Unpinned Dependencies",
+      "severity": "LOW",
+      "confidence": 0.4,
+      "location": {
+        "file": "packages/mcp/package.json",
+        "start_line": 33,
+        "end_line": null
+      },
+      "finding": "\"zod\": \"^4.4.3\"",
+      "explanation": "Dependencies lack version pinning, allowing potential malicious package updates. Consider pinning versions.",
+      "remediation": "Pin all dependency versions in requirements.txt or pyproject.toml. Use exact versions (==) or compatible ranges. Run pip-audit regularly.",
+      "code_snippet": "    \"dependencies\": {\n        \"@modelcontextprotocol/sdk\": \"^1.29.0\",\n        \"ws\": \"^8.21.0\",\n        \"zod\": \"^4.4.3\"\n    }\n}",
+      "intent": null
+    },
+    {
+      "id": "SC1",
+      "category": "Supply Chain",
+      "pattern": "Unpinned Dependencies",
+      "severity": "LOW",
+      "confidence": 0.4,
+      "location": {
+        "file": "packages/page-agent/package.json",
+        "start_line": 61,
+        "end_line": null
+      },
+      "finding": "\"chalk\": \"^5.6.2\"",
+      "explanation": "Dependencies lack version pinning, allowing potential malicious package updates. Consider pinning versions.",
+      "remediation": "Pin all dependency versions in requirements.txt or pyproject.toml. Use exact versions (==) or compatible ranges. Run pip-audit regularly.",
+      "code_snippet": "        \"@page-agent/llms\": \"1.10.0\",\n        \"@page-agent/page-controller\": \"1.10.0\",\n        \"@page-agent/ui\": \"1.10.0\",\n        \"chalk\": \"^5.6.2\"\n    },\n    \"peerDependencies\": {\n        \"zod\": \"^3.25.0 || ^4.0.0\"",
+      "intent": null
+    },
+    {
+      "id": "SC1",
+      "category": "Supply Chain",
+      "pattern": "Unpinned Dependencies",
+      "severity": "LOW",
+      "confidence": 0.4,
+      "location": {
+        "file": "packages/page-agent/package.json",
+        "start_line": 67,
+        "end_line": null
+      },
+      "finding": "\"zod\": \"^4.4.3\"",
+      "explanation": "Dependencies lack version pinning, allowing potential malicious package updates. Consider pinning versions.",
+      "remediation": "Pin all dependency versions in requirements.txt or pyproject.toml. Use exact versions (==) or compatible ranges. Run pip-audit regularly.",
+      "code_snippet": "        \"zod\": \"^3.25.0 || ^4.0.0\"\n    },\n    \"devDependencies\": {\n        \"zod\": \"^4.4.3\"\n    }\n}",
+      "intent": null
+    },
+    {
+      "id": "SC1",
+      "category": "Supply Chain",
+      "pattern": "Unpinned Dependencies",
+      "severity": "LOW",
+      "confidence": 0.4,
+      "location": {
+        "file": "packages/page-controller/package.json",
+        "start_line": 50,
+        "end_line": null
+      },
+      "finding": "\"ai-motion\": \"^0.4.8\"",
+      "explanation": "Dependencies lack version pinning, allowing potential malicious package updates. Consider pinning versions.",
+      "remediation": "Pin all dependency versions in requirements.txt or pyproject.toml. Use exact versions (==) or compatible ranges. Run pip-audit regularly.",
+      "code_snippet": "        \"postpublish\": \"node ../../scripts/post-publish.js\"\n    },\n    \"dependencies\": {\n        \"ai-motion\": \"^0.4.8\"\n    }\n}",
+      "intent": null
+    },
+    {
+      "id": "SC1",
+      "category": "Supply Chain",
+      "pattern": "Unpinned Dependencies",
+      "severity": "LOW",
+      "confidence": 0.4,
+      "location": {
+        "file": "packages/website/package.json",
+        "start_line": 12,
+        "end_line": null
+      },
+      "finding": "\"@radix-ui/react-icons\": \"^1.3.2\"",
+      "explanation": "Dependencies lack version pinning, allowing potential malicious package updates. Consider pinning versions.",
+      "remediation": "Pin all dependency versions in requirements.txt or pyproject.toml. Use exact versions (==) or compatible ranges. Run pip-audit regularly.",
+      "code_snippet": "        \"preview\": \"vite preview\"\n    },\n    \"devDependencies\": {\n        \"@radix-ui/react-icons\": \"^1.3.2\",\n        \"@radix-ui/react-separator\": \"^1.1.11\",\n        \"@radix-ui/react-slot\": \"^1.3.0\",\n        \"@radix-ui/react-switch\": \"^1.3.2\",",
+      "intent": null
+    },
+    {
+      "id": "SC1",
+      "category": "Supply Chain",
+      "pattern": "Unpinned Dependencies",
+      "severity": "LOW",
+      "confidence": 0.4,
+      "location": {
+        "file": "packages/website/package.json",
+        "start_line": 13,
+        "end_line": null
+      },
+      "finding": "\"@radix-ui/react-separator\": \"^1.1.11\"",
+      "explanation": "Dependencies lack version pinning, allowing potential malicious package updates. Consider pinning versions.",
+      "remediation": "Pin all dependency versions in requirements.txt or pyproject.toml. Use exact versions (==) or compatible ranges. Run pip-audit regularly.",
+      "code_snippet": "    },\n    \"devDependencies\": {\n        \"@radix-ui/react-icons\": \"^1.3.2\",\n        \"@radix-ui/react-separator\": \"^1.1.11\",\n        \"@radix-ui/react-slot\": \"^1.3.0\",\n        \"@radix-ui/react-switch\": \"^1.3.2\",\n        \"@radix-ui/react-tooltip\": \"^1.2.11\",",
+      "intent": null
+    },
+    {
+      "id": "SC1",
+      "category": "Supply Chain",
+      "pattern": "Unpinned Dependencies",
+      "severity": "LOW",
+      "confidence": 0.4,
+      "location": {
+        "file": "packages/website/package.json",
+        "start_line": 14,
+        "end_line": null
+      },
+      "finding": "\"@radix-ui/react-slot\": \"^1.3.0\"",
+      "explanation": "Dependencies lack version pinning, allowing potential malicious package updates. Consider pinning versions.",
+      "remediation": "Pin all dependency versions in requirements.txt or pyproject.toml. Use exact versions (==) or compatible ranges. Run pip-audit regularly.",
+      "code_snippet": "    \"devDependencies\": {\n        \"@radix-ui/react-icons\": \"^1.3.2\",\n        \"@radix-ui/react-separator\": \"^1.1.11\",\n        \"@radix-ui/react-slot\": \"^1.3.0\",\n        \"@radix-ui/react-switch\": \"^1.3.2\",\n        \"@radix-ui/react-tooltip\": \"^1.2.11\",\n        \"@types/react\": \"^19.2.17\",",
+      "intent": null
+    },
+    {
+      "id": "SC1",
+      "category": "Supply Chain",
+      "pattern": "Unpinned Dependencies",
+      "severity": "LOW",
+      "confidence": 0.4,
+      "location": {
+        "file": "packages/website/package.json",
+        "start_line": 15,
+        "end_line": null
+      },
+      "finding": "\"@radix-ui/react-switch\": \"^1.3.2\"",
+      "explanation": "Dependencies lack version pinning, allowing potential malicious package updates. Consider pinning versions.",
+      "remediation": "Pin all dependency versions in requirements.txt or pyproject.toml. Use exact versions (==) or compatible ranges. Run pip-audit regularly.",
+      "code_snippet": "        \"@radix-ui/react-icons\": \"^1.3.2\",\n        \"@radix-ui/react-separator\": \"^1.1.11\",\n        \"@radix-ui/react-slot\": \"^1.3.0\",\n        \"@radix-ui/react-switch\": \"^1.3.2\",\n        \"@radix-ui/react-tooltip\": \"^1.2.11\",\n        \"@types/react\": \"^19.2.17\",\n        \"@types/react-dom\": \"^19.2.3\",",
+      "intent": null
+    },
+    {
+      "id": "SC1",
+      "category": "Supply Chain",
+      "pattern": "Unpinned Dependencies",
+      "severity": "LOW",
+      "confidence": 0.4,
+      "location": {
+        "file": "packages/website/package.json",
+        "start_line": 16,
+        "end_line": null
+      },
+      "finding": "\"@radix-ui/react-tooltip\": \"^1.2.11\"",
+      "explanation": "Dependencies lack version pinning, allowing potential malicious package updates. Consider pinning versions.",
+      "remediation": "Pin all dependency versions in requirements.txt or pyproject.toml. Use exact versions (==) or compatible ranges. Run pip-audit regularly.",
+      "code_snippet": "        \"@radix-ui/react-separator\": \"^1.1.11\",\n        \"@radix-ui/react-slot\": \"^1.3.0\",\n        \"@radix-ui/react-switch\": \"^1.3.2\",\n        \"@radix-ui/react-tooltip\": \"^1.2.11\",\n        \"@types/react\": \"^19.2.17\",\n        \"@types/react-dom\": \"^19.2.3\",\n        \"class-variance-authority\": \"^0.7.1\",",
+      "intent": null
+    },
+    {
+      "id": "SC1",
+      "category": "Supply Chain",
+      "pattern": "Unpinned Dependencies",
+      "severity": "LOW",
+      "confidence": 0.4,
+      "location": {
+        "file": "packages/website/package.json",
+        "start_line": 17,
+        "end_line": null
+      },
+      "finding": "\"@types/react\": \"^19.2.17\"",
+      "explanation": "Dependencies lack version pinning, allowing potential malicious package updates. Consider pinning versions.",
+      "remediation": "Pin all dependency versions in requirements.txt or pyproject.toml. Use exact versions (==) or compatible ranges. Run pip-audit regularly.",
+      "code_snippet": "        \"@radix-ui/react-slot\": \"^1.3.0\",\n        \"@radix-ui/react-switch\": \"^1.3.2\",\n        \"@radix-ui/react-tooltip\": \"^1.2.11\",\n        \"@types/react\": \"^19.2.17\",\n        \"@types/react-dom\": \"^19.2.3\",\n        \"class-variance-authority\": \"^0.7.1\",\n        \"clsx\": \"^2.1.1\",",
+      "intent": null
+    },
+    {
+      "id": "SC1",
+      "category": "Supply Chain",
+      "pattern": "Unpinned Dependencies",
+      "severity": "LOW",
+      "confidence": 0.4,
+      "location": {
+        "file": "packages/website/package.json",
+        "start_line": 18,
+        "end_line": null
+      },
+      "finding": "\"@types/react-dom\": \"^19.2.3\"",
+      "explanation": "Dependencies lack version pinning, allowing potential malicious package updates. Consider pinning versions.",
+      "remediation": "Pin all dependency versions in requirements.txt or pyproject.toml. Use exact versions (==) or compatible ranges. Run pip-audit regularly.",
+      "code_snippet": "        \"@radix-ui/react-switch\": \"^1.3.2\",\n        \"@radix-ui/react-tooltip\": \"^1.2.11\",\n        \"@types/react\": \"^19.2.17\",\n        \"@types/react-dom\": \"^19.2.3\",\n        \"class-variance-authority\": \"^0.7.1\",\n        \"clsx\": \"^2.1.1\",\n        \"lucide-react\": \"^1.22.0\",",
+      "intent": null
+    },
+    {
+      "id": "SC1",
+      "category": "Supply Chain",
+      "pattern": "Unpinned Dependencies",
+      "severity": "LOW",
+      "confidence": 0.4,
+      "location": {
+        "file": "packages/website/package.json",
+        "start_line": 19,
+        "end_line": null
+      },
+      "finding": "\"class-variance-authority\": \"^0.7.1\"",
+      "explanation": "Dependencies lack version pinning, allowing potential malicious package updates. Consider pinning versions.",
+      "remediation": "Pin all dependency versions in requirements.txt or pyproject.toml. Use exact versions (==) or compatible ranges. Run pip-audit regularly.",
+      "code_snippet": "        \"@radix-ui/react-tooltip\": \"^1.2.11\",\n        \"@types/react\": \"^19.2.17\",\n        \"@types/react-dom\": \"^19.2.3\",\n        \"class-variance-authority\": \"^0.7.1\",\n        \"clsx\": \"^2.1.1\",\n        \"lucide-react\": \"^1.22.0\",\n        \"motion\": \"^12.42.2\",",
+      "intent": null
+    },
+    {
+      "id": "SC1",
+      "category": "Supply Chain",
+      "pattern": "Unpinned Dependencies",
+      "severity": "LOW",
+      "confidence": 0.4,
+      "location": {
+        "file": "packages/website/package.json",
+        "start_line": 20,
+        "end_line": null
+      },
+      "finding": "\"clsx\": \"^2.1.1\"",
+      "explanation": "Dependencies lack version pinning, allowing potential malicious package updates. Consider pinning versions.",
+      "remediation": "Pin all dependency versions in requirements.txt or pyproject.toml. Use exact versions (==) or compatible ranges. Run pip-audit regularly.",
+      "code_snippet": "        \"@types/react\": \"^19.2.17\",\n        \"@types/react-dom\": \"^19.2.3\",\n        \"class-variance-authority\": \"^0.7.1\",\n        \"clsx\": \"^2.1.1\",\n        \"lucide-react\": \"^1.22.0\",\n        \"motion\": \"^12.42.2\",\n        \"next-themes\": \"^0.4.6\",",
+      "intent": null
+    },
+    {
+      "id": "SC1",
+      "category": "Supply Chain",
+      "pattern": "Unpinned Dependencies",
+      "severity": "LOW",
+      "confidence": 0.4,
+      "location": {
+        "file": "packages/website/package.json",
+        "start_line": 21,
+        "end_line": null
+      },
+      "finding": "\"lucide-react\": \"^1.22.0\"",
+      "explanation": "Dependencies lack version pinning, allowing potential malicious package updates. Consider pinning versions.",
+      "remediation": "Pin all dependency versions in requirements.txt or pyproject.toml. Use exact versions (==) or compatible ranges. Run pip-audit regularly.",
+      "code_snippet": "        \"@types/react-dom\": \"^19.2.3\",\n        \"class-variance-authority\": \"^0.7.1\",\n        \"clsx\": \"^2.1.1\",\n        \"lucide-react\": \"^1.22.0\",\n        \"motion\": \"^12.42.2\",\n        \"next-themes\": \"^0.4.6\",\n        \"react\": \"^19.2.7\",",
+      "intent": null
+    },
+    {
+      "id": "SC1",
+      "category": "Supply Chain",
+      "pattern": "Unpinned Dependencies",
+      "severity": "LOW",
+      "confidence": 0.4,
+      "location": {
+        "file": "packages/website/package.json",
+        "start_line": 22,
+        "end_line": null
+      },
+      "finding": "\"motion\": \"^12.42.2\"",
+      "explanation": "Dependencies lack version pinning, allowing potential malicious package updates. Consider pinning versions.",
+      "remediation": "Pin all dependency versions in requirements.txt or pyproject.toml. Use exact versions (==) or compatible ranges. Run pip-audit regularly.",
+      "code_snippet": "        \"class-variance-authority\": \"^0.7.1\",\n        \"clsx\": \"^2.1.1\",\n        \"lucide-react\": \"^1.22.0\",\n        \"motion\": \"^12.42.2\",\n        \"next-themes\": \"^0.4.6\",\n        \"react\": \"^19.2.7\",\n        \"react-dom\": \"^19.2.7\",",
+      "intent": null
+    },
+    {
+      "id": "SC1",
+      "category": "Supply Chain",
+      "pattern": "Unpinned Dependencies",
+      "severity": "LOW",
+      "confidence": 0.4,
+      "location": {
+        "file": "packages/website/package.json",
+        "start_line": 23,
+        "end_line": null
+      },
+      "finding": "\"next-themes\": \"^0.4.6\"",
+      "explanation": "Dependencies lack version pinning, allowing potential malicious package updates. Consider pinning versions.",
+      "remediation": "Pin all dependency versions in requirements.txt or pyproject.toml. Use exact versions (==) or compatible ranges. Run pip-audit regularly.",
+      "code_snippet": "        \"clsx\": \"^2.1.1\",\n        \"lucide-react\": \"^1.22.0\",\n        \"motion\": \"^12.42.2\",\n        \"next-themes\": \"^0.4.6\",\n        \"react\": \"^19.2.7\",\n        \"react-dom\": \"^19.2.7\",\n        \"rough-notation\": \"^0.5.1\",",
+      "intent": null
+    },
+    {
+      "id": "SC1",
+      "category": "Supply Chain",
+      "pattern": "Unpinned Dependencies",
+      "severity": "LOW",
+      "confidence": 0.4,
+      "location": {
+        "file": "packages/website/package.json",
+        "start_line": 24,
+        "end_line": null
+      },
+      "finding": "\"react\": \"^19.2.7\"",
+      "explanation": "Dependencies lack version pinning, allowing potential malicious package updates. Consider pinning versions.",
+      "remediation": "Pin all dependency versions in requirements.txt or pyproject.toml. Use exact versions (==) or compatible ranges. Run pip-audit regularly.",
+      "code_snippet": "        \"lucide-react\": \"^1.22.0\",\n        \"motion\": \"^12.42.2\",\n        \"next-themes\": \"^0.4.6\",\n        \"react\": \"^19.2.7\",\n        \"react-dom\": \"^19.2.7\",\n        \"rough-notation\": \"^0.5.1\",\n        \"simple-icons\": \"^16.24.1\",",
+      "intent": null
+    },
+    {
+      "id": "SC1",
+      "category": "Supply Chain",
+      "pattern": "Unpinned Dependencies",
+      "severity": "LOW",
+      "confidence": 0.4,
+      "location": {
+        "file": "packages/website/package.json",
+        "start_line": 25,
+        "end_line": null
+      },
+      "finding": "\"react-dom\": \"^19.2.7\"",
+      "explanation": "Dependencies lack version pinning, allowing potential malicious package updates. Consider pinning versions.",
+      "remediation": "Pin all dependency versions in requirements.txt or pyproject.toml. Use exact versions (==) or compatible ranges. Run pip-audit regularly.",
+      "code_snippet": "        \"motion\": \"^12.42.2\",\n        \"next-themes\": \"^0.4.6\",\n        \"react\": \"^19.2.7\",\n        \"react-dom\": \"^19.2.7\",\n        \"rough-notation\": \"^0.5.1\",\n        \"simple-icons\": \"^16.24.1\",\n        \"sonner\": \"^2.0.7\",",
+      "intent": null
+    },
+    {
+      "id": "SC1",
+      "category": "Supply Chain",
+      "pattern": "Unpinned Dependencies",
+      "severity": "LOW",
+      "confidence": 0.4,
+      "location": {
+        "file": "packages/website/package.json",
+        "start_line": 26,
+        "end_line": null
+      },
+      "finding": "\"rough-notation\": \"^0.5.1\"",
+      "explanation": "Dependencies lack version pinning, allowing potential malicious package updates. Consider pinning versions.",
+      "remediation": "Pin all dependency versions in requirements.txt or pyproject.toml. Use exact versions (==) or compatible ranges. Run pip-audit regularly.",
+      "code_snippet": "        \"next-themes\": \"^0.4.6\",\n        \"react\": \"^19.2.7\",\n        \"react-dom\": \"^19.2.7\",\n        \"rough-notation\": \"^0.5.1\",\n        \"simple-icons\": \"^16.24.1\",\n        \"sonner\": \"^2.0.7\",\n        \"tailwind-merge\": \"^3.6.0\",",
+      "intent": null
+    },
+    {
+      "id": "SC1",
+      "category": "Supply Chain",
+      "pattern": "Unpinned Dependencies",
+      "severity": "LOW",
+      "confidence": 0.4,
+      "location": {
+        "file": "packages/website/package.json",
+        "start_line": 27,
+        "end_line": null
+      },
+      "finding": "\"simple-icons\": \"^16.24.1\"",
+      "explanation": "Dependencies lack version pinning, allowing potential malicious package updates. Consider pinning versions.",
+      "remediation": "Pin all dependency versions in requirements.txt or pyproject.toml. Use exact versions (==) or compatible ranges. Run pip-audit regularly.",
+      "code_snippet": "        \"react\": \"^19.2.7\",\n        \"react-dom\": \"^19.2.7\",\n        \"rough-notation\": \"^0.5.1\",\n        \"simple-icons\": \"^16.24.1\",\n        \"sonner\": \"^2.0.7\",\n        \"tailwind-merge\": \"^3.6.0\",\n        \"tailwindcss\": \"^4.3.2\",",
+      "intent": null
+    },
+    {
+      "id": "SC1",
+      "category": "Supply Chain",
+      "pattern": "Unpinned Dependencies",
+      "severity": "LOW",
+      "confidence": 0.4,
+      "location": {
+        "file": "packages/website/package.json",
+        "start_line": 28,
+        "end_line": null
+      },
+      "finding": "\"sonner\": \"^2.0.7\"",
+      "explanation": "Dependencies lack version pinning, allowing potential malicious package updates. Consider pinning versions.",
+      "remediation": "Pin all dependency versions in requirements.txt or pyproject.toml. Use exact versions (==) or compatible ranges. Run pip-audit regularly.",
+      "code_snippet": "        \"react-dom\": \"^19.2.7\",\n        \"rough-notation\": \"^0.5.1\",\n        \"simple-icons\": \"^16.24.1\",\n        \"sonner\": \"^2.0.7\",\n        \"tailwind-merge\": \"^3.6.0\",\n        \"tailwindcss\": \"^4.3.2\",\n        \"tw-animate-css\": \"^1.4.0\",",
+      "intent": null
+    },
+    {
+      "id": "SC1",
+      "category": "Supply Chain",
+      "pattern": "Unpinned Dependencies",
+      "severity": "LOW",
+      "confidence": 0.4,
+      "location": {
+        "file": "packages/website/package.json",
+        "start_line": 29,
+        "end_line": null
+      },
+      "finding": "\"tailwind-merge\": \"^3.6.0\"",
+      "explanation": "Dependencies lack version pinning, allowing potential malicious package updates. Consider pinning versions.",
+      "remediation": "Pin all dependency versions in requirements.txt or pyproject.toml. Use exact versions (==) or compatible ranges. Run pip-audit regularly.",
+      "code_snippet": "        \"rough-notation\": \"^0.5.1\",\n        \"simple-icons\": \"^16.24.1\",\n        \"sonner\": \"^2.0.7\",\n        \"tailwind-merge\": \"^3.6.0\",\n        \"tailwindcss\": \"^4.3.2\",\n        \"tw-animate-css\": \"^1.4.0\",\n        \"wouter\": \"^3.10.0\"",
+      "intent": null
+    },
+    {
+      "id": "SC1",
+      "category": "Supply Chain",
+      "pattern": "Unpinned Dependencies",
+      "severity": "LOW",
+      "confidence": 0.4,
+      "location": {
+        "file": "packages/website/package.json",
+        "start_line": 30,
+        "end_line": null
+      },
+      "finding": "\"tailwindcss\": \"^4.3.2\"",
+      "explanation": "Dependencies lack version pinning, allowing potential malicious package updates. Consider pinning versions.",
+      "remediation": "Pin all dependency versions in requirements.txt or pyproject.toml. Use exact versions (==) or compatible ranges. Run pip-audit regularly.",
+      "code_snippet": "        \"simple-icons\": \"^16.24.1\",\n        \"sonner\": \"^2.0.7\",\n        \"tailwind-merge\": \"^3.6.0\",\n        \"tailwindcss\": \"^4.3.2\",\n        \"tw-animate-css\": \"^1.4.0\",\n        \"wouter\": \"^3.10.0\"\n    }",
+      "intent": null
+    },
+    {
+      "id": "SC1",
+      "category": "Supply Chain",
+      "pattern": "Unpinned Dependencies",
+      "severity": "LOW",
+      "confidence": 0.4,
+      "location": {
+        "file": "packages/website/package.json",
+        "start_line": 31,
+        "end_line": null
+      },
+      "finding": "\"tw-animate-css\": \"^1.4.0\"",
+      "explanation": "Dependencies lack version pinning, allowing potential malicious package updates. Consider pinning versions.",
+      "remediation": "Pin all dependency versions in requirements.txt or pyproject.toml. Use exact versions (==) or compatible ranges. Run pip-audit regularly.",
+      "code_snippet": "        \"sonner\": \"^2.0.7\",\n        \"tailwind-merge\": \"^3.6.0\",\n        \"tailwindcss\": \"^4.3.2\",\n        \"tw-animate-css\": \"^1.4.0\",\n        \"wouter\": \"^3.10.0\"\n    }\n}",
+      "intent": null
+    },
+    {
+      "id": "SC1",
+      "category": "Supply Chain",
+      "pattern": "Unpinned Dependencies",
+      "severity": "LOW",
+      "confidence": 0.4,
+      "location": {
+        "file": "packages/website/package.json",
+        "start_line": 32,
+        "end_line": null
+      },
+      "finding": "\"wouter\": \"^3.10.0\"",
+      "explanation": "Dependencies lack version pinning, allowing potential malicious package updates. Consider pinning versions.",
+      "remediation": "Pin all dependency versions in requirements.txt or pyproject.toml. Use exact versions (==) or compatible ranges. Run pip-audit regularly.",
+      "code_snippet": "        \"tailwind-merge\": \"^3.6.0\",\n        \"tailwindcss\": \"^4.3.2\",\n        \"tw-animate-css\": \"^1.4.0\",\n        \"wouter\": \"^3.10.0\"\n    }\n}",
+      "intent": null
+    },
+    {
+      "id": "SC6",
+      "category": "Supply Chain",
+      "pattern": "Possible Typosquatting: 'chalk' resembles popular package 'chai'",
+      "severity": "HIGH",
+      "confidence": 0.7,
+      "location": {
+        "file": "package.json",
+        "start_line": 55,
+        "end_line": null
+      },
+      "finding": "chalk",
+      "explanation": "Package name closely resembles a popular package, suggesting possible typosquatting. Attackers publish malicious packages with similar names to trick developers into installing them.",
+      "remediation": "Verify the package name is correct and not a typosquatting variant. Compare against the official package name on PyPI or npm.",
+      "code_snippet": null,
+      "intent": null
+    },
+    {
+      "id": "SC6",
+      "category": "Supply Chain",
+      "pattern": "Possible Typosquatting: 'vite' resembles popular package 'vue'",
+      "severity": "HIGH",
+      "confidence": 0.7,
+      "location": {
+        "file": "package.json",
+        "start_line": 67,
+        "end_line": null
+      },
+      "finding": "vite",
+      "explanation": "Package name closely resembles a popular package, suggesting possible typosquatting. Attackers publish malicious packages with similar names to trick developers into installing them.",
+      "remediation": "Verify the package name is correct and not a typosquatting variant. Compare against the official package name on PyPI or npm.",
+      "code_snippet": null,
+      "intent": null
+    },
+    {
+      "id": "SC6",
+      "category": "Supply Chain",
+      "pattern": "Possible Typosquatting: 'chalk' resembles popular package 'chai'",
+      "severity": "HIGH",
+      "confidence": 0.7,
+      "location": {
+        "file": "packages/core/package.json",
+        "start_line": 57,
+        "end_line": null
+      },
+      "finding": "chalk",
+      "explanation": "Package name closely resembles a popular package, suggesting possible typosquatting. Attackers publish malicious packages with similar names to trick developers into installing them.",
+      "remediation": "Verify the package name is correct and not a typosquatting variant. Compare against the official package name on PyPI or npm.",
+      "code_snippet": null,
+      "intent": null
+    },
+    {
+      "id": "SC6",
+      "category": "Supply Chain",
+      "pattern": "Possible Typosquatting: 'wxt' resembles popular package 'next'",
+      "severity": "HIGH",
+      "confidence": 0.7,
+      "location": {
+        "file": "packages/extension/package.json",
+        "start_line": 38,
+        "end_line": null
+      },
+      "finding": "wxt",
+      "explanation": "Package name closely resembles a popular package, suggesting possible typosquatting. Attackers publish malicious packages with similar names to trick developers into installing them.",
+      "remediation": "Verify the package name is correct and not a typosquatting variant. Compare against the official package name on PyPI or npm.",
+      "code_snippet": null,
+      "intent": null
+    },
+    {
+      "id": "SC6",
+      "category": "Supply Chain",
+      "pattern": "Possible Typosquatting: 'chalk' resembles popular package 'chai'",
+      "severity": "HIGH",
+      "confidence": 0.7,
+      "location": {
+        "file": "packages/extension/package.json",
+        "start_line": 46,
+        "end_line": null
+      },
+      "finding": "chalk",
+      "explanation": "Package name closely resembles a popular package, suggesting possible typosquatting. Attackers publish malicious packages with similar names to trick developers into installing them.",
+      "remediation": "Verify the package name is correct and not a typosquatting variant. Compare against the official package name on PyPI or npm.",
+      "code_snippet": null,
+      "intent": null
+    },
+    {
+      "id": "SC6",
+      "category": "Supply Chain",
+      "pattern": "Possible Typosquatting: 'chalk' resembles popular package 'chai'",
+      "severity": "HIGH",
+      "confidence": 0.7,
+      "location": {
+        "file": "packages/llms/package.json",
+        "start_line": 51,
+        "end_line": null
+      },
+      "finding": "chalk",
+      "explanation": "Package name closely resembles a popular package, suggesting possible typosquatting. Attackers publish malicious packages with similar names to trick developers into installing them.",
+      "remediation": "Verify the package name is correct and not a typosquatting variant. Compare against the official package name on PyPI or npm.",
+      "code_snippet": null,
+      "intent": null
+    },
+    {
+      "id": "SC6",
+      "category": "Supply Chain",
+      "pattern": "Possible Typosquatting: 'chalk' resembles popular package 'chai'",
+      "severity": "HIGH",
+      "confidence": 0.7,
+      "location": {
+        "file": "packages/page-agent/package.json",
+        "start_line": 61,
+        "end_line": null
+      },
+      "finding": "chalk",
+      "explanation": "Package name closely resembles a popular package, suggesting possible typosquatting. Attackers publish malicious packages with similar names to trick developers into installing them.",
+      "remediation": "Verify the package name is correct and not a typosquatting variant. Compare against the official package name on PyPI or npm.",
+      "code_snippet": null,
+      "intent": null
+    },
+    {
+      "id": "P6",
+      "category": "System Prompt Leakage",
+      "pattern": "Direct Prompt Extraction",
+      "severity": "HIGH",
+      "confidence": 0.85,
+      "location": {
+        "file": "packages/core/src/PageAgentCore.ts",
+        "start_line": 646,
+        "end_line": null
+      },
+      "finding": "return prompt",
+      "explanation": "Skill contains instructions that could directly expose system prompts, internal rules, or hidden instructions to users or external parties.",
+      "remediation": "Remove any instructions that reveal, print, or output system prompts or internal rules. System instructions should never be exposed to end users.",
+      "code_snippet": "\t\tprompt += browserState.footer + '\\n\\n'\n\t\tprompt += '</browser_state>\\n\\n'\n\n\t\treturn prompt\n\t}\n\n\tdispose() {",
+      "intent": null
+    },
+    {
+      "id": "P6",
+      "category": "System Prompt Leakage",
+      "pattern": "Direct Prompt Extraction",
+      "severity": "HIGH",
+      "confidence": 0.85,
+      "location": {
+        "file": "packages/website/src/components/JSConsole.tsx",
+        "start_line": 327,
+        "end_line": null
+      },
+      "finding": "return prompt",
+      "explanation": "Skill contains instructions that could directly expose system prompts, internal rules, or hidden instructions to users or external parties.",
+      "remediation": "Remove any instructions that reveal, print, or output system prompts or internal rules. System instructions should never be exposed to end users.",
+      "code_snippet": "\t\t} else if (type === 'output') {\n\t\t\tprompt = '<'\n\t\t}\n\t\treturn prompt\n\t}\n\n\treturn (",
+      "intent": null
+    },
+    {
+      "id": "TM1",
+      "category": "Tool Misuse",
+      "pattern": "Tool Parameter Abuse",
+      "severity": "HIGH",
+      "confidence": 0.65,
+      "location": {
+        "file": ".husky/pre-commit",
+        "start_line": 1,
+        "end_line": null
+      },
+      "finding": "--allow-empty",
+      "explanation": "Tool parameters are crafted to achieve unintended or unsafe behavior. Parameter abuse can bypass intended safety checks (e.g. shell=True, --force, dangerous glob patterns).",
+      "remediation": "Validate all tool parameters against an allowlist. Reject dangerous parameter values (shell=True, --force, -rf /) and use safe defaults.",
+      "code_snippet": "npx lint-staged --allow-empty",
+      "intent": null
+    },
+    {
+      "id": "TM1",
+      "category": "Tool Misuse",
+      "pattern": "Tool Parameter Abuse",
+      "severity": "HIGH",
+      "confidence": 0.85,
+      "location": {
+        "file": "package-lock.json",
+        "start_line": 7798,
+        "end_line": null
+      },
+      "finding": "RMtmw0iFkeR4YV+fUOSucriAQNb9g8zFR52MWCtl+cCZOFRNL6zeB395vPzFhEjjn4fMxXudmELnl/KF/",
+      "explanation": "Tool parameters are crafted to achieve unintended or unsafe behavior. Parameter abuse can bypass intended safety checks (e.g. shell=True, --force, dangerous glob patterns).",
+      "remediation": "Validate all tool parameters against an allowlist. Reject dangerous parameter values (shell=True, --force, -rf /) and use safe defaults.",
+      "code_snippet": "        \"node_modules/mlly/node_modules/confbox\": {\n            \"version\": \"0.1.8\",\n            \"resolved\": \"https://registry.npmjs.org/confbox/-/confbox-0.1.8.tgz\",\n            \"integrity\": \"sha512-RMtmw0iFkeR4YV+fUOSucriAQNb9g8zFR52MWCtl+cCZOFRNL6zeB395vPzFhEjjn4fMxXudmELnl/KF/WrK6w==\",\n            \"dev\": true,\n            \"license\": \"MIT\"\n        },",
+      "intent": null
+    },
+    {
+      "id": "TM1",
+      "category": "Tool Misuse",
+      "pattern": "Tool Parameter Abuse",
+      "severity": "HIGH",
+      "confidence": 0.85,
+      "location": {
+        "file": "package.json",
+        "start_line": 42,
+        "end_line": null
+      },
+      "finding": "rm -rf packages/*/dist && rm -rf packages/*/",
+      "explanation": "Tool parameters are crafted to achieve unintended or unsafe behavior. Parameter abuse can bypass intended safety checks (e.g. shell=True, --force, dangerous glob patterns).",
+      "remediation": "Validate all tool parameters against an allowlist. Reject dangerous parameter values (shell=True, --force, -rf /) and use safe defaults.",
+      "code_snippet": "        \"test\": \"npm test --workspaces --if-present\",\n        \"lint\": \"eslint .\",\n        \"ci\": \"node scripts/ci.js\",\n        \"cleanup\": \"rm -rf packages/*/dist && rm -rf packages/*/.output\",\n        \"prepare\": \"husky || true\"\n    },\n    \"devDependencies\": {",
+      "intent": null
+    },
+    {
+      "id": "TM2",
+      "category": "Tool Misuse",
+      "pattern": "Chaining Abuse",
+      "severity": "HIGH",
+      "confidence": 0.75,
+      "location": {
+        "file": "package.json",
+        "start_line": 42,
+        "end_line": null
+      },
+      "finding": "&& rm -",
+      "explanation": "Tool calls are chained to bypass individual safety checks or escalate capabilities beyond what any single tool call would allow.",
+      "remediation": "Limit tool chaining depth and validate the output of each tool before passing it to the next. Require explicit user approval for multi-step chains.",
+      "code_snippet": "        \"test\": \"npm test --workspaces --if-present\",\n        \"lint\": \"eslint .\",\n        \"ci\": \"node scripts/ci.js\",\n        \"cleanup\": \"rm -rf packages/*/dist && rm -rf packages/*/.output\",\n        \"prepare\": \"husky || true\"\n    },\n    \"devDependencies\": {",
+      "intent": null
+    }
+  ],
+  "metadata": {
+    "has_executable_scripts": true,
+    "skillspector_version": "2.1.4",
+    "llm_requested": false,
+    "llm_available": false
+  }
+}

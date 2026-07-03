@@ -1,0 +1,197 @@
+{
+  "skill": {
+    "name": "modern-web-design",
+    "source": "/Users/khaledmac/project/web-3d/.claude/skills/modern-web-design",
+    "scanned_at": "2026-06-19T11:19:31.614513+00:00"
+  },
+  "risk_assessment": {
+    "score": 100,
+    "severity": "CRITICAL",
+    "recommendation": "DO_NOT_INSTALL"
+  },
+  "components": [
+    {
+      "path": "SKILL.md",
+      "type": "markdown",
+      "lines": 990,
+      "executable": false,
+      "size_bytes": 26596
+    },
+    {
+      "path": "assets/README.md",
+      "type": "markdown",
+      "lines": 367,
+      "executable": false,
+      "size_bytes": 7811
+    },
+    {
+      "path": "references/accessibility_guide.md",
+      "type": "markdown",
+      "lines": 935,
+      "executable": false,
+      "size_bytes": 19842
+    },
+    {
+      "path": "references/design_trends_2024.md",
+      "type": "markdown",
+      "lines": 899,
+      "executable": false,
+      "size_bytes": 20338
+    },
+    {
+      "path": "references/interaction_patterns.md",
+      "type": "markdown",
+      "lines": 1055,
+      "executable": false,
+      "size_bytes": 21720
+    },
+    {
+      "path": "references/performance_checklist.md",
+      "type": "markdown",
+      "lines": 867,
+      "executable": false,
+      "size_bytes": 18722
+    },
+    {
+      "path": "scripts/design_audit.py",
+      "type": "python",
+      "lines": 386,
+      "executable": true,
+      "size_bytes": 15021
+    },
+    {
+      "path": "scripts/pattern_generator.py",
+      "type": "python",
+      "lines": 869,
+      "executable": true,
+      "size_bytes": 24524
+    }
+  ],
+  "issues": [
+    {
+      "id": "TT2",
+      "category": "Data Flow",
+      "pattern": "Tainted flow: 'report' from pathlib.Path.read_text (line 320, file read) \u2192 pathlib.Path.write_text (file write)",
+      "severity": "MEDIUM",
+      "confidence": 0.65,
+      "location": {
+        "file": "scripts/design_audit.py",
+        "start_line": 324,
+        "end_line": 324
+      },
+      "finding": "        output_path.write_text(report)",
+      "explanation": "Data from a source is assigned to a variable that is later passed to a sink, creating a variable-mediated taint flow.",
+      "remediation": "Validate tainted variables before passing them to sinks. Use allowlists, type checks, or sanitization functions on data from external sources.",
+      "code_snippet": "\n    if output_file:\n        output_path = Path(output_file)\n        output_path.write_text(report)\n        print(f\"\u2705 Audit complete!\")\n        print(f\"   Report saved to: {output_path}\")\n    else:",
+      "intent": null
+    },
+    {
+      "id": "LP3",
+      "category": "MCP Least Privilege",
+      "pattern": null,
+      "severity": "MEDIUM",
+      "confidence": 0.7,
+      "location": {
+        "file": "SKILL.md",
+        "start_line": 1,
+        "end_line": null
+      },
+      "finding": null,
+      "explanation": "Without declared permissions the skill's intent is opaque and cannot be validated.",
+      "remediation": "Add a 'permissions' field to SKILL.md listing the capabilities this skill requires.",
+      "code_snippet": null,
+      "intent": null
+    },
+    {
+      "id": "P2",
+      "category": "Prompt Injection",
+      "pattern": "Hidden Instructions",
+      "severity": "HIGH",
+      "confidence": 0.7,
+      "location": {
+        "file": "SKILL.md",
+        "start_line": 667,
+        "end_line": null
+      },
+      "finding": "<!-- Announce when content loads -->\n<div role=\"status\" aria-live=\"polite\" aria-atomic=\"true\">\n  Loading complete. 12 items displayed.\n</div>\n```\n\n### 5. Touch Targets\n\n**Minimum Size**: 44x44px (iOS)",
+      "explanation": "Hidden instructions were detected in comments or invisible text. These could contain malicious directives. Manual review is recommended.",
+      "remediation": "Audit all comments and invisible characters. Remove any instructions that direct the agent to perform unauthorized actions. Use plain, reviewable content.",
+      "code_snippet": "\n**Animation Announcements**:\n```html\n<!-- Announce when content loads -->\n<div role=\"status\" aria-live=\"polite\" aria-atomic=\"true\">\n  Loading complete. 12 items displayed.\n</div>",
+      "intent": null
+    },
+    {
+      "id": "P2",
+      "category": "Prompt Injection",
+      "pattern": "Hidden Instructions",
+      "severity": "HIGH",
+      "confidence": 0.7,
+      "location": {
+        "file": "references/accessibility_guide.md",
+        "start_line": 183,
+        "end_line": null
+      },
+      "finding": "<!-- Natural DOM order is best -->\n<button tabindex=\"0\">First</button>\n<button tabindex=\"0\">Second</button>\n<button tabindex=\"0\">Third</button>\n\n<!-- Avoid tabindex > 0 (creates unpredictable order) -",
+      "explanation": "Hidden instructions were detected in comments or invisible text. These could contain malicious directives. Manual review is recommended.",
+      "remediation": "Audit all comments and invisible characters. Remove any instructions that direct the agent to perform unauthorized actions. Use plain, reviewable content.",
+      "code_snippet": "\n**Logical Tab Order**:\n```html\n<!-- Natural DOM order is best -->\n<button tabindex=\"0\">First</button>\n<button tabindex=\"0\">Second</button>\n<button tabindex=\"0\">Third</button>",
+      "intent": null
+    },
+    {
+      "id": "P2",
+      "category": "Prompt Injection",
+      "pattern": "Hidden Instructions",
+      "severity": "HIGH",
+      "confidence": 0.7,
+      "location": {
+        "file": "references/accessibility_guide.md",
+        "start_line": 558,
+        "end_line": null
+      },
+      "finding": "<!-- Error state -->\n<input\n  id=\"email\"\n  type=\"email\"\n  aria-invalid=\"true\"\n  aria-describedby=\"email-error\"\n>\n<div id=\"email-error\" role=\"alert\">\n  Please enter a valid email address.\n</div>\n```\n\n#",
+      "explanation": "Hidden instructions were detected in comments or invisible text. These could contain malicious directives. Manual review is recommended.",
+      "remediation": "Audit all comments and invisible characters. Remove any instructions that direct the agent to perform unauthorized actions. Use plain, reviewable content.",
+      "code_snippet": "<input id=\"email\" type=\"email\" required aria-describedby=\"email-help\">\n<small id=\"email-help\">We'll never share your email.</small>\n\n<!-- Error state -->\n<input\n  id=\"email\"\n  type=\"email\"",
+      "intent": null
+    },
+    {
+      "id": "P2",
+      "category": "Prompt Injection",
+      "pattern": "Hidden Instructions",
+      "severity": "HIGH",
+      "confidence": 0.7,
+      "location": {
+        "file": "references/performance_checklist.md",
+        "start_line": 51,
+        "end_line": null
+      },
+      "finding": "<!-- Preload critical resources -->\n<link rel=\"preload\" as=\"image\" href=\"hero.webp\" type=\"image/webp\">\n<link rel=\"preload\" as=\"font\" href=\"inter-var.woff2\" type=\"font/woff2\" crossorigin>\n\n<!-- Modern ",
+      "explanation": "Hidden instructions were detected in comments or invisible text. These could contain malicious directives. Manual review is recommended.",
+      "remediation": "Audit all comments and invisible characters. Remove any instructions that direct the agent to perform unauthorized actions. Use plain, reviewable content.",
+      "code_snippet": "\n**Implementation**:\n```html\n<!-- Preload critical resources -->\n<link rel=\"preload\" as=\"image\" href=\"hero.webp\" type=\"image/webp\">\n<link rel=\"preload\" as=\"font\" href=\"inter-var.woff2\" type=\"font/woff2\" crossorigin>\n",
+      "intent": null
+    },
+    {
+      "id": "P2",
+      "category": "Prompt Injection",
+      "pattern": "Hidden Instructions",
+      "severity": "HIGH",
+      "confidence": 0.7,
+      "location": {
+        "file": "references/performance_checklist.md",
+        "start_line": 306,
+        "end_line": null
+      },
+      "finding": "<!-- Fallback: WebP (good compression) -->\n  <source srcset=\"image.webp\" type=\"image/webp\">\n\n  <!-- Final fallback: JPEG -->\n  <img src=\"image.jpg\" alt=\"Description\" loading=\"lazy\">\n</picture>\n```\n\n##",
+      "explanation": "Hidden instructions were detected in comments or invisible text. These could contain malicious directives. Manual review is recommended.",
+      "remediation": "Audit all comments and invisible characters. Remove any instructions that direct the agent to perform unauthorized actions. Use plain, reviewable content.",
+      "code_snippet": "  <!-- Modern browsers: AVIF (best compression) -->\n  <source srcset=\"image.avif\" type=\"image/avif\">\n\n  <!-- Fallback: WebP (good compression) -->\n  <source srcset=\"image.webp\" type=\"image/webp\">\n\n  <!-- Final fallback: JPEG -->",
+      "intent": null
+    }
+  ],
+  "metadata": {
+    "has_executable_scripts": true,
+    "skillspector_version": "2.1.4",
+    "llm_requested": false,
+    "llm_available": false
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "skill": {
+    "name": "unslop-ui",
+    "source": "/Users/khaledmac/project/web-3d/.claude/skills/unslop-ui",
+    "scanned_at": "2026-06-28T07:19:55.079490+00:00"
+  },
+  "risk_assessment": {
+    "score": 13,
+    "severity": "LOW",
+    "recommendation": "SAFE"
+  },
+  "components": [
+    {
+      "path": "README.md",
+      "type": "markdown",
+      "lines": 61,
+      "executable": false,
+      "size_bytes": 2797
+    },
+    {
+      "path": "SKILL.md",
+      "type": "markdown",
+      "lines": 132,
+      "executable": false,
+      "size_bytes": 7523
+    },
+    {
+      "path": "references/choosing-a-look.md",
+      "type": "markdown",
+      "lines": 66,
+      "executable": false,
+      "size_bytes": 3661
+    },
+    {
+      "path": "references/tells.md",
+      "type": "markdown",
+      "lines": 358,
+      "executable": false,
+      "size_bytes": 18411
+    },
+    {
+      "path": "scripts/devibe_scan.py",
+      "type": "python",
+      "lines": 202,
+      "executable": true,
+      "size_bytes": 11555
+    }
+  ],
+  "issues": [
+    {
+      "id": "LP3",
+      "category": "MCP Least Privilege",
+      "pattern": null,
+      "severity": "MEDIUM",
+      "confidence": 0.7,
+      "location": {
+        "file": "SKILL.md",
+        "start_line": 1,
+        "end_line": null
+      },
+      "finding": null,
+      "explanation": "Without declared permissions the skill's intent is opaque and cannot be validated.",
+      "remediation": "Add a 'permissions' field to SKILL.md listing the capabilities this skill requires.",
+      "code_snippet": null,
+      "intent": null
+    }
+  ],
+  "metadata": {
+    "has_executable_scripts": true,
+    "skillspector_version": "2.1.4",
+    "llm_requested": false,
+    "llm_available": false
+  }
+}

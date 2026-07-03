@@ -1,0 +1,81 @@
+{
+  "skill": {
+    "name": "unknown",
+    "source": "/private/tmp/mece-skill-import",
+    "scanned_at": "2026-06-23T03:28:57.301538+00:00"
+  },
+  "risk_assessment": {
+    "score": 25,
+    "severity": "MEDIUM",
+    "recommendation": "CAUTION"
+  },
+  "components": [
+    {
+      "path": "SUITE-MAP.md",
+      "type": "markdown",
+      "lines": 48,
+      "executable": false,
+      "size_bytes": 3242
+    },
+    {
+      "path": "behavioral-story-bank.skill",
+      "type": "other",
+      "lines": 95,
+      "executable": false,
+      "size_bytes": 3571
+    },
+    {
+      "path": "cognitive-fluency-daily.skill",
+      "type": "other",
+      "lines": 39,
+      "executable": false,
+      "size_bytes": 1657
+    },
+    {
+      "path": "leadership-assessment-readiness.skill",
+      "type": "other",
+      "lines": 227,
+      "executable": false,
+      "size_bytes": 9501
+    },
+    {
+      "path": "roleplay-rehearsal.skill",
+      "type": "other",
+      "lines": 93,
+      "executable": false,
+      "size_bytes": 3403
+    },
+    {
+      "path": "situational-judgment-coach.skill",
+      "type": "other",
+      "lines": 97,
+      "executable": false,
+      "size_bytes": 3612
+    }
+  ],
+  "issues": [
+    {
+      "id": "TM1",
+      "category": "Tool Misuse",
+      "pattern": "Tool Parameter Abuse",
+      "severity": "HIGH",
+      "confidence": 0.85,
+      "location": {
+        "file": "situational-judgment-coach.skill",
+        "start_line": 3,
+        "end_line": null
+      },
+      "finding": "Rm\u05aa~\ufffd&\ufffdr\ufffdWM?l\ufffd\ufffd\ufffdj\u0005\ufffd\ufffd\ufffd\ufffdf\ufffd\ufffd/",
+      "explanation": "Tool parameters are crafted to achieve unintended or unsafe behavior. Parameter abuse can bypass intended safety checks (e.g. shell=True, --force, dangerous glob patterns).",
+      "remediation": "Validate all tool parameters against an allowlist. Reject dangerous parameter values (shell=True, --force, -rf /) and use safe defaults.",
+      "code_snippet": "PK\u0003\u0004\u0014\u0000\u0000\u0000\b\u0000\ufffd\ufffd\ufffd\\t8c\ufffdB\u0007\u0000\u0000B\u0011\u0000\u0000#\u0000\u0000\u0000situational-judgment-coach/SKILL.md\ufffdW\ufffdr\u0013G\u0014\ufffd\ufffdWt\ufffd\ufffd\ufffdDR%$\u001b\u0015\ufffd&;*Y\ufffd\ufffd-\ufffd\u0001+`\ufffd5#\ufffd\ufffd!Y/\ufffd\ufffd\u0012%\ufffd\ufffd\"\n*\u0011\ufffd\u0007\u01b6\ufffd\u0012b\ufffd\ufffd\ufffd\ufffd\ufffd%9\ufffdv\ufffd<\nCR\u00140\ufffd\ufffd}\ufffd\ufffd{\ufffdP(x\ufffd\u02b6_Va\ufffd\ufffd[i\ufffd\u001a\ufffd\u0283\u008f\ufffd\ufffd\ufffd\ufffd\ufffdz\ufffdPmT\ufffd[\u07a6\u001fV\ufffd\ufffd\u000e_\ufffd\ufffd\u0342\ufffdT4\ufffdGz\u0011\ufffd\ufffdT\ufffdI\u0509\ufffd\ufffdT\ufffd\ufffd\ufffd>\ufffd\ufffdJ\ufffd\ufffd\ufffd\n\ufffd\ufffd=\ufffdS\ufffd\ufffd\ufffd\u07f9l\ufffdo\ufffd=n\ufffd3\ufffd jG\ufffdh\ufffd\ufffdo\ufffd\ufffd>\ufffd\ufffd\u0001mb\ufffdij\ufffd\ufffd;\ufffd9.\ufffd\ufffdh\u0018\ufffd\ufffd\ufffd\ufffd\ufffdV/4\ufffd\ufffd\u0013\ufffdK^\ufffd%\u07ea\ufffd-&\ufffd\u040dz\ufffd]4\ufffd\ufffd\ufffdn\ufffd\u0013~\ufffd\ufffd\u000e;-\ufffd0\ufffd\ufffd\ufffdz\ufffd\ufffdp\ufffd\ufffd\ufffd\ufffd+\n+1>t>\ufffdp\ufffd\u0000\ufffdgE%\ufffd\ufffd(\ufffd|\n\ufffd\u076e\ufffdD\t?\ufffd\u0004",
+      "intent": null
+    }
+  ],
+  "metadata": {
+    "has_executable_scripts": false,
+    "skillspector_version": "2.1.4",
+    "llm_requested": false,
+    "llm_available": false
+  }
+}

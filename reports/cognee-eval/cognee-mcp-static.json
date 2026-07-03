@@ -1,0 +1,1159 @@
+{
+  "skill": {
+    "name": "unknown",
+    "source": "/Users/khaledmac/project/cognee-eval/cognee/cognee-mcp",
+    "scanned_at": "2026-07-01T07:25:16.829277+00:00"
+  },
+  "risk_assessment": {
+    "score": 100,
+    "severity": "CRITICAL",
+    "recommendation": "DO_NOT_INSTALL"
+  },
+  "components": [
+    {
+      "path": "Dockerfile",
+      "type": "other",
+      "lines": 104,
+      "executable": false,
+      "size_bytes": 4471
+    },
+    {
+      "path": "README.md",
+      "type": "markdown",
+      "lines": 603,
+      "executable": false,
+      "size_bytes": 22830
+    },
+    {
+      "path": "apps-src/package-lock.json",
+      "type": "json",
+      "lines": 2737,
+      "executable": false,
+      "size_bytes": 93672
+    },
+    {
+      "path": "apps-src/package.json",
+      "type": "json",
+      "lines": 28,
+      "executable": false,
+      "size_bytes": 797
+    },
+    {
+      "path": "apps-src/src/design.css",
+      "type": "other",
+      "lines": 591,
+      "executable": false,
+      "size_bytes": 18241
+    },
+    {
+      "path": "apps-src/src/main.tsx",
+      "type": "other",
+      "lines": 1029,
+      "executable": false,
+      "size_bytes": 32415
+    },
+    {
+      "path": "apps-src/src/vite-env.d.ts",
+      "type": "typescript",
+      "lines": 1,
+      "executable": true,
+      "size_bytes": 38
+    },
+    {
+      "path": "apps-src/tsconfig.json",
+      "type": "json",
+      "lines": 20,
+      "executable": false,
+      "size_bytes": 505
+    },
+    {
+      "path": "apps-src/visualize-graph.html",
+      "type": "other",
+      "lines": 17,
+      "executable": false,
+      "size_bytes": 477
+    },
+    {
+      "path": "apps-src/vite.config.ts",
+      "type": "typescript",
+      "lines": 25,
+      "executable": true,
+      "size_bytes": 673
+    },
+    {
+      "path": "entrypoint.sh",
+      "type": "shell",
+      "lines": 141,
+      "executable": true,
+      "size_bytes": 5574
+    },
+    {
+      "path": "pyproject.toml",
+      "type": "toml",
+      "lines": 72,
+      "executable": false,
+      "size_bytes": 2265
+    },
+    {
+      "path": "src/__init__.py",
+      "type": "python",
+      "lines": 72,
+      "executable": true,
+      "size_bytes": 2038
+    },
+    {
+      "path": "src/client.py",
+      "type": "python",
+      "lines": 60,
+      "executable": true,
+      "size_bytes": 2384
+    },
+    {
+      "path": "src/codingagents/__init__.py",
+      "type": "python",
+      "lines": 0,
+      "executable": true,
+      "size_bytes": 0
+    },
+    {
+      "path": "src/codingagents/coding_rule_associations.py",
+      "type": "python",
+      "lines": 126,
+      "executable": true,
+      "size_bytes": 4361
+    },
+    {
+      "path": "src/cognee_client.py",
+      "type": "python",
+      "lines": 609,
+      "executable": true,
+      "size_bytes": 22526
+    },
+    {
+      "path": "src/retrieval_utils.py",
+      "type": "python",
+      "lines": 392,
+      "executable": true,
+      "size_bytes": 12641
+    },
+    {
+      "path": "src/server.py",
+      "type": "python",
+      "lines": 2019,
+      "executable": true,
+      "size_bytes": 76693
+    },
+    {
+      "path": "src/server_utils.py",
+      "type": "python",
+      "lines": 289,
+      "executable": true,
+      "size_bytes": 9231
+    },
+    {
+      "path": "src/strip_vectors.py",
+      "type": "python",
+      "lines": 27,
+      "executable": true,
+      "size_bytes": 1165
+    },
+    {
+      "path": "src/test_client.py",
+      "type": "python",
+      "lines": 173,
+      "executable": true,
+      "size_bytes": 6129
+    },
+    {
+      "path": "tests/test_mcp_server_hardening.py",
+      "type": "python",
+      "lines": 477,
+      "executable": true,
+      "size_bytes": 15271
+    },
+    {
+      "path": "uv.lock",
+      "type": "other",
+      "lines": 7658,
+      "executable": false,
+      "size_bytes": 1523875
+    }
+  ],
+  "issues": [
+    {
+      "id": "AST7",
+      "category": "Dangerous Code Execution",
+      "pattern": "Dynamic attribute access via getattr()",
+      "severity": "LOW",
+      "confidence": 0.5,
+      "location": {
+        "file": "src/retrieval_utils.py",
+        "start_line": 43,
+        "end_line": 43
+      },
+      "finding": "                key: getattr(node, key)",
+      "explanation": "Dynamic getattr() with a non-literal attribute name can access arbitrary object attributes, potentially bypassing access controls.",
+      "remediation": "Replace dynamic getattr() with explicit attribute access or a dictionary lookup with an allowlist of permitted attributes.",
+      "code_snippet": "            normalized = dict(node.items()) if hasattr(node, \"items\") else dict(node)\n        except (TypeError, ValueError):\n            normalized = {\n                key: getattr(node, key)\n                for key in dir(node)\n                if not key.startswith(\"_\") and not callable(getattr(node, key))\n            }",
+      "intent": null
+    },
+    {
+      "id": "AST7",
+      "category": "Dangerous Code Execution",
+      "pattern": "Dynamic attribute access via getattr()",
+      "severity": "LOW",
+      "confidence": 0.5,
+      "location": {
+        "file": "src/retrieval_utils.py",
+        "start_line": 45,
+        "end_line": 45
+      },
+      "finding": "                if not key.startswith(\"_\") and not callable(getattr(node, key))",
+      "explanation": "Dynamic getattr() with a non-literal attribute name can access arbitrary object attributes, potentially bypassing access controls.",
+      "remediation": "Replace dynamic getattr() with explicit attribute access or a dictionary lookup with an allowlist of permitted attributes.",
+      "code_snippet": "            normalized = {\n                key: getattr(node, key)\n                for key in dir(node)\n                if not key.startswith(\"_\") and not callable(getattr(node, key))\n            }\n\n    properties = normalized.get(\"properties\")",
+      "intent": null
+    },
+    {
+      "id": "AST7",
+      "category": "Dangerous Code Execution",
+      "pattern": "Dynamic attribute access via getattr()",
+      "severity": "LOW",
+      "confidence": 0.5,
+      "location": {
+        "file": "src/server.py",
+        "start_line": 1859,
+        "end_line": 1859
+      },
+      "finding": "    model_class = getattr(module, model_name)",
+      "explanation": "Dynamic getattr() with a non-literal attribute name can access arbitrary object attributes, potentially bypassing access controls.",
+      "remediation": "Replace dynamic getattr() with explicit attribute access or a dictionary lookup with an allowlist of permitted attributes.",
+      "code_snippet": "    module = importlib.util.module_from_spec(spec)\n    spec.loader.exec_module(module)\n\n    model_class = getattr(module, model_name)\n\n    return model_class\n",
+      "intent": null
+    },
+    {
+      "id": "AST7",
+      "category": "Dangerous Code Execution",
+      "pattern": "Dynamic attribute access via getattr()",
+      "severity": "LOW",
+      "confidence": 0.5,
+      "location": {
+        "file": "src/server_utils.py",
+        "start_line": 171,
+        "end_line": 171
+      },
+      "finding": "            field = getattr(value, name)",
+      "explanation": "Dynamic getattr() with a non-literal attribute name can access arbitrary object attributes, potentially bypassing access controls.",
+      "remediation": "Replace dynamic getattr() with explicit attribute access or a dictionary lookup with an allowlist of permitted attributes.",
+      "code_snippet": "        return None\n    for name in names:\n        if hasattr(value, name):\n            field = getattr(value, name)\n            if field is not None:\n                return field\n    return None",
+      "intent": null
+    },
+    {
+      "id": "E1",
+      "category": "Data Exfiltration",
+      "pattern": "External Transmission",
+      "severity": "MEDIUM",
+      "confidence": 0.5,
+      "location": {
+        "file": "README.md",
+        "start_line": 29,
+        "end_line": null
+      },
+      "finding": "https://api.producthunt.com/",
+      "explanation": "Data is being sent to an external URL. This could be legitimate telemetry or data exfiltration. Manual review is recommended.",
+      "remediation": "Verify the destination URL is trusted and necessary. Remove or replace with documented APIs. Ensure no secrets, tokens, or PII are transmitted.",
+      "code_snippet": "  [![License](https://img.shields.io/github/license/topoteretes/cognee?colorA=00C586&colorB=000000)](https://github.com/topoteretes/cognee/blob/main/LICENSE)\n  [![Contributors](https://img.shields.io/github/contributors/topoteretes/cognee?colorA=00C586&colorB=000000)](https://github.com/topoteretes/cognee/graphs/contributors)\n\n<a href=\"https://www.producthunt.com/posts/cognee?embed=true&utm_source=badge-top-post-badge&utm_medium=badge&utm_souce=badge-cognee\" target=\"_blank\"><img src=\"https://api.producthunt.com/widgets/embed-image/v1/top-post-badge.svg?post_id=946346&theme=light&period=daily&t=1744472480704\" alt=\"cognee - Memory&#0032;for&#0032;AI&#0032;Agents&#0032;&#0032;in&#0032;5&#0032;lines&#0032;of&#0032;code | Product Hunt\" style=\"width: 250px; height: 54px;\" width=\"250\" height=\"54\" /></a>\n\n<a href=\"https://trendshift.io/repositories/13955\" target=\"_blank\"><img src=\"https://trendshift.io/api/badge/repositories/13955\" alt=\"topoteretes%2Fcognee | Trendshift\" style=\"width: 250px; height: 55px;\" width=\"250\" height=\"55\"/></a>\n",
+      "intent": null
+    },
+    {
+      "id": "E1",
+      "category": "Data Exfiltration",
+      "pattern": "External Transmission",
+      "severity": "MEDIUM",
+      "confidence": 0.5,
+      "location": {
+        "file": "README.md",
+        "start_line": 603,
+        "end_line": null
+      },
+      "finding": "https://api.star-history.com/",
+      "explanation": "Data is being sent to an external URL. This could be legitimate telemetry or data exfiltration. Manual review is recommended.",
+      "remediation": "Verify the destination URL is trusted and necessary. Remove or replace with documented APIs. Ensure no secrets, tokens, or PII are transmitted.",
+      "code_snippet": "\n## Star History\n\n[![Star History Chart](https://api.star-history.com/svg?repos=topoteretes/cognee&type=Date)](https://star-history.com/#topoteretes/cognee&Date)",
+      "intent": null
+    },
+    {
+      "id": "E2",
+      "category": "Data Exfiltration",
+      "pattern": "Env Variable Harvesting",
+      "severity": "HIGH",
+      "confidence": 0.7,
+      "location": {
+        "file": "src/server.py",
+        "start_line": 1950,
+        "end_line": null
+      },
+      "finding": "os.environ.get(\"COGNEE_API_KEY",
+      "explanation": "Code accesses environment variables that may contain secrets (API keys, tokens). This is a common pattern for credential theft.",
+      "remediation": "Avoid reading sensitive env vars (API keys, tokens) unless strictly required. Use secrets managers or secure config. Never log or transmit credentials.",
+      "code_snippet": "\n    # Resolve cloud connection: CLI args take precedence over env vars\n    serve_url = args.serve_url or os.environ.get(\"COGNEE_SERVICE_URL\", \"\")\n    serve_api_key = args.serve_api_key or os.environ.get(\"COGNEE_API_KEY\", \"\")\n\n    # Connect to Cognee Cloud if configured (before migrations \u2014 cloud handles its own DB)\n    if serve_url and not args.api_url:",
+      "intent": null
+    },
+    {
+      "id": "E2",
+      "category": "Data Exfiltration",
+      "pattern": "Env Variable Harvesting",
+      "severity": "HIGH",
+      "confidence": 0.6,
+      "location": {
+        "file": "src/test_client.py",
+        "start_line": 41,
+        "end_line": null
+      },
+      "finding": "os.environ.copy()",
+      "explanation": "Code accesses environment variables that may contain secrets (API keys, tokens). This is a common pattern for credential theft.",
+      "remediation": "Avoid reading sensitive env vars (API keys, tokens) unless strictly required. Use secrets managers or secure config. Never log or transmit credentials.",
+      "code_snippet": "        server_params = StdioServerParameters(\n            command=\"python\",\n            args=[server_script, \"--transport\", \"stdio\"],\n            env=os.environ.copy(),\n        )\n\n        async with stdio_client(server_params) as (read, write):",
+      "intent": null
+    },
+    {
+      "id": "EA1",
+      "category": "Excessive Agency",
+      "pattern": "Unrestricted Tool Access",
+      "severity": "MEDIUM",
+      "confidence": 0.8,
+      "location": {
+        "file": "src/server.py",
+        "start_line": 1845,
+        "end_line": null
+      },
+      "finding": "run arbitrary code",
+      "explanation": "Skill grants unrestricted tool access without appropriate constraints. An agent with unfettered tool access can perform arbitrary actions including file modification, network requests, and code execution.",
+      "remediation": "Restrict tool access to only the tools required for the skill's stated purpose. Use an explicit allowlist rather than granting blanket access.",
+      "code_snippet": "\n    # Reject obvious nonsense before we hand the path to the import machinery.\n    # Note: this does not sandbox imports \u2014 anyone who can call cognify() with\n    # a custom graph_model_file can already run arbitrary code by construction.\n    # Operators exposing this tool over HTTP/SSE must enforce auth at the\n    # transport layer.\n    if not model_file.endswith(\".py\"):",
+      "intent": null
+    },
+    {
+      "id": "MP3",
+      "category": "Memory Poisoning",
+      "pattern": "Memory Manipulation",
+      "severity": "HIGH",
+      "confidence": 0.8,
+      "location": {
+        "file": "README.md",
+        "start_line": 493,
+        "end_line": null
+      },
+      "finding": "Delete memory",
+      "explanation": "Skill manipulates agent memory, state, or stored context. Memory corruption can alter personality, override safety rules, or cause unpredictable behavior.",
+      "remediation": "Protect agent memory and state from modification by untrusted content. Use read-only memory for critical instructions and validate all state changes.",
+      "code_snippet": "\n- **remember**: Store data in memory. With `session_id`: fast session cache. Without `session_id`: permanent graph memory\n- **recall**: Search memory with auto-routing. Searches session cache first when `session_id` is provided, then falls through to the permanent graph\n- **forget**: Delete memory by dataset name, or delete all owned memory with `everything=True`\n\n**Workspace UI Tools** (MCP Apps \u2014 Cursor, Claude Desktop, etc.):\n",
+      "intent": null
+    },
+    {
+      "id": "MP2",
+      "category": "Memory Poisoning",
+      "pattern": "Context Window Stuffing",
+      "severity": "MEDIUM",
+      "confidence": 0.8,
+      "location": {
+        "file": "src/strip_vectors.py",
+        "start_line": 6,
+        "end_line": null
+      },
+      "finding": "exhaust context window",
+      "explanation": "Skill attempts to fill the context window with filler content, displacing legitimate instructions and safety constraints. This can degrade agent performance or bypass safety boundaries.",
+      "remediation": "Implement context-window management that detects and rejects padding or stuffing attempts. Prioritize system instructions over user-injected content.",
+      "code_snippet": "\nSearch results from CHUNKS and SUMMARIES types include `text_vector` fields containing\nraw embedding vectors (e.g. 4096 floats, ~92KB per result). These are useless for LLM\nclients and quickly exhaust context windows.\n\nThis module provides a recursive filter that strips `text_vector` from any result\nstructure (dict, list, Pydantic model, or plain object) before MCP serialization.",
+      "intent": null
+    },
+    {
+      "id": "OH1",
+      "category": "Output Handling",
+      "pattern": "Unvalidated Output Injection",
+      "severity": "HIGH",
+      "confidence": 1.0,
+      "location": {
+        "file": "src/server.py",
+        "start_line": 1011,
+        "end_line": null
+      },
+      "finding": "f\"Delete operation completed successfully: {result",
+      "explanation": "Model output is used without validation or sanitization. Unvalidated output injected into downstream contexts (SQL, shell, HTML) enables injection attacks and arbitrary code execution.",
+      "remediation": "Validate and sanitize all model output before using it in downstream contexts. Use parameterized queries for SQL, shell quoting for commands, and HTML encoding for web output.",
+      "code_snippet": "                data_id=data_uuid, dataset_id=dataset_uuid, mode=normalized_mode\n            )\n\n            logger.info(f\"Delete operation completed successfully: {result}\")\n\n            # Format the result for MCP response\n            formatted_result = json.dumps(result, indent=2, cls=JSONEncoder)",
+      "intent": null
+    },
+    {
+      "id": "PE3",
+      "category": "Privilege Escalation",
+      "pattern": "Credential Access",
+      "severity": "HIGH",
+      "confidence": 0.6,
+      "location": {
+        "file": "README.md",
+        "start_line": 128,
+        "end_line": null
+      },
+      "finding": ".env ",
+      "explanation": "Code accesses credential files (SSH keys, AWS credentials, etc.). This could indicate credential theft attempts.",
+      "remediation": "Remove references to credential paths. Use environment variables or secrets managers. For docs, use placeholder paths (e.g., /path/to/config). Never load .env or token files in production code paths.",
+      "code_snippet": "      docker run \\\n        -e TRANSPORT_MODE=http \\\n        -e EXTRAS=aws \\\n        --env-file ./.env \\\n        -p 8000:8000 \\\n        --rm -it cognee/cognee-mcp:main\n",
+      "intent": null
+    },
+    {
+      "id": "RA2",
+      "category": "Rogue Agent",
+      "pattern": "Session Persistence",
+      "severity": "MEDIUM",
+      "confidence": 0.6,
+      "location": {
+        "file": "README.md",
+        "start_line": 163,
+        "end_line": null
+      },
+      "finding": "create the `.env` file the run commands expect first \u2014 it needs at least your LLM key:\n   ```bash\n   # Pull the prebuilt image\n   docker pull cognee/cognee-mcp:main\n\n   # Create a minimal .env in the ",
+      "explanation": "Skill establishes unauthorized persistence across sessions via cron jobs, startup scripts, or state files. Session persistence allows an attacker to maintain access beyond the current interaction.",
+      "remediation": "Remove any persistence mechanisms (cron jobs, startup scripts, state files). Skills should not maintain state across sessions without explicit user consent.",
+      "code_snippet": "2. **Pull from Docker Hub** (no build required):\n\n   The image is published to Docker Hub on every push to `main`. If you have **not** cloned the\n   repo, create the `.env` file the run commands expect first \u2014 it needs at least your LLM key:\n   ```bash\n   # Pull the prebuilt image\n   docker pull cognee/cognee-mcp:main",
+      "intent": null
+    },
+    {
+      "id": "RA2",
+      "category": "Rogue Agent",
+      "pattern": "Session Persistence",
+      "severity": "MEDIUM",
+      "confidence": 0.7,
+      "location": {
+        "file": "src/server.py",
+        "start_line": 93,
+        "end_line": null
+      },
+      "finding": "Spawn a background task",
+      "explanation": "Skill establishes unauthorized persistence across sessions via cron jobs, startup scripts, or state files. Session persistence allows an attacker to maintain access beyond the current interaction.",
+      "remediation": "Remove any persistence mechanisms (cron jobs, startup scripts, state files). Skills should not maintain state across sessions without explicit user consent.",
+      "code_snippet": "\n\ndef _track_background(coro) -> asyncio.Task:\n    \"\"\"Spawn a background task and pin it so the event loop won't GC it.\"\"\"\n    task = asyncio.create_task(coro)\n    _background_tasks.add(task)\n    task.add_done_callback(_background_tasks.discard)",
+      "intent": null
+    },
+    {
+      "id": "SC1",
+      "category": "Supply Chain",
+      "pattern": "Unpinned Dependencies",
+      "severity": "LOW",
+      "confidence": 0.4,
+      "location": {
+        "file": "apps-src/package.json",
+        "start_line": 12,
+        "end_line": null
+      },
+      "finding": "\"@modelcontextprotocol/ext-apps\": \"^1.7.0\"",
+      "explanation": "Dependencies lack version pinning, allowing potential malicious package updates. Consider pinning versions.",
+      "remediation": "Pin all dependency versions in requirements.txt or pyproject.toml. Use exact versions (==) or compatible ranges. Run pip-audit regularly.",
+      "code_snippet": "    \"watch\": \"cross-env INPUT=visualize-graph.html vite build --watch\"\n  },\n  \"dependencies\": {\n    \"@modelcontextprotocol/ext-apps\": \"^1.7.0\",\n    \"@modelcontextprotocol/sdk\": \"^1.29.0\",\n    \"d3\": \"^7.9.0\",\n    \"react\": \"^19.2.5\",",
+      "intent": null
+    },
+    {
+      "id": "SC1",
+      "category": "Supply Chain",
+      "pattern": "Unpinned Dependencies",
+      "severity": "LOW",
+      "confidence": 0.4,
+      "location": {
+        "file": "apps-src/package.json",
+        "start_line": 13,
+        "end_line": null
+      },
+      "finding": "\"@modelcontextprotocol/sdk\": \"^1.29.0\"",
+      "explanation": "Dependencies lack version pinning, allowing potential malicious package updates. Consider pinning versions.",
+      "remediation": "Pin all dependency versions in requirements.txt or pyproject.toml. Use exact versions (==) or compatible ranges. Run pip-audit regularly.",
+      "code_snippet": "  },\n  \"dependencies\": {\n    \"@modelcontextprotocol/ext-apps\": \"^1.7.0\",\n    \"@modelcontextprotocol/sdk\": \"^1.29.0\",\n    \"d3\": \"^7.9.0\",\n    \"react\": \"^19.2.5\",\n    \"react-dom\": \"^19.2.5\"",
+      "intent": null
+    },
+    {
+      "id": "SC1",
+      "category": "Supply Chain",
+      "pattern": "Unpinned Dependencies",
+      "severity": "LOW",
+      "confidence": 0.4,
+      "location": {
+        "file": "apps-src/package.json",
+        "start_line": 14,
+        "end_line": null
+      },
+      "finding": "\"d3\": \"^7.9.0\"",
+      "explanation": "Dependencies lack version pinning, allowing potential malicious package updates. Consider pinning versions.",
+      "remediation": "Pin all dependency versions in requirements.txt or pyproject.toml. Use exact versions (==) or compatible ranges. Run pip-audit regularly.",
+      "code_snippet": "  \"dependencies\": {\n    \"@modelcontextprotocol/ext-apps\": \"^1.7.0\",\n    \"@modelcontextprotocol/sdk\": \"^1.29.0\",\n    \"d3\": \"^7.9.0\",\n    \"react\": \"^19.2.5\",\n    \"react-dom\": \"^19.2.5\"\n  },",
+      "intent": null
+    },
+    {
+      "id": "SC1",
+      "category": "Supply Chain",
+      "pattern": "Unpinned Dependencies",
+      "severity": "LOW",
+      "confidence": 0.4,
+      "location": {
+        "file": "apps-src/package.json",
+        "start_line": 15,
+        "end_line": null
+      },
+      "finding": "\"react\": \"^19.2.5\"",
+      "explanation": "Dependencies lack version pinning, allowing potential malicious package updates. Consider pinning versions.",
+      "remediation": "Pin all dependency versions in requirements.txt or pyproject.toml. Use exact versions (==) or compatible ranges. Run pip-audit regularly.",
+      "code_snippet": "    \"@modelcontextprotocol/ext-apps\": \"^1.7.0\",\n    \"@modelcontextprotocol/sdk\": \"^1.29.0\",\n    \"d3\": \"^7.9.0\",\n    \"react\": \"^19.2.5\",\n    \"react-dom\": \"^19.2.5\"\n  },\n  \"devDependencies\": {",
+      "intent": null
+    },
+    {
+      "id": "SC1",
+      "category": "Supply Chain",
+      "pattern": "Unpinned Dependencies",
+      "severity": "LOW",
+      "confidence": 0.4,
+      "location": {
+        "file": "apps-src/package.json",
+        "start_line": 16,
+        "end_line": null
+      },
+      "finding": "\"react-dom\": \"^19.2.5\"",
+      "explanation": "Dependencies lack version pinning, allowing potential malicious package updates. Consider pinning versions.",
+      "remediation": "Pin all dependency versions in requirements.txt or pyproject.toml. Use exact versions (==) or compatible ranges. Run pip-audit regularly.",
+      "code_snippet": "    \"@modelcontextprotocol/sdk\": \"^1.29.0\",\n    \"d3\": \"^7.9.0\",\n    \"react\": \"^19.2.5\",\n    \"react-dom\": \"^19.2.5\"\n  },\n  \"devDependencies\": {\n    \"@types/node\": \"^25.6.0\",",
+      "intent": null
+    },
+    {
+      "id": "SC1",
+      "category": "Supply Chain",
+      "pattern": "Unpinned Dependencies",
+      "severity": "LOW",
+      "confidence": 0.4,
+      "location": {
+        "file": "apps-src/package.json",
+        "start_line": 19,
+        "end_line": null
+      },
+      "finding": "\"@types/node\": \"^25.6.0\"",
+      "explanation": "Dependencies lack version pinning, allowing potential malicious package updates. Consider pinning versions.",
+      "remediation": "Pin all dependency versions in requirements.txt or pyproject.toml. Use exact versions (==) or compatible ranges. Run pip-audit regularly.",
+      "code_snippet": "    \"react-dom\": \"^19.2.5\"\n  },\n  \"devDependencies\": {\n    \"@types/node\": \"^25.6.0\",\n    \"@types/react\": \"^19.2.14\",\n    \"@types/react-dom\": \"^19.2.3\",\n    \"@vitejs/plugin-react\": \"^6.0.1\",",
+      "intent": null
+    },
+    {
+      "id": "SC1",
+      "category": "Supply Chain",
+      "pattern": "Unpinned Dependencies",
+      "severity": "LOW",
+      "confidence": 0.4,
+      "location": {
+        "file": "apps-src/package.json",
+        "start_line": 20,
+        "end_line": null
+      },
+      "finding": "\"@types/react\": \"^19.2.14\"",
+      "explanation": "Dependencies lack version pinning, allowing potential malicious package updates. Consider pinning versions.",
+      "remediation": "Pin all dependency versions in requirements.txt or pyproject.toml. Use exact versions (==) or compatible ranges. Run pip-audit regularly.",
+      "code_snippet": "  },\n  \"devDependencies\": {\n    \"@types/node\": \"^25.6.0\",\n    \"@types/react\": \"^19.2.14\",\n    \"@types/react-dom\": \"^19.2.3\",\n    \"@vitejs/plugin-react\": \"^6.0.1\",\n    \"cross-env\": \"^10.1.0\",",
+      "intent": null
+    },
+    {
+      "id": "SC1",
+      "category": "Supply Chain",
+      "pattern": "Unpinned Dependencies",
+      "severity": "LOW",
+      "confidence": 0.4,
+      "location": {
+        "file": "apps-src/package.json",
+        "start_line": 21,
+        "end_line": null
+      },
+      "finding": "\"@types/react-dom\": \"^19.2.3\"",
+      "explanation": "Dependencies lack version pinning, allowing potential malicious package updates. Consider pinning versions.",
+      "remediation": "Pin all dependency versions in requirements.txt or pyproject.toml. Use exact versions (==) or compatible ranges. Run pip-audit regularly.",
+      "code_snippet": "  \"devDependencies\": {\n    \"@types/node\": \"^25.6.0\",\n    \"@types/react\": \"^19.2.14\",\n    \"@types/react-dom\": \"^19.2.3\",\n    \"@vitejs/plugin-react\": \"^6.0.1\",\n    \"cross-env\": \"^10.1.0\",\n    \"typescript\": \"^6.0.3\",",
+      "intent": null
+    },
+    {
+      "id": "SC1",
+      "category": "Supply Chain",
+      "pattern": "Unpinned Dependencies",
+      "severity": "LOW",
+      "confidence": 0.4,
+      "location": {
+        "file": "apps-src/package.json",
+        "start_line": 22,
+        "end_line": null
+      },
+      "finding": "\"@vitejs/plugin-react\": \"^6.0.1\"",
+      "explanation": "Dependencies lack version pinning, allowing potential malicious package updates. Consider pinning versions.",
+      "remediation": "Pin all dependency versions in requirements.txt or pyproject.toml. Use exact versions (==) or compatible ranges. Run pip-audit regularly.",
+      "code_snippet": "    \"@types/node\": \"^25.6.0\",\n    \"@types/react\": \"^19.2.14\",\n    \"@types/react-dom\": \"^19.2.3\",\n    \"@vitejs/plugin-react\": \"^6.0.1\",\n    \"cross-env\": \"^10.1.0\",\n    \"typescript\": \"^6.0.3\",\n    \"vite\": \"^8.0.10\",",
+      "intent": null
+    },
+    {
+      "id": "SC1",
+      "category": "Supply Chain",
+      "pattern": "Unpinned Dependencies",
+      "severity": "LOW",
+      "confidence": 0.4,
+      "location": {
+        "file": "apps-src/package.json",
+        "start_line": 23,
+        "end_line": null
+      },
+      "finding": "\"cross-env\": \"^10.1.0\"",
+      "explanation": "Dependencies lack version pinning, allowing potential malicious package updates. Consider pinning versions.",
+      "remediation": "Pin all dependency versions in requirements.txt or pyproject.toml. Use exact versions (==) or compatible ranges. Run pip-audit regularly.",
+      "code_snippet": "    \"@types/react\": \"^19.2.14\",\n    \"@types/react-dom\": \"^19.2.3\",\n    \"@vitejs/plugin-react\": \"^6.0.1\",\n    \"cross-env\": \"^10.1.0\",\n    \"typescript\": \"^6.0.3\",\n    \"vite\": \"^8.0.10\",\n    \"vite-plugin-singlefile\": \"^2.3.3\"",
+      "intent": null
+    },
+    {
+      "id": "SC1",
+      "category": "Supply Chain",
+      "pattern": "Unpinned Dependencies",
+      "severity": "LOW",
+      "confidence": 0.4,
+      "location": {
+        "file": "apps-src/package.json",
+        "start_line": 24,
+        "end_line": null
+      },
+      "finding": "\"typescript\": \"^6.0.3\"",
+      "explanation": "Dependencies lack version pinning, allowing potential malicious package updates. Consider pinning versions.",
+      "remediation": "Pin all dependency versions in requirements.txt or pyproject.toml. Use exact versions (==) or compatible ranges. Run pip-audit regularly.",
+      "code_snippet": "    \"@types/react-dom\": \"^19.2.3\",\n    \"@vitejs/plugin-react\": \"^6.0.1\",\n    \"cross-env\": \"^10.1.0\",\n    \"typescript\": \"^6.0.3\",\n    \"vite\": \"^8.0.10\",\n    \"vite-plugin-singlefile\": \"^2.3.3\"\n  }",
+      "intent": null
+    },
+    {
+      "id": "SC1",
+      "category": "Supply Chain",
+      "pattern": "Unpinned Dependencies",
+      "severity": "LOW",
+      "confidence": 0.4,
+      "location": {
+        "file": "apps-src/package.json",
+        "start_line": 25,
+        "end_line": null
+      },
+      "finding": "\"vite\": \"^8.0.10\"",
+      "explanation": "Dependencies lack version pinning, allowing potential malicious package updates. Consider pinning versions.",
+      "remediation": "Pin all dependency versions in requirements.txt or pyproject.toml. Use exact versions (==) or compatible ranges. Run pip-audit regularly.",
+      "code_snippet": "    \"@vitejs/plugin-react\": \"^6.0.1\",\n    \"cross-env\": \"^10.1.0\",\n    \"typescript\": \"^6.0.3\",\n    \"vite\": \"^8.0.10\",\n    \"vite-plugin-singlefile\": \"^2.3.3\"\n  }\n}",
+      "intent": null
+    },
+    {
+      "id": "SC1",
+      "category": "Supply Chain",
+      "pattern": "Unpinned Dependencies",
+      "severity": "LOW",
+      "confidence": 0.4,
+      "location": {
+        "file": "apps-src/package.json",
+        "start_line": 26,
+        "end_line": null
+      },
+      "finding": "\"vite-plugin-singlefile\": \"^2.3.3\"",
+      "explanation": "Dependencies lack version pinning, allowing potential malicious package updates. Consider pinning versions.",
+      "remediation": "Pin all dependency versions in requirements.txt or pyproject.toml. Use exact versions (==) or compatible ranges. Run pip-audit regularly.",
+      "code_snippet": "    \"cross-env\": \"^10.1.0\",\n    \"typescript\": \"^6.0.3\",\n    \"vite\": \"^8.0.10\",\n    \"vite-plugin-singlefile\": \"^2.3.3\"\n  }\n}",
+      "intent": null
+    },
+    {
+      "id": "SC4",
+      "category": "Supply Chain",
+      "pattern": "Known Vulnerable Dependency: vite==8.0.10 \u2014 2 advisory(ies): CVE-2026-53571 (vite: `server.fs.deny` bypass on Windows alternate paths); CVE-2026-53632 (launch-editor: NTLMv2 hash disclosure via UNC path handling on Windows)",
+      "severity": "HIGH",
+      "confidence": 0.8,
+      "location": {
+        "file": "apps-src/package.json",
+        "start_line": 25,
+        "end_line": null
+      },
+      "finding": "vite==8.0.10",
+      "explanation": "Dependency has known vulnerabilities (CVEs). Using packages with unpatched security flaws exposes the environment to known exploits.",
+      "remediation": "Update the dependency to a patched version that addresses the known CVE. Check OSV (osv.dev) or NVD for details on the vulnerability.",
+      "code_snippet": null,
+      "intent": null
+    },
+    {
+      "id": "SC6",
+      "category": "Supply Chain",
+      "pattern": "Possible Typosquatting: 'vite' resembles popular package 'vue'",
+      "severity": "HIGH",
+      "confidence": 0.7,
+      "location": {
+        "file": "apps-src/package.json",
+        "start_line": 25,
+        "end_line": null
+      },
+      "finding": "vite",
+      "explanation": "Package name closely resembles a popular package, suggesting possible typosquatting. Attackers publish malicious packages with similar names to trick developers into installing them.",
+      "remediation": "Verify the package name is correct and not a typosquatting variant. Compare against the official package name on PyPI or npm.",
+      "code_snippet": null,
+      "intent": null
+    },
+    {
+      "id": "SC4",
+      "category": "Supply Chain",
+      "pattern": "Known Vulnerable Dependency: requires-python \u2014 1 advisory(ies): MAL-2025-41747 (Malicious code in requires-python (PyPI))",
+      "severity": "HIGH",
+      "confidence": 0.8,
+      "location": {
+        "file": "pyproject.toml",
+        "start_line": 6,
+        "end_line": null
+      },
+      "finding": "requires-python",
+      "explanation": "Dependency has known vulnerabilities (CVEs). Using packages with unpatched security flaws exposes the environment to known exploits.",
+      "remediation": "Update the dependency to a patched version that addresses the known CVE. Check OSV (osv.dev) or NVD for details on the vulnerability.",
+      "code_snippet": null,
+      "intent": null
+    },
+    {
+      "id": "TM1",
+      "category": "Tool Misuse",
+      "pattern": "Tool Parameter Abuse",
+      "severity": "LOW",
+      "confidence": 0.15,
+      "location": {
+        "file": "Dockerfile",
+        "start_line": 35,
+        "end_line": null
+      },
+      "finding": "rm -rf /var/lib/apt/lists/*\n\n# Copy pyproject.toml and lockfile first for better caching\nCOPY ./cognee-mcp/pyproject.toml ./cognee-mcp/uv.lock ./cognee-mcp/entrypoint.sh ./\n\n# Install the project's de",
+      "explanation": "Tool parameters are crafted to achieve unintended or unsafe behavior. Parameter abuse can bypass intended safety checks (e.g. shell=True, --force, dangerous glob patterns).",
+      "remediation": "Validate all tool parameters against an allowlist. Reject dangerous parameter values (shell=True, --force, -rf /) and use safe defaults.",
+      "code_snippet": "RUN apt-get update && apt-get install -y --no-install-recommends \\\n    build-essential \\\n    libpq-dev \\\n    && rm -rf /var/lib/apt/lists/*\n\n# Copy pyproject.toml and lockfile first for better caching\nCOPY ./cognee-mcp/pyproject.toml ./cognee-mcp/uv.lock ./cognee-mcp/entrypoint.sh ./",
+      "intent": null
+    },
+    {
+      "id": "TM1",
+      "category": "Tool Misuse",
+      "pattern": "Tool Parameter Abuse",
+      "severity": "LOW",
+      "confidence": 0.15,
+      "location": {
+        "file": "Dockerfile",
+        "start_line": 35,
+        "end_line": null
+      },
+      "finding": "rm -rf /var/lib/apt/lists/",
+      "explanation": "Tool parameters are crafted to achieve unintended or unsafe behavior. Parameter abuse can bypass intended safety checks (e.g. shell=True, --force, dangerous glob patterns).",
+      "remediation": "Validate all tool parameters against an allowlist. Reject dangerous parameter values (shell=True, --force, -rf /) and use safe defaults.",
+      "code_snippet": "RUN apt-get update && apt-get install -y --no-install-recommends \\\n    build-essential \\\n    libpq-dev \\\n    && rm -rf /var/lib/apt/lists/*\n\n# Copy pyproject.toml and lockfile first for better caching\nCOPY ./cognee-mcp/pyproject.toml ./cognee-mcp/uv.lock ./cognee-mcp/entrypoint.sh ./",
+      "intent": null
+    },
+    {
+      "id": "TM1",
+      "category": "Tool Misuse",
+      "pattern": "Tool Parameter Abuse",
+      "severity": "LOW",
+      "confidence": 0.15,
+      "location": {
+        "file": "Dockerfile",
+        "start_line": 61,
+        "end_line": null
+      },
+      "finding": "rm -rf /var/lib/apt/lists/",
+      "explanation": "Tool parameters are crafted to achieve unintended or unsafe behavior. Parameter abuse can bypass intended safety checks (e.g. shell=True, --force, dangerous glob patterns).",
+      "remediation": "Validate all tool parameters against an allowlist. Reject dangerous parameter values (shell=True, --force, -rf /) and use safe defaults.",
+      "code_snippet": "\nRUN apt-get update && apt-get install -y --no-install-recommends \\\n    libpq5 \\\n    && rm -rf /var/lib/apt/lists/*\n\nWORKDIR /app\n",
+      "intent": null
+    },
+    {
+      "id": "TM2",
+      "category": "Tool Misuse",
+      "pattern": "Chaining Abuse",
+      "severity": "LOW",
+      "confidence": 0.15,
+      "location": {
+        "file": "Dockerfile",
+        "start_line": 35,
+        "end_line": null
+      },
+      "finding": "&& rm -",
+      "explanation": "Tool calls are chained to bypass individual safety checks or escalate capabilities beyond what any single tool call would allow.",
+      "remediation": "Limit tool chaining depth and validate the output of each tool before passing it to the next. Require explicit user approval for multi-step chains.",
+      "code_snippet": "RUN apt-get update && apt-get install -y --no-install-recommends \\\n    build-essential \\\n    libpq-dev \\\n    && rm -rf /var/lib/apt/lists/*\n\n# Copy pyproject.toml and lockfile first for better caching\nCOPY ./cognee-mcp/pyproject.toml ./cognee-mcp/uv.lock ./cognee-mcp/entrypoint.sh ./",
+      "intent": null
+    },
+    {
+      "id": "TM2",
+      "category": "Tool Misuse",
+      "pattern": "Chaining Abuse",
+      "severity": "LOW",
+      "confidence": 0.15,
+      "location": {
+        "file": "Dockerfile",
+        "start_line": 61,
+        "end_line": null
+      },
+      "finding": "&& rm -",
+      "explanation": "Tool calls are chained to bypass individual safety checks or escalate capabilities beyond what any single tool call would allow.",
+      "remediation": "Limit tool chaining depth and validate the output of each tool before passing it to the next. Require explicit user approval for multi-step chains.",
+      "code_snippet": "\nRUN apt-get update && apt-get install -y --no-install-recommends \\\n    libpq5 \\\n    && rm -rf /var/lib/apt/lists/*\n\nWORKDIR /app\n",
+      "intent": null
+    },
+    {
+      "id": "TM2",
+      "category": "Tool Misuse",
+      "pattern": "Chaining Abuse",
+      "severity": "LOW",
+      "confidence": 0.15,
+      "location": {
+        "file": "Dockerfile",
+        "start_line": 76,
+        "end_line": null
+      },
+      "finding": "&& chown -R",
+      "explanation": "Tool calls are chained to bypass individual safety checks or escalate capabilities beyond what any single tool call would allow.",
+      "remediation": "Limit tool chaining depth and validate the output of each tool before passing it to the next. Require explicit user approval for multi-step chains.",
+      "code_snippet": "# /app tree (which already exists from the COPY above) is readable.\nRUN groupadd --system --gid 1000 cognee \\\n    && useradd --system --uid 1000 --gid cognee --no-create-home --shell /usr/sbin/nologin cognee \\\n    && chown -R cognee:cognee /app\n\n# Place executables in the environment at the front of the path\nENV PATH=\"/app/.venv/bin:$PATH\"",
+      "intent": null
+    },
+    {
+      "id": "TM1",
+      "category": "Tool Misuse",
+      "pattern": "Tool Parameter Abuse",
+      "severity": "LOW",
+      "confidence": 0.15,
+      "location": {
+        "file": "README.md",
+        "start_line": 107,
+        "end_line": null
+      },
+      "finding": "rmi cognee/",
+      "explanation": "Tool parameters are crafted to achieve unintended or unsafe behavior. Parameter abuse can bypass intended safety checks (e.g. shell=True, --force, dangerous glob patterns).",
+      "remediation": "Validate all tool parameters against an allowlist. Reject dangerous parameter values (shell=True, --force, -rf /) and use safe defaults.",
+      "code_snippet": "   1. Make sure you are in /cognee root directory and have a fresh `.env` containing only your `LLM_API_KEY` (and your chosen settings).\n   2. Remove any old image and rebuild:\n      ```bash\n      docker rmi cognee/cognee-mcp:main || true\n      docker build --no-cache -f cognee-mcp/Dockerfile -t cognee/cognee-mcp:main .\n      ```\n   3. Run it:",
+      "intent": null
+    },
+    {
+      "id": "TM1",
+      "category": "Tool Misuse",
+      "pattern": "Tool Parameter Abuse",
+      "severity": "LOW",
+      "confidence": 0.15,
+      "location": {
+        "file": "README.md",
+        "start_line": 113,
+        "end_line": null
+      },
+      "finding": "rm -it cognee/",
+      "explanation": "Tool parameters are crafted to achieve unintended or unsafe behavior. Parameter abuse can bypass intended safety checks (e.g. shell=True, --force, dangerous glob patterns).",
+      "remediation": "Validate all tool parameters against an allowlist. Reject dangerous parameter values (shell=True, --force, -rf /) and use safe defaults.",
+      "code_snippet": "   3. Run it:\n      ```bash\n      # For HTTP transport (recommended for web deployments)\n      docker run -e TRANSPORT_MODE=http --env-file ./.env -p 8000:8000 --rm -it cognee/cognee-mcp:main\n      # For SSE transport\n      docker run -e TRANSPORT_MODE=sse --env-file ./.env -p 8000:8000 --rm -it cognee/cognee-mcp:main\n      # For stdio transport (default)",
+      "intent": null
+    },
+    {
+      "id": "TM1",
+      "category": "Tool Misuse",
+      "pattern": "Tool Parameter Abuse",
+      "severity": "LOW",
+      "confidence": 0.15,
+      "location": {
+        "file": "README.md",
+        "start_line": 115,
+        "end_line": null
+      },
+      "finding": "rm -it cognee/",
+      "explanation": "Tool parameters are crafted to achieve unintended or unsafe behavior. Parameter abuse can bypass intended safety checks (e.g. shell=True, --force, dangerous glob patterns).",
+      "remediation": "Validate all tool parameters against an allowlist. Reject dangerous parameter values (shell=True, --force, -rf /) and use safe defaults.",
+      "code_snippet": "      # For HTTP transport (recommended for web deployments)\n      docker run -e TRANSPORT_MODE=http --env-file ./.env -p 8000:8000 --rm -it cognee/cognee-mcp:main\n      # For SSE transport\n      docker run -e TRANSPORT_MODE=sse --env-file ./.env -p 8000:8000 --rm -it cognee/cognee-mcp:main\n      # For stdio transport (default)\n      docker run -e TRANSPORT_MODE=stdio --env-file ./.env --rm -it cognee/cognee-mcp:main\n      ```",
+      "intent": null
+    },
+    {
+      "id": "TM1",
+      "category": "Tool Misuse",
+      "pattern": "Tool Parameter Abuse",
+      "severity": "LOW",
+      "confidence": 0.15,
+      "location": {
+        "file": "README.md",
+        "start_line": 117,
+        "end_line": null
+      },
+      "finding": "rm -it cognee/",
+      "explanation": "Tool parameters are crafted to achieve unintended or unsafe behavior. Parameter abuse can bypass intended safety checks (e.g. shell=True, --force, dangerous glob patterns).",
+      "remediation": "Validate all tool parameters against an allowlist. Reject dangerous parameter values (shell=True, --force, -rf /) and use safe defaults.",
+      "code_snippet": "      # For SSE transport\n      docker run -e TRANSPORT_MODE=sse --env-file ./.env -p 8000:8000 --rm -it cognee/cognee-mcp:main\n      # For stdio transport (default)\n      docker run -e TRANSPORT_MODE=stdio --env-file ./.env --rm -it cognee/cognee-mcp:main\n      ```\n\n      **Installing optional dependencies at runtime:**",
+      "intent": null
+    },
+    {
+      "id": "TM1",
+      "category": "Tool Misuse",
+      "pattern": "Tool Parameter Abuse",
+      "severity": "HIGH",
+      "confidence": 0.85,
+      "location": {
+        "file": "README.md",
+        "start_line": 130,
+        "end_line": null
+      },
+      "finding": "rm -it cognee/",
+      "explanation": "Tool parameters are crafted to achieve unintended or unsafe behavior. Parameter abuse can bypass intended safety checks (e.g. shell=True, --force, dangerous glob patterns).",
+      "remediation": "Validate all tool parameters against an allowlist. Reject dangerous parameter values (shell=True, --force, -rf /) and use safe defaults.",
+      "code_snippet": "        -e EXTRAS=aws \\\n        --env-file ./.env \\\n        -p 8000:8000 \\\n        --rm -it cognee/cognee-mcp:main\n\n      # Install multiple optional dependency groups at runtime (comma-separated)\n      docker run \\",
+      "intent": null
+    },
+    {
+      "id": "TM1",
+      "category": "Tool Misuse",
+      "pattern": "Tool Parameter Abuse",
+      "severity": "HIGH",
+      "confidence": 0.85,
+      "location": {
+        "file": "README.md",
+        "start_line": 138,
+        "end_line": null
+      },
+      "finding": "rm -it cognee/",
+      "explanation": "Tool parameters are crafted to achieve unintended or unsafe behavior. Parameter abuse can bypass intended safety checks (e.g. shell=True, --force, dangerous glob patterns).",
+      "remediation": "Validate all tool parameters against an allowlist. Reject dangerous parameter values (shell=True, --force, -rf /) and use safe defaults.",
+      "code_snippet": "        -e EXTRAS=aws,postgres,neo4j \\\n        --env-file ./.env \\\n        -p 8000:8000 \\\n        --rm -it cognee/cognee-mcp:main\n      ```\n\n      **Available optional dependency groups:**",
+      "intent": null
+    },
+    {
+      "id": "TM1",
+      "category": "Tool Misuse",
+      "pattern": "Tool Parameter Abuse",
+      "severity": "LOW",
+      "confidence": 0.15,
+      "location": {
+        "file": "README.md",
+        "start_line": 173,
+        "end_line": null
+      },
+      "finding": "rm -it cognee/",
+      "explanation": "Tool parameters are crafted to achieve unintended or unsafe behavior. Parameter abuse can bypass intended safety checks (e.g. shell=True, --force, dangerous glob patterns).",
+      "remediation": "Validate all tool parameters against an allowlist. Reject dangerous parameter values (shell=True, --force, -rf /) and use safe defaults.",
+      "code_snippet": "   ```\n   ```bash\n   # With HTTP transport (recommended for web deployments)\n   docker run -e TRANSPORT_MODE=http --env-file ./.env -p 8000:8000 --rm -it cognee/cognee-mcp:main\n   # With SSE transport\n   docker run -e TRANSPORT_MODE=sse --env-file ./.env -p 8000:8000 --rm -it cognee/cognee-mcp:main\n   # With stdio transport (default)",
+      "intent": null
+    },
+    {
+      "id": "TM1",
+      "category": "Tool Misuse",
+      "pattern": "Tool Parameter Abuse",
+      "severity": "LOW",
+      "confidence": 0.15,
+      "location": {
+        "file": "README.md",
+        "start_line": 175,
+        "end_line": null
+      },
+      "finding": "rm -it cognee/",
+      "explanation": "Tool parameters are crafted to achieve unintended or unsafe behavior. Parameter abuse can bypass intended safety checks (e.g. shell=True, --force, dangerous glob patterns).",
+      "remediation": "Validate all tool parameters against an allowlist. Reject dangerous parameter values (shell=True, --force, -rf /) and use safe defaults.",
+      "code_snippet": "   # With HTTP transport (recommended for web deployments)\n   docker run -e TRANSPORT_MODE=http --env-file ./.env -p 8000:8000 --rm -it cognee/cognee-mcp:main\n   # With SSE transport\n   docker run -e TRANSPORT_MODE=sse --env-file ./.env -p 8000:8000 --rm -it cognee/cognee-mcp:main\n   # With stdio transport (default)\n   docker run -e TRANSPORT_MODE=stdio --env-file ./.env --rm -it cognee/cognee-mcp:main\n   ```",
+      "intent": null
+    },
+    {
+      "id": "TM1",
+      "category": "Tool Misuse",
+      "pattern": "Tool Parameter Abuse",
+      "severity": "LOW",
+      "confidence": 0.15,
+      "location": {
+        "file": "README.md",
+        "start_line": 177,
+        "end_line": null
+      },
+      "finding": "rm -it cognee/",
+      "explanation": "Tool parameters are crafted to achieve unintended or unsafe behavior. Parameter abuse can bypass intended safety checks (e.g. shell=True, --force, dangerous glob patterns).",
+      "remediation": "Validate all tool parameters against an allowlist. Reject dangerous parameter values (shell=True, --force, -rf /) and use safe defaults.",
+      "code_snippet": "   # With SSE transport\n   docker run -e TRANSPORT_MODE=sse --env-file ./.env -p 8000:8000 --rm -it cognee/cognee-mcp:main\n   # With stdio transport (default)\n   docker run -e TRANSPORT_MODE=stdio --env-file ./.env --rm -it cognee/cognee-mcp:main\n   ```\n\n   **With runtime installation of optional dependencies:**",
+      "intent": null
+    },
+    {
+      "id": "TM1",
+      "category": "Tool Misuse",
+      "pattern": "Tool Parameter Abuse",
+      "severity": "HIGH",
+      "confidence": 0.85,
+      "location": {
+        "file": "README.md",
+        "start_line": 188,
+        "end_line": null
+      },
+      "finding": "rm -it cognee/",
+      "explanation": "Tool parameters are crafted to achieve unintended or unsafe behavior. Parameter abuse can bypass intended safety checks (e.g. shell=True, --force, dangerous glob patterns).",
+      "remediation": "Validate all tool parameters against an allowlist. Reject dangerous parameter values (shell=True, --force, -rf /) and use safe defaults.",
+      "code_snippet": "     -e EXTRAS=aws,postgres \\\n     --env-file ./.env \\\n     -p 8000:8000 \\\n     --rm -it cognee/cognee-mcp:main\n   ```\n\n### **Important: Docker vs Direct Usage**",
+      "intent": null
+    },
+    {
+      "id": "TM1",
+      "category": "Tool Misuse",
+      "pattern": "Tool Parameter Abuse",
+      "severity": "HIGH",
+      "confidence": 0.85,
+      "location": {
+        "file": "README.md",
+        "start_line": 215,
+        "end_line": null
+      },
+      "finding": "rm -it cognee/",
+      "explanation": "Tool parameters are crafted to achieve unintended or unsafe behavior. Parameter abuse can bypass intended safety checks (e.g. shell=True, --force, dangerous glob patterns).",
+      "remediation": "Validate all tool parameters against an allowlist. Reject dangerous parameter values (shell=True, --force, -rf /) and use safe defaults.",
+      "code_snippet": "  -e API_URL=http://localhost:8000 \\\n  -e API_TOKEN=your_auth_token \\\n  -p 8001:8000 \\\n  --rm -it cognee/cognee-mcp:main\n```\n**Note:** The container will automatically convert `localhost` to `host.docker.internal` on Mac/Windows/Docker Desktop. You'll see a message in the logs showing the conversion.\n",
+      "intent": null
+    },
+    {
+      "id": "TM1",
+      "category": "Tool Misuse",
+      "pattern": "Tool Parameter Abuse",
+      "severity": "HIGH",
+      "confidence": 0.85,
+      "location": {
+        "file": "README.md",
+        "start_line": 227,
+        "end_line": null
+      },
+      "finding": "rm -it cognee/",
+      "explanation": "Tool parameters are crafted to achieve unintended or unsafe behavior. Parameter abuse can bypass intended safety checks (e.g. shell=True, --force, dangerous glob patterns).",
+      "remediation": "Validate all tool parameters against an allowlist. Reject dangerous parameter values (shell=True, --force, -rf /) and use safe defaults.",
+      "code_snippet": "  -e API_URL=http://host.docker.internal:8000 \\\n  -e API_TOKEN=your_auth_token \\\n  -p 8001:8000 \\\n  --rm -it cognee/cognee-mcp:main\n```\n\n#### **On Linux (use host network or container IP):**",
+      "intent": null
+    },
+    {
+      "id": "TM1",
+      "category": "Tool Misuse",
+      "pattern": "Tool Parameter Abuse",
+      "severity": "HIGH",
+      "confidence": 0.85,
+      "location": {
+        "file": "README.md",
+        "start_line": 238,
+        "end_line": null
+      },
+      "finding": "rm -it cognee/",
+      "explanation": "Tool parameters are crafted to achieve unintended or unsafe behavior. Parameter abuse can bypass intended safety checks (e.g. shell=True, --force, dangerous glob patterns).",
+      "remediation": "Validate all tool parameters against an allowlist. Reject dangerous parameter values (shell=True, --force, -rf /) and use safe defaults.",
+      "code_snippet": "  -e TRANSPORT_MODE=sse \\\n  -e API_URL=http://localhost:8000 \\\n  -e API_TOKEN=your_auth_token \\\n  --rm -it cognee/cognee-mcp:main\n\n# Option 2: Use host IP address\n# First, get your host IP: ip addr show docker0",
+      "intent": null
+    },
+    {
+      "id": "TM1",
+      "category": "Tool Misuse",
+      "pattern": "Tool Parameter Abuse",
+      "severity": "HIGH",
+      "confidence": 0.85,
+      "location": {
+        "file": "README.md",
+        "start_line": 247,
+        "end_line": null
+      },
+      "finding": "rm -it cognee/",
+      "explanation": "Tool parameters are crafted to achieve unintended or unsafe behavior. Parameter abuse can bypass intended safety checks (e.g. shell=True, --force, dangerous glob patterns).",
+      "remediation": "Validate all tool parameters against an allowlist. Reject dangerous parameter values (shell=True, --force, -rf /) and use safe defaults.",
+      "code_snippet": "  -e API_URL=http://172.17.0.1:8000 \\\n  -e API_TOKEN=your_auth_token \\\n  -p 8001:8000 \\\n  --rm -it cognee/cognee-mcp:main\n```\n\n**Environment variables for API mode:**",
+      "intent": null
+    },
+    {
+      "id": "TM1",
+      "category": "Tool Misuse",
+      "pattern": "Tool Parameter Abuse",
+      "severity": "LOW",
+      "confidence": 0.15,
+      "location": {
+        "file": "README.md",
+        "start_line": 267,
+        "end_line": null
+      },
+      "finding": "rm -it cognee/",
+      "explanation": "Tool parameters are crafted to achieve unintended or unsafe behavior. Parameter abuse can bypass intended safety checks (e.g. shell=True, --force, dangerous glob patterns).",
+      "remediation": "Validate all tool parameters against an allowlist. Reject dangerous parameter values (shell=True, --force, -rf /) and use safe defaults.",
+      "code_snippet": "\n**Start the server with SSE transport:**\n```bash\ndocker run -e TRANSPORT_MODE=sse --env-file ./.env -p 8000:8000 --rm -it cognee/cognee-mcp:main\n```\n\n**Configure your MCP client:**",
+      "intent": null
+    },
+    {
+      "id": "TM1",
+      "category": "Tool Misuse",
+      "pattern": "Tool Parameter Abuse",
+      "severity": "LOW",
+      "confidence": 0.15,
+      "location": {
+        "file": "README.md",
+        "start_line": 318,
+        "end_line": null
+      },
+      "finding": "rm -it cognee/",
+      "explanation": "Tool parameters are crafted to achieve unintended or unsafe behavior. Parameter abuse can bypass intended safety checks (e.g. shell=True, --force, dangerous glob patterns).",
+      "remediation": "Validate all tool parameters against an allowlist. Reject dangerous parameter values (shell=True, --force, -rf /) and use safe defaults.",
+      "code_snippet": "\n**Start the server with HTTP transport:**\n```bash\ndocker run -e TRANSPORT_MODE=http --env-file ./.env -p 8000:8000 --rm -it cognee/cognee-mcp:main\n```\n\n**Configure your MCP client:**",
+      "intent": null
+    },
+    {
+      "id": "TM1",
+      "category": "Tool Misuse",
+      "pattern": "Tool Parameter Abuse",
+      "severity": "HIGH",
+      "confidence": 0.85,
+      "location": {
+        "file": "README.md",
+        "start_line": 414,
+        "end_line": null
+      },
+      "finding": "rm -it cognee/",
+      "explanation": "Tool parameters are crafted to achieve unintended or unsafe behavior. Parameter abuse can bypass intended safety checks (e.g. shell=True, --force, dangerous glob patterns).",
+      "remediation": "Validate all tool parameters against an allowlist. Reject dangerous parameter values (shell=True, --force, -rf /) and use safe defaults.",
+      "code_snippet": "  -e COGNEE_SERVICE_URL=https://your-instance.cognee.ai \\\n  -e COGNEE_API_KEY=ck_... \\\n  -p 8000:8000 \\\n  --rm -it cognee/cognee-mcp:main\n```\n\n**Cloud Mode arguments / environment variables:**",
+      "intent": null
+    },
+    {
+      "id": "TM1",
+      "category": "Tool Misuse",
+      "pattern": "Tool Parameter Abuse",
+      "severity": "HIGH",
+      "confidence": 0.85,
+      "location": {
+        "file": "README.md",
+        "start_line": 457,
+        "end_line": null
+      },
+      "finding": "rm -it cognee/",
+      "explanation": "Tool parameters are crafted to achieve unintended or unsafe behavior. Parameter abuse can bypass intended safety checks (e.g. shell=True, --force, dangerous glob patterns).",
+      "remediation": "Validate all tool parameters against an allowlist. Reject dangerous parameter values (shell=True, --force, -rf /) and use safe defaults.",
+      "code_snippet": "  -e API_URL=http://host.docker.internal:8000 \\\n  -e API_TOKEN=YOUR_TOKEN \\\n  -p 8001:8000 \\\n  --rm -it cognee/cognee-mcp:main\n\n# On Linux (use host network)\ndocker run \\",
+      "intent": null
+    },
+    {
+      "id": "TM1",
+      "category": "Tool Misuse",
+      "pattern": "Tool Parameter Abuse",
+      "severity": "HIGH",
+      "confidence": 0.85,
+      "location": {
+        "file": "README.md",
+        "start_line": 465,
+        "end_line": null
+      },
+      "finding": "rm -it cognee/",
+      "explanation": "Tool parameters are crafted to achieve unintended or unsafe behavior. Parameter abuse can bypass intended safety checks (e.g. shell=True, --force, dangerous glob patterns).",
+      "remediation": "Validate all tool parameters against an allowlist. Reject dangerous parameter values (shell=True, --force, -rf /) and use safe defaults.",
+      "code_snippet": "  -e TRANSPORT_MODE=sse \\\n  -e API_URL=http://localhost:8000 \\\n  -e API_TOKEN=YOUR_TOKEN \\\n  --rm -it cognee/cognee-mcp:main\n```\n\n**Command-line arguments for API mode:**",
+      "intent": null
+    },
+    {
+      "id": "TM1",
+      "category": "Tool Misuse",
+      "pattern": "Tool Parameter Abuse",
+      "severity": "HIGH",
+      "confidence": 0.85,
+      "location": {
+        "file": "README.md",
+        "start_line": 533,
+        "end_line": null
+      },
+      "finding": "rm -rf \"$DATA_ROOT/.cognee_system\" \"$DATA_ROOT/",
+      "explanation": "Tool parameters are crafted to achieve unintended or unsafe behavior. Parameter abuse can bypass intended safety checks (e.g. shell=True, --force, dangerous glob patterns).",
+      "remediation": "Validate all tool parameters against an allowlist. Reject dangerous parameter values (shell=True, --force, -rf /) and use safe defaults.",
+      "code_snippet": "```bash\n# Stop server, then:\nDATA_ROOT=\"/absolute/path/to/data-root\"\nrm -rf \"$DATA_ROOT/.cognee_system\" \"$DATA_ROOT/.data_storage\"\n# Edit .env to flip ENABLE_BACKEND_ACCESS_CONTROL, restart, re-cognify.\n```\n",
+      "intent": null
+    }
+  ],
+  "metadata": {
+    "has_executable_scripts": true,
+    "skillspector_version": "2.1.4",
+    "llm_requested": false,
+    "llm_available": false
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "skill": {
+    "name": "image-to-code-rtl",
+    "source": "/Users/khaledmac/project/web-3d/.claude/skills/image-to-code-rtl",
+    "scanned_at": "2026-06-16T08:33:04.513834+00:00"
+  },
+  "risk_assessment": {
+    "score": 0,
+    "severity": "LOW",
+    "recommendation": "SAFE"
+  },
+  "components": [
+    {
+      "path": "SKILL.md",
+      "type": "markdown",
+      "lines": 232,
+      "executable": false,
+      "size_bytes": 10809
+    },
+    {
+      "path": "references/image-direction.md",
+      "type": "markdown",
+      "lines": 142,
+      "executable": false,
+      "size_bytes": 6520
+    },
+    {
+      "path": "references/rtl-implementation.md",
+      "type": "markdown",
+      "lines": 232,
+      "executable": false,
+      "size_bytes": 9807
+    }
+  ],
+  "issues": [],
+  "metadata": {
+    "has_executable_scripts": false,
+    "skillspector_version": "2.1.4",
+    "llm_requested": false,
+    "llm_available": false
+  }
+}

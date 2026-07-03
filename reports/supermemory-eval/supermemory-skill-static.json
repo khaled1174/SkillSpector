@@ -1,0 +1,571 @@
+{
+  "skill": {
+    "name": "supermemory",
+    "source": "/Users/khaledmac/project/supermemory-eval/supermemory/skills/supermemory",
+    "scanned_at": "2026-07-01T14:12:18.299088+00:00"
+  },
+  "risk_assessment": {
+    "score": 100,
+    "severity": "CRITICAL",
+    "recommendation": "DO_NOT_INSTALL"
+  },
+  "components": [
+    {
+      "path": "LICENSE",
+      "type": "other",
+      "lines": 201,
+      "executable": false,
+      "size_bytes": 11339
+    },
+    {
+      "path": "README.md",
+      "type": "markdown",
+      "lines": 221,
+      "executable": false,
+      "size_bytes": 7322
+    },
+    {
+      "path": "SKILL.md",
+      "type": "markdown",
+      "lines": 172,
+      "executable": false,
+      "size_bytes": 7072
+    },
+    {
+      "path": "references/api-reference.md",
+      "type": "markdown",
+      "lines": 591,
+      "executable": false,
+      "size_bytes": 13284
+    },
+    {
+      "path": "references/architecture.md",
+      "type": "markdown",
+      "lines": 557,
+      "executable": false,
+      "size_bytes": 15335
+    },
+    {
+      "path": "references/quickstart.md",
+      "type": "markdown",
+      "lines": 293,
+      "executable": false,
+      "size_bytes": 7612
+    },
+    {
+      "path": "references/sdk-guide.md",
+      "type": "markdown",
+      "lines": 655,
+      "executable": false,
+      "size_bytes": 16523
+    },
+    {
+      "path": "references/use-cases.md",
+      "type": "markdown",
+      "lines": 1033,
+      "executable": false,
+      "size_bytes": 25790
+    }
+  ],
+  "issues": [
+    {
+      "id": "E1",
+      "category": "Data Exfiltration",
+      "pattern": "External Transmission",
+      "severity": "MEDIUM",
+      "confidence": 0.5,
+      "location": {
+        "file": "README.md",
+        "start_line": 87,
+        "end_line": null
+      },
+      "finding": "https://api.anthropic.com/",
+      "explanation": "Data is being sent to an external URL. This could be legitimate telemetry or data exfiltration. Manual review is recommended.",
+      "remediation": "Verify the destination URL is trusted and necessary. Remove or replace with documented APIs. Ensure no secrets, tokens, or PII are transmitted.",
+      "code_snippet": "Use the Skills API to programmatically manage the skill:\n\n```bash\ncurl -X POST https://api.anthropic.com/v1/skills \\\n  -H \"x-api-key: $ANTHROPIC_API_KEY\" \\\n  -F \"skill=@supermemory.zip\"\n```",
+      "intent": null
+    },
+    {
+      "id": "E2",
+      "category": "Data Exfiltration",
+      "pattern": "Env Variable Harvesting",
+      "severity": "HIGH",
+      "confidence": 0.8,
+      "location": {
+        "file": "SKILL.md",
+        "start_line": 71,
+        "end_line": null
+      },
+      "finding": "os.environ[\"SUPERMEMORY_API_KEY\"]",
+      "explanation": "Code accesses environment variables that may contain secrets (API keys, tokens). This is a common pattern for credential theft.",
+      "remediation": "Avoid reading sensitive env vars (API keys, tokens) unless strictly required. Use secrets managers or secure config. Never log or transmit credentials.",
+      "code_snippet": "```python\nfrom supermemory import Supermemory\n\nclient = Supermemory(api_key=os.environ[\"SUPERMEMORY_API_KEY\"])\n\n# Retrieve context\ncontext = client.profile(",
+      "intent": null
+    },
+    {
+      "id": "E1",
+      "category": "Data Exfiltration",
+      "pattern": "External Transmission",
+      "severity": "MEDIUM",
+      "confidence": 0.6,
+      "location": {
+        "file": "references/api-reference.md",
+        "start_line": 406,
+        "end_line": null
+      },
+      "finding": "fetch('https://api.supermemory.ai/v3/documents', {\n  method: 'POST'",
+      "explanation": "Data is being sent to an external URL. This could be legitimate telemetry or data exfiltration. Manual review is recommended.",
+      "remediation": "Verify the destination URL is trusted and necessary. Remove or replace with documented APIs. Ensure no secrets, tokens, or PII are transmitted.",
+      "code_snippet": "Always check status codes and handle errors gracefully:\n\n```javascript\nconst response = await fetch('https://api.supermemory.ai/v3/documents', {\n  method: 'POST',\n  headers: {\n    'Authorization': `Bearer ${API_KEY}`,",
+      "intent": null
+    },
+    {
+      "id": "E1",
+      "category": "Data Exfiltration",
+      "pattern": "External Transmission",
+      "severity": "MEDIUM",
+      "confidence": 0.6,
+      "location": {
+        "file": "references/api-reference.md",
+        "start_line": 51,
+        "end_line": null
+      },
+      "finding": "curl -X POST https://api.supermemory.ai/v3/documents \\\n  -H \"Authorization: Bearer YOUR_API_KEY\" \\\n  -H \"Content-Type: application/json\" \\\n  -d ",
+      "explanation": "Data is being sent to an external URL. This could be legitimate telemetry or data exfiltration. Manual review is recommended.",
+      "remediation": "Verify the destination URL is trusted and necessary. Remove or replace with documented APIs. Ensure no secrets, tokens, or PII are transmitted.",
+      "code_snippet": "**Example Request:**\n\n```bash\ncurl -X POST https://api.supermemory.ai/v3/documents \\\n  -H \"Authorization: Bearer YOUR_API_KEY\" \\\n  -H \"Content-Type: application/json\" \\\n  -d '{",
+      "intent": null
+    },
+    {
+      "id": "E1",
+      "category": "Data Exfiltration",
+      "pattern": "External Transmission",
+      "severity": "MEDIUM",
+      "confidence": 0.6,
+      "location": {
+        "file": "references/api-reference.md",
+        "start_line": 164,
+        "end_line": null
+      },
+      "finding": "curl -X POST https://api.supermemory.ai/v4/search \\\n  -H \"Authorization: Bearer YOUR_API_KEY\" \\\n  -H \"Content-Type: application/json\" \\\n  -d ",
+      "explanation": "Data is being sent to an external URL. This could be legitimate telemetry or data exfiltration. Manual review is recommended.",
+      "remediation": "Verify the destination URL is trusted and necessary. Remove or replace with documented APIs. Ensure no secrets, tokens, or PII are transmitted.",
+      "code_snippet": "**Example Request:**\n\n```bash\ncurl -X POST https://api.supermemory.ai/v4/search \\\n  -H \"Authorization: Bearer YOUR_API_KEY\" \\\n  -H \"Content-Type: application/json\" \\\n  -d '{",
+      "intent": null
+    },
+    {
+      "id": "E1",
+      "category": "Data Exfiltration",
+      "pattern": "External Transmission",
+      "severity": "MEDIUM",
+      "confidence": 0.6,
+      "location": {
+        "file": "references/api-reference.md",
+        "start_line": 254,
+        "end_line": null
+      },
+      "finding": "curl -X POST https://api.supermemory.ai/v4/memories \\\n  -H \"Authorization: Bearer YOUR_API_KEY\" \\\n  -H \"Content-Type: application/json\" \\\n  -d ",
+      "explanation": "Data is being sent to an external URL. This could be legitimate telemetry or data exfiltration. Manual review is recommended.",
+      "remediation": "Verify the destination URL is trusted and necessary. Remove or replace with documented APIs. Ensure no secrets, tokens, or PII are transmitted.",
+      "code_snippet": "**Example Request:**\n\n```bash\ncurl -X POST https://api.supermemory.ai/v4/memories \\\n  -H \"Authorization: Bearer YOUR_API_KEY\" \\\n  -H \"Content-Type: application/json\" \\\n  -d '{",
+      "intent": null
+    },
+    {
+      "id": "E1",
+      "category": "Data Exfiltration",
+      "pattern": "External Transmission",
+      "severity": "MEDIUM",
+      "confidence": 0.6,
+      "location": {
+        "file": "references/api-reference.md",
+        "start_line": 391,
+        "end_line": null
+      },
+      "finding": "curl -X POST https://api.supermemory.ai/v3/documents \\\n  -H \"Authorization: Bearer YOUR_API_KEY\" \\\n  -H \"Content-Type: application/json\" \\\n  -d '{\n    \"content\": \"Important document\",\n    \"customId\": ",
+      "explanation": "Data is being sent to an external URL. This could be legitimate telemetry or data exfiltration. Manual review is recommended.",
+      "remediation": "Verify the destination URL is trusted and necessary. Remove or replace with documented APIs. Ensure no secrets, tokens, or PII are transmitted.",
+      "code_snippet": "Use `customId` for idempotency to prevent duplicate processing:\n\n```bash\ncurl -X POST https://api.supermemory.ai/v3/documents \\\n  -H \"Authorization: Bearer YOUR_API_KEY\" \\\n  -H \"Content-Type: application/json\" \\\n  -d '{",
+      "intent": null
+    },
+    {
+      "id": "E1",
+      "category": "Data Exfiltration",
+      "pattern": "External Transmission",
+      "severity": "MEDIUM",
+      "confidence": 0.5,
+      "location": {
+        "file": "references/api-reference.md",
+        "start_line": 29,
+        "end_line": null
+      },
+      "finding": "https://api.supermemory.ai/",
+      "explanation": "Data is being sent to an external URL. This could be legitimate telemetry or data exfiltration. Manual review is recommended.",
+      "remediation": "Verify the destination URL is trusted and necessary. Remove or replace with documented APIs. Ensure no secrets, tokens, or PII are transmitted.",
+      "code_snippet": "\n**Endpoint:**\n```\nPOST https://api.supermemory.ai/v3/documents\n```\n\n**Headers:**",
+      "intent": null
+    },
+    {
+      "id": "E1",
+      "category": "Data Exfiltration",
+      "pattern": "External Transmission",
+      "severity": "MEDIUM",
+      "confidence": 0.5,
+      "location": {
+        "file": "references/api-reference.md",
+        "start_line": 51,
+        "end_line": null
+      },
+      "finding": "https://api.supermemory.ai/",
+      "explanation": "Data is being sent to an external URL. This could be legitimate telemetry or data exfiltration. Manual review is recommended.",
+      "remediation": "Verify the destination URL is trusted and necessary. Remove or replace with documented APIs. Ensure no secrets, tokens, or PII are transmitted.",
+      "code_snippet": "**Example Request:**\n\n```bash\ncurl -X POST https://api.supermemory.ai/v3/documents \\\n  -H \"Authorization: Bearer YOUR_API_KEY\" \\\n  -H \"Content-Type: application/json\" \\\n  -d '{",
+      "intent": null
+    },
+    {
+      "id": "E1",
+      "category": "Data Exfiltration",
+      "pattern": "External Transmission",
+      "severity": "MEDIUM",
+      "confidence": 0.5,
+      "location": {
+        "file": "references/api-reference.md",
+        "start_line": 109,
+        "end_line": null
+      },
+      "finding": "https://api.supermemory.ai/",
+      "explanation": "Data is being sent to an external URL. This could be legitimate telemetry or data exfiltration. Manual review is recommended.",
+      "remediation": "Verify the destination URL is trusted and necessary. Remove or replace with documented APIs. Ensure no secrets, tokens, or PII are transmitted.",
+      "code_snippet": "\n**Endpoint:**\n```\nPOST https://api.supermemory.ai/v4/search\n```\n\n**Headers:**",
+      "intent": null
+    },
+    {
+      "id": "E1",
+      "category": "Data Exfiltration",
+      "pattern": "External Transmission",
+      "severity": "MEDIUM",
+      "confidence": 0.5,
+      "location": {
+        "file": "references/api-reference.md",
+        "start_line": 164,
+        "end_line": null
+      },
+      "finding": "https://api.supermemory.ai/",
+      "explanation": "Data is being sent to an external URL. This could be legitimate telemetry or data exfiltration. Manual review is recommended.",
+      "remediation": "Verify the destination URL is trusted and necessary. Remove or replace with documented APIs. Ensure no secrets, tokens, or PII are transmitted.",
+      "code_snippet": "**Example Request:**\n\n```bash\ncurl -X POST https://api.supermemory.ai/v4/search \\\n  -H \"Authorization: Bearer YOUR_API_KEY\" \\\n  -H \"Content-Type: application/json\" \\\n  -d '{",
+      "intent": null
+    },
+    {
+      "id": "E1",
+      "category": "Data Exfiltration",
+      "pattern": "External Transmission",
+      "severity": "MEDIUM",
+      "confidence": 0.5,
+      "location": {
+        "file": "references/api-reference.md",
+        "start_line": 232,
+        "end_line": null
+      },
+      "finding": "https://api.supermemory.ai/",
+      "explanation": "Data is being sent to an external URL. This could be legitimate telemetry or data exfiltration. Manual review is recommended.",
+      "remediation": "Verify the destination URL is trusted and necessary. Remove or replace with documented APIs. Ensure no secrets, tokens, or PII are transmitted.",
+      "code_snippet": "\n**Endpoint:**\n```\nPOST https://api.supermemory.ai/v4/memories\n```\n\n**Headers:**",
+      "intent": null
+    },
+    {
+      "id": "E1",
+      "category": "Data Exfiltration",
+      "pattern": "External Transmission",
+      "severity": "MEDIUM",
+      "confidence": 0.5,
+      "location": {
+        "file": "references/api-reference.md",
+        "start_line": 254,
+        "end_line": null
+      },
+      "finding": "https://api.supermemory.ai/",
+      "explanation": "Data is being sent to an external URL. This could be legitimate telemetry or data exfiltration. Manual review is recommended.",
+      "remediation": "Verify the destination URL is trusted and necessary. Remove or replace with documented APIs. Ensure no secrets, tokens, or PII are transmitted.",
+      "code_snippet": "**Example Request:**\n\n```bash\ncurl -X POST https://api.supermemory.ai/v4/memories \\\n  -H \"Authorization: Bearer YOUR_API_KEY\" \\\n  -H \"Content-Type: application/json\" \\\n  -d '{",
+      "intent": null
+    },
+    {
+      "id": "E1",
+      "category": "Data Exfiltration",
+      "pattern": "External Transmission",
+      "severity": "MEDIUM",
+      "confidence": 0.5,
+      "location": {
+        "file": "references/api-reference.md",
+        "start_line": 391,
+        "end_line": null
+      },
+      "finding": "https://api.supermemory.ai/",
+      "explanation": "Data is being sent to an external URL. This could be legitimate telemetry or data exfiltration. Manual review is recommended.",
+      "remediation": "Verify the destination URL is trusted and necessary. Remove or replace with documented APIs. Ensure no secrets, tokens, or PII are transmitted.",
+      "code_snippet": "Use `customId` for idempotency to prevent duplicate processing:\n\n```bash\ncurl -X POST https://api.supermemory.ai/v3/documents \\\n  -H \"Authorization: Bearer YOUR_API_KEY\" \\\n  -H \"Content-Type: application/json\" \\\n  -d '{",
+      "intent": null
+    },
+    {
+      "id": "E1",
+      "category": "Data Exfiltration",
+      "pattern": "External Transmission",
+      "severity": "MEDIUM",
+      "confidence": 0.5,
+      "location": {
+        "file": "references/api-reference.md",
+        "start_line": 406,
+        "end_line": null
+      },
+      "finding": "https://api.supermemory.ai/",
+      "explanation": "Data is being sent to an external URL. This could be legitimate telemetry or data exfiltration. Manual review is recommended.",
+      "remediation": "Verify the destination URL is trusted and necessary. Remove or replace with documented APIs. Ensure no secrets, tokens, or PII are transmitted.",
+      "code_snippet": "Always check status codes and handle errors gracefully:\n\n```javascript\nconst response = await fetch('https://api.supermemory.ai/v3/documents', {\n  method: 'POST',\n  headers: {\n    'Authorization': `Bearer ${API_KEY}`,",
+      "intent": null
+    },
+    {
+      "id": "E1",
+      "category": "Data Exfiltration",
+      "pattern": "External Transmission",
+      "severity": "MEDIUM",
+      "confidence": 0.5,
+      "location": {
+        "file": "references/api-reference.md",
+        "start_line": 473,
+        "end_line": null
+      },
+      "finding": "https://api.supermemory.ai/",
+      "explanation": "Data is being sent to an external URL. This could be legitimate telemetry or data exfiltration. Manual review is recommended.",
+      "remediation": "Verify the destination URL is trusted and necessary. Remove or replace with documented APIs. Ensure no secrets, tokens, or PII are transmitted.",
+      "code_snippet": "\n```bash\n# Add document\ncurl -X POST https://api.supermemory.ai/v3/documents \\\n  -H \"Authorization: Bearer YOUR_API_KEY\" \\\n  -d '{ \"content\": \"large-document.pdf\", \"containerTag\": \"docs\" }'\n",
+      "intent": null
+    },
+    {
+      "id": "E1",
+      "category": "Data Exfiltration",
+      "pattern": "External Transmission",
+      "severity": "MEDIUM",
+      "confidence": 0.5,
+      "location": {
+        "file": "references/api-reference.md",
+        "start_line": 480,
+        "end_line": null
+      },
+      "finding": "https://api.supermemory.ai/",
+      "explanation": "Data is being sent to an external URL. This could be legitimate telemetry or data exfiltration. Manual review is recommended.",
+      "remediation": "Verify the destination URL is trusted and necessary. Remove or replace with documented APIs. Ensure no secrets, tokens, or PII are transmitted.",
+      "code_snippet": "# Returns: { \"id\": \"doc_123\", \"status\": \"queued\" }\n\n# Later, list documents to check status\ncurl -X GET https://api.supermemory.ai/v3/documents?containerTag=docs \\\n  -H \"Authorization: Bearer YOUR_API_KEY\"\n```\n",
+      "intent": null
+    },
+    {
+      "id": "E1",
+      "category": "Data Exfiltration",
+      "pattern": "External Transmission",
+      "severity": "MEDIUM",
+      "confidence": 0.5,
+      "location": {
+        "file": "references/api-reference.md",
+        "start_line": 503,
+        "end_line": null
+      },
+      "finding": "https://api.supermemory.ai/",
+      "explanation": "Data is being sent to an external URL. This could be legitimate telemetry or data exfiltration. Manual review is recommended.",
+      "remediation": "Verify the destination URL is trusted and necessary. Remove or replace with documented APIs. Ensure no secrets, tokens, or PII are transmitted.",
+      "code_snippet": "### Add Text Content\n\n```bash\ncurl -X POST https://api.supermemory.ai/v3/documents \\\n  -H \"Authorization: Bearer YOUR_API_KEY\" \\\n  -H \"Content-Type: application/json\" \\\n  -d '{",
+      "intent": null
+    },
+    {
+      "id": "E1",
+      "category": "Data Exfiltration",
+      "pattern": "External Transmission",
+      "severity": "MEDIUM",
+      "confidence": 0.5,
+      "location": {
+        "file": "references/api-reference.md",
+        "start_line": 519,
+        "end_line": null
+      },
+      "finding": "https://api.supermemory.ai/",
+      "explanation": "Data is being sent to an external URL. This could be legitimate telemetry or data exfiltration. Manual review is recommended.",
+      "remediation": "Verify the destination URL is trusted and necessary. Remove or replace with documented APIs. Ensure no secrets, tokens, or PII are transmitted.",
+      "code_snippet": "### Add URL\n\n```bash\ncurl -X POST https://api.supermemory.ai/v3/documents \\\n  -H \"Authorization: Bearer YOUR_API_KEY\" \\\n  -H \"Content-Type: application/json\" \\\n  -d '{",
+      "intent": null
+    },
+    {
+      "id": "E1",
+      "category": "Data Exfiltration",
+      "pattern": "External Transmission",
+      "severity": "MEDIUM",
+      "confidence": 0.5,
+      "location": {
+        "file": "references/api-reference.md",
+        "start_line": 536,
+        "end_line": null
+      },
+      "finding": "https://api.supermemory.ai/",
+      "explanation": "Data is being sent to an external URL. This could be legitimate telemetry or data exfiltration. Manual review is recommended.",
+      "remediation": "Verify the destination URL is trusted and necessary. Remove or replace with documented APIs. Ensure no secrets, tokens, or PII are transmitted.",
+      "code_snippet": "### Search with Filters (Hybrid Mode for RAG)\n\n```bash\ncurl -X POST https://api.supermemory.ai/v4/search \\\n  -H \"Authorization: Bearer YOUR_API_KEY\" \\\n  -H \"Content-Type: application/json\" \\\n  -d '{",
+      "intent": null
+    },
+    {
+      "id": "E1",
+      "category": "Data Exfiltration",
+      "pattern": "External Transmission",
+      "severity": "MEDIUM",
+      "confidence": 0.5,
+      "location": {
+        "file": "references/api-reference.md",
+        "start_line": 563,
+        "end_line": null
+      },
+      "finding": "https://api.supermemory.ai/",
+      "explanation": "Data is being sent to an external URL. This could be legitimate telemetry or data exfiltration. Manual review is recommended.",
+      "remediation": "Verify the destination URL is trusted and necessary. Remove or replace with documented APIs. Ensure no secrets, tokens, or PII are transmitted.",
+      "code_snippet": "### Create Direct Memories\n\n```bash\ncurl -X POST https://api.supermemory.ai/v4/memories \\\n  -H \"Authorization: Bearer YOUR_API_KEY\" \\\n  -H \"Content-Type: application/json\" \\\n  -d '{",
+      "intent": null
+    },
+    {
+      "id": "E2",
+      "category": "Data Exfiltration",
+      "pattern": "Env Variable Harvesting",
+      "severity": "HIGH",
+      "confidence": 0.8,
+      "location": {
+        "file": "references/quickstart.md",
+        "start_line": 106,
+        "end_line": null
+      },
+      "finding": "os.environ[\"SUPERMEMORY_API_KEY\"]",
+      "explanation": "Code accesses environment variables that may contain secrets (API keys, tokens). This is a common pattern for credential theft.",
+      "remediation": "Avoid reading sensitive env vars (API keys, tokens) unless strictly required. Use secrets managers or secure config. Never log or transmit credentials.",
+      "code_snippet": "import os\nfrom supermemory import Supermemory\n\nclient = Supermemory(api_key=os.environ[\"SUPERMEMORY_API_KEY\"])\n\ndef main():\n    # 1. Retrieve context",
+      "intent": null
+    },
+    {
+      "id": "E2",
+      "category": "Data Exfiltration",
+      "pattern": "Env Variable Harvesting",
+      "severity": "HIGH",
+      "confidence": 0.8,
+      "location": {
+        "file": "references/quickstart.md",
+        "start_line": 158,
+        "end_line": null
+      },
+      "finding": "os.environ[\"SUPERMEMORY_API_KEY\"]",
+      "explanation": "Code accesses environment variables that may contain secrets (API keys, tokens). This is a common pattern for credential theft.",
+      "remediation": "Avoid reading sensitive env vars (API keys, tokens) unless strictly required. Use secrets managers or secure config. Never log or transmit credentials.",
+      "code_snippet": "from supermemory import AsyncSupermemory\n\nasync def main():\n    client = AsyncSupermemory(api_key=os.environ[\"SUPERMEMORY_API_KEY\"])\n\n    # 1. Retrieve context\n    response = await client.profile(",
+      "intent": null
+    },
+    {
+      "id": "E2",
+      "category": "Data Exfiltration",
+      "pattern": "Env Variable Harvesting",
+      "severity": "HIGH",
+      "confidence": 0.8,
+      "location": {
+        "file": "references/sdk-guide.md",
+        "start_line": 51,
+        "end_line": null
+      },
+      "finding": "os.environ[\"SUPERMEMORY_API_KEY\"]",
+      "explanation": "Code accesses environment variables that may contain secrets (API keys, tokens). This is a common pattern for credential theft.",
+      "remediation": "Avoid reading sensitive env vars (API keys, tokens) unless strictly required. Use secrets managers or secure config. Never log or transmit credentials.",
+      "code_snippet": "\n# Synchronous client\nclient = Supermemory(\n    api_key=os.environ[\"SUPERMEMORY_API_KEY\"],  # Optional if env var is set\n    base_url=\"https://api.supermemory.ai\"  # Optional, defaults to this\n)\n",
+      "intent": null
+    },
+    {
+      "id": "E2",
+      "category": "Data Exfiltration",
+      "pattern": "Env Variable Harvesting",
+      "severity": "HIGH",
+      "confidence": 0.8,
+      "location": {
+        "file": "references/sdk-guide.md",
+        "start_line": 59,
+        "end_line": null
+      },
+      "finding": "os.environ[\"SUPERMEMORY_API_KEY\"]",
+      "explanation": "Code accesses environment variables that may contain secrets (API keys, tokens). This is a common pattern for credential theft.",
+      "remediation": "Avoid reading sensitive env vars (API keys, tokens) unless strictly required. Use secrets managers or secure config. Never log or transmit credentials.",
+      "code_snippet": "from supermemory import AsyncSupermemory\n\nasync_client = AsyncSupermemory(\n    api_key=os.environ[\"SUPERMEMORY_API_KEY\"]\n)\n```\n",
+      "intent": null
+    },
+    {
+      "id": "EA3",
+      "category": "Excessive Agency",
+      "pattern": "Scope Creep",
+      "severity": "LOW",
+      "confidence": 0.7,
+      "location": {
+        "file": "LICENSE",
+        "start_line": 27,
+        "end_line": null
+      },
+      "finding": "not limited to",
+      "explanation": "Skill's behavior or capabilities extend beyond its stated purpose. Scope creep allows an agent to perform actions unrelated to its documented functionality, increasing the attack surface.",
+      "remediation": "Limit the skill's scope to its documented purpose. Remove instructions that enable the agent to perform actions outside its stated functionality.",
+      "code_snippet": "      exercising permissions granted by this License.\n\n      \"Source\" form shall mean the preferred form for making modifications,\n      including but not limited to software source code, documentation\n      source, and configuration files.\n\n      \"Object\" form shall mean any form resulting from mechanical",
+      "intent": null
+    },
+    {
+      "id": "EA3",
+      "category": "Excessive Agency",
+      "pattern": "Scope Creep",
+      "severity": "LOW",
+      "confidence": 0.7,
+      "location": {
+        "file": "LICENSE",
+        "start_line": 32,
+        "end_line": null
+      },
+      "finding": "not limited to",
+      "explanation": "Skill's behavior or capabilities extend beyond its stated purpose. Scope creep allows an agent to perform actions unrelated to its documented functionality, increasing the attack surface.",
+      "remediation": "Limit the skill's scope to its documented purpose. Remove instructions that enable the agent to perform actions outside its stated functionality.",
+      "code_snippet": "\n      \"Object\" form shall mean any form resulting from mechanical\n      transformation or translation of a Source form, including but\n      not limited to compiled object code, generated documentation,\n      and conversions to other media types.\n\n      \"Work\" shall mean the work of authorship, whether in Source or",
+      "intent": null
+    },
+    {
+      "id": "EA3",
+      "category": "Excessive Agency",
+      "pattern": "Scope Creep",
+      "severity": "LOW",
+      "confidence": 0.7,
+      "location": {
+        "file": "LICENSE",
+        "start_line": 55,
+        "end_line": null
+      },
+      "finding": "not limited to",
+      "explanation": "Skill's behavior or capabilities extend beyond its stated purpose. Scope creep allows an agent to perform actions unrelated to its documented functionality, increasing the attack surface.",
+      "remediation": "Limit the skill's scope to its documented purpose. Remove instructions that enable the agent to perform actions outside its stated functionality.",
+      "code_snippet": "      or by an individual or Legal Entity authorized to submit on behalf of\n      the copyright owner. For the purposes of this definition, \"submitted\"\n      means any form of electronic, verbal, or written communication sent\n      to the Licensor or its representatives, including but not limited to\n      communication on electronic mailing lists, source code control systems,\n      and issue tracking systems that are managed by, or on behalf of, the\n      Licensor for the purpose of discussing and improving the Work, but",
+      "intent": null
+    },
+    {
+      "id": "EA3",
+      "category": "Excessive Agency",
+      "pattern": "Scope Creep",
+      "severity": "LOW",
+      "confidence": 0.7,
+      "location": {
+        "file": "LICENSE",
+        "start_line": 160,
+        "end_line": null
+      },
+      "finding": "not limited to",
+      "explanation": "Skill's behavior or capabilities extend beyond its stated purpose. Scope creep allows an agent to perform actions unrelated to its documented functionality, increasing the attack surface.",
+      "remediation": "Limit the skill's scope to its documented purpose. Remove instructions that enable the agent to perform actions outside its stated functionality.",
+      "code_snippet": "      liable to You for damages, including any direct, indirect, special,\n      incidental, or consequential damages of any character arising as a\n      result of this License or out of the use or inability to use the\n      Work (including but not limited to damages for loss of goodwill,\n      work stoppage, computer failure or malfunction, or any and all\n      other commercial damages or losses), even if such Contributor\n      has been advised of the possibility of such damages.",
+      "intent": null
+    }
+  ],
+  "metadata": {
+    "has_executable_scripts": false,
+    "skillspector_version": "2.1.4",
+    "llm_requested": false,
+    "llm_available": false
+  }
+}

@@ -1,0 +1,1889 @@
+{
+  "skill": {
+    "name": "unknown",
+    "source": "/private/tmp/hermesatlas-skill-triage/Agents365-ai__drawio-skill",
+    "scanned_at": "2026-06-26T10:44:40.195718+00:00"
+  },
+  "risk_assessment": {
+    "score": 100,
+    "severity": "CRITICAL",
+    "recommendation": "DO_NOT_INSTALL"
+  },
+  "components": [
+    {
+      "path": ".github/workflows/sync-365-skills.yml",
+      "type": "yaml",
+      "lines": 85,
+      "executable": false,
+      "size_bytes": 2881
+    },
+    {
+      "path": ".github/workflows/tests.yml",
+      "type": "yaml",
+      "lines": 29,
+      "executable": false,
+      "size_bytes": 793
+    },
+    {
+      "path": "CHANGELOG.md",
+      "type": "markdown",
+      "lines": 157,
+      "executable": false,
+      "size_bytes": 6835
+    },
+    {
+      "path": "LICENSE",
+      "type": "other",
+      "lines": 21,
+      "executable": false,
+      "size_bytes": 1069
+    },
+    {
+      "path": "README.md",
+      "type": "markdown",
+      "lines": 332,
+      "executable": false,
+      "size_bytes": 18643
+    },
+    {
+      "path": "README_CN.md",
+      "type": "markdown",
+      "lines": 330,
+      "executable": false,
+      "size_bytes": 18151
+    },
+    {
+      "path": "assets/ai-logos-example.png",
+      "type": "other",
+      "lines": 5046,
+      "executable": false,
+      "size_bytes": 199486
+    },
+    {
+      "path": "assets/code-structure-example.png",
+      "type": "other",
+      "lines": 4513,
+      "executable": false,
+      "size_bytes": 167435
+    },
+    {
+      "path": "assets/demo-erd.drawio",
+      "type": "other",
+      "lines": 84,
+      "executable": false,
+      "size_bytes": 7300
+    },
+    {
+      "path": "assets/demo-layered-cn.drawio",
+      "type": "other",
+      "lines": 91,
+      "executable": false,
+      "size_bytes": 6614
+    },
+    {
+      "path": "assets/demo-layered-cn.png",
+      "type": "other",
+      "lines": 2353,
+      "executable": false,
+      "size_bytes": 99781
+    },
+    {
+      "path": "assets/demo-layered.drawio",
+      "type": "other",
+      "lines": 112,
+      "executable": false,
+      "size_bytes": 7109
+    },
+    {
+      "path": "assets/demo-layered.png",
+      "type": "other",
+      "lines": 2447,
+      "executable": false,
+      "size_bytes": 109259
+    },
+    {
+      "path": "assets/demo-ml.drawio",
+      "type": "other",
+      "lines": 90,
+      "executable": false,
+      "size_bytes": 4629
+    },
+    {
+      "path": "assets/demo-ring-cn.drawio",
+      "type": "other",
+      "lines": 68,
+      "executable": false,
+      "size_bytes": 4865
+    },
+    {
+      "path": "assets/demo-ring-cn.png",
+      "type": "other",
+      "lines": 1851,
+      "executable": false,
+      "size_bytes": 80974
+    },
+    {
+      "path": "assets/demo-ring.drawio",
+      "type": "other",
+      "lines": 86,
+      "executable": false,
+      "size_bytes": 5295
+    },
+    {
+      "path": "assets/demo-ring.png",
+      "type": "other",
+      "lines": 1814,
+      "executable": false,
+      "size_bytes": 81228
+    },
+    {
+      "path": "assets/demo-sequence.drawio",
+      "type": "other",
+      "lines": 116,
+      "executable": false,
+      "size_bytes": 6396
+    },
+    {
+      "path": "assets/demo-star-cn.drawio",
+      "type": "other",
+      "lines": 66,
+      "executable": false,
+      "size_bytes": 4264
+    },
+    {
+      "path": "assets/demo-star-cn.png",
+      "type": "other",
+      "lines": 2058,
+      "executable": false,
+      "size_bytes": 89623
+    },
+    {
+      "path": "assets/demo-star.drawio",
+      "type": "other",
+      "lines": 79,
+      "executable": false,
+      "size_bytes": 4679
+    },
+    {
+      "path": "assets/demo-star.png",
+      "type": "other",
+      "lines": 2280,
+      "executable": false,
+      "size_bytes": 97388
+    },
+    {
+      "path": "assets/demo-uml-class.drawio",
+      "type": "other",
+      "lines": 64,
+      "executable": false,
+      "size_bytes": 5316
+    },
+    {
+      "path": "assets/microservices-example.drawio",
+      "type": "other",
+      "lines": 173,
+      "executable": false,
+      "size_bytes": 12200
+    },
+    {
+      "path": "assets/microservices-example.png",
+      "type": "other",
+      "lines": 3816,
+      "executable": false,
+      "size_bytes": 144610
+    },
+    {
+      "path": "assets/shape-search-example.png",
+      "type": "other",
+      "lines": 8318,
+      "executable": false,
+      "size_bytes": 293866
+    },
+    {
+      "path": "assets/workflow-cn.drawio",
+      "type": "other",
+      "lines": 103,
+      "executable": false,
+      "size_bytes": 7077
+    },
+    {
+      "path": "assets/workflow-cn.png",
+      "type": "other",
+      "lines": 3467,
+      "executable": false,
+      "size_bytes": 137724
+    },
+    {
+      "path": "assets/workflow.drawio",
+      "type": "other",
+      "lines": 103,
+      "executable": false,
+      "size_bytes": 7088
+    },
+    {
+      "path": "assets/workflow.png",
+      "type": "other",
+      "lines": 3415,
+      "executable": false,
+      "size_bytes": 137975
+    },
+    {
+      "path": "docs/COMPARISON.md",
+      "type": "markdown",
+      "lines": 63,
+      "executable": false,
+      "size_bytes": 5614
+    },
+    {
+      "path": "docs/COMPARISON_CN.md",
+      "type": "markdown",
+      "lines": 63,
+      "executable": false,
+      "size_bytes": 5304
+    },
+    {
+      "path": "docs/INSTALL_CLI.md",
+      "type": "markdown",
+      "lines": 40,
+      "executable": false,
+      "size_bytes": 858
+    },
+    {
+      "path": "docs/INSTALL_CLI_CN.md",
+      "type": "markdown",
+      "lines": 40,
+      "executable": false,
+      "size_bytes": 871
+    },
+    {
+      "path": "docs/INSTALL_SKILL.md",
+      "type": "markdown",
+      "lines": 41,
+      "executable": false,
+      "size_bytes": 1084
+    },
+    {
+      "path": "docs/INSTALL_SKILL_CN.md",
+      "type": "markdown",
+      "lines": 41,
+      "executable": false,
+      "size_bytes": 1096
+    },
+    {
+      "path": "docs/STYLE_PRESETS.md",
+      "type": "markdown",
+      "lines": 47,
+      "executable": false,
+      "size_bytes": 1609
+    },
+    {
+      "path": "docs/STYLE_PRESETS_CN.md",
+      "type": "markdown",
+      "lines": 47,
+      "executable": false,
+      "size_bytes": 1517
+    },
+    {
+      "path": "docs/USAGE.md",
+      "type": "markdown",
+      "lines": 84,
+      "executable": false,
+      "size_bytes": 3590
+    },
+    {
+      "path": "docs/USAGE_CN.md",
+      "type": "markdown",
+      "lines": 85,
+      "executable": false,
+      "size_bytes": 3562
+    },
+    {
+      "path": "docs/index.html",
+      "type": "other",
+      "lines": 546,
+      "executable": false,
+      "size_bytes": 28951
+    },
+    {
+      "path": "docs/zh.html",
+      "type": "other",
+      "lines": 534,
+      "executable": false,
+      "size_bytes": 28473
+    },
+    {
+      "path": "skills/drawio-skill/SKILL.md",
+      "type": "markdown",
+      "lines": 486,
+      "executable": false,
+      "size_bytes": 36663
+    },
+    {
+      "path": "skills/drawio-skill/data/SHAPE-INDEX-NOTICE.md",
+      "type": "markdown",
+      "lines": 17,
+      "executable": false,
+      "size_bytes": 880
+    },
+    {
+      "path": "skills/drawio-skill/data/lobe-icons.json",
+      "type": "json",
+      "lines": 878,
+      "executable": false,
+      "size_bytes": 12919
+    },
+    {
+      "path": "skills/drawio-skill/data/shape-index.json.gz",
+      "type": "other",
+      "lines": 11700,
+      "executable": false,
+      "size_bytes": 436148
+    },
+    {
+      "path": "skills/drawio-skill/references/autolayout.md",
+      "type": "markdown",
+      "lines": 125,
+      "executable": false,
+      "size_bytes": 10545
+    },
+    {
+      "path": "skills/drawio-skill/references/diagram-types.md",
+      "type": "markdown",
+      "lines": 83,
+      "executable": false,
+      "size_bytes": 5702
+    },
+    {
+      "path": "skills/drawio-skill/references/shapes.md",
+      "type": "markdown",
+      "lines": 151,
+      "executable": false,
+      "size_bytes": 7155
+    },
+    {
+      "path": "skills/drawio-skill/references/style-extraction.md",
+      "type": "markdown",
+      "lines": 255,
+      "executable": false,
+      "size_bytes": 17575
+    },
+    {
+      "path": "skills/drawio-skill/references/style-presets.md",
+      "type": "markdown",
+      "lines": 110,
+      "executable": false,
+      "size_bytes": 9963
+    },
+    {
+      "path": "skills/drawio-skill/references/troubleshooting.md",
+      "type": "markdown",
+      "lines": 63,
+      "executable": false,
+      "size_bytes": 5280
+    },
+    {
+      "path": "skills/drawio-skill/scripts/aiicons.py",
+      "type": "python",
+      "lines": 201,
+      "executable": true,
+      "size_bytes": 7621
+    },
+    {
+      "path": "skills/drawio-skill/scripts/autolayout.py",
+      "type": "python",
+      "lines": 341,
+      "executable": true,
+      "size_bytes": 14777
+    },
+    {
+      "path": "skills/drawio-skill/scripts/encode_drawio_url.py",
+      "type": "python",
+      "lines": 58,
+      "executable": true,
+      "size_bytes": 2250
+    },
+    {
+      "path": "skills/drawio-skill/scripts/goimports.py",
+      "type": "python",
+      "lines": 141,
+      "executable": true,
+      "size_bytes": 5557
+    },
+    {
+      "path": "skills/drawio-skill/scripts/jsimports.py",
+      "type": "python",
+      "lines": 162,
+      "executable": true,
+      "size_bytes": 6314
+    },
+    {
+      "path": "skills/drawio-skill/scripts/pyclasses.py",
+      "type": "python",
+      "lines": 156,
+      "executable": true,
+      "size_bytes": 6221
+    },
+    {
+      "path": "skills/drawio-skill/scripts/pyimports.py",
+      "type": "python",
+      "lines": 153,
+      "executable": true,
+      "size_bytes": 6353
+    },
+    {
+      "path": "skills/drawio-skill/scripts/repair_png.py",
+      "type": "python",
+      "lines": 37,
+      "executable": true,
+      "size_bytes": 1097
+    },
+    {
+      "path": "skills/drawio-skill/scripts/rustimports.py",
+      "type": "python",
+      "lines": 203,
+      "executable": true,
+      "size_bytes": 7610
+    },
+    {
+      "path": "skills/drawio-skill/scripts/shapesearch.py",
+      "type": "python",
+      "lines": 162,
+      "executable": true,
+      "size_bytes": 5967
+    },
+    {
+      "path": "skills/drawio-skill/scripts/validate.py",
+      "type": "python",
+      "lines": 318,
+      "executable": true,
+      "size_bytes": 12127
+    },
+    {
+      "path": "skills/drawio-skill/styles/built-in/corporate.json",
+      "type": "json",
+      "lines": 49,
+      "executable": false,
+      "size_bytes": 1471
+    },
+    {
+      "path": "skills/drawio-skill/styles/built-in/default.json",
+      "type": "json",
+      "lines": 49,
+      "executable": false,
+      "size_bytes": 1454
+    },
+    {
+      "path": "skills/drawio-skill/styles/built-in/handdrawn.json",
+      "type": "json",
+      "lines": 49,
+      "executable": false,
+      "size_bytes": 1474
+    },
+    {
+      "path": "skills/drawio-skill/styles/schema.json",
+      "type": "json",
+      "lines": 112,
+      "executable": false,
+      "size_bytes": 3949
+    },
+    {
+      "path": "tests/README.md",
+      "type": "markdown",
+      "lines": 24,
+      "executable": false,
+      "size_bytes": 1122
+    },
+    {
+      "path": "tests/test_scripts.py",
+      "type": "python",
+      "lines": 423,
+      "executable": true,
+      "size_bytes": 19629
+    }
+  ],
+  "issues": [
+    {
+      "id": "AST4",
+      "category": "Dangerous Code Execution",
+      "pattern": "subprocess module call",
+      "severity": "MEDIUM",
+      "confidence": 0.7,
+      "location": {
+        "file": "skills/drawio-skill/scripts/autolayout.py",
+        "start_line": 154,
+        "end_line": 157
+      },
+      "finding": "        proc = subprocess.run(\n            [\"dot\", \"-Tplain\"], input=dot_src,\n            capture_output=True, text=True, check=True,\n        )",
+      "explanation": "subprocess module calls execute external commands. Without careful input validation, this enables command injection.",
+      "remediation": "Use subprocess.run() with shell=False and an explicit argument list. Validate all inputs and avoid passing user-controlled data to commands.",
+      "code_snippet": "    of orthogonal control points dot computed for routing, endpoints included.\n    \"\"\"\n    try:\n        proc = subprocess.run(\n            [\"dot\", \"-Tplain\"], input=dot_src,\n            capture_output=True, text=True, check=True,\n        )",
+      "intent": null
+    },
+    {
+      "id": "AST4",
+      "category": "Dangerous Code Execution",
+      "pattern": "subprocess module call",
+      "severity": "MEDIUM",
+      "confidence": 0.7,
+      "location": {
+        "file": "skills/drawio-skill/scripts/goimports.py",
+        "start_line": 82,
+        "end_line": 83
+      },
+      "finding": "        out = subprocess.run([\"tred\"], input=dot, capture_output=True,\n                             text=True, check=True).stdout",
+      "explanation": "subprocess module calls execute external commands. Without careful input validation, this enables command injection.",
+      "remediation": "Use subprocess.run() with shell=False and an explicit argument list. Validate all inputs and avoid passing user-controlled data to commands.",
+      "code_snippet": "    idx = {n: i for i, n in enumerate(nodes)}\n    dot = \"digraph{\" + \"\".join(f\"{idx[s]}->{idx[t]};\" for s, t in edges) + \"}\"\n    try:\n        out = subprocess.run([\"tred\"], input=dot, capture_output=True,\n                             text=True, check=True).stdout\n    except (FileNotFoundError, subprocess.CalledProcessError) as exc:\n        sys.stderr.write(f\"warning: tred unavailable, keeping all edges ({exc})\\n\")",
+      "intent": null
+    },
+    {
+      "id": "AST4",
+      "category": "Dangerous Code Execution",
+      "pattern": "subprocess module call",
+      "severity": "MEDIUM",
+      "confidence": 0.7,
+      "location": {
+        "file": "skills/drawio-skill/scripts/jsimports.py",
+        "start_line": 96,
+        "end_line": 97
+      },
+      "finding": "        out = subprocess.run([\"tred\"], input=dot, capture_output=True,\n                             text=True, check=True).stdout",
+      "explanation": "subprocess module calls execute external commands. Without careful input validation, this enables command injection.",
+      "remediation": "Use subprocess.run() with shell=False and an explicit argument list. Validate all inputs and avoid passing user-controlled data to commands.",
+      "code_snippet": "    idx = {n: i for i, n in enumerate(nodes)}\n    dot = \"digraph{\" + \"\".join(f\"{idx[s]}->{idx[t]};\" for s, t in edges) + \"}\"\n    try:\n        out = subprocess.run([\"tred\"], input=dot, capture_output=True,\n                             text=True, check=True).stdout\n    except (FileNotFoundError, subprocess.CalledProcessError) as exc:\n        sys.stderr.write(f\"warning: tred unavailable, keeping all edges ({exc})\\n\")",
+      "intent": null
+    },
+    {
+      "id": "AST4",
+      "category": "Dangerous Code Execution",
+      "pattern": "subprocess module call",
+      "severity": "MEDIUM",
+      "confidence": 0.7,
+      "location": {
+        "file": "skills/drawio-skill/scripts/pyclasses.py",
+        "start_line": 78,
+        "end_line": 79
+      },
+      "finding": "        out = subprocess.run([\"tred\"], input=dot, capture_output=True,\n                             text=True, check=True).stdout",
+      "explanation": "subprocess module calls execute external commands. Without careful input validation, this enables command injection.",
+      "remediation": "Use subprocess.run() with shell=False and an explicit argument list. Validate all inputs and avoid passing user-controlled data to commands.",
+      "code_snippet": "    idx = {n: i for i, n in enumerate(nodes)}\n    dot = \"digraph{\" + \"\".join(f\"{idx[s]}->{idx[t]};\" for s, t in edges) + \"}\"\n    try:\n        out = subprocess.run([\"tred\"], input=dot, capture_output=True,\n                             text=True, check=True).stdout\n    except (FileNotFoundError, subprocess.CalledProcessError) as exc:\n        sys.stderr.write(f\"warning: tred unavailable, keeping all edges ({exc})\\n\")",
+      "intent": null
+    },
+    {
+      "id": "AST4",
+      "category": "Dangerous Code Execution",
+      "pattern": "subprocess module call",
+      "severity": "MEDIUM",
+      "confidence": 0.7,
+      "location": {
+        "file": "skills/drawio-skill/scripts/pyimports.py",
+        "start_line": 97,
+        "end_line": 98
+      },
+      "finding": "        out = subprocess.run([\"tred\"], input=dot, capture_output=True,\n                             text=True, check=True).stdout",
+      "explanation": "subprocess module calls execute external commands. Without careful input validation, this enables command injection.",
+      "remediation": "Use subprocess.run() with shell=False and an explicit argument list. Validate all inputs and avoid passing user-controlled data to commands.",
+      "code_snippet": "    idx = {n: i for i, n in enumerate(nodes)}\n    dot = \"digraph{\" + \"\".join(f\"{idx[s]}->{idx[t]};\" for s, t in edges) + \"}\"\n    try:\n        out = subprocess.run([\"tred\"], input=dot, capture_output=True,\n                             text=True, check=True).stdout\n    except (FileNotFoundError, subprocess.CalledProcessError) as exc:\n        sys.stderr.write(f\"warning: tred unavailable, keeping all edges ({exc})\\n\")",
+      "intent": null
+    },
+    {
+      "id": "AST4",
+      "category": "Dangerous Code Execution",
+      "pattern": "subprocess module call",
+      "severity": "MEDIUM",
+      "confidence": 0.7,
+      "location": {
+        "file": "skills/drawio-skill/scripts/rustimports.py",
+        "start_line": 150,
+        "end_line": 151
+      },
+      "finding": "        out = subprocess.run([\"tred\"], input=dot, capture_output=True,\n                             text=True, check=True).stdout",
+      "explanation": "subprocess module calls execute external commands. Without careful input validation, this enables command injection.",
+      "remediation": "Use subprocess.run() with shell=False and an explicit argument list. Validate all inputs and avoid passing user-controlled data to commands.",
+      "code_snippet": "    idx = {n: i for i, n in enumerate(nodes)}\n    dot = \"digraph{\" + \"\".join(f\"{idx[s]}->{idx[t]};\" for s, t in edges) + \"}\"\n    try:\n        out = subprocess.run([\"tred\"], input=dot, capture_output=True,\n                             text=True, check=True).stdout\n    except (FileNotFoundError, subprocess.CalledProcessError) as exc:\n        sys.stderr.write(f\"warning: tred unavailable, keeping all edges ({exc})\\n\")",
+      "intent": null
+    },
+    {
+      "id": "AST4",
+      "category": "Dangerous Code Execution",
+      "pattern": "subprocess module call",
+      "severity": "MEDIUM",
+      "confidence": 0.7,
+      "location": {
+        "file": "tests/test_scripts.py",
+        "start_line": 40,
+        "end_line": 41
+      },
+      "finding": "    return subprocess.run([sys.executable, os.path.join(SCRIPTS, script), *args],\n                          capture_output=True, text=True, **kw)",
+      "explanation": "subprocess module calls execute external commands. Without careful input validation, this enables command injection.",
+      "remediation": "Use subprocess.run() with shell=False and an explicit argument list. Validate all inputs and avoid passing user-controlled data to commands.",
+      "code_snippet": "\ndef run(script, *args, **kw):\n    \"\"\"Run a script as a subprocess; return CompletedProcess.\"\"\"\n    return subprocess.run([sys.executable, os.path.join(SCRIPTS, script), *args],\n                          capture_output=True, text=True, **kw)\n\n",
+      "intent": null
+    },
+    {
+      "id": "TT4",
+      "category": "Data Flow",
+      "pattern": "Tainted flow: 'url' from open (line 158, file read) \u2192 urllib.request.urlopen (network output)",
+      "severity": "HIGH",
+      "confidence": 0.8,
+      "location": {
+        "file": "skills/drawio-skill/scripts/aiicons.py",
+        "start_line": 161,
+        "end_line": 161
+      },
+      "finding": "                    svg = urllib.request.urlopen(url, timeout=15).read()",
+      "explanation": "File contents flow to a network sink. This may indicate data exfiltration of sensitive files.",
+      "remediation": "Validate and filter file contents before sending over the network. Ensure sensitive files (credentials, configs) are never transmitted to external endpoints.",
+      "code_snippet": "            url = f\"{cdn}{file}.svg\"\n            if args.embed:\n                try:\n                    svg = urllib.request.urlopen(url, timeout=15).read()\n                except Exception as exc:                   # noqa: BLE001 - report and skip\n                    sys.stderr.write(f\"warning: could not fetch {url} ({exc})\\n\")\n                    continue",
+      "intent": null
+    },
+    {
+      "id": "TT4",
+      "category": "Data Flow",
+      "pattern": "Tainted flow: 'url' from open (line 158, file read) \u2192 urllib.request.urlopen (network output)",
+      "severity": "HIGH",
+      "confidence": 0.8,
+      "location": {
+        "file": "skills/drawio-skill/scripts/aiicons.py",
+        "start_line": 181,
+        "end_line": 181
+      },
+      "finding": "                    svg = urllib.request.urlopen(url, timeout=15).read()",
+      "explanation": "File contents flow to a network sink. This may indicate data exfiltration of sensitive files.",
+      "remediation": "Validate and filter file contents before sending over the network. Ensure sensitive files (credentials, configs) are never transmitted to external endpoints.",
+      "code_snippet": "            image = url\n            if args.embed:\n                try:\n                    svg = urllib.request.urlopen(url, timeout=15).read()\n                    image = \"data:image/svg+xml;base64,\" + base64.b64encode(svg).decode()\n                except Exception as exc:                   # noqa: BLE001 - keep the CDN URL\n                    sys.stderr.write(f\"warning: could not fetch {url} ({exc}); using CDN URL\\n\")",
+      "intent": null
+    },
+    {
+      "id": "EA3",
+      "category": "Excessive Agency",
+      "pattern": "Scope Creep",
+      "severity": "LOW",
+      "confidence": 0.7,
+      "location": {
+        "file": "LICENSE",
+        "start_line": 16,
+        "end_line": null
+      },
+      "finding": "NOT LIMITED TO",
+      "explanation": "Skill's behavior or capabilities extend beyond its stated purpose. Scope creep allows an agent to perform actions unrelated to its documented functionality, increasing the attack surface.",
+      "remediation": "Limit the skill's scope to its documented purpose. Remove instructions that enable the agent to perform actions outside its stated functionality.",
+      "code_snippet": "copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,",
+      "intent": null
+    },
+    {
+      "id": "MP2",
+      "category": "Memory Poisoning",
+      "pattern": "Context Window Stuffing",
+      "severity": "MEDIUM",
+      "confidence": 0.8,
+      "location": {
+        "file": "assets/demo-layered-cn.png",
+        "start_line": 153,
+        "end_line": null
+      },
+      "finding": "\u0000D\u00079\u000b\u0000\u0000\u0000\u0000\u0000@t\ufffd\ufffd\u0000\u0000\u0000\u0000\u0000\u0000D\u00079\u000b\u0000\u0000\u0000\u0000\u0000@t\ufffd\ufffd\u0000\u0000\u0000\u0000\u0000\u0000D\u00079\u000b\u0000\u0000\u0000\u0000\u0000@t\ufffd\ufffd\u0000\u0000\u0000\u0000\u0000\u0000D\u00079\u000b\u0000\u0000\u0000\u0000\u0000@t\ufffd\ufffd\u0000\u0000\u0000\u0000\u0000\u0000D\u00079\u000b\u0000\u0000\u0000\u0000\u0000@t\ufffd\ufffd\u0000\u0000\u0000\u0000\u0000\u0000D\u00079\u000b\u0000\u0000\u0000\u0000\u0000@t\ufffd\ufffd\u0000\u0000\u0000\u0000\u0000\u0000D\u00079\u000b\u0000\u0000\u0000\u0000\u0000@t\ufffd\ufffd\u0000\u0000\u0000\u0000\u0000\u0000D\u00079\u000b\u0000\u0000\u0000\u0000\u0000@t\ufffd\ufffd\u0000\u0000\u0000\u0000\u0000\u0000D\u00079\u000b\u0000\u0000\u0000\u0000\u0000@t\ufffd\ufffd\u0000\u0000\u0000\u0000\u0000\u0000D\u00079\u000b\u0000\u0000\u0000\u0000\u0000@t\ufffd\ufffd\u0000\u0000\u0000\u0000\u0000\u0000D\u00079\u000b\u0000\u0000\u0000\u0000\u0000",
+      "explanation": "Skill attempts to fill the context window with filler content, displacing legitimate instructions and safety constraints. This can degrade agent performance or bypass safety boundaries.",
+      "remediation": "Implement context-window management that detects and rejects padding or stuffing attempts. Prioritize system instructions over user-injected content.",
+      "code_snippet": "\ufffdR\u001b\ufffd\u01e8\ufffdE}t\u0210!\ufffd\ufffd\ufffd[o\ufffd5jxQ\ufffd{\ufffd\u0755\ufffd\ufffd\ufffd\ufffd\u001a\u0346\ufffd\ufffd5\ufffd\\s\ufffdmH\ufffd\ufffd\ufffd=0\ufffd\ufffd\u0011\ufffdDshz*\ufffd\ufffd>\ufffd\ufffd\ufffd\ufffd\ufffd\ufffdg?\ufffd*fl\ufffd\ufffd{\ufffd\n\ufffd9\ufffd3\u0488\u0000Q\ufffd\ufffdu\ufffd]\ufffdR\ufffd\ufffd\ufffd\ufffd\u7c9a\ufffd\ufffdFE\u007f\ufffd\ufffdW\u05eb\u0005`\ufffd#p\u001a\n\ufffd+\ufffd\ufffd\ufffd\ufffd\ufffd?t\ufffd\u0408B\ufffd\ufffdY\u0011^\nr\ufffd!O>\ufffdd\ufffd/)G\b\ufffd\ufffd\ufffd\ufffd\ufffd\n\ufffd\ufffd\ufffd;\ufffd5\ufffd\ufffd\n\ufffd\ufffd\u001ak\ufffd\u0011\ufffdL\n\ufffdS_\ufffd\u007f\ufffd\ufffd\u001f\ufffd\u0507?\ufffd\ufffd\b;F\ufffd\u0018q\ufffdq\ufffd}\ufffd\ufffd_\ufffd\ufffd\u000f\u007f\ufffd\u01a6\ufffd\u0005",
+      "intent": null
+    },
+    {
+      "id": "MP2",
+      "category": "Memory Poisoning",
+      "pattern": "Context Window Stuffing",
+      "severity": "MEDIUM",
+      "confidence": 0.8,
+      "location": {
+        "file": "assets/demo-layered-cn.png",
+        "start_line": 358,
+        "end_line": null
+      },
+      "finding": "\ufffdY\u0000\u0000\u0000\u0000\u0000\u0000\ufffd\ufffd\ufffd\u0005\u0000\u0000\u0000\u0000\u0000 :\ufffdY\u0000\u0000\u0000\u0000\u0000\u0000\ufffd\ufffd\ufffd\u0005\u0000\u0000\u0000\u0000\u0000 :\ufffdY\u0000\u0000\u0000\u0000\u0000\u0000\ufffd\ufffd\ufffd\u0005\u0000\u0000\u0000\u0000\u0000 :\ufffdY\u0000\u0000\u0000\u0000\u0000\u0000\ufffd\ufffd\ufffd\u0005\u0000\u0000\u0000\u0000\u0000 :\ufffdY\u0000\u0000\u0000\u0000\u0000\u0000\ufffd\ufffd\ufffd\u0005\u0000\u0000\u0000\u0000\u0000 :\ufffdY\u0000\u0000\u0000\u0000\u0000\u0000\ufffd\ufffd\ufffd\u0005\u0000\u0000\u0000\u0000\u0000 :\ufffdY\u0000\u0000\u0000\u0000\u0000\u0000\ufffd\ufffd\ufffd\u0005\u0000\u0000\u0000\u0000\u0000 :\ufffdY\u0000\u0000\u0000\u0000\u0000\u0000\ufffd\ufffd\ufffd\u0005\u0000\u0000\u0000\u0000\u0000 :\ufffdY\u0000\u0000\u0000\u0000\u0000\u0000\ufffd\ufffd\ufffd\u0005\u0000\u0000\u0000\u0000\u0000 :\ufffdY\u0000\u0000\u0000\u0000\u0000\u0000\ufffd\ufffd\ufffd\u0005\u0000\u0000\u0000\u0000\u0000 :\ufffdY\u0000\u0000\u0000\u0000\u0000\u0000\ufffd\ufffd",
+      "explanation": "Skill attempts to fill the context window with filler content, displacing legitimate instructions and safety constraints. This can degrade agent performance or bypass safety boundaries.",
+      "remediation": "Implement context-window management that detects and rejects padding or stuffing attempts. Prioritize system instructions over user-injected content.",
+      "code_snippet": "\n:\ufffd\u04df\ufffdtTmS\ufffd\ufffd\ufffdYR\ufffd-\ufffd\u0006\ufffdpy\u0011\ufffd\ufffda\ufffd\ufffd\u000f~\ufffd\ufffd\ufffd\u001a\ufffdP\nY\"yQ\ufffd\u0000,V\ufffd\ufffd\u0000,^\ufffdR;z\ufffd\ufffd\ufffd\ufffd_?\ufffd\ufffd\u0017^x\ufffd{\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u000f\u0000\u0014+/YRA\ufffd\ufffd?\ufffd\ufffd\u000e\ufffdb\ufffdG\nYc\ufffd5R\ufffd\ufffd\n\ufffd\ufffdI\u007f\u0016\ufffd\ufffd(\ufffdr(\ufffdk\ufffd\ufffd\ufffd)\ufffd\ufffd\u0012\ufffd\ufffd\u0017\ufffd\ufffd\ufffd1c\ufffdD\ufffd7j\ufffdY\ufffd*,\ufffd\u0006\ufffd\u0010y\ufffd\ufffdB\ufffd(n\ufffd\ufffd\ufffd\ufffd\u01df'\ufffdx\ufffdk\ufffd\ufffd\ufffd$\ufffd\u000e\ufffd\ufffd&g\u0001X\ufffd\ufffd=\n\ufffd^\ufffd\ufffd\ufffdv\ufffdGF\ufffd\ufffd\u0109\u0013?\ufffd\u044f>\ufffd\ufffdcQ\u0003\ufffd\ufffd\ufffd\ufffdd\ufffdF+\u0004\ufffd\ufffd\ufffdc\ufffd4\n\ufffdK\u00141Q\ufffdDq3a\u0084\ufffd\u000f?\ufffd\ufffd\u33cf\ufffd",
+      "intent": null
+    },
+    {
+      "id": "OH1",
+      "category": "Output Handling",
+      "pattern": "Unvalidated Output Injection",
+      "severity": "HIGH",
+      "confidence": 0.95,
+      "location": {
+        "file": "skills/drawio-skill/scripts/autolayout.py",
+        "start_line": 154,
+        "end_line": null
+      },
+      "finding": "subprocess.run(\n            [\"dot\", \"-Tplain\"], input=dot_src,\n            capture_output",
+      "explanation": "Model output is used without validation or sanitization. Unvalidated output injected into downstream contexts (SQL, shell, HTML) enables injection attacks and arbitrary code execution.",
+      "remediation": "Validate and sanitize all model output before using it in downstream contexts. Use parameterized queries for SQL, shell quoting for commands, and HTML encoding for web output.",
+      "code_snippet": "    of orthogonal control points dot computed for routing, endpoints included.\n    \"\"\"\n    try:\n        proc = subprocess.run(\n            [\"dot\", \"-Tplain\"], input=dot_src,\n            capture_output=True, text=True, check=True,\n        )",
+      "intent": null
+    },
+    {
+      "id": "OH1",
+      "category": "Output Handling",
+      "pattern": "Unvalidated Output Injection",
+      "severity": "HIGH",
+      "confidence": 0.95,
+      "location": {
+        "file": "skills/drawio-skill/scripts/goimports.py",
+        "start_line": 82,
+        "end_line": null
+      },
+      "finding": "subprocess.run([\"tred\"], input=dot, capture_output",
+      "explanation": "Model output is used without validation or sanitization. Unvalidated output injected into downstream contexts (SQL, shell, HTML) enables injection attacks and arbitrary code execution.",
+      "remediation": "Validate and sanitize all model output before using it in downstream contexts. Use parameterized queries for SQL, shell quoting for commands, and HTML encoding for web output.",
+      "code_snippet": "    idx = {n: i for i, n in enumerate(nodes)}\n    dot = \"digraph{\" + \"\".join(f\"{idx[s]}->{idx[t]};\" for s, t in edges) + \"}\"\n    try:\n        out = subprocess.run([\"tred\"], input=dot, capture_output=True,\n                             text=True, check=True).stdout\n    except (FileNotFoundError, subprocess.CalledProcessError) as exc:\n        sys.stderr.write(f\"warning: tred unavailable, keeping all edges ({exc})\\n\")",
+      "intent": null
+    },
+    {
+      "id": "OH1",
+      "category": "Output Handling",
+      "pattern": "Unvalidated Output Injection",
+      "severity": "HIGH",
+      "confidence": 0.95,
+      "location": {
+        "file": "skills/drawio-skill/scripts/jsimports.py",
+        "start_line": 96,
+        "end_line": null
+      },
+      "finding": "subprocess.run([\"tred\"], input=dot, capture_output",
+      "explanation": "Model output is used without validation or sanitization. Unvalidated output injected into downstream contexts (SQL, shell, HTML) enables injection attacks and arbitrary code execution.",
+      "remediation": "Validate and sanitize all model output before using it in downstream contexts. Use parameterized queries for SQL, shell quoting for commands, and HTML encoding for web output.",
+      "code_snippet": "    idx = {n: i for i, n in enumerate(nodes)}\n    dot = \"digraph{\" + \"\".join(f\"{idx[s]}->{idx[t]};\" for s, t in edges) + \"}\"\n    try:\n        out = subprocess.run([\"tred\"], input=dot, capture_output=True,\n                             text=True, check=True).stdout\n    except (FileNotFoundError, subprocess.CalledProcessError) as exc:\n        sys.stderr.write(f\"warning: tred unavailable, keeping all edges ({exc})\\n\")",
+      "intent": null
+    },
+    {
+      "id": "OH1",
+      "category": "Output Handling",
+      "pattern": "Unvalidated Output Injection",
+      "severity": "HIGH",
+      "confidence": 0.95,
+      "location": {
+        "file": "skills/drawio-skill/scripts/pyclasses.py",
+        "start_line": 78,
+        "end_line": null
+      },
+      "finding": "subprocess.run([\"tred\"], input=dot, capture_output",
+      "explanation": "Model output is used without validation or sanitization. Unvalidated output injected into downstream contexts (SQL, shell, HTML) enables injection attacks and arbitrary code execution.",
+      "remediation": "Validate and sanitize all model output before using it in downstream contexts. Use parameterized queries for SQL, shell quoting for commands, and HTML encoding for web output.",
+      "code_snippet": "    idx = {n: i for i, n in enumerate(nodes)}\n    dot = \"digraph{\" + \"\".join(f\"{idx[s]}->{idx[t]};\" for s, t in edges) + \"}\"\n    try:\n        out = subprocess.run([\"tred\"], input=dot, capture_output=True,\n                             text=True, check=True).stdout\n    except (FileNotFoundError, subprocess.CalledProcessError) as exc:\n        sys.stderr.write(f\"warning: tred unavailable, keeping all edges ({exc})\\n\")",
+      "intent": null
+    },
+    {
+      "id": "OH1",
+      "category": "Output Handling",
+      "pattern": "Unvalidated Output Injection",
+      "severity": "HIGH",
+      "confidence": 0.95,
+      "location": {
+        "file": "skills/drawio-skill/scripts/pyimports.py",
+        "start_line": 97,
+        "end_line": null
+      },
+      "finding": "subprocess.run([\"tred\"], input=dot, capture_output",
+      "explanation": "Model output is used without validation or sanitization. Unvalidated output injected into downstream contexts (SQL, shell, HTML) enables injection attacks and arbitrary code execution.",
+      "remediation": "Validate and sanitize all model output before using it in downstream contexts. Use parameterized queries for SQL, shell quoting for commands, and HTML encoding for web output.",
+      "code_snippet": "    idx = {n: i for i, n in enumerate(nodes)}\n    dot = \"digraph{\" + \"\".join(f\"{idx[s]}->{idx[t]};\" for s, t in edges) + \"}\"\n    try:\n        out = subprocess.run([\"tred\"], input=dot, capture_output=True,\n                             text=True, check=True).stdout\n    except (FileNotFoundError, subprocess.CalledProcessError) as exc:\n        sys.stderr.write(f\"warning: tred unavailable, keeping all edges ({exc})\\n\")",
+      "intent": null
+    },
+    {
+      "id": "OH1",
+      "category": "Output Handling",
+      "pattern": "Unvalidated Output Injection",
+      "severity": "HIGH",
+      "confidence": 0.95,
+      "location": {
+        "file": "skills/drawio-skill/scripts/rustimports.py",
+        "start_line": 150,
+        "end_line": null
+      },
+      "finding": "subprocess.run([\"tred\"], input=dot, capture_output",
+      "explanation": "Model output is used without validation or sanitization. Unvalidated output injected into downstream contexts (SQL, shell, HTML) enables injection attacks and arbitrary code execution.",
+      "remediation": "Validate and sanitize all model output before using it in downstream contexts. Use parameterized queries for SQL, shell quoting for commands, and HTML encoding for web output.",
+      "code_snippet": "    idx = {n: i for i, n in enumerate(nodes)}\n    dot = \"digraph{\" + \"\".join(f\"{idx[s]}->{idx[t]};\" for s, t in edges) + \"}\"\n    try:\n        out = subprocess.run([\"tred\"], input=dot, capture_output=True,\n                             text=True, check=True).stdout\n    except (FileNotFoundError, subprocess.CalledProcessError) as exc:\n        sys.stderr.write(f\"warning: tred unavailable, keeping all edges ({exc})\\n\")",
+      "intent": null
+    },
+    {
+      "id": "PE2",
+      "category": "Privilege Escalation",
+      "pattern": "Sudo/Root Execution",
+      "severity": "MEDIUM",
+      "confidence": 0.7,
+      "location": {
+        "file": ".github/workflows/tests.yml",
+        "start_line": 27,
+        "end_line": null
+      },
+      "finding": "sudo ",
+      "explanation": "Commands invoke sudo or root privileges. Verify this elevated access is necessary and justified.",
+      "remediation": "Avoid sudo/root unless strictly required. Prefer least-privilege patterns. If elevation is needed, document the justification and scope.",
+      "code_snippet": "        with:\n          python-version: \"3.11\"\n      - name: Install Graphviz (for importer transitive reduction)\n        run: sudo apt-get update && sudo apt-get install -y graphviz\n      - name: Run tests\n        run: python3 -W error::ResourceWarning -m unittest discover -s tests -v",
+      "intent": null
+    },
+    {
+      "id": "PE2",
+      "category": "Privilege Escalation",
+      "pattern": "Sudo/Root Execution",
+      "severity": "MEDIUM",
+      "confidence": 0.7,
+      "location": {
+        "file": ".github/workflows/tests.yml",
+        "start_line": 27,
+        "end_line": null
+      },
+      "finding": "sudo ",
+      "explanation": "Commands invoke sudo or root privileges. Verify this elevated access is necessary and justified.",
+      "remediation": "Avoid sudo/root unless strictly required. Prefer least-privilege patterns. If elevation is needed, document the justification and scope.",
+      "code_snippet": "        with:\n          python-version: \"3.11\"\n      - name: Install Graphviz (for importer transitive reduction)\n        run: sudo apt-get update && sudo apt-get install -y graphviz\n      - name: Run tests\n        run: python3 -W error::ResourceWarning -m unittest discover -s tests -v",
+      "intent": null
+    },
+    {
+      "id": "PE2",
+      "category": "Privilege Escalation",
+      "pattern": "Sudo/Root Execution",
+      "severity": "MEDIUM",
+      "confidence": 0.7,
+      "location": {
+        "file": "README.md",
+        "start_line": 79,
+        "end_line": null
+      },
+      "finding": "sudo ",
+      "explanation": "Commands invoke sudo or root privileges. Verify this elevated access is necessary and justified.",
+      "remediation": "Avoid sudo/root unless strictly required. Prefer least-privilege patterns. If elevation is needed, document the justification and scope.",
+      "code_snippet": "|----------|---------|\n| **macOS** | `brew install --cask drawio` |\n| **Windows** | [Download installer](https://github.com/jgraph/drawio-desktop/releases) |\n| **Linux** | `.deb`/`.rpm` from [releases](https://github.com/jgraph/drawio-desktop/releases); `sudo apt install xvfb` for headless |\n\nVerify with `drawio --version`. On **WSL2** the CLI is the Windows desktop exe reached via `/mnt/c` \u2014 the skill detects this automatically (see [troubleshooting](skills/drawio-skill/references/troubleshooting.md)). Full recipes in [docs/INSTALL_CLI.md](docs/INSTALL_CLI.md).\n",
+      "intent": null
+    },
+    {
+      "id": "PE2",
+      "category": "Privilege Escalation",
+      "pattern": "Sudo/Root Execution",
+      "severity": "MEDIUM",
+      "confidence": 0.7,
+      "location": {
+        "file": "README_CN.md",
+        "start_line": 78,
+        "end_line": null
+      },
+      "finding": "sudo ",
+      "explanation": "Commands invoke sudo or root privileges. Verify this elevated access is necessary and justified.",
+      "remediation": "Avoid sudo/root unless strictly required. Prefer least-privilege patterns. If elevation is needed, document the justification and scope.",
+      "code_snippet": "|------|------|\n| **macOS** | `brew install --cask drawio` |\n| **Windows** | [\u4e0b\u8f7d\u5b89\u88c5\u5305](https://github.com/jgraph/drawio-desktop/releases) |\n| **Linux** | \u4ece [releases](https://github.com/jgraph/drawio-desktop/releases) \u4e0b\u8f7d `.deb`/`.rpm`\uff1b\u65e0\u5934\u5bfc\u51fa\u9700 `sudo apt install xvfb` |\n\n\u7528 `drawio --version` \u9a8c\u8bc1\u3002\u5728 **WSL2** \u4e0a\uff0cCLI \u662f\u901a\u8fc7 `/mnt/c` \u8bbf\u95ee\u7684 Windows \u684c\u9762\u7248 exe \u2014\u2014 Skill \u4f1a\u81ea\u52a8\u8bc6\u522b\uff08\u89c1[\u6545\u969c\u6392\u67e5](skills/drawio-skill/references/troubleshooting.md)\uff09\u3002\u5b8c\u6574\u65b9\u6848\u89c1 [docs/INSTALL_CLI_CN.md](docs/INSTALL_CLI_CN.md)\u3002\n",
+      "intent": null
+    },
+    {
+      "id": "PE3",
+      "category": "Privilege Escalation",
+      "pattern": "Credential Access",
+      "severity": "HIGH",
+      "confidence": 0.7,
+      "location": {
+        "file": "skills/drawio-skill/SKILL.md",
+        "start_line": 74,
+        "end_line": null
+      },
+      "finding": "keyring",
+      "explanation": "Code accesses credential files (SSH keys, AWS credentials, etc.). This could indicate credential theft attempts.",
+      "remediation": "Remove references to credential paths. Use environment variables or secrets managers. For docs, use placeholder paths (e.g., /path/to/config). Never load .env or token files in production code paths.",
+      "code_snippet": "Install draw.io desktop if missing:\n- macOS: `brew install --cask drawio` or download from https://github.com/jgraph/drawio-desktop/releases\n- Windows: download installer from https://github.com/jgraph/drawio-desktop/releases\n- Linux: download `.deb`/`.rpm` from https://github.com/jgraph/drawio-desktop/releases \u2014 **do not use snap** (AppArmor sandbox denies secrets/keyring on servers, causes crash)\n\n## Workflow\n",
+      "intent": null
+    },
+    {
+      "id": "P2",
+      "category": "Prompt Injection",
+      "pattern": "Hidden Instructions",
+      "severity": "HIGH",
+      "confidence": 0.7,
+      "location": {
+        "file": "assets/demo-erd.drawio",
+        "start_line": 9,
+        "end_line": null
+      },
+      "finding": "<!-- Users Table -->\n        <mxCell id=\"2\" value=\"Users\" style=\"shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;strokeColor=#6c8ebf;fillC",
+      "explanation": "Hidden instructions were detected in comments or invisible text. These could contain malicious directives. Manual review is recommended.",
+      "remediation": "Audit all comments and invisible characters. Remove any instructions that direct the agent to perform unauthorized actions. Use plain, reviewable content.",
+      "code_snippet": "        <mxCell id=\"0\" />\n        <mxCell id=\"1\" parent=\"0\" />\n\n        <!-- Users Table -->\n        <mxCell id=\"2\" value=\"Users\" style=\"shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;strokeColor=#6c8ebf;fillColor=#dae8fc;html=1;\" vertex=\"1\" parent=\"1\">\n          <mxGeometry x=\"40\" y=\"40\" width=\"220\" height=\"150\" as=\"geometry\" />\n        </mxCell>",
+      "intent": null
+    },
+    {
+      "id": "P2",
+      "category": "Prompt Injection",
+      "pattern": "Hidden Instructions",
+      "severity": "HIGH",
+      "confidence": 0.7,
+      "location": {
+        "file": "assets/demo-erd.drawio",
+        "start_line": 46,
+        "end_line": null
+      },
+      "finding": "<!-- Comments Table -->\n        <mxCell id=\"13\" value=\"Comments\" style=\"shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;strokeColor=#6c8eb",
+      "explanation": "Hidden instructions were detected in comments or invisible text. These could contain malicious directives. Manual review is recommended.",
+      "remediation": "Audit all comments and invisible characters. Remove any instructions that direct the agent to perform unauthorized actions. Use plain, reviewable content.",
+      "code_snippet": "          <mxGeometry y=\"150\" width=\"220\" height=\"30\" as=\"geometry\" />\n        </mxCell>\n\n        <!-- Comments Table -->\n        <mxCell id=\"13\" value=\"Comments\" style=\"shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;strokeColor=#6c8ebf;fillColor=#dae8fc;html=1;\" vertex=\"1\" parent=\"1\">\n          <mxGeometry x=\"640\" y=\"40\" width=\"220\" height=\"180\" as=\"geometry\" />\n        </mxCell>",
+      "intent": null
+    },
+    {
+      "id": "P2",
+      "category": "Prompt Injection",
+      "pattern": "Hidden Instructions",
+      "severity": "HIGH",
+      "confidence": 0.7,
+      "location": {
+        "file": "assets/demo-erd.drawio",
+        "start_line": 71,
+        "end_line": null
+      },
+      "finding": "<!-- FK: Comments.post_id -> Posts.id -->",
+      "explanation": "Hidden instructions were detected in comments or invisible text. These could contain malicious directives. Manual review is recommended.",
+      "remediation": "Audit all comments and invisible characters. Remove any instructions that direct the agent to perform unauthorized actions. Use plain, reviewable content.",
+      "code_snippet": "          <mxGeometry relative=\"1\" as=\"geometry\" />\n        </mxCell>\n\n        <!-- FK: Comments.post_id -> Posts.id -->\n        <mxCell id=\"20\" value=\"\" style=\"dashed=1;endArrow=ERmandOne;startArrow=ERmandOne;edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;\" edge=\"1\" parent=\"1\" source=\"16\" target=\"8\">\n          <mxGeometry relative=\"1\" as=\"geometry\" />\n        </mxCell>",
+      "intent": null
+    },
+    {
+      "id": "P2",
+      "category": "Prompt Injection",
+      "pattern": "Hidden Instructions",
+      "severity": "HIGH",
+      "confidence": 0.7,
+      "location": {
+        "file": "assets/demo-layered-cn.drawio",
+        "start_line": 9,
+        "end_line": null
+      },
+      "finding": "<!-- Tier 1: \u5ba2\u6237\u7aef -->\n        <mxCell id=\"2\" value=\"\u6d4f\u89c8\u5668\" style=\"rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;\" vertex=\"1\" parent=\"1\">\n          <mxGeometry x=\"220\" y=\"40\" widt",
+      "explanation": "Hidden instructions were detected in comments or invisible text. These could contain malicious directives. Manual review is recommended.",
+      "remediation": "Audit all comments and invisible characters. Remove any instructions that direct the agent to perform unauthorized actions. Use plain, reviewable content.",
+      "code_snippet": "        <mxCell id=\"0\" />\n        <mxCell id=\"1\" parent=\"0\" />\n\n        <!-- Tier 1: \u5ba2\u6237\u7aef -->\n        <mxCell id=\"2\" value=\"\u6d4f\u89c8\u5668\" style=\"rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;\" vertex=\"1\" parent=\"1\">\n          <mxGeometry x=\"220\" y=\"40\" width=\"140\" height=\"50\" as=\"geometry\" />\n        </mxCell>",
+      "intent": null
+    },
+    {
+      "id": "P2",
+      "category": "Prompt Injection",
+      "pattern": "Hidden Instructions",
+      "severity": "HIGH",
+      "confidence": 0.7,
+      "location": {
+        "file": "assets/demo-layered.drawio",
+        "start_line": 9,
+        "end_line": null
+      },
+      "finding": "<!-- Tier 1 (y=40): Clients -->\n        <mxCell id=\"2\" value=\"Browser\" style=\"rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;\" vertex=\"1\" parent=\"1\">\n          <mxGeometry x=\"2",
+      "explanation": "Hidden instructions were detected in comments or invisible text. These could contain malicious directives. Manual review is recommended.",
+      "remediation": "Audit all comments and invisible characters. Remove any instructions that direct the agent to perform unauthorized actions. Use plain, reviewable content.",
+      "code_snippet": "        <mxCell id=\"0\" />\n        <mxCell id=\"1\" parent=\"0\" />\n\n        <!-- Tier 1 (y=40): Clients -->\n        <mxCell id=\"2\" value=\"Browser\" style=\"rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;\" vertex=\"1\" parent=\"1\">\n          <mxGeometry x=\"220\" y=\"40\" width=\"140\" height=\"50\" as=\"geometry\" />\n        </mxCell>",
+      "intent": null
+    },
+    {
+      "id": "P2",
+      "category": "Prompt Injection",
+      "pattern": "Hidden Instructions",
+      "severity": "HIGH",
+      "confidence": 0.7,
+      "location": {
+        "file": "assets/demo-layered.drawio",
+        "start_line": 59,
+        "end_line": null
+      },
+      "finding": "<!-- API Gateway \u2192 Auth -->\n        <mxCell id=\"32\" value=\"\" style=\"edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entry",
+      "explanation": "Hidden instructions were detected in comments or invisible text. These could contain malicious directives. Manual review is recommended.",
+      "remediation": "Audit all comments and invisible characters. Remove any instructions that direct the agent to perform unauthorized actions. Use plain, reviewable content.",
+      "code_snippet": "          <mxGeometry relative=\"1\" as=\"geometry\" />\n        </mxCell>\n\n        <!-- API Gateway \u2192 Auth -->\n        <mxCell id=\"32\" value=\"\" style=\"edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;\" edge=\"1\" parent=\"1\" source=\"4\" target=\"5\">\n          <mxGeometry relative=\"1\" as=\"geometry\" />\n        </mxCell>",
+      "intent": null
+    },
+    {
+      "id": "P2",
+      "category": "Prompt Injection",
+      "pattern": "Hidden Instructions",
+      "severity": "HIGH",
+      "confidence": 0.7,
+      "location": {
+        "file": "assets/demo-layered.drawio",
+        "start_line": 69,
+        "end_line": null
+      },
+      "finding": "<!-- API Gateway \u2192 Order Svc -->\n        <mxCell id=\"34\" value=\"\" style=\"edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.5;",
+      "explanation": "Hidden instructions were detected in comments or invisible text. These could contain malicious directives. Manual review is recommended.",
+      "remediation": "Audit all comments and invisible characters. Remove any instructions that direct the agent to perform unauthorized actions. Use plain, reviewable content.",
+      "code_snippet": "          <mxGeometry relative=\"1\" as=\"geometry\" />\n        </mxCell>\n\n        <!-- API Gateway \u2192 Order Svc -->\n        <mxCell id=\"34\" value=\"\" style=\"edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;\" edge=\"1\" parent=\"1\" source=\"4\" target=\"7\">\n          <mxGeometry relative=\"1\" as=\"geometry\" />\n        </mxCell>",
+      "intent": null
+    },
+    {
+      "id": "P2",
+      "category": "Prompt Injection",
+      "pattern": "Hidden Instructions",
+      "severity": "HIGH",
+      "confidence": 0.7,
+      "location": {
+        "file": "assets/demo-layered.drawio",
+        "start_line": 79,
+        "end_line": null
+      },
+      "finding": "<!-- Product Svc \u2192 Product DB -->\n        <mxCell id=\"36\" value=\"\" style=\"edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.5",
+      "explanation": "Hidden instructions were detected in comments or invisible text. These could contain malicious directives. Manual review is recommended.",
+      "remediation": "Audit all comments and invisible characters. Remove any instructions that direct the agent to perform unauthorized actions. Use plain, reviewable content.",
+      "code_snippet": "          <mxGeometry relative=\"1\" as=\"geometry\" />\n        </mxCell>\n\n        <!-- Product Svc \u2192 Product DB -->\n        <mxCell id=\"36\" value=\"\" style=\"edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;\" edge=\"1\" parent=\"1\" source=\"6\" target=\"9\">\n          <mxGeometry relative=\"1\" as=\"geometry\" />\n        </mxCell>",
+      "intent": null
+    },
+    {
+      "id": "P2",
+      "category": "Prompt Injection",
+      "pattern": "Hidden Instructions",
+      "severity": "HIGH",
+      "confidence": 0.7,
+      "location": {
+        "file": "assets/demo-layered.drawio",
+        "start_line": 89,
+        "end_line": null
+      },
+      "finding": "<!-- Order Svc \u2192 Order DB (straight down) -->\n        <mxCell id=\"38\" value=\"\" style=\"edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0",
+      "explanation": "Hidden instructions were detected in comments or invisible text. These could contain malicious directives. Manual review is recommended.",
+      "remediation": "Audit all comments and invisible characters. Remove any instructions that direct the agent to perform unauthorized actions. Use plain, reviewable content.",
+      "code_snippet": "          <mxGeometry relative=\"1\" as=\"geometry\" />\n        </mxCell>\n\n        <!-- Order Svc \u2192 Order DB (straight down) -->\n        <mxCell id=\"38\" value=\"\" style=\"edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;\" edge=\"1\" parent=\"1\" source=\"7\" target=\"11\">\n          <mxGeometry relative=\"1\" as=\"geometry\" />\n        </mxCell>",
+      "intent": null
+    },
+    {
+      "id": "P2",
+      "category": "Prompt Injection",
+      "pattern": "Hidden Instructions",
+      "severity": "HIGH",
+      "confidence": 0.7,
+      "location": {
+        "file": "assets/demo-ring-cn.drawio",
+        "start_line": 9,
+        "end_line": null
+      },
+      "finding": "<!-- Ring top row -->\n        <mxCell id=\"2\" value=\"\u89c4\u5212\" style=\"rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1;\" vertex=\"1\" parent=\"1\">\n          <mxGeometry x=\"100\"",
+      "explanation": "Hidden instructions were detected in comments or invisible text. These could contain malicious directives. Manual review is recommended.",
+      "remediation": "Audit all comments and invisible characters. Remove any instructions that direct the agent to perform unauthorized actions. Use plain, reviewable content.",
+      "code_snippet": "        <mxCell id=\"0\" />\n        <mxCell id=\"1\" parent=\"0\" />\n\n        <!-- Ring top row -->\n        <mxCell id=\"2\" value=\"\u89c4\u5212\" style=\"rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1;\" vertex=\"1\" parent=\"1\">\n          <mxGeometry x=\"100\" y=\"80\" width=\"140\" height=\"60\" as=\"geometry\" />\n        </mxCell>",
+      "intent": null
+    },
+    {
+      "id": "P2",
+      "category": "Prompt Injection",
+      "pattern": "Hidden Instructions",
+      "severity": "HIGH",
+      "confidence": 0.7,
+      "location": {
+        "file": "assets/demo-ring.drawio",
+        "start_line": 9,
+        "end_line": null
+      },
+      "finding": "<!-- Ring top row (y=80): Plan \u2192 Code \u2192 Build -->\n        <mxCell id=\"2\" value=\"Plan\" style=\"rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1;\" vertex=\"1\" parent=\"1\">",
+      "explanation": "Hidden instructions were detected in comments or invisible text. These could contain malicious directives. Manual review is recommended.",
+      "remediation": "Audit all comments and invisible characters. Remove any instructions that direct the agent to perform unauthorized actions. Use plain, reviewable content.",
+      "code_snippet": "        <mxCell id=\"0\" />\n        <mxCell id=\"1\" parent=\"0\" />\n\n        <!-- Ring top row (y=80): Plan \u2192 Code \u2192 Build -->\n        <mxCell id=\"2\" value=\"Plan\" style=\"rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1;\" vertex=\"1\" parent=\"1\">\n          <mxGeometry x=\"100\" y=\"80\" width=\"140\" height=\"60\" as=\"geometry\" />\n        </mxCell>",
+      "intent": null
+    },
+    {
+      "id": "P2",
+      "category": "Prompt Injection",
+      "pattern": "Hidden Instructions",
+      "severity": "HIGH",
+      "confidence": 0.7,
+      "location": {
+        "file": "assets/demo-ring.drawio",
+        "start_line": 51,
+        "end_line": null
+      },
+      "finding": "<!-- Build \u2192 Test (down) -->\n        <mxCell id=\"22\" value=\"\" style=\"edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entry",
+      "explanation": "Hidden instructions were detected in comments or invisible text. These could contain malicious directives. Manual review is recommended.",
+      "remediation": "Audit all comments and invisible characters. Remove any instructions that direct the agent to perform unauthorized actions. Use plain, reviewable content.",
+      "code_snippet": "          <mxGeometry relative=\"1\" as=\"geometry\" />\n        </mxCell>\n\n        <!-- Build \u2192 Test (down) -->\n        <mxCell id=\"22\" value=\"\" style=\"edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;\" edge=\"1\" parent=\"1\" source=\"4\" target=\"5\">\n          <mxGeometry relative=\"1\" as=\"geometry\" />\n        </mxCell>",
+      "intent": null
+    },
+    {
+      "id": "P2",
+      "category": "Prompt Injection",
+      "pattern": "Hidden Instructions",
+      "severity": "HIGH",
+      "confidence": 0.7,
+      "location": {
+        "file": "assets/demo-ring.drawio",
+        "start_line": 61,
+        "end_line": null
+      },
+      "finding": "<!-- Deploy \u2192 Monitor (left) -->\n        <mxCell id=\"24\" value=\"\" style=\"edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;ent",
+      "explanation": "Hidden instructions were detected in comments or invisible text. These could contain malicious directives. Manual review is recommended.",
+      "remediation": "Audit all comments and invisible characters. Remove any instructions that direct the agent to perform unauthorized actions. Use plain, reviewable content.",
+      "code_snippet": "          <mxGeometry relative=\"1\" as=\"geometry\" />\n        </mxCell>\n\n        <!-- Deploy \u2192 Monitor (left) -->\n        <mxCell id=\"24\" value=\"\" style=\"edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;\" edge=\"1\" parent=\"1\" source=\"6\" target=\"7\">\n          <mxGeometry relative=\"1\" as=\"geometry\" />\n        </mxCell>",
+      "intent": null
+    },
+    {
+      "id": "P2",
+      "category": "Prompt Injection",
+      "pattern": "Hidden Instructions",
+      "severity": "HIGH",
+      "confidence": 0.7,
+      "location": {
+        "file": "assets/demo-ring.drawio",
+        "start_line": 71,
+        "end_line": null
+      },
+      "finding": "<!-- === SPUR EDGES === -->\n\n        <!-- Test \u2192 Artifacts (right-up) -->\n        <mxCell id=\"26\" value=\"publish\" style=\"edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;",
+      "explanation": "Hidden instructions were detected in comments or invisible text. These could contain malicious directives. Manual review is recommended.",
+      "remediation": "Audit all comments and invisible characters. Remove any instructions that direct the agent to perform unauthorized actions. Use plain, reviewable content.",
+      "code_snippet": "          <mxGeometry relative=\"1\" as=\"geometry\" />\n        </mxCell>\n\n        <!-- === SPUR EDGES === -->\n\n        <!-- Test \u2192 Artifacts (right-up) -->\n        <mxCell id=\"26\" value=\"publish\" style=\"edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;\" edge=\"1\" parent=\"1\" source=\"5\" target=\"8\">",
+      "intent": null
+    },
+    {
+      "id": "P2",
+      "category": "Prompt Injection",
+      "pattern": "Hidden Instructions",
+      "severity": "HIGH",
+      "confidence": 0.7,
+      "location": {
+        "file": "assets/demo-sequence.drawio",
+        "start_line": 9,
+        "end_line": null
+      },
+      "finding": "<!-- Lifeline: Client -->\n        <mxCell id=\"10\" value=\"Client\" style=\"shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=",
+      "explanation": "Hidden instructions were detected in comments or invisible text. These could contain malicious directives. Manual review is recommended.",
+      "remediation": "Audit all comments and invisible characters. Remove any instructions that direct the agent to perform unauthorized actions. Use plain, reviewable content.",
+      "code_snippet": "        <mxCell id=\"0\" />\n        <mxCell id=\"1\" parent=\"0\" />\n\n        <!-- Lifeline: Client -->\n        <mxCell id=\"10\" value=\"Client\" style=\"shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;fillColor=#dae8fc;strokeColor=#6c8ebf;\" vertex=\"1\" parent=\"1\">\n          <mxGeometry x=\"100\" y=\"40\" width=\"100\" height=\"400\" as=\"geometry\" />\n        </mxCell>",
+      "intent": null
+    },
+    {
+      "id": "P2",
+      "category": "Prompt Injection",
+      "pattern": "Hidden Instructions",
+      "severity": "HIGH",
+      "confidence": 0.7,
+      "location": {
+        "file": "assets/demo-sequence.drawio",
+        "start_line": 53,
+        "end_line": null
+      },
+      "finding": "<!-- Message 3: Auth Service -> User DB: query user (sync) -->\n        <mxCell id=\"53\" value=\"SELECT * FROM users\" style=\"html=1;verticalAlign=bottom;endArrow=block;edgeStyle=orthogonalEdgeStyle;round",
+      "explanation": "Hidden instructions were detected in comments or invisible text. These could contain malicious directives. Manual review is recommended.",
+      "remediation": "Audit all comments and invisible characters. Remove any instructions that direct the agent to perform unauthorized actions. Use plain, reviewable content.",
+      "code_snippet": "          </mxGeometry>\n        </mxCell>\n\n        <!-- Message 3: Auth Service -> User DB: query user (sync) -->\n        <mxCell id=\"53\" value=\"SELECT * FROM users\" style=\"html=1;verticalAlign=bottom;endArrow=block;edgeStyle=orthogonalEdgeStyle;rounded=1;\" edge=\"1\" parent=\"1\" source=\"30\" target=\"40\">\n          <mxGeometry relative=\"1\" as=\"geometry\">\n            <mxPoint x=\"550\" y=\"200\" as=\"sourcePoint\" />",
+      "intent": null
+    },
+    {
+      "id": "P2",
+      "category": "Prompt Injection",
+      "pattern": "Hidden Instructions",
+      "severity": "HIGH",
+      "confidence": 0.7,
+      "location": {
+        "file": "assets/demo-sequence.drawio",
+        "start_line": 77,
+        "end_line": null
+      },
+      "finding": "<!-- Message 5: Auth Service generates JWT (self-call note) -->\n        <mxCell id=\"55\" value=\"generateJWT(userData)\" style=\"html=1;verticalAlign=bottom;endArrow=block;edgeStyle=orthogonalEdgeStyle;ro",
+      "explanation": "Hidden instructions were detected in comments or invisible text. These could contain malicious directives. Manual review is recommended.",
+      "remediation": "Audit all comments and invisible characters. Remove any instructions that direct the agent to perform unauthorized actions. Use plain, reviewable content.",
+      "code_snippet": "          </mxGeometry>\n        </mxCell>\n\n        <!-- Message 5: Auth Service generates JWT (self-call note) -->\n        <mxCell id=\"55\" value=\"generateJWT(userData)\" style=\"html=1;verticalAlign=bottom;endArrow=block;edgeStyle=orthogonalEdgeStyle;rounded=1;\" edge=\"1\" parent=\"1\" source=\"30\" target=\"30\">\n          <mxGeometry relative=\"1\" as=\"geometry\">\n            <mxPoint x=\"550\" y=\"280\" as=\"sourcePoint\" />",
+      "intent": null
+    },
+    {
+      "id": "P2",
+      "category": "Prompt Injection",
+      "pattern": "Hidden Instructions",
+      "severity": "HIGH",
+      "confidence": 0.7,
+      "location": {
+        "file": "assets/demo-star.drawio",
+        "start_line": 9,
+        "end_line": null
+      },
+      "finding": "<!-- Hub: Kafka -->\n        <mxCell id=\"2\" value=\"Kafka\" style=\"rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1;fontSize=14;\" vertex=\"1\" parent=\"1\">\n          <mxGeo",
+      "explanation": "Hidden instructions were detected in comments or invisible text. These could contain malicious directives. Manual review is recommended.",
+      "remediation": "Audit all comments and invisible characters. Remove any instructions that direct the agent to perform unauthorized actions. Use plain, reviewable content.",
+      "code_snippet": "        <mxCell id=\"0\" />\n        <mxCell id=\"1\" parent=\"0\" />\n\n        <!-- Hub: Kafka -->\n        <mxCell id=\"2\" value=\"Kafka\" style=\"rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1;fontSize=14;\" vertex=\"1\" parent=\"1\">\n          <mxGeometry x=\"320\" y=\"270\" width=\"160\" height=\"60\" as=\"geometry\" />\n        </mxCell>",
+      "intent": null
+    },
+    {
+      "id": "P2",
+      "category": "Prompt Injection",
+      "pattern": "Hidden Instructions",
+      "severity": "HIGH",
+      "confidence": 0.7,
+      "location": {
+        "file": "assets/demo-star.drawio",
+        "start_line": 56,
+        "end_line": null
+      },
+      "finding": "<!-- Payment Service \u2192 Kafka (right to left) -->\n        <mxCell id=\"22\" value=\"payments\" style=\"edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx",
+      "explanation": "Hidden instructions were detected in comments or invisible text. These could contain malicious directives. Manual review is recommended.",
+      "remediation": "Audit all comments and invisible characters. Remove any instructions that direct the agent to perform unauthorized actions. Use plain, reviewable content.",
+      "code_snippet": "          <mxGeometry relative=\"1\" as=\"geometry\" />\n        </mxCell>\n\n        <!-- Payment Service \u2192 Kafka (right to left) -->\n        <mxCell id=\"22\" value=\"payments\" style=\"edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;\" edge=\"1\" parent=\"1\" source=\"5\" target=\"2\">\n          <mxGeometry relative=\"1\" as=\"geometry\" />\n        </mxCell>",
+      "intent": null
+    },
+    {
+      "id": "P2",
+      "category": "Prompt Injection",
+      "pattern": "Hidden Instructions",
+      "severity": "HIGH",
+      "confidence": 0.7,
+      "location": {
+        "file": "assets/demo-star.drawio",
+        "start_line": 66,
+        "end_line": null
+      },
+      "finding": "<!-- Notification Service \u2192 Kafka (left to right) -->\n        <mxCell id=\"24\" value=\"alerts\" style=\"edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exi",
+      "explanation": "Hidden instructions were detected in comments or invisible text. These could contain malicious directives. Manual review is recommended.",
+      "remediation": "Audit all comments and invisible characters. Remove any instructions that direct the agent to perform unauthorized actions. Use plain, reviewable content.",
+      "code_snippet": "          <mxGeometry relative=\"1\" as=\"geometry\" />\n        </mxCell>\n\n        <!-- Notification Service \u2192 Kafka (left to right) -->\n        <mxCell id=\"24\" value=\"alerts\" style=\"edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;\" edge=\"1\" parent=\"1\" source=\"7\" target=\"2\">\n          <mxGeometry relative=\"1\" as=\"geometry\" />\n        </mxCell>",
+      "intent": null
+    },
+    {
+      "id": "P2",
+      "category": "Prompt Injection",
+      "pattern": "Hidden Instructions",
+      "severity": "HIGH",
+      "confidence": 0.7,
+      "location": {
+        "file": "assets/demo-uml-class.drawio",
+        "start_line": 9,
+        "end_line": null
+      },
+      "finding": "<!-- Shape (abstract class) -->\n        <mxCell id=\"2\" value=\"&lt;&lt;abstract&gt;&gt;&#xa;Shape\" style=\"swimlane;fontStyle=1;align=center;startSize=40;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;\" v",
+      "explanation": "Hidden instructions were detected in comments or invisible text. These could contain malicious directives. Manual review is recommended.",
+      "remediation": "Audit all comments and invisible characters. Remove any instructions that direct the agent to perform unauthorized actions. Use plain, reviewable content.",
+      "code_snippet": "        <mxCell id=\"0\" />\n        <mxCell id=\"1\" parent=\"0\" />\n\n        <!-- Shape (abstract class) -->\n        <mxCell id=\"2\" value=\"&lt;&lt;abstract&gt;&gt;&#xa;Shape\" style=\"swimlane;fontStyle=1;align=center;startSize=40;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;\" vertex=\"1\" parent=\"1\">\n          <mxGeometry x=\"280\" y=\"40\" width=\"200\" height=\"130\" as=\"geometry\" />\n        </mxCell>",
+      "intent": null
+    },
+    {
+      "id": "P2",
+      "category": "Prompt Injection",
+      "pattern": "Hidden Instructions",
+      "severity": "HIGH",
+      "confidence": 0.7,
+      "location": {
+        "file": "assets/microservices-example.drawio",
+        "start_line": 9,
+        "end_line": null
+      },
+      "finding": "<!-- Client Tier -->\n        <mxCell id=\"10\" value=\"Client Tier\" style=\"swimlane;startSize=30;fillColor=#dae8fc;strokeColor=#6c8ebf;rounded=1;html=1;fontSize=14;fontStyle=1;\" vertex=\"1\" parent=\"1\">\n  ",
+      "explanation": "Hidden instructions were detected in comments or invisible text. These could contain malicious directives. Manual review is recommended.",
+      "remediation": "Audit all comments and invisible characters. Remove any instructions that direct the agent to perform unauthorized actions. Use plain, reviewable content.",
+      "code_snippet": "        <mxCell id=\"0\" />\n        <mxCell id=\"1\" parent=\"0\" />\n\n        <!-- Client Tier -->\n        <mxCell id=\"10\" value=\"Client Tier\" style=\"swimlane;startSize=30;fillColor=#dae8fc;strokeColor=#6c8ebf;rounded=1;html=1;fontSize=14;fontStyle=1;\" vertex=\"1\" parent=\"1\">\n          <mxGeometry x=\"100\" y=\"20\" width=\"1000\" height=\"100\" as=\"geometry\" />\n        </mxCell>",
+      "intent": null
+    },
+    {
+      "id": "P2",
+      "category": "Prompt Injection",
+      "pattern": "Hidden Instructions",
+      "severity": "HIGH",
+      "confidence": 0.7,
+      "location": {
+        "file": "assets/microservices-example.drawio",
+        "start_line": 109,
+        "end_line": null
+      },
+      "finding": "<!-- Edges: Order Service and Payment Service to Kafka -->\n        <mxCell id=\"70\" value=\"\" style=\"edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exit",
+      "explanation": "Hidden instructions were detected in comments or invisible text. These could contain malicious directives. Manual review is recommended.",
+      "remediation": "Audit all comments and invisible characters. Remove any instructions that direct the agent to perform unauthorized actions. Use plain, reviewable content.",
+      "code_snippet": "          <mxGeometry relative=\"1\" as=\"geometry\" />\n        </mxCell>\n\n        <!-- Edges: Order Service and Payment Service to Kafka -->\n        <mxCell id=\"70\" value=\"\" style=\"edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;\" edge=\"1\" parent=\"1\" source=\"33\" target=\"40\">\n          <mxGeometry relative=\"1\" as=\"geometry\" />\n        </mxCell>",
+      "intent": null
+    },
+    {
+      "id": "P2",
+      "category": "Prompt Injection",
+      "pattern": "Hidden Instructions",
+      "severity": "HIGH",
+      "confidence": 0.7,
+      "location": {
+        "file": "assets/microservices-example.drawio",
+        "start_line": 122,
+        "end_line": null
+      },
+      "finding": "<!-- Edges: Services to Databases -->\n        <!-- User Service to User DB -->\n        <mxCell id=\"80\" value=\"\" style=\"edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;ex",
+      "explanation": "Hidden instructions were detected in comments or invisible text. These could contain malicious directives. Manual review is recommended.",
+      "remediation": "Audit all comments and invisible characters. Remove any instructions that direct the agent to perform unauthorized actions. Use plain, reviewable content.",
+      "code_snippet": "          <mxGeometry relative=\"1\" as=\"geometry\" />\n        </mxCell>\n\n        <!-- Edges: Services to Databases -->\n        <!-- User Service to User DB -->\n        <mxCell id=\"80\" value=\"\" style=\"edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;\" edge=\"1\" parent=\"1\" source=\"32\" target=\"51\">\n          <mxGeometry relative=\"1\" as=\"geometry\">",
+      "intent": null
+    },
+    {
+      "id": "P2",
+      "category": "Prompt Injection",
+      "pattern": "Hidden Instructions",
+      "severity": "HIGH",
+      "confidence": 0.7,
+      "location": {
+        "file": "assets/microservices-example.drawio",
+        "start_line": 141,
+        "end_line": null
+      },
+      "finding": "<!-- Product Service to Product DB -->\n        <mxCell id=\"82\" value=\"\" style=\"edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX",
+      "explanation": "Hidden instructions were detected in comments or invisible text. These could contain malicious directives. Manual review is recommended.",
+      "remediation": "Audit all comments and invisible characters. Remove any instructions that direct the agent to perform unauthorized actions. Use plain, reviewable content.",
+      "code_snippet": "            </Array>\n          </mxGeometry>\n        </mxCell>\n        <!-- Product Service to Product DB -->\n        <mxCell id=\"82\" value=\"\" style=\"edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;\" edge=\"1\" parent=\"1\" source=\"34\" target=\"53\">\n          <mxGeometry relative=\"1\" as=\"geometry\">\n            <Array as=\"points\">",
+      "intent": null
+    },
+    {
+      "id": "P2",
+      "category": "Prompt Injection",
+      "pattern": "Hidden Instructions",
+      "severity": "HIGH",
+      "confidence": 0.7,
+      "location": {
+        "file": "assets/workflow-cn.drawio",
+        "start_line": 9,
+        "end_line": null
+      },
+      "finding": "<!-- Row 1 -->\n        <mxCell id=\"2\" value=\"\u5f00\u59cb\" style=\"ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;\" vertex=\"1\" parent=\"1\">\n          <mxGeometry x=\"20\" y=\"90\" width=\"80\" hei",
+      "explanation": "Hidden instructions were detected in comments or invisible text. These could contain malicious directives. Manual review is recommended.",
+      "remediation": "Audit all comments and invisible characters. Remove any instructions that direct the agent to perform unauthorized actions. Use plain, reviewable content.",
+      "code_snippet": "        <mxCell id=\"0\" />\n        <mxCell id=\"1\" parent=\"0\" />\n\n        <!-- Row 1 -->\n        <mxCell id=\"2\" value=\"\u5f00\u59cb\" style=\"ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;\" vertex=\"1\" parent=\"1\">\n          <mxGeometry x=\"20\" y=\"90\" width=\"80\" height=\"40\" as=\"geometry\" />\n        </mxCell>",
+      "intent": null
+    },
+    {
+      "id": "P2",
+      "category": "Prompt Injection",
+      "pattern": "Hidden Instructions",
+      "severity": "HIGH",
+      "confidence": 0.7,
+      "location": {
+        "file": "assets/workflow-cn.drawio",
+        "start_line": 75,
+        "end_line": null
+      },
+      "finding": "<!-- Edges: Row 2 LTR -->\n        <mxCell id=\"25\" value=\"\" style=\"edgeStyle=orthogonalEdgeStyle;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;\" edge=\"1\" parent=\"1\"",
+      "explanation": "Hidden instructions were detected in comments or invisible text. These could contain malicious directives. Manual review is recommended.",
+      "remediation": "Audit all comments and invisible characters. Remove any instructions that direct the agent to perform unauthorized actions. Use plain, reviewable content.",
+      "code_snippet": "          </mxGeometry>\n        </mxCell>\n\n        <!-- Edges: Row 2 LTR -->\n        <mxCell id=\"25\" value=\"\" style=\"edgeStyle=orthogonalEdgeStyle;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;\" edge=\"1\" parent=\"1\" source=\"7\" target=\"8\">\n          <mxGeometry relative=\"1\" as=\"geometry\" />\n        </mxCell>",
+      "intent": null
+    },
+    {
+      "id": "P2",
+      "category": "Prompt Injection",
+      "pattern": "Hidden Instructions",
+      "severity": "HIGH",
+      "confidence": 0.7,
+      "location": {
+        "file": "assets/workflow.drawio",
+        "start_line": 9,
+        "end_line": null
+      },
+      "finding": "<!-- Row 1 -->\n        <mxCell id=\"2\" value=\"Start\" style=\"ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;\" vertex=\"1\" parent=\"1\">\n          <mxGeometry x=\"20\" y=\"90\" width=\"80\" ",
+      "explanation": "Hidden instructions were detected in comments or invisible text. These could contain malicious directives. Manual review is recommended.",
+      "remediation": "Audit all comments and invisible characters. Remove any instructions that direct the agent to perform unauthorized actions. Use plain, reviewable content.",
+      "code_snippet": "        <mxCell id=\"0\" />\n        <mxCell id=\"1\" parent=\"0\" />\n\n        <!-- Row 1 -->\n        <mxCell id=\"2\" value=\"Start\" style=\"ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;\" vertex=\"1\" parent=\"1\">\n          <mxGeometry x=\"20\" y=\"90\" width=\"80\" height=\"40\" as=\"geometry\" />\n        </mxCell>",
+      "intent": null
+    },
+    {
+      "id": "P2",
+      "category": "Prompt Injection",
+      "pattern": "Hidden Instructions",
+      "severity": "HIGH",
+      "confidence": 0.7,
+      "location": {
+        "file": "assets/workflow.drawio",
+        "start_line": 75,
+        "end_line": null
+      },
+      "finding": "<!-- Edges: Row 2 LTR -->\n        <mxCell id=\"25\" value=\"\" style=\"edgeStyle=orthogonalEdgeStyle;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;\" edge=\"1\" parent=\"1\"",
+      "explanation": "Hidden instructions were detected in comments or invisible text. These could contain malicious directives. Manual review is recommended.",
+      "remediation": "Audit all comments and invisible characters. Remove any instructions that direct the agent to perform unauthorized actions. Use plain, reviewable content.",
+      "code_snippet": "          </mxGeometry>\n        </mxCell>\n\n        <!-- Edges: Row 2 LTR -->\n        <mxCell id=\"25\" value=\"\" style=\"edgeStyle=orthogonalEdgeStyle;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;\" edge=\"1\" parent=\"1\" source=\"7\" target=\"8\">\n          <mxGeometry relative=\"1\" as=\"geometry\" />\n        </mxCell>",
+      "intent": null
+    },
+    {
+      "id": "P2",
+      "category": "Prompt Injection",
+      "pattern": "Hidden Instructions",
+      "severity": "HIGH",
+      "confidence": 0.7,
+      "location": {
+        "file": "docs/index.html",
+        "start_line": 214,
+        "end_line": null
+      },
+      "finding": "<!-- Hero -->\n  <div class=\"hero\">\n    <div class=\"container\">\n      <div class=\"hero-badge\">v1.14.0 &mdash; Codebase Viz, Shape Search, AI &amp; Data Logos</div>\n      <h1>drawio-<span>skill</span></",
+      "explanation": "Hidden instructions were detected in comments or invisible text. These could contain malicious directives. Manual review is recommended.",
+      "remediation": "Audit all comments and invisible characters. Remove any instructions that direct the agent to perform unauthorized actions. Use plain, reviewable content.",
+      "code_snippet": "  </nav>\n\n  <main id=\"main-content\">\n  <!-- Hero -->\n  <div class=\"hero\">\n    <div class=\"container\">\n      <div class=\"hero-badge\">v1.14.0 &mdash; Codebase Viz, Shape Search, AI &amp; Data Logos</div>",
+      "intent": null
+    },
+    {
+      "id": "P2",
+      "category": "Prompt Injection",
+      "pattern": "Hidden Instructions",
+      "severity": "HIGH",
+      "confidence": 0.7,
+      "location": {
+        "file": "skills/drawio-skill/SKILL.md",
+        "start_line": 188,
+        "end_line": null
+      },
+      "finding": "<!-- user shapes start at id=\"2\" -->\n      </root>\n    </mxGraphModel>\n  </diagram>\n</mxfile>\n```\n\n**Rules:**\n- `id=\"0\"` and `id=\"1\"` are required root cells \u2014 never omit them\n- User shapes start at `",
+      "explanation": "Hidden instructions were detected in comments or invisible text. These could contain malicious directives. Manual review is recommended.",
+      "remediation": "Audit all comments and invisible characters. Remove any instructions that direct the agent to perform unauthorized actions. Use plain, reviewable content.",
+      "code_snippet": "      <root>\n        <mxCell id=\"0\" />\n        <mxCell id=\"1\" parent=\"0\" />\n        <!-- user shapes start at id=\"2\" -->\n      </root>\n    </mxGraphModel>\n  </diagram>",
+      "intent": null
+    },
+    {
+      "id": "P2",
+      "category": "Prompt Injection",
+      "pattern": "Hidden Instructions",
+      "severity": "HIGH",
+      "confidence": 0.7,
+      "location": {
+        "file": "skills/drawio-skill/SKILL.md",
+        "start_line": 226,
+        "end_line": null
+      },
+      "finding": "<!-- Cylinder (database) -->\n<mxCell id=\"3\" value=\"DB\" style=\"shape=cylinder3;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;\" vertex=\"1\" parent=\"1\">\n  <mxGeometry x=\"3",
+      "explanation": "Hidden instructions were detected in comments or invisible text. These could contain malicious directives. Manual review is recommended.",
+      "remediation": "Audit all comments and invisible characters. Remove any instructions that direct the agent to perform unauthorized actions. Use plain, reviewable content.",
+      "code_snippet": "  <mxGeometry x=\"100\" y=\"100\" width=\"160\" height=\"60\" as=\"geometry\" />\n</mxCell>\n\n<!-- Cylinder (database) -->\n<mxCell id=\"3\" value=\"DB\" style=\"shape=cylinder3;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;\" vertex=\"1\" parent=\"1\">\n  <mxGeometry x=\"350\" y=\"100\" width=\"120\" height=\"80\" as=\"geometry\" />\n</mxCell>",
+      "intent": null
+    },
+    {
+      "id": "P4",
+      "category": "Prompt Injection",
+      "pattern": "Behavior Manipulation",
+      "severity": "MEDIUM",
+      "confidence": 0.7,
+      "location": {
+        "file": "skills/drawio-skill/references/shapes.md",
+        "start_line": 11,
+        "end_line": null
+      },
+      "finding": "Always prefer a searched\n   style over",
+      "explanation": "Subtle instructions detected that may alter agent decision-making or introduce hidden biases.",
+      "remediation": "Review content for implicit steering or bias. Ensure instructions are explicit and align with the skill's stated purpose.",
+      "code_snippet": "\n1. **Search the official shape index** (`scripts/shapesearch.py`) \u2014 10,446 real\n   draw.io palette shapes with their exact `style`, `w`, `h`. Use this for\n   branded/vendor icons and anything non-trivial. **Always prefer a searched\n   style over a hand-written `shape=mxgraph.*` guess** \u2014 guessed stencil names\n   silently render as a blank box if the name is wrong.\n2. **The cheatsheet below** \u2014 the common built-in shapes whose style strings are",
+      "intent": null
+    },
+    {
+      "id": "RA2",
+      "category": "Rogue Agent",
+      "pattern": "Session Persistence",
+      "severity": "MEDIUM",
+      "confidence": 0.6,
+      "location": {
+        "file": "skills/drawio-skill/SKILL.md",
+        "start_line": 151,
+        "end_line": null
+      },
+      "finding": "write the same `{name}.png` (no `-e`) each iteration \u2014 do not create `v1`, `v2`, `v3` files. `-e` is reserved for the final export in step 7.\n- After applying edits, re-export and show the updated ima",
+      "explanation": "Skill establishes unauthorized persistence across sessions via cron jobs, startup scripts, or state files. Session persistence allows an attacker to maintain access beyond the current interaction.",
+      "remediation": "Remove any persistence mechanisms (cron jobs, startup scripts, state files). Skills should not maintain state across sessions without explicit user consent.",
+      "code_snippet": "**Rules:**\n- For single-element changes: edit existing XML in place \u2014 preserves layout tuning from prior iterations\n- For layout-wide changes (e.g., swap LR\u2194TB, \"start over\"): regenerate full XML\n- Overwrite the same `{name}.png` (no `-e`) each iteration \u2014 do not create `v1`, `v2`, `v3` files. `-e` is reserved for the final export in step 7.\n- After applying edits, re-export and show the updated image\n- Loop continues until user says approved / done / LGTM\n- **Safety valve:** after 5 iteration rounds, suggest the user open the `.drawio` file in draw.io desktop for fine-grained adjustments",
+      "intent": null
+    },
+    {
+      "id": "RA2",
+      "category": "Rogue Agent",
+      "pattern": "Session Persistence",
+      "severity": "MEDIUM",
+      "confidence": 0.6,
+      "location": {
+        "file": "skills/drawio-skill/references/style-extraction.md",
+        "start_line": 97,
+        "end_line": null
+      },
+      "finding": "Write the filled XML to `/tmp/drawio-preset-<name>.drawio`.\n2. Run the same `drawio -x -f png -e -s 2 -o <preset-name>-sample.png <tmp>.drawio` command the main workflow uses (substitute the binary na",
+      "explanation": "Skill establishes unauthorized persistence across sessions via cron jobs, startup scripts, or state files. Session persistence allows an attacker to maintain access beyond the current interaction.",
+      "remediation": "Remove any persistence mechanisms (cron jobs, startup scripts, state files). Skills should not maintain state across sessions without explicit user consent.",
+      "code_snippet": "\n### Rendering the sample\n\n1. Write the filled XML to `/tmp/drawio-preset-<name>.drawio`.\n2. Run the same `drawio -x -f png -e -s 2 -o <preset-name>-sample.png <tmp>.drawio` command the main workflow uses (substitute the binary name you resolved in SKILL.md Step 1 if it isn't `drawio`).\n3. Repair the IEND chunk: `python3 <this-skill-dir>/scripts/repair_png.py <preset-name>-sample.png` \u2014 the `-e` flag truncates the PNG the same way the main workflow's step 7 does, so the sample needs the same fix to be readable.\n4. Save the PNG as `./preset-<name>-sample.png` (the user's working directory).",
+      "intent": null
+    },
+    {
+      "id": "RA2",
+      "category": "Rogue Agent",
+      "pattern": "Session Persistence",
+      "severity": "MEDIUM",
+      "confidence": 0.6,
+      "location": {
+        "file": "skills/drawio-skill/references/style-presets.md",
+        "start_line": 60,
+        "end_line": null
+      },
+      "finding": "write it to `/tmp/drawio-preset-<name>.json` (where `<name>` is the already-normalized name). Do **not** save to `~/.drawio-skill/styles/<name>.json` yet.\n4. **Render a sample** using the sample-diagr",
+      "explanation": "Skill establishes unauthorized persistence across sessions via cron jobs, startup scripts, or state files. Session persistence allows an attacker to maintain access beyond the current interaction.",
+      "remediation": "Remove any persistence mechanisms (cron jobs, startup scripts, state files). Skills should not maintain state across sessions without explicit user consent.",
+      "code_snippet": "\n1. **Load the extraction reference.** Read `references/style-extraction.md` into context.\n2. **Extract** following the XML path or image path procedure in the reference.\n3. **Normalize and build candidate.** Convert the user-provided preset name to lowercase. Use this normalized name for ALL file paths in this flow. Build the candidate preset JSON and write it to `/tmp/drawio-preset-<name>.json` (where `<name>` is the already-normalized name). Do **not** save to `~/.drawio-skill/styles/<name>.json` yet.\n4. **Render a sample** using the sample-diagram skeleton in `references/style-extraction.md`, parameterized by the candidate preset. Export PNG to `./preset-<name>-sample.png` using the same `drawio -x -f png -e -s 2 -o ./preset-<name>-sample.png /tmp/drawio-preset-<name>.drawio` command the main workflow uses, then run `repair_png.py` on it (see the Rendering the sample steps in `style-extraction.md`).\n5. **Show the user:**\n   - Preset summary table (palette hex values, shapes per role, font, edge style, extras).",
+      "intent": null
+    },
+    {
+      "id": "TM2",
+      "category": "Tool Misuse",
+      "pattern": "Chaining Abuse",
+      "severity": "HIGH",
+      "confidence": 0.75,
+      "location": {
+        "file": ".github/workflows/tests.yml",
+        "start_line": 27,
+        "end_line": null
+      },
+      "finding": "&& sudo",
+      "explanation": "Tool calls are chained to bypass individual safety checks or escalate capabilities beyond what any single tool call would allow.",
+      "remediation": "Limit tool chaining depth and validate the output of each tool before passing it to the next. Require explicit user approval for multi-step chains.",
+      "code_snippet": "        with:\n          python-version: \"3.11\"\n      - name: Install Graphviz (for importer transitive reduction)\n        run: sudo apt-get update && sudo apt-get install -y graphviz\n      - name: Run tests\n        run: python3 -W error::ResourceWarning -m unittest discover -s tests -v",
+      "intent": null
+    },
+    {
+      "id": "TM1",
+      "category": "Tool Misuse",
+      "pattern": "Tool Parameter Abuse",
+      "severity": "HIGH",
+      "confidence": 0.85,
+      "location": {
+        "file": "assets/ai-logos-example.png",
+        "start_line": 432,
+        "end_line": null
+      },
+      "finding": "rM\"\ufffd\ufffdN\u0563\u0149j\ufffd\u0013\ufffd/",
+      "explanation": "Tool parameters are crafted to achieve unintended or unsafe behavior. Parameter abuse can bypass intended safety checks (e.g. shell=True, --force, dangerous glob patterns).",
+      "remediation": "Validate all tool parameters against an allowlist. Reject dangerous parameter values (shell=True, --force, -rf /) and use safe defaults.",
+      "code_snippet": "\ufffd\ufffdvc\ufffdC\u0012\ufffd%+\ufffd\\\u0010\ufffd\u000f}\ufffdCt\ufffd?\ufffd\u044f\ufffdu\ufffdY\ufffd\ufffdbJ\ufffd\ufffd$\ufffd\ufffd\ne\u000fu\ufffd\ufffd2H`\u0000\ufffd\ufffdN\u0007\ufffdHK\"\ufffd\ufffdy\ufffd{p\ufffd\ufffd'\ufffd;\ufffd\u0004\ufffd\ufffd\ufffd'\u001f\u007f\ufffdq\t\u0004x\ufffd\ufffd\ufffd\ufffdO|\ufffd\u0001\u000f) \ufffdS\u0006>\ufffd\u0005m\ufffd\ufffd3\ufffdLG'\ufffd\ufffdj\\2>A\ufffda\ufffd\ufffd\b\u028eF*O\ufffdW\u0007)\ufffd\ufffds\ufffdA\ufffd\ufffd!\u0018\ufffd5\u007f\ufffd|\ufffdW:\n\ufffd\ufffd6\ufffd)x\ufffd,IF\nA9E\ufffd`X\ufffde\ufffd\n\ufffd\ufffd\ufffd\ufffd/\ufffd\ufffd\u0006\ufffdv\n\ufffd:AB~\ufffdq\u01dd~\ufffd\ufffd9bJ\ufffd\t\ufffd\ufffd7-\u0006O\u0015\ufffd\b\u0006\u0019\u007f\ufffd#kbR\ufffd\ufffd#8&E\u0484\ufffd\ufffdK\ufffd\ufffd\ufffd\u05b2\b\ufffd\u001a3+eH\ufffd\u0003\u000e8\ufffd\n\u0006J\ufffd\ufffd\ue13dYy/\ufffd\ufffd)\ufffd\ufffd\ufffd\ufffd\ufffd&Mb\ufffd\u001f\u001bM\ufffd\ufffd\ufffd\ufffd\ufffd<\ufffd\ufffd1pE\ufffd\u00bd6\ufffd",
+      "intent": null
+    },
+    {
+      "id": "TM1",
+      "category": "Tool Misuse",
+      "pattern": "Tool Parameter Abuse",
+      "severity": "HIGH",
+      "confidence": 0.85,
+      "location": {
+        "file": "assets/ai-logos-example.png",
+        "start_line": 661,
+        "end_line": null
+      },
+      "finding": "rm\ufffd\ufffd>B\ufffd\u00189\ufffdY\u05b7/\\\ufffd\u0015k\ufffd\u001d\ufffd\ufffd\u001e:p`0\u0018\ufffd,n\ufffd\ufffd\ufffd\u0013<=\ufffd\ufffd\ufffd/",
+      "explanation": "Tool parameters are crafted to achieve unintended or unsafe behavior. Parameter abuse can bypass intended safety checks (e.g. shell=True, --force, dangerous glob patterns).",
+      "remediation": "Validate all tool parameters against an allowlist. Reject dangerous parameter values (shell=True, --force, -rf /) and use safe defaults.",
+      "code_snippet": "'\ufffdB\u0012\ufffd\u0010Ca\n\ufffd*\ufffdsJ,/\ufffd)'\ufffdYLHb\u00079\t[\u0413\ufffd\ufffd\ufffdS\ufffdCHxo\ufffd\t~R\ufffdK\u0017{\ufffd\u0010\n\ufffd\ufffdD\u0016\ufffdmN{\ufffd\ufffd9\t\ufffdt\ufffd\u06a5\u0010\ufffd\ufffd\n\u0018\ufffdI\ufffd\u0086'qH\u0014\ufffd\u0485-'\ufffdq\ufffd\u0013\u0012\ufffd\u001a\ufffd\ufffd`a#\ufffd\ufffdI\ufffd\ufffd\ufffd\u001ag\ufffdx\ufffd3\ufffdZ\ufffdb@Y\ufffdL\u001b\"{M\u0004\u0019\ufffd?q\ufffd(\\\ufffd\u007fC\ufffd%&\u000f/\ufffd7\ufffd\u0018c\ufffd1;\u0019\ufffdZ\ufffd\u007f2\ufffd\bbM\ufffd\u0019\ufffdL\ufffd2e\u077au\ufffdL\ufffd\ufffdh\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd%\ufffd\ufffdqK\u0018\ufffd'Y\u02e0Xi\ufffdyc\ufffd\ufffdL\ufffdC\ufffd\ufffd\u0001\ufffd\ufffdQ\ufffds{bO\ufffd\ufffd\u0013\ufffdD\ufffd\ufffd\ufffd\n\ufffd'$\ufffd\ufffd|OvTH\u069c&\ufffd\ufffd\ufffd\ufffdrg\ufffdx\ufffdd\ufffd\ufffd\u0012i\ufffd\u0013\ufffd\ufffd%\ufffdl\ufffd\ufffd&\ufffd2MZ\u0015\u0012I\ufffdIs\ufffdEH:N\ufffd\u0113\ufffdDk\ufffd'A\u058c\ufffd\"\ufffdIw\ufffdl\ufffd1\ufffdl\ufffd2\ufffdRf|\ufffd\ufffd\ufffd\n{\ufffd1p\ufffd@\ufffd\ufffd\ufffdZ\u0647\n\ufffd\ufffd/\ufffd\ufffdX\u00185\ufffd\u0018c\ufffd1",
+      "intent": null
+    },
+    {
+      "id": "TM1",
+      "category": "Tool Misuse",
+      "pattern": "Tool Parameter Abuse",
+      "severity": "HIGH",
+      "confidence": 0.85,
+      "location": {
+        "file": "assets/ai-logos-example.png",
+        "start_line": 1232,
+        "end_line": null
+      },
+      "finding": "rmz\ufffd7\ufffd9\ufffd2J/",
+      "explanation": "Tool parameters are crafted to achieve unintended or unsafe behavior. Parameter abuse can bypass intended safety checks (e.g. shell=True, --force, dangerous glob patterns).",
+      "remediation": "Validate all tool parameters against an allowlist. Reject dangerous parameter values (shell=True, --force, -rf /) and use safe defaults.",
+      "code_snippet": "\ufffd=|\ufffdf\ufffd\u0000\ufffd\ufffd7\ufffd\ufffd\ufffd|\ufffdn\ufffd\ufffd\ufffd\ufffd\u000f|h\ufffd\u065cx\u0016Z\ufffd%A\ufffd\ufffd\ufffdB\ufffd\ufffd\"=P4\u0000_\u000f{4[F\u0004o\ufffd\u0000\u0000\u0010\u0000IDAT\ufffdI\u0106\ufffdsv\ufffd\ufffd`[\ufffd\ufffd\u0014aW\ufffd\u0016\ufffd\ufffd\ufffd/\u05a3\n\u00c4\ufffdE\ufffd\u0003\ufffd\u0018e\u0018\ufffda\u0018\ufffd)\ufffd\ufffd\ufffd\ufffd\ufffd\u0014]X\ufffd;\ufffd\ufffdm;v\ufffdq<\ufffd\ufffd6o\u07bcN\ufffd:2\ufffd\ufffd((\ufffd\u0003\ufffd\ufffd\ufffdO\ufffd\ufffdZ\ufffdt\u98cf>\u001a\u0011\u0011\u0001\ufffdI]\ufffd\ufffd\ufffdIeI\ufffd\ufffd0MLL\ufffd\ufffd\ufffd?\ufffdf\u035a\ufffdn\ufffdI\u0018*\ufffd\ufffd\ufffd\u001b\ufffd\u06ff\ufffd\ufffd\ufffd\u077au\ufffd\ufffdLJJ\ufffd*<:r\ufffd,7L\ufffd'\n\ufffdY\ufffd\\\ufffd\u0007\u000f\ufffd\ufffd\ufffd\u001b\u014cF7J\u00190\ufffdm\ufffd\u0006\ufffd+\u001b\ufffd`.\u001a\ufffd_vi\ufffd\ufffd\u037f\ufffd\ufffd\ufffd\u001ab\ufffd%<\ufffd\ufffd\ufffdG\ufffd\u0019!\ufffd=\u072bT\ufffd\u04af_?\u0011b\t&\ufffd\ufffd9s\ufffd\ufffd\u001b\n\ufffd\ufffdB\ufffdT\ufffdR\ufffd\u07bdCZ\u0017-\ufffd\ufffd\ufffd\ufffdr\ufffd\\\ufffd\u0656\ufffdSaa\ufffd\ufffdG\ufffds+\ufffd\b\ufffdlK\ufffd\ufffd\u01e9\ufffd\ufffd'\uc66dZ\ufffd<f\ufffd[\ufffd\ufffdZ\ufffd\ufffd\"\ufffdf\ufffd\ufffd[Q\ufffd\ufffda6\ufffd\u04bb\ufffd\ufffd\ufffdB\u0015\ufffdS\ufffd\ufffd\ufffd?\ufffd\ufffd\ufffdV\ufffd\ufffd\ufffd6\u0019\ufffd\u052a\ufffd{\u0014\u0013Tgz\ufffd\ufffd\ufffdf\u0015(\u001a\ufffd\ufffd5\ufffd\ufffd\ufffd\ufffd\\\ufffd\u05ad\ufffd\ufffd\u07ec\u000fM\ufffd\ufffd<\ufffdDE@\ufffdkYG\ufffd_\ufffd2\u0005\ufffd\ufffdxX0\u000fA\u0016<\ufffdG\u0001m\ufffd\ufffd\u007f\ufffdH#;\u0018Yt\ufffdv\u000e\ufffdb\ufffda\u0018\ufffda\u0018\ufffd\ufffdC'\ufffdps-Z\ufffd\ufffd\ufffd\u0162\n4*\ufffd\ufffd\ufffd'\n\ufffdj\ufffd\ufffd\n\u001a4\u0010~",
+      "intent": null
+    },
+    {
+      "id": "TM1",
+      "category": "Tool Misuse",
+      "pattern": "Tool Parameter Abuse",
+      "severity": "HIGH",
+      "confidence": 0.85,
+      "location": {
+        "file": "assets/ai-logos-example.png",
+        "start_line": 1253,
+        "end_line": null
+      },
+      "finding": "Rm^\ufffd*\ufffd\u0015\ufffdF}\ufffd\ufffd6iTy\ufffdIM\u001b\u001c]P1z(h\ufffdG\ufffdO\ufffd\ufffd/",
+      "explanation": "Tool parameters are crafted to achieve unintended or unsafe behavior. Parameter abuse can bypass intended safety checks (e.g. shell=True, --force, dangerous glob patterns).",
+      "remediation": "Validate all tool parameters against an allowlist. Reject dangerous parameter values (shell=True, --force, -rf /) and use safe defaults.",
+      "code_snippet": "JZ\u001a\ufffd\ufffd`\ufffdC\ufffd\u000e\ufffd\ufffd\ufffd?w\ufffdu\u0017\u001a\n\u001a^\ufffd\ufffd`]\ufffd\ufffde\u02d6\ufffd\u001b7\u07b2eK\ufffd\\\u0006\ufffdR\u012b\ufffd\ufffd\u0011L\ufffd\ufffd\ufffdiC\u0015z=\ufffddW\ufffd\u0016o\ufffd\ufffd\u053d\ufffd&m\ufffd\ufffd\ufffdt\ufffd\ufffd\ufffd^\ufffd\ufffd\ufffd\ufffdD\ufffd\ufffd\ufffd\u0eef=+\n\u00f3\u001b\u000fU{\ufffdhX\b\n\ufffd\u000f\ufffd[\ufffd\ufffdT\ufffdG+Oo\ufffd\u0018\n\ufffdL\u0003\ufffdO\ufffdb\ufffdvCM@\ufffd\u0321\ufffd\u0010!7\t\n3\u0015^\ufffd8W.B\ufffd\ufffd*\ufffd\ufffd\ufffd2s\ufffdy\ufffd\ufffd\ufffdu\ufffdCY\ufffdS\ufffdS&\ufffd!\ufffd\u001b]\u0001AVT5G\ufffd\ufffd\ufffd\ufffd\u06627\ufffd|X\ufffd\ufffdd\u0012f\ufffd\ufffd\ufffd\u0015\ufffd\u0013\u000f\ufffd\ufffd\ufffd\ufffd\n\u001bc\ufffd\ufffdj+\ufffd\ufffdg\ufffd\ufffd\ufffd \u008b\ufffdf\ufffd\ufffd\ufffd\u03a2\bV\ufffdE\u0018\ufffd_|\t?\ufffd\ufffdT\ufffd\ufffd(\ufffd0",
+      "intent": null
+    },
+    {
+      "id": "TM1",
+      "category": "Tool Misuse",
+      "pattern": "Tool Parameter Abuse",
+      "severity": "HIGH",
+      "confidence": 0.85,
+      "location": {
+        "file": "assets/code-structure-example.png",
+        "start_line": 619,
+        "end_line": null
+      },
+      "finding": "Rm\ufffdm\ufffd\uc850\ufffdJ\ufffd\ufffd\ufffd\u000bO\u001c\ufffd\ufffd\ufffd'\ufffd\u0002\ufffdk\ufffdGD_\"\ufffdF\ufffd\u001b\u0004\ufffdgq\ufffd\ufffd\ufffd\\\ufffd\ufffd\u0010 \u0007\ufffdA/",
+      "explanation": "Tool parameters are crafted to achieve unintended or unsafe behavior. Parameter abuse can bypass intended safety checks (e.g. shell=True, --force, dangerous glob patterns).",
+      "remediation": "Validate all tool parameters against an allowlist. Reject dangerous parameter values (shell=True, --force, -rf /) and use safe defaults.",
+      "code_snippet": "\ufffd\ufffdGD!\ufffd\ufffd\ufffd\ufffd\bU~\ufffd\ufffd\nyQa\ufffd\u0773\ufffd\u0014\u0017\u0016\ufffdL\b\ufffd\u000fk~x\ufffd\u01774Z5L\nu\ufffd^ii\ufffd)\ufffd\ufffd\n\ufffd\ufffde\ufffd'\nz\ufffdPR\n\ufffdH<\ufffdH\u0007\ufffdEk/\ufffdz\u0329\ufffdr\u001b\u0001!\t\ufffd\ufffd\ufffd\u0010E\u0408o ik>^\ufffd\u07ab\ufffd\ufffd9\ufffdX\ufffd\u007f\ufffd\ufffd\bu\ufffd\ufffd\ufffdy|\ufffd'\ufffdF\ufffdRD\ufffd\ufffd\ufffd\nz\ufffd\ufffd\ufffd\ufffd_8\ufffd\ufffd",
+      "intent": null
+    },
+    {
+      "id": "TM1",
+      "category": "Tool Misuse",
+      "pattern": "Tool Parameter Abuse",
+      "severity": "HIGH",
+      "confidence": 0.85,
+      "location": {
+        "file": "assets/code-structure-example.png",
+        "start_line": 660,
+        "end_line": null
+      },
+      "finding": "Rm\ufffdT\ufffd=\ufffd7\ufffd\ufffd\ufffdi\ufffd\ufffd\ufffd\f\ufffd\ufffd\ufffd]?o/",
+      "explanation": "Tool parameters are crafted to achieve unintended or unsafe behavior. Parameter abuse can bypass intended safety checks (e.g. shell=True, --force, dangerous glob patterns).",
+      "remediation": "Validate all tool parameters against an allowlist. Reject dangerous parameter values (shell=True, --force, -rf /) and use safe defaults.",
+      "code_snippet": " ,\u0002\ufffd\ufffd\ufffd\ufffdL\ufffdFt\u0002)\ufffdx0\u0001!#\ufffdP\ufffd_\ufffd\u007f\ufffd~\ufffd\u0013\ufffd~\ufffd\ufffd\ufffdB\ufffd\u0000\ufffd\ufffd^\ufffd\u0003\ufffdJ\ufffd\u0004\ufffdP\ufffd\ufffd\ufffd\ufffd\n\ufffd\ufffd\u4ce7\ufffd\ufffdL\ufffd\ufffd\ufffd\n\ufffd\ufffd\ufffd\\\b\u0003\ufffd\u0000\u000e#w\ufffd\nCS\ufffd9S\ufffd0\n\u007f\ufffd\ufffd\ufffd\ufffd\ufffd\u0015+V\ufffd\ufffd\u0722E\ufffd\ufffd+W\u03b8\ufffdI\ufffd&\ufffd\ufffd`\ufffd/\ufffd\u000e\ufffdDkA\n\ufffd/\ufffd\ufffdh\u05383\n\ufffd\ufffd\ufffdz.N(\ufffd-\ufffd;\ufffdh\u0015N\u0637s_\ufffd\ufffdM\u0017\u077fp\ufffd\u0005\ufffd\ufffd!+\ufffd\ufffd\ufffd\ufffd\ufffd\u0007\ufffd\ufffd \ufffd~G\ufffd\b\ufffd\ufffd\ufffd\ufffd\u007f\ufffd_\ufffd\u0002:\u001ab\ufffd",
+      "intent": null
+    },
+    {
+      "id": "TM1",
+      "category": "Tool Misuse",
+      "pattern": "Tool Parameter Abuse",
+      "severity": "HIGH",
+      "confidence": 0.85,
+      "location": {
+        "file": "assets/code-structure-example.png",
+        "start_line": 1248,
+        "end_line": null
+      },
+      "finding": "RmMe:\ufffd\ufffd\ufffd\ufffd/\ufffd\ufffd\ufffd\u007f]\ufffd\ufffdU\ufffd\ufffd\ufffd\ufffd/",
+      "explanation": "Tool parameters are crafted to achieve unintended or unsafe behavior. Parameter abuse can bypass intended safety checks (e.g. shell=True, --force, dangerous glob patterns).",
+      "remediation": "Validate all tool parameters against an allowlist. Reject dangerous parameter values (shell=True, --force, -rf /) and use safe defaults.",
+      "code_snippet": "\ufffd\ufffd\ufffd\ufffd\nY\u0016\ufffd\n\ufffd\ufffd<\ufffd\ufffd\ufffd\u0014'\ufffd\ufffd-\ufffdB>\n\ufffd\ufffd\ufffd?\ufffd\ufffd\ufffd6\ufffdd\ufffd<\ufffd\ufffd\ufffd\ufffdPa\ufffd\n\ufffd$\ufffd\u0000\ufffd\ufffdh\u001b\ufffd\u00117\ufffd\u0010\ufffd\ufffdW\u000fn\ufffdp\ufffdP\ufffd\b}\ufffdVc\ufffd.']{\ufffd\ufffd\ufffd>\ufffdstg\ufffd\u07fd[\ufffd\ufffd;-\ufffd\"2\ufffdT\ny8m?Z\ufffd\ufffd#\ufffd#\ufffdT\ufffd4 \u0001O\ufffdYl\ufffd\n\ufffd3\ufffd\ufffd\ufffd\ufffd\u0004BI\u0017t\ufffd9\u0017\ufffd\ufffd\ufffd",
+      "intent": null
+    },
+    {
+      "id": "TM1",
+      "category": "Tool Misuse",
+      "pattern": "Tool Parameter Abuse",
+      "severity": "HIGH",
+      "confidence": 0.85,
+      "location": {
+        "file": "assets/code-structure-example.png",
+        "start_line": 1278,
+        "end_line": null
+      },
+      "finding": "rm\u05aa\ufffd\ufffd\u001f\ufffd\u0005.\ufffdf\u0017\ufffd\u0003\ufffd:\u001a\ufffd\ufffd\ufffd\u0010\ufffd\ufffd\u0005\ufffd\ufffd\u0007\u001d/",
+      "explanation": "Tool parameters are crafted to achieve unintended or unsafe behavior. Parameter abuse can bypass intended safety checks (e.g. shell=True, --force, dangerous glob patterns).",
+      "remediation": "Validate all tool parameters against an allowlist. Reject dangerous parameter values (shell=True, --force, -rf /) and use safe defaults.",
+      "code_snippet": "@\bl)\ufffdZ(\ufffd\ufffd 9\u0005\ufffd\u00053'\ufffd6b\ufffd\b\ufffdv\ufffd\u01ad\ufffd}/,\"\n-\ufffdS\u0017\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u0019\"\ufffdf\ufffdF'\u0015l\ufffd\ufffd\u0019b\ufffd\ufffd\ufffd\ufffd\ufffd*t\u0013Y{MX\ufffdV\u0014x\u0018\u007f<\ufffd\ufffdK\ufffd\ufffd\ufffd \ufffd\ufffd\ufffd\ufffdRuF\ufffdw4}G\ufffd6\ufffd\u007f\ufffd1\ufffdQ\ufffd\u001fNg\u001f\u0697\ufffd\ufffdw\ufffdh\ufffd\u0457w\ufffdD9\ufffd\ufffd\u032a\u021e+\ufffd(`Tk\ufffd`|\ufffd7\ufffde\b\ufffd\ufffdpTm!~\ufffd_\ufffd\ufffd\ufffd\ufffd&\n]\ufffd\ufffd\ufffd\n<\u0007K\ufffd[\u0017\ufffdO\n\ufffd\ufffd\u0012\ufffd\ufffd\n\ufffd\ufffdM\ufffd\u0013\u0000\ufffdY)\ufffd\\d\ufffd;\u001b\ufffdB\ufffd\ufffd\ufffd\ufffdG\u0007\ufffd\ufffd\u0000\ufffd\ufffd\ufffdUm!\ufffd:p>\ufffd\ufffd$\ufffdT{\u03ad\u001b\ufffdvBLP|\ufffd.I4\ufffd;\ufffd\ufffd\ufffde\ufffd\ufffd\ufffdt\ufffd\ufffda\u0012V/TQ\ufffd@\u0017jG/[\ufffdeL\ufffd\u0015E\ufffd)\ufffd\ufffd\ufffdx\ufffd\ufffd\ufffd\u001b\n\ufffd8",
+      "intent": null
+    },
+    {
+      "id": "TM1",
+      "category": "Tool Misuse",
+      "pattern": "Tool Parameter Abuse",
+      "severity": "HIGH",
+      "confidence": 0.85,
+      "location": {
+        "file": "assets/demo-star-cn.png",
+        "start_line": 326,
+        "end_line": null
+      },
+      "finding": "Rmo\ufffdF9*\ufffdP/Q\ufffdJ\\\ufffd\u0001\u0000\u0000\ufffdc\ufffd\u001d\u0000\u0000\ufffd\u0002\ufffd\ufffd\ufffd/",
+      "explanation": "Tool parameters are crafted to achieve unintended or unsafe behavior. Parameter abuse can bypass intended safety checks (e.g. shell=True, --force, dangerous glob patterns).",
+      "remediation": "Validate all tool parameters against an allowlist. Reject dangerous parameter values (shell=True, --force, -rf /) and use safe defaults.",
+      "code_snippet": "I$\u0012\ufffdk\ufffd\u0007\u001b^\ufffd\ufffd\u05f7\u070c?B\ufffd\ufffd\u0000\u0000\u0000\u0000 \ufffd\u068d\u0014m\u3b33\ufffd\ufffd\u0397\u0012Zb\u04f5\ufffd6\ufffdh\u001fmq\ufffd\ufffd\ufffd\n\u052f\ufffd\ufffd\ufffd2\nC\n\ufffd.K\ufffd|\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd]\ufffd\u9c98[3\u0012MVnRB\ufffd4\n\ufffd\ufffd\ufffd\ufffd+\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\n\ufffd\ufffdY\ufffd\ufffd\ufffdOd-\ufffd6\ufffd\ufffd\u0000\u0000\u0000\u0000\ufffd\n\ufffd\ufffd\ufffd\ufffdz\ufffd_\u07ce\ufffd2\ufffd\ufffd%\u001b\ufffd\ufffd\ufffd\ufffdIr\ufffdE\ufffd\ufffd\ufffd\ufffdX,\ufffd\ufffd\ufffd\ufffd\u001bP\u001b\ufffd\ufffd\u001b\ufffd>JhI\ufffd#\ufffdZh\u001fmA\ufffd",
+      "intent": null
+    },
+    {
+      "id": "TM1",
+      "category": "Tool Misuse",
+      "pattern": "Tool Parameter Abuse",
+      "severity": "HIGH",
+      "confidence": 0.85,
+      "location": {
+        "file": "assets/microservices-example.png",
+        "start_line": 458,
+        "end_line": null
+      },
+      "finding": "RM;\ufffd\ufffd\ufffd\ufffd\u001d\ufffd\ufffd6\ufffd9\u01ac\ufffd\ufffd\ufffd\ufffd\ufffd\u0007\ufffd`j\ufffd\u05a6,\ufffd\ufffd\u0005\ufffd\u0770z\ufffd\ufffd}\ufffd\ufffd(\ufffd4\ufffd\ufffd\ufffd\ufffdfZ!.\ufffd/",
+      "explanation": "Tool parameters are crafted to achieve unintended or unsafe behavior. Parameter abuse can bypass intended safety checks (e.g. shell=True, --force, dangerous glob patterns).",
+      "remediation": "Validate all tool parameters against an allowlist. Reject dangerous parameter values (shell=True, --force, -rf /) and use safe defaults.",
+      "code_snippet": "}\ufffd1zye\ufffd\ufffdG\ufffd\u007frW}/v\ufffd~\ufffdY\ufffd\ufffd\ufffdV\ufffd[\ufffd\ufffd\ufffd\u03ff\ufffd\u0446ME\ufffdP.N\\u\ufffd\ufffd-\ufffdvu3\ufffdx8\u04b4m\u02e6\ufffd\ufffd\ufffd\ufffd\ufffdK\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd.\ufffdm.\ufffd/\u000e\ufffd!\u0000\u0000\ufffd\n\ufffd!\u0000\u0000\ufffd\ufffd\ufffd&@N\ufffd\ufffdp\ufffd\t_z$00\n\u056d\ufffd\ufffd\ufffd3\ufffd-\\\u06bes\ufffdx(\\=h\ufffd\ufffdp/+3]V\ufffd\u007f1\ufffd~o=\ufffd\ufffdz\ufffd[\u001f~\ufffdzM\ufffd\ufffd\ufffd=\ufffd\ufffd\u25cd7\ufffd\ufffd+\ufffd\\*\ufffdm\ufffd\ufffd\ufffd\ufffd$X\ufffd\u0005T\ufffd\n\u00c8Z\u0589g_\ufffd\ufffd\u0017\ufffde\ufffd\ufffd\ufffdD\ufffd57\ufffdT1\u001a\ufffd\ufffd\ufffd\u72caK\ufffdz\ufffd\ufffdx0\ufffd\ufffdh\ufffd\ufffd\ufffdm\ufffd\n\ufffd\ufffd\ufffd\ufffdm]\nWVc:\u0017\ufffdxAa\ufffd-\ufffd<\ufffd\ufffd\ufffd\ufffd\nv\ufffd\ufffdq\ufffd\u0001\ufffd\ufffd\ufffd\u0013V\u0005\ufffd\ufffd\u0006l\ufffd\ufffd\uf587W\u0005s\ufffd\ufffd\u042a\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffdU\ufffd\ufffdu6P\ufffd\ufffd\ufffdWc\ufffdN\u0017\u019a\ufffd\ufffd\u07afj\ufffd5\ufffd\u0019wzv\ufffd\ufffd:e\ufffd?\u001fz^\ufffdT\ufffd\ufffd{\ufffd\u0015\ufffd\ufffdqK\ufffd1\ufffd;\ufffdo\ufffd\ufffds\ufffd=l\ufffdT\ufffdA\ufffd\ufffd0\ufffdG\ufffd\u007fs\ufffdO3\ufffdf\ufffd\ufffd\ufffd\ufffd>\ufffdHg\ufffd<w`J\ufffd\u03e3\ufffdHZj\ufffd\ud388\ufffd:\ufffd\ufffd\u0011*\u0013[\ufffd?\ufffd\ufffd\ufffdy=\ufffd\ufffd+\ufffd\u0340z\ufffd;+n-Z\ufffdr\ufffd\u0257Lz\ufffd\ufffd\u0003G\ufffd/A\ufffdi\u001a\ufffd\u075d\ufffdhk\ufffd\u0010\ufffdxS>\ufffd\u001f\ufffd\u037e\ufffd?O\ufffdM\ufffd\u0018\u04bfU\ufffd6V\ufffdv;\ufffd\ufffd8`\ufffd\ufffd",
+      "intent": null
+    },
+    {
+      "id": "TM1",
+      "category": "Tool Misuse",
+      "pattern": "Tool Parameter Abuse",
+      "severity": "HIGH",
+      "confidence": 0.85,
+      "location": {
+        "file": "assets/microservices-example.png",
+        "start_line": 1006,
+        "end_line": null
+      },
+      "finding": "rm\ufffdiR\u060b\ufffd\ufffd_\u064b9\u0634\ufffdx\u00c6\ufffd\ufffd\ufffd?\ufffd*\ufffdR\ufffd\ufffd7\u001e6r\u0000\ufffdb\ufffd\ufffdd<\ufffd\u0001\ufffd\ufffd\ufffd\ufffd\u001c\ufffd/\u001d",
+      "explanation": "Tool parameters are crafted to achieve unintended or unsafe behavior. Parameter abuse can bypass intended safety checks (e.g. shell=True, --force, dangerous glob patterns).",
+      "remediation": "Validate all tool parameters against an allowlist. Reject dangerous parameter values (shell=True, --force, -rf /) and use safe defaults.",
+      "code_snippet": "7ZS:\ufffd\ufffd9E\ufffd]Z2\u0005\ufffd'C\u0013\u0017\ufffd\u00b2@\u015e\n?U\u0001\ufffd\bT\n\ufffdRh\ufffd\ufffd\ufffd\n\u0000\u0000\u0000@8!o\u0018\n\ufffd\ufffd1\ufffd\ufffdeY\ufffd\ufffd!\ufffd\ufffd\u045f\u0004\u0000\ufffd\u0012\ufffd\u001b\ufffd\ufffd\ufffd\ufffdS\u0010%G\ufffd\ufffd\n\ufffd\u001bL\t\u0019\n\ufffd\ufffd\u0006\ufffd\"{)\ufffd\ufffd\ufffd\t",
+      "intent": null
+    },
+    {
+      "id": "TM1",
+      "category": "Tool Misuse",
+      "pattern": "Tool Parameter Abuse",
+      "severity": "HIGH",
+      "confidence": 0.85,
+      "location": {
+        "file": "assets/shape-search-example.png",
+        "start_line": 1833,
+        "end_line": null
+      },
+      "finding": "RM\ufffd\ufffd?\u0012\\\ufffd\ufffd.B\u0018miiQY\u0011\ufffd\u0002\\\ufffd\ufffdS\ufffdM\ufffd\ufffdVE\u00c1 .\ufffd\ufffdY\ufffd\ufffd\u0006\u0002\ufffd\u0003\ufffdX\u49e0\ufffdp\u0012\ufffd\ufffd*$\ufffd\ufffd\ufffd/",
+      "explanation": "Tool parameters are crafted to achieve unintended or unsafe behavior. Parameter abuse can bypass intended safety checks (e.g. shell=True, --force, dangerous glob patterns).",
+      "remediation": "Validate all tool parameters against an allowlist. Reject dangerous parameter values (shell=True, --force, -rf /) and use safe defaults.",
+      "code_snippet": "\ufffdSP\u000364\ufffdC\ufffd*s]\ufffd\ufffd\\\ufffd\ufffd\ufffd\ufffd\ufffds\u007f\ufffd82k\n\ufffdRy\ufffdt/\ufffd\ufffd\ufffd\ufffdc\ufffd\ufffdA6\n\ufffd\ufffd\u0718*\n\ufffdM\u0015(\ufffd\ufffdA\ufffd\ufffdPn@ \u007f\ufffd\\\ufffdG\no\ufffd\ufffd\ufffdgw\ufffd\ufffd\ufffd\u0392\ufffd\u00a0\ufffd\ufffdq\u0013\ufffd\ufffd\ufffd\ufffdS\ufffd\n\\ T\ufffd2UJP\u0000&\ufffdc\u0014YX\ufffd\n\ufffd~\u02dd\ufffd\ufffd\ufffd`\ufffd\u0000 \ufffd\u0014\ufffd\ufffd\ufffd\u035b\ufffdJ\ufffd\ufffd\ufffd \ufffdQ<\ufffd}\u001b\ufffdBVx",
+      "intent": null
+    },
+    {
+      "id": "TM1",
+      "category": "Tool Misuse",
+      "pattern": "Tool Parameter Abuse",
+      "severity": "HIGH",
+      "confidence": 0.85,
+      "location": {
+        "file": "assets/shape-search-example.png",
+        "start_line": 1861,
+        "end_line": null
+      },
+      "finding": "RmTW\ufffdJIj\ufffdYU\ufffd\ufffd*T\ufffd\ufffd\ufffd\u001cU4\u06c3~L\ufffd\ufffdP\u0015\ufffd\u0015D\u0005\f\u0018\ufffd\u0005\ufffd\ufffd\ufffd;\ufffd>\u001a\ufffd\ufffd\ufffd\ufffd\u0007\ufffdA\ufffd\u05cb\u000e\u0007\ufffd\ufffd\u001a\ufffd\ufffd5F\ufffd\ufffdH\ufffd\ufffd\ufffd\ufffd\u00da\ufffd\ufffd\ufffd/",
+      "explanation": "Tool parameters are crafted to achieve unintended or unsafe behavior. Parameter abuse can bypass intended safety checks (e.g. shell=True, --force, dangerous glob patterns).",
+      "remediation": "Validate all tool parameters against an allowlist. Reject dangerous parameter values (shell=True, --force, -rf /) and use safe defaults.",
+      "code_snippet": "Z\ufffd\ufffd\u0013\ufffd\ufffd\u8d1f\ufffdi\ufffd\ufffdrLTc\ufffd\ufffdT\u001aun\ufffd\ufffd2\u0018\u0015\n\ufffd\u0013:;;7l\ufffd0<<\n\ufffd\ufffdx\ufffd\ufffdr\ufffd\ufffd\ufffdDd\ufffd\ufffdM\ufffd6\ufffd\u0673\u0007\u028f#J\t\u0016\n\nF%\u0002\ufffd\ufffd\ufffd\u035bs\ufffd\n\ufffd\u0019G\ufffd3Xn0\u0018\u0015\u0007\n\u0143\ufffd\ufffd/\ufffd\ufffd\u0002\u001a,P~\ufffda9\ufffdK,",
+      "intent": null
+    },
+    {
+      "id": "TM1",
+      "category": "Tool Misuse",
+      "pattern": "Tool Parameter Abuse",
+      "severity": "HIGH",
+      "confidence": 0.85,
+      "location": {
+        "file": "assets/workflow-cn.png",
+        "start_line": 522,
+        "end_line": null
+      },
+      "finding": "rM\u0019\ufffd\ufffdP\ufffd}\u0595\ufffd\ufffd\ufffd\ufffd/",
+      "explanation": "Tool parameters are crafted to achieve unintended or unsafe behavior. Parameter abuse can bypass intended safety checks (e.g. shell=True, --force, dangerous glob patterns).",
+      "remediation": "Validate all tool parameters against an allowlist. Reject dangerous parameter values (shell=True, --force, -rf /) and use safe defaults.",
+      "code_snippet": "\u001f\ufffd\ufffdVgS\n{vn?z\ufffd\u0000ms\ufffd]\u000f\ufffd'\ufffd\ufffd2\ufffdT\ufffd\ufffd\u06dcj\ufffd\ufffd\ufffd\ufffd\u000f\ufffd\ufffd\ufffdG\ufffd\ufffdm\u0678\ufffdQ\ufffd:v\ufffd\ufffd\u0012\ufffd\u001ba\ufffd\ufffd\ufffdc\ufffd\ufffdi\ufffd\ufffdMtz\ufffd<\ufffd\ufffd9:\ufffd(\ufffdDf\ufffdn\ufffd\ufffd\u007f\ufffd\ufffda\u0014\ufffd[\ufffd\ufffd\ufffd7\ufffd\ufffd\ufffd(\u05ad\ufffd\ufffd\ufffd\n\ufffd\ufffd}=_\ufffdM\ufffd+\ufffd<\ufffd\u0019\ufffdN\ufffdl\ufffd:\ufffdV9r\ufffd\ufffd\ufffd\bZ\ufffdn\ufffd\ufffd_}\ufffdR\ufffd\u0007\ufffd\ufffd\ufffd\\\ufffd\ufffd\ufffd^\u07b5\ufffd\u0097\ufffd`\ufffdAlVW\ufffd\ufffd\ufffd\u007f\ufffd}\u0576\ufffd\ufffd\u03d9G\ufffd\u0017w\ufffd\ufffdr\ufffd\ufffd\ufffd`0\ufffd\ufffd\ufffdQ\n%\ufffdRJ\ufffdv]\ufffd\ufffd/o\ufffd^\ufffd\ufffd\ufffdm:4\ufffd\u0625\ufffd\ufffdQ<\u0003\u001ae]9\ufffd\ufffd\ufffd\n!\ufffd\ufffds\ufffd\ufffdMP{\ufffd\u014fjul\u0019\n6\u000e\ufffd\ufffd_\ufffd>\ufffd\u007f\ufffd\ufffdCG\ufffdW\ufffd\ufffd\u0005\ufffd\n\ufffd\u000f",
+      "intent": null
+    },
+    {
+      "id": "TM1",
+      "category": "Tool Misuse",
+      "pattern": "Tool Parameter Abuse",
+      "severity": "HIGH",
+      "confidence": 0.85,
+      "location": {
+        "file": "assets/workflow-cn.png",
+        "start_line": 720,
+        "end_line": null
+      },
+      "finding": "rmczzXD\ufffd\ufffd-\u001a\ufffd\ufffd\ufffd\ufffd\ufffd6\u001b\ufffdV\u0011G\u000f\ufffd0/",
+      "explanation": "Tool parameters are crafted to achieve unintended or unsafe behavior. Parameter abuse can bypass intended safety checks (e.g. shell=True, --force, dangerous glob patterns).",
+      "remediation": "Validate all tool parameters against an allowlist. Reject dangerous parameter values (shell=True, --force, -rf /) and use safe defaults.",
+      "code_snippet": "\ufffd\ufffd\ufffdt\u000e\ufffd\ufffd\ufffd\ufffd\u0007\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd)\ufffd\n\ufffd\ufffd\ufffd*b\u0013?xg\ufffd\ufffdM\ufffd\ufffd\ufffdb\ufffd\t\u0004\ufffd!\ufffd2\ufffdZ\ufffd\ufffd\nW\u007f\u0141y\ufffd\ufffd\u000eF\u001b\ufffd\n>\ufffdO\ufffd/\u0018$\ufffd?t\ufffdu:\n})\u00dfy\ufffd\ufffd\ufffd\ufffdU\ufffdW\ufffdu\ufffd-V\ufffdU\ufffd\ufffd\ufffd5\u001a\ufffd\ufffd%\ufffd\ufffdx\ufffd\ufffd\ufffd\ufffdc&P\ufffd\ufffd1\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u0019\u00dez\ufffdf\ufffdZ\u0006\u0003k\u0019p9]v\ufffd\ufffd\u0004\ufffd\u001b\ufffd\u06b4tq\u0017.~z\ufffd\ufffd|\ufffd#\u000e\u0014'r\ufffd\ufffd]\ufffd\ufffdquU\n\u0015\ufffdi\u0015\ufffd\ufffdJ~\ufffd\ufffdF\ufffd\ufffd_~\ufffd\ufffdvS\ufffd>d\u0210\n\ufffd\ufffd\ufffd<\ufffd\ufffd#|\ufffd\ufffdy\u0002\ufffd\"\ufffd|\u0010\ufffd\ufffdQNl\ufffdY\u05ee\\J\u007f\u05a8YW\ufffd,]\ufffd\t^$\ufffdK\ufffdG\u0014\ufffd\ufffd\ufffd\ufffd\ufffd?\ufffd7\u0019\ufffdt\ufffd\ufffd\"\ufffd\u0411\ufffdl\ufffdQ\ufffdTu\ufffd\ufffd>B+\ufffd\ufffd|d\ufffd\ufffd\u556b\ufffd\ufffd\u0733\u0017]\u0000\ufffd\ufffd\ufffd\ufffd\ufffd\u0007w\ufffd\u0006\ufffd\ufffd-\u0006\ufffd\ufffd\ufffd\ufffd\ufffdv\ufffdU\ufffd\u049c\ufffd\ufffd\ufffd<\ufffdLp\ufffd",
+      "intent": null
+    },
+    {
+      "id": "TM1",
+      "category": "Tool Misuse",
+      "pattern": "Tool Parameter Abuse",
+      "severity": "HIGH",
+      "confidence": 0.85,
+      "location": {
+        "file": "assets/workflow.png",
+        "start_line": 757,
+        "end_line": null
+      },
+      "finding": "RM&\ufffd\ufffd\u02bdm\ufffd\ufffd:\ufffd\u0016\ufffd\ufffd4\u0018\ufffd\u0006\ufffd\ufffd\ufffdQ1\u0016\u02b6\ufffd\ufffd\ufffd\u0010\u007f\ufffdn\ufffd\ufffdc\ufffd\ufffdD\ufffd\ufffd /",
+      "explanation": "Tool parameters are crafted to achieve unintended or unsafe behavior. Parameter abuse can bypass intended safety checks (e.g. shell=True, --force, dangerous glob patterns).",
+      "remediation": "Validate all tool parameters against an allowlist. Reject dangerous parameter values (shell=True, --force, -rf /) and use safe defaults.",
+      "code_snippet": "r\u001bt\nf\ufffd\ufffd\ufffd\n\ufffd6Gk\ufffd\n\ufffd\n\ufffd\u0082\ufffdC\u0007\ufffdSw\ufffdt^\ufffd;)\ufffdE\ufffd\ufffd8\ufffdR\ufffd\ufffd\u0003\uc55fs\ufffd\ufffdw\ufffd\ufffdmGu\ufffd\ufffd\ufffd\ufffd\u0012\ufffdE\ufffd\u0004\u001f=\u001f\ufffdW\u001a'n\ufffd\u001a\ufffd\u0015\ufffdV\ufffd\ufffd\ufffd\u0019rpO\ufffd,\ufffd\ufffd\n\ufffd\ufffdb\ufffdx\ufffd\nkW\ufffd\u07b9\ufffd\\7\ty\ufffd;u\ufffd\u0535\u0007\ufffd\u0016\ufffd\ufffd\u0013\ufffd\u0000\ufffd\u0010\ufffd\ufffd+))\u0016\ufffd\ufffd\u0002\ufffdA\ufffd\u0001JR\ufffdQa\ufffd\ufffd \u001f\ufffd\ufffdE\ufffd\ufffdH\ufffd\ufffdK\ufffd/\ufffd\ufffdYV\ufffd\ufffd\u001ff^H\ufffd\u0005\u0005\ufffd\ufffd\ufffd:\ufffd\ufffd ",
+      "intent": null
+    },
+    {
+      "id": "TM1",
+      "category": "Tool Misuse",
+      "pattern": "Tool Parameter Abuse",
+      "severity": "HIGH",
+      "confidence": 0.85,
+      "location": {
+        "file": "skills/drawio-skill/data/shape-index.json.gz",
+        "start_line": 1054,
+        "end_line": null
+      },
+      "finding": "rmc\ufffdv\u0002\ufffd\ufffd6\ufffd3\ufffdp\u0321/",
+      "explanation": "Tool parameters are crafted to achieve unintended or unsafe behavior. Parameter abuse can bypass intended safety checks (e.g. shell=True, --force, dangerous glob patterns).",
+      "remediation": "Validate all tool parameters against an allowlist. Reject dangerous parameter values (shell=True, --force, -rf /) and use safe defaults.",
+      "code_snippet": "*\u01e6E_D\u04ac\u0004^[qn\ufffd+1\ufffdM\ufffd\ufffdt5V?\u042c\ufffd\n\ufffd\u04f7\u0013\u0015\ufffd\ufffd\u06c5\n\nQbh\ufffd\ufffd\ufffd\ufffd\n\ufffd\u001fh\"\ufffd~\ufffd\ufffd\ufffd\ufffd9\ufffd\ufffd\ufffd\u0003\u007fW@\u0011\ufffd\ufffd\ufffd\ufffd\ufffdm\ufffdz\ufffd[\ufffd\u001a\u051a?y<\u0015\ufffdL\ufffd\u055f\ufffd_2/I\ufffd\u001f\ufffd\n\ufffd+\ufffd\ufffd\ufffd\u0016\ufffd\ufffd\ufffd#\ufffd#S\ufffd\ufffd3\n\ufffd\ufffd<\ufffd\ufffd\ufffd`Ho\\ \ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd/T\ufffd\ufffd9|\ufffd\u0390\ufffd?\ufffd?\ufffd\ufffd'\ufffdo\u0006\u0017\ufffd\ufffdG\ufffd\u0011\ufffda\u0011\u0007\ufffd^",
+      "intent": null
+    },
+    {
+      "id": "TM1",
+      "category": "Tool Misuse",
+      "pattern": "Tool Parameter Abuse",
+      "severity": "HIGH",
+      "confidence": 0.85,
+      "location": {
+        "file": "skills/drawio-skill/data/shape-index.json.gz",
+        "start_line": 1348,
+        "end_line": null
+      },
+      "finding": "rm;#\ufffd\ufffde\"\fn]/",
+      "explanation": "Tool parameters are crafted to achieve unintended or unsafe behavior. Parameter abuse can bypass intended safety checks (e.g. shell=True, --force, dangerous glob patterns).",
+      "remediation": "Validate all tool parameters against an allowlist. Reject dangerous parameter values (shell=True, --force, -rf /) and use safe defaults.",
+      "code_snippet": " \ufffdRo\ufffd\ufffd\u0013\ufffd\u05ab\ufffd\ufffddI\ufffd\ufffd\ufffdyN\u001a\ufffd\ufffd\n\ufffd]\ufffdHH\ufffd]\ufffd\ufffd\n\t\u0007(\ufffddc\u0004\ufffd\ufffd\ufffd!\ufffd\ufffd:\ufffd\u0015\ufffd\ufffd\u001anFa\ufffdz\ufffdtN\ufffd\ufffd\ufffd\u0013\ufffdo\\5\ufffdr]][\ufffd\ufffd?\n\ufffdj\ufffd&9\ufffd\ufffd\ufffd\ufffd.\ufffd\n\ufffd\ufffd\ufffdFf_g\ufffd\ufffdA\u0019\ufffd\\\ufffd\ufffd\ufffd\n\ufffd8\ufffd\ufffd>\ufffdb\ufffd\u0446\ufffd6Y\ufffde\u0006\ufffdJ\ufffd\ufffd\ufffd\u0191\u001f>\ufffd\ufffd\ufffd\n}~\ufffd\u0017p\ufffd\ufffd\ufffd\u001a{\ufffd\ufffdq\ufffdz\ufffd,\ufffd\ufffdZ\ufffd\ufffd*\u0016q",
+      "intent": null
+    },
+    {
+      "id": "TM1",
+      "category": "Tool Misuse",
+      "pattern": "Tool Parameter Abuse",
+      "severity": "HIGH",
+      "confidence": 0.85,
+      "location": {
+        "file": "skills/drawio-skill/data/shape-index.json.gz",
+        "start_line": 2019,
+        "end_line": null
+      },
+      "finding": "rm\u0014\u0015\ufffd\u001am\ufffdC\ufffd\ufffd\ufffd/",
+      "explanation": "Tool parameters are crafted to achieve unintended or unsafe behavior. Parameter abuse can bypass intended safety checks (e.g. shell=True, --force, dangerous glob patterns).",
+      "remediation": "Validate all tool parameters against an allowlist. Reject dangerous parameter values (shell=True, --force, -rf /) and use safe defaults.",
+      "code_snippet": "b\ufffd\u0019H\ufffd#\ufffd&V-P!)\u0010\ufffd\ufffdn\ufffd\n\u000fG\n\ufffd\n\ufffdq3\ufffd#\n\ufffd\ufffd\ufffdi\ufffd\ufffd\ufffd\ufffd\u001b2m\ufffd\ufffd\ufffd:\ufffd\u0011\ufffd\ufffd\n\u0012t\ufffd\ufffd\ufffd<\u0019t$\ufffd\n\ufffd\ufffd%\ufffd\u0016\ufffd\u0012\ufffd\ufffd\tL\ufffd\ufffd\ufffd\u0006\ufffd\ufffd\ufffd\ufffd\u0019w\u0708\ufffd\ufffd\u0004\ufffd\u0649}\u001ftK\ufffd\ufffd\ufffd\ufffd!\u04d7;n\ufffdet\ufffd\ufffd\\\ufffd\ufffdNui\ufffd=h\ufffd\u0542\u0015\ufffd\ufffd>",
+      "intent": null
+    },
+    {
+      "id": "TM1",
+      "category": "Tool Misuse",
+      "pattern": "Tool Parameter Abuse",
+      "severity": "HIGH",
+      "confidence": 0.85,
+      "location": {
+        "file": "skills/drawio-skill/data/shape-index.json.gz",
+        "start_line": 2630,
+        "end_line": null
+      },
+      "finding": "RMK\ufffdG\ufffd\ufffd\ufffd\ufffdl\ufffd\ufffdg\ufffd\u001e\ufffd\ufffd\ufffdg\ufffd\ufffd\ufffdq\ufffd\ufffdJ\ufffdD\ufffd\ufffd\u0012\ufffd\ufffdq\ufffd\ufffd\ufffd\u000e\ufffd\ufffd\u000f\ufffd\u0006\ufffd\ufffd\ufffd`~hy\u000e]\ufffd\ufffdb\u001b\ufffd^\ufffd\ufffd/",
+      "explanation": "Tool parameters are crafted to achieve unintended or unsafe behavior. Parameter abuse can bypass intended safety checks (e.g. shell=True, --force, dangerous glob patterns).",
+      "remediation": "Validate all tool parameters against an allowlist. Reject dangerous parameter values (shell=True, --force, -rf /) and use safe defaults.",
+      "code_snippet": "?+6\ufffdG\n\ufffdq\ufffdE)\ufffdA\ufffd\u0004\u0007 R\ufffd\ufffd\ufffdj\ufffd\u0002\ufffd\ufffd\ufffdg-\u026cN\ufffd\ufffd\u0014\ufffd1\b\ufffd+\ufffd#\"d\ufffd\u0523\ufffd\ufffd;B\ufffd7\ufffd\ufffd\ufffdM\u0512xOtJ\ufffd\ufffd\ufffdPd\ufffd\ufffd\ufffdw\ufffd\n\ufffd\u001a\u001a\ufffd\u000e[2\ufffd\ufffd\ufffd{\ufffdH-\ufffd+\u00041\ufffd\u001fB\ufffd=\u0015\ufffd\u0013\ufffd\ufffd\u0015RK\ufffd\u0002A\ufffd\ufffd\ufffd-;\ufffd\ufffd$L\ufffd(Z).\ufffd*$\ufffdN\n\ufffdk\ufffdM4\u0011s\u0005`5\ufffd\u0451\n\ufffd\ufffd\ufffd\n-\ufffd\ufffd3\ufffd\ufffd\ufffd\ufffd\ufffdl\u201f\ufffd\u001aS\u0000((\"\u0010\u8c84\ufffdG\ufffdQ}\ufffd\ufffdW\u016b\ufffdP&Od\ufffd?<\ufffd\ufffd2:w\ufffd\ufffd\ufffd{\u000e\ufffd\u000f\ufffd\u0015\ufffd\ufffd\ufffd\\Hj\ufffd\ufffdm\ufffd%\u0018y\bq\ufffd\ufffd#&\ufffd\u007f\ufffdU*\ufffd?j\u0018\ufffdV\ufffd\u0017\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd_b\ufffd\u001a\u00112\ufffdL\ufffd\u033cu>b\ufffd\ufffd+kVr\ufffdh\ufffdJ\ufffd\ufffd\u0010\ufffdB)N\ufffdw\ufffd\ufffd\ufffd\u007f\"+\ufffd\ufffd\u756c|\nR\ufffdV\ufffd6\ufffd\ufffd_?\ufffd\ufffd)\"\ufffd\ufffd!?",
+      "intent": null
+    },
+    {
+      "id": "TM1",
+      "category": "Tool Misuse",
+      "pattern": "Tool Parameter Abuse",
+      "severity": "HIGH",
+      "confidence": 0.85,
+      "location": {
+        "file": "skills/drawio-skill/references/style-presets.md",
+        "start_line": 96,
+        "end_line": null
+      },
+      "finding": "rm ~/.drawio-skill/styles/",
+      "explanation": "Tool parameters are crafted to achieve unintended or unsafe behavior. Parameter abuse can bypass intended safety checks (e.g. shell=True, --force, dangerous glob patterns).",
+      "remediation": "Validate all tool parameters against an allowlist. Reject dangerous parameter values (shell=True, --force, -rf /) and use safe defaults.",
+      "code_snippet": "| \"show my `<name>` style\", \"what's in `<name>`\" | Print the preset JSON (pretty-printed) + a one-line summary (source, confidence, is-default). |\n| \"make `<name>` the default\", \"set `<name>` as default\" | If `<name>` is a user preset: set `default: true` on it; clear `default` on any other user preset that had it; save both files. If `<name>` is a built-in: copy `<this-skill-dir>/styles/built-in/<name>.json` \u2192 `~/.drawio-skill/styles/<name>.json` first, then set `default: true` on the copy. Never mutate the shipped built-in. |\n| \"remove default\", \"unset default\" | Clear `default: true` from whichever user preset has it. |\n| \"delete `<name>`\", \"remove `<name>`\" | Confirm first. Then `rm ~/.drawio-skill/styles/<name>.json`. Refuse to delete files under `<this-skill-dir>/styles/built-in/` \u2014 suggest shadowing with a user preset of the same name. |\n| \"rename `<a>` to `<b>`\" | `mv ~/.drawio-skill/styles/<a>.json ~/.drawio-skill/styles/<b>.json`, then update the `name` field inside. Fails if `<a>` is a built-in (offer to copy-then-rename instead). |\n| \"learn my style from `<path>` as `<name>`\" | Dispatch to the Learn flow above. |\n",
+      "intent": null
+    }
+  ],
+  "metadata": {
+    "has_executable_scripts": true,
+    "skillspector_version": "2.1.4",
+    "llm_requested": false,
+    "llm_available": false
+  }
+}

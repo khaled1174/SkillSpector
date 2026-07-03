@@ -1,0 +1,739 @@
+{
+  "skill": {
+    "name": "unknown",
+    "source": "/private/tmp/mattpocock-skills-inspect",
+    "scanned_at": "2026-06-19T23:05:44.795128+00:00"
+  },
+  "risk_assessment": {
+    "score": 100,
+    "severity": "CRITICAL",
+    "recommendation": "DO_NOT_INSTALL"
+  },
+  "components": [
+    {
+      "path": ".changeset/README.md",
+      "type": "markdown",
+      "lines": 8,
+      "executable": false,
+      "size_bytes": 512
+    },
+    {
+      "path": ".changeset/config.json",
+      "type": "json",
+      "lines": 15,
+      "executable": false,
+      "size_bytes": 380
+    },
+    {
+      "path": ".changeset/triage-pull-requests.md",
+      "type": "markdown",
+      "lines": 5,
+      "executable": false,
+      "size_bytes": 601
+    },
+    {
+      "path": ".claude-plugin/plugin.json",
+      "type": "json",
+      "lines": 22,
+      "executable": false,
+      "size_bytes": 752
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "type": "yaml",
+      "lines": 37,
+      "executable": false,
+      "size_bytes": 786
+    },
+    {
+      "path": ".out-of-scope/mainstream-issue-trackers-only.md",
+      "type": "markdown",
+      "lines": 25,
+      "executable": false,
+      "size_bytes": 1572
+    },
+    {
+      "path": ".out-of-scope/question-limits.md",
+      "type": "markdown",
+      "lines": 18,
+      "executable": false,
+      "size_bytes": 1262
+    },
+    {
+      "path": ".out-of-scope/setup-skill-verify-mode.md",
+      "type": "markdown",
+      "lines": 15,
+      "executable": false,
+      "size_bytes": 1134
+    },
+    {
+      "path": "CHANGELOG.md",
+      "type": "markdown",
+      "lines": 54,
+      "executable": false,
+      "size_bytes": 4807
+    },
+    {
+      "path": "CLAUDE.md",
+      "type": "markdown",
+      "lines": 16,
+      "executable": false,
+      "size_bytes": 1265
+    },
+    {
+      "path": "CONTEXT.md",
+      "type": "markdown",
+      "lines": 26,
+      "executable": false,
+      "size_bytes": 1364
+    },
+    {
+      "path": "LICENSE",
+      "type": "other",
+      "lines": 21,
+      "executable": false,
+      "size_bytes": 1068
+    },
+    {
+      "path": "README.md",
+      "type": "markdown",
+      "lines": 190,
+      "executable": false,
+      "size_bytes": 12499
+    },
+    {
+      "path": "docs/adr/0001-explicit-setup-pointer-only-for-hard-dependencies.md",
+      "type": "markdown",
+      "lines": 10,
+      "executable": false,
+      "size_bytes": 1164
+    },
+    {
+      "path": "docs/invocation.md",
+      "type": "markdown",
+      "lines": 18,
+      "executable": false,
+      "size_bytes": 1795
+    },
+    {
+      "path": "package-lock.json",
+      "type": "json",
+      "lines": 1385,
+      "executable": false,
+      "size_bytes": 49290
+    },
+    {
+      "path": "package.json",
+      "type": "json",
+      "lines": 20,
+      "executable": false,
+      "size_bytes": 481
+    },
+    {
+      "path": "scripts/link-skills.sh",
+      "type": "shell",
+      "lines": 38,
+      "executable": true,
+      "size_bytes": 1117
+    },
+    {
+      "path": "scripts/list-skills.sh",
+      "type": "shell",
+      "lines": 7,
+      "executable": true,
+      "size_bytes": 168
+    },
+    {
+      "path": "skills/deprecated/README.md",
+      "type": "markdown",
+      "lines": 8,
+      "executable": false,
+      "size_bytes": 642
+    },
+    {
+      "path": "skills/deprecated/design-an-interface/SKILL.md",
+      "type": "markdown",
+      "lines": 94,
+      "executable": false,
+      "size_bytes": 3366
+    },
+    {
+      "path": "skills/deprecated/qa/SKILL.md",
+      "type": "markdown",
+      "lines": 130,
+      "executable": false,
+      "size_bytes": 4965
+    },
+    {
+      "path": "skills/deprecated/request-refactor-plan/SKILL.md",
+      "type": "markdown",
+      "lines": 68,
+      "executable": false,
+      "size_bytes": 2711
+    },
+    {
+      "path": "skills/deprecated/ubiquitous-language/SKILL.md",
+      "type": "markdown",
+      "lines": 93,
+      "executable": false,
+      "size_bytes": 4890
+    },
+    {
+      "path": "skills/engineering/README.md",
+      "type": "markdown",
+      "lines": 25,
+      "executable": false,
+      "size_bytes": 2199
+    },
+    {
+      "path": "skills/engineering/ask-matt/SKILL.md",
+      "type": "markdown",
+      "lines": 61,
+      "executable": false,
+      "size_bytes": 4388
+    },
+    {
+      "path": "skills/engineering/codebase-design/DEEPENING.md",
+      "type": "markdown",
+      "lines": 37,
+      "executable": false,
+      "size_bytes": 2559
+    },
+    {
+      "path": "skills/engineering/codebase-design/DESIGN-IT-TWICE.md",
+      "type": "markdown",
+      "lines": 44,
+      "executable": false,
+      "size_bytes": 2712
+    },
+    {
+      "path": "skills/engineering/codebase-design/SKILL.md",
+      "type": "markdown",
+      "lines": 114,
+      "executable": false,
+      "size_bytes": 6488
+    },
+    {
+      "path": "skills/engineering/diagnosing-bugs/SKILL.md",
+      "type": "markdown",
+      "lines": 134,
+      "executable": false,
+      "size_bytes": 8536
+    },
+    {
+      "path": "skills/engineering/diagnosing-bugs/scripts/hitl-loop.template.sh",
+      "type": "shell",
+      "lines": 41,
+      "executable": true,
+      "size_bytes": 1164
+    },
+    {
+      "path": "skills/engineering/domain-modeling/ADR-FORMAT.md",
+      "type": "markdown",
+      "lines": 47,
+      "executable": false,
+      "size_bytes": 2766
+    },
+    {
+      "path": "skills/engineering/domain-modeling/CONTEXT-FORMAT.md",
+      "type": "markdown",
+      "lines": 60,
+      "executable": false,
+      "size_bytes": 2299
+    },
+    {
+      "path": "skills/engineering/domain-modeling/SKILL.md",
+      "type": "markdown",
+      "lines": 74,
+      "executable": false,
+      "size_bytes": 3427
+    },
+    {
+      "path": "skills/engineering/grill-with-docs/SKILL.md",
+      "type": "markdown",
+      "lines": 7,
+      "executable": false,
+      "size_bytes": 245
+    },
+    {
+      "path": "skills/engineering/implement/SKILL.md",
+      "type": "markdown",
+      "lines": 15,
+      "executable": false,
+      "size_bytes": 424
+    },
+    {
+      "path": "skills/engineering/improve-codebase-architecture/HTML-REPORT.md",
+      "type": "markdown",
+      "lines": 123,
+      "executable": false,
+      "size_bytes": 6685
+    },
+    {
+      "path": "skills/engineering/improve-codebase-architecture/SKILL.md",
+      "type": "markdown",
+      "lines": 66,
+      "executable": false,
+      "size_bytes": 5421
+    },
+    {
+      "path": "skills/engineering/prototype/LOGIC.md",
+      "type": "markdown",
+      "lines": 79,
+      "executable": false,
+      "size_bytes": 5594
+    },
+    {
+      "path": "skills/engineering/prototype/SKILL.md",
+      "type": "markdown",
+      "lines": 31,
+      "executable": false,
+      "size_bytes": 3039
+    },
+    {
+      "path": "skills/engineering/prototype/UI.md",
+      "type": "markdown",
+      "lines": 112,
+      "executable": false,
+      "size_bytes": 6789
+    },
+    {
+      "path": "skills/engineering/resolving-merge-conflicts/SKILL.md",
+      "type": "markdown",
+      "lines": 14,
+      "executable": false,
+      "size_bytes": 921
+    },
+    {
+      "path": "skills/engineering/setup-matt-pocock-skills/SKILL.md",
+      "type": "markdown",
+      "lines": 127,
+      "executable": false,
+      "size_bytes": 7307
+    },
+    {
+      "path": "skills/engineering/setup-matt-pocock-skills/domain.md",
+      "type": "markdown",
+      "lines": 51,
+      "executable": false,
+      "size_bytes": 2045
+    },
+    {
+      "path": "skills/engineering/setup-matt-pocock-skills/issue-tracker-github.md",
+      "type": "markdown",
+      "lines": 34,
+      "executable": false,
+      "size_bytes": 1950
+    },
+    {
+      "path": "skills/engineering/setup-matt-pocock-skills/issue-tracker-gitlab.md",
+      "type": "markdown",
+      "lines": 35,
+      "executable": false,
+      "size_bytes": 2264
+    },
+    {
+      "path": "skills/engineering/setup-matt-pocock-skills/issue-tracker-local.md",
+      "type": "markdown",
+      "lines": 19,
+      "executable": false,
+      "size_bytes": 838
+    },
+    {
+      "path": "skills/engineering/setup-matt-pocock-skills/triage-labels.md",
+      "type": "markdown",
+      "lines": 15,
+      "executable": false,
+      "size_bytes": 1045
+    },
+    {
+      "path": "skills/engineering/tdd/SKILL.md",
+      "type": "markdown",
+      "lines": 108,
+      "executable": false,
+      "size_bytes": 4345
+    },
+    {
+      "path": "skills/engineering/tdd/mocking.md",
+      "type": "markdown",
+      "lines": 59,
+      "executable": false,
+      "size_bytes": 1481
+    },
+    {
+      "path": "skills/engineering/tdd/refactoring.md",
+      "type": "markdown",
+      "lines": 10,
+      "executable": false,
+      "size_bytes": 387
+    },
+    {
+      "path": "skills/engineering/tdd/tests.md",
+      "type": "markdown",
+      "lines": 61,
+      "executable": false,
+      "size_bytes": 1640
+    },
+    {
+      "path": "skills/engineering/to-issues/SKILL.md",
+      "type": "markdown",
+      "lines": 84,
+      "executable": false,
+      "size_bytes": 3319
+    },
+    {
+      "path": "skills/engineering/to-prd/SKILL.md",
+      "type": "markdown",
+      "lines": 75,
+      "executable": false,
+      "size_bytes": 3027
+    },
+    {
+      "path": "skills/engineering/triage/AGENT-BRIEF.md",
+      "type": "markdown",
+      "lines": 207,
+      "executable": false,
+      "size_bytes": 7972
+    },
+    {
+      "path": "skills/engineering/triage/OUT-OF-SCOPE.md",
+      "type": "markdown",
+      "lines": 105,
+      "executable": false,
+      "size_bytes": 4712
+    },
+    {
+      "path": "skills/engineering/triage/SKILL.md",
+      "type": "markdown",
+      "lines": 112,
+      "executable": false,
+      "size_bytes": 6574
+    },
+    {
+      "path": "skills/in-progress/README.md",
+      "type": "markdown",
+      "lines": 9,
+      "executable": false,
+      "size_bytes": 1308
+    },
+    {
+      "path": "skills/in-progress/decision-mapping/SKILL.md",
+      "type": "markdown",
+      "lines": 84,
+      "executable": false,
+      "size_bytes": 3655
+    },
+    {
+      "path": "skills/in-progress/review/SKILL.md",
+      "type": "markdown",
+      "lines": 69,
+      "executable": false,
+      "size_bytes": 4014
+    },
+    {
+      "path": "skills/in-progress/writing-beats/SKILL.md",
+      "type": "markdown",
+      "lines": 52,
+      "executable": false,
+      "size_bytes": 2836
+    },
+    {
+      "path": "skills/in-progress/writing-fragments/SKILL.md",
+      "type": "markdown",
+      "lines": 75,
+      "executable": false,
+      "size_bytes": 3325
+    },
+    {
+      "path": "skills/in-progress/writing-shape/SKILL.md",
+      "type": "markdown",
+      "lines": 64,
+      "executable": false,
+      "size_bytes": 4593
+    },
+    {
+      "path": "skills/misc/README.md",
+      "type": "markdown",
+      "lines": 8,
+      "executable": false,
+      "size_bytes": 668
+    },
+    {
+      "path": "skills/misc/git-guardrails-claude-code/SKILL.md",
+      "type": "markdown",
+      "lines": 95,
+      "executable": false,
+      "size_bytes": 2312
+    },
+    {
+      "path": "skills/misc/git-guardrails-claude-code/scripts/block-dangerous-git.sh",
+      "type": "shell",
+      "lines": 25,
+      "executable": true,
+      "size_bytes": 507
+    },
+    {
+      "path": "skills/misc/migrate-to-shoehorn/SKILL.md",
+      "type": "markdown",
+      "lines": 118,
+      "executable": false,
+      "size_bytes": 2795
+    },
+    {
+      "path": "skills/misc/scaffold-exercises/SKILL.md",
+      "type": "markdown",
+      "lines": 106,
+      "executable": false,
+      "size_bytes": 3589
+    },
+    {
+      "path": "skills/misc/setup-pre-commit/SKILL.md",
+      "type": "markdown",
+      "lines": 91,
+      "executable": false,
+      "size_bytes": 2261
+    },
+    {
+      "path": "skills/personal/README.md",
+      "type": "markdown",
+      "lines": 6,
+      "executable": false,
+      "size_bytes": 354
+    },
+    {
+      "path": "skills/personal/edit-article/SKILL.md",
+      "type": "markdown",
+      "lines": 15,
+      "executable": false,
+      "size_bytes": 752
+    },
+    {
+      "path": "skills/personal/obsidian-vault/SKILL.md",
+      "type": "markdown",
+      "lines": 59,
+      "executable": false,
+      "size_bytes": 1511
+    },
+    {
+      "path": "skills/productivity/README.md",
+      "type": "markdown",
+      "lines": 18,
+      "executable": false,
+      "size_bytes": 1018
+    },
+    {
+      "path": "skills/productivity/grill-me/SKILL.md",
+      "type": "markdown",
+      "lines": 7,
+      "executable": false,
+      "size_bytes": 147
+    },
+    {
+      "path": "skills/productivity/grilling/SKILL.md",
+      "type": "markdown",
+      "lines": 10,
+      "executable": false,
+      "size_bytes": 666
+    },
+    {
+      "path": "skills/productivity/handoff/SKILL.md",
+      "type": "markdown",
+      "lines": 16,
+      "executable": false,
+      "size_bytes": 878
+    },
+    {
+      "path": "skills/productivity/teach/GLOSSARY-FORMAT.md",
+      "type": "markdown",
+      "lines": 35,
+      "executable": false,
+      "size_bytes": 2131
+    },
+    {
+      "path": "skills/productivity/teach/LEARNING-RECORD-FORMAT.md",
+      "type": "markdown",
+      "lines": 46,
+      "executable": false,
+      "size_bytes": 2777
+    },
+    {
+      "path": "skills/productivity/teach/MISSION-FORMAT.md",
+      "type": "markdown",
+      "lines": 31,
+      "executable": false,
+      "size_bytes": 1553
+    },
+    {
+      "path": "skills/productivity/teach/RESOURCES-FORMAT.md",
+      "type": "markdown",
+      "lines": 32,
+      "executable": false,
+      "size_bytes": 1926
+    },
+    {
+      "path": "skills/productivity/teach/SKILL.md",
+      "type": "markdown",
+      "lines": 140,
+      "executable": false,
+      "size_bytes": 9507
+    },
+    {
+      "path": "skills/productivity/writing-great-skills/GLOSSARY.md",
+      "type": "markdown",
+      "lines": 181,
+      "executable": false,
+      "size_bytes": 16804
+    },
+    {
+      "path": "skills/productivity/writing-great-skills/SKILL.md",
+      "type": "markdown",
+      "lines": 82,
+      "executable": false,
+      "size_bytes": 9063
+    }
+  ],
+  "issues": [
+    {
+      "id": "EA3",
+      "category": "Excessive Agency",
+      "pattern": "Scope Creep",
+      "severity": "LOW",
+      "confidence": 0.7,
+      "location": {
+        "file": "LICENSE",
+        "start_line": 16,
+        "end_line": null
+      },
+      "finding": "NOT LIMITED TO",
+      "explanation": "Skill's behavior or capabilities extend beyond its stated purpose. Scope creep allows an agent to perform actions unrelated to its documented functionality, increasing the attack surface.",
+      "remediation": "Limit the skill's scope to its documented purpose. Remove instructions that enable the agent to perform actions outside its stated functionality.",
+      "code_snippet": "copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,",
+      "intent": null
+    },
+    {
+      "id": "EA2",
+      "category": "Excessive Agency",
+      "pattern": "Autonomous Decision Making",
+      "severity": "MEDIUM",
+      "confidence": 0.8,
+      "location": {
+        "file": "skills/deprecated/qa/SKILL.md",
+        "start_line": 49,
+        "end_line": null
+      },
+      "finding": "Do NOT ask the user",
+      "explanation": "Skill enables autonomous high-impact decisions without human-in-the-loop verification. Critical operations (destructive commands, financial transactions, data deletion) should require explicit user confirmation.",
+      "remediation": "Add human-in-the-loop confirmation for destructive, irreversible, or high-impact operations. Never auto-execute commands that modify files, send data, or alter system state.",
+      "code_snippet": "\n### 4. File the GitHub issue(s)\n\nCreate issues with `gh issue create`. Do NOT ask the user to review first \u2014 just file and share URLs.\n\nIssues must be **durable** \u2014 they should still make sense after major refactors. Write from the user's perspective.\n",
+      "intent": null
+    },
+    {
+      "id": "MP3",
+      "category": "Memory Poisoning",
+      "pattern": "Memory Manipulation",
+      "severity": "HIGH",
+      "confidence": 0.8,
+      "location": {
+        "file": "skills/engineering/ask-matt/SKILL.md",
+        "start_line": 23,
+        "end_line": null
+      },
+      "finding": "clear context",
+      "explanation": "Skill manipulates agent memory, state, or stored context. Memory corruption can alter personality, override safety rules, or cause unpredictable behavior.",
+      "remediation": "Protect agent memory and state from modification by untrusted content. Use read-only memory for critical instructions and validate all state changes.",
+      "code_snippet": "   - **`/prototype`** to answer the question with throwaway code,\n   - **`/handoff`** back what you learned, and reference it from the original idea thread.\n3. **Branch \u2014 is this a multi-session build?**\n   - **Yes** \u2192 **`/to-prd`** (turn the thread into a PRD) \u2192 **`/to-issues`** (split the PRD into independently-grabbable issues). Because the issues are independent, **clear context between each one**: start a fresh session per issue and kick off **`/implement`** by passing it the PRD and the single issue to work on.\n   - **No** \u2192 **`/implement`** right here, in the same context window.\n\n### Context hygiene",
+      "intent": null
+    },
+    {
+      "id": "SC1",
+      "category": "Supply Chain",
+      "pattern": "Unpinned Dependencies",
+      "severity": "LOW",
+      "confidence": 0.4,
+      "location": {
+        "file": "package.json",
+        "start_line": 16,
+        "end_line": null
+      },
+      "finding": "\"@changesets/changelog-github\": \"^0.7.0\"",
+      "explanation": "Dependencies lack version pinning, allowing potential malicious package updates. Consider pinning versions.",
+      "remediation": "Pin all dependency versions in requirements.txt or pyproject.toml. Use exact versions (==) or compatible ranges. Run pip-audit regularly.",
+      "code_snippet": "    \"version\": \"changeset version\"\n  },\n  \"devDependencies\": {\n    \"@changesets/changelog-github\": \"^0.7.0\",\n    \"@changesets/cli\": \"^2.30.0\"\n  },\n  \"packageManager\": \"npm@10.9.4\"",
+      "intent": null
+    },
+    {
+      "id": "SC1",
+      "category": "Supply Chain",
+      "pattern": "Unpinned Dependencies",
+      "severity": "LOW",
+      "confidence": 0.4,
+      "location": {
+        "file": "package.json",
+        "start_line": 17,
+        "end_line": null
+      },
+      "finding": "\"@changesets/cli\": \"^2.30.0\"",
+      "explanation": "Dependencies lack version pinning, allowing potential malicious package updates. Consider pinning versions.",
+      "remediation": "Pin all dependency versions in requirements.txt or pyproject.toml. Use exact versions (==) or compatible ranges. Run pip-audit regularly.",
+      "code_snippet": "  },\n  \"devDependencies\": {\n    \"@changesets/changelog-github\": \"^0.7.0\",\n    \"@changesets/cli\": \"^2.30.0\"\n  },\n  \"packageManager\": \"npm@10.9.4\"\n}",
+      "intent": null
+    },
+    {
+      "id": "P6",
+      "category": "System Prompt Leakage",
+      "pattern": "Direct Prompt Extraction",
+      "severity": "HIGH",
+      "confidence": 0.85,
+      "location": {
+        "file": "skills/engineering/diagnosing-bugs/scripts/hitl-loop.template.sh",
+        "start_line": 10,
+        "end_line": null
+      },
+      "finding": "show instruction",
+      "explanation": "Skill contains instructions that could directly expose system prompts, internal rules, or hidden instructions to users or external parties.",
+      "remediation": "Remove any instructions that reveal, print, or output system prompts or internal rules. System instructions should never be exposed to end users.",
+      "code_snippet": "#   bash hitl-loop.template.sh\n#\n# Two helpers:\n#   step \"<instruction>\"          \u2192 show instruction, wait for Enter\n#   capture VAR \"<question>\"      \u2192 show question, read response into VAR\n#\n# At the end, captured values are printed as KEY=VALUE for the agent to parse.",
+      "intent": null
+    },
+    {
+      "id": "TM1",
+      "category": "Tool Misuse",
+      "pattern": "Tool Parameter Abuse",
+      "severity": "HIGH",
+      "confidence": 0.65,
+      "location": {
+        "file": "skills/misc/git-guardrails-claude-code/SKILL.md",
+        "start_line": 13,
+        "end_line": null
+      },
+      "finding": "git reset --hard",
+      "explanation": "Tool parameters are crafted to achieve unintended or unsafe behavior. Parameter abuse can bypass intended safety checks (e.g. shell=True, --force, dangerous glob patterns).",
+      "remediation": "Validate all tool parameters against an allowlist. Reject dangerous parameter values (shell=True, --force, -rf /) and use safe defaults.",
+      "code_snippet": "## What Gets Blocked\n\n- `git push` (all variants including `--force`)\n- `git reset --hard`\n- `git clean -f` / `git clean -fd`\n- `git branch -D`\n- `git checkout .` / `git restore .`",
+      "intent": null
+    },
+    {
+      "id": "TM1",
+      "category": "Tool Misuse",
+      "pattern": "Tool Parameter Abuse",
+      "severity": "HIGH",
+      "confidence": 0.75,
+      "location": {
+        "file": "skills/misc/git-guardrails-claude-code/scripts/block-dangerous-git.sh",
+        "start_line": 8,
+        "end_line": null
+      },
+      "finding": "git reset --hard",
+      "explanation": "Tool parameters are crafted to achieve unintended or unsafe behavior. Parameter abuse can bypass intended safety checks (e.g. shell=True, --force, dangerous glob patterns).",
+      "remediation": "Validate all tool parameters against an allowlist. Reject dangerous parameter values (shell=True, --force, -rf /) and use safe defaults.",
+      "code_snippet": "\nDANGEROUS_PATTERNS=(\n  \"git push\"\n  \"git reset --hard\"\n  \"git clean -fd\"\n  \"git clean -f\"\n  \"git branch -D\"",
+      "intent": null
+    }
+  ],
+  "metadata": {
+    "has_executable_scripts": true,
+    "skillspector_version": "2.1.4",
+    "llm_requested": false,
+    "llm_available": false
+  }
+}

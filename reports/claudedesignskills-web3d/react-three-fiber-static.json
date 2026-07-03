@@ -1,0 +1,936 @@
+{
+  "skill": {
+    "name": "react-three-fiber",
+    "source": "/private/tmp/claudedesignskills-inspect/.claude/skills/react-three-fiber",
+    "scanned_at": "2026-06-19T11:15:37.058110+00:00"
+  },
+  "risk_assessment": {
+    "score": 100,
+    "severity": "CRITICAL",
+    "recommendation": "DO_NOT_INSTALL"
+  },
+  "components": [
+    {
+      "path": "SKILL.md",
+      "type": "markdown",
+      "lines": 1079,
+      "executable": false,
+      "size_bytes": 22994
+    },
+    {
+      "path": "assets/examples/README.md",
+      "type": "markdown",
+      "lines": 707,
+      "executable": false,
+      "size_bytes": 16591
+    },
+    {
+      "path": "assets/starter_r3f/README.md",
+      "type": "markdown",
+      "lines": 258,
+      "executable": false,
+      "size_bytes": 5603
+    },
+    {
+      "path": "assets/starter_r3f/index.html",
+      "type": "other",
+      "lines": 72,
+      "executable": false,
+      "size_bytes": 1593
+    },
+    {
+      "path": "assets/starter_r3f/package.json",
+      "type": "json",
+      "lines": 26,
+      "executable": false,
+      "size_bytes": 570
+    },
+    {
+      "path": "assets/starter_r3f/src/App.jsx",
+      "type": "other",
+      "lines": 14,
+      "executable": false,
+      "size_bytes": 282
+    },
+    {
+      "path": "assets/starter_r3f/src/Experience.jsx",
+      "type": "other",
+      "lines": 57,
+      "executable": false,
+      "size_bytes": 1329
+    },
+    {
+      "path": "assets/starter_r3f/src/components/Box.jsx",
+      "type": "other",
+      "lines": 38,
+      "executable": false,
+      "size_bytes": 945
+    },
+    {
+      "path": "assets/starter_r3f/src/components/Sphere.jsx",
+      "type": "other",
+      "lines": 24,
+      "executable": false,
+      "size_bytes": 638
+    },
+    {
+      "path": "assets/starter_r3f/src/main.jsx",
+      "type": "other",
+      "lines": 9,
+      "executable": false,
+      "size_bytes": 208
+    },
+    {
+      "path": "assets/starter_r3f/vite.config.js",
+      "type": "javascript",
+      "lines": 21,
+      "executable": true,
+      "size_bytes": 406
+    },
+    {
+      "path": "references/api_reference.md",
+      "type": "markdown",
+      "lines": 928,
+      "executable": false,
+      "size_bytes": 18479
+    },
+    {
+      "path": "scripts/component_generator.py",
+      "type": "python",
+      "lines": 649,
+      "executable": true,
+      "size_bytes": 19731
+    },
+    {
+      "path": "scripts/scene_setup.py",
+      "type": "python",
+      "lines": 614,
+      "executable": true,
+      "size_bytes": 18385
+    }
+  ],
+  "issues": [
+    {
+      "id": "TT2",
+      "category": "Data Flow",
+      "pattern": "Tainted flow: 'output_file' from input (line 478, user input) \u2192 open (file write)",
+      "severity": "MEDIUM",
+      "confidence": 0.65,
+      "location": {
+        "file": "scripts/scene_setup.py",
+        "start_line": 486,
+        "end_line": 486
+      },
+      "finding": "            with open(output_file, 'w') as f:",
+      "explanation": "Data from a source is assigned to a variable that is later passed to a sink, creating a variable-mediated taint flow.",
+      "remediation": "Validate tainted variables before passing them to sinks. Use allowlists, type checks, or sanitization functions on data from external sources.",
+      "code_snippet": "        code = setup.generate()\n\n        if output_file:\n            with open(output_file, 'w') as f:\n                f.write(code)\n            print(f\"\u2705 Scene generated \u2192 {output_file}\")\n        else:",
+      "intent": null
+    },
+    {
+      "id": "LP3",
+      "category": "MCP Least Privilege",
+      "pattern": null,
+      "severity": "MEDIUM",
+      "confidence": 0.7,
+      "location": {
+        "file": "SKILL.md",
+        "start_line": 1,
+        "end_line": null
+      },
+      "finding": null,
+      "explanation": "Without declared permissions the skill's intent is opaque and cannot be validated.",
+      "remediation": "Add a 'permissions' field to SKILL.md listing the capabilities this skill requires.",
+      "code_snippet": null,
+      "intent": null
+    },
+    {
+      "id": "SC1",
+      "category": "Supply Chain",
+      "pattern": "Unpinned Dependencies",
+      "severity": "LOW",
+      "confidence": 0.4,
+      "location": {
+        "file": "assets/starter_r3f/package.json",
+        "start_line": 12,
+        "end_line": null
+      },
+      "finding": "\"react\": \"^18.3.1\"",
+      "explanation": "Dependencies lack version pinning, allowing potential malicious package updates. Consider pinning versions.",
+      "remediation": "Pin all dependency versions in requirements.txt or pyproject.toml. Use exact versions (==) or compatible ranges. Run pip-audit regularly.",
+      "code_snippet": "    \"preview\": \"vite preview\"\n  },\n  \"dependencies\": {\n    \"react\": \"^18.3.1\",\n    \"react-dom\": \"^18.3.1\",\n    \"@react-three/fiber\": \"^8.18.8\",\n    \"@react-three/drei\": \"^9.123.0\",",
+      "intent": null
+    },
+    {
+      "id": "SC1",
+      "category": "Supply Chain",
+      "pattern": "Unpinned Dependencies",
+      "severity": "LOW",
+      "confidence": 0.4,
+      "location": {
+        "file": "assets/starter_r3f/package.json",
+        "start_line": 13,
+        "end_line": null
+      },
+      "finding": "\"react-dom\": \"^18.3.1\"",
+      "explanation": "Dependencies lack version pinning, allowing potential malicious package updates. Consider pinning versions.",
+      "remediation": "Pin all dependency versions in requirements.txt or pyproject.toml. Use exact versions (==) or compatible ranges. Run pip-audit regularly.",
+      "code_snippet": "  },\n  \"dependencies\": {\n    \"react\": \"^18.3.1\",\n    \"react-dom\": \"^18.3.1\",\n    \"@react-three/fiber\": \"^8.18.8\",\n    \"@react-three/drei\": \"^9.123.0\",\n    \"three\": \"^0.172.0\",",
+      "intent": null
+    },
+    {
+      "id": "SC1",
+      "category": "Supply Chain",
+      "pattern": "Unpinned Dependencies",
+      "severity": "LOW",
+      "confidence": 0.4,
+      "location": {
+        "file": "assets/starter_r3f/package.json",
+        "start_line": 14,
+        "end_line": null
+      },
+      "finding": "\"@react-three/fiber\": \"^8.18.8\"",
+      "explanation": "Dependencies lack version pinning, allowing potential malicious package updates. Consider pinning versions.",
+      "remediation": "Pin all dependency versions in requirements.txt or pyproject.toml. Use exact versions (==) or compatible ranges. Run pip-audit regularly.",
+      "code_snippet": "  \"dependencies\": {\n    \"react\": \"^18.3.1\",\n    \"react-dom\": \"^18.3.1\",\n    \"@react-three/fiber\": \"^8.18.8\",\n    \"@react-three/drei\": \"^9.123.0\",\n    \"three\": \"^0.172.0\",\n    \"leva\": \"^0.9.35\"",
+      "intent": null
+    },
+    {
+      "id": "SC1",
+      "category": "Supply Chain",
+      "pattern": "Unpinned Dependencies",
+      "severity": "LOW",
+      "confidence": 0.4,
+      "location": {
+        "file": "assets/starter_r3f/package.json",
+        "start_line": 15,
+        "end_line": null
+      },
+      "finding": "\"@react-three/drei\": \"^9.123.0\"",
+      "explanation": "Dependencies lack version pinning, allowing potential malicious package updates. Consider pinning versions.",
+      "remediation": "Pin all dependency versions in requirements.txt or pyproject.toml. Use exact versions (==) or compatible ranges. Run pip-audit regularly.",
+      "code_snippet": "    \"react\": \"^18.3.1\",\n    \"react-dom\": \"^18.3.1\",\n    \"@react-three/fiber\": \"^8.18.8\",\n    \"@react-three/drei\": \"^9.123.0\",\n    \"three\": \"^0.172.0\",\n    \"leva\": \"^0.9.35\"\n  },",
+      "intent": null
+    },
+    {
+      "id": "SC1",
+      "category": "Supply Chain",
+      "pattern": "Unpinned Dependencies",
+      "severity": "LOW",
+      "confidence": 0.4,
+      "location": {
+        "file": "assets/starter_r3f/package.json",
+        "start_line": 16,
+        "end_line": null
+      },
+      "finding": "\"three\": \"^0.172.0\"",
+      "explanation": "Dependencies lack version pinning, allowing potential malicious package updates. Consider pinning versions.",
+      "remediation": "Pin all dependency versions in requirements.txt or pyproject.toml. Use exact versions (==) or compatible ranges. Run pip-audit regularly.",
+      "code_snippet": "    \"react-dom\": \"^18.3.1\",\n    \"@react-three/fiber\": \"^8.18.8\",\n    \"@react-three/drei\": \"^9.123.0\",\n    \"three\": \"^0.172.0\",\n    \"leva\": \"^0.9.35\"\n  },\n  \"devDependencies\": {",
+      "intent": null
+    },
+    {
+      "id": "SC1",
+      "category": "Supply Chain",
+      "pattern": "Unpinned Dependencies",
+      "severity": "LOW",
+      "confidence": 0.4,
+      "location": {
+        "file": "assets/starter_r3f/package.json",
+        "start_line": 17,
+        "end_line": null
+      },
+      "finding": "\"leva\": \"^0.9.35\"",
+      "explanation": "Dependencies lack version pinning, allowing potential malicious package updates. Consider pinning versions.",
+      "remediation": "Pin all dependency versions in requirements.txt or pyproject.toml. Use exact versions (==) or compatible ranges. Run pip-audit regularly.",
+      "code_snippet": "    \"@react-three/fiber\": \"^8.18.8\",\n    \"@react-three/drei\": \"^9.123.0\",\n    \"three\": \"^0.172.0\",\n    \"leva\": \"^0.9.35\"\n  },\n  \"devDependencies\": {\n    \"@types/react\": \"^18.3.18\",",
+      "intent": null
+    },
+    {
+      "id": "SC1",
+      "category": "Supply Chain",
+      "pattern": "Unpinned Dependencies",
+      "severity": "LOW",
+      "confidence": 0.4,
+      "location": {
+        "file": "assets/starter_r3f/package.json",
+        "start_line": 20,
+        "end_line": null
+      },
+      "finding": "\"@types/react\": \"^18.3.18\"",
+      "explanation": "Dependencies lack version pinning, allowing potential malicious package updates. Consider pinning versions.",
+      "remediation": "Pin all dependency versions in requirements.txt or pyproject.toml. Use exact versions (==) or compatible ranges. Run pip-audit regularly.",
+      "code_snippet": "    \"leva\": \"^0.9.35\"\n  },\n  \"devDependencies\": {\n    \"@types/react\": \"^18.3.18\",\n    \"@types/react-dom\": \"^18.3.5\",\n    \"@types/three\": \"^0.172.0\",\n    \"@vitejs/plugin-react\": \"^4.3.4\",",
+      "intent": null
+    },
+    {
+      "id": "SC1",
+      "category": "Supply Chain",
+      "pattern": "Unpinned Dependencies",
+      "severity": "LOW",
+      "confidence": 0.4,
+      "location": {
+        "file": "assets/starter_r3f/package.json",
+        "start_line": 21,
+        "end_line": null
+      },
+      "finding": "\"@types/react-dom\": \"^18.3.5\"",
+      "explanation": "Dependencies lack version pinning, allowing potential malicious package updates. Consider pinning versions.",
+      "remediation": "Pin all dependency versions in requirements.txt or pyproject.toml. Use exact versions (==) or compatible ranges. Run pip-audit regularly.",
+      "code_snippet": "  },\n  \"devDependencies\": {\n    \"@types/react\": \"^18.3.18\",\n    \"@types/react-dom\": \"^18.3.5\",\n    \"@types/three\": \"^0.172.0\",\n    \"@vitejs/plugin-react\": \"^4.3.4\",\n    \"vite\": \"^6.0.11\"",
+      "intent": null
+    },
+    {
+      "id": "SC1",
+      "category": "Supply Chain",
+      "pattern": "Unpinned Dependencies",
+      "severity": "LOW",
+      "confidence": 0.4,
+      "location": {
+        "file": "assets/starter_r3f/package.json",
+        "start_line": 22,
+        "end_line": null
+      },
+      "finding": "\"@types/three\": \"^0.172.0\"",
+      "explanation": "Dependencies lack version pinning, allowing potential malicious package updates. Consider pinning versions.",
+      "remediation": "Pin all dependency versions in requirements.txt or pyproject.toml. Use exact versions (==) or compatible ranges. Run pip-audit regularly.",
+      "code_snippet": "  \"devDependencies\": {\n    \"@types/react\": \"^18.3.18\",\n    \"@types/react-dom\": \"^18.3.5\",\n    \"@types/three\": \"^0.172.0\",\n    \"@vitejs/plugin-react\": \"^4.3.4\",\n    \"vite\": \"^6.0.11\"\n  }",
+      "intent": null
+    },
+    {
+      "id": "SC1",
+      "category": "Supply Chain",
+      "pattern": "Unpinned Dependencies",
+      "severity": "LOW",
+      "confidence": 0.4,
+      "location": {
+        "file": "assets/starter_r3f/package.json",
+        "start_line": 23,
+        "end_line": null
+      },
+      "finding": "\"@vitejs/plugin-react\": \"^4.3.4\"",
+      "explanation": "Dependencies lack version pinning, allowing potential malicious package updates. Consider pinning versions.",
+      "remediation": "Pin all dependency versions in requirements.txt or pyproject.toml. Use exact versions (==) or compatible ranges. Run pip-audit regularly.",
+      "code_snippet": "    \"@types/react\": \"^18.3.18\",\n    \"@types/react-dom\": \"^18.3.5\",\n    \"@types/three\": \"^0.172.0\",\n    \"@vitejs/plugin-react\": \"^4.3.4\",\n    \"vite\": \"^6.0.11\"\n  }\n}",
+      "intent": null
+    },
+    {
+      "id": "SC1",
+      "category": "Supply Chain",
+      "pattern": "Unpinned Dependencies",
+      "severity": "LOW",
+      "confidence": 0.4,
+      "location": {
+        "file": "assets/starter_r3f/package.json",
+        "start_line": 24,
+        "end_line": null
+      },
+      "finding": "\"vite\": \"^6.0.11\"",
+      "explanation": "Dependencies lack version pinning, allowing potential malicious package updates. Consider pinning versions.",
+      "remediation": "Pin all dependency versions in requirements.txt or pyproject.toml. Use exact versions (==) or compatible ranges. Run pip-audit regularly.",
+      "code_snippet": "    \"@types/react-dom\": \"^18.3.5\",\n    \"@types/three\": \"^0.172.0\",\n    \"@vitejs/plugin-react\": \"^4.3.4\",\n    \"vite\": \"^6.0.11\"\n  }\n}",
+      "intent": null
+    },
+    {
+      "id": "SC4",
+      "category": "Supply Chain",
+      "pattern": "Known Vulnerable Dependency: vite==6.0.11 \u2014 10 advisory(ies): CVE-2025-32395 (Vite has an `server.fs.deny` bypass with an invalid `request-target`); CVE-2025-31125 (Vite has a `server.fs.deny` bypassed for `inline` and `raw` with `?import` query); CVE-2026-39365 (Vite Vulnerable to Path Traversal in Optimized Deps `.map` Handling) +7 more",
+      "severity": "HIGH",
+      "confidence": 0.8,
+      "location": {
+        "file": "assets/starter_r3f/package.json",
+        "start_line": 24,
+        "end_line": null
+      },
+      "finding": "vite==6.0.11",
+      "explanation": "Dependency has known vulnerabilities (CVEs). Using packages with unpatched security flaws exposes the environment to known exploits.",
+      "remediation": "Update the dependency to a patched version that addresses the known CVE. Check OSV (osv.dev) or NVD for details on the vulnerability.",
+      "code_snippet": null,
+      "intent": null
+    },
+    {
+      "id": "SC6",
+      "category": "Supply Chain",
+      "pattern": "Possible Typosquatting: 'vite' resembles popular package 'vue'",
+      "severity": "HIGH",
+      "confidence": 0.7,
+      "location": {
+        "file": "assets/starter_r3f/package.json",
+        "start_line": 24,
+        "end_line": null
+      },
+      "finding": "vite",
+      "explanation": "Package name closely resembles a popular package, suggesting possible typosquatting. Attackers publish malicious packages with similar names to trick developers into installing them.",
+      "remediation": "Verify the package name is correct and not a typosquatting variant. Compare against the official package name on PyPI or npm.",
+      "code_snippet": null,
+      "intent": null
+    },
+    {
+      "id": "SC6",
+      "category": "Supply Chain",
+      "pattern": "Possible Typosquatting: 'import' resembles popular package 'isort'",
+      "severity": "HIGH",
+      "confidence": 0.7,
+      "location": {
+        "file": "scripts/scene_setup.py",
+        "start_line": 33,
+        "end_line": null
+      },
+      "finding": "import",
+      "explanation": "Package name closely resembles a popular package, suggesting possible typosquatting. Attackers publish malicious packages with similar names to trick developers into installing them.",
+      "remediation": "Verify the package name is correct and not a typosquatting variant. Compare against the official package name on PyPI or npm.",
+      "code_snippet": null,
+      "intent": null
+    },
+    {
+      "id": "SC6",
+      "category": "Supply Chain",
+      "pattern": "Possible Typosquatting: 'import' resembles popular package 'isort'",
+      "severity": "HIGH",
+      "confidence": 0.7,
+      "location": {
+        "file": "scripts/scene_setup.py",
+        "start_line": 34,
+        "end_line": null
+      },
+      "finding": "import",
+      "explanation": "Package name closely resembles a popular package, suggesting possible typosquatting. Attackers publish malicious packages with similar names to trick developers into installing them.",
+      "remediation": "Verify the package name is correct and not a typosquatting variant. Compare against the official package name on PyPI or npm.",
+      "code_snippet": null,
+      "intent": null
+    },
+    {
+      "id": "SC6",
+      "category": "Supply Chain",
+      "pattern": "Possible Typosquatting: 'class' resembles popular package 'flask'",
+      "severity": "HIGH",
+      "confidence": 0.7,
+      "location": {
+        "file": "scripts/scene_setup.py",
+        "start_line": 38,
+        "end_line": null
+      },
+      "finding": "class",
+      "explanation": "Package name closely resembles a popular package, suggesting possible typosquatting. Attackers publish malicious packages with similar names to trick developers into installing them.",
+      "remediation": "Verify the package name is correct and not a typosquatting variant. Compare against the official package name on PyPI or npm.",
+      "code_snippet": null,
+      "intent": null
+    },
+    {
+      "id": "SC6",
+      "category": "Supply Chain",
+      "pattern": "Possible Typosquatting: 'print' resembles popular package 'pylint'",
+      "severity": "HIGH",
+      "confidence": 0.7,
+      "location": {
+        "file": "scripts/scene_setup.py",
+        "start_line": 402,
+        "end_line": null
+      },
+      "finding": "print",
+      "explanation": "Package name closely resembles a popular package, suggesting possible typosquatting. Attackers publish malicious packages with similar names to trick developers into installing them.",
+      "remediation": "Verify the package name is correct and not a typosquatting variant. Compare against the official package name on PyPI or npm.",
+      "code_snippet": null,
+      "intent": null
+    },
+    {
+      "id": "SC6",
+      "category": "Supply Chain",
+      "pattern": "Possible Typosquatting: 'print' resembles popular package 'pylint'",
+      "severity": "HIGH",
+      "confidence": 0.7,
+      "location": {
+        "file": "scripts/scene_setup.py",
+        "start_line": 403,
+        "end_line": null
+      },
+      "finding": "print",
+      "explanation": "Package name closely resembles a popular package, suggesting possible typosquatting. Attackers publish malicious packages with similar names to trick developers into installing them.",
+      "remediation": "Verify the package name is correct and not a typosquatting variant. Compare against the official package name on PyPI or npm.",
+      "code_snippet": null,
+      "intent": null
+    },
+    {
+      "id": "SC6",
+      "category": "Supply Chain",
+      "pattern": "Possible Typosquatting: 'print' resembles popular package 'pylint'",
+      "severity": "HIGH",
+      "confidence": 0.7,
+      "location": {
+        "file": "scripts/scene_setup.py",
+        "start_line": 406,
+        "end_line": null
+      },
+      "finding": "print",
+      "explanation": "Package name closely resembles a popular package, suggesting possible typosquatting. Attackers publish malicious packages with similar names to trick developers into installing them.",
+      "remediation": "Verify the package name is correct and not a typosquatting variant. Compare against the official package name on PyPI or npm.",
+      "code_snippet": null,
+      "intent": null
+    },
+    {
+      "id": "SC6",
+      "category": "Supply Chain",
+      "pattern": "Possible Typosquatting: 'print' resembles popular package 'pylint'",
+      "severity": "HIGH",
+      "confidence": 0.7,
+      "location": {
+        "file": "scripts/scene_setup.py",
+        "start_line": 407,
+        "end_line": null
+      },
+      "finding": "print",
+      "explanation": "Package name closely resembles a popular package, suggesting possible typosquatting. Attackers publish malicious packages with similar names to trick developers into installing them.",
+      "remediation": "Verify the package name is correct and not a typosquatting variant. Compare against the official package name on PyPI or npm.",
+      "code_snippet": null,
+      "intent": null
+    },
+    {
+      "id": "SC6",
+      "category": "Supply Chain",
+      "pattern": "Possible Typosquatting: 'print' resembles popular package 'pylint'",
+      "severity": "HIGH",
+      "confidence": 0.7,
+      "location": {
+        "file": "scripts/scene_setup.py",
+        "start_line": 408,
+        "end_line": null
+      },
+      "finding": "print",
+      "explanation": "Package name closely resembles a popular package, suggesting possible typosquatting. Attackers publish malicious packages with similar names to trick developers into installing them.",
+      "remediation": "Verify the package name is correct and not a typosquatting variant. Compare against the official package name on PyPI or npm.",
+      "code_snippet": null,
+      "intent": null
+    },
+    {
+      "id": "SC6",
+      "category": "Supply Chain",
+      "pattern": "Possible Typosquatting: 'print' resembles popular package 'pylint'",
+      "severity": "HIGH",
+      "confidence": 0.7,
+      "location": {
+        "file": "scripts/scene_setup.py",
+        "start_line": 409,
+        "end_line": null
+      },
+      "finding": "print",
+      "explanation": "Package name closely resembles a popular package, suggesting possible typosquatting. Attackers publish malicious packages with similar names to trick developers into installing them.",
+      "remediation": "Verify the package name is correct and not a typosquatting variant. Compare against the official package name on PyPI or npm.",
+      "code_snippet": null,
+      "intent": null
+    },
+    {
+      "id": "SC6",
+      "category": "Supply Chain",
+      "pattern": "Possible Typosquatting: 'print' resembles popular package 'pylint'",
+      "severity": "HIGH",
+      "confidence": 0.7,
+      "location": {
+        "file": "scripts/scene_setup.py",
+        "start_line": 410,
+        "end_line": null
+      },
+      "finding": "print",
+      "explanation": "Package name closely resembles a popular package, suggesting possible typosquatting. Attackers publish malicious packages with similar names to trick developers into installing them.",
+      "remediation": "Verify the package name is correct and not a typosquatting variant. Compare against the official package name on PyPI or npm.",
+      "code_snippet": null,
+      "intent": null
+    },
+    {
+      "id": "SC6",
+      "category": "Supply Chain",
+      "pattern": "Possible Typosquatting: 'print' resembles popular package 'pylint'",
+      "severity": "HIGH",
+      "confidence": 0.7,
+      "location": {
+        "file": "scripts/scene_setup.py",
+        "start_line": 411,
+        "end_line": null
+      },
+      "finding": "print",
+      "explanation": "Package name closely resembles a popular package, suggesting possible typosquatting. Attackers publish malicious packages with similar names to trick developers into installing them.",
+      "remediation": "Verify the package name is correct and not a typosquatting variant. Compare against the official package name on PyPI or npm.",
+      "code_snippet": null,
+      "intent": null
+    },
+    {
+      "id": "SC6",
+      "category": "Supply Chain",
+      "pattern": "Possible Typosquatting: 'print' resembles popular package 'pylint'",
+      "severity": "HIGH",
+      "confidence": 0.7,
+      "location": {
+        "file": "scripts/scene_setup.py",
+        "start_line": 412,
+        "end_line": null
+      },
+      "finding": "print",
+      "explanation": "Package name closely resembles a popular package, suggesting possible typosquatting. Attackers publish malicious packages with similar names to trick developers into installing them.",
+      "remediation": "Verify the package name is correct and not a typosquatting variant. Compare against the official package name on PyPI or npm.",
+      "code_snippet": null,
+      "intent": null
+    },
+    {
+      "id": "SC6",
+      "category": "Supply Chain",
+      "pattern": "Possible Typosquatting: 'print' resembles popular package 'pylint'",
+      "severity": "HIGH",
+      "confidence": 0.7,
+      "location": {
+        "file": "scripts/scene_setup.py",
+        "start_line": 413,
+        "end_line": null
+      },
+      "finding": "print",
+      "explanation": "Package name closely resembles a popular package, suggesting possible typosquatting. Attackers publish malicious packages with similar names to trick developers into installing them.",
+      "remediation": "Verify the package name is correct and not a typosquatting variant. Compare against the official package name on PyPI or npm.",
+      "code_snippet": null,
+      "intent": null
+    },
+    {
+      "id": "SC6",
+      "category": "Supply Chain",
+      "pattern": "Possible Typosquatting: 'print' resembles popular package 'pylint'",
+      "severity": "HIGH",
+      "confidence": 0.7,
+      "location": {
+        "file": "scripts/scene_setup.py",
+        "start_line": 427,
+        "end_line": null
+      },
+      "finding": "print",
+      "explanation": "Package name closely resembles a popular package, suggesting possible typosquatting. Attackers publish malicious packages with similar names to trick developers into installing them.",
+      "remediation": "Verify the package name is correct and not a typosquatting variant. Compare against the official package name on PyPI or npm.",
+      "code_snippet": null,
+      "intent": null
+    },
+    {
+      "id": "SC6",
+      "category": "Supply Chain",
+      "pattern": "Possible Typosquatting: 'print' resembles popular package 'pylint'",
+      "severity": "HIGH",
+      "confidence": 0.7,
+      "location": {
+        "file": "scripts/scene_setup.py",
+        "start_line": 430,
+        "end_line": null
+      },
+      "finding": "print",
+      "explanation": "Package name closely resembles a popular package, suggesting possible typosquatting. Attackers publish malicious packages with similar names to trick developers into installing them.",
+      "remediation": "Verify the package name is correct and not a typosquatting variant. Compare against the official package name on PyPI or npm.",
+      "code_snippet": null,
+      "intent": null
+    },
+    {
+      "id": "SC6",
+      "category": "Supply Chain",
+      "pattern": "Possible Typosquatting: 'print' resembles popular package 'pylint'",
+      "severity": "HIGH",
+      "confidence": 0.7,
+      "location": {
+        "file": "scripts/scene_setup.py",
+        "start_line": 431,
+        "end_line": null
+      },
+      "finding": "print",
+      "explanation": "Package name closely resembles a popular package, suggesting possible typosquatting. Attackers publish malicious packages with similar names to trick developers into installing them.",
+      "remediation": "Verify the package name is correct and not a typosquatting variant. Compare against the official package name on PyPI or npm.",
+      "code_snippet": null,
+      "intent": null
+    },
+    {
+      "id": "SC6",
+      "category": "Supply Chain",
+      "pattern": "Possible Typosquatting: 'print' resembles popular package 'pylint'",
+      "severity": "HIGH",
+      "confidence": 0.7,
+      "location": {
+        "file": "scripts/scene_setup.py",
+        "start_line": 436,
+        "end_line": null
+      },
+      "finding": "print",
+      "explanation": "Package name closely resembles a popular package, suggesting possible typosquatting. Attackers publish malicious packages with similar names to trick developers into installing them.",
+      "remediation": "Verify the package name is correct and not a typosquatting variant. Compare against the official package name on PyPI or npm.",
+      "code_snippet": null,
+      "intent": null
+    },
+    {
+      "id": "SC6",
+      "category": "Supply Chain",
+      "pattern": "Possible Typosquatting: 'print' resembles popular package 'pylint'",
+      "severity": "HIGH",
+      "confidence": 0.7,
+      "location": {
+        "file": "scripts/scene_setup.py",
+        "start_line": 437,
+        "end_line": null
+      },
+      "finding": "print",
+      "explanation": "Package name closely resembles a popular package, suggesting possible typosquatting. Attackers publish malicious packages with similar names to trick developers into installing them.",
+      "remediation": "Verify the package name is correct and not a typosquatting variant. Compare against the official package name on PyPI or npm.",
+      "code_snippet": null,
+      "intent": null
+    },
+    {
+      "id": "SC6",
+      "category": "Supply Chain",
+      "pattern": "Possible Typosquatting: 'print' resembles popular package 'pylint'",
+      "severity": "HIGH",
+      "confidence": 0.7,
+      "location": {
+        "file": "scripts/scene_setup.py",
+        "start_line": 438,
+        "end_line": null
+      },
+      "finding": "print",
+      "explanation": "Package name closely resembles a popular package, suggesting possible typosquatting. Attackers publish malicious packages with similar names to trick developers into installing them.",
+      "remediation": "Verify the package name is correct and not a typosquatting variant. Compare against the official package name on PyPI or npm.",
+      "code_snippet": null,
+      "intent": null
+    },
+    {
+      "id": "SC6",
+      "category": "Supply Chain",
+      "pattern": "Possible Typosquatting: 'print' resembles popular package 'pylint'",
+      "severity": "HIGH",
+      "confidence": 0.7,
+      "location": {
+        "file": "scripts/scene_setup.py",
+        "start_line": 439,
+        "end_line": null
+      },
+      "finding": "print",
+      "explanation": "Package name closely resembles a popular package, suggesting possible typosquatting. Attackers publish malicious packages with similar names to trick developers into installing them.",
+      "remediation": "Verify the package name is correct and not a typosquatting variant. Compare against the official package name on PyPI or npm.",
+      "code_snippet": null,
+      "intent": null
+    },
+    {
+      "id": "SC6",
+      "category": "Supply Chain",
+      "pattern": "Possible Typosquatting: 'print' resembles popular package 'pylint'",
+      "severity": "HIGH",
+      "confidence": 0.7,
+      "location": {
+        "file": "scripts/scene_setup.py",
+        "start_line": 445,
+        "end_line": null
+      },
+      "finding": "print",
+      "explanation": "Package name closely resembles a popular package, suggesting possible typosquatting. Attackers publish malicious packages with similar names to trick developers into installing them.",
+      "remediation": "Verify the package name is correct and not a typosquatting variant. Compare against the official package name on PyPI or npm.",
+      "code_snippet": null,
+      "intent": null
+    },
+    {
+      "id": "SC6",
+      "category": "Supply Chain",
+      "pattern": "Possible Typosquatting: 'print' resembles popular package 'pylint'",
+      "severity": "HIGH",
+      "confidence": 0.7,
+      "location": {
+        "file": "scripts/scene_setup.py",
+        "start_line": 446,
+        "end_line": null
+      },
+      "finding": "print",
+      "explanation": "Package name closely resembles a popular package, suggesting possible typosquatting. Attackers publish malicious packages with similar names to trick developers into installing them.",
+      "remediation": "Verify the package name is correct and not a typosquatting variant. Compare against the official package name on PyPI or npm.",
+      "code_snippet": null,
+      "intent": null
+    },
+    {
+      "id": "SC6",
+      "category": "Supply Chain",
+      "pattern": "Possible Typosquatting: 'print' resembles popular package 'pylint'",
+      "severity": "HIGH",
+      "confidence": 0.7,
+      "location": {
+        "file": "scripts/scene_setup.py",
+        "start_line": 447,
+        "end_line": null
+      },
+      "finding": "print",
+      "explanation": "Package name closely resembles a popular package, suggesting possible typosquatting. Attackers publish malicious packages with similar names to trick developers into installing them.",
+      "remediation": "Verify the package name is correct and not a typosquatting variant. Compare against the official package name on PyPI or npm.",
+      "code_snippet": null,
+      "intent": null
+    },
+    {
+      "id": "SC6",
+      "category": "Supply Chain",
+      "pattern": "Possible Typosquatting: 'print' resembles popular package 'pylint'",
+      "severity": "HIGH",
+      "confidence": 0.7,
+      "location": {
+        "file": "scripts/scene_setup.py",
+        "start_line": 448,
+        "end_line": null
+      },
+      "finding": "print",
+      "explanation": "Package name closely resembles a popular package, suggesting possible typosquatting. Attackers publish malicious packages with similar names to trick developers into installing them.",
+      "remediation": "Verify the package name is correct and not a typosquatting variant. Compare against the official package name on PyPI or npm.",
+      "code_snippet": null,
+      "intent": null
+    },
+    {
+      "id": "SC6",
+      "category": "Supply Chain",
+      "pattern": "Possible Typosquatting: 'print' resembles popular package 'pylint'",
+      "severity": "HIGH",
+      "confidence": 0.7,
+      "location": {
+        "file": "scripts/scene_setup.py",
+        "start_line": 480,
+        "end_line": null
+      },
+      "finding": "print",
+      "explanation": "Package name closely resembles a popular package, suggesting possible typosquatting. Attackers publish malicious packages with similar names to trick developers into installing them.",
+      "remediation": "Verify the package name is correct and not a typosquatting variant. Compare against the official package name on PyPI or npm.",
+      "code_snippet": null,
+      "intent": null
+    },
+    {
+      "id": "SC6",
+      "category": "Supply Chain",
+      "pattern": "Possible Typosquatting: 'with' resembles popular package 'rich'",
+      "severity": "HIGH",
+      "confidence": 0.7,
+      "location": {
+        "file": "scripts/scene_setup.py",
+        "start_line": 486,
+        "end_line": null
+      },
+      "finding": "with",
+      "explanation": "Package name closely resembles a popular package, suggesting possible typosquatting. Attackers publish malicious packages with similar names to trick developers into installing them.",
+      "remediation": "Verify the package name is correct and not a typosquatting variant. Compare against the official package name on PyPI or npm.",
+      "code_snippet": null,
+      "intent": null
+    },
+    {
+      "id": "SC6",
+      "category": "Supply Chain",
+      "pattern": "Possible Typosquatting: 'print' resembles popular package 'pylint'",
+      "severity": "HIGH",
+      "confidence": 0.7,
+      "location": {
+        "file": "scripts/scene_setup.py",
+        "start_line": 488,
+        "end_line": null
+      },
+      "finding": "print",
+      "explanation": "Package name closely resembles a popular package, suggesting possible typosquatting. Attackers publish malicious packages with similar names to trick developers into installing them.",
+      "remediation": "Verify the package name is correct and not a typosquatting variant. Compare against the official package name on PyPI or npm.",
+      "code_snippet": null,
+      "intent": null
+    },
+    {
+      "id": "SC6",
+      "category": "Supply Chain",
+      "pattern": "Possible Typosquatting: 'print' resembles popular package 'pylint'",
+      "severity": "HIGH",
+      "confidence": 0.7,
+      "location": {
+        "file": "scripts/scene_setup.py",
+        "start_line": 490,
+        "end_line": null
+      },
+      "finding": "print",
+      "explanation": "Package name closely resembles a popular package, suggesting possible typosquatting. Attackers publish malicious packages with similar names to trick developers into installing them.",
+      "remediation": "Verify the package name is correct and not a typosquatting variant. Compare against the official package name on PyPI or npm.",
+      "code_snippet": null,
+      "intent": null
+    },
+    {
+      "id": "SC6",
+      "category": "Supply Chain",
+      "pattern": "Possible Typosquatting: 'print' resembles popular package 'pylint'",
+      "severity": "HIGH",
+      "confidence": 0.7,
+      "location": {
+        "file": "scripts/scene_setup.py",
+        "start_line": 493,
+        "end_line": null
+      },
+      "finding": "print",
+      "explanation": "Package name closely resembles a popular package, suggesting possible typosquatting. Attackers publish malicious packages with similar names to trick developers into installing them.",
+      "remediation": "Verify the package name is correct and not a typosquatting variant. Compare against the official package name on PyPI or npm.",
+      "code_snippet": null,
+      "intent": null
+    },
+    {
+      "id": "SC6",
+      "category": "Supply Chain",
+      "pattern": "Possible Typosquatting: 'with' resembles popular package 'rich'",
+      "severity": "HIGH",
+      "confidence": 0.7,
+      "location": {
+        "file": "scripts/scene_setup.py",
+        "start_line": 602,
+        "end_line": null
+      },
+      "finding": "with",
+      "explanation": "Package name closely resembles a popular package, suggesting possible typosquatting. Attackers publish malicious packages with similar names to trick developers into installing them.",
+      "remediation": "Verify the package name is correct and not a typosquatting variant. Compare against the official package name on PyPI or npm.",
+      "code_snippet": null,
+      "intent": null
+    },
+    {
+      "id": "SC6",
+      "category": "Supply Chain",
+      "pattern": "Possible Typosquatting: 'print' resembles popular package 'pylint'",
+      "severity": "HIGH",
+      "confidence": 0.7,
+      "location": {
+        "file": "scripts/scene_setup.py",
+        "start_line": 604,
+        "end_line": null
+      },
+      "finding": "print",
+      "explanation": "Package name closely resembles a popular package, suggesting possible typosquatting. Attackers publish malicious packages with similar names to trick developers into installing them.",
+      "remediation": "Verify the package name is correct and not a typosquatting variant. Compare against the official package name on PyPI or npm.",
+      "code_snippet": null,
+      "intent": null
+    },
+    {
+      "id": "SC6",
+      "category": "Supply Chain",
+      "pattern": "Possible Typosquatting: 'print' resembles popular package 'pylint'",
+      "severity": "HIGH",
+      "confidence": 0.7,
+      "location": {
+        "file": "scripts/scene_setup.py",
+        "start_line": 606,
+        "end_line": null
+      },
+      "finding": "print",
+      "explanation": "Package name closely resembles a popular package, suggesting possible typosquatting. Attackers publish malicious packages with similar names to trick developers into installing them.",
+      "remediation": "Verify the package name is correct and not a typosquatting variant. Compare against the official package name on PyPI or npm.",
+      "code_snippet": null,
+      "intent": null
+    },
+    {
+      "id": "SC6",
+      "category": "Supply Chain",
+      "pattern": "Possible Typosquatting: 'print' resembles popular package 'pylint'",
+      "severity": "HIGH",
+      "confidence": 0.7,
+      "location": {
+        "file": "scripts/scene_setup.py",
+        "start_line": 609,
+        "end_line": null
+      },
+      "finding": "print",
+      "explanation": "Package name closely resembles a popular package, suggesting possible typosquatting. Attackers publish malicious packages with similar names to trick developers into installing them.",
+      "remediation": "Verify the package name is correct and not a typosquatting variant. Compare against the official package name on PyPI or npm.",
+      "code_snippet": null,
+      "intent": null
+    }
+  ],
+  "metadata": {
+    "has_executable_scripts": true,
+    "skillspector_version": "2.1.4",
+    "llm_requested": false,
+    "llm_available": false
+  }
+}

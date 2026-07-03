@@ -1,0 +1,63 @@
+{
+  "skill": {
+    "name": "khaled-agent-self-learning",
+    "source": "/private/tmp/khaled-agent-self-learning-skill",
+    "scanned_at": "2026-06-26T23:03:23.234706+00:00"
+  },
+  "risk_assessment": {
+    "score": 50,
+    "severity": "MEDIUM",
+    "recommendation": "CAUTION"
+  },
+  "components": [
+    {
+      "path": "SKILL.md",
+      "type": "markdown",
+      "lines": 221,
+      "executable": false,
+      "size_bytes": 7285
+    }
+  ],
+  "issues": [
+    {
+      "id": "RA1",
+      "category": "Rogue Agent",
+      "pattern": "Self-Modification",
+      "severity": "HIGH",
+      "confidence": 0.85,
+      "location": {
+        "file": "SKILL.md",
+        "start_line": 38,
+        "end_line": null
+      },
+      "finding": "patch skill",
+      "explanation": "Skill modifies its own code, configuration, or behavior at runtime. Self-modification enables an agent to escalate privileges, disable safety constraints, or install persistent backdoors.",
+      "remediation": "Prevent the skill from modifying its own code, SKILL.md, or configuration files. Treat skill files as read-only at runtime.",
+      "code_snippet": "## Non-negotiable rules\n\n- Do not silently save or edit durable memory when `memory.write_approval` is active; stage it and tell Khaled it awaits approval.\n- Do not create or patch skills for trivial one-off corrections.\n- Do not store secrets, tokens, credentials, raw private messages, or sensitive municipal/trading data.\n- Do not store stale task outcomes: PR numbers, issue numbers, commit SHAs, temporary TODOs, or \"fixed X\" logs.\n- Do not let the agent rewrite its own harness, tools, cron jobs, or global config without explicit approval.",
+      "intent": null
+    },
+    {
+      "id": "RA1",
+      "category": "Rogue Agent",
+      "pattern": "Self-Modification",
+      "severity": "HIGH",
+      "confidence": 0.85,
+      "location": {
+        "file": "SKILL.md",
+        "start_line": 81,
+        "end_line": null
+      },
+      "finding": "patch skill",
+      "explanation": "Skill modifies its own code, configuration, or behavior at runtime. Self-modification enables an agent to escalate privileges, disable safety constraints, or install persistent backdoors.",
+      "remediation": "Prevent the skill from modifying its own code, SKILL.md, or configuration files. Treat skill files as read-only at runtime.",
+      "code_snippet": "3. **Check durability**: will this matter in a week?\n4. **Check scope**: user/global/project/session?\n5. **Check sensitivity**: any secrets/private data? If yes, do not store.\n6. **Choose action**: no-op, stage memory, create skill, patch skill, or write project note.\n7. **Verify**: if a skill changed, run SkillSpector/static validation.\n8. **Backup**: after accepted durable changes, ensure the Hermes GitHub backup will capture it; run backup immediately if Khaled asked for immediate preservation.\n",
+      "intent": null
+    }
+  ],
+  "metadata": {
+    "has_executable_scripts": false,
+    "skillspector_version": "2.1.4",
+    "llm_requested": false,
+    "llm_available": false
+  }
+}

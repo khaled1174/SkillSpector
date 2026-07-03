@@ -1,0 +1,46 @@
+{
+  "skill": {
+    "name": "gsap-plugins",
+    "source": "/private/tmp/gsap-skills-inspect/skills/gsap-plugins",
+    "scanned_at": "2026-06-19T12:07:12.985619+00:00"
+  },
+  "risk_assessment": {
+    "score": 25,
+    "severity": "MEDIUM",
+    "recommendation": "CAUTION"
+  },
+  "components": [
+    {
+      "path": "SKILL.md",
+      "type": "markdown",
+      "lines": 433,
+      "executable": false,
+      "size_bytes": 21579
+    }
+  ],
+  "issues": [
+    {
+      "id": "PE3",
+      "category": "Privilege Escalation",
+      "pattern": "Credential Access",
+      "severity": "HIGH",
+      "confidence": 0.7,
+      "location": {
+        "file": "SKILL.md",
+        "start_line": 20,
+        "end_line": null
+      },
+      "finding": ".npmrc",
+      "explanation": "Code accesses credential files (SSH keys, AWS credentials, etc.). This could indicate credential theft attempts.",
+      "remediation": "Remove references to credential paths. Use environment variables or secrets managers. For docs, use placeholder paths (e.g., /path/to/config). Never load .env or token files in production code paths.",
+      "code_snippet": "Every GSAP plugin is **free**, including for commercial use. Since [Webflow's acquisition of GSAP](https://gsap.com/blog/webflow-GSAP/), Club GSAP is no longer a paid tier and **no plugin requires a membership, license key, or auth token** \u2014 this includes formerly Club-only plugins (**SplitText**, **MorphSVG**, etc.).\n\n- \u2705 Install everything from the public `gsap` npm package: `npm install gsap`. All plugins are included \u2014 import them as `gsap/SplitText`, `gsap/MorphSVGPlugin`, etc.\n- \u274c Do **not** generate an `.npmrc` with a GreenSock auth token, suggest the private `npm.greensock.com` registry, or tell users to sign up for Club GSAP to access a plugin. Those instructions are outdated.\n\n## Registering Plugins\n",
+      "intent": null
+    }
+  ],
+  "metadata": {
+    "has_executable_scripts": false,
+    "skillspector_version": "2.1.4",
+    "llm_requested": false,
+    "llm_available": false
+  }
+}

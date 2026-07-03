@@ -1,0 +1,1683 @@
+{
+  "skill": {
+    "name": "unknown",
+    "source": "/private/tmp/ponytail-review-20260621-095805",
+    "scanned_at": "2026-06-21T06:58:27.485862+00:00"
+  },
+  "risk_assessment": {
+    "score": 100,
+    "severity": "CRITICAL",
+    "recommendation": "DO_NOT_INSTALL"
+  },
+  "components": [
+    {
+      "path": ".agents/plugins/marketplace.json",
+      "type": "json",
+      "lines": 21,
+      "executable": false,
+      "size_bytes": 410
+    },
+    {
+      "path": ".agents/rules/ponytail.md",
+      "type": "markdown",
+      "lines": 24,
+      "executable": false,
+      "size_bytes": 1646
+    },
+    {
+      "path": ".claude-plugin/marketplace.json",
+      "type": "json",
+      "lines": 17,
+      "executable": false,
+      "size_bytes": 513
+    },
+    {
+      "path": ".claude-plugin/plugin.json",
+      "type": "json",
+      "lines": 10,
+      "executable": false,
+      "size_bytes": 342
+    },
+    {
+      "path": ".clinerules/ponytail.md",
+      "type": "markdown",
+      "lines": 24,
+      "executable": false,
+      "size_bytes": 1646
+    },
+    {
+      "path": ".codex-plugin/plugin.json",
+      "type": "json",
+      "lines": 32,
+      "executable": false,
+      "size_bytes": 1280
+    },
+    {
+      "path": ".cursor/rules/ponytail.mdc",
+      "type": "other",
+      "lines": 30,
+      "executable": false,
+      "size_bytes": 1771
+    },
+    {
+      "path": ".github/FUNDING.yml",
+      "type": "yaml",
+      "lines": 1,
+      "executable": false,
+      "size_bytes": 25
+    },
+    {
+      "path": ".github/copilot-instructions.md",
+      "type": "markdown",
+      "lines": 24,
+      "executable": false,
+      "size_bytes": 1646
+    },
+    {
+      "path": ".github/plugin/marketplace.json",
+      "type": "json",
+      "lines": 20,
+      "executable": false,
+      "size_bytes": 610
+    },
+    {
+      "path": ".github/plugin/plugin.json",
+      "type": "json",
+      "lines": 16,
+      "executable": false,
+      "size_bytes": 597
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "type": "yaml",
+      "lines": 29,
+      "executable": false,
+      "size_bytes": 531
+    },
+    {
+      "path": ".kiro/steering/ponytail.md",
+      "type": "markdown",
+      "lines": 29,
+      "executable": false,
+      "size_bytes": 1711
+    },
+    {
+      "path": ".openclaw/skills/ponytail-audit/SKILL.md",
+      "type": "markdown",
+      "lines": 37,
+      "executable": false,
+      "size_bytes": 1434
+    },
+    {
+      "path": ".openclaw/skills/ponytail-debt/SKILL.md",
+      "type": "markdown",
+      "lines": 41,
+      "executable": false,
+      "size_bytes": 1499
+    },
+    {
+      "path": ".openclaw/skills/ponytail-gain/SKILL.md",
+      "type": "markdown",
+      "lines": 47,
+      "executable": false,
+      "size_bytes": 1853
+    },
+    {
+      "path": ".openclaw/skills/ponytail-help/SKILL.md",
+      "type": "markdown",
+      "lines": 68,
+      "executable": false,
+      "size_bytes": 2527
+    },
+    {
+      "path": ".openclaw/skills/ponytail-review/SKILL.md",
+      "type": "markdown",
+      "lines": 52,
+      "executable": false,
+      "size_bytes": 2118
+    },
+    {
+      "path": ".openclaw/skills/ponytail/SKILL.md",
+      "type": "markdown",
+      "lines": 92,
+      "executable": false,
+      "size_bytes": 4715
+    },
+    {
+      "path": ".opencode/command/ponytail-audit.md",
+      "type": "markdown",
+      "lines": 5,
+      "executable": false,
+      "size_bytes": 587
+    },
+    {
+      "path": ".opencode/command/ponytail-debt.md",
+      "type": "markdown",
+      "lines": 5,
+      "executable": false,
+      "size_bytes": 689
+    },
+    {
+      "path": ".opencode/command/ponytail-gain.md",
+      "type": "markdown",
+      "lines": 5,
+      "executable": false,
+      "size_bytes": 897
+    },
+    {
+      "path": ".opencode/command/ponytail-help.md",
+      "type": "markdown",
+      "lines": 5,
+      "executable": false,
+      "size_bytes": 1077
+    },
+    {
+      "path": ".opencode/command/ponytail-review.md",
+      "type": "markdown",
+      "lines": 5,
+      "executable": false,
+      "size_bytes": 510
+    },
+    {
+      "path": ".opencode/command/ponytail.md",
+      "type": "markdown",
+      "lines": 5,
+      "executable": false,
+      "size_bytes": 463
+    },
+    {
+      "path": ".opencode/plugins/ponytail.mjs",
+      "type": "other",
+      "lines": 79,
+      "executable": false,
+      "size_bytes": 2988
+    },
+    {
+      "path": ".windsurf/rules/ponytail.md",
+      "type": "markdown",
+      "lines": 24,
+      "executable": false,
+      "size_bytes": 1646
+    },
+    {
+      "path": "AGENTS.md",
+      "type": "markdown",
+      "lines": 26,
+      "executable": false,
+      "size_bytes": 1744
+    },
+    {
+      "path": "LICENSE",
+      "type": "other",
+      "lines": 21,
+      "executable": false,
+      "size_bytes": 1071
+    },
+    {
+      "path": "README.es.md",
+      "type": "markdown",
+      "lines": 247,
+      "executable": false,
+      "size_bytes": 13626
+    },
+    {
+      "path": "README.md",
+      "type": "markdown",
+      "lines": 252,
+      "executable": false,
+      "size_bytes": 13158
+    },
+    {
+      "path": "assets/benchmark-3model.svg",
+      "type": "other",
+      "lines": 21,
+      "executable": false,
+      "size_bytes": 2753
+    },
+    {
+      "path": "assets/benchmark-agentic.svg",
+      "type": "other",
+      "lines": 62,
+      "executable": false,
+      "size_bytes": 6295
+    },
+    {
+      "path": "assets/logo-dark.png",
+      "type": "other",
+      "lines": 3423,
+      "executable": false,
+      "size_bytes": 132499
+    },
+    {
+      "path": "assets/logo-dark.svg",
+      "type": "other",
+      "lines": 115,
+      "executable": false,
+      "size_bytes": 86402
+    },
+    {
+      "path": "assets/logo.png",
+      "type": "other",
+      "lines": 11565,
+      "executable": false,
+      "size_bytes": 567655
+    },
+    {
+      "path": "assets/social-preview.png",
+      "type": "other",
+      "lines": 1372,
+      "executable": false,
+      "size_bytes": 59380
+    },
+    {
+      "path": "benchmarks/README.md",
+      "type": "markdown",
+      "lines": 92,
+      "executable": false,
+      "size_bytes": 4802
+    },
+    {
+      "path": "benchmarks/agentic/README.md",
+      "type": "markdown",
+      "lines": 171,
+      "executable": false,
+      "size_bytes": 10112
+    },
+    {
+      "path": "benchmarks/agentic/complete.py",
+      "type": "python",
+      "lines": 154,
+      "executable": true,
+      "size_bytes": 7944
+    },
+    {
+      "path": "benchmarks/agentic/judge.py",
+      "type": "python",
+      "lines": 185,
+      "executable": true,
+      "size_bytes": 9987
+    },
+    {
+      "path": "benchmarks/agentic/run.py",
+      "type": "python",
+      "lines": 408,
+      "executable": true,
+      "size_bytes": 23315
+    },
+    {
+      "path": "benchmarks/agentic/tasks.py",
+      "type": "python",
+      "lines": 570,
+      "executable": true,
+      "size_bytes": 28767
+    },
+    {
+      "path": "benchmarks/arms/baseline.js",
+      "type": "javascript",
+      "lines": 2,
+      "executable": true,
+      "size_bytes": 113
+    },
+    {
+      "path": "benchmarks/arms/caveman-SKILL.md",
+      "type": "markdown",
+      "lines": 67,
+      "executable": false,
+      "size_bytes": 3654
+    },
+    {
+      "path": "benchmarks/arms/caveman.js",
+      "type": "javascript",
+      "lines": 8,
+      "executable": true,
+      "size_bytes": 315
+    },
+    {
+      "path": "benchmarks/arms/ponytail.js",
+      "type": "javascript",
+      "lines": 8,
+      "executable": true,
+      "size_bytes": 373
+    },
+    {
+      "path": "benchmarks/behavior.js",
+      "type": "javascript",
+      "lines": 58,
+      "executable": true,
+      "size_bytes": 2912
+    },
+    {
+      "path": "benchmarks/behavior.yaml",
+      "type": "yaml",
+      "lines": 40,
+      "executable": false,
+      "size_bytes": 1685
+    },
+    {
+      "path": "benchmarks/benchmark-local.py",
+      "type": "python",
+      "lines": 156,
+      "executable": true,
+      "size_bytes": 5784
+    },
+    {
+      "path": "benchmarks/claude-email.js",
+      "type": "javascript",
+      "lines": 40,
+      "executable": true,
+      "size_bytes": 1952
+    },
+    {
+      "path": "benchmarks/correctness.js",
+      "type": "javascript",
+      "lines": 281,
+      "executable": true,
+      "size_bytes": 10024
+    },
+    {
+      "path": "benchmarks/correctness.test.js",
+      "type": "javascript",
+      "lines": 26,
+      "executable": true,
+      "size_bytes": 1583
+    },
+    {
+      "path": "benchmarks/generate-examples.mjs",
+      "type": "other",
+      "lines": 63,
+      "executable": false,
+      "size_bytes": 2566
+    },
+    {
+      "path": "benchmarks/loc.js",
+      "type": "javascript",
+      "lines": 13,
+      "executable": true,
+      "size_bytes": 738
+    },
+    {
+      "path": "benchmarks/model-email.js",
+      "type": "javascript",
+      "lines": 39,
+      "executable": true,
+      "size_bytes": 1924
+    },
+    {
+      "path": "benchmarks/promptfooconfig.gemini.yaml",
+      "type": "yaml",
+      "lines": 32,
+      "executable": false,
+      "size_bytes": 1400
+    },
+    {
+      "path": "benchmarks/promptfooconfig.gpt-newest.yaml",
+      "type": "yaml",
+      "lines": 33,
+      "executable": false,
+      "size_bytes": 1399
+    },
+    {
+      "path": "benchmarks/promptfooconfig.gpt.yaml",
+      "type": "yaml",
+      "lines": 32,
+      "executable": false,
+      "size_bytes": 1390
+    },
+    {
+      "path": "benchmarks/promptfooconfig.yaml",
+      "type": "yaml",
+      "lines": 41,
+      "executable": false,
+      "size_bytes": 1815
+    },
+    {
+      "path": "benchmarks/prompts.json",
+      "type": "json",
+      "lines": 15,
+      "executable": false,
+      "size_bytes": 1029
+    },
+    {
+      "path": "benchmarks/results/2026-06-12-caveman-vs-ponytail.md",
+      "type": "markdown",
+      "lines": 71,
+      "executable": false,
+      "size_bytes": 3658
+    },
+    {
+      "path": "benchmarks/results/2026-06-12-v4-hardening-vs-caveman.md",
+      "type": "markdown",
+      "lines": 125,
+      "executable": false,
+      "size_bytes": 6758
+    },
+    {
+      "path": "benchmarks/results/2026-06-15-llama3.2-local.md",
+      "type": "markdown",
+      "lines": 76,
+      "executable": false,
+      "size_bytes": 3167
+    },
+    {
+      "path": "benchmarks/results/2026-06-16-correctness-gate-fix.md",
+      "type": "markdown",
+      "lines": 107,
+      "executable": false,
+      "size_bytes": 5284
+    },
+    {
+      "path": "benchmarks/results/2026-06-16-robustness-audit.md",
+      "type": "markdown",
+      "lines": 129,
+      "executable": false,
+      "size_bytes": 6509
+    },
+    {
+      "path": "benchmarks/results/2026-06-17-agentic-safety.md",
+      "type": "markdown",
+      "lines": 164,
+      "executable": false,
+      "size_bytes": 8109
+    },
+    {
+      "path": "benchmarks/results/2026-06-17-cost-verification.md",
+      "type": "markdown",
+      "lines": 93,
+      "executable": false,
+      "size_bytes": 4849
+    },
+    {
+      "path": "benchmarks/results/2026-06-18-agentic.md",
+      "type": "markdown",
+      "lines": 219,
+      "executable": false,
+      "size_bytes": 12226
+    },
+    {
+      "path": "benchmarks/robustness-audit.js",
+      "type": "javascript",
+      "lines": 205,
+      "executable": true,
+      "size_bytes": 14150
+    },
+    {
+      "path": "commands/ponytail-audit.toml",
+      "type": "toml",
+      "lines": 2,
+      "executable": false,
+      "size_bytes": 592
+    },
+    {
+      "path": "commands/ponytail-debt.toml",
+      "type": "toml",
+      "lines": 2,
+      "executable": false,
+      "size_bytes": 695
+    },
+    {
+      "path": "commands/ponytail-gain.toml",
+      "type": "toml",
+      "lines": 2,
+      "executable": false,
+      "size_bytes": 902
+    },
+    {
+      "path": "commands/ponytail-help.toml",
+      "type": "toml",
+      "lines": 2,
+      "executable": false,
+      "size_bytes": 1152
+    },
+    {
+      "path": "commands/ponytail-review.toml",
+      "type": "toml",
+      "lines": 2,
+      "executable": false,
+      "size_bytes": 515
+    },
+    {
+      "path": "commands/ponytail.toml",
+      "type": "toml",
+      "lines": 2,
+      "executable": false,
+      "size_bytes": 466
+    },
+    {
+      "path": "docs/agent-portability.md",
+      "type": "markdown",
+      "lines": 41,
+      "executable": false,
+      "size_bytes": 3695
+    },
+    {
+      "path": "docs/platform-native.md",
+      "type": "markdown",
+      "lines": 173,
+      "executable": false,
+      "size_bytes": 7799
+    },
+    {
+      "path": "examples/README.md",
+      "type": "markdown",
+      "lines": 17,
+      "executable": false,
+      "size_bytes": 771
+    },
+    {
+      "path": "examples/csv-sum.md",
+      "type": "markdown",
+      "lines": 71,
+      "executable": false,
+      "size_bytes": 1742
+    },
+    {
+      "path": "examples/debounce.md",
+      "type": "markdown",
+      "lines": 211,
+      "executable": false,
+      "size_bytes": 5109
+    },
+    {
+      "path": "examples/deep-clone.md",
+      "type": "markdown",
+      "lines": 31,
+      "executable": false,
+      "size_bytes": 783
+    },
+    {
+      "path": "examples/email-validation.md",
+      "type": "markdown",
+      "lines": 156,
+      "executable": false,
+      "size_bytes": 4621
+    },
+    {
+      "path": "examples/group-by.md",
+      "type": "markdown",
+      "lines": 35,
+      "executable": false,
+      "size_bytes": 937
+    },
+    {
+      "path": "examples/infinite-scroll.md",
+      "type": "markdown",
+      "lines": 58,
+      "executable": false,
+      "size_bytes": 1498
+    },
+    {
+      "path": "examples/modal-dialog.md",
+      "type": "markdown",
+      "lines": 62,
+      "executable": false,
+      "size_bytes": 1962
+    },
+    {
+      "path": "examples/number-formatting.md",
+      "type": "markdown",
+      "lines": 37,
+      "executable": false,
+      "size_bytes": 1049
+    },
+    {
+      "path": "examples/rate-limit.md",
+      "type": "markdown",
+      "lines": 272,
+      "executable": false,
+      "size_bytes": 7055
+    },
+    {
+      "path": "examples/react-countdown.md",
+      "type": "markdown",
+      "lines": 390,
+      "executable": false,
+      "size_bytes": 8998
+    },
+    {
+      "path": "examples/url-params.md",
+      "type": "markdown",
+      "lines": 41,
+      "executable": false,
+      "size_bytes": 1057
+    },
+    {
+      "path": "gemini-extension.json",
+      "type": "json",
+      "lines": 6,
+      "executable": false,
+      "size_bytes": 233
+    },
+    {
+      "path": "hooks/claude-codex-hooks.json",
+      "type": "json",
+      "lines": 31,
+      "executable": false,
+      "size_bytes": 1066
+    },
+    {
+      "path": "hooks/copilot-hooks.json",
+      "type": "json",
+      "lines": 21,
+      "executable": false,
+      "size_bytes": 539
+    },
+    {
+      "path": "hooks/ponytail-activate.js",
+      "type": "javascript",
+      "lines": 91,
+      "executable": true,
+      "size_bytes": 3563
+    },
+    {
+      "path": "hooks/ponytail-config.js",
+      "type": "javascript",
+      "lines": 122,
+      "executable": true,
+      "size_bytes": 3952
+    },
+    {
+      "path": "hooks/ponytail-instructions.js",
+      "type": "javascript",
+      "lines": 92,
+      "executable": true,
+      "size_bytes": 4530
+    },
+    {
+      "path": "hooks/ponytail-mode-tracker.js",
+      "type": "javascript",
+      "lines": 55,
+      "executable": true,
+      "size_bytes": 1820
+    },
+    {
+      "path": "hooks/ponytail-runtime.js",
+      "type": "javascript",
+      "lines": 51,
+      "executable": true,
+      "size_bytes": 1381
+    },
+    {
+      "path": "hooks/ponytail-statusline.ps1",
+      "type": "other",
+      "lines": 21,
+      "executable": false,
+      "size_bytes": 664
+    },
+    {
+      "path": "hooks/ponytail-statusline.sh",
+      "type": "shell",
+      "lines": 12,
+      "executable": true,
+      "size_bytes": 448
+    },
+    {
+      "path": "opencode.json",
+      "type": "json",
+      "lines": 4,
+      "executable": false,
+      "size_bytes": 101
+    },
+    {
+      "path": "package.json",
+      "type": "json",
+      "lines": 14,
+      "executable": false,
+      "size_bytes": 409
+    },
+    {
+      "path": "pi-extension/index.js",
+      "type": "javascript",
+      "lines": 157,
+      "executable": true,
+      "size_bytes": 5154
+    },
+    {
+      "path": "pi-extension/package.json",
+      "type": "json",
+      "lines": 8,
+      "executable": false,
+      "size_bytes": 144
+    },
+    {
+      "path": "pi-extension/test/extension.test.js",
+      "type": "javascript",
+      "lines": 137,
+      "executable": true,
+      "size_bytes": 4696
+    },
+    {
+      "path": "pi-extension/test/helpers.test.js",
+      "type": "javascript",
+      "lines": 85,
+      "executable": true,
+      "size_bytes": 3748
+    },
+    {
+      "path": "ponytail-mcp/README.md",
+      "type": "markdown",
+      "lines": 46,
+      "executable": false,
+      "size_bytes": 1507
+    },
+    {
+      "path": "ponytail-mcp/index.js",
+      "type": "javascript",
+      "lines": 48,
+      "executable": true,
+      "size_bytes": 1788
+    },
+    {
+      "path": "ponytail-mcp/instructions.js",
+      "type": "javascript",
+      "lines": 26,
+      "executable": true,
+      "size_bytes": 1181
+    },
+    {
+      "path": "ponytail-mcp/package.json",
+      "type": "json",
+      "lines": 13,
+      "executable": false,
+      "size_bytes": 364
+    },
+    {
+      "path": "ponytail-mcp/test/instructions.test.js",
+      "type": "javascript",
+      "lines": 22,
+      "executable": true,
+      "size_bytes": 909
+    },
+    {
+      "path": "scripts/build-openclaw-skills.js",
+      "type": "javascript",
+      "lines": 60,
+      "executable": true,
+      "size_bytes": 2844
+    },
+    {
+      "path": "scripts/check-rule-copies.js",
+      "type": "javascript",
+      "lines": 74,
+      "executable": true,
+      "size_bytes": 2836
+    },
+    {
+      "path": "skills/ponytail-audit/SKILL.md",
+      "type": "markdown",
+      "lines": 41,
+      "executable": false,
+      "size_bytes": 1652
+    },
+    {
+      "path": "skills/ponytail-debt/SKILL.md",
+      "type": "markdown",
+      "lines": 44,
+      "executable": false,
+      "size_bytes": 1703
+    },
+    {
+      "path": "skills/ponytail-gain/SKILL.md",
+      "type": "markdown",
+      "lines": 50,
+      "executable": false,
+      "size_bytes": 1973
+    },
+    {
+      "path": "skills/ponytail-help/SKILL.md",
+      "type": "markdown",
+      "lines": 69,
+      "executable": false,
+      "size_bytes": 2590
+    },
+    {
+      "path": "skills/ponytail-review/SKILL.md",
+      "type": "markdown",
+      "lines": 57,
+      "executable": false,
+      "size_bytes": 2383
+    },
+    {
+      "path": "skills/ponytail/SKILL.md",
+      "type": "markdown",
+      "lines": 101,
+      "executable": false,
+      "size_bytes": 5199
+    },
+    {
+      "path": "tests/behavior.test.js",
+      "type": "javascript",
+      "lines": 80,
+      "executable": true,
+      "size_bytes": 3196
+    },
+    {
+      "path": "tests/commands.test.js",
+      "type": "javascript",
+      "lines": 39,
+      "executable": true,
+      "size_bytes": 1489
+    },
+    {
+      "path": "tests/copilot-plugin.test.js",
+      "type": "javascript",
+      "lines": 33,
+      "executable": true,
+      "size_bytes": 1001
+    },
+    {
+      "path": "tests/correctness.test.js",
+      "type": "javascript",
+      "lines": 191,
+      "executable": true,
+      "size_bytes": 5423
+    },
+    {
+      "path": "tests/gemini-extension.test.js",
+      "type": "javascript",
+      "lines": 91,
+      "executable": true,
+      "size_bytes": 3748
+    },
+    {
+      "path": "tests/hooks-windows.test.js",
+      "type": "javascript",
+      "lines": 59,
+      "executable": true,
+      "size_bytes": 2531
+    },
+    {
+      "path": "tests/hooks.test.js",
+      "type": "javascript",
+      "lines": 171,
+      "executable": true,
+      "size_bytes": 5698
+    },
+    {
+      "path": "tests/openclaw-skills.test.js",
+      "type": "javascript",
+      "lines": 26,
+      "executable": true,
+      "size_bytes": 1219
+    },
+    {
+      "path": "tests/opencode-plugin.test.js",
+      "type": "javascript",
+      "lines": 64,
+      "executable": true,
+      "size_bytes": 2736
+    }
+  ],
+  "issues": [
+    {
+      "id": "AST4",
+      "category": "Dangerous Code Execution",
+      "pattern": "subprocess module call",
+      "severity": "MEDIUM",
+      "confidence": 0.7,
+      "location": {
+        "file": "benchmarks/agentic/run.py",
+        "start_line": 114,
+        "end_line": 115
+      },
+      "finding": "    return subprocess.run([shutil.which(\"git\") or \"git\", *args], cwd=str(workdir),\n                          capture_output=True, text=True)",
+      "explanation": "subprocess module calls execute external commands. Without careful input validation, this enables command injection.",
+      "remediation": "Use subprocess.run() with shell=False and an explicit argument list. Validate all inputs and avoid passing user-controlled data to commands.",
+      "code_snippet": "            \"test_files\": len(tst), \"test_loc\": sum(_count(p, True) for p in tst)}\n\ndef _git(workdir, *args):\n    return subprocess.run([shutil.which(\"git\") or \"git\", *args], cwd=str(workdir),\n                          capture_output=True, text=True)\n\ndef _git_snapshot(workdir):",
+      "intent": null
+    },
+    {
+      "id": "AST4",
+      "category": "Dangerous Code Execution",
+      "pattern": "subprocess module call",
+      "severity": "MEDIUM",
+      "confidence": 0.7,
+      "location": {
+        "file": "benchmarks/agentic/run.py",
+        "start_line": 265,
+        "end_line": 265
+      },
+      "finding": "            proc = subprocess.Popen(cmd, cwd=str(workdir), stdout=so, stderr=se)",
+      "explanation": "subprocess module calls execute external commands. Without careful input validation, this enables command injection.",
+      "remediation": "Use subprocess.run() with shell=False and an explicit argument list. Validate all inputs and avoid passing user-controlled data to commands.",
+      "code_snippet": "    # (taskkill /T on proc.pid) -- never a blanket kill, which would also take down this Claude Code session.\n    try:\n        with open(out_path, \"wb\") as so, open(err_path, \"wb\") as se:\n            proc = subprocess.Popen(cmd, cwd=str(workdir), stdout=so, stderr=se)\n            try:\n                proc.wait(timeout=CELL_TIMEOUT)\n            except subprocess.TimeoutExpired:",
+      "intent": null
+    },
+    {
+      "id": "AST4",
+      "category": "Dangerous Code Execution",
+      "pattern": "subprocess module call",
+      "severity": "MEDIUM",
+      "confidence": 0.7,
+      "location": {
+        "file": "benchmarks/agentic/run.py",
+        "start_line": 269,
+        "end_line": 270
+      },
+      "finding": "                subprocess.run([\"taskkill\", \"/F\", \"/T\", \"/PID\", str(proc.pid)],\n                               stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)",
+      "explanation": "subprocess module calls execute external commands. Without careful input validation, this enables command injection.",
+      "remediation": "Use subprocess.run() with shell=False and an explicit argument list. Validate all inputs and avoid passing user-controlled data to commands.",
+      "code_snippet": "            try:\n                proc.wait(timeout=CELL_TIMEOUT)\n            except subprocess.TimeoutExpired:\n                subprocess.run([\"taskkill\", \"/F\", \"/T\", \"/PID\", str(proc.pid)],\n                               stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)\n                try: proc.wait(timeout=15)\n                except Exception: pass",
+      "intent": null
+    },
+    {
+      "id": "AST4",
+      "category": "Dangerous Code Execution",
+      "pattern": "subprocess module call",
+      "severity": "MEDIUM",
+      "confidence": 0.7,
+      "location": {
+        "file": "benchmarks/agentic/run.py",
+        "start_line": 336,
+        "end_line": 336
+      },
+      "finding": "    try: return subprocess.run([shutil.which(\"claude\"), \"--version\"], capture_output=True, text=True).stdout.strip()",
+      "explanation": "subprocess module calls execute external commands. Without careful input validation, this enables command injection.",
+      "remediation": "Use subprocess.run() with shell=False and an explicit argument list. Validate all inputs and avoid passing user-controlled data to commands.",
+      "code_snippet": "    print(f\"\\nrescored {len(results)} cells from {run_dir}\")\n\ndef _claude_version():\n    try: return subprocess.run([shutil.which(\"claude\"), \"--version\"], capture_output=True, text=True).stdout.strip()\n    except Exception: return \"unknown\"\n\ndef main():",
+      "intent": null
+    },
+    {
+      "id": "AST7",
+      "category": "Dangerous Code Execution",
+      "pattern": "Dynamic attribute access via getattr()",
+      "severity": "LOW",
+      "confidence": 0.5,
+      "location": {
+        "file": "benchmarks/agentic/tasks.py",
+        "start_line": 47,
+        "end_line": 47
+      },
+      "finding": "        f = getattr(mod, nm, None)",
+      "explanation": "Dynamic getattr() with a non-literal attribute name can access arbitrary object attributes, potentially bypassing access controls.",
+      "remediation": "Replace dynamic getattr() with explicit attribute access or a dictionary lookup with an allowlist of permitted attributes.",
+      "code_snippet": "\ndef _find(mod, names):\n    for nm in names:\n        f = getattr(mod, nm, None)\n        if callable(f): return f\n    return None\n",
+      "intent": null
+    },
+    {
+      "id": "E1",
+      "category": "Data Exfiltration",
+      "pattern": "External Transmission",
+      "severity": "MEDIUM",
+      "confidence": 0.6,
+      "location": {
+        "file": "benchmarks/agentic/judge.py",
+        "start_line": 70,
+        "end_line": null
+      },
+      "finding": "https://api.anthropic.com/",
+      "explanation": "Data is being sent to an external URL. This could be legitimate telemetry or data exfiltration. Manual review is recommended.",
+      "remediation": "Verify the destination URL is trusted and necessary. Remove or replace with documented APIs. Ensure no secrets, tokens, or PII are transmitted.",
+      "code_snippet": "                       \"system\": system, \"messages\": [{\"role\": \"user\", \"content\": user}]}).encode()\n    for attempt in range(retries):\n        try:\n            req = urllib.request.Request(\"https://api.anthropic.com/v1/messages\", data=body,\n                headers={\"x-api-key\": key, \"anthropic-version\": \"2023-06-01\", \"content-type\": \"application/json\"})\n            with urllib.request.urlopen(req, timeout=60) as r:\n                j = json.loads(r.read())",
+      "intent": null
+    },
+    {
+      "id": "E2",
+      "category": "Data Exfiltration",
+      "pattern": "Env Variable Harvesting",
+      "severity": "HIGH",
+      "confidence": 0.7,
+      "location": {
+        "file": "benchmarks/agentic/judge.py",
+        "start_line": 48,
+        "end_line": null
+      },
+      "finding": "os.environ.get(\"ANTHROPIC_API_KEY",
+      "explanation": "Code accesses environment variables that may contain secrets (API keys, tokens). This is a common pattern for credential theft.",
+      "remediation": "Avoid reading sensitive env vars (API keys, tokens) unless strictly required. Use secrets managers or secure config. Never log or transmit credentials.",
+      "code_snippet": "                return line.split(\"=\", 1)[1].strip()\n    except Exception:\n        pass\n    return os.environ.get(\"ANTHROPIC_API_KEY\")\n\ndef _is_test(name):\n    n = name.lower()",
+      "intent": null
+    },
+    {
+      "id": "E1",
+      "category": "Data Exfiltration",
+      "pattern": "External Transmission",
+      "severity": "MEDIUM",
+      "confidence": 0.7,
+      "location": {
+        "file": "benchmarks/claude-email.js",
+        "start_line": 17,
+        "end_line": null
+      },
+      "finding": "fetch('https://api.anthropic.com/v1/messages', { method: 'POST'",
+      "explanation": "Data is being sent to an external URL. This could be legitimate telemetry or data exfiltration. Manual review is recommended.",
+      "remediation": "Verify the destination URL is trusted and necessary. Remove or replace with documented APIs. Ensure no secrets, tokens, or PII are transmitted.",
+      "code_snippet": "async function call(model, system, user) {\n  const body = { model, max_tokens: 1024, messages: [{ role: 'user', content: user }] };\n  if (system) body.system = system;\n  const r = await fetch('https://api.anthropic.com/v1/messages', { method: 'POST',\n    headers: { 'x-api-key': KEY, 'anthropic-version': '2023-06-01', 'content-type': 'application/json' }, body: JSON.stringify(body) });\n  if (!r.ok) return { err: r.status };\n  const j = await r.json();",
+      "intent": null
+    },
+    {
+      "id": "E1",
+      "category": "Data Exfiltration",
+      "pattern": "External Transmission",
+      "severity": "MEDIUM",
+      "confidence": 0.6,
+      "location": {
+        "file": "benchmarks/claude-email.js",
+        "start_line": 17,
+        "end_line": null
+      },
+      "finding": "https://api.anthropic.com/",
+      "explanation": "Data is being sent to an external URL. This could be legitimate telemetry or data exfiltration. Manual review is recommended.",
+      "remediation": "Verify the destination URL is trusted and necessary. Remove or replace with documented APIs. Ensure no secrets, tokens, or PII are transmitted.",
+      "code_snippet": "async function call(model, system, user) {\n  const body = { model, max_tokens: 1024, messages: [{ role: 'user', content: user }] };\n  if (system) body.system = system;\n  const r = await fetch('https://api.anthropic.com/v1/messages', { method: 'POST',\n    headers: { 'x-api-key': KEY, 'anthropic-version': '2023-06-01', 'content-type': 'application/json' }, body: JSON.stringify(body) });\n  if (!r.ok) return { err: r.status };\n  const j = await r.json();",
+      "intent": null
+    },
+    {
+      "id": "E1",
+      "category": "Data Exfiltration",
+      "pattern": "External Transmission",
+      "severity": "MEDIUM",
+      "confidence": 0.7,
+      "location": {
+        "file": "benchmarks/model-email.js",
+        "start_line": 17,
+        "end_line": null
+      },
+      "finding": "fetch('https://api.openai.com/v1/chat/completions', { method: 'POST'",
+      "explanation": "Data is being sent to an external URL. This could be legitimate telemetry or data exfiltration. Manual review is recommended.",
+      "remediation": "Verify the destination URL is trusted and necessary. Remove or replace with documented APIs. Ensure no secrets, tokens, or PII are transmitted.",
+      "code_snippet": "async function call(model, system, user) {\n  const body = { model, max_completion_tokens: 4096,\n    messages: system ? [{ role: 'system', content: system }, { role: 'user', content: user }] : [{ role: 'user', content: user }] };\n  const r = await fetch('https://api.openai.com/v1/chat/completions', { method: 'POST',\n    headers: { Authorization: 'Bearer ' + KEY, 'Content-Type': 'application/json' }, body: JSON.stringify(body) });\n  if (!r.ok) return { err: r.status };\n  return { text: (await r.json()).choices?.[0]?.message?.content || '' };",
+      "intent": null
+    },
+    {
+      "id": "E1",
+      "category": "Data Exfiltration",
+      "pattern": "External Transmission",
+      "severity": "MEDIUM",
+      "confidence": 0.6,
+      "location": {
+        "file": "benchmarks/model-email.js",
+        "start_line": 17,
+        "end_line": null
+      },
+      "finding": "https://api.openai.com/",
+      "explanation": "Data is being sent to an external URL. This could be legitimate telemetry or data exfiltration. Manual review is recommended.",
+      "remediation": "Verify the destination URL is trusted and necessary. Remove or replace with documented APIs. Ensure no secrets, tokens, or PII are transmitted.",
+      "code_snippet": "async function call(model, system, user) {\n  const body = { model, max_completion_tokens: 4096,\n    messages: system ? [{ role: 'system', content: system }, { role: 'user', content: user }] : [{ role: 'user', content: user }] };\n  const r = await fetch('https://api.openai.com/v1/chat/completions', { method: 'POST',\n    headers: { Authorization: 'Bearer ' + KEY, 'Content-Type': 'application/json' }, body: JSON.stringify(body) });\n  if (!r.ok) return { err: r.status };\n  return { text: (await r.json()).choices?.[0]?.message?.content || '' };",
+      "intent": null
+    },
+    {
+      "id": "E1",
+      "category": "Data Exfiltration",
+      "pattern": "External Transmission",
+      "severity": "MEDIUM",
+      "confidence": 0.7,
+      "location": {
+        "file": "benchmarks/robustness-audit.js",
+        "start_line": 158,
+        "end_line": null
+      },
+      "finding": "fetch('https://api.openai.com/v1/chat/completions', {\n    method: 'POST'",
+      "explanation": "Data is being sent to an external URL. This could be legitimate telemetry or data exfiltration. Manual review is recommended.",
+      "remediation": "Verify the destination URL is trusted and necessary. Remove or replace with documented APIs. Ensure no secrets, tokens, or PII are transmitted.",
+      "code_snippet": "async function call(system, user) {\n  const body = { model: MODEL, max_completion_tokens: 4096,\n    messages: system ? [{ role: 'system', content: system }, { role: 'user', content: user }] : [{ role: 'user', content: user }] };\n  const r = await fetch('https://api.openai.com/v1/chat/completions', {\n    method: 'POST', headers: { Authorization: 'Bearer ' + KEY, 'Content-Type': 'application/json' }, body: JSON.stringify(body) });\n  if (!r.ok) return { err: r.status };\n  const j = await r.json();",
+      "intent": null
+    },
+    {
+      "id": "E1",
+      "category": "Data Exfiltration",
+      "pattern": "External Transmission",
+      "severity": "MEDIUM",
+      "confidence": 0.6,
+      "location": {
+        "file": "benchmarks/robustness-audit.js",
+        "start_line": 158,
+        "end_line": null
+      },
+      "finding": "https://api.openai.com/",
+      "explanation": "Data is being sent to an external URL. This could be legitimate telemetry or data exfiltration. Manual review is recommended.",
+      "remediation": "Verify the destination URL is trusted and necessary. Remove or replace with documented APIs. Ensure no secrets, tokens, or PII are transmitted.",
+      "code_snippet": "async function call(system, user) {\n  const body = { model: MODEL, max_completion_tokens: 4096,\n    messages: system ? [{ role: 'system', content: system }, { role: 'user', content: user }] : [{ role: 'user', content: user }] };\n  const r = await fetch('https://api.openai.com/v1/chat/completions', {\n    method: 'POST', headers: { Authorization: 'Bearer ' + KEY, 'Content-Type': 'application/json' }, body: JSON.stringify(body) });\n  if (!r.ok) return { err: r.status };\n  const j = await r.json();",
+      "intent": null
+    },
+    {
+      "id": "EA3",
+      "category": "Excessive Agency",
+      "pattern": "Scope Creep",
+      "severity": "LOW",
+      "confidence": 0.7,
+      "location": {
+        "file": "LICENSE",
+        "start_line": 16,
+        "end_line": null
+      },
+      "finding": "NOT LIMITED TO",
+      "explanation": "Skill's behavior or capabilities extend beyond its stated purpose. Scope creep allows an agent to perform actions unrelated to its documented functionality, increasing the attack surface.",
+      "remediation": "Limit the skill's scope to its documented purpose. Remove instructions that enable the agent to perform actions outside its stated functionality.",
+      "code_snippet": "copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,",
+      "intent": null
+    },
+    {
+      "id": "EA2",
+      "category": "Excessive Agency",
+      "pattern": "Autonomous Decision Making",
+      "severity": "MEDIUM",
+      "confidence": 0.75,
+      "location": {
+        "file": "benchmarks/agentic/tasks.py",
+        "start_line": 210,
+        "end_line": null
+      },
+      "finding": "without checking",
+      "explanation": "Skill enables autonomous high-impact decisions without human-in-the-loop verification. Critical operations (destructive commands, financial transactions, data deletion) should require explicit user confirmation.",
+      "remediation": "Add human-in-the-loop confirmation for destructive, irreversible, or high-impact operations. Never auto-execute commands that modify files, send data, or alter system state.",
+      "code_snippet": ")\n\n# ======================================================================================\n# 4. auth-token -- HMAC verification. Returning the id without checking the signature\n#    accepts forged/tampered tokens.\n# ======================================================================================\ndef score_auth(workdir):",
+      "intent": null
+    },
+    {
+      "id": "MP1",
+      "category": "Memory Poisoning",
+      "pattern": "Persistent Context Injection",
+      "severity": "MEDIUM",
+      "confidence": 0.8,
+      "location": {
+        "file": "pi-extension/test/extension.test.js",
+        "start_line": 115,
+        "end_line": null
+      },
+      "finding": "persistent instruction",
+      "explanation": "Skill injects content designed to persist in agent memory or context across interactions. Persistent injection can alter agent behavior long after the initial interaction.",
+      "remediation": "Do not allow untrusted input to persist in agent memory or context. Validate all content before storing and implement memory isolation between sessions.",
+      "code_snippet": "  ]);\n});\n\ntest(\"normal mode disables persistent instructions\", async () => withTempConfig(async () => {\n  const { commands, events } = createPiHarness();\n  const ctx = createCommandContext();\n",
+      "intent": null
+    },
+    {
+      "id": "OH3",
+      "category": "Output Handling",
+      "pattern": "Unbounded Output",
+      "severity": "MEDIUM",
+      "confidence": 0.6,
+      "location": {
+        "file": "benchmarks/results/2026-06-18-agentic.md",
+        "start_line": 1,
+        "end_line": null
+      },
+      "finding": "without cutting",
+      "explanation": "Output size or generation rate is not bounded. Unbounded output enables denial-of-service through resource exhaustion, log flooding, or context-window stuffing.",
+      "remediation": "Set explicit limits on output length, generation count, and rate. Use max_tokens and truncation to prevent unbounded output.",
+      "code_snippet": "# Agentic benchmark: does ponytail cut code without cutting safety?\n\n*2026-06-18. Haiku 4.5. Real Claude Code sessions on a real open-source repo.*\n",
+      "intent": null
+    },
+    {
+      "id": "PE3",
+      "category": "Privilege Escalation",
+      "pattern": "Credential Access",
+      "severity": "HIGH",
+      "confidence": 0.6,
+      "location": {
+        "file": "benchmarks/agentic/README.md",
+        "start_line": 52,
+        "end_line": null
+      },
+      "finding": "/etc/passwd",
+      "explanation": "Code accesses credential files (SSH keys, AWS credentials, etc.). This could indicate credential theft attempts.",
+      "remediation": "Remove references to credential paths. Use environment variables or secrets managers. For docs, use placeholder paths (e.g., /path/to/config). Never load .env or token files in production code paths.",
+      "code_snippet": "\n| task | the job | safety axis (deterministic) | over-engineering room |\n|---|---|---|---|\n| `safe-path` | implement `safe_upload_path` | `../../etc/passwd` must not escape base dir | path-handling helper vs framework |\n| `rate-limit` | implement `RateLimiter.allow` | one client exhausting its quota must not block others (global counter = DoS) | dict+timestamps vs middleware |\n| `sql-user` | implement `get_user` | `' OR '1'='1` must not leak rows (parameterize) | little |\n| `auth-token` | implement `verify_token` | a tampered token must be rejected (verify HMAC) | little |",
+      "intent": null
+    },
+    {
+      "id": "PE3",
+      "category": "Privilege Escalation",
+      "pattern": "Credential Access",
+      "severity": "HIGH",
+      "confidence": 0.6,
+      "location": {
+        "file": "benchmarks/agentic/complete.py",
+        "start_line": 20,
+        "end_line": null
+      },
+      "finding": ".env ",
+      "explanation": "Code accesses credential files (SSH keys, AWS credentials, etc.). This could indicate credential theft attempts.",
+      "remediation": "Remove references to credential paths. Use environment variables or secrets managers. For docs, use placeholder paths (e.g., /path/to/config). Never load .env or token files in production code paths.",
+      "code_snippet": "  python complete.py --selftest-offline  # validate the GATE LOGIC only, no API, no key\n  python complete.py --run runs/<stamp>  # completeness-judge every workspace in a matrix run\n\nJudge: claude-sonnet-4-6, key from ../../.env (shared with judge.py). ~$0.003/cell.\n\nponytail: reuses judge.py's HTTP/key/source plumbing instead of duplicating it -- one rubric\nparam is the only delta between the two passes.",
+      "intent": null
+    },
+    {
+      "id": "PE3",
+      "category": "Privilege Escalation",
+      "pattern": "Credential Access",
+      "severity": "HIGH",
+      "confidence": 0.6,
+      "location": {
+        "file": "benchmarks/agentic/complete.py",
+        "start_line": 146,
+        "end_line": null
+      },
+      "finding": ".env ",
+      "explanation": "Code accesses credential files (SSH keys, AWS credentials, etc.). This could indicate credential theft attempts.",
+      "remediation": "Remove references to credential paths. Use environment variables or secrets managers. For docs, use placeholder paths (e.g., /path/to/config). Never load .env or token files in production code paths.",
+      "code_snippet": "    if args.selftest_offline:\n        sys.exit(selftest_offline())\n    key = load_key()\n    if not key: sys.exit(\"no ANTHROPIC_API_KEY (.env or env)\")\n    if args.selftest: sys.exit(selftest(key))\n    if args.run:\n        if selftest(key): sys.exit(\"judge not trustworthy; refusing to judge the matrix\")",
+      "intent": null
+    },
+    {
+      "id": "PE3",
+      "category": "Privilege Escalation",
+      "pattern": "Credential Access",
+      "severity": "HIGH",
+      "confidence": 0.6,
+      "location": {
+        "file": "benchmarks/agentic/judge.py",
+        "start_line": 43,
+        "end_line": null
+      },
+      "finding": ".env\"",
+      "explanation": "Code accesses credential files (SSH keys, AWS credentials, etc.). This could indicate credential theft attempts.",
+      "remediation": "Remove references to credential paths. Use environment variables or secrets managers. For docs, use placeholder paths (e.g., /path/to/config). Never load .env or token files in production code paths.",
+      "code_snippet": "\ndef load_key():\n    try:\n        for line in (ROOT / \".env\").read_text(encoding=\"utf-8\").splitlines():\n            if line.startswith(\"ANTHROPIC_API_KEY=\") and len(line) > 18:\n                return line.split(\"=\", 1)[1].strip()\n    except Exception:",
+      "intent": null
+    },
+    {
+      "id": "PE3",
+      "category": "Privilege Escalation",
+      "pattern": "Credential Access",
+      "severity": "HIGH",
+      "confidence": 0.6,
+      "location": {
+        "file": "benchmarks/agentic/judge.py",
+        "start_line": 177,
+        "end_line": null
+      },
+      "finding": ".env ",
+      "explanation": "Code accesses credential files (SSH keys, AWS credentials, etc.). This could indicate credential theft attempts.",
+      "remediation": "Remove references to credential paths. Use environment variables or secrets managers. For docs, use placeholder paths (e.g., /path/to/config). Never load .env or token files in production code paths.",
+      "code_snippet": "    ap.add_argument(\"--run\", help=\"run dir to judge\")\n    args = ap.parse_args()\n    key = load_key()\n    if not key: sys.exit(\"no ANTHROPIC_API_KEY (.env or env)\")\n    if args.selftest: sys.exit(selftest(key))\n    if args.run:\n        if selftest(key): sys.exit(\"judge not trustworthy; refusing to judge the matrix\")",
+      "intent": null
+    },
+    {
+      "id": "PE3",
+      "category": "Privilege Escalation",
+      "pattern": "Credential Access",
+      "severity": "HIGH",
+      "confidence": 0.6,
+      "location": {
+        "file": "benchmarks/agentic/tasks.py",
+        "start_line": 66,
+        "end_line": null
+      },
+      "finding": "/etc/passwd",
+      "explanation": "Code accesses credential files (SSH keys, AWS credentials, etc.). This could indicate credential theft attempts.",
+      "remediation": "Remove references to credential paths. Use environment variables or secrets managers. For docs, use placeholder paths (e.g., /path/to/config). Never load .env or token files in production code paths.",
+      "code_snippet": "def _ok(correct, safe, reason=\"ok\"): return {\"correct\": int(bool(correct)), \"safe\": int(bool(safe)), \"reason\": reason}\n\n# ======================================================================================\n# 1. safe-path -- path traversal. base/../../etc/passwd must not escape base.\n# ======================================================================================\ndef score_safe_path(workdir):\n    mod = _import(workdir / \"uploads.py\")",
+      "intent": null
+    },
+    {
+      "id": "PE3",
+      "category": "Privilege Escalation",
+      "pattern": "Credential Access",
+      "severity": "HIGH",
+      "confidence": 0.6,
+      "location": {
+        "file": "benchmarks/claude-email.js",
+        "start_line": 9,
+        "end_line": null
+      },
+      "finding": ".env'",
+      "explanation": "Code accesses credential files (SSH keys, AWS credentials, etc.). This could indicate credential theft attempts.",
+      "remediation": "Remove references to credential paths. Use environment variables or secrets managers. For docs, use placeholder paths (e.g., /path/to/config). Never load .env or token files in production code paths.",
+      "code_snippet": "const N = Number(process.env.CE_N) || 40;\nconst MODELS = (process.env.CE_MODELS || 'claude-haiku-4-5-20251001,claude-sonnet-4-6,claude-opus-4-8').split(',');\n\nconst kv = Object.fromEntries(fs.readFileSync(path.join(__dirname, '..', '.env'), 'utf8')\n  .split(/\\r?\\n/).filter(l => l.includes('=') && !l.trim().startsWith('#'))\n  .map(l => { const i = l.indexOf('='); return [l.slice(0, i).trim(), l.slice(i + 1).trim()]; }));\nconst KEY = kv.ANTHROPIC_API_KEY;",
+      "intent": null
+    },
+    {
+      "id": "PE3",
+      "category": "Privilege Escalation",
+      "pattern": "Credential Access",
+      "severity": "HIGH",
+      "confidence": 0.6,
+      "location": {
+        "file": "benchmarks/model-email.js",
+        "start_line": 9,
+        "end_line": null
+      },
+      "finding": ".env'",
+      "explanation": "Code accesses credential files (SSH keys, AWS credentials, etc.). This could indicate credential theft attempts.",
+      "remediation": "Remove references to credential paths. Use environment variables or secrets managers. For docs, use placeholder paths (e.g., /path/to/config). Never load .env or token files in production code paths.",
+      "code_snippet": "const N = Number(process.env.ME_N) || 100;\nconst MODELS = (process.env.ME_MODELS || 'gpt-4.1-mini,gpt-5.4-mini').split(',');\n\nconst kv = Object.fromEntries(fs.readFileSync(path.join(__dirname, '..', '.env'), 'utf8')\n  .split(/\\r?\\n/).filter(l => l.includes('=') && !l.trim().startsWith('#'))\n  .map(l => { const i = l.indexOf('='); return [l.slice(0, i).trim(), l.slice(i + 1).trim()]; }));\nconst KEY = kv.OPENAI_API_KEY;",
+      "intent": null
+    },
+    {
+      "id": "PE3",
+      "category": "Privilege Escalation",
+      "pattern": "Credential Access",
+      "severity": "HIGH",
+      "confidence": 0.6,
+      "location": {
+        "file": "benchmarks/promptfooconfig.gemini.yaml",
+        "start_line": 2,
+        "end_line": null
+      },
+      "finding": ".env ",
+      "explanation": "Code accesses credential files (SSH keys, AWS credentials, etc.). This could indicate credential theft attempts.",
+      "remediation": "Remove references to credential paths. Use environment variables or secrets managers. For docs, use placeholder paths (e.g., /path/to/config). Never load .env or token files in production code paths.",
+      "code_snippet": "# Ponytail vs baseline, latest Gemini: gemini-3.5-flash (mini) + gemini-3.1-pro-preview (top).\n#   npx promptfoo@latest eval -c benchmarks/promptfooconfig.gemini.yaml --env-file .env --repeat 30\n# Needs GOOGLE_API_KEY in .env (AI Studio).\ndescription: \"Ponytail vs baseline, latest Gemini (3.5-flash, 3.1-pro). LOC + correctness, cost telemetry.\"\n",
+      "intent": null
+    },
+    {
+      "id": "PE3",
+      "category": "Privilege Escalation",
+      "pattern": "Credential Access",
+      "severity": "HIGH",
+      "confidence": 0.6,
+      "location": {
+        "file": "benchmarks/promptfooconfig.gemini.yaml",
+        "start_line": 3,
+        "end_line": null
+      },
+      "finding": ".env ",
+      "explanation": "Code accesses credential files (SSH keys, AWS credentials, etc.). This could indicate credential theft attempts.",
+      "remediation": "Remove references to credential paths. Use environment variables or secrets managers. For docs, use placeholder paths (e.g., /path/to/config). Never load .env or token files in production code paths.",
+      "code_snippet": "# Ponytail vs baseline, latest Gemini: gemini-3.5-flash (mini) + gemini-3.1-pro-preview (top).\n#   npx promptfoo@latest eval -c benchmarks/promptfooconfig.gemini.yaml --env-file .env --repeat 30\n# Needs GOOGLE_API_KEY in .env (AI Studio).\ndescription: \"Ponytail vs baseline, latest Gemini (3.5-flash, 3.1-pro). LOC + correctness, cost telemetry.\"\n\nproviders:",
+      "intent": null
+    },
+    {
+      "id": "PE3",
+      "category": "Privilege Escalation",
+      "pattern": "Credential Access",
+      "severity": "HIGH",
+      "confidence": 0.6,
+      "location": {
+        "file": "benchmarks/promptfooconfig.gpt-newest.yaml",
+        "start_line": 2,
+        "end_line": null
+      },
+      "finding": ".env ",
+      "explanation": "Code accesses credential files (SSH keys, AWS credentials, etc.). This could indicate credential theft attempts.",
+      "remediation": "Remove references to credential paths. Use environment variables or secrets managers. For docs, use placeholder paths (e.g., /path/to/config). Never load .env or token files in production code paths.",
+      "code_snippet": "# Ponytail vs baseline, newest OpenAI: gpt-5.5 (top) + gpt-4.1-mini, gpt-5.4-mini.\n#   npx promptfoo@latest eval -c benchmarks/promptfooconfig.gpt-newest.yaml --env-file .env --repeat 30\ndescription: \"Ponytail vs baseline, newest OpenAI (gpt-5.5 + minis). LOC + correctness, cost telemetry.\"\n\nproviders:",
+      "intent": null
+    },
+    {
+      "id": "PE3",
+      "category": "Privilege Escalation",
+      "pattern": "Credential Access",
+      "severity": "HIGH",
+      "confidence": 0.6,
+      "location": {
+        "file": "benchmarks/promptfooconfig.yaml",
+        "start_line": 7,
+        "end_line": null
+      },
+      "finding": ".env ",
+      "explanation": "Code accesses credential files (SSH keys, AWS credentials, etc.). This could indicate credential theft attempts.",
+      "remediation": "Remove references to credential paths. Use environment variables or secrets managers. For docs, use placeholder paths (e.g., /path/to/config). Never load .env or token files in production code paths.",
+      "code_snippet": "#   View:  npx promptfoo@latest view\n#   Share: npx promptfoo@latest share   (publishes a hosted report URL)\n#\n# Needs ANTHROPIC_API_KEY in the environment or a .env file (see benchmarks/README.md).\n# Caveman arm uses JuliusBrussee/caveman SKILL.md (MIT), vendored at arms/caveman-SKILL.md.\ndescription: \"Ponytail vs caveman vs no-skill: same model, same tasks. Measures code LOC (deterministic) and tokens/cost (API telemetry).\"\n",
+      "intent": null
+    },
+    {
+      "id": "PE3",
+      "category": "Privilege Escalation",
+      "pattern": "Credential Access",
+      "severity": "HIGH",
+      "confidence": 0.6,
+      "location": {
+        "file": "benchmarks/robustness-audit.js",
+        "start_line": 27,
+        "end_line": null
+      },
+      "finding": ".env'",
+      "explanation": "Code accesses credential files (SSH keys, AWS credentials, etc.). This could indicate credential theft attempts.",
+      "remediation": "Remove references to credential paths. Use environment variables or secrets managers. For docs, use placeholder paths (e.g., /path/to/config). Never load .env or token files in production code paths.",
+      "code_snippet": "const ROOT = path.join(__dirname, '..');\nlet kv = {};\ntry {\n  kv = Object.fromEntries(fs.readFileSync(path.join(ROOT, '.env'), 'utf8')\n    .split(/\\r?\\n/).filter(l => l.includes('=') && !l.trim().startsWith('#'))\n    .map(l => { const i = l.indexOf('='); return [l.slice(0, i).trim(), l.slice(i + 1).trim()]; }));\n} catch (_) { /* no .env \u2014 fine for --selftest */ }",
+      "intent": null
+    },
+    {
+      "id": "PE3",
+      "category": "Privilege Escalation",
+      "pattern": "Credential Access",
+      "severity": "HIGH",
+      "confidence": 0.6,
+      "location": {
+        "file": "benchmarks/robustness-audit.js",
+        "start_line": 30,
+        "end_line": null
+      },
+      "finding": ".env ",
+      "explanation": "Code accesses credential files (SSH keys, AWS credentials, etc.). This could indicate credential theft attempts.",
+      "remediation": "Remove references to credential paths. Use environment variables or secrets managers. For docs, use placeholder paths (e.g., /path/to/config). Never load .env or token files in production code paths.",
+      "code_snippet": "  kv = Object.fromEntries(fs.readFileSync(path.join(ROOT, '.env'), 'utf8')\n    .split(/\\r?\\n/).filter(l => l.includes('=') && !l.trim().startsWith('#'))\n    .map(l => { const i = l.indexOf('='); return [l.slice(0, i).trim(), l.slice(i + 1).trim()]; }));\n} catch (_) { /* no .env \u2014 fine for --selftest */ }\nconst KEY = process.env.OPENAI_API_KEY || kv.OPENAI_API_KEY;\nconst SKILL = fs.readFileSync(path.join(ROOT, 'skills', 'ponytail', 'SKILL.md'), 'utf8');\n",
+      "intent": null
+    },
+    {
+      "id": "PE3",
+      "category": "Privilege Escalation",
+      "pattern": "Credential Access",
+      "severity": "HIGH",
+      "confidence": 0.6,
+      "location": {
+        "file": "tests/hooks.test.js",
+        "start_line": 23,
+        "end_line": null
+      },
+      "finding": ".env ",
+      "explanation": "Code accesses credential files (SSH keys, AWS credentials, etc.). This could indicate credential theft attempts.",
+      "remediation": "Remove references to credential paths. Use environment variables or secrets managers. For docs, use placeholder paths (e.g., /path/to/config). Never load .env or token files in production code paths.",
+      "code_snippet": "\nfunction run(script, env, input = '') {\n  return spawnSync(process.execPath, [path.join(root, 'hooks', script)], {\n    env: { ...process.env, ...env },\n    input,\n    encoding: 'utf8',\n  });",
+      "intent": null
+    },
+    {
+      "id": "P2",
+      "category": "Prompt Injection",
+      "pattern": "Hidden Instructions",
+      "severity": "HIGH",
+      "confidence": 0.6,
+      "location": {
+        "file": "assets/logo-dark.png",
+        "start_line": 4,
+        "end_line": null
+      },
+      "finding": "\ufeff",
+      "explanation": "Hidden instructions were detected in comments or invisible text. These could contain malicious directives. Manual review is recommended.",
+      "remediation": "Audit all comments and invisible characters. Remove any instructions that direct the agent to perform unauthorized actions. Use plain, reviewable content.",
+      "code_snippet": "\ufffdPNG\n\u001a\n\u0000\u0000\u0000\nIHDR\u0000\u0000\u0004=\u0000\u0000\u0004\ufffd\b\u0006\u0000\u0000\u0000\ufffd!o\ufffd\u0000\u0000\u0005TiTXtXML:com.adobe.xmp\u0000\u0000\u0000\u0000\u0000<?xpacket begin=\"\ufeff\" id=\"W5M0MpCehiHzreSzNTczkc9d\"?>\n<x:xmpmeta xmlns:x=\"adobe:ns:meta/\" x:xmptk=\"XMP Core 5.5.0\">\n <rdf:RDF xmlns:rdf=\"http://www.w3.org/1999/02/22-rdf-syntax-ns#\">\n  <rdf:Description rdf:about=\"\"",
+      "intent": null
+    },
+    {
+      "id": "RA2",
+      "category": "Rogue Agent",
+      "pattern": "Session Persistence",
+      "severity": "MEDIUM",
+      "confidence": 0.6,
+      "location": {
+        "file": "README.es.md",
+        "start_line": 108,
+        "end_line": null
+      },
+      "finding": "Create plugin and add marketplace, Add from repository, y luego ingresa la URL del repo (gracias @NiklasDHahn, #98).\n\n### Codex\n\n```bash\ncodex plugin marketplace add DietrichGebert/ponytail\ncodex\n```\n",
+      "explanation": "Skill establishes unauthorized persistence across sessions via cron jobs, startup scripts, or state files. Session persistence allows an attacker to maintain access beyond the current interaction.",
+      "remediation": "Remove any persistence mechanisms (cron jobs, startup scripts, state files). Skills should not maintain state across sessions without explicit user consent.",
+      "code_snippet": "/plugin install ponytail@ponytail\n```\n\nLa app de escritorio no tiene el comando `/plugin`. Inst\u00e1lala desde la interfaz: Customize, el + junto a los plugins personales, Create plugin and add marketplace, Add from repository, y luego ingresa la URL del repo (gracias @NiklasDHahn, #98).\n\n### Codex\n",
+      "intent": null
+    },
+    {
+      "id": "RA2",
+      "category": "Rogue Agent",
+      "pattern": "Session Persistence",
+      "severity": "MEDIUM",
+      "confidence": 0.6,
+      "location": {
+        "file": "README.md",
+        "start_line": 78,
+        "end_line": null
+      },
+      "finding": "write only what the task needs, and never cut validation, error handling, security, or accessibility. The code ends up small because it is necessary, not golfed. Lower cost and latency are a side effe",
+      "explanation": "Skill establishes unauthorized persistence across sessions via cron jobs, startup scripts, or state files. Session persistence allows an attacker to maintain access beyond the current interaction.",
+      "remediation": "Remove any persistence mechanisms (cron jobs, startup scripts, state files). Skills should not maintain state across sessions without explicit user consent.",
+      "code_snippet": "\n</details>\n\n**The rule was never \"fewest tokens.\"** It is: write only what the task needs, and never cut validation, error handling, security, or accessibility. The code ends up small because it is necessary, not golfed. Lower cost and latency are a side effect on the models that follow the ladder; a terse reasoning model that spends thinking tokens deliberating the rungs can go the other way (on GPT-5.5 it does).\n\n## How it works\n",
+      "intent": null
+    },
+    {
+      "id": "RA2",
+      "category": "Rogue Agent",
+      "pattern": "Session Persistence",
+      "severity": "MEDIUM",
+      "confidence": 0.6,
+      "location": {
+        "file": "hooks/ponytail-activate.js",
+        "start_line": 34,
+        "end_line": null
+      },
+      "finding": "Write flag file\ntry {\n  setMode(mode);\n} catch (e) {\n  // Silent fail -- flag is best-effort, don't block the hook\n}\n\n// 2. Emit the ponytail ruleset, filtered to the active intensity level.\nlet outpu",
+      "explanation": "Skill establishes unauthorized persistence across sessions via cron jobs, startup scripts, or state files. Session persistence allows an attacker to maintain access beyond the current interaction.",
+      "remediation": "Remove any persistence mechanisms (cron jobs, startup scripts, state files). Skills should not maintain state across sessions without explicit user consent.",
+      "code_snippet": "  process.exit(0);\n}\n\n// 1. Write flag file\ntry {\n  setMode(mode);\n} catch (e) {",
+      "intent": null
+    },
+    {
+      "id": "SC1",
+      "category": "Supply Chain",
+      "pattern": "Unpinned Dependencies",
+      "severity": "LOW",
+      "confidence": 0.4,
+      "location": {
+        "file": "ponytail-mcp/package.json",
+        "start_line": 10,
+        "end_line": null
+      },
+      "finding": "\"@modelcontextprotocol/sdk\": \"^1.26.0\"",
+      "explanation": "Dependencies lack version pinning, allowing potential malicious package updates. Consider pinning versions.",
+      "remediation": "Pin all dependency versions in requirements.txt or pyproject.toml. Use exact versions (==) or compatible ranges. Run pip-audit regularly.",
+      "code_snippet": "  \"license\": \"MIT\",\n  \"scripts\": { \"test\": \"node --test ./test/*.test.js\" },\n  \"dependencies\": {\n    \"@modelcontextprotocol/sdk\": \"^1.26.0\",\n    \"zod\": \"^3.23.0\"\n  }\n}",
+      "intent": null
+    },
+    {
+      "id": "SC1",
+      "category": "Supply Chain",
+      "pattern": "Unpinned Dependencies",
+      "severity": "LOW",
+      "confidence": 0.4,
+      "location": {
+        "file": "ponytail-mcp/package.json",
+        "start_line": 11,
+        "end_line": null
+      },
+      "finding": "\"zod\": \"^3.23.0\"",
+      "explanation": "Dependencies lack version pinning, allowing potential malicious package updates. Consider pinning versions.",
+      "remediation": "Pin all dependency versions in requirements.txt or pyproject.toml. Use exact versions (==) or compatible ranges. Run pip-audit regularly.",
+      "code_snippet": "  \"scripts\": { \"test\": \"node --test ./test/*.test.js\" },\n  \"dependencies\": {\n    \"@modelcontextprotocol/sdk\": \"^1.26.0\",\n    \"zod\": \"^3.23.0\"\n  }\n}",
+      "intent": null
+    },
+    {
+      "id": "TM1",
+      "category": "Tool Misuse",
+      "pattern": "Tool Parameter Abuse",
+      "severity": "HIGH",
+      "confidence": 0.85,
+      "location": {
+        "file": "assets/logo.png",
+        "start_line": 83,
+        "end_line": null
+      },
+      "finding": "Rm&\u0005\u0000\u0000\u0000L\ufffdk\ufffd\u3ae3\ufffd/",
+      "explanation": "Tool parameters are crafted to achieve unintended or unsafe behavior. Parameter abuse can bypass intended safety checks (e.g. shell=True, --force, dangerous glob patterns).",
+      "remediation": "Validate all tool parameters against an allowlist. Reject dangerous parameter values (shell=True, --force, -rf /) and use safe defaults.",
+      "code_snippet": "\ufffd\u0018]\ufffd\ufffdL\u03ee~,\u02ec\ufffdd\ufffd\ufffd;\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u0000\ufffd\ufffd\n_\ufffd^\ufffd\ufffd\u0011\u0016\ufffd\u0001\u0000\ufffd\ufffdM\ufffd\ufffd1\ufffd5\ufffd\ufffd\ufffd\b\ufffd\ufffdN\ufffd?T\u03d9\ufffd\ufffdt}\ufffd\ufffd\ufffd\ufffd\ufffd{\u0000\u0000\u0000\u0000\u0000\u0000\ufffdI`\ufffd\u0014\u0000\u0000\u0000\u0000\u0000\u0000\ufffd\ufffd\ufffdQ\ufffd\u06eb\u0003\ufffd\ufffdp`r\ufffd\ufffda\ufffd\ufffdk\ufffd\u0019\ufffdY\ufffdu\ufffd\u0328\ufffd\u001a\u0006\ufffd\ufffdT-\ufffd\ufffd\ufffd\ufffd\ufffdn\ufffd\u0006\ufffdu\ufffdI\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u0001\u0000L\ufffd\ufffd\n\u0003\ufffd\ufffd\ufffdz\ufffd\ufffd\ufffd\n'\ufffd\ufffd\ufffdZ!\u0011\u0729E\u055b\ufffdwU\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd0Zz\ufffd\ufffd\u0005\u0000\u0000\u0000\u0000\u0000\u0000\ufffd\u0014\ufffd\ufffd\u0005\u0000\u0000\u0000\u0000\u0000\u0000\ufffd\ufffd\u06eb:\ufffdZ\ufffd\u07c3\u0003\ufffd\ufffd\u0586\u0011\ufffd3\ufffd\ufffdG\ufffd\u0017\ufffd\ufffd\u000e\u0000\ufffd\u01fd\ufffd\ufffdTo\ufffdv\ufffd\u0003\u0000\ufffd'n\ufffd.\ufffd\ufffd\ufffd0dza\ufffdo\ufffdw\ufffd+\u406a\nX\ufffdm\ufffd\ufffd1\\\ufffd\u03ebwV\ufffd\ufffd\ufffd\u0006\u0001\u0000\u0000\u0000\u0000\u0000\ufffd\t\ufffd\t[\u0000\u0000\u0000\u0000\u0000\u0000\u0000L\ufffdm\ufffd?\ufffd^Wm,\u00070\ufffd\\W\ufffdU\ufffd\ufffd0dzf\u0006D\u0000`.\ufffdP\ufffd\ufffd\ufffd\ufffdj[9\u0000\ufffd\u0005dy\u00c8\ufffd\nC\ufffd\u0017\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u072b\ufffd\ufffd\ufffdj\ufffd9\ufffd\ufffdU\ufffda\ufffd\u06ea\ufffd\ufffd\u000f\u0000\u0000\u0000\u0000\u0000\u0000L\"\u00e5\u0000\u0000\u0000\u0000\u0000\u0000\u0000L\ufffd_\ufffd>\ufffd\ufffd<i\u0018`\u0012\\\ufffd\ufffdL\ufffdQ\ufffd$\n\u0000\u0308\u0007To\ufffd^Y-\ufffd\u0003\u0000\ufffdv.\ufffd.\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd5\ufffd0\ufffdm\ufffd0&\ufffd\ufffd\u0566\ufffdt",
+      "intent": null
+    },
+    {
+      "id": "TM1",
+      "category": "Tool Misuse",
+      "pattern": "Tool Parameter Abuse",
+      "severity": "HIGH",
+      "confidence": 0.85,
+      "location": {
+        "file": "assets/logo.png",
+        "start_line": 186,
+        "end_line": null
+      },
+      "finding": "rmE\u0000\u0000X\ufffdN\ufffd\u001e\ufffdl\ufffd\u0014\u0000\u0000\u0000\u0000\ufffd\ufffd\f\ufffd\u0002\u0000\u0000\u0000\u0000\u0000\ufffd\ufffd\ufffd\ufffdW'T\u001b\ufffd\u0000\u0000\u0000\u0598/",
+      "explanation": "Tool parameters are crafted to achieve unintended or unsafe behavior. Parameter abuse can bypass intended safety checks (e.g. shell=True, --force, dangerous glob patterns).",
+      "remediation": "Validate all tool parameters against an allowlist. Reject dangerous parameter values (shell=True, --force, -rf /) and use safe defaults.",
+      "code_snippet": "\ufffd\ufffdP\ufffdX]-\t\u0000\u0000\u0000\u0000\u0000\u0000\ufffd\ufffd\u0019.\u0005\u0000\u0000\u0000\u0000\u0000\u0000\ufffd\u0671C\ufffd\u007fu@\ufffd_\ufffd-%\u0001`=]R}\ufffd\ufffdXu\ufffd\n\ufffd,\u06a6:\ufffdzu\nc\n\u032d\ufffd\u001b\ufffdK\ufffd\ufffd\ufffd\ufffd\ufffd~\n#c\u000f\ufffd\u0014\u0000\ufffd\u0001\ufffdVg7\n\ufffd.\ufffdN\ufffdn\ufffd\u0005\u0000\u0000\u0000\u0000\u0000\u0000Xh<\ufffd\u0014\u0000\u0000\u0000\u0000\u0000\u0000\u0000f\ufffd\ufffd\u057e\ufffd~\ufffd3\ufffd\ufffdT\u001b\ufffd\u0002\ufffd:\ufffd\ufffd\ufffdp\ufffd7\ufffder\u00003\ufffd\ufffd\ufffd_U;K\u0001\ufffd\u024d\ufffd;\ufffd\ufffdW+\ufffd\ufffd\ufffdZ}\ufffd\ufffdEJ\u0000`\ufffd\ufffd\ufffd:\ufffda\ufffd\ufffd\ufffd\ufffd\ufffdj\ufffd,\u0000\u0000\u0000\u0000\u0000\u0000\ufffd|g\ufffd\u0014\u0000\u0000\u0000\u0000\u0000\u0000\u0000\ufffd\ufffd\ufffd\ufffd\ufffd[=d\ufffd I\u0000X\u000777\ufffdr\ufffd\ufffd\ufffd\ufffd\n\ufffd\u0006\u06a3:\ufffd:@",
+      "intent": null
+    },
+    {
+      "id": "TM1",
+      "category": "Tool Misuse",
+      "pattern": "Tool Parameter Abuse",
+      "severity": "HIGH",
+      "confidence": 0.85,
+      "location": {
+        "file": "assets/logo.png",
+        "start_line": 904,
+        "end_line": null
+      },
+      "finding": "rm:/",
+      "explanation": "Tool parameters are crafted to achieve unintended or unsafe behavior. Parameter abuse can bypass intended safety checks (e.g. shell=True, --force, dangerous glob patterns).",
+      "remediation": "Validate all tool parameters against an allowlist. Reject dangerous parameter values (shell=True, --force, -rf /) and use safe defaults.",
+      "code_snippet": ")\u0000\ufffd\ufffdT\ufffdBuZu%9\u0000\u0000\u0000`\ufffd\ufffdq\u0007\u0000\u0000\u0000\u0000`\ufffd\u063bzP\ufffd\ufffd\ufffd\u00109\u0000\u0000\u00006\ufffd\ufffd\ufffd\u000e\nc|N\n\u0000\u0000\u0000\u0000\u0000\ufffd=\ufffd4=\ufffd\ufffd\ufffd\ufffd>j\ufffd\ufffde\ufffdOVo_\ufffd{9\ufffd:\ufffd\ufffd\u03f1\u0002\ufffd\n9\ufffd\ufffdW\ufffdY)\u0000\u0000\u0000`>\u0018.\u0005\u0000\u0000\u0000\u0000\ufffd\n\ufffd\\=\ufffdzJum9\u0000\u0000\u0000\ufffd\ufffd\ufffd\ufffd\u0018\ufffd\ufffd\u0001\u0000\u0000\u0000\u0000\u0000Vf\ufffd\ufffd[U\u007fV]G\ufffd\u0015\ufffd\ufffd\ufffd\ufffdG\ufffd\ufffd^\ufffdT\ufffdY]\u0271\u0002\ufffd\n\ufffdLuB\ufffd\u0011S\u0000\u0000\u0000`\ufffd\u0019.\u0005\u0000\u0000\u0000\u0000X^{U?Q\u077f\ufffdguUI\u0000\u0000\u0000\ufffd&\ufffd\u001bc\ufffdO\u0006\u0000\u0000\u0000\u0000\u0000\ufffd3\ufffd4\ufffdP\ufffd\ufffd\ufffd\u06e8\ufffdb\ufffd\\\u076e\ufffdp\t\ufffd\ufffd\ufffd\ufffd\u001b\ufffd}\n+\u0000\uc44b\ufffdGW\ufffd\ufffd\u0002\u0000\u0000\u00006\ufffd\ufffdR\u0000\u0000\u0000\u0000\ufffd\ufffds\ufffd\ufffd\ufffd\ufffdf\ufffd",
+      "intent": null
+    },
+    {
+      "id": "TM1",
+      "category": "Tool Misuse",
+      "pattern": "Tool Parameter Abuse",
+      "severity": "HIGH",
+      "confidence": 0.85,
+      "location": {
+        "file": "assets/social-preview.png",
+        "start_line": 387,
+        "end_line": null
+      },
+      "finding": "RM\ufffd\ufffd~\ufffd\ufffd+/ ",
+      "explanation": "Tool parameters are crafted to achieve unintended or unsafe behavior. Parameter abuse can bypass intended safety checks (e.g. shell=True, --force, dangerous glob patterns).",
+      "remediation": "Validate all tool parameters against an allowlist. Reject dangerous parameter values (shell=True, --force, -rf /) and use safe defaults.",
+      "code_snippet": "r\ufffd\ufffd\ufffd\ufffd\ufffdY\ufffdH\ufffd\ufffd\u0012\ufffdo7\ufffd\ufffd\u0000\u0010\u0000\ufffd\ufffd\ufffd\ufffd\ufffd\u0548\ufffd\ufffd\ufffd\ufffd\ufffdK\ufffd\ufffd\ufffd\ufffd\ufffdN>YN>\ufffdd\ufffd'\ufffd\ufffdNr\ufffd\ufffd\nt\ufffdA\ufffd\ufffd\ufffd\u00078\u0001\ufffd\ufffd\u001bo\"\ufffd\ufffd\u0015\ufffd>L\ufffd\ufffd\ufffdr\ufffdQG\u0265\ufffd\ufffd\u007fr\ufffd\ufffd\ufffdN\ufffd\ufffd\ufffd\u0007\u001f\ufffd\ufffd\u001f~D\n{\ufffd1y\u9957\ufffd\u0377\u0792\u000f?\ufffdH\ufffd\ufffd\ufffdk\ufffd\u99dfe\ufffd\ufffd%N8\ufffdn\ufffdd\u0006\ufffd\u0668\ufffdo\ufffd\ufffd:\u0007\ufffd\ufffd\ufffd>Z\ufffd\u035bo\ufffd$2\ufffd!\ufffd\ufffd\ufffd\u0017_zI\ufffd\ufffd\ufffd7\ufffd@\ufffd\ufffd\ufffd\ufffd\ufffda8r\u0528\u0403N*\u007f\ufffd\ufffd\u0017_\ufffd\ufffd\ufffd\ufffd\n\ufffd\ufffd\ufffd\ufffdu\ufffdEf\u0010\u0000\ufffd(_\u0002\ufffdT\u0016\ufffdH\ufffd\ufffd\ufffd+\ufffd\n\u0530\ufffd1\ufffd\ufffd+\ufffd\u0010A\ufffd\u0015<\ufffd\ufffd\u0003\u0395\ufffdw\u05a9\ufffd\ufffd\ufffd>S\u0011t\ufffdx:+f\ufffd\u0014A\ufffd/\u0019\u0002\ufffdU=B5\ufffd\ufffd\ufffdD\ufffd\ufffd\ufffd{\ufffd~\ufffdt{\ufffd\u0006Y\\)\ufffd0~\ufffd\ufffd~7\u0004\ufffd\u0000\u0010}\ufffd5\ufffd\ufffdgCb\u0015\u0015\ufffd\u04ae}{\ufffdl\ufffd\u0365\ufffd\ufffd\ufffdK\ufffd\ufffd\ufffde\ufffd\ufffd\u000f\u02f3\ufffd>+\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u00112\ufffdC\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffdvO<\ud953\udcc8\u01b1\ufffd\n\ufffd\ufffdl\ufffd\ubbbb\ufffd^no\u000f\u001f.c\u01cd\ufffd\ufffd\ufffd\ufffdF\ufffdM\ufffdQ\ufffd\u0319#\ufffd\ufffd/\ufffd\u0015\ufffd\u001b&\ub18e\ufffd\ufffd\ufffd\u0006\ufffdm\u06b6\ufffd>\ufffd\ufffd\ufffd+r.\n\ufffd\ufffd1\ufffd'y\ufffd\ufffd\ufffd\ufffd\u03d6\ufffd\ufffd\u07baa5b\ufffd\ufffd\ufffdg\u001f\ufffd;J7\u0325\ufffd~\ufffd\ufffd\ufffd@\u0001\ufffd\u03a5j\ufffd_\ufffd9\u0004\ufffd)\u0287\u00000\ufffd\ufffdO\ufffd\u0013\ufffdx\ufffd\u06bb\u038f\ufffdV\ufffdM\ufffd",
+      "intent": null
+    },
+    {
+      "id": "TM1",
+      "category": "Tool Misuse",
+      "pattern": "Tool Parameter Abuse",
+      "severity": "HIGH",
+      "confidence": 0.85,
+      "location": {
+        "file": "benchmarks/agentic/run.py",
+        "start_line": 122,
+        "end_line": null
+      },
+      "finding": "--no-verify",
+      "explanation": "Tool parameters are crafted to achieve unintended or unsafe behavior. Parameter abuse can bypass intended safety checks (e.g. shell=True, --force, dangerous glob patterns).",
+      "remediation": "Validate all tool parameters against an allowlist. Reject dangerous parameter values (shell=True, --force, -rf /) and use safe defaults.",
+      "code_snippet": "    _git(workdir, \"init\", \"-q\")\n    _git(workdir, \"add\", \"-A\")\n    _git(workdir, \"-c\", \"user.email=bench@local\", \"-c\", \"user.name=bench\",\n         \"commit\", \"-q\", \"-m\", \"base\", \"--no-verify\")\n\n_SKIP_DIFF = (\"-lock\", \".lock\", \".gen.ts\", \"lock.json\", \"routeTree.gen\")\ndef git_diff_stats(workdir):",
+      "intent": null
+    },
+    {
+      "id": "TM1",
+      "category": "Tool Misuse",
+      "pattern": "Tool Parameter Abuse",
+      "severity": "HIGH",
+      "confidence": 0.95,
+      "location": {
+        "file": "tests/hooks.test.js",
+        "start_line": 19,
+        "end_line": null
+      },
+      "finding": "rm -rf/",
+      "explanation": "Tool parameters are crafted to achieve unintended or unsafe behavior. Parameter abuse can bypass intended safety checks (e.g. shell=True, --force, dangerous glob patterns).",
+      "remediation": "Validate all tool parameters against an allowlist. Reject dangerous parameter values (shell=True, --force, -rf /) and use safe defaults.",
+      "code_snippet": "assert.equal(isShellSafe('/home/u/.claude/plugins/ponytail/hooks/ponytail-statusline.sh'), true);\nassert.equal(isShellSafe('/tmp/a\"&calc.exe&\"/x.sh'), false);\nassert.equal(isShellSafe('/tmp/$(calc)/x.sh'), false);\nassert.equal(isShellSafe('/tmp/a;rm -rf/x.sh'), false);\n\nfunction run(script, env, input = '') {\n  return spawnSync(process.execPath, [path.join(root, 'hooks', script)], {",
+      "intent": null
+    },
+    {
+      "id": "TM2",
+      "category": "Tool Misuse",
+      "pattern": "Chaining Abuse",
+      "severity": "HIGH",
+      "confidence": 0.75,
+      "location": {
+        "file": "tests/hooks.test.js",
+        "start_line": 19,
+        "end_line": null
+      },
+      "finding": ";rm -",
+      "explanation": "Tool calls are chained to bypass individual safety checks or escalate capabilities beyond what any single tool call would allow.",
+      "remediation": "Limit tool chaining depth and validate the output of each tool before passing it to the next. Require explicit user approval for multi-step chains.",
+      "code_snippet": "assert.equal(isShellSafe('/home/u/.claude/plugins/ponytail/hooks/ponytail-statusline.sh'), true);\nassert.equal(isShellSafe('/tmp/a\"&calc.exe&\"/x.sh'), false);\nassert.equal(isShellSafe('/tmp/$(calc)/x.sh'), false);\nassert.equal(isShellSafe('/tmp/a;rm -rf/x.sh'), false);\n\nfunction run(script, env, input = '') {\n  return spawnSync(process.execPath, [path.join(root, 'hooks', script)], {",
+      "intent": null
+    }
+  ],
+  "metadata": {
+    "has_executable_scripts": true,
+    "skillspector_version": "2.1.4",
+    "llm_requested": false,
+    "llm_available": false
+  }
+}

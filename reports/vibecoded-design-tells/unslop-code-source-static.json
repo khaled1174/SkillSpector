@@ -1,0 +1,115 @@
+{
+  "skill": {
+    "name": "unslop-code",
+    "source": "/private/tmp/vibecoded-design-tells/unslop-ai-code/skill",
+    "scanned_at": "2026-06-28T07:17:21.026840+00:00"
+  },
+  "risk_assessment": {
+    "score": 58,
+    "severity": "HIGH",
+    "recommendation": "DO_NOT_INSTALL"
+  },
+  "components": [
+    {
+      "path": "README.md",
+      "type": "markdown",
+      "lines": 73,
+      "executable": false,
+      "size_bytes": 3797
+    },
+    {
+      "path": "SKILL.md",
+      "type": "markdown",
+      "lines": 162,
+      "executable": false,
+      "size_bytes": 9851
+    },
+    {
+      "path": "references/fitting-the-codebase.md",
+      "type": "markdown",
+      "lines": 84,
+      "executable": false,
+      "size_bytes": 4875
+    },
+    {
+      "path": "references/tells.md",
+      "type": "markdown",
+      "lines": 381,
+      "executable": false,
+      "size_bytes": 18784
+    },
+    {
+      "path": "scripts/unslop_code_scan.py",
+      "type": "python",
+      "lines": 247,
+      "executable": true,
+      "size_bytes": 15987
+    },
+    {
+      "path": "unslop-code.skill",
+      "type": "other",
+      "lines": 544,
+      "executable": false,
+      "size_bytes": 21348
+    }
+  ],
+  "issues": [
+    {
+      "id": "LP3",
+      "category": "MCP Least Privilege",
+      "pattern": null,
+      "severity": "MEDIUM",
+      "confidence": 0.7,
+      "location": {
+        "file": "SKILL.md",
+        "start_line": 1,
+        "end_line": null
+      },
+      "finding": null,
+      "explanation": "Without declared permissions the skill's intent is opaque and cannot be validated.",
+      "remediation": "Add a 'permissions' field to SKILL.md listing the capabilities this skill requires.",
+      "code_snippet": null,
+      "intent": null
+    },
+    {
+      "id": "RA2",
+      "category": "Rogue Agent",
+      "pattern": "Session Persistence",
+      "severity": "MEDIUM",
+      "confidence": 0.6,
+      "location": {
+        "file": "README.md",
+        "start_line": 4,
+        "end_line": null
+      },
+      "finding": "write the code for you\nor impose a style. Every rule is weighted by the Reddit analysis in this folder (11,906 posts +\n11,306 comments across 55 AI, coding, and SaaS subreddits, classified by an LLM i",
+      "explanation": "Skill establishes unauthorized persistence across sessions via cron jobs, startup scripts, or state files. Session persistence allows an attacker to maintain access beyond the current interaction.",
+      "remediation": "Remove any persistence mechanisms (cron jobs, startup scripts, state files). Skills should not maintain state across sessions without explicit user consent.",
+      "code_snippet": "# unslop-code\n\nA Claude skill that strips the tells that make source code read as AI-generated and forces code\nthat fits the project instead of the model's default average. It does not write the code for you\nor impose a style. Every rule is weighted by the Reddit analysis in this folder (11,906 posts +\n11,306 comments across 55 AI, coding, and SaaS subreddits, classified by an LLM into 19 tells\nand adversarially verified quote by quote).",
+      "intent": null
+    },
+    {
+      "id": "TM1",
+      "category": "Tool Misuse",
+      "pattern": "Tool Parameter Abuse",
+      "severity": "HIGH",
+      "confidence": 0.85,
+      "location": {
+        "file": "unslop-code.skill",
+        "start_line": 24,
+        "end_line": null
+      },
+      "finding": "rM]\ufffd\ufffdQA\ufffd\ufffd\ufffdtR3\ufffd\u0012k\ufffd\u0690\ufffd\ufffdn\ufffd\ufffdti\u0014\ufffd\ufffd\u0361\u0006\u000bW\ufffd\u0001\ufffd\ufffd\ufffd\ufffd\ufffd\ufffdNL!\ufffd\ufffd\ufffd}\ufffd0\ufffd/\u007f1\uf728\ufffd\ufffd\ufffd\u0001\ufffdB`q\u0356\u0019g$\ufffdt\ufffd\ufffd\ufffd\ufffd.Zf/",
+      "explanation": "Tool parameters are crafted to achieve unintended or unsafe behavior. Parameter abuse can bypass intended safety checks (e.g. shell=True, --force, dangerous glob patterns).",
+      "remediation": "Validate all tool parameters against an allowlist. Reject dangerous parameter values (shell=True, --force, -rf /) and use safe defaults.",
+      "code_snippet": "Wd\ufffd\u01a8\ufffdoN\ufffd#\ufffdB\u001b\ufffd\ufffdg\ufffd\u0018&\ufffd\nN8\u06eea\u000fC\u03d7\u0017\ufffd\ufffd\ufffdK[TA\ufffd\ufffd\ufffd#\ufffdy!O\b\ufffdZ\u029a\ufffdIi\ufffd\ufffd\ufffdq\ufffd\ufffd\u000f\ufffd$\ufffd\u05fe\ufffd\ufffd#b]\ufffdI\ufffd\u0015I\ufffdS\ufffd\ufffd\ufffdCa\ufffdI\u007fe\ufffd\ufffd6\ufffd\ufffd\ufffd)\u0010~|F6\ufffd\ufffd\ufffdM\u0001\ufffd\u0001\ufffd:~\ufffd\u07d6\u000e\u0012F\ufffd;\ufffd\ufffdD\ufffd[8\ufffd\ufffdfT\ufffd\ufffdoO$z\ufffd\ufffd\ufffd\n\ufffd\ufffd\ufffd\ufffd\ufffdZb\ne\ufffd\ufffd\ufffd\ufffd\u0005\ufffd#\ufffd\ufffd+8\ufffd\ufffd\ufffd'h\ufffd\u0016\ufffd\ufffd}C\u0011\ufffd.\ufffd\n@\ufffd\ufffdFm\ufffd\u0005\ufffd\b\ufffd\u000e\ufffd\n\ufffd\ufffd\ufffd\ufffd\ufffd\ufffdh0\ufffda\n\ufffd\u0018\ufffd\ufffd\u0018Z\u0001\ufffdj\ufffdb\ufffd;\ufffd\ufffd<q\ufffdN\u0004\ufffd\ufffd\u0005\ufffd7\u0007\ufffdn,\ufffd\ufffd\ufffdC\ufffd\u001a\ufffd\ufffd'\ufffd,\ufffd{\ufffd",
+      "intent": null
+    }
+  ],
+  "metadata": {
+    "has_executable_scripts": true,
+    "skillspector_version": "2.1.4",
+    "llm_requested": false,
+    "llm_available": false
+  }
+}

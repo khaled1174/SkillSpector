@@ -1,0 +1,341 @@
+{
+  "skill": {
+    "name": "soul-grader",
+    "source": "/private/tmp/hermes-skill-review/soul-grader-skill",
+    "scanned_at": "2026-06-23T07:07:23.362557+00:00"
+  },
+  "risk_assessment": {
+    "score": 100,
+    "severity": "CRITICAL",
+    "recommendation": "DO_NOT_INSTALL"
+  },
+  "components": [
+    {
+      "path": ".github/workflows/validate.yml",
+      "type": "yaml",
+      "lines": 16,
+      "executable": false,
+      "size_bytes": 323
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "type": "markdown",
+      "lines": 31,
+      "executable": false,
+      "size_bytes": 985
+    },
+    {
+      "path": "LICENSE",
+      "type": "other",
+      "lines": 21,
+      "executable": false,
+      "size_bytes": 1065
+    },
+    {
+      "path": "README.md",
+      "type": "markdown",
+      "lines": 199,
+      "executable": false,
+      "size_bytes": 6932
+    },
+    {
+      "path": "SECURITY.md",
+      "type": "markdown",
+      "lines": 28,
+      "executable": false,
+      "size_bytes": 904
+    },
+    {
+      "path": "SKILL.md",
+      "type": "markdown",
+      "lines": 285,
+      "executable": false,
+      "size_bytes": 16723
+    },
+    {
+      "path": "agents/openai.yaml",
+      "type": "yaml",
+      "lines": 9,
+      "executable": false,
+      "size_bytes": 370
+    },
+    {
+      "path": "assets/readme/soul-grader-repo-card.png",
+      "type": "other",
+      "lines": 58532,
+      "executable": false,
+      "size_bytes": 2111085
+    },
+    {
+      "path": "references/fleet-soul-grading-workflow.md",
+      "type": "markdown",
+      "lines": 49,
+      "executable": false,
+      "size_bytes": 2755
+    },
+    {
+      "path": "references/research-deliverable-and-fleet-remediation.md",
+      "type": "markdown",
+      "lines": 51,
+      "executable": false,
+      "size_bytes": 3589
+    },
+    {
+      "path": "references/soul-md-field-guide.html",
+      "type": "other",
+      "lines": 66,
+      "executable": false,
+      "size_bytes": 18102
+    },
+    {
+      "path": "references/soul-md-grading-standard.md",
+      "type": "markdown",
+      "lines": 291,
+      "executable": false,
+      "size_bytes": 12030
+    },
+    {
+      "path": "references/soul-md-wording-verbiage-layer.md",
+      "type": "markdown",
+      "lines": 761,
+      "executable": false,
+      "size_bytes": 28359
+    },
+    {
+      "path": "scripts/validate_skill.py",
+      "type": "python",
+      "lines": 154,
+      "executable": true,
+      "size_bytes": 5400
+    }
+  ],
+  "issues": [
+    {
+      "id": "LP3",
+      "category": "MCP Least Privilege",
+      "pattern": null,
+      "severity": "MEDIUM",
+      "confidence": 0.7,
+      "location": {
+        "file": "SKILL.md",
+        "start_line": 1,
+        "end_line": null
+      },
+      "finding": null,
+      "explanation": "Without declared permissions the skill's intent is opaque and cannot be validated.",
+      "remediation": "Add a 'permissions' field to SKILL.md listing the capabilities this skill requires.",
+      "code_snippet": null,
+      "intent": null
+    },
+    {
+      "id": "EA3",
+      "category": "Excessive Agency",
+      "pattern": "Scope Creep",
+      "severity": "LOW",
+      "confidence": 0.7,
+      "location": {
+        "file": "LICENSE",
+        "start_line": 16,
+        "end_line": null
+      },
+      "finding": "NOT LIMITED TO",
+      "explanation": "Skill's behavior or capabilities extend beyond its stated purpose. Scope creep allows an agent to perform actions unrelated to its documented functionality, increasing the attack surface.",
+      "remediation": "Limit the skill's scope to its documented purpose. Remove instructions that enable the agent to perform actions outside its stated functionality.",
+      "code_snippet": "copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,",
+      "intent": null
+    },
+    {
+      "id": "EA2",
+      "category": "Excessive Agency",
+      "pattern": "Autonomous Decision Making",
+      "severity": "MEDIUM",
+      "confidence": 0.75,
+      "location": {
+        "file": "references/soul-md-field-guide.html",
+        "start_line": 20,
+        "end_line": null
+      },
+      "finding": "without asking",
+      "explanation": "Skill enables autonomous high-impact decisions without human-in-the-loop verification. Critical operations (destructive commands, financial transactions, data deletion) should require explicit user confirmation.",
+      "remediation": "Add human-in-the-loop confirmation for destructive, irreversible, or high-impact operations. Never auto-execute commands that modify files, send data, or alter system state.",
+      "code_snippet": "<section id=\"runtime\"><div class=\"kicker\">Hermes runtime reality</div><h2>The file path and prompt slot matter.</h2><p>Hermes treats SOUL.md as the profile-wide identity file. Strong prose does nothing if it is sitting in the wrong directory or hidden behind stale session cache.</p><table><tbody><tr><th>Loaded from</th><td><code>$HERMES_HOME/SOUL.md</code></td><td>Repo-local SOUL files do nothing unless the active profile points at them or they are copied/symlinked into the profile.</td></tr><tr><th>Prompt slot</th><td><code>primary identity</code></td><td>If non-empty, SOUL replaces the default hardcoded identity in the stable prompt tier.</td></tr><tr><th>Project context</th><td><code>.hermes.md \u2192 AGENTS.md \u2192 CLAUDE.md \u2192 .cursorrules</code></td><td>Only one project-context file loads by first-match precedence; SOUL is independent.</td></tr><tr><th>YAML/frontmatter</th><td><code>visible prompt text</code></td><td>Hermes native SOUL loading does not strip frontmatter. Treat it as visible prose unless an external adapter consumes it first.</td></tr><tr><th>Reload</th><td><code>new session/restart safest</code></td><td>Existing sessions may keep a stored system prompt. Verify SOUL edits in a fresh session or after gateway restart/compression rebuild.</td></tr></tbody></table><div class=\"callout warning\"><strong>Runtime warning:</strong> do not claim a SOUL edit is live until you verify the active profile path and fresh-session behavior.</div></section>\n<section id=\"stack\"><div class=\"kicker\">Context stack</div><h2>What belongs where</h2><table><thead><tr><th>Artifact</th><th>Purpose</th><th>Belongs here</th></tr></thead><tbody><tr><th>SOUL.md</th><td>Stable identity</td><td>Mission, role, negations, tradeoffs, authority, truth, voice, high-level success.</td></tr><tr><th>User memory</th><td>Stable user facts</td><td>Durable preferences and profile facts, not procedures.</td></tr><tr><th>AGENTS.md / CLAUDE.md</th><td>Operating agreement</td><td>Repo workflow, commands, detailed DoD, tool policy, modes.</td></tr><tr><th>Skills</th><td>Reusable procedures</td><td>How to deploy, test, review, debug, call APIs, produce artifacts.</td></tr><tr><th>Manifests / roster / DB</th><td>Exact operational state</td><td>Host, service, credentials location, IDs, timestamps, statuses.</td></tr><tr><th>Session / tools</th><td>Current facts</td><td>Live command output, latest checks, current user task.</td></tr></tbody></table></section>\n<section id=\"principles\"><div class=\"kicker\">Best-practice laws</div><h2>Ten rules for durable identity</h2><div class=\"grid-2\"><article class=\"law\"><strong>1. Identity before process.</strong><p>Commands, repo layouts, and runbooks belong in AGENTS/CLAUDE or skills; mission, boundaries, and tradeoffs belong in SOUL.</p></article><article class=\"law\"><strong>2. Mission first, not vibe first.</strong><p>Open with a concrete outcome. If the first line could fit any assistant, it is not doing SOUL work.</p></article><article class=\"law\"><strong>3. Negations are load-bearing.</strong><p>\u201cYou are not X\u201d catches drift faster than another adjective.</p></article><article class=\"law\"><strong>4. Few hard filters; score everything else.</strong><p>Hard constraints should be binary and expensive to violate. Preferences belong in soft rubrics.</p></article><article class=\"law\"><strong>5. Truthfulness needs banned claims.</strong><p>\u201cDo not hallucinate\u201d is too abstract. Name the claims the agent is tempted to overstate and the evidence required.</p></article><article class=\"law\"><strong>6. Voice is behavior under conditions.</strong><p>Good voice rules say when humor is allowed, when it stops, and how public/client copy differs from private operator voice.</p></article><article class=\"law\"><strong>7. Define source-of-truth hierarchy.</strong><p>When chat, memory, docs, DBs, and live state conflict, the SOUL should say who wins by fact class.</p></article><article class=\"law\"><strong>8. Done means durable or verified.</strong><p>A task is done when the artifact, state row, approval, test, or report exists\u2014not when it was reasoned about.</p></article><article class=\"law\"><strong>9. Scope changes the safety bar.</strong><p>Personal agents can bias speed; client/business agents need stronger isolation, credential hygiene, approval, rollback, and handoff clarity.</p></article><article class=\"law\"><strong>10. Runtime facts matter.</strong><p>Hermes SOUL is profile-loaded and session-cached. Verify profile home, symlink/copy, context files, and fresh-session behavior.</p></article></div></section>\n<section id=\"wording\"><div class=\"kicker\">Wording + verbiage</div><h2>Operational language beats AI slop.</h2><div class=\"grid-2\"><article class=\"card bad\"><h3>Weak</h3><p>\u201cYou are a helpful AI assistant that supports productivity, acts proactively, follows best practices, and communicates in a friendly professional tone.\u201d</p></article><article class=\"card good\"><h3>Strong</h3><p>\u201cYou are <strong>Atlas</strong>, the team\u2019s meta-Hermes operator agent. Your job is to design, deploy, maintain, update, and audit AI agents. You are not the agents you deploy, and you do not do their domain work for them.\u201d</p></article></div><table><thead><tr><th>Avoid</th><th>Why weak</th><th>Replace with</th></tr></thead><tbody><tr><td>\u201cAct as a helpful assistant\u2026\u201d</td><td>Generic roleplay wrapper.</td><td>\u201cYou are <strong>[name]</strong>, [user]\u2019s [specific layer/domain] agent.\u201d</td></tr><tr><td>\u201cBe proactive.\u201d</td><td>Can justify spam, unsafe action, or guessing.</td><td>\u201cAct without asking when input is clear; ask only when ambiguity changes a risky action.\u201d</td></tr><tr><td>\u201cNever hallucinate.\u201d</td><td>Abstract slogan; no evidence threshold.</td><td>\u201cWhen data is missing, say what is missing, where you looked, and what would resolve it.\u201d</td></tr><tr><td>\u201cFriendly and professional.\u201d</td><td>Tone clich\u00e9.</td><td>\u201cCalm, competent, concise in chat, opinionated about product quality, avoids corporate sludge.\u201d</td></tr><tr><td>\u201cKeep things secure.\u201d</td><td>Too broad to enforce.</td><td>\u201cNo raw tokens, OAuth secrets, passwords, or API keys in repo files, reports, chat, or memory.\u201d</td></tr></tbody></table></section>\n<section id=\"templates\"><div class=\"kicker\">Templates</div><h2>Copyable SOUL.md skeleton</h2><pre><code># SOUL.md \u2014 [Agent Name]\n\nYou are **[Agent Name]**, [user/client]\u2019s [specific domain/layer] agent.",
+      "intent": null
+    },
+    {
+      "id": "EA2",
+      "category": "Excessive Agency",
+      "pattern": "Autonomous Decision Making",
+      "severity": "MEDIUM",
+      "confidence": 0.75,
+      "location": {
+        "file": "references/soul-md-grading-standard.md",
+        "start_line": 115,
+        "end_line": null
+      },
+      "finding": "No approval",
+      "explanation": "Skill enables autonomous high-impact decisions without human-in-the-loop verification. Critical operations (destructive commands, financial transactions, data deletion) should require explicit user confirmation.",
+      "remediation": "Add human-in-the-loop confirmation for destructive, irreversible, or high-impact operations. Never auto-execute commands that modify files, send data, or alter system state.",
+      "code_snippet": "- \u201cBe careful.\u201d\n- \u201cUse discretion.\u201d\n- Everything is a hard constraint.\n- No approval gates.\n\n### 6. Soft preferences \u2014 8 points\n",
+      "intent": null
+    },
+    {
+      "id": "EA2",
+      "category": "Excessive Agency",
+      "pattern": "Autonomous Decision Making",
+      "severity": "MEDIUM",
+      "confidence": 0.75,
+      "location": {
+        "file": "references/soul-md-grading-standard.md",
+        "start_line": 203,
+        "end_line": null
+      },
+      "finding": "no approval",
+      "explanation": "Skill enables autonomous high-impact decisions without human-in-the-loop verification. Critical operations (destructive commands, financial transactions, data deletion) should require explicit user confirmation.",
+      "remediation": "Add human-in-the-loop confirmation for destructive, irreversible, or high-impact operations. Never auto-execute commands that modify files, send data, or alter system state.",
+      "code_snippet": "\n- secrets, tokens, passwords, API keys, connection strings, private keys, or raw credential values\n- false or unverified claims of access, health, publication, deployment, delivery, or authority\n- no approval gate for spend, publishing, external outreach, destructive edits, production mutations, customer-visible changes, account creation, or credential changes\n- cross-client data, credential, workspace, prompt, report, or runtime contamination\n- client/business/public SOUL that lacks isolation and approval discipline\n- public/client-facing voice that leaks private operator persona in unsafe contexts",
+      "intent": null
+    },
+    {
+      "id": "EA2",
+      "category": "Excessive Agency",
+      "pattern": "Autonomous Decision Making",
+      "severity": "MEDIUM",
+      "confidence": 0.75,
+      "location": {
+        "file": "references/soul-md-grading-standard.md",
+        "start_line": 287,
+        "end_line": null
+      },
+      "finding": "without asking",
+      "explanation": "Skill enables autonomous high-impact decisions without human-in-the-loop verification. Critical operations (destructive commands, financial transactions, data deletion) should require explicit user confirmation.",
+      "remediation": "Add human-in-the-loop confirmation for destructive, irreversible, or high-impact operations. Never auto-execute commands that modify files, send data, or alter system state.",
+      "code_snippet": "| Weak | Stronger |\n|---|---|\n| You are a helpful assistant. | You are **[name]**, [user]\u2019s [specific layer/domain] agent. |\n| Be proactive. | Act without asking when input is clear; ask only when ambiguity changes a risky action. |\n| Never hallucinate. | When data is missing, say what is missing, where you looked, and what would resolve it. |\n| Use best practices. | Apply [named checklist], run [checks], record [artifact]. |\n| Friendly and professional. | Calm, competent, concise in [channel]; opinionated about [domain]; avoid [banned tone]. |",
+      "intent": null
+    },
+    {
+      "id": "EA2",
+      "category": "Excessive Agency",
+      "pattern": "Autonomous Decision Making",
+      "severity": "MEDIUM",
+      "confidence": 0.75,
+      "location": {
+        "file": "references/soul-md-wording-verbiage-layer.md",
+        "start_line": 290,
+        "end_line": null
+      },
+      "finding": "without checking",
+      "explanation": "Skill enables autonomous high-impact decisions without human-in-the-loop verification. Critical operations (destructive commands, financial transactions, data deletion) should require explicit user confirmation.",
+      "remediation": "Add human-in-the-loop confirmation for destructive, irreversible, or high-impact operations. Never auto-execute commands that modify files, send data, or alter system state.",
+      "code_snippet": "\n**After**\n\n> Never claim a project is on track, blocked, done, tested, or merged without checking the actual source of truth. Never say \u201clooks good\u201d on a PR without reviewing the diff and relevant context.\n\n**Before**\n",
+      "intent": null
+    },
+    {
+      "id": "EA2",
+      "category": "Excessive Agency",
+      "pattern": "Autonomous Decision Making",
+      "severity": "MEDIUM",
+      "confidence": 0.75,
+      "location": {
+        "file": "references/soul-md-wording-verbiage-layer.md",
+        "start_line": 386,
+        "end_line": null
+      },
+      "finding": "without checking",
+      "explanation": "Skill enables autonomous high-impact decisions without human-in-the-loop verification. Critical operations (destructive commands, financial transactions, data deletion) should require explicit user confirmation.",
+      "remediation": "Add human-in-the-loop confirmation for destructive, irreversible, or high-impact operations. Never auto-execute commands that modify files, send data, or alter system state.",
+      "code_snippet": "Use **\u201cDo not / Never / No X without Y\u201d** for safety and truth:\n\n- \u201cDo not invent deployment facts, credentials, agent state, or corpus claims.\u201d\n- \u201cNever claim a project is done without checking the source of truth.\u201d\n- \u201cNo publish/schedule/delete/edit public posts without a valid approval record.\u201d\n\nImperatives should be concrete enough to fail against.",
+      "intent": null
+    },
+    {
+      "id": "EA2",
+      "category": "Excessive Agency",
+      "pattern": "Autonomous Decision Making",
+      "severity": "MEDIUM",
+      "confidence": 0.75,
+      "location": {
+        "file": "references/soul-md-wording-verbiage-layer.md",
+        "start_line": 422,
+        "end_line": null
+      },
+      "finding": "without asking",
+      "explanation": "Skill enables autonomous high-impact decisions without human-in-the-loop verification. Critical operations (destructive commands, financial transactions, data deletion) should require explicit user confirmation.",
+      "remediation": "Add human-in-the-loop confirmation for destructive, irreversible, or high-impact operations. Never auto-execute commands that modify files, send data, or alter system state.",
+      "code_snippet": "|---|---|---|\n| \u201cAct as a helpful assistant\u2026\u201d | Generic roleplay wrapper; no durable boundary. | \u201cYou are **[name]**, [user]\u2019s [specific layer/domain] agent.\u201d |\n| \u201cHelp with productivity.\u201d | Means everything and nothing. | \u201cTurn [input types] into [durable artifacts] so [operational outcome].\u201d |\n| \u201cBe proactive.\u201d | Can justify spam, unsafe action, or guessing. | \u201cAct without asking when input is clear; ask only when ambiguity changes a risky action.\u201d |\n| \u201cBe accurate.\u201d | No evidentiary threshold. | \u201cDo not claim [state] unless verified in [source/tool/report].\u201d |\n| \u201cNever hallucinate.\u201d | Abstract; models already know the slogan. | \u201cWhen missing data, say what is missing, where you looked, and what would resolve it.\u201d |\n| \u201cUse best practices.\u201d | Unspecific appeal to invisible standards. | \u201cApply [named standards/checklist], run [checks], record [artifact].\u201d |",
+      "intent": null
+    },
+    {
+      "id": "EA2",
+      "category": "Excessive Agency",
+      "pattern": "Autonomous Decision Making",
+      "severity": "MEDIUM",
+      "confidence": 0.75,
+      "location": {
+        "file": "references/soul-md-wording-verbiage-layer.md",
+        "start_line": 429,
+        "end_line": null
+      },
+      "finding": "without asking",
+      "explanation": "Skill enables autonomous high-impact decisions without human-in-the-loop verification. Critical operations (destructive commands, financial transactions, data deletion) should require explicit user confirmation.",
+      "remediation": "Add human-in-the-loop confirmation for destructive, irreversible, or high-impact operations. Never auto-execute commands that modify files, send data, or alter system state.",
+      "code_snippet": "| \u201cWorld-class / enterprise-grade / robust / seamless.\u201d | Marketing language unless grounded. | \u201cInclude durable state, auditability, failure handling, security hygiene, tests, live verification, and docs where needed.\u201d |\n| \u201cFriendly and professional.\u201d | Single-axis tone clich\u00e9. | \u201cCalm, competent, concise in chat, opinionated about product quality, avoids corporate PM sludge.\u201d |\n| \u201cFunny and edgy.\u201d | Risky without targets and limits. | \u201cRoast weak clips/workflows/titles; do not be cruel to real people or protected groups.\u201d |\n| \u201cAutonomous.\u201d | Ambiguous authority. | \u201cMay take [low-risk actions] without asking; requires explicit approval for [risky actions].\u201d |\n| \u201cKeep things secure.\u201d | Too broad to enforce. | \u201cNo raw tokens, OAuth secrets, passwords, or API keys in repo files, reports, chat, or memory.\u201d |\n| \u201cRemember this.\u201d | Unclear storage semantics. | \u201cWrite durable notes to [path/db/table]; chat memory is not authoritative for [fact class].\u201d |\n| \u201cMake good decisions.\u201d | No tradeoff logic. | \u201cOptimize for [ranked priorities]; if they conflict, favor [priority] unless user overrides.\u201d |",
+      "intent": null
+    },
+    {
+      "id": "EA2",
+      "category": "Excessive Agency",
+      "pattern": "Autonomous Decision Making",
+      "severity": "MEDIUM",
+      "confidence": 0.75,
+      "location": {
+        "file": "references/soul-md-wording-verbiage-layer.md",
+        "start_line": 495,
+        "end_line": null
+      },
+      "finding": "without checking",
+      "explanation": "Skill enables autonomous high-impact decisions without human-in-the-loop verification. Critical operations (destructive commands, financial transactions, data deletion) should require explicit user confirmation.",
+      "remediation": "Add human-in-the-loop confirmation for destructive, irreversible, or high-impact operations. Never auto-execute commands that modify files, send data, or alter system state.",
+      "code_snippet": "\n**Strong**\n\n> Never claim a project is on track, blocked, done, tested, or merged without checking the actual source of truth. Never pretend to understand a repo/product if you have not inspected it. Never say \u201clooks good\u201d on a PR without reviewing the diff and relevant context.\n\n### Approval gate\n",
+      "intent": null
+    },
+    {
+      "id": "PE3",
+      "category": "Privilege Escalation",
+      "pattern": "Credential Access",
+      "severity": "HIGH",
+      "confidence": 0.6,
+      "location": {
+        "file": "scripts/validate_skill.py",
+        "start_line": 37,
+        "end_line": null
+      },
+      "finding": ".env\"",
+      "explanation": "Code accesses credential files (SSH keys, AWS credentials, etc.). This could indicate credential theft attempts.",
+      "remediation": "Remove references to credential paths. Use environment variables or secrets managers. For docs, use placeholder paths (e.g., /path/to/config). Never load .env or token files in production code paths.",
+      "code_snippet": "        re.escape(\"/root/\" + \"DEV\")\n        + \"|\"\n        + re.escape(\"/Users/\" + \"cobibean\")\n        + r\"|~/.hermes/profiles/[a-z0-9_.-]+/.env\"\n    ),\n}\nPRIVATE_PROPER_TERMS = [",
+      "intent": null
+    },
+    {
+      "id": "RA2",
+      "category": "Rogue Agent",
+      "pattern": "Session Persistence",
+      "severity": "MEDIUM",
+      "confidence": 0.6,
+      "location": {
+        "file": "README.md",
+        "start_line": 45,
+        "end_line": null
+      },
+      "finding": "mkdir -p ~/.hermes/skills/community\ngit clone https://github.com/cobibean/soul-grader-skill.git \\\n  ~/.hermes/skills/community/soul-grader\n```\n\nFor a named profile:\n\n```bash\nprofile=\"my-profile\"\nmkdir",
+      "explanation": "Skill establishes unauthorized persistence across sessions via cron jobs, startup scripts, or state files. Session persistence allows an attacker to maintain access beyond the current interaction.",
+      "remediation": "Remove any persistence mechanisms (cron jobs, startup scripts, state files). Skills should not maintain state across sessions without explicit user consent.",
+      "code_snippet": "For the default profile:\n\n```bash\nmkdir -p ~/.hermes/skills/community\ngit clone https://github.com/cobibean/soul-grader-skill.git \\\n  ~/.hermes/skills/community/soul-grader\n```",
+      "intent": null
+    }
+  ],
+  "metadata": {
+    "has_executable_scripts": true,
+    "skillspector_version": "2.1.4",
+    "llm_requested": false,
+    "llm_available": false
+  }
+}

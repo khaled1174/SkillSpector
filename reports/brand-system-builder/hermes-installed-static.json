@@ -1,0 +1,28 @@
+{
+  "skill": {
+    "name": "unknown",
+    "source": "/Users/khaledmac/.hermes/skills/creative/brand-system-builder",
+    "scanned_at": "2026-06-28T08:13:31.919443+00:00"
+  },
+  "risk_assessment": {
+    "score": 0,
+    "severity": "LOW",
+    "recommendation": "SAFE"
+  },
+  "components": [
+    {
+      "path": "SKILL.md",
+      "type": "markdown",
+      "lines": 751,
+      "executable": false,
+      "size_bytes": 27769
+    }
+  ],
+  "issues": [],
+  "metadata": {
+    "has_executable_scripts": false,
+    "skillspector_version": "2.1.4",
+    "llm_requested": false,
+    "llm_available": false
+  }
+}

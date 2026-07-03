@@ -1,0 +1,374 @@
+{
+  "skill": {
+    "name": "unknown",
+    "source": "/private/tmp/effective-svg-inspect/repo",
+    "scanned_at": "2026-06-25T22:19:59.936663+00:00"
+  },
+  "risk_assessment": {
+    "score": 55,
+    "severity": "HIGH",
+    "recommendation": "DO_NOT_INSTALL"
+  },
+  "components": [
+    {
+      "path": "LICENSE",
+      "type": "other",
+      "lines": 21,
+      "executable": false,
+      "size_bytes": 1068
+    },
+    {
+      "path": "README.md",
+      "type": "markdown",
+      "lines": 26,
+      "executable": false,
+      "size_bytes": 815
+    },
+    {
+      "path": "star-plannotator.svg",
+      "type": "other",
+      "lines": 26,
+      "executable": false,
+      "size_bytes": 1549
+    },
+    {
+      "path": "svg-animated/01-exploration-code-approaches.svg",
+      "type": "other",
+      "lines": 182,
+      "executable": false,
+      "size_bytes": 8458
+    },
+    {
+      "path": "svg-animated/02-exploration-visual-designs.svg",
+      "type": "other",
+      "lines": 130,
+      "executable": false,
+      "size_bytes": 6261
+    },
+    {
+      "path": "svg-animated/03-code-review-pr.svg",
+      "type": "other",
+      "lines": 99,
+      "executable": false,
+      "size_bytes": 5799
+    },
+    {
+      "path": "svg-animated/04-code-understanding.svg",
+      "type": "other",
+      "lines": 147,
+      "executable": false,
+      "size_bytes": 6464
+    },
+    {
+      "path": "svg-animated/05-design-system.svg",
+      "type": "other",
+      "lines": 135,
+      "executable": false,
+      "size_bytes": 5970
+    },
+    {
+      "path": "svg-animated/06-component-variants.svg",
+      "type": "other",
+      "lines": 153,
+      "executable": false,
+      "size_bytes": 7428
+    },
+    {
+      "path": "svg-animated/07-prototype-animation.svg",
+      "type": "other",
+      "lines": 93,
+      "executable": false,
+      "size_bytes": 5975
+    },
+    {
+      "path": "svg-animated/08-prototype-interaction.svg",
+      "type": "other",
+      "lines": 185,
+      "executable": false,
+      "size_bytes": 7067
+    },
+    {
+      "path": "svg-animated/09-slide-deck.svg",
+      "type": "other",
+      "lines": 78,
+      "executable": false,
+      "size_bytes": 4407
+    },
+    {
+      "path": "svg-animated/10-svg-illustrations.svg",
+      "type": "other",
+      "lines": 128,
+      "executable": false,
+      "size_bytes": 6033
+    },
+    {
+      "path": "svg-animated/11-status-report.svg",
+      "type": "other",
+      "lines": 112,
+      "executable": false,
+      "size_bytes": 6666
+    },
+    {
+      "path": "svg-animated/12-incident-report.svg",
+      "type": "other",
+      "lines": 155,
+      "executable": false,
+      "size_bytes": 6334
+    },
+    {
+      "path": "svg-animated/13-flowchart-diagram.svg",
+      "type": "other",
+      "lines": 172,
+      "executable": false,
+      "size_bytes": 7384
+    },
+    {
+      "path": "svg-animated/14-research-feature-explainer.svg",
+      "type": "other",
+      "lines": 204,
+      "executable": false,
+      "size_bytes": 8580
+    },
+    {
+      "path": "svg-animated/15-research-concept-explainer.svg",
+      "type": "other",
+      "lines": 133,
+      "executable": false,
+      "size_bytes": 5616
+    },
+    {
+      "path": "svg-animated/16-implementation-plan.svg",
+      "type": "other",
+      "lines": 138,
+      "executable": false,
+      "size_bytes": 7427
+    },
+    {
+      "path": "svg-animated/17-pr-writeup.svg",
+      "type": "other",
+      "lines": 198,
+      "executable": false,
+      "size_bytes": 8651
+    },
+    {
+      "path": "svg-animated/18-editor-triage-board.svg",
+      "type": "other",
+      "lines": 162,
+      "executable": false,
+      "size_bytes": 7221
+    },
+    {
+      "path": "svg-animated/19-editor-feature-flags.svg",
+      "type": "other",
+      "lines": 129,
+      "executable": false,
+      "size_bytes": 5413
+    },
+    {
+      "path": "svg-animated/20-editor-prompt-tuner.svg",
+      "type": "other",
+      "lines": 172,
+      "executable": false,
+      "size_bytes": 7346
+    },
+    {
+      "path": "svg/01-exploration-code-approaches.svg",
+      "type": "other",
+      "lines": 111,
+      "executable": false,
+      "size_bytes": 5552
+    },
+    {
+      "path": "svg/02-exploration-visual-designs.svg",
+      "type": "other",
+      "lines": 77,
+      "executable": false,
+      "size_bytes": 3890
+    },
+    {
+      "path": "svg/03-code-review-pr.svg",
+      "type": "other",
+      "lines": 78,
+      "executable": false,
+      "size_bytes": 4150
+    },
+    {
+      "path": "svg/04-code-understanding.svg",
+      "type": "other",
+      "lines": 61,
+      "executable": false,
+      "size_bytes": 2967
+    },
+    {
+      "path": "svg/05-design-system.svg",
+      "type": "other",
+      "lines": 71,
+      "executable": false,
+      "size_bytes": 3718
+    },
+    {
+      "path": "svg/06-component-variants.svg",
+      "type": "other",
+      "lines": 99,
+      "executable": false,
+      "size_bytes": 4768
+    },
+    {
+      "path": "svg/07-prototype-animation.svg",
+      "type": "other",
+      "lines": 64,
+      "executable": false,
+      "size_bytes": 3611
+    },
+    {
+      "path": "svg/08-prototype-interaction.svg",
+      "type": "other",
+      "lines": 86,
+      "executable": false,
+      "size_bytes": 3985
+    },
+    {
+      "path": "svg/09-slide-deck.svg",
+      "type": "other",
+      "lines": 59,
+      "executable": false,
+      "size_bytes": 2630
+    },
+    {
+      "path": "svg/10-svg-illustrations.svg",
+      "type": "other",
+      "lines": 91,
+      "executable": false,
+      "size_bytes": 4222
+    },
+    {
+      "path": "svg/11-status-report.svg",
+      "type": "other",
+      "lines": 83,
+      "executable": false,
+      "size_bytes": 4313
+    },
+    {
+      "path": "svg/12-incident-report.svg",
+      "type": "other",
+      "lines": 63,
+      "executable": false,
+      "size_bytes": 3139
+    },
+    {
+      "path": "svg/13-flowchart-diagram.svg",
+      "type": "other",
+      "lines": 83,
+      "executable": false,
+      "size_bytes": 3727
+    },
+    {
+      "path": "svg/14-research-feature-explainer.svg",
+      "type": "other",
+      "lines": 97,
+      "executable": false,
+      "size_bytes": 4646
+    },
+    {
+      "path": "svg/15-research-concept-explainer.svg",
+      "type": "other",
+      "lines": 80,
+      "executable": false,
+      "size_bytes": 3847
+    },
+    {
+      "path": "svg/16-implementation-plan.svg",
+      "type": "other",
+      "lines": 83,
+      "executable": false,
+      "size_bytes": 4073
+    },
+    {
+      "path": "svg/17-pr-writeup.svg",
+      "type": "other",
+      "lines": 70,
+      "executable": false,
+      "size_bytes": 3366
+    },
+    {
+      "path": "svg/18-editor-triage-board.svg",
+      "type": "other",
+      "lines": 102,
+      "executable": false,
+      "size_bytes": 4903
+    },
+    {
+      "path": "svg/19-editor-feature-flags.svg",
+      "type": "other",
+      "lines": 73,
+      "executable": false,
+      "size_bytes": 3468
+    },
+    {
+      "path": "svg/20-editor-prompt-tuner.svg",
+      "type": "other",
+      "lines": 85,
+      "executable": false,
+      "size_bytes": 3945
+    }
+  ],
+  "issues": [
+    {
+      "id": "EA3",
+      "category": "Excessive Agency",
+      "pattern": "Scope Creep",
+      "severity": "LOW",
+      "confidence": 0.7,
+      "location": {
+        "file": "LICENSE",
+        "start_line": 16,
+        "end_line": null
+      },
+      "finding": "NOT LIMITED TO",
+      "explanation": "Skill's behavior or capabilities extend beyond its stated purpose. Scope creep allows an agent to perform actions unrelated to its documented functionality, increasing the attack surface.",
+      "remediation": "Limit the skill's scope to its documented purpose. Remove instructions that enable the agent to perform actions outside its stated functionality.",
+      "code_snippet": "copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,",
+      "intent": null
+    },
+    {
+      "id": "P2",
+      "category": "Prompt Injection",
+      "pattern": "Hidden Instructions",
+      "severity": "HIGH",
+      "confidence": 0.7,
+      "location": {
+        "file": "svg-animated/02-exploration-visual-designs.svg",
+        "start_line": 53,
+        "end_line": null
+      },
+      "finding": "<!-- header: prompt eyebrow + prompt bar -->\n<g class=\"a-grp a-head\">\n<rect x=\"12\" y=\"12\" width=\"46\" height=\"3\" rx=\"1.5\" class=\"fll\"/>\n<rect x=\"12\" y=\"18\" width=\"9\" height=\"3\" rx=\"1.5\" class=\"sl\"/>\n<r",
+      "explanation": "Hidden instructions were detected in comments or invisible text. These could contain malicious directives. Manual review is recommended.",
+      "remediation": "Audit all comments and invisible characters. Remove any instructions that direct the agent to perform unauthorized actions. Use plain, reviewable content.",
+      "code_snippet": "  </style>\n  <rect x=\"0\" y=\"0\" width=\"165\" height=\"202\" class=\"bg\"/>\n\n<!-- header: prompt eyebrow + prompt bar -->\n<g class=\"a-grp a-head\">\n<rect x=\"12\" y=\"12\" width=\"46\" height=\"3\" rx=\"1.5\" class=\"fll\"/>\n<rect x=\"12\" y=\"18\" width=\"9\" height=\"3\" rx=\"1.5\" class=\"sl\"/>",
+      "intent": null
+    },
+    {
+      "id": "P2",
+      "category": "Prompt Injection",
+      "pattern": "Hidden Instructions",
+      "severity": "HIGH",
+      "confidence": 0.7,
+      "location": {
+        "file": "svg/02-exploration-visual-designs.svg",
+        "start_line": 24,
+        "end_line": null
+      },
+      "finding": "<!-- header: prompt eyebrow + prompt bar -->\n<rect x=\"12\" y=\"12\" width=\"46\" height=\"3\" rx=\"1.5\" class=\"fll\"/>\n<rect x=\"12\" y=\"18\" width=\"9\" height=\"3\" rx=\"1.5\" class=\"sl\"/>\n<rect x=\"12\" y=\"29\" width=\"",
+      "explanation": "Hidden instructions were detected in comments or invisible text. These could contain malicious directives. Manual review is recommended.",
+      "remediation": "Audit all comments and invisible characters. Remove any instructions that direct the agent to perform unauthorized actions. Use plain, reviewable content.",
+      "code_snippet": "  </style>\n  <rect x=\"0\" y=\"0\" width=\"165\" height=\"202\" class=\"bg\"/>\n\n<!-- header: prompt eyebrow + prompt bar -->\n<rect x=\"12\" y=\"12\" width=\"46\" height=\"3\" rx=\"1.5\" class=\"fll\"/>\n<rect x=\"12\" y=\"18\" width=\"9\" height=\"3\" rx=\"1.5\" class=\"sl\"/>\n<rect x=\"12\" y=\"29\" width=\"141\" height=\"15\" rx=\"4\" class=\"oa\"/>",
+      "intent": null
+    }
+  ],
+  "metadata": {
+    "has_executable_scripts": false,
+    "skillspector_version": "2.1.4",
+    "llm_requested": false,
+    "llm_available": false
+  }
+}

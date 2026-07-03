@@ -1,0 +1,42 @@
+{
+  "skill": {
+    "name": "token-map",
+    "source": "/private/tmp/open-design-review/plugins/_official/atoms/token-map",
+    "scanned_at": "2026-06-17T14:40:03.531742+00:00"
+  },
+  "risk_assessment": {
+    "score": 0,
+    "severity": "LOW",
+    "recommendation": "SAFE"
+  },
+  "components": [
+    {
+      "path": "SKILL.md",
+      "type": "markdown",
+      "lines": 147,
+      "executable": false,
+      "size_bytes": 5443
+    },
+    {
+      "path": "examples/semantic-inference-before-after.json",
+      "type": "json",
+      "lines": 164,
+      "executable": false,
+      "size_bytes": 4821
+    },
+    {
+      "path": "open-design.json",
+      "type": "json",
+      "lines": 36,
+      "executable": false,
+      "size_bytes": 834
+    }
+  ],
+  "issues": [],
+  "metadata": {
+    "has_executable_scripts": false,
+    "skillspector_version": "2.1.4",
+    "llm_requested": false,
+    "llm_available": false
+  }
+}

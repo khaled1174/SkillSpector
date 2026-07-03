@@ -1,0 +1,77 @@
+{
+  "skill": {
+    "name": "self-maintaining-knowledge-base-loop",
+    "source": "/Users/khaledmac/.hermes/skills/software-development/self-maintaining-knowledge-base-loop",
+    "scanned_at": "2026-07-01T09:09:08.206532+00:00"
+  },
+  "risk_assessment": {
+    "score": 0,
+    "severity": "LOW",
+    "recommendation": "SAFE"
+  },
+  "components": [
+    {
+      "path": "SKILL.md",
+      "type": "markdown",
+      "lines": 135,
+      "executable": false,
+      "size_bytes": 6168
+    },
+    {
+      "path": "scripts/init_project_kb.py",
+      "type": "python",
+      "lines": 86,
+      "executable": true,
+      "size_bytes": 3141
+    },
+    {
+      "path": "templates/project-brain/DECISIONS.md",
+      "type": "markdown",
+      "lines": 7,
+      "executable": false,
+      "size_bytes": 381
+    },
+    {
+      "path": "templates/project-brain/DRIFT_QUEUE.md",
+      "type": "markdown",
+      "lines": 15,
+      "executable": false,
+      "size_bytes": 589
+    },
+    {
+      "path": "templates/project-brain/KNOWLEDGE_STATE.md",
+      "type": "markdown",
+      "lines": 35,
+      "executable": false,
+      "size_bytes": 786
+    },
+    {
+      "path": "templates/project-brain/README.md",
+      "type": "markdown",
+      "lines": 33,
+      "executable": false,
+      "size_bytes": 1124
+    },
+    {
+      "path": "templates/project-brain/RUNBOOK.md",
+      "type": "markdown",
+      "lines": 32,
+      "executable": false,
+      "size_bytes": 580
+    },
+    {
+      "path": "templates/project-brain/SOURCES.md",
+      "type": "markdown",
+      "lines": 29,
+      "executable": false,
+      "size_bytes": 1088
+    }
+  ],
+  "issues": [],
+  "metadata": {
+    "has_executable_scripts": true,
+    "skillspector_version": "2.1.4",
+    "llm_requested": false,
+    "llm_available": false
+  }
+}

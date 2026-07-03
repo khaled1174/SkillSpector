@@ -1,0 +1,28 @@
+{
+  "skill": {
+    "name": "unknown",
+    "source": "/private/tmp/hermes-hyperagent-public-skills-audit/_scan_skill-venue-visualizer",
+    "scanned_at": "2026-06-23T16:39:09.311282+00:00"
+  },
+  "risk_assessment": {
+    "score": 0,
+    "severity": "LOW",
+    "recommendation": "SAFE"
+  },
+  "components": [
+    {
+      "path": "skill-venue-visualizer.json",
+      "type": "json",
+      "lines": 18,
+      "executable": false,
+      "size_bytes": 29127
+    }
+  ],
+  "issues": [],
+  "metadata": {
+    "has_executable_scripts": false,
+    "skillspector_version": "2.1.4",
+    "llm_requested": false,
+    "llm_available": false
+  }
+}

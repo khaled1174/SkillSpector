@@ -1,0 +1,314 @@
+{
+  "skill": {
+    "name": "video-spec-builder",
+    "source": "/private/tmp/video-spec-builder",
+    "scanned_at": "2026-06-28T08:56:48.036897+00:00"
+  },
+  "risk_assessment": {
+    "score": 80,
+    "severity": "HIGH",
+    "recommendation": "DO_NOT_INSTALL"
+  },
+  "components": [
+    {
+      "path": "Full Code/app.jsx",
+      "type": "other",
+      "lines": 186,
+      "executable": false,
+      "size_bytes": 6543
+    },
+    {
+      "path": "Full Code/sections/aroll.jsx",
+      "type": "other",
+      "lines": 265,
+      "executable": false,
+      "size_bytes": 11964
+    },
+    {
+      "path": "Full Code/sections/broll-abstract.jsx",
+      "type": "other",
+      "lines": 307,
+      "executable": false,
+      "size_bytes": 16675
+    },
+    {
+      "path": "Full Code/sections/broll-charts.jsx",
+      "type": "other",
+      "lines": 576,
+      "executable": false,
+      "size_bytes": 29750
+    },
+    {
+      "path": "Full Code/sections/broll-flows.jsx",
+      "type": "other",
+      "lines": 403,
+      "executable": false,
+      "size_bytes": 22515
+    },
+    {
+      "path": "Full Code/sections/broll-hero.jsx",
+      "type": "other",
+      "lines": 191,
+      "executable": false,
+      "size_bytes": 11065
+    },
+    {
+      "path": "Full Code/sections/broll-structure.jsx",
+      "type": "other",
+      "lines": 263,
+      "executable": false,
+      "size_bytes": 12257
+    },
+    {
+      "path": "Full Code/sections/broll-structures2.jsx",
+      "type": "other",
+      "lines": 320,
+      "executable": false,
+      "size_bytes": 17148
+    },
+    {
+      "path": "Full Code/sections/broll-thinking.jsx",
+      "type": "other",
+      "lines": 386,
+      "executable": false,
+      "size_bytes": 20198
+    },
+    {
+      "path": "Full Code/sections/broll-ui.jsx",
+      "type": "other",
+      "lines": 305,
+      "executable": false,
+      "size_bytes": 15670
+    },
+    {
+      "path": "Full Code/sections/foundation.jsx",
+      "type": "other",
+      "lines": 344,
+      "executable": false,
+      "size_bytes": 18503
+    },
+    {
+      "path": "Full Code/sections/illustrations.jsx",
+      "type": "other",
+      "lines": 266,
+      "executable": false,
+      "size_bytes": 15555
+    },
+    {
+      "path": "Full Code/styles.css",
+      "type": "other",
+      "lines": 406,
+      "executable": false,
+      "size_bytes": 11038
+    },
+    {
+      "path": "Full Code/tokens.css",
+      "type": "other",
+      "lines": 108,
+      "executable": false,
+      "size_bytes": 4033
+    },
+    {
+      "path": "Full Code/tweaks-panel.jsx",
+      "type": "other",
+      "lines": 568,
+      "executable": false,
+      "size_bytes": 25807
+    },
+    {
+      "path": "LICENSE",
+      "type": "other",
+      "lines": 21,
+      "executable": false,
+      "size_bytes": 1067
+    },
+    {
+      "path": "README.md",
+      "type": "markdown",
+      "lines": 216,
+      "executable": false,
+      "size_bytes": 12620
+    },
+    {
+      "path": "README.zh.md",
+      "type": "markdown",
+      "lines": 216,
+      "executable": false,
+      "size_bytes": 11521
+    },
+    {
+      "path": "SKILL.md",
+      "type": "markdown",
+      "lines": 353,
+      "executable": false,
+      "size_bytes": 21163
+    },
+    {
+      "path": "examples/video-spec-spacex.md",
+      "type": "markdown",
+      "lines": 465,
+      "executable": false,
+      "size_bytes": 38896
+    },
+    {
+      "path": "references/components-catalog.md",
+      "type": "markdown",
+      "lines": 490,
+      "executable": false,
+      "size_bytes": 39698
+    },
+    {
+      "path": "references/dialogue-style.md",
+      "type": "markdown",
+      "lines": 201,
+      "executable": false,
+      "size_bytes": 7375
+    },
+    {
+      "path": "references/pacing-rules.md",
+      "type": "markdown",
+      "lines": 311,
+      "executable": false,
+      "size_bytes": 12174
+    },
+    {
+      "path": "references/question-bank.md",
+      "type": "markdown",
+      "lines": 968,
+      "executable": false,
+      "size_bytes": 62683
+    },
+    {
+      "path": "references/scene-breakdown.md",
+      "type": "markdown",
+      "lines": 556,
+      "executable": false,
+      "size_bytes": 26368
+    },
+    {
+      "path": "references/spec-rules.md",
+      "type": "markdown",
+      "lines": 124,
+      "executable": false,
+      "size_bytes": 6732
+    },
+    {
+      "path": "references/workflow-0-1.md",
+      "type": "markdown",
+      "lines": 236,
+      "executable": false,
+      "size_bytes": 10160
+    },
+    {
+      "path": "references/workflow-iteration.md",
+      "type": "markdown",
+      "lines": 106,
+      "executable": false,
+      "size_bytes": 3569
+    },
+    {
+      "path": "spec-mono/design.md",
+      "type": "markdown",
+      "lines": 144,
+      "executable": false,
+      "size_bytes": 6206
+    },
+    {
+      "path": "spec-mono/spec-mono-components.md",
+      "type": "markdown",
+      "lines": 111,
+      "executable": false,
+      "size_bytes": 9822
+    },
+    {
+      "path": "spec-mono/tokens.css",
+      "type": "other",
+      "lines": 214,
+      "executable": false,
+      "size_bytes": 11496
+    },
+    {
+      "path": "templates/video-spec-template.md",
+      "type": "markdown",
+      "lines": 120,
+      "executable": false,
+      "size_bytes": 5646
+    }
+  ],
+  "issues": [
+    {
+      "id": "EA3",
+      "category": "Excessive Agency",
+      "pattern": "Scope Creep",
+      "severity": "LOW",
+      "confidence": 0.7,
+      "location": {
+        "file": "LICENSE",
+        "start_line": 16,
+        "end_line": null
+      },
+      "finding": "NOT LIMITED TO",
+      "explanation": "Skill's behavior or capabilities extend beyond its stated purpose. Scope creep allows an agent to perform actions unrelated to its documented functionality, increasing the attack surface.",
+      "remediation": "Limit the skill's scope to its documented purpose. Remove instructions that enable the agent to perform actions outside its stated functionality.",
+      "code_snippet": "copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,",
+      "intent": null
+    },
+    {
+      "id": "OH1",
+      "category": "Output Handling",
+      "pattern": "Unvalidated Output Injection",
+      "severity": "HIGH",
+      "confidence": 0.65,
+      "location": {
+        "file": "Full Code/app.jsx",
+        "start_line": 73,
+        "end_line": null
+      },
+      "finding": "dangerouslySetInnerHTML={",
+      "explanation": "Model output is used without validation or sanitization. Unvalidated output injected into downstream contexts (SQL, shell, HTML) enables injection attacks and arbitrary code execution.",
+      "remediation": "Validate and sanitize all model output before using it in downstream contexts. Use parameterized queries for SQL, shell quoting for commands, and HTML encoding for web output.",
+      "code_snippet": "    <section className=\"section\" id={id} data-screen-label={`${num} ${title}`}>\n      <div className=\"section__num\"><span>SECTION {num}</span></div>\n      <h2 className=\"section__title cn\">{title}</h2>\n      <p className=\"section__desc cn\" dangerouslySetInnerHTML={{ __html: desc }} />\n      {children}\n    </section>\n  );",
+      "intent": null
+    },
+    {
+      "id": "OH1",
+      "category": "Output Handling",
+      "pattern": "Unvalidated Output Injection",
+      "severity": "HIGH",
+      "confidence": 0.65,
+      "location": {
+        "file": "Full Code/app.jsx",
+        "start_line": 98,
+        "end_line": null
+      },
+      "finding": "dangerouslySetInnerHTML={",
+      "explanation": "Model output is used without validation or sanitization. Unvalidated output injected into downstream contexts (SQL, shell, HTML) enables injection attacks and arbitrary code execution.",
+      "remediation": "Validate and sanitize all model output before using it in downstream contexts. Use parameterized queries for SQL, shell quoting for commands, and HTML encoding for web output.",
+      "code_snippet": "      {rows.map((r, i) => (\n        <div className=\"param\" key={i}>\n          <div className=\"param__k\">{r.k}</div>\n          <div className=\"param__v\" dangerouslySetInnerHTML={{ __html: r.v }} />\n        </div>\n      ))}\n    </div>",
+      "intent": null
+    },
+    {
+      "id": "OH1",
+      "category": "Output Handling",
+      "pattern": "Unvalidated Output Injection",
+      "severity": "HIGH",
+      "confidence": 0.65,
+      "location": {
+        "file": "Full Code/sections/aroll.jsx",
+        "start_line": 260,
+        "end_line": null
+      },
+      "finding": "dangerouslySetInnerHTML={",
+      "explanation": "Model output is used without validation or sanitization. Unvalidated output injected into downstream contexts (SQL, shell, HTML) enables injection attacks and arbitrary code execution.",
+      "remediation": "Validate and sanitize all model output before using it in downstream contexts. Use parameterized queries for SQL, shell quoting for commands, and HTML encoding for web output.",
+      "code_snippet": "      borderRadius: 8, padding: '18px 20px',\n    }}>\n      <div className=\"mono\" style={{ fontSize: 11, letterSpacing: '0.2em', color: 'var(--accent)', marginBottom: 10 }}>{label}</div>\n      <div className=\"cn\" style={{ fontSize: 13, color: 'var(--fg-2)', lineHeight: 1.6 }} dangerouslySetInnerHTML={{ __html: body.replace(/<em>(.*?)<\\/em>/g, '<em style=\"color:var(--accent);font-style:normal\">$1</em>') }} />\n    </div>\n  );\n}",
+      "intent": null
+    }
+  ],
+  "metadata": {
+    "has_executable_scripts": false,
+    "skillspector_version": "2.1.4",
+    "llm_requested": false,
+    "llm_available": false
+  }
+}

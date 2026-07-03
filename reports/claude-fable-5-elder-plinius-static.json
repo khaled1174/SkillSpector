@@ -1,0 +1,97 @@
+{
+  "skill": {
+    "name": "unknown",
+    "source": "/var/folders/j3/gncvd3jn4rq3gtcsq8x6bwsm0000gn/T/skillspector_dgdwfqst",
+    "scanned_at": "2026-07-02T11:07:16.798621+00:00"
+  },
+  "risk_assessment": {
+    "score": 50,
+    "severity": "MEDIUM",
+    "recommendation": "CAUTION"
+  },
+  "components": [
+    {
+      "path": "claude-fable-5-elder-plinius.md",
+      "type": "markdown",
+      "lines": 1597,
+      "executable": false,
+      "size_bytes": 122750
+    }
+  ],
+  "issues": [
+    {
+      "id": "E1",
+      "category": "Data Exfiltration",
+      "pattern": "External Transmission",
+      "severity": "MEDIUM",
+      "confidence": 0.6,
+      "location": {
+        "file": "claude-fable-5-elder-plinius.md",
+        "start_line": 1380,
+        "end_line": null
+      },
+      "finding": "fetch(\"https://api.anthropic.com/v1/messages\", {\n  method: \"POST\"",
+      "explanation": "Data is being sent to an external URL. This could be legitimate telemetry or data exfiltration. Manual review is recommended.",
+      "remediation": "Verify the destination URL is trusted and necessary. Remove or replace with documented APIs. Ensure no secrets, tokens, or PII are transmitted.",
+      "code_snippet": "API details: The API uses the standard Anthropic /v1/messages endpoint. The assistant should never pass in an API key, as this is handled already. Example call:\n\n```javascript\nconst response = await fetch(\"https://api.anthropic.com/v1/messages\", {\n  method: \"POST\",\n  headers: {\n    \"Content-Type\": \"application/json\",",
+      "intent": null
+    },
+    {
+      "id": "E1",
+      "category": "Data Exfiltration",
+      "pattern": "External Transmission",
+      "severity": "MEDIUM",
+      "confidence": 0.5,
+      "location": {
+        "file": "claude-fable-5-elder-plinius.md",
+        "start_line": 1380,
+        "end_line": null
+      },
+      "finding": "https://api.anthropic.com/",
+      "explanation": "Data is being sent to an external URL. This could be legitimate telemetry or data exfiltration. Manual review is recommended.",
+      "remediation": "Verify the destination URL is trusted and necessary. Remove or replace with documented APIs. Ensure no secrets, tokens, or PII are transmitted.",
+      "code_snippet": "API details: The API uses the standard Anthropic /v1/messages endpoint. The assistant should never pass in an API key, as this is handled already. Example call:\n\n```javascript\nconst response = await fetch(\"https://api.anthropic.com/v1/messages\", {\n  method: \"POST\",\n  headers: {\n    \"Content-Type\": \"application/json\",",
+      "intent": null
+    },
+    {
+      "id": "E4",
+      "category": "Data Exfiltration",
+      "pattern": "Context Leakage",
+      "severity": "HIGH",
+      "confidence": 0.85,
+      "location": {
+        "file": "claude-fable-5-elder-plinius.md",
+        "start_line": 1481,
+        "end_line": null
+      },
+      "finding": "send the full conversation history",
+      "explanation": "Code or instructions that leak agent conversation context to external services, potentially exposing sensitive user interactions.",
+      "remediation": "Remove any code that sends prompts, responses, or session data externally. Preserve user privacy; never exfiltrate conversation content.",
+      "code_snippet": "\nContext window management: Claude has no memory between completions. Always include all relevant state in each request.\n\nConversation management \u2014 for MCP or multi-turn flows, send the full conversation history each time:\n\n```javascript\nconst history = [",
+      "intent": null
+    },
+    {
+      "id": "EA3",
+      "category": "Excessive Agency",
+      "pattern": "Scope Creep",
+      "severity": "LOW",
+      "confidence": 0.7,
+      "location": {
+        "file": "claude-fable-5-elder-plinius.md",
+        "start_line": 599,
+        "end_line": null
+      },
+      "finding": "not limited to",
+      "explanation": "Skill's behavior or capabilities extend beyond its stated purpose. Scope creep allows an agent to perform actions unrelated to its documented functionality, increasing the attack surface.",
+      "remediation": "Limit the skill's scope to its documented purpose. Remove instructions that enable the agent to perform actions outside its stated functionality.",
+      "code_snippet": "- Copyrighted characters or IP (Disney, Marvel, DC, Pixar, Nintendo, etc)\n- Content from sports games and licensed sports content (NBA, NFL, NHL, MLB, EPL, F1 etc.)\n- Content from or related to series movies, TV, music, including posters, stills, characters, covers, behind the scenes images\n- Celebrity photos, fashion photos, fashion magazines (e.g. Vogue) including but not limited to those taken by paparazzi\n- Visual works like paintings, murals, or iconic photographs. Claude may retrieve an image of the work in the larger context in which it is displayed, such as a work of art displayed in a museum.\n- Sexual or suggestive content, or non-consensual/privacy-violating intimate imagery\n",
+      "intent": null
+    }
+  ],
+  "metadata": {
+    "has_executable_scripts": false,
+    "skillspector_version": "2.1.4",
+    "llm_requested": false,
+    "llm_available": false
+  }
+}

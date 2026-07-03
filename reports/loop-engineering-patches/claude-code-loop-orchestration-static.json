@@ -1,0 +1,173 @@
+{
+  "skill": {
+    "name": "claude-code-loop-orchestration",
+    "source": "/Users/khaledmac/.hermes/skills/autonomous-ai-agents/claude-code-loop-orchestration",
+    "scanned_at": "2026-06-25T21:06:10.475766+00:00"
+  },
+  "risk_assessment": {
+    "score": 90,
+    "severity": "CRITICAL",
+    "recommendation": "DO_NOT_INSTALL"
+  },
+  "components": [
+    {
+      "path": "SKILL.md",
+      "type": "markdown",
+      "lines": 809,
+      "executable": false,
+      "size_bytes": 30146
+    },
+    {
+      "path": "references/background-multi-project-delegation.md",
+      "type": "markdown",
+      "lines": 66,
+      "executable": false,
+      "size_bytes": 2447
+    },
+    {
+      "path": "references/claude-code-auth-delegation.md",
+      "type": "markdown",
+      "lines": 41,
+      "executable": false,
+      "size_bytes": 1753
+    },
+    {
+      "path": "references/mcp-backed-visual-agent-migration.md",
+      "type": "markdown",
+      "lines": 53,
+      "executable": false,
+      "size_bytes": 3060
+    },
+    {
+      "path": "references/visual-content-pipeline-integration.md",
+      "type": "markdown",
+      "lines": 77,
+      "executable": false,
+      "size_bytes": 4085
+    },
+    {
+      "path": "references/visual-layer-integration.md",
+      "type": "markdown",
+      "lines": 95,
+      "executable": false,
+      "size_bytes": 3595
+    },
+    {
+      "path": "references/vro-phase0-closure.md",
+      "type": "markdown",
+      "lines": 66,
+      "executable": false,
+      "size_bytes": 2841
+    }
+  ],
+  "issues": [
+    {
+      "id": "EA2",
+      "category": "Excessive Agency",
+      "pattern": "Autonomous Decision Making",
+      "severity": "MEDIUM",
+      "confidence": 0.75,
+      "location": {
+        "file": "SKILL.md",
+        "start_line": 379,
+        "end_line": null
+      },
+      "finding": "without approval",
+      "explanation": "Skill enables autonomous high-impact decisions without human-in-the-loop verification. Critical operations (destructive commands, financial transactions, data deletion) should require explicit user confirmation.",
+      "remediation": "Add human-in-the-loop confirmation for destructive, irreversible, or high-impact operations. Never auto-execute commands that modify files, send data, or alter system state.",
+      "code_snippet": "For GROWTHRY/web-3d specifically:\n\n- Read `PROJECT_CONTEXT_AR.md` and `CLAUDE.md` first.\n- Do not redesign the identity without approval.\n- Preserve bilingual `/ar` and `/en` routes unless the task is route-specific.\n- If touching hero/video/3D, preserve asset quality and inspect visually.\n",
+      "intent": null
+    },
+    {
+      "id": "EA2",
+      "category": "Excessive Agency",
+      "pattern": "Autonomous Decision Making",
+      "severity": "MEDIUM",
+      "confidence": 0.85,
+      "location": {
+        "file": "SKILL.md",
+        "start_line": 786,
+        "end_line": null
+      },
+      "finding": "auto-approve",
+      "explanation": "Skill enables autonomous high-impact decisions without human-in-the-loop verification. Critical operations (destructive commands, financial transactions, data deletion) should require explicit user confirmation.",
+      "remediation": "Add human-in-the-loop confirmation for destructive, irreversible, or high-impact operations. Never auto-execute commands that modify files, send data, or alter system state.",
+      "code_snippet": "\n6. **Letting loops accumulate slop.** Add review, verification, and scoped diffs to reduce entropy.\n\n7. **Mixing outer and inner loops.** Outer loops discover/specify; inner loops implement/verify. Do not let an outer loop auto-approve risky work.\n\n8. **Unsafe trading automation.** Proposal/report loops are fine. Live execution loops are forbidden unless Khaled gives explicit written approval and separate safety design exists.\n",
+      "intent": null
+    },
+    {
+      "id": "RA2",
+      "category": "Rogue Agent",
+      "pattern": "Session Persistence",
+      "severity": "MEDIUM",
+      "confidence": 0.6,
+      "location": {
+        "file": "SKILL.md",
+        "start_line": 463,
+        "end_line": null
+      },
+      "finding": "create PROJECT_LOOP.md or add loop section to CLAUDE.md\nStep 2: define stack, commands, routes, tests, safety gates\nStep 3: implement smallest walking skeleton\nStep 4: run build/tests\nStep 5: document",
+      "explanation": "Skill establishes unauthorized persistence across sessions via cron jobs, startup scripts, or state files. Session persistence allows an attacker to maintain access beyond the current interaction.",
+      "remediation": "Remove any persistence mechanisms (cron jobs, startup scripts, state files). Skills should not maintain state across sessions without explicit user consent.",
+      "code_snippet": "When starting a new project, design the execution loop before coding.\n\n```text\nStep 1: create PROJECT_LOOP.md or add loop section to CLAUDE.md\nStep 2: define stack, commands, routes, tests, safety gates\nStep 3: implement smallest walking skeleton\nStep 4: run build/tests",
+      "intent": null
+    },
+    {
+      "id": "P7",
+      "category": "System Prompt Leakage",
+      "pattern": "Indirect Prompt Extraction",
+      "severity": "MEDIUM",
+      "confidence": 0.85,
+      "location": {
+        "file": "SKILL.md",
+        "start_line": 790,
+        "end_line": null
+      },
+      "finding": "encode rules",
+      "explanation": "Skill contains patterns that could indirectly extract system prompts through rephrasing, translation, summarization, or side-channel techniques.",
+      "remediation": "Guard against indirect extraction by refusing to summarize, translate, or rephrase system instructions. Add explicit anti-extraction clauses.",
+      "code_snippet": "\n8. **Unsafe trading automation.** Proposal/report loops are fine. Live execution loops are forbidden unless Khaled gives explicit written approval and separate safety design exists.\n\n9. **Ignoring project context files.** Many projects encode rules in `CLAUDE.md`, `PROJECT_CONTEXT_AR.md`, ADRs, or README. Read them before prompting Claude.\n\n10. **No evidence artifact.** If there is no test output, route, screenshot, diff, report, or log, the loop did not prove completion.\n",
+      "intent": null
+    },
+    {
+      "id": "P6",
+      "category": "System Prompt Leakage",
+      "pattern": "Direct Prompt Extraction",
+      "severity": "HIGH",
+      "confidence": 0.85,
+      "location": {
+        "file": "references/mcp-backed-visual-agent-migration.md",
+        "start_line": 44,
+        "end_line": null
+      },
+      "finding": "output instructions",
+      "explanation": "Skill contains instructions that could directly expose system prompts, internal rules, or hidden instructions to users or external parties.",
+      "remediation": "Remove any instructions that reveal, print, or output system prompts or internal rules. System instructions should never be exposed to end users.",
+      "code_snippet": "\n7. Rename quality gates consistently.\n   - Example: `higgsfield_prompt: passed` \u2192 `open_design_brief: passed`.\n   - Update schema docs, workflow docs, orchestrator checks, and worker output instructions together.\n\n## Verification checklist\n",
+      "intent": null
+    },
+    {
+      "id": "P6",
+      "category": "System Prompt Leakage",
+      "pattern": "Direct Prompt Extraction",
+      "severity": "HIGH",
+      "confidence": 0.85,
+      "location": {
+        "file": "references/visual-layer-integration.md",
+        "start_line": 70,
+        "end_line": null
+      },
+      "finding": "echo prompt",
+      "explanation": "Skill contains instructions that could directly expose system prompts, internal rules, or hidden instructions to users or external parties.",
+      "remediation": "Remove any instructions that reveal, print, or output system prompts or internal rules. System instructions should never be exposed to end users.",
+      "code_snippet": "\n# deterministic QA behavior\npython3 scripts/visual/check_background_prompt.py --text '<valid background-only prompt>'\npython3 scripts/visual/check_background_prompt.py --text '<bad text-rendering prompt>'; echo prompt_fail_exit=$?\npython3 scripts/content_store/check_background_approval_gate.py --asset-ids <known-unapproved-assets>; echo gate_exit=$?\n```\n",
+      "intent": null
+    }
+  ],
+  "metadata": {
+    "has_executable_scripts": false,
+    "skillspector_version": "2.1.4",
+    "llm_requested": false,
+    "llm_available": false
+  }
+}

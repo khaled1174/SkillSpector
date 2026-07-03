@@ -1,0 +1,28 @@
+{
+  "skill": {
+    "name": "hyperagent-design-media-patterns",
+    "source": "/private/tmp/hyperagent-design-media-patterns",
+    "scanned_at": "2026-06-23T16:42:35.333449+00:00"
+  },
+  "risk_assessment": {
+    "score": 0,
+    "severity": "LOW",
+    "recommendation": "SAFE"
+  },
+  "components": [
+    {
+      "path": "SKILL.md",
+      "type": "markdown",
+      "lines": 236,
+      "executable": false,
+      "size_bytes": 9377
+    }
+  ],
+  "issues": [],
+  "metadata": {
+    "has_executable_scripts": false,
+    "skillspector_version": "2.1.4",
+    "llm_requested": false,
+    "llm_available": false
+  }
+}

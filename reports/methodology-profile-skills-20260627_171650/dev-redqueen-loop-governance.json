@@ -1,0 +1,28 @@
+{
+  "skill": {
+    "name": "redqueen-loop-governance",
+    "source": "/Users/khaledmac/.hermes/profiles/dev/skills/software-development/redqueen-loop-governance",
+    "scanned_at": "2026-06-27T14:17:16.232844+00:00"
+  },
+  "risk_assessment": {
+    "score": 0,
+    "severity": "LOW",
+    "recommendation": "SAFE"
+  },
+  "components": [
+    {
+      "path": "SKILL.md",
+      "type": "markdown",
+      "lines": 179,
+      "executable": false,
+      "size_bytes": 7007
+    }
+  ],
+  "issues": [],
+  "metadata": {
+    "has_executable_scripts": false,
+    "skillspector_version": "2.1.4",
+    "llm_requested": false,
+    "llm_available": false
+  }
+}

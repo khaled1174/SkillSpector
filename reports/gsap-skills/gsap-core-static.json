@@ -1,0 +1,28 @@
+{
+  "skill": {
+    "name": "gsap-core",
+    "source": "/private/tmp/gsap-skills-inspect/skills/gsap-core",
+    "scanned_at": "2026-06-19T12:07:11.410816+00:00"
+  },
+  "risk_assessment": {
+    "score": 0,
+    "severity": "LOW",
+    "recommendation": "SAFE"
+  },
+  "components": [
+    {
+      "path": "SKILL.md",
+      "type": "markdown",
+      "lines": 254,
+      "executable": false,
+      "size_bytes": 14792
+    }
+  ],
+  "issues": [],
+  "metadata": {
+    "has_executable_scripts": false,
+    "skillspector_version": "2.1.4",
+    "llm_requested": false,
+    "llm_available": false
+  }
+}

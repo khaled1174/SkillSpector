@@ -1,0 +1,98 @@
+{
+  "skill": {
+    "name": "unknown",
+    "source": "/private/tmp/mece-expanded",
+    "scanned_at": "2026-06-23T03:29:27.116369+00:00"
+  },
+  "risk_assessment": {
+    "score": 0,
+    "severity": "LOW",
+    "recommendation": "SAFE"
+  },
+  "components": [
+    {
+      "path": "SUITE-MAP.md",
+      "type": "markdown",
+      "lines": 48,
+      "executable": false,
+      "size_bytes": 3242
+    },
+    {
+      "path": "behavioral-story-bank/SKILL.md",
+      "type": "markdown",
+      "lines": 55,
+      "executable": false,
+      "size_bytes": 4153
+    },
+    {
+      "path": "behavioral-story-bank/references/story-template-and-competency-map.md",
+      "type": "markdown",
+      "lines": 59,
+      "executable": false,
+      "size_bytes": 3332
+    },
+    {
+      "path": "cognitive-fluency-daily/SKILL.md",
+      "type": "markdown",
+      "lines": 47,
+      "executable": false,
+      "size_bytes": 3441
+    },
+    {
+      "path": "leadership-assessment-readiness/SKILL.md",
+      "type": "markdown",
+      "lines": 113,
+      "executable": false,
+      "size_bytes": 11324
+    },
+    {
+      "path": "leadership-assessment-readiness/references/cognitive-drill-bank.md",
+      "type": "markdown",
+      "lines": 93,
+      "executable": false,
+      "size_bytes": 5846
+    },
+    {
+      "path": "leadership-assessment-readiness/references/leadership-profile-worksheet.md",
+      "type": "markdown",
+      "lines": 77,
+      "executable": false,
+      "size_bytes": 5430
+    },
+    {
+      "path": "roleplay-rehearsal/SKILL.md",
+      "type": "markdown",
+      "lines": 43,
+      "executable": false,
+      "size_bytes": 3906
+    },
+    {
+      "path": "roleplay-rehearsal/references/scenario-library-and-rubric.md",
+      "type": "markdown",
+      "lines": 45,
+      "executable": false,
+      "size_bytes": 2937
+    },
+    {
+      "path": "situational-judgment-coach/SKILL.md",
+      "type": "markdown",
+      "lines": 48,
+      "executable": false,
+      "size_bytes": 4418
+    },
+    {
+      "path": "situational-judgment-coach/references/decision-frameworks-and-scenarios.md",
+      "type": "markdown",
+      "lines": 49,
+      "executable": false,
+      "size_bytes": 3000
+    }
+  ],
+  "issues": [],
+  "metadata": {
+    "has_executable_scripts": false,
+    "skillspector_version": "2.1.4",
+    "llm_requested": false,
+    "llm_available": false
+  }
+}

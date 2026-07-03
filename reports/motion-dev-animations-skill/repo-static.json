@@ -1,0 +1,203 @@
+{
+  "skill": {
+    "name": "motion-dev-animations",
+    "source": "/private/tmp/motion-dev-animations-skill-inspect",
+    "scanned_at": "2026-06-19T12:11:17.795393+00:00"
+  },
+  "risk_assessment": {
+    "score": 19,
+    "severity": "LOW",
+    "recommendation": "SAFE"
+  },
+  "components": [
+    {
+      "path": "ACTIVATION_TEST.md",
+      "type": "markdown",
+      "lines": 302,
+      "executable": false,
+      "size_bytes": 9668
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "type": "markdown",
+      "lines": 62,
+      "executable": false,
+      "size_bytes": 2126
+    },
+    {
+      "path": "DEPLOYMENT_STATUS.md",
+      "type": "markdown",
+      "lines": 296,
+      "executable": false,
+      "size_bytes": 9775
+    },
+    {
+      "path": "LICENSE",
+      "type": "other",
+      "lines": 21,
+      "executable": false,
+      "size_bytes": 1076
+    },
+    {
+      "path": "README.md",
+      "type": "markdown",
+      "lines": 160,
+      "executable": false,
+      "size_bytes": 7941
+    },
+    {
+      "path": "RESEARCH_SYNTHESIS.md",
+      "type": "markdown",
+      "lines": 522,
+      "executable": false,
+      "size_bytes": 13728
+    },
+    {
+      "path": "SKILL.md",
+      "type": "markdown",
+      "lines": 264,
+      "executable": false,
+      "size_bytes": 11328
+    },
+    {
+      "path": "SKILL.md.backup",
+      "type": "other",
+      "lines": 468,
+      "executable": false,
+      "size_bytes": 15439
+    },
+    {
+      "path": "VALIDATION_V3.md",
+      "type": "markdown",
+      "lines": 504,
+      "executable": false,
+      "size_bytes": 17164
+    },
+    {
+      "path": "examples/card-hover.md",
+      "type": "markdown",
+      "lines": 352,
+      "executable": false,
+      "size_bytes": 7291
+    },
+    {
+      "path": "examples/example-config.json",
+      "type": "json",
+      "lines": 33,
+      "executable": false,
+      "size_bytes": 631
+    },
+    {
+      "path": "examples/hero-fade-up.md",
+      "type": "markdown",
+      "lines": 174,
+      "executable": false,
+      "size_bytes": 4223
+    },
+    {
+      "path": "examples/magnetic-button.md",
+      "type": "markdown",
+      "lines": 367,
+      "executable": false,
+      "size_bytes": 9167
+    },
+    {
+      "path": "examples/parallax-layers.md",
+      "type": "markdown",
+      "lines": 362,
+      "executable": false,
+      "size_bytes": 9452
+    },
+    {
+      "path": "examples/scroll-reveal.md",
+      "type": "markdown",
+      "lines": 329,
+      "executable": false,
+      "size_bytes": 7006
+    },
+    {
+      "path": "reference/api-reference.md",
+      "type": "markdown",
+      "lines": 526,
+      "executable": false,
+      "size_bytes": 9323
+    },
+    {
+      "path": "reference/spring-physics.md",
+      "type": "markdown",
+      "lines": 390,
+      "executable": false,
+      "size_bytes": 7062
+    },
+    {
+      "path": "schema/motion-config.schema.json",
+      "type": "json",
+      "lines": 203,
+      "executable": false,
+      "size_bytes": 6289
+    },
+    {
+      "path": "scripts/validate_motion_config.py",
+      "type": "python",
+      "lines": 172,
+      "executable": true,
+      "size_bytes": 4881
+    },
+    {
+      "path": "templates/component-library.tsx",
+      "type": "other",
+      "lines": 409,
+      "executable": false,
+      "size_bytes": 10423
+    },
+    {
+      "path": "templates/nextjs-page.tsx",
+      "type": "other",
+      "lines": 283,
+      "executable": false,
+      "size_bytes": 7467
+    }
+  ],
+  "issues": [
+    {
+      "id": "EA3",
+      "category": "Excessive Agency",
+      "pattern": "Scope Creep",
+      "severity": "LOW",
+      "confidence": 0.7,
+      "location": {
+        "file": "LICENSE",
+        "start_line": 16,
+        "end_line": null
+      },
+      "finding": "NOT LIMITED TO",
+      "explanation": "Skill's behavior or capabilities extend beyond its stated purpose. Scope creep allows an agent to perform actions unrelated to its documented functionality, increasing the attack surface.",
+      "remediation": "Limit the skill's scope to its documented purpose. Remove instructions that enable the agent to perform actions outside its stated functionality.",
+      "code_snippet": "copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,",
+      "intent": null
+    },
+    {
+      "id": "RA2",
+      "category": "Rogue Agent",
+      "pattern": "Session Persistence",
+      "severity": "MEDIUM",
+      "confidence": 0.6,
+      "location": {
+        "file": "DEPLOYMENT_STATUS.md",
+        "start_line": 247,
+        "end_line": null
+      },
+      "finding": "Create a hero section with fade up animation\"\n\n# Test 3: Technical keyword\n\"I need whileInView effects for React\"\n\n# Test 4: Exclusion test\n\"Just add CSS transition to this div\"\n# (Should NOT activate",
+      "explanation": "Skill establishes unauthorized persistence across sessions via cron jobs, startup scripts, or state files. Session persistence allows an attacker to maintain access beyond the current interaction.",
+      "remediation": "Remove any persistence mechanisms (cron jobs, startup scripts, state files). Skills should not maintain state across sessions without explicit user consent.",
+      "code_snippet": "\"Add animations to my Next.js app\"\n\n# Test 2: Specific feature\n\"Create a hero section with fade up animation\"\n\n# Test 3: Technical keyword\n\"I need whileInView effects for React\"",
+      "intent": null
+    }
+  ],
+  "metadata": {
+    "has_executable_scripts": true,
+    "skillspector_version": "2.1.4",
+    "llm_requested": false,
+    "llm_available": false
+  }
+}

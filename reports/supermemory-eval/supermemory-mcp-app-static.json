@@ -1,0 +1,646 @@
+{
+  "skill": {
+    "name": "unknown",
+    "source": "/Users/khaledmac/project/supermemory-eval/supermemory/apps/mcp",
+    "scanned_at": "2026-07-01T14:12:31.127201+00:00"
+  },
+  "risk_assessment": {
+    "score": 100,
+    "severity": "CRITICAL",
+    "recommendation": "DO_NOT_INSTALL"
+  },
+  "components": [
+    {
+      "path": "README.md",
+      "type": "markdown",
+      "lines": 257,
+      "executable": false,
+      "size_bytes": 8856
+    },
+    {
+      "path": "e2e/auth.test.ts",
+      "type": "typescript",
+      "lines": 65,
+      "executable": true,
+      "size_bytes": 1996
+    },
+    {
+      "path": "e2e/capture-oauth-token.ts",
+      "type": "typescript",
+      "lines": 103,
+      "executable": true,
+      "size_bytes": 3073
+    },
+    {
+      "path": "e2e/discovery.test.ts",
+      "type": "typescript",
+      "lines": 52,
+      "executable": true,
+      "size_bytes": 1502
+    },
+    {
+      "path": "e2e/graph.test.ts",
+      "type": "typescript",
+      "lines": 59,
+      "executable": true,
+      "size_bytes": 1943
+    },
+    {
+      "path": "e2e/helpers.ts",
+      "type": "typescript",
+      "lines": 186,
+      "executable": true,
+      "size_bytes": 5567
+    },
+    {
+      "path": "e2e/memory.test.ts",
+      "type": "typescript",
+      "lines": 127,
+      "executable": true,
+      "size_bytes": 4198
+    },
+    {
+      "path": "e2e/oauth.test.ts",
+      "type": "typescript",
+      "lines": 126,
+      "executable": true,
+      "size_bytes": 4200
+    },
+    {
+      "path": "e2e/root-scope.test.ts",
+      "type": "typescript",
+      "lines": 80,
+      "executable": true,
+      "size_bytes": 2591
+    },
+    {
+      "path": "mcp-app.html",
+      "type": "other",
+      "lines": 95,
+      "executable": false,
+      "size_bytes": 3669
+    },
+    {
+      "path": "package.json",
+      "type": "json",
+      "lines": 34,
+      "executable": false,
+      "size_bytes": 1013
+    },
+    {
+      "path": "pnpm-lock.yaml",
+      "type": "yaml",
+      "lines": 3480,
+      "executable": false,
+      "size_bytes": 109784
+    },
+    {
+      "path": "src/auth.ts",
+      "type": "typescript",
+      "lines": 162,
+      "executable": true,
+      "size_bytes": 3875
+    },
+    {
+      "path": "src/client.ts",
+      "type": "typescript",
+      "lines": 460,
+      "executable": true,
+      "size_bytes": 11342
+    },
+    {
+      "path": "src/format.ts",
+      "type": "typescript",
+      "lines": 157,
+      "executable": true,
+      "size_bytes": 4784
+    },
+    {
+      "path": "src/html.d.ts",
+      "type": "typescript",
+      "lines": 4,
+      "executable": true,
+      "size_bytes": 75
+    },
+    {
+      "path": "src/index.ts",
+      "type": "typescript",
+      "lines": 201,
+      "executable": true,
+      "size_bytes": 5477
+    },
+    {
+      "path": "src/posthog.ts",
+      "type": "typescript",
+      "lines": 135,
+      "executable": true,
+      "size_bytes": 2585
+    },
+    {
+      "path": "src/server.ts",
+      "type": "typescript",
+      "lines": 778,
+      "executable": true,
+      "size_bytes": 20322
+    },
+    {
+      "path": "src/ui/global.css",
+      "type": "other",
+      "lines": 46,
+      "executable": false,
+      "size_bytes": 753
+    },
+    {
+      "path": "src/ui/mcp-app.css",
+      "type": "other",
+      "lines": 303,
+      "executable": false,
+      "size_bytes": 5177
+    },
+    {
+      "path": "src/ui/mcp-app.ts",
+      "type": "typescript",
+      "lines": 934,
+      "executable": true,
+      "size_bytes": 27136
+    },
+    {
+      "path": "tsconfig.json",
+      "type": "json",
+      "lines": 22,
+      "executable": false,
+      "size_bytes": 451
+    },
+    {
+      "path": "vite.config.ts",
+      "type": "typescript",
+      "lines": 13,
+      "executable": true,
+      "size_bytes": 260
+    },
+    {
+      "path": "vitest.config.ts",
+      "type": "typescript",
+      "lines": 9,
+      "executable": true,
+      "size_bytes": 171
+    },
+    {
+      "path": "wrangler.jsonc",
+      "type": "other",
+      "lines": 42,
+      "executable": false,
+      "size_bytes": 747
+    }
+  ],
+  "issues": [
+    {
+      "id": "PE3",
+      "category": "Privilege Escalation",
+      "pattern": "Credential Access",
+      "severity": "HIGH",
+      "confidence": 0.7,
+      "location": {
+        "file": "README.md",
+        "start_line": 190,
+        "end_line": null
+      },
+      "finding": "access token",
+      "explanation": "Code accesses credential files (SSH keys, AWS credentials, etc.). This could indicate credential theft attempts.",
+      "remediation": "Remove references to credential paths. Use environment variables or secrets managers. For docs, use placeholder paths (e.g., /path/to/config). Never load .env or token files in production code paths.",
+      "code_snippet": "| File | Covers |\n|------|--------|\n| `e2e/auth.test.ts` | `GET /` info, OAuth discovery, 401 on missing/invalid token (runs without a key) |\n| `e2e/oauth.test.ts` | OAuth discovery chain, dynamic client registration, token-endpoint negatives, real refresh\u2192access token round-trip |\n| `e2e/discovery.test.ts` | handshake, tools/resources/prompts listing, `whoAmI`, `listProjects` |\n| `e2e/memory.test.ts` | save\u2192recall round-trip, profile variants, `forget`, container scoping, bad args |\n| `e2e/root-scope.test.ts` | `x-sm-project` header strips the `containerTag` param and scopes the whole connection |",
+      "intent": null
+    },
+    {
+      "id": "PE3",
+      "category": "Privilege Escalation",
+      "pattern": "Credential Access",
+      "severity": "HIGH",
+      "confidence": 0.7,
+      "location": {
+        "file": "e2e/oauth.test.ts",
+        "start_line": 115,
+        "end_line": null
+      },
+      "finding": "access token",
+      "explanation": "Code accesses credential files (SSH keys, AWS credentials, etc.). This could indicate credential theft attempts.",
+      "remediation": "Remove references to credential paths. Use environment variables or secrets managers. For docs, use placeholder paths (e.g., /path/to/config). Never load .env or token files in production code paths.",
+      "code_snippet": "\t\t\tawait s?.close()\n\t\t})\n\n\t\tit(\"mints an OAuth access token that is not an sm_ API key\", () => {\n\t\t\texpect(accessToken.startsWith(\"sm_\")).toBe(false)\n\t\t})\n",
+      "intent": null
+    },
+    {
+      "id": "SC1",
+      "category": "Supply Chain",
+      "pattern": "Unpinned Dependencies",
+      "severity": "LOW",
+      "confidence": 0.4,
+      "location": {
+        "file": "package.json",
+        "start_line": 15,
+        "end_line": null
+      },
+      "finding": "\"@cloudflare/workers-oauth-provider\": \"^0.2.2\"",
+      "explanation": "Dependencies lack version pinning, allowing potential malicious package updates. Consider pinning versions.",
+      "remediation": "Pin all dependency versions in requirements.txt or pyproject.toml. Use exact versions (==) or compatible ranges. Run pip-audit regularly.",
+      "code_snippet": "    \"test:e2e\": \"vitest run\"\n  },\n  \"dependencies\": {\n    \"@cloudflare/workers-oauth-provider\": \"^0.2.2\",\n    \"@modelcontextprotocol/ext-apps\": \"^1.0.0\",\n    \"@modelcontextprotocol/sdk\": \"^1.25.2\",\n    \"agents\": \"^0.3.5\",",
+      "intent": null
+    },
+    {
+      "id": "SC1",
+      "category": "Supply Chain",
+      "pattern": "Unpinned Dependencies",
+      "severity": "LOW",
+      "confidence": 0.4,
+      "location": {
+        "file": "package.json",
+        "start_line": 16,
+        "end_line": null
+      },
+      "finding": "\"@modelcontextprotocol/ext-apps\": \"^1.0.0\"",
+      "explanation": "Dependencies lack version pinning, allowing potential malicious package updates. Consider pinning versions.",
+      "remediation": "Pin all dependency versions in requirements.txt or pyproject.toml. Use exact versions (==) or compatible ranges. Run pip-audit regularly.",
+      "code_snippet": "  },\n  \"dependencies\": {\n    \"@cloudflare/workers-oauth-provider\": \"^0.2.2\",\n    \"@modelcontextprotocol/ext-apps\": \"^1.0.0\",\n    \"@modelcontextprotocol/sdk\": \"^1.25.2\",\n    \"agents\": \"^0.3.5\",\n    \"hono\": \"^4.11.1\",",
+      "intent": null
+    },
+    {
+      "id": "SC1",
+      "category": "Supply Chain",
+      "pattern": "Unpinned Dependencies",
+      "severity": "LOW",
+      "confidence": 0.4,
+      "location": {
+        "file": "package.json",
+        "start_line": 17,
+        "end_line": null
+      },
+      "finding": "\"@modelcontextprotocol/sdk\": \"^1.25.2\"",
+      "explanation": "Dependencies lack version pinning, allowing potential malicious package updates. Consider pinning versions.",
+      "remediation": "Pin all dependency versions in requirements.txt or pyproject.toml. Use exact versions (==) or compatible ranges. Run pip-audit regularly.",
+      "code_snippet": "  \"dependencies\": {\n    \"@cloudflare/workers-oauth-provider\": \"^0.2.2\",\n    \"@modelcontextprotocol/ext-apps\": \"^1.0.0\",\n    \"@modelcontextprotocol/sdk\": \"^1.25.2\",\n    \"agents\": \"^0.3.5\",\n    \"hono\": \"^4.11.1\",\n    \"posthog-node\": \"^5.18.0\",",
+      "intent": null
+    },
+    {
+      "id": "SC1",
+      "category": "Supply Chain",
+      "pattern": "Unpinned Dependencies",
+      "severity": "LOW",
+      "confidence": 0.4,
+      "location": {
+        "file": "package.json",
+        "start_line": 18,
+        "end_line": null
+      },
+      "finding": "\"agents\": \"^0.3.5\"",
+      "explanation": "Dependencies lack version pinning, allowing potential malicious package updates. Consider pinning versions.",
+      "remediation": "Pin all dependency versions in requirements.txt or pyproject.toml. Use exact versions (==) or compatible ranges. Run pip-audit regularly.",
+      "code_snippet": "    \"@cloudflare/workers-oauth-provider\": \"^0.2.2\",\n    \"@modelcontextprotocol/ext-apps\": \"^1.0.0\",\n    \"@modelcontextprotocol/sdk\": \"^1.25.2\",\n    \"agents\": \"^0.3.5\",\n    \"hono\": \"^4.11.1\",\n    \"posthog-node\": \"^5.18.0\",\n    \"supermemory\": \"^4.0.0\",",
+      "intent": null
+    },
+    {
+      "id": "SC1",
+      "category": "Supply Chain",
+      "pattern": "Unpinned Dependencies",
+      "severity": "LOW",
+      "confidence": 0.4,
+      "location": {
+        "file": "package.json",
+        "start_line": 19,
+        "end_line": null
+      },
+      "finding": "\"hono\": \"^4.11.1\"",
+      "explanation": "Dependencies lack version pinning, allowing potential malicious package updates. Consider pinning versions.",
+      "remediation": "Pin all dependency versions in requirements.txt or pyproject.toml. Use exact versions (==) or compatible ranges. Run pip-audit regularly.",
+      "code_snippet": "    \"@modelcontextprotocol/ext-apps\": \"^1.0.0\",\n    \"@modelcontextprotocol/sdk\": \"^1.25.2\",\n    \"agents\": \"^0.3.5\",\n    \"hono\": \"^4.11.1\",\n    \"posthog-node\": \"^5.18.0\",\n    \"supermemory\": \"^4.0.0\",\n    \"zod\": \"^3.25.76\"",
+      "intent": null
+    },
+    {
+      "id": "SC1",
+      "category": "Supply Chain",
+      "pattern": "Unpinned Dependencies",
+      "severity": "LOW",
+      "confidence": 0.4,
+      "location": {
+        "file": "package.json",
+        "start_line": 20,
+        "end_line": null
+      },
+      "finding": "\"posthog-node\": \"^5.18.0\"",
+      "explanation": "Dependencies lack version pinning, allowing potential malicious package updates. Consider pinning versions.",
+      "remediation": "Pin all dependency versions in requirements.txt or pyproject.toml. Use exact versions (==) or compatible ranges. Run pip-audit regularly.",
+      "code_snippet": "    \"@modelcontextprotocol/sdk\": \"^1.25.2\",\n    \"agents\": \"^0.3.5\",\n    \"hono\": \"^4.11.1\",\n    \"posthog-node\": \"^5.18.0\",\n    \"supermemory\": \"^4.0.0\",\n    \"zod\": \"^3.25.76\"\n  },",
+      "intent": null
+    },
+    {
+      "id": "SC1",
+      "category": "Supply Chain",
+      "pattern": "Unpinned Dependencies",
+      "severity": "LOW",
+      "confidence": 0.4,
+      "location": {
+        "file": "package.json",
+        "start_line": 21,
+        "end_line": null
+      },
+      "finding": "\"supermemory\": \"^4.0.0\"",
+      "explanation": "Dependencies lack version pinning, allowing potential malicious package updates. Consider pinning versions.",
+      "remediation": "Pin all dependency versions in requirements.txt or pyproject.toml. Use exact versions (==) or compatible ranges. Run pip-audit regularly.",
+      "code_snippet": "    \"agents\": \"^0.3.5\",\n    \"hono\": \"^4.11.1\",\n    \"posthog-node\": \"^5.18.0\",\n    \"supermemory\": \"^4.0.0\",\n    \"zod\": \"^3.25.76\"\n  },\n  \"devDependencies\": {",
+      "intent": null
+    },
+    {
+      "id": "SC1",
+      "category": "Supply Chain",
+      "pattern": "Unpinned Dependencies",
+      "severity": "LOW",
+      "confidence": 0.4,
+      "location": {
+        "file": "package.json",
+        "start_line": 22,
+        "end_line": null
+      },
+      "finding": "\"zod\": \"^3.25.76\"",
+      "explanation": "Dependencies lack version pinning, allowing potential malicious package updates. Consider pinning versions.",
+      "remediation": "Pin all dependency versions in requirements.txt or pyproject.toml. Use exact versions (==) or compatible ranges. Run pip-audit regularly.",
+      "code_snippet": "    \"hono\": \"^4.11.1\",\n    \"posthog-node\": \"^5.18.0\",\n    \"supermemory\": \"^4.0.0\",\n    \"zod\": \"^3.25.76\"\n  },\n  \"devDependencies\": {\n    \"@cloudflare/workers-types\": \"^4.20250620.0\",",
+      "intent": null
+    },
+    {
+      "id": "SC1",
+      "category": "Supply Chain",
+      "pattern": "Unpinned Dependencies",
+      "severity": "LOW",
+      "confidence": 0.4,
+      "location": {
+        "file": "package.json",
+        "start_line": 25,
+        "end_line": null
+      },
+      "finding": "\"@cloudflare/workers-types\": \"^4.20250620.0\"",
+      "explanation": "Dependencies lack version pinning, allowing potential malicious package updates. Consider pinning versions.",
+      "remediation": "Pin all dependency versions in requirements.txt or pyproject.toml. Use exact versions (==) or compatible ranges. Run pip-audit regularly.",
+      "code_snippet": "    \"zod\": \"^3.25.76\"\n  },\n  \"devDependencies\": {\n    \"@cloudflare/workers-types\": \"^4.20250620.0\",\n    \"d3-force-3d\": \"^3.0.5\",\n    \"force-graph\": \"^1.49.0\",\n    \"typescript\": \"^5.8.3\",",
+      "intent": null
+    },
+    {
+      "id": "SC1",
+      "category": "Supply Chain",
+      "pattern": "Unpinned Dependencies",
+      "severity": "LOW",
+      "confidence": 0.4,
+      "location": {
+        "file": "package.json",
+        "start_line": 26,
+        "end_line": null
+      },
+      "finding": "\"d3-force-3d\": \"^3.0.5\"",
+      "explanation": "Dependencies lack version pinning, allowing potential malicious package updates. Consider pinning versions.",
+      "remediation": "Pin all dependency versions in requirements.txt or pyproject.toml. Use exact versions (==) or compatible ranges. Run pip-audit regularly.",
+      "code_snippet": "  },\n  \"devDependencies\": {\n    \"@cloudflare/workers-types\": \"^4.20250620.0\",\n    \"d3-force-3d\": \"^3.0.5\",\n    \"force-graph\": \"^1.49.0\",\n    \"typescript\": \"^5.8.3\",\n    \"vite\": \"^6.0.0\",",
+      "intent": null
+    },
+    {
+      "id": "SC1",
+      "category": "Supply Chain",
+      "pattern": "Unpinned Dependencies",
+      "severity": "LOW",
+      "confidence": 0.4,
+      "location": {
+        "file": "package.json",
+        "start_line": 27,
+        "end_line": null
+      },
+      "finding": "\"force-graph\": \"^1.49.0\"",
+      "explanation": "Dependencies lack version pinning, allowing potential malicious package updates. Consider pinning versions.",
+      "remediation": "Pin all dependency versions in requirements.txt or pyproject.toml. Use exact versions (==) or compatible ranges. Run pip-audit regularly.",
+      "code_snippet": "  \"devDependencies\": {\n    \"@cloudflare/workers-types\": \"^4.20250620.0\",\n    \"d3-force-3d\": \"^3.0.5\",\n    \"force-graph\": \"^1.49.0\",\n    \"typescript\": \"^5.8.3\",\n    \"vite\": \"^6.0.0\",\n    \"vite-plugin-singlefile\": \"^2.3.0\",",
+      "intent": null
+    },
+    {
+      "id": "SC1",
+      "category": "Supply Chain",
+      "pattern": "Unpinned Dependencies",
+      "severity": "LOW",
+      "confidence": 0.4,
+      "location": {
+        "file": "package.json",
+        "start_line": 28,
+        "end_line": null
+      },
+      "finding": "\"typescript\": \"^5.8.3\"",
+      "explanation": "Dependencies lack version pinning, allowing potential malicious package updates. Consider pinning versions.",
+      "remediation": "Pin all dependency versions in requirements.txt or pyproject.toml. Use exact versions (==) or compatible ranges. Run pip-audit regularly.",
+      "code_snippet": "    \"@cloudflare/workers-types\": \"^4.20250620.0\",\n    \"d3-force-3d\": \"^3.0.5\",\n    \"force-graph\": \"^1.49.0\",\n    \"typescript\": \"^5.8.3\",\n    \"vite\": \"^6.0.0\",\n    \"vite-plugin-singlefile\": \"^2.3.0\",\n    \"vitest\": \"^3.2.4\",",
+      "intent": null
+    },
+    {
+      "id": "SC1",
+      "category": "Supply Chain",
+      "pattern": "Unpinned Dependencies",
+      "severity": "LOW",
+      "confidence": 0.4,
+      "location": {
+        "file": "package.json",
+        "start_line": 29,
+        "end_line": null
+      },
+      "finding": "\"vite\": \"^6.0.0\"",
+      "explanation": "Dependencies lack version pinning, allowing potential malicious package updates. Consider pinning versions.",
+      "remediation": "Pin all dependency versions in requirements.txt or pyproject.toml. Use exact versions (==) or compatible ranges. Run pip-audit regularly.",
+      "code_snippet": "    \"d3-force-3d\": \"^3.0.5\",\n    \"force-graph\": \"^1.49.0\",\n    \"typescript\": \"^5.8.3\",\n    \"vite\": \"^6.0.0\",\n    \"vite-plugin-singlefile\": \"^2.3.0\",\n    \"vitest\": \"^3.2.4\",\n    \"wrangler\": \"^4.4.0\"",
+      "intent": null
+    },
+    {
+      "id": "SC1",
+      "category": "Supply Chain",
+      "pattern": "Unpinned Dependencies",
+      "severity": "LOW",
+      "confidence": 0.4,
+      "location": {
+        "file": "package.json",
+        "start_line": 30,
+        "end_line": null
+      },
+      "finding": "\"vite-plugin-singlefile\": \"^2.3.0\"",
+      "explanation": "Dependencies lack version pinning, allowing potential malicious package updates. Consider pinning versions.",
+      "remediation": "Pin all dependency versions in requirements.txt or pyproject.toml. Use exact versions (==) or compatible ranges. Run pip-audit regularly.",
+      "code_snippet": "    \"force-graph\": \"^1.49.0\",\n    \"typescript\": \"^5.8.3\",\n    \"vite\": \"^6.0.0\",\n    \"vite-plugin-singlefile\": \"^2.3.0\",\n    \"vitest\": \"^3.2.4\",\n    \"wrangler\": \"^4.4.0\"\n  }",
+      "intent": null
+    },
+    {
+      "id": "SC1",
+      "category": "Supply Chain",
+      "pattern": "Unpinned Dependencies",
+      "severity": "LOW",
+      "confidence": 0.4,
+      "location": {
+        "file": "package.json",
+        "start_line": 31,
+        "end_line": null
+      },
+      "finding": "\"vitest\": \"^3.2.4\"",
+      "explanation": "Dependencies lack version pinning, allowing potential malicious package updates. Consider pinning versions.",
+      "remediation": "Pin all dependency versions in requirements.txt or pyproject.toml. Use exact versions (==) or compatible ranges. Run pip-audit regularly.",
+      "code_snippet": "    \"typescript\": \"^5.8.3\",\n    \"vite\": \"^6.0.0\",\n    \"vite-plugin-singlefile\": \"^2.3.0\",\n    \"vitest\": \"^3.2.4\",\n    \"wrangler\": \"^4.4.0\"\n  }\n}",
+      "intent": null
+    },
+    {
+      "id": "SC1",
+      "category": "Supply Chain",
+      "pattern": "Unpinned Dependencies",
+      "severity": "LOW",
+      "confidence": 0.4,
+      "location": {
+        "file": "package.json",
+        "start_line": 32,
+        "end_line": null
+      },
+      "finding": "\"wrangler\": \"^4.4.0\"",
+      "explanation": "Dependencies lack version pinning, allowing potential malicious package updates. Consider pinning versions.",
+      "remediation": "Pin all dependency versions in requirements.txt or pyproject.toml. Use exact versions (==) or compatible ranges. Run pip-audit regularly.",
+      "code_snippet": "    \"vite\": \"^6.0.0\",\n    \"vite-plugin-singlefile\": \"^2.3.0\",\n    \"vitest\": \"^3.2.4\",\n    \"wrangler\": \"^4.4.0\"\n  }\n}",
+      "intent": null
+    },
+    {
+      "id": "SC4",
+      "category": "Supply Chain",
+      "pattern": "Known Vulnerable Dependency: @modelcontextprotocol/sdk==1.25.2 \u2014 1 advisory(ies): CVE-2026-25536 (@modelcontextprotocol/sdk has cross-client data leak via shared server/transport)",
+      "severity": "HIGH",
+      "confidence": 0.8,
+      "location": {
+        "file": "package.json",
+        "start_line": 17,
+        "end_line": null
+      },
+      "finding": "@modelcontextprotocol/sdk==1.25.2",
+      "explanation": "Dependency has known vulnerabilities (CVEs). Using packages with unpatched security flaws exposes the environment to known exploits.",
+      "remediation": "Update the dependency to a patched version that addresses the known CVE. Check OSV (osv.dev) or NVD for details on the vulnerability.",
+      "code_snippet": null,
+      "intent": null
+    },
+    {
+      "id": "SC4",
+      "category": "Supply Chain",
+      "pattern": "Known Vulnerable Dependency: agents==0.3.5 \u2014 3 advisory(ies): CVE-2026-1721 (Cloudflare Agents is Vulnerable to Reflected Cross-Site Scripting in the AI Play); CVE-2026-1664 (Cloudflare Agents SDK has Insecure Direct Object Reference (IDOR) via Header-Bas); GHSA-w5cr-2qhr-jqc5 (Cloudflare Agents has a Reflected Cross-Site Scripting (XSS) vulnerability in AI)",
+      "severity": "LOW",
+      "confidence": 0.6,
+      "location": {
+        "file": "package.json",
+        "start_line": 18,
+        "end_line": null
+      },
+      "finding": "agents==0.3.5",
+      "explanation": "Dependency has known vulnerabilities (CVEs). Using packages with unpatched security flaws exposes the environment to known exploits.",
+      "remediation": "Update the dependency to a patched version that addresses the known CVE. Check OSV (osv.dev) or NVD for details on the vulnerability.",
+      "code_snippet": null,
+      "intent": null
+    },
+    {
+      "id": "SC4",
+      "category": "Supply Chain",
+      "pattern": "Known Vulnerable Dependency: hono==4.11.1 \u2014 10 advisory(ies): GHSA-26pp-8wgv-hjvm (Hono missing validation of cookie name on write path in setCookie()); CVE-2026-47676 (Hono: app.mount() strips mount prefix using undecoded path, causing incorrect ro); CVE-2026-47675 (Hono: Cookie helper does not sanitize sameSite and priority, allowing Set-Cookie) +7 more",
+      "severity": "HIGH",
+      "confidence": 0.8,
+      "location": {
+        "file": "package.json",
+        "start_line": 19,
+        "end_line": null
+      },
+      "finding": "hono==4.11.1",
+      "explanation": "Dependency has known vulnerabilities (CVEs). Using packages with unpatched security flaws exposes the environment to known exploits.",
+      "remediation": "Update the dependency to a patched version that addresses the known CVE. Check OSV (osv.dev) or NVD for details on the vulnerability.",
+      "code_snippet": null,
+      "intent": null
+    },
+    {
+      "id": "SC4",
+      "category": "Supply Chain",
+      "pattern": "Known Vulnerable Dependency: vite==6.0.0 \u2014 10 advisory(ies): CVE-2025-32395 (Vite has an `server.fs.deny` bypass with an invalid `request-target`); CVE-2025-31125 (Vite has a `server.fs.deny` bypassed for `inline` and `raw` with `?import` query); CVE-2026-39365 (Vite Vulnerable to Path Traversal in Optimized Deps `.map` Handling) +7 more",
+      "severity": "HIGH",
+      "confidence": 0.8,
+      "location": {
+        "file": "package.json",
+        "start_line": 29,
+        "end_line": null
+      },
+      "finding": "vite==6.0.0",
+      "explanation": "Dependency has known vulnerabilities (CVEs). Using packages with unpatched security flaws exposes the environment to known exploits.",
+      "remediation": "Update the dependency to a patched version that addresses the known CVE. Check OSV (osv.dev) or NVD for details on the vulnerability.",
+      "code_snippet": null,
+      "intent": null
+    },
+    {
+      "id": "SC4",
+      "category": "Supply Chain",
+      "pattern": "Known Vulnerable Dependency: vitest==3.2.4 \u2014 1 advisory(ies): CVE-2026-47429 (When Vitest UI server is listening, arbitrary file can be read and executed)",
+      "severity": "CRITICAL",
+      "confidence": 0.9,
+      "location": {
+        "file": "package.json",
+        "start_line": 31,
+        "end_line": null
+      },
+      "finding": "vitest==3.2.4",
+      "explanation": "Dependency has known vulnerabilities (CVEs). Using packages with unpatched security flaws exposes the environment to known exploits.",
+      "remediation": "Update the dependency to a patched version that addresses the known CVE. Check OSV (osv.dev) or NVD for details on the vulnerability.",
+      "code_snippet": null,
+      "intent": null
+    },
+    {
+      "id": "SC4",
+      "category": "Supply Chain",
+      "pattern": "Known Vulnerable Dependency: wrangler==4.4.0 \u2014 1 advisory(ies): CVE-2026-0933 (Wrangler affected by OS Command Injection in `wrangler pages deploy`)",
+      "severity": "HIGH",
+      "confidence": 0.8,
+      "location": {
+        "file": "package.json",
+        "start_line": 32,
+        "end_line": null
+      },
+      "finding": "wrangler==4.4.0",
+      "explanation": "Dependency has known vulnerabilities (CVEs). Using packages with unpatched security flaws exposes the environment to known exploits.",
+      "remediation": "Update the dependency to a patched version that addresses the known CVE. Check OSV (osv.dev) or NVD for details on the vulnerability.",
+      "code_snippet": null,
+      "intent": null
+    },
+    {
+      "id": "SC6",
+      "category": "Supply Chain",
+      "pattern": "Possible Typosquatting: 'vite' resembles popular package 'vue'",
+      "severity": "HIGH",
+      "confidence": 0.7,
+      "location": {
+        "file": "package.json",
+        "start_line": 29,
+        "end_line": null
+      },
+      "finding": "vite",
+      "explanation": "Package name closely resembles a popular package, suggesting possible typosquatting. Attackers publish malicious packages with similar names to trick developers into installing them.",
+      "remediation": "Verify the package name is correct and not a typosquatting variant. Compare against the official package name on PyPI or npm.",
+      "code_snippet": null,
+      "intent": null
+    },
+    {
+      "id": "TM1",
+      "category": "Tool Misuse",
+      "pattern": "Tool Parameter Abuse",
+      "severity": "HIGH",
+      "confidence": 0.85,
+      "location": {
+        "file": "pnpm-lock.yaml",
+        "start_line": 418,
+        "end_line": null
+      },
+      "finding": "rm0YWsqUSRrjncSXGA7Zv78Nbnw4XL6/",
+      "explanation": "Tool parameters are crafted to achieve unintended or unsafe behavior. Parameter abuse can bypass intended safety checks (e.g. shell=True, --force, dangerous glob patterns).",
+      "remediation": "Validate all tool parameters against an allowlist. Reject dangerous parameter values (shell=True, --force, -rf /) and use safe defaults.",
+      "code_snippet": "    os: [openbsd]\n\n  '@esbuild/openharmony-arm64@0.25.12':\n    resolution: {integrity: sha512-rm0YWsqUSRrjncSXGA7Zv78Nbnw4XL6/dzr20cyrQf7ZmRcsovpcRBdhD43Nuk3y7XIoW2OxMVvwuRvk9XdASg==}\n    engines: {node: '>=18'}\n    cpu: [arm64]\n    os: [openharmony]",
+      "intent": null
+    }
+  ],
+  "metadata": {
+    "has_executable_scripts": true,
+    "skillspector_version": "2.1.4",
+    "llm_requested": false,
+    "llm_available": false
+  }
+}

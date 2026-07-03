@@ -1,0 +1,77 @@
+{
+  "skill": {
+    "name": "unknown",
+    "source": "/private/tmp/seedance-prompt-skill",
+    "scanned_at": "2026-06-29T10:49:46.006542+00:00"
+  },
+  "risk_assessment": {
+    "score": 20,
+    "severity": "LOW",
+    "recommendation": "SAFE"
+  },
+  "components": [
+    {
+      "path": ".claude/skills/seedance/SKILL.md",
+      "type": "markdown",
+      "lines": 580,
+      "executable": false,
+      "size_bytes": 23110
+    },
+    {
+      "path": "README.md",
+      "type": "markdown",
+      "lines": 333,
+      "executable": false,
+      "size_bytes": 12875
+    },
+    {
+      "path": "README_zh.md",
+      "type": "markdown",
+      "lines": 357,
+      "executable": false,
+      "size_bytes": 13574
+    }
+  ],
+  "issues": [
+    {
+      "id": "RA2",
+      "category": "Rogue Agent",
+      "pattern": "Session Persistence",
+      "severity": "MEDIUM",
+      "confidence": 0.6,
+      "location": {
+        "file": "README.md",
+        "start_line": 77,
+        "end_line": null
+      },
+      "finding": "Create the skills directory if it doesn't exist\nmkdir -p .claude/skills/seedance\n\n# Copy the skill file\ncp /path/to/seedance-prompt-skill/.claude/skills/seedance/SKILL.md .claude/skills/seedance/SKILL",
+      "explanation": "Skill establishes unauthorized persistence across sessions via cron jobs, startup scripts, or state files. Session persistence allows an attacker to maintain access beyond the current interaction.",
+      "remediation": "Remove any persistence mechanisms (cron jobs, startup scripts, state files). Skills should not maintain state across sessions without explicit user consent.",
+      "code_snippet": "# Navigate to the project where you want to use the skill\ncd /path/to/your/project\n\n# Create the skills directory if it doesn't exist\nmkdir -p .claude/skills/seedance\n\n# Copy the skill file",
+      "intent": null
+    },
+    {
+      "id": "RA2",
+      "category": "Rogue Agent",
+      "pattern": "Session Persistence",
+      "severity": "MEDIUM",
+      "confidence": 0.6,
+      "location": {
+        "file": "README_zh.md",
+        "start_line": 78,
+        "end_line": null
+      },
+      "finding": "mkdir -p .claude/skills/seedance\n\n# \u590d\u5236 Skill \u6587\u4ef6\ncp /path/to/seedance-prompt-skill/.claude/skills/seedance/SKILL.md .claude/skills/seedance/SKILL.md\n```\n\n3. **\u9a8c\u8bc1\u5b89\u88c5**\n\n\u5728\u9879\u76ee\u76ee\u5f55\u542f\u52a8 Claude Code\uff1a\n\n```bash\nclau",
+      "explanation": "Skill establishes unauthorized persistence across sessions via cron jobs, startup scripts, or state files. Session persistence allows an attacker to maintain access beyond the current interaction.",
+      "remediation": "Remove any persistence mechanisms (cron jobs, startup scripts, state files). Skills should not maintain state across sessions without explicit user consent.",
+      "code_snippet": "cd /path/to/your/project\n\n# \u521b\u5efa skills \u76ee\u5f55\uff08\u5982\u4e0d\u5b58\u5728\uff09\nmkdir -p .claude/skills/seedance\n\n# \u590d\u5236 Skill \u6587\u4ef6\ncp /path/to/seedance-prompt-skill/.claude/skills/seedance/SKILL.md .claude/skills/seedance/SKILL.md",
+      "intent": null
+    }
+  ],
+  "metadata": {
+    "has_executable_scripts": false,
+    "skillspector_version": "2.1.4",
+    "llm_requested": false,
+    "llm_available": false
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "skill": {
+    "name": "markdown-to-okf",
+    "source": "/private/tmp/hermes-okf-review/okf/skills/markdown-to-okf",
+    "scanned_at": "2026-06-27T14:09:40.494764+00:00"
+  },
+  "risk_assessment": {
+    "score": 26,
+    "severity": "MEDIUM",
+    "recommendation": "CAUTION"
+  },
+  "components": [
+    {
+      "path": "SKILL.md",
+      "type": "markdown",
+      "lines": 149,
+      "executable": false,
+      "size_bytes": 7127
+    },
+    {
+      "path": "evals/evals.json",
+      "type": "json",
+      "lines": 47,
+      "executable": false,
+      "size_bytes": 3286
+    },
+    {
+      "path": "references/okf-spec-summary.md",
+      "type": "markdown",
+      "lines": 75,
+      "executable": false,
+      "size_bytes": 3461
+    },
+    {
+      "path": "scripts/okf_convert.py",
+      "type": "python",
+      "lines": 507,
+      "executable": true,
+      "size_bytes": 19145
+    }
+  ],
+  "issues": [
+    {
+      "id": "AST4",
+      "category": "Dangerous Code Execution",
+      "pattern": "subprocess module call",
+      "severity": "MEDIUM",
+      "confidence": 0.7,
+      "location": {
+        "file": "scripts/okf_convert.py",
+        "start_line": 172,
+        "end_line": 178
+      },
+      "finding": "        out = subprocess.run(\n            [\"git\", \"log\", \"-1\", \"--format=%cI\", \"--\", abs_path],\n            cwd=os.path.dirname(abs_path) or \".\",\n            capture_output=True,\n            text=True",
+      "explanation": "subprocess module calls execute external commands. Without careful input validation, this enables command injection.",
+      "remediation": "Use subprocess.run() with shell=False and an explicit argument list. Validate all inputs and avoid passing user-controlled data to commands.",
+      "code_snippet": "\ndef git_timestamp(abs_path: str) -> str | None:\n    try:\n        out = subprocess.run(\n            [\"git\", \"log\", \"-1\", \"--format=%cI\", \"--\", abs_path],\n            cwd=os.path.dirname(abs_path) or \".\",\n            capture_output=True,",
+      "intent": null
+    },
+    {
+      "id": "LP3",
+      "category": "MCP Least Privilege",
+      "pattern": null,
+      "severity": "MEDIUM",
+      "confidence": 0.7,
+      "location": {
+        "file": "SKILL.md",
+        "start_line": 1,
+        "end_line": null
+      },
+      "finding": null,
+      "explanation": "Without declared permissions the skill's intent is opaque and cannot be validated.",
+      "remediation": "Add a 'permissions' field to SKILL.md listing the capabilities this skill requires.",
+      "code_snippet": null,
+      "intent": null
+    }
+  ],
+  "metadata": {
+    "has_executable_scripts": true,
+    "skillspector_version": "2.1.4",
+    "llm_requested": false,
+    "llm_available": false
+  }
+}

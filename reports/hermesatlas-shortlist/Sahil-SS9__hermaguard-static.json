@@ -1,0 +1,552 @@
+{
+  "skill": {
+    "name": "hermaguard",
+    "source": "/private/tmp/hermesatlas-skill-triage/Sahil-SS9__hermaguard",
+    "scanned_at": "2026-06-26T10:44:07.382663+00:00"
+  },
+  "risk_assessment": {
+    "score": 100,
+    "severity": "CRITICAL",
+    "recommendation": "DO_NOT_INSTALL"
+  },
+  "components": [
+    {
+      "path": "LICENSE",
+      "type": "other",
+      "lines": 21,
+      "executable": false,
+      "size_bytes": 1069
+    },
+    {
+      "path": "README.md",
+      "type": "markdown",
+      "lines": 158,
+      "executable": false,
+      "size_bytes": 9803
+    },
+    {
+      "path": "SKILL.md",
+      "type": "markdown",
+      "lines": 500,
+      "executable": false,
+      "size_bytes": 25445
+    },
+    {
+      "path": "integrations/github-action/action.yml",
+      "type": "yaml",
+      "lines": 221,
+      "executable": false,
+      "size_bytes": 7966
+    },
+    {
+      "path": "mcp/hermaguard-feedback/server.py",
+      "type": "python",
+      "lines": 495,
+      "executable": true,
+      "size_bytes": 18863
+    },
+    {
+      "path": "references/output-schema.md",
+      "type": "markdown",
+      "lines": 121,
+      "executable": false,
+      "size_bytes": 4078
+    },
+    {
+      "path": "test_tools.py",
+      "type": "python",
+      "lines": 758,
+      "executable": true,
+      "size_bytes": 34676
+    },
+    {
+      "path": "tools/agentsmd-linter/agentsmd-lint.py",
+      "type": "python",
+      "lines": 259,
+      "executable": true,
+      "size_bytes": 10328
+    },
+    {
+      "path": "tools/hermaguard-benchmark/README.md",
+      "type": "markdown",
+      "lines": 33,
+      "executable": false,
+      "size_bytes": 1284
+    },
+    {
+      "path": "tools/hermaguard-benchmark/benchmark.py",
+      "type": "python",
+      "lines": 347,
+      "executable": true,
+      "size_bytes": 14825
+    },
+    {
+      "path": "tools/hermaguard-benchmark/bugs/001-sql-injection/code/app.py",
+      "type": "python",
+      "lines": 8,
+      "executable": true,
+      "size_bytes": 226
+    },
+    {
+      "path": "tools/hermaguard-benchmark/bugs/001-sql-injection/ground-truth.json",
+      "type": "json",
+      "lines": 9,
+      "executable": false,
+      "size_bytes": 407
+    },
+    {
+      "path": "tools/hermaguard-benchmark/bugs/001-sql-injection/pre.diff",
+      "type": "other",
+      "lines": 10,
+      "executable": false,
+      "size_bytes": 341
+    },
+    {
+      "path": "tools/hermaguard-benchmark/bugs/002-unsafe-yaml/code/app.py",
+      "type": "python",
+      "lines": 5,
+      "executable": true,
+      "size_bytes": 103
+    },
+    {
+      "path": "tools/hermaguard-benchmark/bugs/002-unsafe-yaml/ground-truth.json",
+      "type": "json",
+      "lines": 9,
+      "executable": false,
+      "size_bytes": 412
+    },
+    {
+      "path": "tools/hermaguard-benchmark/bugs/002-unsafe-yaml/pre.diff",
+      "type": "other",
+      "lines": 7,
+      "executable": false,
+      "size_bytes": 181
+    },
+    {
+      "path": "tools/hermaguard-benchmark/bugs/003-null-deref/code/app.py",
+      "type": "python",
+      "lines": 4,
+      "executable": true,
+      "size_bytes": 157
+    },
+    {
+      "path": "tools/hermaguard-benchmark/bugs/003-null-deref/ground-truth.json",
+      "type": "json",
+      "lines": 9,
+      "executable": false,
+      "size_bytes": 411
+    },
+    {
+      "path": "tools/hermaguard-benchmark/bugs/003-null-deref/pre.diff",
+      "type": "other",
+      "lines": 8,
+      "executable": false,
+      "size_bytes": 244
+    },
+    {
+      "path": "tools/hermaguard-benchmark/bugs/004-command-injection/code/app.py",
+      "type": "python",
+      "lines": 4,
+      "executable": true,
+      "size_bytes": 122
+    },
+    {
+      "path": "tools/hermaguard-benchmark/bugs/004-command-injection/ground-truth.json",
+      "type": "json",
+      "lines": 9,
+      "executable": false,
+      "size_bytes": 451
+    },
+    {
+      "path": "tools/hermaguard-benchmark/bugs/004-command-injection/pre.diff",
+      "type": "other",
+      "lines": 6,
+      "executable": false,
+      "size_bytes": 228
+    },
+    {
+      "path": "tools/hermaguard-benchmark/bugs/005-path-traversal/code/app.py",
+      "type": "python",
+      "lines": 3,
+      "executable": true,
+      "size_bytes": 97
+    },
+    {
+      "path": "tools/hermaguard-benchmark/bugs/005-path-traversal/ground-truth.json",
+      "type": "json",
+      "lines": 9,
+      "executable": false,
+      "size_bytes": 399
+    },
+    {
+      "path": "tools/hermaguard-benchmark/bugs/005-path-traversal/pre.diff",
+      "type": "other",
+      "lines": 8,
+      "executable": false,
+      "size_bytes": 231
+    },
+    {
+      "path": "tools/hermaguard-benchmark/results/001-sql-injection.json",
+      "type": "json",
+      "lines": 8,
+      "executable": false,
+      "size_bytes": 964
+    },
+    {
+      "path": "tools/hermaguard-benchmark/results/002-unsafe-yaml.json",
+      "type": "json",
+      "lines": 7,
+      "executable": false,
+      "size_bytes": 748
+    },
+    {
+      "path": "tools/hermaguard-benchmark/results/003-null-deref.json",
+      "type": "json",
+      "lines": 7,
+      "executable": false,
+      "size_bytes": 749
+    },
+    {
+      "path": "tools/hermaguard-benchmark/results/004-command-injection.json",
+      "type": "json",
+      "lines": 7,
+      "executable": false,
+      "size_bytes": 752
+    },
+    {
+      "path": "tools/hermaguard-benchmark/results/005-path-traversal.json",
+      "type": "json",
+      "lines": 7,
+      "executable": false,
+      "size_bytes": 764
+    },
+    {
+      "path": "tools/hermaguard-compile-rules/hermaguard-compile-rules.py",
+      "type": "python",
+      "lines": 125,
+      "executable": true,
+      "size_bytes": 4551
+    },
+    {
+      "path": "tools/hermaguard-prescan/hermaguard-prescan.py",
+      "type": "python",
+      "lines": 520,
+      "executable": true,
+      "size_bytes": 17578
+    }
+  ],
+  "issues": [
+    {
+      "id": "AST4",
+      "category": "Dangerous Code Execution",
+      "pattern": "subprocess module call",
+      "severity": "MEDIUM",
+      "confidence": 0.7,
+      "location": {
+        "file": "test_tools.py",
+        "start_line": 731,
+        "end_line": 735
+      },
+      "finding": "            subprocess.run(\n                [sys.executable, str(self.compiler_path), \"--output\", out_path,\n                 \"--min-dismissals\", \"1\"],\n                env=env, capture_output=True, tex",
+      "explanation": "subprocess module calls execute external commands. Without careful input validation, this enables command injection.",
+      "remediation": "Use subprocess.run() with shell=False and an explicit argument list. Validate all inputs and avoid passing user-controlled data to commands.",
+      "code_snippet": "            conn.close()\n\n            env = dict(os.environ, HERMAGUARD_FEEDBACK_DB=db_path)\n            subprocess.run(\n                [sys.executable, str(self.compiler_path), \"--output\", out_path,\n                 \"--min-dismissals\", \"1\"],\n                env=env, capture_output=True, text=True, timeout=30, check=True,",
+      "intent": null
+    },
+    {
+      "id": "AST4",
+      "category": "Dangerous Code Execution",
+      "pattern": "subprocess module call",
+      "severity": "MEDIUM",
+      "confidence": 0.7,
+      "location": {
+        "file": "tools/hermaguard-benchmark/bugs/004-command-injection/code/app.py",
+        "start_line": 4,
+        "end_line": 4
+      },
+      "finding": "    return subprocess.check_output(f\"ping -c 1 {host}\", shell=True)",
+      "explanation": "subprocess module calls execute external commands. Without careful input validation, this enables command injection.",
+      "remediation": "Use subprocess.run() with shell=False and an explicit argument list. Validate all inputs and avoid passing user-controlled data to commands.",
+      "code_snippet": "import subprocess\n\ndef ping_host(host: str) -> bytes:\n    return subprocess.check_output(f\"ping -c 1 {host}\", shell=True)",
+      "intent": null
+    },
+    {
+      "id": "AST3",
+      "category": "Dangerous Code Execution",
+      "pattern": "Dynamic import via __import__()",
+      "severity": "MEDIUM",
+      "confidence": 0.75,
+      "location": {
+        "file": "tools/hermaguard-compile-rules/hermaguard-compile-rules.py",
+        "start_line": 83,
+        "end_line": 83
+      },
+      "finding": "        \"generated_at\": __import__(\"datetime\").datetime.now().isoformat(),",
+      "explanation": "Dynamic __import__() can load arbitrary modules at runtime, bypassing static analysis and potentially importing malicious code.",
+      "remediation": "Use standard import statements instead of __import__(). If dynamic loading is needed, use importlib with an allowlist of permitted modules.",
+      "code_snippet": "\n    output = {\n        \"version\": VERSION,\n        \"generated_at\": __import__(\"datetime\").datetime.now().isoformat(),\n        \"rules\": rules,\n        \"stats\": {\n            \"total_rules\": len(rules),",
+      "intent": null
+    },
+    {
+      "id": "AST4",
+      "category": "Dangerous Code Execution",
+      "pattern": "subprocess module call",
+      "severity": "MEDIUM",
+      "confidence": 0.7,
+      "location": {
+        "file": "tools/hermaguard-prescan/hermaguard-prescan.py",
+        "start_line": 358,
+        "end_line": 358
+      },
+      "finding": "        result = subprocess.run(cmd, capture_output=True, text=True, timeout=120)",
+      "explanation": "subprocess module calls execute external commands. Without careful input validation, this enables command injection.",
+      "remediation": "Use subprocess.run() with shell=False and an explicit argument list. Validate all inputs and avoid passing user-controlled data to commands.",
+      "code_snippet": "\n    cmd = tool_def[\"build_cmd\"](files, tmpdir)\n    try:\n        result = subprocess.run(cmd, capture_output=True, text=True, timeout=120)\n    except subprocess.TimeoutExpired:\n        return f\"{tool_def['name']} timed out\", []\n    except FileNotFoundError:",
+      "intent": null
+    },
+    {
+      "id": "LP3",
+      "category": "MCP Least Privilege",
+      "pattern": null,
+      "severity": "MEDIUM",
+      "confidence": 0.7,
+      "location": {
+        "file": "SKILL.md",
+        "start_line": 1,
+        "end_line": null
+      },
+      "finding": null,
+      "explanation": "Without declared permissions the skill's intent is opaque and cannot be validated.",
+      "remediation": "Add a 'permissions' field to SKILL.md listing the capabilities this skill requires.",
+      "code_snippet": null,
+      "intent": null
+    },
+    {
+      "id": "EA3",
+      "category": "Excessive Agency",
+      "pattern": "Scope Creep",
+      "severity": "LOW",
+      "confidence": 0.7,
+      "location": {
+        "file": "LICENSE",
+        "start_line": 16,
+        "end_line": null
+      },
+      "finding": "NOT LIMITED TO",
+      "explanation": "Skill's behavior or capabilities extend beyond its stated purpose. Scope creep allows an agent to perform actions unrelated to its documented functionality, increasing the attack surface.",
+      "remediation": "Limit the skill's scope to its documented purpose. Remove instructions that enable the agent to perform actions outside its stated functionality.",
+      "code_snippet": "copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,",
+      "intent": null
+    },
+    {
+      "id": "EA1",
+      "category": "Excessive Agency",
+      "pattern": "Unrestricted Tool Access",
+      "severity": "MEDIUM",
+      "confidence": 0.85,
+      "location": {
+        "file": "SKILL.md",
+        "start_line": 225,
+        "end_line": null
+      },
+      "finding": "Permissions:*",
+      "explanation": "Skill grants unrestricted tool access without appropriate constraints. An agent with unfettered tool access can perform arbitrary actions including file modification, network requests, and code execution.",
+      "remediation": "Restrict tool access to only the tools required for the skill's stated purpose. Use an explicit allowlist rather than granting blanket access.",
+      "code_snippet": "**Persona:** You are a precise, professional reviewer looking for real vulnerabilities. No profanity, no personal attacks, no speculation without a concrete trigger scenario. But be relentless \u2014 if something can fail, say how.\n\n**Attack surfaces (check each \u2014 skip if not applicable):**\n- **Auth & Permissions:** bypasses, privilege escalation, missing checks on new endpoints\n- **Data Integrity:** loss, corruption, partial writes, constraint violations, missing transactions\n- **Race Conditions:** TOCTOU, concurrent access without locks, deadlocks, non-atomic operations\n- **Rollback Safety:** can this change be safely reverted? Does it need a migration rollback plan?",
+      "intent": null
+    },
+    {
+      "id": "OH1",
+      "category": "Output Handling",
+      "pattern": "Unvalidated Output Injection",
+      "severity": "HIGH",
+      "confidence": 0.95,
+      "location": {
+        "file": "tools/hermaguard-prescan/hermaguard-prescan.py",
+        "start_line": 358,
+        "end_line": null
+      },
+      "finding": "subprocess.run(cmd, capture_output",
+      "explanation": "Model output is used without validation or sanitization. Unvalidated output injected into downstream contexts (SQL, shell, HTML) enables injection attacks and arbitrary code execution.",
+      "remediation": "Validate and sanitize all model output before using it in downstream contexts. Use parameterized queries for SQL, shell quoting for commands, and HTML encoding for web output.",
+      "code_snippet": "\n    cmd = tool_def[\"build_cmd\"](files, tmpdir)\n    try:\n        result = subprocess.run(cmd, capture_output=True, text=True, timeout=120)\n    except subprocess.TimeoutExpired:\n        return f\"{tool_def['name']} timed out\", []\n    except FileNotFoundError:",
+      "intent": null
+    },
+    {
+      "id": "PE1",
+      "category": "Privilege Escalation",
+      "pattern": "Excessive Permissions",
+      "severity": "LOW",
+      "confidence": 0.8,
+      "location": {
+        "file": "SKILL.md",
+        "start_line": 225,
+        "end_line": null
+      },
+      "finding": "Permissions:*",
+      "explanation": "Skill requests more permissions than appear necessary for its stated functionality. Review if elevated access is justified.",
+      "remediation": "Request only the minimum permissions required. Document why each permission is needed. Remove broad permissions like '*' or 'all'.",
+      "code_snippet": "**Persona:** You are a precise, professional reviewer looking for real vulnerabilities. No profanity, no personal attacks, no speculation without a concrete trigger scenario. But be relentless \u2014 if something can fail, say how.\n\n**Attack surfaces (check each \u2014 skip if not applicable):**\n- **Auth & Permissions:** bypasses, privilege escalation, missing checks on new endpoints\n- **Data Integrity:** loss, corruption, partial writes, constraint violations, missing transactions\n- **Race Conditions:** TOCTOU, concurrent access without locks, deadlocks, non-atomic operations\n- **Rollback Safety:** can this change be safely reverted? Does it need a migration rollback plan?",
+      "intent": null
+    },
+    {
+      "id": "PE2",
+      "category": "Privilege Escalation",
+      "pattern": "Sudo/Root Execution",
+      "severity": "MEDIUM",
+      "confidence": 0.7,
+      "location": {
+        "file": "integrations/github-action/action.yml",
+        "start_line": 46,
+        "end_line": null
+      },
+      "finding": "sudo ",
+      "explanation": "Commands invoke sudo or root privileges. Verify this elevated access is necessary and justified.",
+      "remediation": "Avoid sudo/root unless strictly required. Prefer least-privilege patterns. If elevation is needed, document the justification and scope.",
+      "code_snippet": "        # Install hermaguard-prescan (deterministic layer)\n        if [ -f tools/hermaguard-prescan/hermaguard-prescan ]; then\n          chmod +x tools/hermaguard-prescan/hermaguard-prescan\n          sudo ln -sf $(pwd)/tools/hermaguard-prescan/hermaguard-prescan /usr/local/bin/hermaguard-prescan\n        fi\n\n        # Install optional linters for prescan",
+      "intent": null
+    },
+    {
+      "id": "PE3",
+      "category": "Privilege Escalation",
+      "pattern": "Credential Access",
+      "severity": "HIGH",
+      "confidence": 0.6,
+      "location": {
+        "file": "tools/hermaguard-benchmark/bugs/005-path-traversal/ground-truth.json",
+        "start_line": 3,
+        "end_line": null
+      },
+      "finding": "/etc/passwd",
+      "explanation": "Code accesses credential files (SSH keys, AWS credentials, etc.). This could indicate credential theft attempts.",
+      "remediation": "Remove references to credential paths. Use environment variables or secrets managers. For docs, use placeholder paths (e.g., /path/to/config). Never load .env or token files in production code paths.",
+      "code_snippet": "{\n  \"title\": \"Path traversal in read_doc\",\n  \"description\": \"name is concatenated onto a base directory with no sanitisation; '../../etc/passwd' escapes the docs root.\",\n  \"severity\": \"HIGH\",\n  \"category\": \"security\",\n  \"findings\": [",
+      "intent": null
+    },
+    {
+      "id": "P6",
+      "category": "System Prompt Leakage",
+      "pattern": "Direct Prompt Extraction",
+      "severity": "HIGH",
+      "confidence": 0.85,
+      "location": {
+        "file": "tools/hermaguard-compile-rules/hermaguard-compile-rules.py",
+        "start_line": 26,
+        "end_line": null
+      },
+      "finding": "return rules",
+      "explanation": "Skill contains instructions that could directly expose system prompts, internal rules, or hidden instructions to users or external parties.",
+      "remediation": "Remove any instructions that reveal, print, or output system prompts or internal rules. System instructions should never be exposed to end users.",
+      "code_snippet": "\n\ndef compile_rules(min_dismissals: int = 3) -> list:\n    \"\"\"Query the feedback database for dismissed patterns, return rules list.\"\"\"\n    if not os.path.isfile(DB_PATH):\n        return []\n",
+      "intent": null
+    },
+    {
+      "id": "P6",
+      "category": "System Prompt Leakage",
+      "pattern": "Direct Prompt Extraction",
+      "severity": "HIGH",
+      "confidence": 0.85,
+      "location": {
+        "file": "tools/hermaguard-compile-rules/hermaguard-compile-rules.py",
+        "start_line": 68,
+        "end_line": null
+      },
+      "finding": "return rules",
+      "explanation": "Skill contains instructions that could directly expose system prompts, internal rules, or hidden instructions to users or external parties.",
+      "remediation": "Remove any instructions that reveal, print, or output system prompts or internal rules. System instructions should never be exposed to end users.",
+      "code_snippet": "            \"source_ids\": r[\"finding_ids\"].split(\",\") if r[\"finding_ids\"] else [],\n        })\n\n    return rules\n\n\ndef main():",
+      "intent": null
+    },
+    {
+      "id": "TM1",
+      "category": "Tool Misuse",
+      "pattern": "Tool Parameter Abuse",
+      "severity": "HIGH",
+      "confidence": 0.9,
+      "location": {
+        "file": "tools/hermaguard-benchmark/bugs/004-command-injection/code/app.py",
+        "start_line": 4,
+        "end_line": null
+      },
+      "finding": "subprocess.check_output(f\"ping -c 1 {host}\", shell=True",
+      "explanation": "Tool parameters are crafted to achieve unintended or unsafe behavior. Parameter abuse can bypass intended safety checks (e.g. shell=True, --force, dangerous glob patterns).",
+      "remediation": "Validate all tool parameters against an allowlist. Reject dangerous parameter values (shell=True, --force, -rf /) and use safe defaults.",
+      "code_snippet": "import subprocess\n\ndef ping_host(host: str) -> bytes:\n    return subprocess.check_output(f\"ping -c 1 {host}\", shell=True)",
+      "intent": null
+    },
+    {
+      "id": "TM1",
+      "category": "Tool Misuse",
+      "pattern": "Tool Parameter Abuse",
+      "severity": "HIGH",
+      "confidence": 0.9,
+      "location": {
+        "file": "tools/hermaguard-benchmark/bugs/004-command-injection/ground-truth.json",
+        "start_line": 3,
+        "end_line": null
+      },
+      "finding": "rm -rf /",
+      "explanation": "Tool parameters are crafted to achieve unintended or unsafe behavior. Parameter abuse can bypass intended safety checks (e.g. shell=True, --force, dangerous glob patterns).",
+      "remediation": "Validate all tool parameters against an allowlist. Reject dangerous parameter values (shell=True, --force, -rf /) and use safe defaults.",
+      "code_snippet": "{\n  \"title\": \"Command injection in ping_host\",\n  \"description\": \"host is interpolated into a shell=True command string; a value like '8.8.8.8; rm -rf /' executes arbitrary commands.\",\n  \"severity\": \"CRITICAL\",\n  \"category\": \"security\",\n  \"findings\": [",
+      "intent": null
+    },
+    {
+      "id": "TM1",
+      "category": "Tool Misuse",
+      "pattern": "Tool Parameter Abuse",
+      "severity": "HIGH",
+      "confidence": 0.85,
+      "location": {
+        "file": "tools/hermaguard-benchmark/bugs/004-command-injection/ground-truth.json",
+        "start_line": 3,
+        "end_line": null
+      },
+      "finding": "rm -rf /'",
+      "explanation": "Tool parameters are crafted to achieve unintended or unsafe behavior. Parameter abuse can bypass intended safety checks (e.g. shell=True, --force, dangerous glob patterns).",
+      "remediation": "Validate all tool parameters against an allowlist. Reject dangerous parameter values (shell=True, --force, -rf /) and use safe defaults.",
+      "code_snippet": "{\n  \"title\": \"Command injection in ping_host\",\n  \"description\": \"host is interpolated into a shell=True command string; a value like '8.8.8.8; rm -rf /' executes arbitrary commands.\",\n  \"severity\": \"CRITICAL\",\n  \"category\": \"security\",\n  \"findings\": [",
+      "intent": null
+    },
+    {
+      "id": "TM2",
+      "category": "Tool Misuse",
+      "pattern": "Chaining Abuse",
+      "severity": "HIGH",
+      "confidence": 0.75,
+      "location": {
+        "file": "tools/hermaguard-benchmark/bugs/004-command-injection/ground-truth.json",
+        "start_line": 3,
+        "end_line": null
+      },
+      "finding": "; rm -",
+      "explanation": "Tool calls are chained to bypass individual safety checks or escalate capabilities beyond what any single tool call would allow.",
+      "remediation": "Limit tool chaining depth and validate the output of each tool before passing it to the next. Require explicit user approval for multi-step chains.",
+      "code_snippet": "{\n  \"title\": \"Command injection in ping_host\",\n  \"description\": \"host is interpolated into a shell=True command string; a value like '8.8.8.8; rm -rf /' executes arbitrary commands.\",\n  \"severity\": \"CRITICAL\",\n  \"category\": \"security\",\n  \"findings\": [",
+      "intent": null
+    },
+    {
+      "id": "TM1",
+      "category": "Tool Misuse",
+      "pattern": "Tool Parameter Abuse",
+      "severity": "HIGH",
+      "confidence": 0.8,
+      "location": {
+        "file": "tools/hermaguard-benchmark/bugs/004-command-injection/pre.diff",
+        "start_line": 6,
+        "end_line": null
+      },
+      "finding": "subprocess.check_output(f\"ping -c 1 {host}\", shell=True",
+      "explanation": "Tool parameters are crafted to achieve unintended or unsafe behavior. Parameter abuse can bypass intended safety checks (e.g. shell=True, --force, dangerous glob patterns).",
+      "remediation": "Validate all tool parameters against an allowlist. Reject dangerous parameter values (shell=True, --force, -rf /) and use safe defaults.",
+      "code_snippet": "@@ -2,2 +2,2 @@ import subprocess\n def ping_host(host: str) -> bytes:\n-    return subprocess.check_output([\"ping\", \"-c\", \"1\", host])\n+    return subprocess.check_output(f\"ping -c 1 {host}\", shell=True)",
+      "intent": null
+    }
+  ],
+  "metadata": {
+    "has_executable_scripts": true,
+    "skillspector_version": "2.1.4",
+    "llm_requested": false,
+    "llm_available": false
+  }
+}

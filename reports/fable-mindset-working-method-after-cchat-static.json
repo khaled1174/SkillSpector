@@ -1,0 +1,35 @@
+{
+  "skill": {
+    "name": "fable-mindset-working-method",
+    "source": "/Users/khaledmac/.hermes/skills/software-development/fable-mindset-working-method",
+    "scanned_at": "2026-06-15T16:12:46.074045+00:00"
+  },
+  "risk_assessment": {
+    "score": 0,
+    "severity": "LOW",
+    "recommendation": "SAFE"
+  },
+  "components": [
+    {
+      "path": "SKILL.md",
+      "type": "markdown",
+      "lines": 266,
+      "executable": false,
+      "size_bytes": 9839
+    },
+    {
+      "path": "references/source-analysis.md",
+      "type": "markdown",
+      "lines": 96,
+      "executable": false,
+      "size_bytes": 3475
+    }
+  ],
+  "issues": [],
+  "metadata": {
+    "has_executable_scripts": false,
+    "skillspector_version": "2.1.4",
+    "llm_requested": false,
+    "llm_available": false
+  }
+}

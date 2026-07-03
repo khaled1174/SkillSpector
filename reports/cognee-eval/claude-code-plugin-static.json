@@ -1,0 +1,1776 @@
+{
+  "skill": {
+    "name": "unknown",
+    "source": "/Users/khaledmac/project/cognee-eval/cognee-integrations/integrations/claude-code",
+    "scanned_at": "2026-07-01T07:25:19.219915+00:00"
+  },
+  "risk_assessment": {
+    "score": 100,
+    "severity": "CRITICAL",
+    "recommendation": "DO_NOT_INSTALL"
+  },
+  "components": [
+    {
+      "path": ".claude-plugin/plugin.json",
+      "type": "json",
+      "lines": 9,
+      "executable": false,
+      "size_bytes": 364
+    },
+    {
+      "path": "README.md",
+      "type": "markdown",
+      "lines": 293,
+      "executable": false,
+      "size_bytes": 11826
+    },
+    {
+      "path": "agents/cognee-recall.md",
+      "type": "markdown",
+      "lines": 57,
+      "executable": false,
+      "size_bytes": 3643
+    },
+    {
+      "path": "hooks/hooks.json",
+      "type": "json",
+      "lines": 84,
+      "executable": false,
+      "size_bytes": 2080
+    },
+    {
+      "path": "scripts/_cognee_client.py",
+      "type": "python",
+      "lines": 119,
+      "executable": true,
+      "size_bytes": 4143
+    },
+    {
+      "path": "scripts/_plugin_common.py",
+      "type": "python",
+      "lines": 1483,
+      "executable": true,
+      "size_bytes": 56890
+    },
+    {
+      "path": "scripts/_recall_http.py",
+      "type": "python",
+      "lines": 197,
+      "executable": true,
+      "size_bytes": 7632
+    },
+    {
+      "path": "scripts/_remember_http.py",
+      "type": "python",
+      "lines": 277,
+      "executable": true,
+      "size_bytes": 10977
+    },
+    {
+      "path": "scripts/clear-transcript-context.py",
+      "type": "python",
+      "lines": 93,
+      "executable": true,
+      "size_bytes": 2605
+    },
+    {
+      "path": "scripts/cognee-remember.sh",
+      "type": "shell",
+      "lines": 140,
+      "executable": true,
+      "size_bytes": 4815
+    },
+    {
+      "path": "scripts/cognee-search.sh",
+      "type": "shell",
+      "lines": 164,
+      "executable": true,
+      "size_bytes": 6152
+    },
+    {
+      "path": "scripts/cognee-statusline.sh",
+      "type": "shell",
+      "lines": 8,
+      "executable": true,
+      "size_bytes": 433
+    },
+    {
+      "path": "scripts/cognee_statusline_render.py",
+      "type": "python",
+      "lines": 85,
+      "executable": true,
+      "size_bytes": 2419
+    },
+    {
+      "path": "scripts/config.py",
+      "type": "python",
+      "lines": 519,
+      "executable": true,
+      "size_bytes": 18827
+    },
+    {
+      "path": "scripts/exit-watcher.py",
+      "type": "python",
+      "lines": 182,
+      "executable": true,
+      "size_bytes": 5803
+    },
+    {
+      "path": "scripts/idle-watcher.py",
+      "type": "python",
+      "lines": 289,
+      "executable": true,
+      "size_bytes": 9423
+    },
+    {
+      "path": "scripts/pre-compact.py",
+      "type": "python",
+      "lines": 255,
+      "executable": true,
+      "size_bytes": 8930
+    },
+    {
+      "path": "scripts/session-context-lookup.py",
+      "type": "python",
+      "lines": 443,
+      "executable": true,
+      "size_bytes": 16275
+    },
+    {
+      "path": "scripts/session-start.py",
+      "type": "python",
+      "lines": 1365,
+      "executable": true,
+      "size_bytes": 51101
+    },
+    {
+      "path": "scripts/store-to-session.py",
+      "type": "python",
+      "lines": 391,
+      "executable": true,
+      "size_bytes": 13668
+    },
+    {
+      "path": "scripts/store-user-prompt.py",
+      "type": "python",
+      "lines": 203,
+      "executable": true,
+      "size_bytes": 6625
+    },
+    {
+      "path": "scripts/sync-session-to-graph.py",
+      "type": "python",
+      "lines": 426,
+      "executable": true,
+      "size_bytes": 15629
+    },
+    {
+      "path": "skills/cognee-remember/SKILL.md",
+      "type": "markdown",
+      "lines": 72,
+      "executable": false,
+      "size_bytes": 4090
+    },
+    {
+      "path": "skills/cognee-search/SKILL.md",
+      "type": "markdown",
+      "lines": 92,
+      "executable": false,
+      "size_bytes": 4311
+    },
+    {
+      "path": "skills/cognee-sync/SKILL.md",
+      "type": "markdown",
+      "lines": 31,
+      "executable": false,
+      "size_bytes": 1269
+    },
+    {
+      "path": "tests/test_bridge_poll.py",
+      "type": "python",
+      "lines": 280,
+      "executable": true,
+      "size_bytes": 9391
+    },
+    {
+      "path": "tests/test_cognee_client.py",
+      "type": "python",
+      "lines": 126,
+      "executable": true,
+      "size_bytes": 3808
+    },
+    {
+      "path": "tests/test_cognify_poll.py",
+      "type": "python",
+      "lines": 124,
+      "executable": true,
+      "size_bytes": 3624
+    },
+    {
+      "path": "tests/test_memory_preference.py",
+      "type": "python",
+      "lines": 86,
+      "executable": true,
+      "size_bytes": 2807
+    },
+    {
+      "path": "tests/test_recall_http.py",
+      "type": "python",
+      "lines": 181,
+      "executable": true,
+      "size_bytes": 5866
+    },
+    {
+      "path": "tests/test_remember_http.py",
+      "type": "python",
+      "lines": 191,
+      "executable": true,
+      "size_bytes": 6525
+    },
+    {
+      "path": "tests/test_session_id.py",
+      "type": "python",
+      "lines": 49,
+      "executable": true,
+      "size_bytes": 1566
+    }
+  ],
+  "issues": [
+    {
+      "id": "AST5",
+      "category": "Dangerous Code Execution",
+      "pattern": "os.system() or os exec-family call",
+      "severity": "HIGH",
+      "confidence": 0.85,
+      "location": {
+        "file": "scripts/_plugin_common.py",
+        "start_line": 575,
+        "end_line": 575
+      },
+      "finding": "        os.execv(str(vpy), [str(vpy), *sys.argv])",
+      "explanation": "os.system() and os exec-family calls run shell commands with the process's full privileges, enabling arbitrary command execution.",
+      "remediation": "Replace os.system() with subprocess.run(shell=False). Use explicit argument lists and validate all command inputs.",
+      "code_snippet": "        pass\n    try:\n        # execv inherits os.environ (incl. the loop guard just set above).\n        os.execv(str(vpy), [str(vpy), *sys.argv])\n    except OSError as exc:\n        # Better to run degraded under the host interpreter than to die.\n        hook_log(\"venv_reexec_failed\", {\"error\": str(exc)[:200]})",
+      "intent": null
+    },
+    {
+      "id": "AST4",
+      "category": "Dangerous Code Execution",
+      "pattern": "subprocess module call",
+      "severity": "MEDIUM",
+      "confidence": 0.7,
+      "location": {
+        "file": "scripts/config.py",
+        "start_line": 506,
+        "end_line": 512
+      },
+      "finding": "        result = subprocess.run(\n            [\"git\", \"rev-parse\", \"--abbrev-ref\", \"HEAD\"],\n            cwd=cwd,\n            capture_output=True,\n            text=True,\n            timeout=3,\n        )",
+      "explanation": "subprocess module calls execute external commands. Without careful input validation, this enables command injection.",
+      "remediation": "Use subprocess.run() with shell=False and an explicit argument list. Validate all inputs and avoid passing user-controlled data to commands.",
+      "code_snippet": "def _get_git_branch(cwd: str) -> str:\n    \"\"\"Get current git branch, or empty string if not a git repo.\"\"\"\n    try:\n        result = subprocess.run(\n            [\"git\", \"rev-parse\", \"--abbrev-ref\", \"HEAD\"],\n            cwd=cwd,\n            capture_output=True,",
+      "intent": null
+    },
+    {
+      "id": "AST7",
+      "category": "Dangerous Code Execution",
+      "pattern": "Dynamic attribute access via getattr()",
+      "severity": "LOW",
+      "confidence": 0.5,
+      "location": {
+        "file": "scripts/config.py",
+        "start_line": 377,
+        "end_line": 377
+      },
+      "finding": "    return str(getattr(entry, field, \"\") or \"\")",
+      "explanation": "Dynamic getattr() with a non-literal attribute name can access arbitrary object attributes, potentially bypassing access controls.",
+      "remediation": "Replace dynamic getattr() with explicit attribute access or a dictionary lookup with an allowlist of permitted attributes.",
+      "code_snippet": "def _read_field(entry, field: str) -> str:\n    if isinstance(entry, dict):\n        return str(entry.get(field) or \"\")\n    return str(getattr(entry, field, \"\") or \"\")\n\n\ndef _load_bridge_state() -> dict:",
+      "intent": null
+    },
+    {
+      "id": "AST4",
+      "category": "Dangerous Code Execution",
+      "pattern": "subprocess module call",
+      "severity": "MEDIUM",
+      "confidence": 0.7,
+      "location": {
+        "file": "scripts/exit-watcher.py",
+        "start_line": 87,
+        "end_line": 95
+      },
+      "finding": "        subprocess.Popen(\n            [sys.executable, str(_SYNC_SCRIPT), _DETACHED_SYNC_ARG],\n            cwd=os.getcwd(),\n            env=env,\n            stdin=subprocess.DEVNULL,\n            stdou",
+      "explanation": "subprocess module calls execute external commands. Without careful input validation, this enables command injection.",
+      "remediation": "Use subprocess.run() with shell=False and an explicit argument list. Validate all inputs and avoid passing user-controlled data to commands.",
+      "code_snippet": "            env[\"COGNEE_API_KEY\"] = api_key\n        if service_url:\n            env[\"COGNEE_BASE_URL\"] = service_url\n        subprocess.Popen(\n            [sys.executable, str(_SYNC_SCRIPT), _DETACHED_SYNC_ARG],\n            cwd=os.getcwd(),\n            env=env,",
+      "intent": null
+    },
+    {
+      "id": "AST7",
+      "category": "Dangerous Code Execution",
+      "pattern": "Dynamic attribute access via getattr()",
+      "severity": "LOW",
+      "confidence": 0.5,
+      "location": {
+        "file": "scripts/session-context-lookup.py",
+        "start_line": 249,
+        "end_line": 249
+      },
+      "finding": "                query_type = getattr(SearchType, qtype, None) if qtype else None",
+      "explanation": "Dynamic getattr() with a non-literal attribute name can access arbitrary object attributes, potentially bypassing access controls.",
+      "remediation": "Replace dynamic getattr() with explicit attribute access or a dictionary lookup with an allowlist of permitted attributes.",
+      "code_snippet": "                    timeout=recall_timeout,\n                )\n            else:\n                query_type = getattr(SearchType, qtype, None) if qtype else None\n                part = await asyncio.wait_for(\n                    cognee.recall(\n                        prompt,",
+      "intent": null
+    },
+    {
+      "id": "AST3",
+      "category": "Dangerous Code Execution",
+      "pattern": "Dynamic import via __import__()",
+      "severity": "MEDIUM",
+      "confidence": 0.75,
+      "location": {
+        "file": "scripts/session-context-lookup.py",
+        "start_line": 316,
+        "end_line": 316
+      },
+      "finding": "                    \"ts\": __import__(\"datetime\")",
+      "explanation": "Dynamic __import__() can load arbitrary modules at runtime, bypassing static analysis and potentially importing malicious code.",
+      "remediation": "Use standard import statements instead of __import__(). If dynamic loading is needed, use importlib with an allowlist of permitted modules.",
+      "code_snippet": "            json.dumps(\n                {\n                    \"session_id\": session_id,\n                    \"ts\": __import__(\"datetime\")\n                    .datetime.now(__import__(\"datetime\").timezone.utc)\n                    .isoformat(timespec=\"seconds\"),\n                    \"hits\": counts,",
+      "intent": null
+    },
+    {
+      "id": "AST3",
+      "category": "Dangerous Code Execution",
+      "pattern": "Dynamic import via __import__()",
+      "severity": "MEDIUM",
+      "confidence": 0.75,
+      "location": {
+        "file": "scripts/session-context-lookup.py",
+        "start_line": 317,
+        "end_line": 317
+      },
+      "finding": "                    .datetime.now(__import__(\"datetime\").timezone.utc)",
+      "explanation": "Dynamic __import__() can load arbitrary modules at runtime, bypassing static analysis and potentially importing malicious code.",
+      "remediation": "Use standard import statements instead of __import__(). If dynamic loading is needed, use importlib with an allowlist of permitted modules.",
+      "code_snippet": "                {\n                    \"session_id\": session_id,\n                    \"ts\": __import__(\"datetime\")\n                    .datetime.now(__import__(\"datetime\").timezone.utc)\n                    .isoformat(timespec=\"seconds\"),\n                    \"hits\": counts,\n                    \"saves_last_turn\": saves_last_turn,",
+      "intent": null
+    },
+    {
+      "id": "AST4",
+      "category": "Dangerous Code Execution",
+      "pattern": "subprocess module call",
+      "severity": "MEDIUM",
+      "confidence": 0.7,
+      "location": {
+        "file": "scripts/session-start.py",
+        "start_line": 125,
+        "end_line": 132
+      },
+      "finding": "        subprocess.run(\n            [\"sh\", \"-c\", f\"curl -LsSf {_UV_INSTALL_URL} | sh\"],\n            env=env,\n            check=True,\n            capture_output=True,\n            text=True,\n           ",
+      "explanation": "subprocess module calls execute external commands. Without careful input validation, this enables command injection.",
+      "remediation": "Use subprocess.run() with shell=False and an explicit argument list. Validate all inputs and avoid passing user-controlled data to commands.",
+      "code_snippet": "        # UV_UNMANAGED_INSTALL drops the binary in the given dir without editing\n        # shell profiles or managing updates \u2014 exactly what we want.\n        env[\"UV_UNMANAGED_INSTALL\"] = str(_UV_DIR)\n        subprocess.run(\n            [\"sh\", \"-c\", f\"curl -LsSf {_UV_INSTALL_URL} | sh\"],\n            env=env,\n            check=True,",
+      "intent": null
+    },
+    {
+      "id": "AST4",
+      "category": "Dangerous Code Execution",
+      "pattern": "subprocess module call",
+      "severity": "MEDIUM",
+      "confidence": 0.7,
+      "location": {
+        "file": "scripts/session-start.py",
+        "start_line": 145,
+        "end_line": 154
+      },
+      "finding": "        out = subprocess.run(\n            [\n                str(_VENV_PYTHON),\n                \"-c\",\n                \"import importlib.metadata as m; print(m.version('cognee'))\",\n            ],\n      ",
+      "explanation": "subprocess module calls execute external commands. Without careful input validation, this enables command injection.",
+      "remediation": "Use subprocess.run() with shell=False and an explicit argument list. Validate all inputs and avoid passing user-controlled data to commands.",
+      "code_snippet": "    if not _VENV_PYTHON.exists():\n        return \"\"\n    try:\n        out = subprocess.run(\n            [\n                str(_VENV_PYTHON),\n                \"-c\",",
+      "intent": null
+    },
+    {
+      "id": "AST4",
+      "category": "Dangerous Code Execution",
+      "pattern": "subprocess module call",
+      "severity": "MEDIUM",
+      "confidence": 0.7,
+      "location": {
+        "file": "scripts/session-start.py",
+        "start_line": 434,
+        "end_line": 438
+      },
+      "finding": "        subprocess.Popen(\n            [str(_VENV_PYTHON), \"-m\", \"uvicorn\", \"cognee.api.client:app\", \"--port\", str(port)],\n            env=server_env,\n            start_new_session=True,\n        )",
+      "explanation": "subprocess module calls execute external commands. Without careful input validation, this enables command injection.",
+      "remediation": "Use subprocess.run() with shell=False and an explicit argument list. Validate all inputs and avoid passing user-controlled data to commands.",
+      "code_snippet": "        # Run in agent mode: the server tears itself down once all registered\n        # agents disconnect.\n        server_env[\"COGNEE_AGENT_MODE\"] = \"true\"\n        subprocess.Popen(\n            [str(_VENV_PYTHON), \"-m\", \"uvicorn\", \"cognee.api.client:app\", \"--port\", str(port)],\n            env=server_env,\n            start_new_session=True,",
+      "intent": null
+    },
+    {
+      "id": "AST4",
+      "category": "Dangerous Code Execution",
+      "pattern": "subprocess module call",
+      "severity": "MEDIUM",
+      "confidence": 0.7,
+      "location": {
+        "file": "scripts/session-start.py",
+        "start_line": 669,
+        "end_line": 677
+      },
+      "finding": "        subprocess.Popen(\n            [sys.executable, str(_WATCHER_SCRIPT), json.dumps(bootstrap)],\n            stdin=subprocess.DEVNULL,\n            stdout=log_fh,\n            stderr=log_fh,\n       ",
+      "explanation": "subprocess module calls execute external commands. Without careful input validation, this enables command injection.",
+      "remediation": "Use subprocess.run() with shell=False and an explicit argument list. Validate all inputs and avoid passing user-controlled data to commands.",
+      "code_snippet": "        env = os.environ.copy()\n        if session_key:\n            env[\"COGNEE_SESSION_KEY\"] = session_key\n        subprocess.Popen(\n            [sys.executable, str(_WATCHER_SCRIPT), json.dumps(bootstrap)],\n            stdin=subprocess.DEVNULL,\n            stdout=log_fh,",
+      "intent": null
+    },
+    {
+      "id": "AST4",
+      "category": "Dangerous Code Execution",
+      "pattern": "subprocess module call",
+      "severity": "MEDIUM",
+      "confidence": 0.7,
+      "location": {
+        "file": "scripts/session-start.py",
+        "start_line": 687,
+        "end_line": 691
+      },
+      "finding": "        raw = subprocess.check_output(\n            [\"ps\", \"-axo\", \"pid=,ppid=,command=\"],\n            text=True,\n            stderr=subprocess.DEVNULL,\n        )",
+      "explanation": "subprocess module calls execute external commands. Without careful input validation, this enables command injection.",
+      "remediation": "Use subprocess.run() with shell=False and an explicit argument list. Validate all inputs and avoid passing user-controlled data to commands.",
+      "code_snippet": "    \"\"\"Find the nearest live Claude ancestor, skipping hook shells.\"\"\"\n    fallback = os.getppid()\n    try:\n        raw = subprocess.check_output(\n            [\"ps\", \"-axo\", \"pid=,ppid=,command=\"],\n            text=True,\n            stderr=subprocess.DEVNULL,",
+      "intent": null
+    },
+    {
+      "id": "AST4",
+      "category": "Dangerous Code Execution",
+      "pattern": "subprocess module call",
+      "severity": "MEDIUM",
+      "confidence": 0.7,
+      "location": {
+        "file": "scripts/session-start.py",
+        "start_line": 799,
+        "end_line": 807
+      },
+      "finding": "        subprocess.Popen(\n            [sys.executable, str(_EXIT_WATCHER_SCRIPT), json.dumps(bootstrap)],\n            stdin=subprocess.DEVNULL,\n            stdout=log_fh,\n            stderr=log_fh,\n  ",
+      "explanation": "subprocess module calls execute external commands. Without careful input validation, this enables command injection.",
+      "remediation": "Use subprocess.run() with shell=False and an explicit argument list. Validate all inputs and avoid passing user-controlled data to commands.",
+      "code_snippet": "        env = os.environ.copy()\n        if session_key:\n            env[\"COGNEE_SESSION_KEY\"] = session_key\n        subprocess.Popen(\n            [sys.executable, str(_EXIT_WATCHER_SCRIPT), json.dumps(bootstrap)],\n            stdin=subprocess.DEVNULL,\n            stdout=log_fh,",
+      "intent": null
+    },
+    {
+      "id": "AST4",
+      "category": "Dangerous Code Execution",
+      "pattern": "subprocess module call",
+      "severity": "MEDIUM",
+      "confidence": 0.7,
+      "location": {
+        "file": "scripts/session-start.py",
+        "start_line": 905,
+        "end_line": 913
+      },
+      "finding": "        subprocess.Popen(\n            [sys.executable, str(Path(__file__).resolve()), _BOOTSTRAP_ARG, json.dumps(bootstrap)],\n            stdin=subprocess.DEVNULL,\n            stdout=log_fh,\n         ",
+      "explanation": "subprocess module calls execute external commands. Without careful input validation, this enables command injection.",
+      "remediation": "Use subprocess.run() with shell=False and an explicit argument list. Validate all inputs and avoid passing user-controlled data to commands.",
+      "code_snippet": "        env = os.environ.copy()\n        if session_key:\n            env[\"COGNEE_SESSION_KEY\"] = session_key\n        subprocess.Popen(\n            [sys.executable, str(Path(__file__).resolve()), _BOOTSTRAP_ARG, json.dumps(bootstrap)],\n            stdin=subprocess.DEVNULL,\n            stdout=log_fh,",
+      "intent": null
+    },
+    {
+      "id": "AST4",
+      "category": "Dangerous Code Execution",
+      "pattern": "subprocess module call",
+      "severity": "MEDIUM",
+      "confidence": 0.7,
+      "location": {
+        "file": "scripts/session-start.py",
+        "start_line": 252,
+        "end_line": 267
+      },
+      "finding": "                subprocess.run(\n                    [\n                        uv,\n                        \"pip\",\n                        \"install\",\n                        \"--upgrade\",\n               ",
+      "explanation": "subprocess module calls execute external commands. Without careful input validation, this enables command injection.",
+      "remediation": "Use subprocess.run() with shell=False and an explicit argument list. Validate all inputs and avoid passing user-controlled data to commands.",
+      "code_snippet": "                        text=True,\n                        timeout=timeout,\n                    )\n                subprocess.run(\n                    [\n                        uv,\n                        \"pip\",",
+      "intent": null
+    },
+    {
+      "id": "AST4",
+      "category": "Dangerous Code Execution",
+      "pattern": "subprocess module call",
+      "severity": "MEDIUM",
+      "confidence": 0.7,
+      "location": {
+        "file": "scripts/session-start.py",
+        "start_line": 244,
+        "end_line": 251
+      },
+      "finding": "                    subprocess.run(\n                        [uv, \"venv\", str(_VENV_DIR), \"--python\", _PINNED_PYTHON],\n                        env=env,\n                        check=True,\n             ",
+      "explanation": "subprocess module calls execute external commands. Without careful input validation, this enables command injection.",
+      "remediation": "Use subprocess.run() with shell=False and an explicit argument list. Validate all inputs and avoid passing user-controlled data to commands.",
+      "code_snippet": "            env.setdefault(\"UV_PYTHON_INSTALL_DIR\", str(_UV_PYTHON_DIR))\n            try:\n                if not venv_present:\n                    subprocess.run(\n                        [uv, \"venv\", str(_VENV_DIR), \"--python\", _PINNED_PYTHON],\n                        env=env,\n                        check=True,",
+      "intent": null
+    },
+    {
+      "id": "AST4",
+      "category": "Dangerous Code Execution",
+      "pattern": "subprocess module call",
+      "severity": "MEDIUM",
+      "confidence": 0.7,
+      "location": {
+        "file": "scripts/session-start.py",
+        "start_line": 274,
+        "end_line": 280
+      },
+      "finding": "                subprocess.run(\n                    [sys.executable, \"-m\", \"venv\", str(_VENV_DIR)],\n                    check=True,\n                    capture_output=True,\n                    text=Tr",
+      "explanation": "subprocess module calls execute external commands. Without careful input validation, this enables command injection.",
+      "remediation": "Use subprocess.run() with shell=False and an explicit argument list. Validate all inputs and avoid passing user-controlled data to commands.",
+      "code_snippet": "            # Last-resort fallback: stdlib venv + pip. Slower, and relies on the\n            # system python3 being a cognee-compatible version (3.10-3.14).\n            try:\n                subprocess.run(\n                    [sys.executable, \"-m\", \"venv\", str(_VENV_DIR)],\n                    check=True,\n                    capture_output=True,",
+      "intent": null
+    },
+    {
+      "id": "AST4",
+      "category": "Dangerous Code Execution",
+      "pattern": "subprocess module call",
+      "severity": "MEDIUM",
+      "confidence": 0.7,
+      "location": {
+        "file": "scripts/session-start.py",
+        "start_line": 281,
+        "end_line": 294
+      },
+      "finding": "                subprocess.run(\n                    [\n                        str(_VENV_PYTHON),\n                        \"-m\",\n                        \"pip\",\n                        \"install\",\n       ",
+      "explanation": "subprocess module calls execute external commands. Without careful input validation, this enables command injection.",
+      "remediation": "Use subprocess.run() with shell=False and an explicit argument list. Validate all inputs and avoid passing user-controlled data to commands.",
+      "code_snippet": "                    text=True,\n                    timeout=timeout,\n                )\n                subprocess.run(\n                    [\n                        str(_VENV_PYTHON),\n                        \"-m\",",
+      "intent": null
+    },
+    {
+      "id": "AST4",
+      "category": "Dangerous Code Execution",
+      "pattern": "subprocess module call",
+      "severity": "MEDIUM",
+      "confidence": 0.7,
+      "location": {
+        "file": "scripts/store-user-prompt.py",
+        "start_line": 104,
+        "end_line": 112
+      },
+      "finding": "        subprocess.Popen(\n            [sys.executable, str(_WATCHER_SCRIPT), json.dumps(bootstrap)],\n            stdin=subprocess.DEVNULL,\n            stdout=log_fh,\n            stderr=log_fh,\n       ",
+      "explanation": "subprocess module calls execute external commands. Without careful input validation, this enables command injection.",
+      "remediation": "Use subprocess.run() with shell=False and an explicit argument list. Validate all inputs and avoid passing user-controlled data to commands.",
+      "code_snippet": "\n    try:\n        env = os.environ.copy()\n        subprocess.Popen(\n            [sys.executable, str(_WATCHER_SCRIPT), json.dumps(bootstrap)],\n            stdin=subprocess.DEVNULL,\n            stdout=log_fh,",
+      "intent": null
+    },
+    {
+      "id": "AST4",
+      "category": "Dangerous Code Execution",
+      "pattern": "subprocess module call",
+      "severity": "MEDIUM",
+      "confidence": 0.7,
+      "location": {
+        "file": "scripts/sync-session-to-graph.py",
+        "start_line": 86,
+        "end_line": 94
+      },
+      "finding": "        subprocess.Popen(\n            [sys.executable, str(Path(__file__).resolve()), _DETACHED_ARG],\n            cwd=os.getcwd(),\n            env=env,\n            stdin=subprocess.DEVNULL,\n          ",
+      "explanation": "subprocess module calls execute external commands. Without careful input validation, this enables command injection.",
+      "remediation": "Use subprocess.run() with shell=False and an explicit argument list. Validate all inputs and avoid passing user-controlled data to commands.",
+      "code_snippet": "        env = os.environ.copy()\n        env.setdefault(\"COGNEE_SYNC_START_DELAY\", str(_SESSION_END_START_DELAY_DEFAULT))\n        env[\"COGNEE_UNREGISTER_ON_FINISH\"] = \"1\"\n        subprocess.Popen(\n            [sys.executable, str(Path(__file__).resolve()), _DETACHED_ARG],\n            cwd=os.getcwd(),\n            env=env,",
+      "intent": null
+    },
+    {
+      "id": "AST7",
+      "category": "Dangerous Code Execution",
+      "pattern": "Dynamic attribute access via getattr()",
+      "severity": "LOW",
+      "confidence": 0.5,
+      "location": {
+        "file": "tests/test_bridge_poll.py",
+        "start_line": 77,
+        "end_line": 77
+      },
+      "finding": "        k: getattr(pc, k)",
+      "explanation": "Dynamic getattr() with a non-literal attribute name can access arbitrary object attributes, potentially bypassing access controls.",
+      "remediation": "Replace dynamic getattr() with explicit attribute access or a dictionary lookup with an allowlist of permitted attributes.",
+      "code_snippet": "    calls = {\"post\": 0, \"wait\": 0}\n    written = {}\n    saved = {\n        k: getattr(pc, k)\n        for k in (\n            \"_local_api_url\",\n            \"_backend_reachable\",",
+      "intent": null
+    },
+    {
+      "id": "TT3",
+      "category": "Data Flow",
+      "pattern": "Tainted flow: 'req' from os.environ.get (line 1046, credential/environment) \u2192 urllib.request.urlopen (network output)",
+      "severity": "CRITICAL",
+      "confidence": 0.9,
+      "location": {
+        "file": "scripts/_plugin_common.py",
+        "start_line": 1052,
+        "end_line": 1052
+      },
+      "finding": "    with urllib.request.urlopen(req, timeout=timeout) as resp:",
+      "explanation": "Credentials or environment variables flow to a network sink. This is a high-confidence indicator of credential exfiltration.",
+      "remediation": "Never send credentials or environment variables over the network. Use secure credential stores and avoid transmitting secrets in request bodies or URLs.",
+      "code_snippet": "        headers=headers,\n        method=method,\n    )\n    with urllib.request.urlopen(req, timeout=timeout) as resp:\n        body = resp.read().decode(\"utf-8\")\n        if not body:\n            return None",
+      "intent": null
+    },
+    {
+      "id": "TT3",
+      "category": "Data Flow",
+      "pattern": "Tainted flow: 'req' from os.environ.get (line 1046, credential/environment) \u2192 urllib.request.urlopen (network output)",
+      "severity": "CRITICAL",
+      "confidence": 0.9,
+      "location": {
+        "file": "scripts/_plugin_common.py",
+        "start_line": 1327,
+        "end_line": 1327
+      },
+      "finding": "        with urllib.request.urlopen(req, timeout=timeout) as resp:",
+      "explanation": "Credentials or environment variables flow to a network sink. This is a high-confidence indicator of credential exfiltration.",
+      "remediation": "Never send credentials or environment variables over the network. Use secure credential stores and avoid transmitting secrets in request bodies or URLs.",
+      "code_snippet": "        method=\"POST\",\n    )\n    try:\n        with urllib.request.urlopen(req, timeout=timeout) as resp:\n            status_code = resp.status\n            raw = resp.read().decode(\"utf-8\")\n    except urllib.error.HTTPError as exc:",
+      "intent": null
+    },
+    {
+      "id": "TT2",
+      "category": "Data Flow",
+      "pattern": "Tainted flow: 'cwd' from os.environ.get (line 170, credential/environment) \u2192 subprocess.run (code execution)",
+      "severity": "MEDIUM",
+      "confidence": 0.65,
+      "location": {
+        "file": "scripts/config.py",
+        "start_line": 506,
+        "end_line": 512
+      },
+      "finding": "        result = subprocess.run(\n            [\"git\", \"rev-parse\", \"--abbrev-ref\", \"HEAD\"],\n            cwd=cwd,\n            capture_output=True,\n            text=True,\n            timeout=3,\n        )",
+      "explanation": "Data from a source is assigned to a variable that is later passed to a sink, creating a variable-mediated taint flow.",
+      "remediation": "Validate tainted variables before passing them to sinks. Use allowlists, type checks, or sanitization functions on data from external sources.",
+      "code_snippet": "def _get_git_branch(cwd: str) -> str:\n    \"\"\"Get current git branch, or empty string if not a git repo.\"\"\"\n    try:\n        result = subprocess.run(\n            [\"git\", \"rev-parse\", \"--abbrev-ref\", \"HEAD\"],\n            cwd=cwd,\n            capture_output=True,",
+      "intent": null
+    },
+    {
+      "id": "TT2",
+      "category": "Data Flow",
+      "pattern": "Tainted flow: 'bootstrap' from os.environ.get (line 776, credential/environment) \u2192 subprocess.Popen (code execution)",
+      "severity": "MEDIUM",
+      "confidence": 0.65,
+      "location": {
+        "file": "scripts/session-start.py",
+        "start_line": 669,
+        "end_line": 677
+      },
+      "finding": "        subprocess.Popen(\n            [sys.executable, str(_WATCHER_SCRIPT), json.dumps(bootstrap)],\n            stdin=subprocess.DEVNULL,\n            stdout=log_fh,\n            stderr=log_fh,\n       ",
+      "explanation": "Data from a source is assigned to a variable that is later passed to a sink, creating a variable-mediated taint flow.",
+      "remediation": "Validate tainted variables before passing them to sinks. Use allowlists, type checks, or sanitization functions on data from external sources.",
+      "code_snippet": "        env = os.environ.copy()\n        if session_key:\n            env[\"COGNEE_SESSION_KEY\"] = session_key\n        subprocess.Popen(\n            [sys.executable, str(_WATCHER_SCRIPT), json.dumps(bootstrap)],\n            stdin=subprocess.DEVNULL,\n            stdout=log_fh,",
+      "intent": null
+    },
+    {
+      "id": "TT2",
+      "category": "Data Flow",
+      "pattern": "Tainted flow: 'bootstrap' from os.environ.get (line 776, credential/environment) \u2192 subprocess.Popen (code execution)",
+      "severity": "MEDIUM",
+      "confidence": 0.65,
+      "location": {
+        "file": "scripts/session-start.py",
+        "start_line": 799,
+        "end_line": 807
+      },
+      "finding": "        subprocess.Popen(\n            [sys.executable, str(_EXIT_WATCHER_SCRIPT), json.dumps(bootstrap)],\n            stdin=subprocess.DEVNULL,\n            stdout=log_fh,\n            stderr=log_fh,\n  ",
+      "explanation": "Data from a source is assigned to a variable that is later passed to a sink, creating a variable-mediated taint flow.",
+      "remediation": "Validate tainted variables before passing them to sinks. Use allowlists, type checks, or sanitization functions on data from external sources.",
+      "code_snippet": "        env = os.environ.copy()\n        if session_key:\n            env[\"COGNEE_SESSION_KEY\"] = session_key\n        subprocess.Popen(\n            [sys.executable, str(_EXIT_WATCHER_SCRIPT), json.dumps(bootstrap)],\n            stdin=subprocess.DEVNULL,\n            stdout=log_fh,",
+      "intent": null
+    },
+    {
+      "id": "TT2",
+      "category": "Data Flow",
+      "pattern": "Tainted flow: 'bootstrap' from os.environ.get (line 776, credential/environment) \u2192 subprocess.Popen (code execution)",
+      "severity": "MEDIUM",
+      "confidence": 0.65,
+      "location": {
+        "file": "scripts/session-start.py",
+        "start_line": 905,
+        "end_line": 913
+      },
+      "finding": "        subprocess.Popen(\n            [sys.executable, str(Path(__file__).resolve()), _BOOTSTRAP_ARG, json.dumps(bootstrap)],\n            stdin=subprocess.DEVNULL,\n            stdout=log_fh,\n         ",
+      "explanation": "Data from a source is assigned to a variable that is later passed to a sink, creating a variable-mediated taint flow.",
+      "remediation": "Validate tainted variables before passing them to sinks. Use allowlists, type checks, or sanitization functions on data from external sources.",
+      "code_snippet": "        env = os.environ.copy()\n        if session_key:\n            env[\"COGNEE_SESSION_KEY\"] = session_key\n        subprocess.Popen(\n            [sys.executable, str(Path(__file__).resolve()), _BOOTSTRAP_ARG, json.dumps(bootstrap)],\n            stdin=subprocess.DEVNULL,\n            stdout=log_fh,",
+      "intent": null
+    },
+    {
+      "id": "TT2",
+      "category": "Data Flow",
+      "pattern": "Tainted flow: '_PINNED_PYTHON' from os.environ.get (line 96, credential/environment) \u2192 subprocess.run (code execution)",
+      "severity": "MEDIUM",
+      "confidence": 0.65,
+      "location": {
+        "file": "scripts/session-start.py",
+        "start_line": 244,
+        "end_line": 251
+      },
+      "finding": "                    subprocess.run(\n                        [uv, \"venv\", str(_VENV_DIR), \"--python\", _PINNED_PYTHON],\n                        env=env,\n                        check=True,\n             ",
+      "explanation": "Data from a source is assigned to a variable that is later passed to a sink, creating a variable-mediated taint flow.",
+      "remediation": "Validate tainted variables before passing them to sinks. Use allowlists, type checks, or sanitization functions on data from external sources.",
+      "code_snippet": "            env.setdefault(\"UV_PYTHON_INSTALL_DIR\", str(_UV_PYTHON_DIR))\n            try:\n                if not venv_present:\n                    subprocess.run(\n                        [uv, \"venv\", str(_VENV_DIR), \"--python\", _PINNED_PYTHON],\n                        env=env,\n                        check=True,",
+      "intent": null
+    },
+    {
+      "id": "TT2",
+      "category": "Data Flow",
+      "pattern": "Tainted flow: 'bootstrap' from os.environ.get (line 82, credential/environment) \u2192 subprocess.Popen (code execution)",
+      "severity": "MEDIUM",
+      "confidence": 0.65,
+      "location": {
+        "file": "scripts/store-user-prompt.py",
+        "start_line": 104,
+        "end_line": 112
+      },
+      "finding": "        subprocess.Popen(\n            [sys.executable, str(_WATCHER_SCRIPT), json.dumps(bootstrap)],\n            stdin=subprocess.DEVNULL,\n            stdout=log_fh,\n            stderr=log_fh,\n       ",
+      "explanation": "Data from a source is assigned to a variable that is later passed to a sink, creating a variable-mediated taint flow.",
+      "remediation": "Validate tainted variables before passing them to sinks. Use allowlists, type checks, or sanitization functions on data from external sources.",
+      "code_snippet": "\n    try:\n        env = os.environ.copy()\n        subprocess.Popen(\n            [sys.executable, str(_WATCHER_SCRIPT), json.dumps(bootstrap)],\n            stdin=subprocess.DEVNULL,\n            stdout=log_fh,",
+      "intent": null
+    },
+    {
+      "id": "E1",
+      "category": "Data Exfiltration",
+      "pattern": "External Transmission",
+      "severity": "MEDIUM",
+      "confidence": 0.6,
+      "location": {
+        "file": "README.md",
+        "start_line": 255,
+        "end_line": null
+      },
+      "finding": "curl -X POST \"$COGNEE_BASE_URL/api/v1/recall\" -d ",
+      "explanation": "Data is being sent to an external URL. This could be legitimate telemetry or data exfiltration. Manual review is recommended.",
+      "remediation": "Verify the destination URL is trusted and necessary. Remove or replace with documented APIs. Ensure no secrets, tokens, or PII are transmitted.",
+      "code_snippet": "**Recall returns empty but data was ingested**\n- Recall is scoped to the active dataset (`COGNEE_PLUGIN_DATASET` / `config.json` / `agent_sessions`).\n- Data written via the Python SDK or `client.py` goes to `default_dataset` by default, if dataset not otherwise specified.\n- To verify, call the recall API directly without a dataset filter: `curl -X POST \"$COGNEE_BASE_URL/api/v1/recall\" -d '{\"query\":\"...\"}'`\n\n**Session not resolving / wrong session shown**\n- Check `~/.cognee-plugin/claude-code/sessions/<host_session_id>.json` \u2014 this is the map file for your terminal.",
+      "intent": null
+    },
+    {
+      "id": "E1",
+      "category": "Data Exfiltration",
+      "pattern": "External Transmission",
+      "severity": "MEDIUM",
+      "confidence": 0.6,
+      "location": {
+        "file": "agents/cognee-recall.md",
+        "start_line": 38,
+        "end_line": null
+      },
+      "finding": "curl -s -X POST \"${COGNEE_BASE_URL:-http://localhost:8011}/api/v1/recall\" \\\n  -H \"Content-Type: application/json\" \\\n  -H \"X-Api-Key: ${COGNEE_API_KEY:-}\" \\\n  -d ",
+      "explanation": "Data is being sent to an external URL. This could be legitimate telemetry or data exfiltration. Manual review is recommended.",
+      "remediation": "Verify the destination URL is trusted and necessary. Remove or replace with documented APIs. Ensure no secrets, tokens, or PII are transmitted.",
+      "code_snippet": "\n**Manual ground-truth only (not part of the normal flow):** if a result is empty and you genuinely doubt it, you may confirm directly. Category filtering uses `node_name` (the CLI doesn't expose it):\n```bash\ncurl -s -X POST \"${COGNEE_BASE_URL:-http://localhost:8011}/api/v1/recall\" \\\n  -H \"Content-Type: application/json\" \\\n  -H \"X-Api-Key: ${COGNEE_API_KEY:-}\" \\\n  -d '{\"query\": \"<query>\", \"top_k\": 10, \"only_context\": true, \"scope\": [\"graph\"], \"node_name\": [\"project_docs\"]}'",
+      "intent": null
+    },
+    {
+      "id": "E2",
+      "category": "Data Exfiltration",
+      "pattern": "Env Variable Harvesting",
+      "severity": "HIGH",
+      "confidence": 0.8,
+      "location": {
+        "file": "scripts/_plugin_common.py",
+        "start_line": 123,
+        "end_line": null
+      },
+      "finding": "os.environ[\"COGNEE_SESSION_KEY\"]",
+      "explanation": "Code accesses environment variables that may contain secrets (API keys, tokens). This is a common pattern for credential theft.",
+      "remediation": "Avoid reading sensitive env vars (API keys, tokens) unless strictly required. Use secrets managers or secure config. Never log or transmit credentials.",
+      "code_snippet": "def set_session_key(session_key: str) -> str:\n    normalized = _sanitize_session_key(session_key)\n    if normalized:\n        os.environ[\"COGNEE_SESSION_KEY\"] = normalized\n    return normalized\n\n",
+      "intent": null
+    },
+    {
+      "id": "E2",
+      "category": "Data Exfiltration",
+      "pattern": "Env Variable Harvesting",
+      "severity": "HIGH",
+      "confidence": 0.8,
+      "location": {
+        "file": "scripts/_plugin_common.py",
+        "start_line": 902,
+        "end_line": null
+      },
+      "finding": "os.environ[\"COGNEE_API_KEY\"]",
+      "explanation": "Code accesses environment variables that may contain secrets (API keys, tokens). This is a common pattern for credential theft.",
+      "remediation": "Avoid reading sensitive env vars (API keys, tokens) unless strictly required. Use secrets managers or secure config. Never log or transmit credentials.",
+      "code_snippet": "    service_url = _normalize_service_url(service_url or _local_api_url())\n    cached = load_cached_api_key(service_url)\n    if cached:\n        os.environ[\"COGNEE_API_KEY\"] = cached\n        return cached, \"cache_single_key\"\n\n    return \"\", \"missing\"",
+      "intent": null
+    },
+    {
+      "id": "E2",
+      "category": "Data Exfiltration",
+      "pattern": "Env Variable Harvesting",
+      "severity": "HIGH",
+      "confidence": 0.8,
+      "location": {
+        "file": "scripts/_plugin_common.py",
+        "start_line": 923,
+        "end_line": null
+      },
+      "finding": "os.environ[\"COGNEE_API_KEY\"]",
+      "explanation": "Code accesses environment variables that may contain secrets (API keys, tokens). This is a common pattern for credential theft.",
+      "remediation": "Avoid reading sensitive env vars (API keys, tokens) unless strictly required. Use secrets managers or secure config. Never log or transmit credentials.",
+      "code_snippet": "    if service_url:\n        os.environ[\"COGNEE_BASE_URL\"] = service_url\n    if api_key:\n        os.environ[\"COGNEE_API_KEY\"] = api_key\n    return service_url, api_key\n\n",
+      "intent": null
+    },
+    {
+      "id": "E2",
+      "category": "Data Exfiltration",
+      "pattern": "Env Variable Harvesting",
+      "severity": "HIGH",
+      "confidence": 0.8,
+      "location": {
+        "file": "scripts/_plugin_common.py",
+        "start_line": 1014,
+        "end_line": null
+      },
+      "finding": "os.environ[\"COGNEE_API_KEY\"]",
+      "explanation": "Code accesses environment variables that may contain secrets (API keys, tokens). This is a common pattern for credential theft.",
+      "remediation": "Avoid reading sensitive env vars (API keys, tokens) unless strictly required. Use secrets managers or secure config. Never log or transmit credentials.",
+      "code_snippet": "    if service_url:\n        os.environ[\"COGNEE_BASE_URL\"] = service_url\n    if api_key:\n        os.environ[\"COGNEE_API_KEY\"] = api_key\n    return {\n        \"mode\": mode,\n        \"base_url\": service_url,",
+      "intent": null
+    },
+    {
+      "id": "E2",
+      "category": "Data Exfiltration",
+      "pattern": "Env Variable Harvesting",
+      "severity": "HIGH",
+      "confidence": 0.7,
+      "location": {
+        "file": "scripts/_plugin_common.py",
+        "start_line": 111,
+        "end_line": null
+      },
+      "finding": "os.environ.get(\"COGNEE_SESSION_KEY",
+      "explanation": "Code accesses environment variables that may contain secrets (API keys, tokens). This is a common pattern for credential theft.",
+      "remediation": "Avoid reading sensitive env vars (API keys, tokens) unless strictly required. Use secrets managers or secure config. Never log or transmit credentials.",
+      "code_snippet": "\ndef get_session_key() -> str:\n    candidates = [\n        os.environ.get(\"COGNEE_SESSION_KEY\"),\n    ]\n    for value in candidates:\n        text = _sanitize_session_key(str(value or \"\").strip())",
+      "intent": null
+    },
+    {
+      "id": "E2",
+      "category": "Data Exfiltration",
+      "pattern": "Env Variable Harvesting",
+      "severity": "HIGH",
+      "confidence": 0.7,
+      "location": {
+        "file": "scripts/_plugin_common.py",
+        "start_line": 895,
+        "end_line": null
+      },
+      "finding": "os.environ.get(\"COGNEE_API_KEY",
+      "explanation": "Code accesses environment variables that may contain secrets (API keys, tokens). This is a common pattern for credential theft.",
+      "remediation": "Avoid reading sensitive env vars (API keys, tokens) unless strictly required. Use secrets managers or secure config. Never log or transmit credentials.",
+      "code_snippet": "         user by SessionStart when no key was provided.\n    No per-agent keys, no agent-name keying.\n    \"\"\"\n    env_key = str(os.environ.get(\"COGNEE_API_KEY\", \"\") or \"\").strip()\n    if env_key:\n        return env_key, \"env_api_key\"\n",
+      "intent": null
+    },
+    {
+      "id": "E2",
+      "category": "Data Exfiltration",
+      "pattern": "Env Variable Harvesting",
+      "severity": "HIGH",
+      "confidence": 0.6,
+      "location": {
+        "file": "scripts/_plugin_common.py",
+        "start_line": 84,
+        "end_line": null
+      },
+      "finding": "os.environ.copy()",
+      "explanation": "Code accesses environment variables that may contain secrets (API keys, tokens). This is a common pattern for credential theft.",
+      "remediation": "Avoid reading sensitive env vars (API keys, tokens) unless strictly required. Use secrets managers or secure config. Never log or transmit credentials.",
+      "code_snippet": "    \"\"\"Pin cognee's data dirs + caching into the environment.\n\n    Uses setdefault so an explicit user/env override always wins. Called on\n    import so any process that spawns the cognee server (via os.environ.copy())\n    inherits a stable, upgrade-safe data location. CACHING and AUTO_FEEDBACK are\n    already cognee's defaults but are set explicitly so a future default change\n    can't silently disable session-context distillation.",
+      "intent": null
+    },
+    {
+      "id": "E2",
+      "category": "Data Exfiltration",
+      "pattern": "Env Variable Harvesting",
+      "severity": "HIGH",
+      "confidence": 0.7,
+      "location": {
+        "file": "scripts/cognee-remember.sh",
+        "start_line": 29,
+        "end_line": null
+      },
+      "finding": "os.environ.get(\"COGNEE_API_KEY",
+      "explanation": "Code accesses environment variables that may contain secrets (API keys, tokens). This is a common pattern for credential theft.",
+      "remediation": "Avoid reading sensitive env vars (API keys, tokens) unless strictly required. Use secrets managers or secure config. Never log or transmit credentials.",
+      "code_snippet": "plugin_dir = pathlib.Path(sys.argv[1])\nimport os\nservice_url = (os.environ.get(\"COGNEE_BASE_URL\") or os.environ.get(\"COGNEE_LOCAL_API_URL\") or \"http://localhost:8011\").strip()\napi_key = (os.environ.get(\"COGNEE_API_KEY\") or \"\").strip()\n\nif not api_key:\n    cache_path = plugin_dir.parent / \"api_key.json\"",
+      "intent": null
+    },
+    {
+      "id": "E2",
+      "category": "Data Exfiltration",
+      "pattern": "Env Variable Harvesting",
+      "severity": "HIGH",
+      "confidence": 0.7,
+      "location": {
+        "file": "scripts/cognee-remember.sh",
+        "start_line": 47,
+        "end_line": null
+      },
+      "finding": "os.environ.get(\"COGNEE_SESSION_KEY",
+      "explanation": "Code accesses environment variables that may contain secrets (API keys, tokens). This is a common pattern for credential theft.",
+      "remediation": "Avoid reading sensitive env vars (API keys, tokens) unless strictly required. Use secrets managers or secure config. Never log or transmit credentials.",
+      "code_snippet": "dataset = \"\"\nif service_url and api_key:\n    try:\n        session_key = (os.environ.get(\"COGNEE_SESSION_KEY\") or \"\").strip()\n        query = \"\"\n        if session_key:\n            query = \"?agent_session_name=\" + urllib.parse.quote(session_key, safe=\"\")",
+      "intent": null
+    },
+    {
+      "id": "E1",
+      "category": "Data Exfiltration",
+      "pattern": "External Transmission",
+      "severity": "MEDIUM",
+      "confidence": 0.7,
+      "location": {
+        "file": "scripts/cognee-search.sh",
+        "start_line": 151,
+        "end_line": null
+      },
+      "finding": "curl -X POST \\\"\\$COGNEE_BASE_URL/api/v1/recall\\\")\" >&2\n    if [ \"$MODE\" = \"graph\" ]; then\n        cognee-cli recall \"$QUERY\" -d ",
+      "explanation": "Data is being sent to an external URL. This could be legitimate telemetry or data exfiltration. Manual review is recommended.",
+      "remediation": "Verify the destination URL is trusted and necessary. Remove or replace with documented APIs. Ensure no secrets, tokens, or PII are transmitted.",
+      "code_snippet": "    # Server answered \u2014 authoritative, even if the result is empty.\n    printf '%s\\n' \"$RECALL_JSON\"\nelse\n    echo \"[cognee-search] falling back to cognee-cli (degraded \u2014 empty CLI output is NOT proof of absence; ground-truth via: curl -X POST \\\"\\$COGNEE_BASE_URL/api/v1/recall\\\")\" >&2\n    if [ \"$MODE\" = \"graph\" ]; then\n        cognee-cli recall \"$QUERY\" -d \"$DATASET\" -k \"$TOP_K\" -f json 2>/dev/null || true\n    elif [ \"$MODE\" = \"session\" ]; then",
+      "intent": null
+    },
+    {
+      "id": "E2",
+      "category": "Data Exfiltration",
+      "pattern": "Env Variable Harvesting",
+      "severity": "HIGH",
+      "confidence": 0.7,
+      "location": {
+        "file": "scripts/cognee-search.sh",
+        "start_line": 29,
+        "end_line": null
+      },
+      "finding": "os.environ.get(\"COGNEE_API_KEY",
+      "explanation": "Code accesses environment variables that may contain secrets (API keys, tokens). This is a common pattern for credential theft.",
+      "remediation": "Avoid reading sensitive env vars (API keys, tokens) unless strictly required. Use secrets managers or secure config. Never log or transmit credentials.",
+      "code_snippet": "plugin_dir = pathlib.Path(sys.argv[1])\nimport os\nservice_url = (os.environ.get(\"COGNEE_BASE_URL\") or os.environ.get(\"COGNEE_LOCAL_API_URL\") or \"http://localhost:8011\").strip()\napi_key = (os.environ.get(\"COGNEE_API_KEY\") or \"\").strip()\nif not api_key:\n    cache_path = plugin_dir.parent / \"api_key.json\"\n    if cache_path.exists():",
+      "intent": null
+    },
+    {
+      "id": "E2",
+      "category": "Data Exfiltration",
+      "pattern": "Env Variable Harvesting",
+      "severity": "HIGH",
+      "confidence": 0.7,
+      "location": {
+        "file": "scripts/cognee-search.sh",
+        "start_line": 48,
+        "end_line": null
+      },
+      "finding": "os.environ.get(\"COGNEE_SESSION_KEY",
+      "explanation": "Code accesses environment variables that may contain secrets (API keys, tokens). This is a common pattern for credential theft.",
+      "remediation": "Avoid reading sensitive env vars (API keys, tokens) unless strictly required. Use secrets managers or secure config. Never log or transmit credentials.",
+      "code_snippet": "if service_url and api_key:\n    try:\n        query = \"\"\n        session_key = (os.environ.get(\"COGNEE_SESSION_KEY\") or \"\").strip()\n        if session_key:\n            query = \"?agent_session_name=\" + urllib.parse.quote(session_key, safe=\"\")\n        req = urllib.request.Request(",
+      "intent": null
+    },
+    {
+      "id": "E2",
+      "category": "Data Exfiltration",
+      "pattern": "Env Variable Harvesting",
+      "severity": "HIGH",
+      "confidence": 0.7,
+      "location": {
+        "file": "scripts/config.py",
+        "start_line": 120,
+        "end_line": null
+      },
+      "finding": "os.environ.get(env_key",
+      "explanation": "Code accesses environment variables that may contain secrets (API keys, tokens). This is a common pattern for credential theft.",
+      "remediation": "Avoid reading sensitive env vars (API keys, tokens) unless strictly required. Use secrets managers or secure config. Never log or transmit credentials.",
+      "code_snippet": "\n    # Layer 3: env vars (highest priority)\n    for env_key, config_key in _ENV_MAP.items():\n        val = os.environ.get(env_key, \"\")\n        if val:\n            config[config_key] = val\n",
+      "intent": null
+    },
+    {
+      "id": "E2",
+      "category": "Data Exfiltration",
+      "pattern": "Env Variable Harvesting",
+      "severity": "HIGH",
+      "confidence": 0.6,
+      "location": {
+        "file": "scripts/exit-watcher.py",
+        "start_line": 72,
+        "end_line": null
+      },
+      "finding": "os.environ.copy()",
+      "explanation": "Code accesses environment variables that may contain secrets (API keys, tokens). This is a common pattern for credential theft.",
+      "remediation": "Avoid reading sensitive env vars (API keys, tokens) unless strictly required. Use secrets managers or secure config. Never log or transmit credentials.",
+      "code_snippet": "    service_url: str = \"\",\n) -> None:\n    try:\n        env = os.environ.copy()\n        env.setdefault(\"COGNEE_SYNC_START_DELAY\", str(_SYNC_START_DELAY))\n        env[\"COGNEE_UNREGISTER_ON_FINISH\"] = \"1\"\n        if session_id:",
+      "intent": null
+    },
+    {
+      "id": "E2",
+      "category": "Data Exfiltration",
+      "pattern": "Env Variable Harvesting",
+      "severity": "HIGH",
+      "confidence": 0.8,
+      "location": {
+        "file": "scripts/idle-watcher.py",
+        "start_line": 264,
+        "end_line": null
+      },
+      "finding": "os.environ[\"COGNEE_SESSION_KEY\"]",
+      "explanation": "Code accesses environment variables that may contain secrets (API keys, tokens). This is a common pattern for credential theft.",
+      "remediation": "Avoid reading sensitive env vars (API keys, tokens) unless strictly required. Use secrets managers or secure config. Never log or transmit credentials.",
+      "code_snippet": "        os.environ[\"COGNEE_USER_ID\"] = user_id\n    if session_key:\n        config[\"session_key\"] = session_key\n        os.environ[\"COGNEE_SESSION_KEY\"] = session_key\n\n    try:\n        _PIDFILE.write_text(str(os.getpid()), encoding=\"utf-8\")",
+      "intent": null
+    },
+    {
+      "id": "E2",
+      "category": "Data Exfiltration",
+      "pattern": "Env Variable Harvesting",
+      "severity": "HIGH",
+      "confidence": 0.8,
+      "location": {
+        "file": "scripts/session-start.py",
+        "start_line": 576,
+        "end_line": null
+      },
+      "finding": "os.environ[\"COGNEE_API_KEY\"]",
+      "explanation": "Code accesses environment variables that may contain secrets (API keys, tokens). This is a common pattern for credential theft.",
+      "remediation": "Avoid reading sensitive env vars (API keys, tokens) unless strictly required. Use secrets managers or secure config. Never log or transmit credentials.",
+      "code_snippet": "    if not api_key:\n        return \"\", \"\", \"\", False\n\n    os.environ[\"COGNEE_API_KEY\"] = api_key\n    config[\"api_key\"] = api_key\n\n    # The principal user id (best-effort) \u2014 used for dataset readiness + watchers.",
+      "intent": null
+    },
+    {
+      "id": "E2",
+      "category": "Data Exfiltration",
+      "pattern": "Env Variable Harvesting",
+      "severity": "HIGH",
+      "confidence": 0.8,
+      "location": {
+        "file": "scripts/session-start.py",
+        "start_line": 1041,
+        "end_line": null
+      },
+      "finding": "os.environ[\"COGNEE_SESSION_KEY\"]",
+      "explanation": "Code accesses environment variables that may contain secrets (API keys, tokens). This is a common pattern for credential theft.",
+      "remediation": "Avoid reading sensitive env vars (API keys, tokens) unless strictly required. Use secrets managers or secure config. Never log or transmit credentials.",
+      "code_snippet": "    dataset = str(bootstrap.get(\"dataset\", \"\") or get_dataset(config))\n    agent_session_name = str(bootstrap.get(\"agent_session_name\", \"\") or session_id)\n    if session_key:\n        os.environ[\"COGNEE_SESSION_KEY\"] = session_key\n    if session_id:\n        os.environ[\"COGNEE_SESSION_ID\"] = session_id\n    service_url = _with_scheme(bootstrap.get(\"base_url\", \"\") or _LOCAL_SERVICE_URL)",
+      "intent": null
+    },
+    {
+      "id": "E2",
+      "category": "Data Exfiltration",
+      "pattern": "Env Variable Harvesting",
+      "severity": "HIGH",
+      "confidence": 0.8,
+      "location": {
+        "file": "scripts/session-start.py",
+        "start_line": 1217,
+        "end_line": null
+      },
+      "finding": "os.environ[\"COGNEE_API_KEY\"]",
+      "explanation": "Code accesses environment variables that may contain secrets (API keys, tokens). This is a common pattern for credential theft.",
+      "remediation": "Avoid reading sensitive env vars (API keys, tokens) unless strictly required. Use secrets managers or secure config. Never log or transmit credentials.",
+      "code_snippet": "    config[\"base_url\"] = target_url\n    os.environ[\"COGNEE_BASE_URL\"] = target_url\n    if api_key:\n        os.environ[\"COGNEE_API_KEY\"] = api_key\n\n    # The host (Claude) session id is a local correlation key only: it keeps every\n    # hook process of this launch resolving the SAME Cognee session id (via the",
+      "intent": null
+    },
+    {
+      "id": "E2",
+      "category": "Data Exfiltration",
+      "pattern": "Env Variable Harvesting",
+      "severity": "HIGH",
+      "confidence": 0.8,
+      "location": {
+        "file": "scripts/session-start.py",
+        "start_line": 1236,
+        "end_line": null
+      },
+      "finding": "os.environ[\"COGNEE_SESSION_KEY\"]",
+      "explanation": "Code accesses environment variables that may contain secrets (API keys, tokens). This is a common pattern for credential theft.",
+      "remediation": "Avoid reading sensitive env vars (API keys, tokens) unless strictly required. Use secrets managers or secure config. Never log or transmit credentials.",
+      "code_snippet": "                \"systemMessage\": \"Cognee Memory: session key missing in SessionStart payload.\",\n            }\n        }\n    os.environ[\"COGNEE_SESSION_KEY\"] = session_key\n\n    # Resolve (and persist) this launch's record: session_id (data scoping, unique\n    # per launch) + conn_uuid (liveness handle for registration/counting). Written",
+      "intent": null
+    },
+    {
+      "id": "E2",
+      "category": "Data Exfiltration",
+      "pattern": "Env Variable Harvesting",
+      "severity": "HIGH",
+      "confidence": 0.7,
+      "location": {
+        "file": "scripts/session-start.py",
+        "start_line": 555,
+        "end_line": null
+      },
+      "finding": "os.environ.get(\"COGNEE_API_KEY",
+      "explanation": "Code accesses environment variables that may contain secrets (API keys, tokens). This is a common pattern for credential theft.",
+      "remediation": "Avoid reading sensitive env vars (API keys, tokens) unless strictly required. Use secrets managers or secure config. Never log or transmit credentials.",
+      "code_snippet": "    \"\"\"\n    from _plugin_common import load_cached_api_key, save_cached_api_key\n\n    api_key = str(config.get(\"api_key\", \"\") or os.environ.get(\"COGNEE_API_KEY\", \"\")).strip()\n    if not api_key:\n        api_key = load_cached_api_key(service_url)\n    if not api_key:",
+      "intent": null
+    },
+    {
+      "id": "E2",
+      "category": "Data Exfiltration",
+      "pattern": "Env Variable Harvesting",
+      "severity": "HIGH",
+      "confidence": 0.6,
+      "location": {
+        "file": "scripts/session-start.py",
+        "start_line": 121,
+        "end_line": null
+      },
+      "finding": "os.environ.copy()",
+      "explanation": "Code accesses environment variables that may contain secrets (API keys, tokens). This is a common pattern for credential theft.",
+      "remediation": "Avoid reading sensitive env vars (API keys, tokens) unless strictly required. Use secrets managers or secure config. Never log or transmit credentials.",
+      "code_snippet": "    \"\"\"Install the standalone uv binary into ~/.cognee-plugin/uv (no PATH edits).\"\"\"\n    try:\n        _UV_DIR.mkdir(parents=True, exist_ok=True)\n        env = os.environ.copy()\n        # UV_UNMANAGED_INSTALL drops the binary in the given dir without editing\n        # shell profiles or managing updates \u2014 exactly what we want.\n        env[\"UV_UNMANAGED_INSTALL\"] = str(_UV_DIR)",
+      "intent": null
+    },
+    {
+      "id": "E2",
+      "category": "Data Exfiltration",
+      "pattern": "Env Variable Harvesting",
+      "severity": "HIGH",
+      "confidence": 0.6,
+      "location": {
+        "file": "scripts/session-start.py",
+        "start_line": 240,
+        "end_line": null
+      },
+      "finding": "os.environ.copy()",
+      "explanation": "Code accesses environment variables that may contain secrets (API keys, tokens). This is a common pattern for credential theft.",
+      "remediation": "Avoid reading sensitive env vars (API keys, tokens) unless strictly required. Use secrets managers or secure config. Never log or transmit credentials.",
+      "code_snippet": "        venv_present = _VENV_PYTHON.exists()\n\n        if uv:\n            env = os.environ.copy()\n            env.setdefault(\"UV_PYTHON_INSTALL_DIR\", str(_UV_PYTHON_DIR))\n            try:\n                if not venv_present:",
+      "intent": null
+    },
+    {
+      "id": "E2",
+      "category": "Data Exfiltration",
+      "pattern": "Env Variable Harvesting",
+      "severity": "HIGH",
+      "confidence": 0.6,
+      "location": {
+        "file": "scripts/session-start.py",
+        "start_line": 428,
+        "end_line": null
+      },
+      "finding": "os.environ.copy()",
+      "explanation": "Code accesses environment variables that may contain secrets (API keys, tokens). This is a common pattern for credential theft.",
+      "remediation": "Avoid reading sensitive env vars (API keys, tokens) unless strictly required. Use secrets managers or secure config. Never log or transmit credentials.",
+      "code_snippet": "            _ready()\n            return\n\n        server_env = os.environ.copy()\n        # Data-dir pins + CACHING are already in os.environ via apply_cognee_env(),\n        # so the copy carries them to the server process.\n        # Run in agent mode: the server tears itself down once all registered",
+      "intent": null
+    },
+    {
+      "id": "E2",
+      "category": "Data Exfiltration",
+      "pattern": "Env Variable Harvesting",
+      "severity": "HIGH",
+      "confidence": 0.6,
+      "location": {
+        "file": "scripts/session-start.py",
+        "start_line": 666,
+        "end_line": null
+      },
+      "finding": "os.environ.copy()",
+      "explanation": "Code accesses environment variables that may contain secrets (API keys, tokens). This is a common pattern for credential theft.",
+      "remediation": "Avoid reading sensitive env vars (API keys, tokens) unless strictly required. Use secrets managers or secure config. Never log or transmit credentials.",
+      "code_snippet": "        log_fh = subprocess.DEVNULL\n\n    try:\n        env = os.environ.copy()\n        if session_key:\n            env[\"COGNEE_SESSION_KEY\"] = session_key\n        subprocess.Popen(",
+      "intent": null
+    },
+    {
+      "id": "E2",
+      "category": "Data Exfiltration",
+      "pattern": "Env Variable Harvesting",
+      "severity": "HIGH",
+      "confidence": 0.6,
+      "location": {
+        "file": "scripts/session-start.py",
+        "start_line": 796,
+        "end_line": null
+      },
+      "finding": "os.environ.copy()",
+      "explanation": "Code accesses environment variables that may contain secrets (API keys, tokens). This is a common pattern for credential theft.",
+      "remediation": "Avoid reading sensitive env vars (API keys, tokens) unless strictly required. Use secrets managers or secure config. Never log or transmit credentials.",
+      "code_snippet": "        log_fh = subprocess.DEVNULL\n\n    try:\n        env = os.environ.copy()\n        if session_key:\n            env[\"COGNEE_SESSION_KEY\"] = session_key\n        subprocess.Popen(",
+      "intent": null
+    },
+    {
+      "id": "E2",
+      "category": "Data Exfiltration",
+      "pattern": "Env Variable Harvesting",
+      "severity": "HIGH",
+      "confidence": 0.6,
+      "location": {
+        "file": "scripts/session-start.py",
+        "start_line": 902,
+        "end_line": null
+      },
+      "finding": "os.environ.copy()",
+      "explanation": "Code accesses environment variables that may contain secrets (API keys, tokens). This is a common pattern for credential theft.",
+      "remediation": "Avoid reading sensitive env vars (API keys, tokens) unless strictly required. Use secrets managers or secure config. Never log or transmit credentials.",
+      "code_snippet": "        hook_log(\"bootstrap_log_open_failed\", {\"error\": str(exc)[:200]})\n        log_fh = subprocess.DEVNULL\n    try:\n        env = os.environ.copy()\n        if session_key:\n            env[\"COGNEE_SESSION_KEY\"] = session_key\n        subprocess.Popen(",
+      "intent": null
+    },
+    {
+      "id": "E2",
+      "category": "Data Exfiltration",
+      "pattern": "Env Variable Harvesting",
+      "severity": "HIGH",
+      "confidence": 0.7,
+      "location": {
+        "file": "scripts/store-user-prompt.py",
+        "start_line": 86,
+        "end_line": null
+      },
+      "finding": "os.environ.get(\"COGNEE_SESSION_KEY",
+      "explanation": "Code accesses environment variables that may contain secrets (API keys, tokens). This is a common pattern for credential theft.",
+      "remediation": "Avoid reading sensitive env vars (API keys, tokens) unless strictly required. Use secrets managers or secure config. Never log or transmit credentials.",
+      "code_snippet": "        \"session_id\": session_id,\n        \"dataset\": dataset,\n        \"user_id\": user_id,\n        \"session_key\": os.environ.get(\"COGNEE_SESSION_KEY\", \"\"),\n        \"config\": {\n            \"base_url\": config.get(\"base_url\", \"\"),\n            \"llm_model\": config.get(\"llm_model\", \"\"),",
+      "intent": null
+    },
+    {
+      "id": "E2",
+      "category": "Data Exfiltration",
+      "pattern": "Env Variable Harvesting",
+      "severity": "HIGH",
+      "confidence": 0.6,
+      "location": {
+        "file": "scripts/store-user-prompt.py",
+        "start_line": 103,
+        "end_line": null
+      },
+      "finding": "os.environ.copy()",
+      "explanation": "Code accesses environment variables that may contain secrets (API keys, tokens). This is a common pattern for credential theft.",
+      "remediation": "Avoid reading sensitive env vars (API keys, tokens) unless strictly required. Use secrets managers or secure config. Never log or transmit credentials.",
+      "code_snippet": "        log_fh = subprocess.DEVNULL\n\n    try:\n        env = os.environ.copy()\n        subprocess.Popen(\n            [sys.executable, str(_WATCHER_SCRIPT), json.dumps(bootstrap)],\n            stdin=subprocess.DEVNULL,",
+      "intent": null
+    },
+    {
+      "id": "E2",
+      "category": "Data Exfiltration",
+      "pattern": "Env Variable Harvesting",
+      "severity": "HIGH",
+      "confidence": 0.7,
+      "location": {
+        "file": "scripts/sync-session-to-graph.py",
+        "start_line": 103,
+        "end_line": null
+      },
+      "finding": "os.environ.get(\"COGNEE_SESSION_KEY",
+      "explanation": "Code accesses environment variables that may contain secrets (API keys, tokens). This is a common pattern for credential theft.",
+      "remediation": "Avoid reading sensitive env vars (API keys, tokens) unless strictly required. Use secrets managers or secure config. Never log or transmit credentials.",
+      "code_snippet": "\ndef _final_sync_identity() -> tuple[str, str]:\n    \"\"\"Return a stable per-session token for detached final sync dedupe.\"\"\"\n    session_key = str(os.environ.get(\"COGNEE_SESSION_KEY\", \"\") or \"\").strip()\n    if session_key:\n        return session_key, \"COGNEE_SESSION_KEY\"\n    session_id = str(os.environ.get(\"COGNEE_SYNC_SESSION_ID\", \"\") or \"\").strip()",
+      "intent": null
+    },
+    {
+      "id": "E2",
+      "category": "Data Exfiltration",
+      "pattern": "Env Variable Harvesting",
+      "severity": "HIGH",
+      "confidence": 0.7,
+      "location": {
+        "file": "scripts/sync-session-to-graph.py",
+        "start_line": 202,
+        "end_line": null
+      },
+      "finding": "os.environ.get(\"COGNEE_API_KEY",
+      "explanation": "Code accesses environment variables that may contain secrets (API keys, tokens). This is a common pattern for credential theft.",
+      "remediation": "Avoid reading sensitive env vars (API keys, tokens) unless strictly required. Use secrets managers or secure config. Never log or transmit credentials.",
+      "code_snippet": "    env_session_id = str(os.environ.get(\"COGNEE_SYNC_SESSION_ID\", \"\") or \"\").strip()\n    env_dataset = str(os.environ.get(\"COGNEE_SYNC_DATASET\", \"\") or \"\").strip()\n    env_agent_session_name = str(os.environ.get(\"COGNEE_AGENT_SESSION_NAME\", \"\") or \"\").strip()\n    env_api_key = str(os.environ.get(\"COGNEE_API_KEY\", \"\") or \"\").strip()\n    env_service_url = str(os.environ.get(\"COGNEE_BASE_URL\", \"\") or \"\").strip()\n    resolved_service_url, resolved_api_key = resolved_http_endpoint_auth()\n    env_api_key = env_api_key or resolved_api_key",
+      "intent": null
+    },
+    {
+      "id": "E2",
+      "category": "Data Exfiltration",
+      "pattern": "Env Variable Harvesting",
+      "severity": "HIGH",
+      "confidence": 0.6,
+      "location": {
+        "file": "scripts/sync-session-to-graph.py",
+        "start_line": 83,
+        "end_line": null
+      },
+      "finding": "os.environ.copy()",
+      "explanation": "Code accesses environment variables that may contain secrets (API keys, tokens). This is a common pattern for credential theft.",
+      "remediation": "Avoid reading sensitive env vars (API keys, tokens) unless strictly required. Use secrets managers or secure config. Never log or transmit credentials.",
+      "code_snippet": "def _spawn_detached_sync() -> bool:\n    \"\"\"Run the expensive sync outside a short hook window.\"\"\"\n    try:\n        env = os.environ.copy()\n        env.setdefault(\"COGNEE_SYNC_START_DELAY\", str(_SESSION_END_START_DELAY_DEFAULT))\n        env[\"COGNEE_UNREGISTER_ON_FINISH\"] = \"1\"\n        subprocess.Popen(",
+      "intent": null
+    },
+    {
+      "id": "E1",
+      "category": "Data Exfiltration",
+      "pattern": "External Transmission",
+      "severity": "MEDIUM",
+      "confidence": 0.6,
+      "location": {
+        "file": "skills/cognee-search/SKILL.md",
+        "start_line": 48,
+        "end_line": null
+      },
+      "finding": "curl -s -X POST \"${COGNEE_BASE_URL:-http://localhost:8011}/api/v1/recall\" \\\n  -H \"Content-Type: application/json\" \\\n  -H \"X-Api-Key: ${COGNEE_API_KEY:-}\" \\\n  -d '{\"query\": \"...\", \"top_k\": 5, \"only_con",
+      "explanation": "Data is being sent to an external URL. This could be legitimate telemetry or data exfiltration. Manual review is recommended.",
+      "remediation": "Verify the destination URL is trusted and necessary. Remove or replace with documented APIs. Ensure no secrets, tokens, or PII are transmitted.",
+      "code_snippet": "Categories (`user_context` / `project_docs` / `agent_actions`) filter by node set. `cognee-cli recall` does **not** expose this \u2014 pass `node_name` to the server directly:\n\n```bash\ncurl -s -X POST \"${COGNEE_BASE_URL:-http://localhost:8011}/api/v1/recall\" \\\n  -H \"Content-Type: application/json\" \\\n  -H \"X-Api-Key: ${COGNEE_API_KEY:-}\" \\\n  -d '{\"query\": \"...\", \"top_k\": 5, \"only_context\": true, \"scope\": [\"graph\"], \"node_name\": [\"project_docs\"]}'",
+      "intent": null
+    },
+    {
+      "id": "EA4",
+      "category": "Excessive Agency",
+      "pattern": "Unbounded Resource Access",
+      "severity": "MEDIUM",
+      "confidence": 0.75,
+      "location": {
+        "file": "scripts/_cognee_client.py",
+        "start_line": 78,
+        "end_line": null
+      },
+      "finding": "timeout=None",
+      "explanation": "Skill allows unbounded resource consumption (API calls, storage, compute). Without rate limits or quotas, a compromised or misbehaving agent can cause denial-of-service or cost overruns.",
+      "remediation": "Set explicit rate limits, timeouts, and resource quotas for API calls, file operations, and compute. Implement circuit breakers for runaway loops.",
+      "code_snippet": "    _write({\"failures\": 0, \"cooldown_until\": 0.0})\n\n\ndef recall(service_url, api_key, query, session_id, scope, top_k, dataset=\"\", *, timeout=None):\n    \"\"\"Breaker-wrapped recall. Returns a list, an error-envelope dict, or UNREACHABLE.\n\n    Only genuine backend trouble trips the breaker: UNREACHABLE (connection",
+      "intent": null
+    },
+    {
+      "id": "EA4",
+      "category": "Excessive Agency",
+      "pattern": "Unbounded Resource Access",
+      "severity": "MEDIUM",
+      "confidence": 0.75,
+      "location": {
+        "file": "tests/test_bridge_poll.py",
+        "start_line": 46,
+        "end_line": null
+      },
+      "finding": "timeout=None",
+      "explanation": "Skill allows unbounded resource consumption (API calls, storage, compute). Without rate limits or quotas, a compromised or misbehaving agent can cause denial-of-service or cost overruns.",
+      "remediation": "Set explicit rate limits, timeouts, and resource quotas for API calls, file operations, and compute. Implement circuit breakers for runaway loops.",
+      "code_snippet": "    captured = {}\n    orig = urllib.request.urlopen\n\n    def _fake(req, timeout=None):\n        captured[\"req\"] = req\n        return _Resp(b'{\"status\":\"running\",\"dataset_id\":\"d1\",\"pipeline_run_id\":\"p1\"}')\n",
+      "intent": null
+    },
+    {
+      "id": "EA4",
+      "category": "Excessive Agency",
+      "pattern": "Unbounded Resource Access",
+      "severity": "MEDIUM",
+      "confidence": 0.75,
+      "location": {
+        "file": "tests/test_bridge_poll.py",
+        "start_line": 169,
+        "end_line": null
+      },
+      "finding": "timeout=None",
+      "explanation": "Skill allows unbounded resource consumption (API calls, storage, compute). Without rate limits or quotas, a compromised or misbehaving agent can cause denial-of-service or cost overruns.",
+      "remediation": "Set explicit rate limits, timeouts, and resource quotas for API calls, file operations, and compute. Implement circuit breakers for runaway loops.",
+      "code_snippet": "    # {\"ok\": False} (graceful) rather than letting it crash the bridge.\n    orig = urllib.request.urlopen\n\n    def _raise(req, timeout=None):\n        raise urllib.error.HTTPError(\"http://x\", 503, \"Service Unavailable\", {}, None)\n\n    urllib.request.urlopen = _raise",
+      "intent": null
+    },
+    {
+      "id": "EA4",
+      "category": "Excessive Agency",
+      "pattern": "Unbounded Resource Access",
+      "severity": "MEDIUM",
+      "confidence": 0.75,
+      "location": {
+        "file": "tests/test_bridge_poll.py",
+        "start_line": 186,
+        "end_line": null
+      },
+      "finding": "timeout=None",
+      "explanation": "Skill allows unbounded resource consumption (API calls, storage, compute). Without rate limits or quotas, a compromised or misbehaving agent can cause denial-of-service or cost overruns.",
+      "remediation": "Set explicit rate limits, timeouts, and resource quotas for API calls, file operations, and compute. Implement circuit breakers for runaway loops.",
+      "code_snippet": "    # 2xx with an unparseable body (e.g. a proxy error page) flags parse_error.\n    orig = urllib.request.urlopen\n\n    def _bad_json(req, timeout=None):\n        return _Resp(b\"<html>502 Bad Gateway</html>\")\n\n    urllib.request.urlopen = _bad_json",
+      "intent": null
+    },
+    {
+      "id": "EA4",
+      "category": "Excessive Agency",
+      "pattern": "Unbounded Resource Access",
+      "severity": "MEDIUM",
+      "confidence": 0.75,
+      "location": {
+        "file": "tests/test_bridge_poll.py",
+        "start_line": 206,
+        "end_line": null
+      },
+      "finding": "timeout=None",
+      "explanation": "Skill allows unbounded resource consumption (API calls, storage, compute). Without rate limits or quotas, a compromised or misbehaving agent can cause denial-of-service or cost overruns.",
+      "remediation": "Set explicit rate limits, timeouts, and resource quotas for API calls, file operations, and compute. Implement circuit breakers for runaway loops.",
+      "code_snippet": "    # abort the whole bridge via the caller's outer handler.\n    orig = urllib.request.urlopen\n\n    def _raise(req, timeout=None):\n        raise urllib.error.URLError(\"connection timed out\")\n\n    urllib.request.urlopen = _raise",
+      "intent": null
+    },
+    {
+      "id": "EA4",
+      "category": "Excessive Agency",
+      "pattern": "Unbounded Resource Access",
+      "severity": "MEDIUM",
+      "confidence": 0.75,
+      "location": {
+        "file": "tests/test_recall_http.py",
+        "start_line": 40,
+        "end_line": null
+      },
+      "finding": "timeout=None",
+      "explanation": "Skill allows unbounded resource consumption (API calls, storage, compute). Without rate limits or quotas, a compromised or misbehaving agent can cause denial-of-service or cost overruns.",
+      "remediation": "Set explicit rate limits, timeouts, and resource quotas for API calls, file operations, and compute. Implement circuit breakers for runaway loops.",
+      "code_snippet": "\n\ndef _returns(payload):\n    def _opener(req, timeout=None):\n        return _Resp(payload)\n\n    return _opener",
+      "intent": null
+    },
+    {
+      "id": "EA4",
+      "category": "Excessive Agency",
+      "pattern": "Unbounded Resource Access",
+      "severity": "MEDIUM",
+      "confidence": 0.75,
+      "location": {
+        "file": "tests/test_recall_http.py",
+        "start_line": 47,
+        "end_line": null
+      },
+      "finding": "timeout=None",
+      "explanation": "Skill allows unbounded resource consumption (API calls, storage, compute). Without rate limits or quotas, a compromised or misbehaving agent can cause denial-of-service or cost overruns.",
+      "remediation": "Set explicit rate limits, timeouts, and resource quotas for API calls, file operations, and compute. Implement circuit breakers for runaway loops.",
+      "code_snippet": "\n\ndef _raises(exc):\n    def _opener(req, timeout=None):\n        raise exc\n\n    return _opener",
+      "intent": null
+    },
+    {
+      "id": "EA4",
+      "category": "Excessive Agency",
+      "pattern": "Unbounded Resource Access",
+      "severity": "MEDIUM",
+      "confidence": 0.75,
+      "location": {
+        "file": "tests/test_recall_http.py",
+        "start_line": 121,
+        "end_line": null
+      },
+      "finding": "timeout=None",
+      "explanation": "Skill allows unbounded resource consumption (API calls, storage, compute). Without rate limits or quotas, a compromised or misbehaving agent can cause denial-of-service or cost overruns.",
+      "remediation": "Set explicit rate limits, timeouts, and resource quotas for API calls, file operations, and compute. Implement circuit breakers for runaway loops.",
+      "code_snippet": "def test_no_cloud_key_sent_to_localhost():\n    captured = {}\n\n    def _capture(req, timeout=None):\n        captured[\"xapikey\"] = req.get_header(\"X-api-key\")  # urllib title-cases header names\n        return _Resp(\"[]\")\n",
+      "intent": null
+    },
+    {
+      "id": "EA4",
+      "category": "Excessive Agency",
+      "pattern": "Unbounded Resource Access",
+      "severity": "MEDIUM",
+      "confidence": 0.75,
+      "location": {
+        "file": "tests/test_recall_http.py",
+        "start_line": 138,
+        "end_line": null
+      },
+      "finding": "timeout=None",
+      "explanation": "Skill allows unbounded resource consumption (API calls, storage, compute). Without rate limits or quotas, a compromised or misbehaving agent can cause denial-of-service or cost overruns.",
+      "remediation": "Set explicit rate limits, timeouts, and resource quotas for API calls, file operations, and compute. Implement circuit breakers for runaway loops.",
+      "code_snippet": "def test_dataset_scoped_in_body():\n    captured = {}\n\n    def _capture(req, timeout=None):\n        captured[\"body\"] = json.loads(req.data)\n        return _Resp(\"[]\")\n",
+      "intent": null
+    },
+    {
+      "id": "EA4",
+      "category": "Excessive Agency",
+      "pattern": "Unbounded Resource Access",
+      "severity": "MEDIUM",
+      "confidence": 0.75,
+      "location": {
+        "file": "tests/test_recall_http.py",
+        "start_line": 149,
+        "end_line": null
+      },
+      "finding": "timeout=None",
+      "explanation": "Skill allows unbounded resource consumption (API calls, storage, compute). Without rate limits or quotas, a compromised or misbehaving agent can cause denial-of-service or cost overruns.",
+      "remediation": "Set explicit rate limits, timeouts, and resource quotas for API calls, file operations, and compute. Implement circuit breakers for runaway loops.",
+      "code_snippet": "def test_no_dataset_key_when_empty():\n    captured = {}\n\n    def _capture(req, timeout=None):\n        captured[\"body\"] = json.loads(req.data)\n        return _Resp(\"[]\")\n",
+      "intent": null
+    },
+    {
+      "id": "EA4",
+      "category": "Excessive Agency",
+      "pattern": "Unbounded Resource Access",
+      "severity": "MEDIUM",
+      "confidence": 0.75,
+      "location": {
+        "file": "tests/test_remember_http.py",
+        "start_line": 39,
+        "end_line": null
+      },
+      "finding": "timeout=None",
+      "explanation": "Skill allows unbounded resource consumption (API calls, storage, compute). Without rate limits or quotas, a compromised or misbehaving agent can cause denial-of-service or cost overruns.",
+      "remediation": "Set explicit rate limits, timeouts, and resource quotas for API calls, file operations, and compute. Implement circuit breakers for runaway loops.",
+      "code_snippet": "\n\ndef _capturing_opener(captured, body=b\"{}\"):\n    def _open(req, timeout=None):\n        captured[\"req\"] = req\n        return _Resp(body)\n",
+      "intent": null
+    },
+    {
+      "id": "EA4",
+      "category": "Excessive Agency",
+      "pattern": "Unbounded Resource Access",
+      "severity": "MEDIUM",
+      "confidence": 0.75,
+      "location": {
+        "file": "tests/test_remember_http.py",
+        "start_line": 69,
+        "end_line": null
+      },
+      "finding": "timeout=None",
+      "explanation": "Skill allows unbounded resource consumption (API calls, storage, compute). Without rate limits or quotas, a compromised or misbehaving agent can cause denial-of-service or cost overruns.",
+      "remediation": "Set explicit rate limits, timeouts, and resource quotas for API calls, file operations, and compute. Implement circuit breakers for runaway loops.",
+      "code_snippet": "\n\ndef test_timeout_does_not_fall_back():\n    def _timeout_opener(req, timeout=None):\n        raise TimeoutError(\"timed out\")\n\n    res = rh.do_remember(\"http://x\", \"\", \"c\", \"ds\", \"user_context\", opener=_timeout_opener)",
+      "intent": null
+    },
+    {
+      "id": "EA4",
+      "category": "Excessive Agency",
+      "pattern": "Unbounded Resource Access",
+      "severity": "MEDIUM",
+      "confidence": 0.75,
+      "location": {
+        "file": "tests/test_remember_http.py",
+        "start_line": 78,
+        "end_line": null
+      },
+      "finding": "timeout=None",
+      "explanation": "Skill allows unbounded resource consumption (API calls, storage, compute). Without rate limits or quotas, a compromised or misbehaving agent can cause denial-of-service or cost overruns.",
+      "remediation": "Set explicit rate limits, timeouts, and resource quotas for API calls, file operations, and compute. Implement circuit breakers for runaway loops.",
+      "code_snippet": "\n\ndef test_timeout_wrapped_in_urlerror_does_not_fall_back():\n    def _wrapped(req, timeout=None):\n        raise urllib.error.URLError(TimeoutError(\"timed out\"))\n\n    res = rh.do_remember(\"http://x\", \"\", \"c\", \"ds\", \"user_context\", opener=_wrapped)",
+      "intent": null
+    },
+    {
+      "id": "EA4",
+      "category": "Excessive Agency",
+      "pattern": "Unbounded Resource Access",
+      "severity": "MEDIUM",
+      "confidence": 0.75,
+      "location": {
+        "file": "tests/test_remember_http.py",
+        "start_line": 87,
+        "end_line": null
+      },
+      "finding": "timeout=None",
+      "explanation": "Skill allows unbounded resource consumption (API calls, storage, compute). Without rate limits or quotas, a compromised or misbehaving agent can cause denial-of-service or cost overruns.",
+      "remediation": "Set explicit rate limits, timeouts, and resource quotas for API calls, file operations, and compute. Implement circuit breakers for runaway loops.",
+      "code_snippet": "\n\ndef test_connection_failure_is_unreachable():\n    def _refused(req, timeout=None):\n        raise urllib.error.URLError(\"Connection refused\")\n\n    res = rh.do_remember(\"http://x\", \"\", \"c\", \"ds\", \"user_context\", opener=_refused)",
+      "intent": null
+    },
+    {
+      "id": "EA4",
+      "category": "Excessive Agency",
+      "pattern": "Unbounded Resource Access",
+      "severity": "MEDIUM",
+      "confidence": 0.75,
+      "location": {
+        "file": "tests/test_remember_http.py",
+        "start_line": 104,
+        "end_line": null
+      },
+      "finding": "timeout=None",
+      "explanation": "Skill allows unbounded resource consumption (API calls, storage, compute). Without rate limits or quotas, a compromised or misbehaving agent can cause denial-of-service or cost overruns.",
+      "remediation": "Set explicit rate limits, timeouts, and resource quotas for API calls, file operations, and compute. Implement circuit breakers for runaway loops.",
+      "code_snippet": "    \"\"\"Opener that returns post_body on the POST and successive status_bodies on GETs.\"\"\"\n    state = {\"i\": 0}\n\n    def _open(req, timeout=None):\n        method = getattr(req, \"method\", None) or req.get_method()\n        if counts is not None:\n            counts[method] = counts.get(method, 0) + 1",
+      "intent": null
+    },
+    {
+      "id": "OH1",
+      "category": "Output Handling",
+      "pattern": "Unvalidated Output Injection",
+      "severity": "HIGH",
+      "confidence": 0.95,
+      "location": {
+        "file": "scripts/config.py",
+        "start_line": 506,
+        "end_line": null
+      },
+      "finding": "subprocess.run(\n            [\"git\", \"rev-parse\", \"--abbrev-ref\", \"HEAD\"],\n            cwd=cwd,\n            capture_output",
+      "explanation": "Model output is used without validation or sanitization. Unvalidated output injected into downstream contexts (SQL, shell, HTML) enables injection attacks and arbitrary code execution.",
+      "remediation": "Validate and sanitize all model output before using it in downstream contexts. Use parameterized queries for SQL, shell quoting for commands, and HTML encoding for web output.",
+      "code_snippet": "def _get_git_branch(cwd: str) -> str:\n    \"\"\"Get current git branch, or empty string if not a git repo.\"\"\"\n    try:\n        result = subprocess.run(\n            [\"git\", \"rev-parse\", \"--abbrev-ref\", \"HEAD\"],\n            cwd=cwd,\n            capture_output=True,",
+      "intent": null
+    },
+    {
+      "id": "OH1",
+      "category": "Output Handling",
+      "pattern": "Unvalidated Output Injection",
+      "severity": "HIGH",
+      "confidence": 0.95,
+      "location": {
+        "file": "scripts/session-start.py",
+        "start_line": 125,
+        "end_line": null
+      },
+      "finding": "subprocess.run(\n            [\"sh\", \"-c\", f\"curl -LsSf {_UV_INSTALL_URL} | sh\"],\n            env=env,\n            check=True,\n            capture_output",
+      "explanation": "Model output is used without validation or sanitization. Unvalidated output injected into downstream contexts (SQL, shell, HTML) enables injection attacks and arbitrary code execution.",
+      "remediation": "Validate and sanitize all model output before using it in downstream contexts. Use parameterized queries for SQL, shell quoting for commands, and HTML encoding for web output.",
+      "code_snippet": "        # UV_UNMANAGED_INSTALL drops the binary in the given dir without editing\n        # shell profiles or managing updates \u2014 exactly what we want.\n        env[\"UV_UNMANAGED_INSTALL\"] = str(_UV_DIR)\n        subprocess.run(\n            [\"sh\", \"-c\", f\"curl -LsSf {_UV_INSTALL_URL} | sh\"],\n            env=env,\n            check=True,",
+      "intent": null
+    },
+    {
+      "id": "PE3",
+      "category": "Privilege Escalation",
+      "pattern": "Credential Access",
+      "severity": "HIGH",
+      "confidence": 0.7,
+      "location": {
+        "file": "scripts/session-start.py",
+        "start_line": 501,
+        "end_line": null
+      },
+      "finding": "access token",
+      "explanation": "Code accesses credential files (SSH keys, AWS credentials, etc.). This could indicate credential theft attempts.",
+      "remediation": "Remove references to credential paths. Use environment variables or secrets managers. For docs, use placeholder paths (e.g., /path/to/config). Never load .env or token files in production code paths.",
+      "code_snippet": "            jwt = str(login_data.get(\"access_token\", \"\") or \"\")\n\n        if not jwt:\n            raise RuntimeError(\"default-user login returned no access token\")\n\n        async with session.get(\n            f\"{base}/api/v1/auth/api-keys\",",
+      "intent": null
+    },
+    {
+      "id": "RA2",
+      "category": "Rogue Agent",
+      "pattern": "Session Persistence",
+      "severity": "MEDIUM",
+      "confidence": 0.6,
+      "location": {
+        "file": "README.md",
+        "start_line": 173,
+        "end_line": null
+      },
+      "finding": "write that *times out* is reported as \"submitted; timed out waiting for confirmation\"\nand does **not** fall back to `cognee-cli` (the write likely landed \u2014 a fallback would\nrisk a duplicate). Only a g",
+      "explanation": "Skill establishes unauthorized persistence across sessions via cron jobs, startup scripts, or state files. Session persistence allows an attacker to maintain access beyond the current interaction.",
+      "remediation": "Remove any persistence mechanisms (cron jobs, startup scripts, state files). Skills should not maintain state across sessions without explicit user consent.",
+      "code_snippet": "|---|---|---|\n| `COGNEE_REMEMBER_BACKGROUND` | `true` | Build the graph in the background; set `false` for a synchronous, immediately-queryable write |\n\nA write that *times out* is reported as \"submitted; timed out waiting for confirmation\"\nand does **not** fall back to `cognee-cli` (the write likely landed \u2014 a fallback would\nrisk a duplicate). Only a genuine connection failure falls back.\n",
+      "intent": null
+    },
+    {
+      "id": "RA2",
+      "category": "Rogue Agent",
+      "pattern": "Session Persistence",
+      "severity": "MEDIUM",
+      "confidence": 0.6,
+      "location": {
+        "file": "scripts/_plugin_common.py",
+        "start_line": 34,
+        "end_line": null
+      },
+      "finding": "write the same file \u2014 no locks needed, no lost-update races.\n_BRIDGE_DIR = _PLUGIN_DIR / \"bridge\"\n_PENDING_DIR = _PLUGIN_DIR / \"pending\"\n_SUBPROCESS_LOG = _PLUGIN_DIR / \"subprocess.log\"\n# Single-princ",
+      "explanation": "Skill establishes unauthorized persistence across sessions via cron jobs, startup scripts, or state files. Session persistence allows an attacker to maintain access beyond the current interaction.",
+      "remediation": "Remove any persistence mechanisms (cron jobs, startup scripts, state files). Skills should not maintain state across sessions without explicit user consent.",
+      "code_snippet": "_SYNC_LOCK = _PLUGIN_DIR / \"sync.lock\"\n# Per-agent-session buffer dirs. Each agent session (one Claude/Codex terminal)\n# owns its own file under these dirs, so two concurrent agents never\n# read-modify-write the same file \u2014 no locks needed, no lost-update races.\n_BRIDGE_DIR = _PLUGIN_DIR / \"bridge\"\n_PENDING_DIR = _PLUGIN_DIR / \"pending\"\n_SUBPROCESS_LOG = _PLUGIN_DIR / \"subprocess.log\"",
+      "intent": null
+    },
+    {
+      "id": "RA2",
+      "category": "Rogue Agent",
+      "pattern": "Session Persistence",
+      "severity": "MEDIUM",
+      "confidence": 0.6,
+      "location": {
+        "file": "scripts/_plugin_common.py",
+        "start_line": 242,
+        "end_line": null
+      },
+      "finding": "Create (first-writer-wins) and return this launch's (session_id, conn_uuid).\n\n    Called by SessionStart. The session id honors an explicit ``COGNEE_SESSION_ID``\n    override, else the existing/genera",
+      "explanation": "Skill establishes unauthorized persistence across sessions via cron jobs, startup scripts, or state files. Session persistence allows an attacker to maintain access beyond the current interaction.",
+      "remediation": "Remove any persistence mechanisms (cron jobs, startup scripts, state files). Skills should not maintain state across sessions without explicit user consent.",
+      "code_snippet": "\n\ndef ensure_launch_record(host_key: str = \"\", cwd: str = \"\") -> tuple[str, str]:\n    \"\"\"Create (first-writer-wins) and return this launch's (session_id, conn_uuid).\n\n    Called by SessionStart. The session id honors an explicit ``COGNEE_SESSION_ID``\n    override, else the existing/generated id; the conn_uuid is minted once.",
+      "intent": null
+    },
+    {
+      "id": "RA2",
+      "category": "Rogue Agent",
+      "pattern": "Session Persistence",
+      "severity": "MEDIUM",
+      "confidence": 0.6,
+      "location": {
+        "file": "scripts/session-start.py",
+        "start_line": 1114,
+        "end_line": null
+      },
+      "finding": "Write the statusLine entry to ~/.claude",
+      "explanation": "Skill establishes unauthorized persistence across sessions via cron jobs, startup scripts, or state files. Session persistence allows an attacker to maintain access beyond the current interaction.",
+      "remediation": "Remove any persistence mechanisms (cron jobs, startup scripts, state files). Skills should not maintain state across sessions without explicit user consent.",
+      "code_snippet": "\n\ndef _ensure_statusline_configured() -> None:\n    \"\"\"Write the statusLine entry to ~/.claude/settings.json if not already set.\n\n    Claude Code hot-reloads settings.json, so the status line becomes active on\n    the next status refresh without requiring a restart.",
+      "intent": null
+    },
+    {
+      "id": "SC2",
+      "category": "Supply Chain",
+      "pattern": "External Script Fetching",
+      "severity": "HIGH",
+      "confidence": 0.9,
+      "location": {
+        "file": "scripts/session-start.py",
+        "start_line": 126,
+        "end_line": null
+      },
+      "finding": "curl -LsSf {_UV_INSTALL_URL} | sh",
+      "explanation": "Remote code is downloaded and executed. This bypasses code review and could introduce malicious code.",
+      "remediation": "Avoid downloading and executing remote scripts. Use trusted packages from PyPI/npm. If remote fetch is required, verify checksums and use HTTPS.",
+      "code_snippet": "        # shell profiles or managing updates \u2014 exactly what we want.\n        env[\"UV_UNMANAGED_INSTALL\"] = str(_UV_DIR)\n        subprocess.run(\n            [\"sh\", \"-c\", f\"curl -LsSf {_UV_INSTALL_URL} | sh\"],\n            env=env,\n            check=True,\n            capture_output=True,",
+      "intent": null
+    },
+    {
+      "id": "P6",
+      "category": "System Prompt Leakage",
+      "pattern": "Direct Prompt Extraction",
+      "severity": "HIGH",
+      "confidence": 0.85,
+      "location": {
+        "file": "scripts/session-context-lookup.py",
+        "start_line": 426,
+        "end_line": null
+      },
+      "finding": "return\n\n    prompt",
+      "explanation": "Skill contains instructions that could directly expose system prompts, internal rules, or hidden instructions to users or external parties.",
+      "remediation": "Remove any instructions that reveal, print, or output system prompts or internal rules. System instructions should never be exposed to end users.",
+      "code_snippet": "    )\n    if not get_session_key():\n        hook_log(\"context_lookup_missing_session_key\")\n        return\n\n    prompt = payload.get(\"prompt\", \"\")\n    if not prompt or len(prompt) < 5:",
+      "intent": null
+    },
+    {
+      "id": "P6",
+      "category": "System Prompt Leakage",
+      "pattern": "Direct Prompt Extraction",
+      "severity": "HIGH",
+      "confidence": 0.85,
+      "location": {
+        "file": "scripts/store-user-prompt.py",
+        "start_line": 189,
+        "end_line": null
+      },
+      "finding": "return\n\n    prompt",
+      "explanation": "Skill contains instructions that could directly expose system prompts, internal rules, or hidden instructions to users or external parties.",
+      "remediation": "Remove any instructions that reveal, print, or output system prompts or internal rules. System instructions should never be exposed to end users.",
+      "code_snippet": "    hook_log(\"prompt_session_key\", {\"source\": session_key_source, \"value\": session_key_candidate})\n    if not get_session_key():\n        hook_log(\"prompt_missing_session_key\")\n        return\n\n    prompt = payload.get(\"prompt\", \"\")\n    if not prompt or len(prompt) < 5:",
+      "intent": null
+    },
+    {
+      "id": "TM1",
+      "category": "Tool Misuse",
+      "pattern": "Tool Parameter Abuse",
+      "severity": "HIGH",
+      "confidence": 0.7,
+      "location": {
+        "file": "scripts/cognee-search.sh",
+        "start_line": 151,
+        "end_line": null
+      },
+      "finding": "curl -X POST \\\"\\$COGNEE_BASE_URL/api/v1/recall\\\")\" >&2\n    if [ \"$MODE\" = \"graph\" ]; then\n        cognee-cli recall \"$QUERY\" -d \"$DATASET\" -k",
+      "explanation": "Tool parameters are crafted to achieve unintended or unsafe behavior. Parameter abuse can bypass intended safety checks (e.g. shell=True, --force, dangerous glob patterns).",
+      "remediation": "Validate all tool parameters against an allowlist. Reject dangerous parameter values (shell=True, --force, -rf /) and use safe defaults.",
+      "code_snippet": "    # Server answered \u2014 authoritative, even if the result is empty.\n    printf '%s\\n' \"$RECALL_JSON\"\nelse\n    echo \"[cognee-search] falling back to cognee-cli (degraded \u2014 empty CLI output is NOT proof of absence; ground-truth via: curl -X POST \\\"\\$COGNEE_BASE_URL/api/v1/recall\\\")\" >&2\n    if [ \"$MODE\" = \"graph\" ]; then\n        cognee-cli recall \"$QUERY\" -d \"$DATASET\" -k \"$TOP_K\" -f json 2>/dev/null || true\n    elif [ \"$MODE\" = \"session\" ]; then",
+      "intent": null
+    },
+    {
+      "id": "TM1",
+      "category": "Tool Misuse",
+      "pattern": "Tool Parameter Abuse",
+      "severity": "HIGH",
+      "confidence": 0.6,
+      "location": {
+        "file": "skills/cognee-search/SKILL.md",
+        "start_line": 48,
+        "end_line": null
+      },
+      "finding": "curl -s -X POST \"${COGNEE_BASE_URL:-http://localhost:8011}/api/v1/recall\" \\\n  -H \"Content-Type: application/json\" \\\n  -H \"X-Api-Key: ${COGNEE_API_KEY:-}\" \\\n  -d '{\"query\": \"...\", \"top_k\": 5, \"only_con",
+      "explanation": "Tool parameters are crafted to achieve unintended or unsafe behavior. Parameter abuse can bypass intended safety checks (e.g. shell=True, --force, dangerous glob patterns).",
+      "remediation": "Validate all tool parameters against an allowlist. Reject dangerous parameter values (shell=True, --force, -rf /) and use safe defaults.",
+      "code_snippet": "Categories (`user_context` / `project_docs` / `agent_actions`) filter by node set. `cognee-cli recall` does **not** expose this \u2014 pass `node_name` to the server directly:\n\n```bash\ncurl -s -X POST \"${COGNEE_BASE_URL:-http://localhost:8011}/api/v1/recall\" \\\n  -H \"Content-Type: application/json\" \\\n  -H \"X-Api-Key: ${COGNEE_API_KEY:-}\" \\\n  -d '{\"query\": \"...\", \"top_k\": 5, \"only_context\": true, \"scope\": [\"graph\"], \"node_name\": [\"project_docs\"]}'",
+      "intent": null
+    }
+  ],
+  "metadata": {
+    "has_executable_scripts": true,
+    "skillspector_version": "2.1.4",
+    "llm_requested": false,
+    "llm_available": false
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "skill": {
+    "name": "agent-reach-lite",
+    "source": "/Users/khaledmac/.hermes/skills/research/agent-reach-lite",
+    "scanned_at": "2026-06-21T06:34:39.429076+00:00"
+  },
+  "risk_assessment": {
+    "score": 39,
+    "severity": "MEDIUM",
+    "recommendation": "CAUTION"
+  },
+  "components": [
+    {
+      "path": "SKILL.md",
+      "type": "markdown",
+      "lines": 88,
+      "executable": false,
+      "size_bytes": 3934
+    },
+    {
+      "path": "scripts/agent_reach_lite.py",
+      "type": "python",
+      "lines": 256,
+      "executable": true,
+      "size_bytes": 9981
+    }
+  ],
+  "issues": [
+    {
+      "id": "AST4",
+      "category": "Dangerous Code Execution",
+      "pattern": "subprocess module call",
+      "severity": "MEDIUM",
+      "confidence": 0.7,
+      "location": {
+        "file": "scripts/agent_reach_lite.py",
+        "start_line": 200,
+        "end_line": 200
+      },
+      "finding": "        proc = subprocess.run(run_cmd, text=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE, check=False)",
+      "explanation": "subprocess module calls execute external commands. Without careful input validation, this enables command injection.",
+      "remediation": "Use subprocess.run() with shell=False and an explicit argument list. Validate all inputs and avoid passing user-controlled data to commands.",
+      "code_snippet": "            out_tpl,\n            args.url,\n        ]\n        proc = subprocess.run(run_cmd, text=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE, check=False)\n        vtts = sorted(Path(td).glob(\"*.vtt\"))\n        if proc.returncode != 0 and not vtts:\n            return _die(\"yt-dlp failed: \" + proc.stderr[-1200:], 1)",
+      "intent": null
+    },
+    {
+      "id": "LP3",
+      "category": "MCP Least Privilege",
+      "pattern": null,
+      "severity": "MEDIUM",
+      "confidence": 0.7,
+      "location": {
+        "file": "SKILL.md",
+        "start_line": 1,
+        "end_line": null
+      },
+      "finding": null,
+      "explanation": "Without declared permissions the skill's intent is opaque and cannot be validated.",
+      "remediation": "Add a 'permissions' field to SKILL.md listing the capabilities this skill requires.",
+      "code_snippet": null,
+      "intent": null
+    },
+    {
+      "id": "E1",
+      "category": "Data Exfiltration",
+      "pattern": "External Transmission",
+      "severity": "MEDIUM",
+      "confidence": 0.6,
+      "location": {
+        "file": "scripts/agent_reach_lite.py",
+        "start_line": 70,
+        "end_line": null
+      },
+      "finding": "https://api.github.com/",
+      "explanation": "Data is being sent to an external URL. This could be legitimate telemetry or data exfiltration. Manual review is recommended.",
+      "remediation": "Verify the destination URL is trusted and necessary. Remove or replace with documented APIs. Ensure no secrets, tokens, or PII are transmitted.",
+      "code_snippet": "    repo = args.repo.strip().strip(\"/\")\n    if not re.fullmatch(r\"[A-Za-z0-9_.-]+/[A-Za-z0-9_.-]+\", repo):\n        return _die(\"repo must look like OWNER/REPO\")\n    url = f\"https://api.github.com/repos/{repo}\"\n    try:\n        data = json.loads(_request(url).decode(\"utf-8\"))\n    except urllib.error.HTTPError as e:",
+      "intent": null
+    }
+  ],
+  "metadata": {
+    "has_executable_scripts": true,
+    "skillspector_version": "2.1.4",
+    "llm_requested": false,
+    "llm_available": false
+  }
+}

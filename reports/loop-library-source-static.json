@@ -1,0 +1,49 @@
+{
+  "skill": {
+    "name": "loop-library",
+    "source": "/private/tmp/hermes-loop-library-audit/skills/loop-library",
+    "scanned_at": "2026-06-23T16:15:41.147365+00:00"
+  },
+  "risk_assessment": {
+    "score": 0,
+    "severity": "LOW",
+    "recommendation": "SAFE"
+  },
+  "components": [
+    {
+      "path": "SKILL.md",
+      "type": "markdown",
+      "lines": 227,
+      "executable": false,
+      "size_bytes": 11482
+    },
+    {
+      "path": "agents/openai.yaml",
+      "type": "yaml",
+      "lines": 4,
+      "executable": false,
+      "size_bytes": 249
+    },
+    {
+      "path": "references/audit.md",
+      "type": "markdown",
+      "lines": 61,
+      "executable": false,
+      "size_bytes": 2742
+    },
+    {
+      "path": "references/discover.md",
+      "type": "markdown",
+      "lines": 72,
+      "executable": false,
+      "size_bytes": 3872
+    }
+  ],
+  "issues": [],
+  "metadata": {
+    "has_executable_scripts": false,
+    "skillspector_version": "2.1.4",
+    "llm_requested": false,
+    "llm_available": false
+  }
+}

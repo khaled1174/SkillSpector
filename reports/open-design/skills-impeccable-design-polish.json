@@ -1,0 +1,46 @@
+{
+  "skill": {
+    "name": "impeccable-design-polish",
+    "source": "/private/tmp/open-design-review/skills/impeccable-design-polish",
+    "scanned_at": "2026-06-17T14:39:57.572657+00:00"
+  },
+  "risk_assessment": {
+    "score": 25,
+    "severity": "MEDIUM",
+    "recommendation": "CAUTION"
+  },
+  "components": [
+    {
+      "path": "SKILL.md",
+      "type": "markdown",
+      "lines": 69,
+      "executable": false,
+      "size_bytes": 2941
+    }
+  ],
+  "issues": [
+    {
+      "id": "TP2",
+      "category": "MCP Tool Poisoning",
+      "pattern": null,
+      "severity": "HIGH",
+      "confidence": 0.85,
+      "location": {
+        "file": "SKILL.md",
+        "start_line": 1,
+        "end_line": null
+      },
+      "finding": null,
+      "explanation": "Mixing characters from multiple Unicode scripts in a single identifier is a common technique to create visually ambiguous tool names.",
+      "remediation": "Restrict identifier fields to a single Unicode script. Prefer ASCII-only identifiers.",
+      "code_snippet": null,
+      "intent": null
+    }
+  ],
+  "metadata": {
+    "has_executable_scripts": false,
+    "skillspector_version": "2.1.4",
+    "llm_requested": false,
+    "llm_available": false
+  }
+}

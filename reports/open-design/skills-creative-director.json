@@ -1,0 +1,28 @@
+{
+  "skill": {
+    "name": "creative-director",
+    "source": "/private/tmp/open-design-review/skills/creative-director",
+    "scanned_at": "2026-06-17T14:39:56.523181+00:00"
+  },
+  "risk_assessment": {
+    "score": 0,
+    "severity": "LOW",
+    "recommendation": "SAFE"
+  },
+  "components": [
+    {
+      "path": "SKILL.md",
+      "type": "markdown",
+      "lines": 68,
+      "executable": false,
+      "size_bytes": 2861
+    }
+  ],
+  "issues": [],
+  "metadata": {
+    "has_executable_scripts": false,
+    "skillspector_version": "2.1.4",
+    "llm_requested": false,
+    "llm_available": false
+  }
+}

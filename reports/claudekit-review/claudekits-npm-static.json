@@ -1,0 +1,196 @@
+{
+  "skill": {
+    "name": "unknown",
+    "source": "/private/tmp/claudekits-npm-inspect/package",
+    "scanned_at": "2026-07-03T18:54:29.575731+00:00"
+  },
+  "risk_assessment": {
+    "score": 65,
+    "severity": "HIGH",
+    "recommendation": "DO_NOT_INSTALL"
+  },
+  "components": [
+    {
+      "path": "README.md",
+      "type": "markdown",
+      "lines": 168,
+      "executable": false,
+      "size_bytes": 7343
+    },
+    {
+      "path": "dist/index.js",
+      "type": "javascript",
+      "lines": 1685,
+      "executable": true,
+      "size_bytes": 53107
+    },
+    {
+      "path": "package.json",
+      "type": "json",
+      "lines": 46,
+      "executable": false,
+      "size_bytes": 922
+    }
+  ],
+  "issues": [
+    {
+      "id": "RA2",
+      "category": "Rogue Agent",
+      "pattern": "Session Persistence",
+      "severity": "MEDIUM",
+      "confidence": 0.6,
+      "location": {
+        "file": "dist/index.js",
+        "start_line": 387,
+        "end_line": null
+      },
+      "finding": "write permissions for ~/.claudekit",
+      "explanation": "Skill establishes unauthorized persistence across sessions via cron jobs, startup scripts, or state files. Session persistence allows an attacker to maintain access beyond the current interaction.",
+      "remediation": "Remove any persistence mechanisms (cron jobs, startup scripts, state files). Skills should not maintain state across sessions without explicit user consent.",
+      "code_snippet": "    await writeConfig(config);\n  } catch (err) {\n    return fail(\"Validated, but failed to save credentials.\", {\n      hint: \"Check write permissions for ~/.claudekit/config.json\",\n      code: EXIT.GENERIC,\n      error: err\n    });",
+      "intent": null
+    },
+    {
+      "id": "SC1",
+      "category": "Supply Chain",
+      "pattern": "Unpinned Dependencies",
+      "severity": "LOW",
+      "confidence": 0.4,
+      "location": {
+        "file": "package.json",
+        "start_line": 23,
+        "end_line": null
+      },
+      "finding": "\"commander\": \"^12.1.0\"",
+      "explanation": "Dependencies lack version pinning, allowing potential malicious package updates. Consider pinning versions.",
+      "remediation": "Pin all dependency versions in requirements.txt or pyproject.toml. Use exact versions (==) or compatible ranges. Run pip-audit regularly.",
+      "code_snippet": "    \"typecheck\": \"tsc --noEmit\"\n  },\n  \"dependencies\": {\n    \"commander\": \"^12.1.0\",\n    \"picocolors\": \"^1.1.1\",\n    \"adm-zip\": \"^0.5.16\"\n  },",
+      "intent": null
+    },
+    {
+      "id": "SC1",
+      "category": "Supply Chain",
+      "pattern": "Unpinned Dependencies",
+      "severity": "LOW",
+      "confidence": 0.4,
+      "location": {
+        "file": "package.json",
+        "start_line": 24,
+        "end_line": null
+      },
+      "finding": "\"picocolors\": \"^1.1.1\"",
+      "explanation": "Dependencies lack version pinning, allowing potential malicious package updates. Consider pinning versions.",
+      "remediation": "Pin all dependency versions in requirements.txt or pyproject.toml. Use exact versions (==) or compatible ranges. Run pip-audit regularly.",
+      "code_snippet": "  },\n  \"dependencies\": {\n    \"commander\": \"^12.1.0\",\n    \"picocolors\": \"^1.1.1\",\n    \"adm-zip\": \"^0.5.16\"\n  },\n  \"devDependencies\": {",
+      "intent": null
+    },
+    {
+      "id": "SC1",
+      "category": "Supply Chain",
+      "pattern": "Unpinned Dependencies",
+      "severity": "LOW",
+      "confidence": 0.4,
+      "location": {
+        "file": "package.json",
+        "start_line": 25,
+        "end_line": null
+      },
+      "finding": "\"adm-zip\": \"^0.5.16\"",
+      "explanation": "Dependencies lack version pinning, allowing potential malicious package updates. Consider pinning versions.",
+      "remediation": "Pin all dependency versions in requirements.txt or pyproject.toml. Use exact versions (==) or compatible ranges. Run pip-audit regularly.",
+      "code_snippet": "  \"dependencies\": {\n    \"commander\": \"^12.1.0\",\n    \"picocolors\": \"^1.1.1\",\n    \"adm-zip\": \"^0.5.16\"\n  },\n  \"devDependencies\": {\n    \"@types/adm-zip\": \"^0.5.7\",",
+      "intent": null
+    },
+    {
+      "id": "SC1",
+      "category": "Supply Chain",
+      "pattern": "Unpinned Dependencies",
+      "severity": "LOW",
+      "confidence": 0.4,
+      "location": {
+        "file": "package.json",
+        "start_line": 28,
+        "end_line": null
+      },
+      "finding": "\"@types/adm-zip\": \"^0.5.7\"",
+      "explanation": "Dependencies lack version pinning, allowing potential malicious package updates. Consider pinning versions.",
+      "remediation": "Pin all dependency versions in requirements.txt or pyproject.toml. Use exact versions (==) or compatible ranges. Run pip-audit regularly.",
+      "code_snippet": "    \"adm-zip\": \"^0.5.16\"\n  },\n  \"devDependencies\": {\n    \"@types/adm-zip\": \"^0.5.7\",\n    \"@types/node\": \"^20\",\n    \"tsup\": \"^8.3.0\",\n    \"typescript\": \"^5\"",
+      "intent": null
+    },
+    {
+      "id": "SC1",
+      "category": "Supply Chain",
+      "pattern": "Unpinned Dependencies",
+      "severity": "LOW",
+      "confidence": 0.4,
+      "location": {
+        "file": "package.json",
+        "start_line": 29,
+        "end_line": null
+      },
+      "finding": "\"@types/node\": \"^20\"",
+      "explanation": "Dependencies lack version pinning, allowing potential malicious package updates. Consider pinning versions.",
+      "remediation": "Pin all dependency versions in requirements.txt or pyproject.toml. Use exact versions (==) or compatible ranges. Run pip-audit regularly.",
+      "code_snippet": "  },\n  \"devDependencies\": {\n    \"@types/adm-zip\": \"^0.5.7\",\n    \"@types/node\": \"^20\",\n    \"tsup\": \"^8.3.0\",\n    \"typescript\": \"^5\"\n  },",
+      "intent": null
+    },
+    {
+      "id": "SC1",
+      "category": "Supply Chain",
+      "pattern": "Unpinned Dependencies",
+      "severity": "LOW",
+      "confidence": 0.4,
+      "location": {
+        "file": "package.json",
+        "start_line": 30,
+        "end_line": null
+      },
+      "finding": "\"tsup\": \"^8.3.0\"",
+      "explanation": "Dependencies lack version pinning, allowing potential malicious package updates. Consider pinning versions.",
+      "remediation": "Pin all dependency versions in requirements.txt or pyproject.toml. Use exact versions (==) or compatible ranges. Run pip-audit regularly.",
+      "code_snippet": "  \"devDependencies\": {\n    \"@types/adm-zip\": \"^0.5.7\",\n    \"@types/node\": \"^20\",\n    \"tsup\": \"^8.3.0\",\n    \"typescript\": \"^5\"\n  },\n  \"keywords\": [",
+      "intent": null
+    },
+    {
+      "id": "SC1",
+      "category": "Supply Chain",
+      "pattern": "Unpinned Dependencies",
+      "severity": "LOW",
+      "confidence": 0.4,
+      "location": {
+        "file": "package.json",
+        "start_line": 31,
+        "end_line": null
+      },
+      "finding": "\"typescript\": \"^5\"",
+      "explanation": "Dependencies lack version pinning, allowing potential malicious package updates. Consider pinning versions.",
+      "remediation": "Pin all dependency versions in requirements.txt or pyproject.toml. Use exact versions (==) or compatible ranges. Run pip-audit regularly.",
+      "code_snippet": "    \"@types/adm-zip\": \"^0.5.7\",\n    \"@types/node\": \"^20\",\n    \"tsup\": \"^8.3.0\",\n    \"typescript\": \"^5\"\n  },\n  \"keywords\": [\n    \"claude-code\",",
+      "intent": null
+    },
+    {
+      "id": "SC4",
+      "category": "Supply Chain",
+      "pattern": "Known Vulnerable Dependency: tsup==8.3.0 \u2014 1 advisory(ies): CVE-2024-53384 (tsup DOM Clobbering vulnerability)",
+      "severity": "LOW",
+      "confidence": 0.6,
+      "location": {
+        "file": "package.json",
+        "start_line": 30,
+        "end_line": null
+      },
+      "finding": "tsup==8.3.0",
+      "explanation": "Dependency has known vulnerabilities (CVEs). Using packages with unpatched security flaws exposes the environment to known exploits.",
+      "remediation": "Update the dependency to a patched version that addresses the known CVE. Check OSV (osv.dev) or NVD for details on the vulnerability.",
+      "code_snippet": null,
+      "intent": null
+    }
+  ],
+  "metadata": {
+    "has_executable_scripts": true,
+    "skillspector_version": "2.1.4",
+    "llm_requested": false,
+    "llm_available": false
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "skill": {
+    "name": "emil-design-eng",
+    "source": "/private/tmp/emilkowalski-skills-review/repo/skills/emil-design-eng",
+    "scanned_at": "2026-07-03T00:31:25.494497+00:00"
+  },
+  "risk_assessment": {
+    "score": 0,
+    "severity": "LOW",
+    "recommendation": "SAFE"
+  },
+  "components": [
+    {
+      "path": "SKILL.md",
+      "type": "markdown",
+      "lines": 679,
+      "executable": false,
+      "size_bytes": 27335
+    }
+  ],
+  "issues": [],
+  "metadata": {
+    "has_executable_scripts": false,
+    "skillspector_version": "2.1.4",
+    "llm_requested": false,
+    "llm_available": false
+  }
+}

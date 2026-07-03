@@ -1,0 +1,198 @@
+{
+  "skill": {
+    "name": "unknown",
+    "source": "/private/tmp/hermesatlas-skill-triage/AkoliteZA__hermes-agent-idea-workflow",
+    "scanned_at": "2026-06-26T10:44:43.783284+00:00"
+  },
+  "risk_assessment": {
+    "score": 40,
+    "severity": "MEDIUM",
+    "recommendation": "CAUTION"
+  },
+  "components": [
+    {
+      "path": "CONTRIBUTING.md",
+      "type": "markdown",
+      "lines": 42,
+      "executable": false,
+      "size_bytes": 1339
+    },
+    {
+      "path": "LICENSE",
+      "type": "other",
+      "lines": 21,
+      "executable": false,
+      "size_bytes": 1066
+    },
+    {
+      "path": "README.md",
+      "type": "markdown",
+      "lines": 218,
+      "executable": false,
+      "size_bytes": 6370
+    },
+    {
+      "path": "idea-superpowers-suite/SKILL.md",
+      "type": "markdown",
+      "lines": 392,
+      "executable": false,
+      "size_bytes": 15767
+    },
+    {
+      "path": "idea-superpowers-suite/references/example-automation-script-build-handoff.md",
+      "type": "markdown",
+      "lines": 120,
+      "executable": false,
+      "size_bytes": 3337
+    },
+    {
+      "path": "idea-superpowers-suite/references/example-cli-tool-build-handoff.md",
+      "type": "markdown",
+      "lines": 109,
+      "executable": false,
+      "size_bytes": 2637
+    },
+    {
+      "path": "idea-superpowers-suite/references/example-saas-web-app-build-handoff.md",
+      "type": "markdown",
+      "lines": 123,
+      "executable": false,
+      "size_bytes": 3307
+    },
+    {
+      "path": "idea-superpowers-suite/references/interview-question-bank.md",
+      "type": "markdown",
+      "lines": 156,
+      "executable": false,
+      "size_bytes": 8155
+    },
+    {
+      "path": "idea-superpowers-suite/templates/idea-package-readme-template.md",
+      "type": "markdown",
+      "lines": 54,
+      "executable": false,
+      "size_bytes": 1577
+    },
+    {
+      "path": "idea-to-design-doc/SKILL.md",
+      "type": "markdown",
+      "lines": 188,
+      "executable": false,
+      "size_bytes": 6274
+    },
+    {
+      "path": "idea-to-implementation-doc/SKILL.md",
+      "type": "markdown",
+      "lines": 340,
+      "executable": false,
+      "size_bytes": 12379
+    },
+    {
+      "path": "idea-to-implementation-doc/templates/agent-build-handoff-template.md",
+      "type": "markdown",
+      "lines": 149,
+      "executable": false,
+      "size_bytes": 5633
+    },
+    {
+      "path": "idea-to-ui-design-brief/SKILL.md",
+      "type": "markdown",
+      "lines": 190,
+      "executable": false,
+      "size_bytes": 7840
+    }
+  ],
+  "issues": [
+    {
+      "id": "EA3",
+      "category": "Excessive Agency",
+      "pattern": "Scope Creep",
+      "severity": "LOW",
+      "confidence": 0.7,
+      "location": {
+        "file": "LICENSE",
+        "start_line": 16,
+        "end_line": null
+      },
+      "finding": "NOT LIMITED TO",
+      "explanation": "Skill's behavior or capabilities extend beyond its stated purpose. Scope creep allows an agent to perform actions unrelated to its documented functionality, increasing the attack surface.",
+      "remediation": "Limit the skill's scope to its documented purpose. Remove instructions that enable the agent to perform actions outside its stated functionality.",
+      "code_snippet": "copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,",
+      "intent": null
+    },
+    {
+      "id": "EA2",
+      "category": "Excessive Agency",
+      "pattern": "Autonomous Decision Making",
+      "severity": "MEDIUM",
+      "confidence": 0.75,
+      "location": {
+        "file": "idea-superpowers-suite/SKILL.md",
+        "start_line": 287,
+        "end_line": null
+      },
+      "finding": "without asking",
+      "explanation": "Skill enables autonomous high-impact decisions without human-in-the-loop verification. Critical operations (destructive commands, financial transactions, data deletion) should require explicit user confirmation.",
+      "remediation": "Add human-in-the-loop confirmation for destructive, irreversible, or high-impact operations. Never auto-execute commands that modify files, send data, or alter system state.",
+      "code_snippet": "- unresolved technical decisions remain;\n- acceptance criteria are concrete;\n- done means is specific;\n- a fresh agent could build from the file without asking obvious questions;\n- testing and verification requirements are included;\n- non-goals prevent scope creep.\n",
+      "intent": null
+    },
+    {
+      "id": "EA3",
+      "category": "Excessive Agency",
+      "pattern": "Scope Creep",
+      "severity": "LOW",
+      "confidence": 0.75,
+      "location": {
+        "file": "idea-superpowers-suite/references/example-saas-web-app-build-handoff.md",
+        "start_line": 109,
+        "end_line": null
+      },
+      "finding": "expand scope",
+      "explanation": "Skill's behavior or capabilities extend beyond its stated purpose. Scope creep allows an agent to perform actions unrelated to its documented functionality, increasing the attack surface.",
+      "remediation": "Limit the skill's scope to its documented purpose. Remove instructions that enable the agent to perform actions outside its stated functionality.",
+      "code_snippet": "\n## Known Risks\n\n- Auth choices can expand scope.\n- Summary page complexity should stay minimal for v1.\n\n## Open Questions",
+      "intent": null
+    },
+    {
+      "id": "EA2",
+      "category": "Excessive Agency",
+      "pattern": "Autonomous Decision Making",
+      "severity": "MEDIUM",
+      "confidence": 0.8,
+      "location": {
+        "file": "idea-superpowers-suite/references/interview-question-bank.md",
+        "start_line": 115,
+        "end_line": null
+      },
+      "finding": "Do not ask the user",
+      "explanation": "Skill enables autonomous high-impact decisions without human-in-the-loop verification. Critical operations (destructive commands, financial transactions, data deletion) should require explicit user confirmation.",
+      "remediation": "Add human-in-the-loop confirmation for destructive, irreversible, or high-impact operations. Never auto-execute commands that modify files, send data, or alter system state.",
+      "code_snippet": "\n## Technical defaults: recommend, then confirm\n\nUse this section after product direction, data location, and platform targets are clear enough. Do not ask the user to pick every technology from a blank slate. First propose sensible defaults, then ask what they want to accept or change.\n\nRecommended prompt:\n",
+      "intent": null
+    },
+    {
+      "id": "RA2",
+      "category": "Rogue Agent",
+      "pattern": "Session Persistence",
+      "severity": "MEDIUM",
+      "confidence": 0.6,
+      "location": {
+        "file": "README.md",
+        "start_line": 11,
+        "end_line": null
+      },
+      "finding": "create a design document, produce an implementation spec, and package everything into a single handoff file another agent can build from.\n\nThe toolset helps an agent produce:\n\n1. Lite-mode quick idea ",
+      "explanation": "Skill establishes unauthorized persistence across sessions via cron jobs, startup scripts, or state files. Session persistence allows an attacker to maintain access beyond the current interaction.",
+      "remediation": "Remove any persistence mechanisms (cron jobs, startup scripts, state files). Skills should not maintain state across sessions without explicit user consent.",
+      "code_snippet": "\n## What It Is\n\nThis repository contains Hermes Agent skills for moving from vague idea to build-ready specification. The workflow separates product thinking from implementation thinking so an agent can capture the user's intent, clarify the experience, create a design document, produce an implementation spec, and package everything into a single handoff file another agent can build from.\n\nThe toolset helps an agent produce:\n",
+      "intent": null
+    }
+  ],
+  "metadata": {
+    "has_executable_scripts": false,
+    "skillspector_version": "2.1.4",
+    "llm_requested": false,
+    "llm_available": false
+  }
+}

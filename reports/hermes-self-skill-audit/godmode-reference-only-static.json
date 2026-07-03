@@ -1,0 +1,46 @@
+{
+  "skill": {
+    "name": "godmode",
+    "source": "/Users/khaledmac/.hermes/skills/red-teaming/godmode",
+    "scanned_at": "2026-07-03T14:29:29.175783+00:00"
+  },
+  "risk_assessment": {
+    "score": 25,
+    "severity": "MEDIUM",
+    "recommendation": "CAUTION"
+  },
+  "components": [
+    {
+      "path": "SKILL.md",
+      "type": "markdown",
+      "lines": 68,
+      "executable": false,
+      "size_bytes": 2546
+    }
+  ],
+  "issues": [
+    {
+      "id": "P1",
+      "category": "Prompt Injection",
+      "pattern": "Instruction Override",
+      "severity": "HIGH",
+      "confidence": 0.9,
+      "location": {
+        "file": "SKILL.md",
+        "start_line": 49,
+        "end_line": null
+      },
+      "finding": "bypass safety",
+      "explanation": "This pattern attempts to override system instructions or ignore safety constraints. Without LLM analysis, manual review is recommended.",
+      "remediation": "Remove or rewrite any text that instructs the agent to ignore prompts, override safety rules, or trust unverified content. Ensure skill content cannot be injected to alter agent behavior.",
+      "code_snippet": "- create persistent prefill files;\n- run model-racing tools against external APIs;\n- copy jailbreak templates back into active skills;\n- use this skill to bypass safety controls in normal assistant work.\n\n## If Khaled explicitly requests a red-team sandbox\n",
+      "intent": null
+    }
+  ],
+  "metadata": {
+    "has_executable_scripts": false,
+    "skillspector_version": "2.1.4",
+    "llm_requested": false,
+    "llm_available": false
+  }
+}

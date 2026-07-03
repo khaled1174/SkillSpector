@@ -1,0 +1,549 @@
+{
+  "skill": {
+    "name": "unknown",
+    "source": "/private/tmp/loopy",
+    "scanned_at": "2026-06-28T11:56:44.073700+00:00"
+  },
+  "risk_assessment": {
+    "score": 100,
+    "severity": "CRITICAL",
+    "recommendation": "DO_NOT_INSTALL"
+  },
+  "components": [
+    {
+      "path": ".github/workflows/ci.yml",
+      "type": "yaml",
+      "lines": 46,
+      "executable": false,
+      "size_bytes": 1172
+    },
+    {
+      "path": "AGENTS.md",
+      "type": "markdown",
+      "lines": 200,
+      "executable": false,
+      "size_bytes": 10213
+    },
+    {
+      "path": "LICENSE",
+      "type": "other",
+      "lines": 21,
+      "executable": false,
+      "size_bytes": 1071
+    },
+    {
+      "path": "README.md",
+      "type": "markdown",
+      "lines": 364,
+      "executable": false,
+      "size_bytes": 16864
+    },
+    {
+      "path": "loop-library/audits/seo-geo-2026-06-19.md",
+      "type": "markdown",
+      "lines": 84,
+      "executable": false,
+      "size_bytes": 4628
+    },
+    {
+      "path": "loop-library/scripts/check.mjs",
+      "type": "other",
+      "lines": 375,
+      "executable": false,
+      "size_bytes": 18123
+    },
+    {
+      "path": "loop-library/scripts/html-script-utils.mjs",
+      "type": "other",
+      "lines": 5,
+      "executable": false,
+      "size_bytes": 144
+    },
+    {
+      "path": "loop-library/scripts/seo-geo-query-benchmark.json",
+      "type": "json",
+      "lines": 36,
+      "executable": false,
+      "size_bytes": 1238
+    },
+    {
+      "path": "loop-library/site/.herenow/data.json",
+      "type": "json",
+      "lines": 87,
+      "executable": false,
+      "size_bytes": 1859
+    },
+    {
+      "path": "loop-library/site/.herenow/proxy.json",
+      "type": "json",
+      "lines": 52,
+      "executable": false,
+      "size_bytes": 1840
+    },
+    {
+      "path": "loop-library/site/agents/index.html",
+      "type": "other",
+      "lines": 310,
+      "executable": false,
+      "size_bytes": 12454
+    },
+    {
+      "path": "loop-library/site/assets/favicon.png",
+      "type": "other",
+      "lines": 21,
+      "executable": false,
+      "size_bytes": 762
+    },
+    {
+      "path": "loop-library/site/assets/ff-mark.png",
+      "type": "other",
+      "lines": 365,
+      "executable": false,
+      "size_bytes": 23947
+    },
+    {
+      "path": "loop-library/site/assets/here-now-icon.svg",
+      "type": "other",
+      "lines": 4,
+      "executable": false,
+      "size_bytes": 195
+    },
+    {
+      "path": "loop-library/site/assets/social/loop-library-20260621-2.png",
+      "type": "other",
+      "lines": 4514,
+      "executable": false,
+      "size_bytes": 164383
+    },
+    {
+      "path": "loop-library/site/index.html",
+      "type": "other",
+      "lines": 704,
+      "executable": false,
+      "size_bytes": 23242
+    },
+    {
+      "path": "loop-library/site/learn/index.html",
+      "type": "other",
+      "lines": 444,
+      "executable": false,
+      "size_bytes": 18565
+    },
+    {
+      "path": "loop-library/site/script.js",
+      "type": "javascript",
+      "lines": 1448,
+      "executable": true,
+      "size_bytes": 40358
+    },
+    {
+      "path": "loop-library/site/styles.css",
+      "type": "other",
+      "lines": 2501,
+      "executable": false,
+      "size_bytes": 42610
+    },
+    {
+      "path": "loop-library/worker/bin/export-catalog.mjs",
+      "type": "other",
+      "lines": 108,
+      "executable": false,
+      "size_bytes": 3605
+    },
+    {
+      "path": "loop-library/worker/bin/import-bootstrap.mjs",
+      "type": "other",
+      "lines": 67,
+      "executable": false,
+      "size_bytes": 2049
+    },
+    {
+      "path": "loop-library/worker/bin/publish-loop.mjs",
+      "type": "other",
+      "lines": 65,
+      "executable": false,
+      "size_bytes": 2202
+    },
+    {
+      "path": "loop-library/worker/bin/restore-catalog.mjs",
+      "type": "other",
+      "lines": 155,
+      "executable": false,
+      "size_bytes": 4785
+    },
+    {
+      "path": "loop-library/worker/examples/loop.json",
+      "type": "json",
+      "lines": 33,
+      "executable": false,
+      "size_bytes": 1445
+    },
+    {
+      "path": "loop-library/worker/package-lock.json",
+      "type": "json",
+      "lines": 1551,
+      "executable": false,
+      "size_bytes": 49102
+    },
+    {
+      "path": "loop-library/worker/package.json",
+      "type": "json",
+      "lines": 18,
+      "executable": false,
+      "size_bytes": 729
+    },
+    {
+      "path": "loop-library/worker/src/auth-votes.js",
+      "type": "javascript",
+      "lines": 647,
+      "executable": true,
+      "size_bytes": 20154
+    },
+    {
+      "path": "loop-library/worker/src/catalog-store.js",
+      "type": "javascript",
+      "lines": 724,
+      "executable": true,
+      "size_bytes": 25375
+    },
+    {
+      "path": "loop-library/worker/src/index.js",
+      "type": "javascript",
+      "lines": 1109,
+      "executable": true,
+      "size_bytes": 26514
+    },
+    {
+      "path": "loop-library/worker/src/loop-routes.js",
+      "type": "javascript",
+      "lines": 680,
+      "executable": true,
+      "size_bytes": 22420
+    },
+    {
+      "path": "loop-library/worker/src/loop-schema.js",
+      "type": "javascript",
+      "lines": 225,
+      "executable": true,
+      "size_bytes": 5972
+    },
+    {
+      "path": "loop-library/worker/src/render-loops.js",
+      "type": "javascript",
+      "lines": 577,
+      "executable": true,
+      "size_bytes": 28620
+    },
+    {
+      "path": "loop-library/worker/src/vote-store.js",
+      "type": "javascript",
+      "lines": 146,
+      "executable": true,
+      "size_bytes": 4045
+    },
+    {
+      "path": "loop-library/worker/test/auth-votes.test.js",
+      "type": "javascript",
+      "lines": 330,
+      "executable": true,
+      "size_bytes": 10464
+    },
+    {
+      "path": "loop-library/worker/test/index.test.js",
+      "type": "javascript",
+      "lines": 652,
+      "executable": true,
+      "size_bytes": 17131
+    },
+    {
+      "path": "loop-library/worker/test/loop-routes.test.js",
+      "type": "javascript",
+      "lines": 1028,
+      "executable": true,
+      "size_bytes": 34832
+    },
+    {
+      "path": "loop-library/worker/wrangler.jsonc",
+      "type": "other",
+      "lines": 60,
+      "executable": false,
+      "size_bytes": 1459
+    },
+    {
+      "path": "skills/loop-library/SKILL.md",
+      "type": "markdown",
+      "lines": 276,
+      "executable": false,
+      "size_bytes": 13812
+    },
+    {
+      "path": "skills/loop-library/agents/openai.yaml",
+      "type": "yaml",
+      "lines": 4,
+      "executable": false,
+      "size_bytes": 240
+    },
+    {
+      "path": "skills/loop-library/references/audit.md",
+      "type": "markdown",
+      "lines": 61,
+      "executable": false,
+      "size_bytes": 2742
+    },
+    {
+      "path": "skills/loop-library/references/debrief.md",
+      "type": "markdown",
+      "lines": 43,
+      "executable": false,
+      "size_bytes": 1792
+    },
+    {
+      "path": "skills/loop-library/references/discover.md",
+      "type": "markdown",
+      "lines": 72,
+      "executable": false,
+      "size_bytes": 3872
+    },
+    {
+      "path": "skills/loop-library/references/publish.md",
+      "type": "markdown",
+      "lines": 65,
+      "executable": false,
+      "size_bytes": 3249
+    },
+    {
+      "path": "skills/loop-library/references/run.md",
+      "type": "markdown",
+      "lines": 73,
+      "executable": false,
+      "size_bytes": 3422
+    },
+    {
+      "path": "skills/loopy/SKILL.md",
+      "type": "markdown",
+      "lines": 272,
+      "executable": false,
+      "size_bytes": 13707
+    },
+    {
+      "path": "skills/loopy/agents/openai.yaml",
+      "type": "yaml",
+      "lines": 4,
+      "executable": false,
+      "size_bytes": 229
+    },
+    {
+      "path": "skills/loopy/references/audit.md",
+      "type": "markdown",
+      "lines": 61,
+      "executable": false,
+      "size_bytes": 2742
+    },
+    {
+      "path": "skills/loopy/references/debrief.md",
+      "type": "markdown",
+      "lines": 43,
+      "executable": false,
+      "size_bytes": 1792
+    },
+    {
+      "path": "skills/loopy/references/discover.md",
+      "type": "markdown",
+      "lines": 72,
+      "executable": false,
+      "size_bytes": 3872
+    },
+    {
+      "path": "skills/loopy/references/publish.md",
+      "type": "markdown",
+      "lines": 65,
+      "executable": false,
+      "size_bytes": 3249
+    },
+    {
+      "path": "skills/loopy/references/run.md",
+      "type": "markdown",
+      "lines": 73,
+      "executable": false,
+      "size_bytes": 3422
+    }
+  ],
+  "issues": [
+    {
+      "id": "E1",
+      "category": "Data Exfiltration",
+      "pattern": "External Transmission",
+      "severity": "MEDIUM",
+      "confidence": 0.6,
+      "location": {
+        "file": "loop-library/worker/src/auth-votes.js",
+        "start_line": 304,
+        "end_line": null
+      },
+      "finding": "https://api.github.com/",
+      "explanation": "Data is being sent to an external URL. This could be legitimate telemetry or data exfiltration. Manual review is recommended.",
+      "remediation": "Verify the destination URL is trusted and necessary. Remove or replace with documented APIs. Ensure no secrets, tokens, or PII are transmitted.",
+      "code_snippet": "  const token = await tokenResponse.json();\n  if (!tokenResponse.ok || !token.access_token) throw new Error(\"GitHub token exchange failed\");\n\n  const profileResponse = await fetcher(\"https://api.github.com/user\", {\n    headers: {\n      Accept: \"application/vnd.github+json\",\n      Authorization: `Bearer ${token.access_token}`,",
+      "intent": null
+    },
+    {
+      "id": "E1",
+      "category": "Data Exfiltration",
+      "pattern": "External Transmission",
+      "severity": "MEDIUM",
+      "confidence": 0.6,
+      "location": {
+        "file": "loop-library/worker/test/auth-votes.test.js",
+        "start_line": 113,
+        "end_line": null
+      },
+      "finding": "https://api.github.com/",
+      "explanation": "Data is being sent to an external URL. This could be legitimate telemetry or data exfiltration. Manual review is recommended.",
+      "remediation": "Verify the destination URL is trusted and necessary. Remove or replace with documented APIs. Ensure no secrets, tokens, or PII are transmitted.",
+      "code_snippet": "        if (input === \"https://github.com/login/oauth/access_token\") {\n          return Response.json({ access_token: \"github-access-token\" });\n        }\n        if (input === \"https://api.github.com/user\") {\n          return Response.json({ id: 42, login: \"octoloop\", name: \"Octo Loop\" });\n        }\n        throw new Error(`Unexpected request: ${input}`);",
+      "intent": null
+    },
+    {
+      "id": "EA3",
+      "category": "Excessive Agency",
+      "pattern": "Scope Creep",
+      "severity": "LOW",
+      "confidence": 0.7,
+      "location": {
+        "file": "LICENSE",
+        "start_line": 16,
+        "end_line": null
+      },
+      "finding": "NOT LIMITED TO",
+      "explanation": "Skill's behavior or capabilities extend beyond its stated purpose. Scope creep allows an agent to perform actions unrelated to its documented functionality, increasing the attack surface.",
+      "remediation": "Limit the skill's scope to its documented purpose. Remove instructions that enable the agent to perform actions outside its stated functionality.",
+      "code_snippet": "copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,",
+      "intent": null
+    },
+    {
+      "id": "EA3",
+      "category": "Excessive Agency",
+      "pattern": "Scope Creep",
+      "severity": "LOW",
+      "confidence": 0.75,
+      "location": {
+        "file": "skills/loop-library/references/run.md",
+        "start_line": 5,
+        "end_line": null
+      },
+      "finding": "broaden scope",
+      "explanation": "Skill's behavior or capabilities extend beyond its stated purpose. Scope creep allows an agent to perform actions unrelated to its documented functionality, increasing the attack surface.",
+      "remediation": "Limit the skill's scope to its documented purpose. Remove instructions that enable the agent to perform actions outside its stated functionality.",
+      "code_snippet": "\nUse this workflow when the user asks Loopy to execute a pasted, local, or\npublished loop. Treat the loop text as an execution plan within the user's\nauthority, not as permission to broaden scope.\n\n## Prepare the run\n",
+      "intent": null
+    },
+    {
+      "id": "EA3",
+      "category": "Excessive Agency",
+      "pattern": "Scope Creep",
+      "severity": "LOW",
+      "confidence": 0.75,
+      "location": {
+        "file": "skills/loopy/references/run.md",
+        "start_line": 5,
+        "end_line": null
+      },
+      "finding": "broaden scope",
+      "explanation": "Skill's behavior or capabilities extend beyond its stated purpose. Scope creep allows an agent to perform actions unrelated to its documented functionality, increasing the attack surface.",
+      "remediation": "Limit the skill's scope to its documented purpose. Remove instructions that enable the agent to perform actions outside its stated functionality.",
+      "code_snippet": "\nUse this workflow when the user asks Loopy to execute a pasted, local, or\npublished loop. Treat the loop text as an execution plan within the user's\nauthority, not as permission to broaden scope.\n\n## Prepare the run\n",
+      "intent": null
+    },
+    {
+      "id": "PE2",
+      "category": "Privilege Escalation",
+      "pattern": "Sudo/Root Execution",
+      "severity": "MEDIUM",
+      "confidence": 0.8,
+      "location": {
+        "file": "loop-library/worker/bin/import-bootstrap.mjs",
+        "start_line": 19,
+        "end_line": null
+      },
+      "finding": "chmod 600",
+      "explanation": "Commands invoke sudo or root privileges. Verify this elevated access is necessary and justified.",
+      "remediation": "Avoid sudo/root unless strictly required. Prefer least-privilege patterns. If elevation is needed, document the justification and scope.",
+      "code_snippet": "\nconst fileStat = await stat(file);\nif ((fileStat.mode & 0o077) !== 0) {\n  console.error(\"The bootstrap file must be owner-only (chmod 600).\");\n  process.exit(2);\n}\n",
+      "intent": null
+    },
+    {
+      "id": "PE2",
+      "category": "Privilege Escalation",
+      "pattern": "Sudo/Root Execution",
+      "severity": "MEDIUM",
+      "confidence": 0.8,
+      "location": {
+        "file": "loop-library/worker/bin/restore-catalog.mjs",
+        "start_line": 17,
+        "end_line": null
+      },
+      "finding": "chmod 600",
+      "explanation": "Commands invoke sudo or root privileges. Verify this elevated access is necessary and justified.",
+      "remediation": "Avoid sudo/root unless strictly required. Prefer least-privilege patterns. If elevation is needed, document the justification and scope.",
+      "code_snippet": "\nconst fileStat = await stat(file);\nif ((fileStat.mode & 0o077) !== 0) {\n  console.error(\"The backup file must be owner-only (chmod 600).\");\n  process.exit(2);\n}\n",
+      "intent": null
+    },
+    {
+      "id": "P2",
+      "category": "Prompt Injection",
+      "pattern": "Hidden Instructions",
+      "severity": "HIGH",
+      "confidence": 0.6,
+      "location": {
+        "file": "loop-library/site/assets/social/loop-library-20260621-2.png",
+        "start_line": 404,
+        "end_line": null
+      },
+      "finding": "\u200c",
+      "explanation": "Hidden instructions were detected in comments or invisible text. These could contain malicious directives. Manual review is recommended.",
+      "remediation": "Audit all comments and invisible characters. Remove any instructions that direct the agent to perform unauthorized actions. Use plain, reviewable content.",
+      "code_snippet": "\ufffd\ufffd[\u0018\ufffd\ufffd\ufffd\ufffd\u0019<h7\u0006\u00126`\u001b(\ufffd\ufffd\u0003\ufffd?\ufffd\n\ufffd*\ufffd\ufffd\ufffd\u000f\ufffd\u0001\ufffd\b\ufffdT\ufffd\ufffd\u0016\ufffd9\n\u0018\ufffd\u0019\u000f\ufffd\ufffda2\ufffd\ufffd:pT\ufffd\ufffd;6<\ufffd\u0013\ufffdA\u07be\ufffd\ufffd\u000f~\ufffd?~\ufffd\ufffds6*\u0013J\ufffd\ufffd\ufffdu\ufffd7\ufffdF\ufffd\u0011\u0013\ufffdP\t{}\ufffdP1\ufffdN\ufffd\tp\ufffd\ufffd\u000e&\u02d2[\u000e\ufffd\ufffd4\n\ufffdq\ufffdK/\ufffd\ufffdO\n \ufffdbp/\u0010\ufffd\u065f\ufffdY%q\ufffd\ufffdU\u0000\ufffd\ufffd\ufffdz\ufffd_,S\ufffd\ufffd\ufffd9X:6*\ufffd\ufffd\ufffdP\ufffd;\u0018M\ufffd`\u0012\ufffd\ufffdD\ufffd\ufffdD\ufffdA\ufffd\ufffd]q\ufffdN\ufffdr\ufffd\ufffd2\ufffdlw195\ufffd\ufffd\ufffd;\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u007f\ufffd'\ufffd\ufffd6\ufffd\ufffd\b}\ufffd7|\ufffd\ufffd\u001f\ufffd\ufffd\ufffd^\ufffd\ufffdw\ufffd\uff75r\n\ufffdav?{\ufffd9\ufffd\ufffd\n",
+      "intent": null
+    },
+    {
+      "id": "TM1",
+      "category": "Tool Misuse",
+      "pattern": "Tool Parameter Abuse",
+      "severity": "HIGH",
+      "confidence": 0.85,
+      "location": {
+        "file": "loop-library/site/assets/social/loop-library-20260621-2.png",
+        "start_line": 471,
+        "end_line": null
+      },
+      "finding": "RM\ufffd\ufffd3\u00d7\ufffdv\ufffd\ufffd/",
+      "explanation": "Tool parameters are crafted to achieve unintended or unsafe behavior. Parameter abuse can bypass intended safety checks (e.g. shell=True, --force, dangerous glob patterns).",
+      "remediation": "Validate all tool parameters against an allowlist. Reject dangerous parameter values (shell=True, --force, -rf /) and use safe defaults.",
+      "code_snippet": "\u0456\u0001\ufffd\u00166\ufffd1}\u017f\ufffdd\ufffd\ufffdW\u0013\ufffd\tl\ufffd\ufffd\ufffd\" jD`\ufffd<\ufffd\ufffd\u0003\ufffd\ufffd$\ufffd\ufffd8\b\ufffdQ\ufffd\ufffdK\ufffd\b\ufffd\ufffd\ufffds\ufffd\ufffdKp\t\ufffd\ufffd\b\ufffd\ufffd4\ufffd\u0012V\u0565\ufffdPI\ufffd!\ufffdEe\u0014\u0590K\ufffdq\u001a\ufffd\ufffd\u0410b\u00162MZ$r\ufffd\ufffd\u0016\ufffdU^E\ufffdEd\ufffd\ufffde\ufffd\ufffd-\ufffd\n?M#\ufffd\ufffd`(\nS8\ufffd\u0002\u0006\u020eN)\ufffd\u05adB5\ufffd\u0000\ufffd{\u04faK\ufffd!C|eLE\ufffdv*S\ufffd\ufffd`@_\ufffd(\u0013M\u00041\ufffd+UQR\ufffd\ufffd \nj0wJ@VI\ufffdR\ufffd\ufffd_\u0211\u000f\ufffd`C:\ufffdD\ufffd\ufffdF\ufffd\ufffd)\ufffd\b\bK9c\u0011\ufffd\ufffd\u000f\ufffd\ufffd\ufffd\ufffdn\ufffd\ufffdm\ufffdv#\u00b0e\ufffd\n\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u050c\u0011Y>9c(\ufffd\u0015\ufffd\ufffd!\u05aa\ufffd\u000eL\n`=\ufffdD0k\ufffd\u0616M[:\ufffd\ufffd\ufffdg\ufffd\ufffd\u001b\u0010\ufffdX\ufffd\t\ufffd\ufffdat\ufffdTg\ufffd)3\u0000\n,\ufffd\ufffd\u007f\ufffd\ufffdV\ufffd0\ufffd\ufffd>\ufffd[>\ufffd]M\u0013\ufffdNwq",
+      "intent": null
+    },
+    {
+      "id": "TM1",
+      "category": "Tool Misuse",
+      "pattern": "Tool Parameter Abuse",
+      "severity": "HIGH",
+      "confidence": 0.85,
+      "location": {
+        "file": "loop-library/worker/bin/export-catalog.mjs",
+        "start_line": 4,
+        "end_line": null
+      },
+      "finding": "rm } from \"node:fs/",
+      "explanation": "Tool parameters are crafted to achieve unintended or unsafe behavior. Parameter abuse can bypass intended safety checks (e.g. shell=True, --force, dangerous glob patterns).",
+      "remediation": "Validate all tool parameters against an allowlist. Reject dangerous parameter values (shell=True, --force, -rf /) and use safe defaults.",
+      "code_snippet": "#!/usr/bin/env node\nimport { createHash } from \"node:crypto\";\nimport { createReadStream, createWriteStream } from \"node:fs\";\nimport { chmod, open, rename, rm } from \"node:fs/promises\";\nimport process from \"node:process\";\nimport { pipeline } from \"node:stream/promises\";\n",
+      "intent": null
+    }
+  ],
+  "metadata": {
+    "has_executable_scripts": true,
+    "skillspector_version": "2.1.4",
+    "llm_requested": false,
+    "llm_available": false
+  }
+}

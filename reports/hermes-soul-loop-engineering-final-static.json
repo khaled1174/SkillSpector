@@ -1,0 +1,80 @@
+{
+  "skill": {
+    "name": "unknown",
+    "source": "/var/folders/j3/gncvd3jn4rq3gtcsq8x6bwsm0000gn/T/skillspector_ybq8nqw7",
+    "scanned_at": "2026-06-15T16:30:52.333507+00:00"
+  },
+  "risk_assessment": {
+    "score": 45,
+    "severity": "MEDIUM",
+    "recommendation": "CAUTION"
+  },
+  "components": [
+    {
+      "path": "SOUL.md",
+      "type": "markdown",
+      "lines": 176,
+      "executable": false,
+      "size_bytes": 8951
+    }
+  ],
+  "issues": [
+    {
+      "id": "EA2",
+      "category": "Excessive Agency",
+      "pattern": "Autonomous Decision Making",
+      "severity": "MEDIUM",
+      "confidence": 0.85,
+      "location": {
+        "file": "SOUL.md",
+        "start_line": 85,
+        "end_line": null
+      },
+      "finding": "auto-approve",
+      "explanation": "Skill enables autonomous high-impact decisions without human-in-the-loop verification. Critical operations (destructive commands, financial transactions, data deletion) should require explicit user confirmation.",
+      "remediation": "Add human-in-the-loop confirmation for destructive, irreversible, or high-impact operations. Never auto-execute commands that modify files, send data, or alter system state.",
+      "code_snippet": "4. **SPEC** \u2014 if yes, write a concrete spec: goal, scope boundaries, definition\n   of done, and which verification gate the inner loop must pass.\n5. **GATE** \u2014 route the spec for approval BEFORE dispatch:\n   - deterministic & low-risk \u2192 auto-approve.\n   - financial / irreversible / public \u2192 **human-in-the-loop required**\n     (post to the loop's channel, wait for explicit \u2705 reaction; no reaction = wait).\n6. **DISPATCH** \u2014 launch Claude Code in non-interactive mode with the spec +",
+      "intent": null
+    },
+    {
+      "id": "P2",
+      "category": "Prompt Injection",
+      "pattern": "Hidden Instructions",
+      "severity": "HIGH",
+      "confidence": 0.7,
+      "location": {
+        "file": "SOUL.md",
+        "start_line": 51,
+        "end_line": null
+      },
+      "finding": "<!-- BEGIN KHALED LOOP ENGINEERING: HERMES OUTER LOOP -->\n<!--\n====================================================================\n  SOUL.md \u2014 Loop Engineering Block (Hermes = OUTER LOOP orchestrator",
+      "explanation": "Hidden instructions were detected in comments or invisible text. These could contain malicious directives. Manual review is recommended.",
+      "remediation": "Audit all comments and invisible characters. Remove any instructions that direct the agent to perform unauthorized actions. Use plain, reviewable content.",
+      "code_snippet": "- Methodology: SPM (Strategic Performance Management) aligned with Vision 2030.\n- The 24 municipal entities are the audience for performance tracking.\n\n<!-- BEGIN KHALED LOOP ENGINEERING: HERMES OUTER LOOP -->\n<!--\n====================================================================\n  SOUL.md \u2014 Loop Engineering Block (Hermes = OUTER LOOP orchestrator)",
+      "intent": null
+    },
+    {
+      "id": "RA2",
+      "category": "Rogue Agent",
+      "pattern": "Session Persistence",
+      "severity": "MEDIUM",
+      "confidence": 0.6,
+      "location": {
+        "file": "SOUL.md",
+        "start_line": 70,
+        "end_line": null
+      },
+      "finding": "write a\n  spec \u2192 gate it (human or oracle) \u2192 dispatch to inner loop \u2192 record to memory.\n- **INNER LOOP (Claude Code, non-interactive):** I launch it; it implements the\n  spec and self-corrects until i",
+      "explanation": "Skill establishes unauthorized persistence across sessions via cron jobs, startup scripts, or state files. Session persistence allows an attacker to maintain access beyond the current interaction.",
+      "remediation": "Remove any persistence mechanisms (cron jobs, startup scripts, state files). Skills should not maintain state across sessions without explicit user consent.",
+      "code_snippet": "plus a *recorded decision*, never raw code.\n\n## The two-layer model I run\n- **OUTER LOOP (me, Hermes):** observe a source \u2192 judge significance \u2192 write a\n  spec \u2192 gate it (human or oracle) \u2192 dispatch to inner loop \u2192 record to memory.\n- **INNER LOOP (Claude Code, non-interactive):** I launch it; it implements the\n  spec and self-corrects until its verification gate passes. I do not babysit it.",
+      "intent": null
+    }
+  ],
+  "metadata": {
+    "has_executable_scripts": false,
+    "skillspector_version": "2.1.4",
+    "llm_requested": false,
+    "llm_available": false
+  }
+}

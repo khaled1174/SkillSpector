@@ -1,0 +1,432 @@
+[
+  {
+    "repo": "Sahil-SS9/hermaguard",
+    "report": "/Users/khaledmac/project/SkillSpector/reports/hermesatlas-shortlist/Sahil-SS9__hermaguard-static.json",
+    "issues": 18,
+    "severity": {
+      "medium": 7,
+      "low": 2,
+      "high": 9
+    },
+    "categories": {
+      "Dangerous Code Execution": 4,
+      "MCP Least Privilege": 1,
+      "Excessive Agency": 2,
+      "Output Handling": 1,
+      "Privilege Escalation": 3,
+      "System Prompt Leakage": 2,
+      "Tool Misuse": 5
+    },
+    "top": [
+      {
+        "severity": "MEDIUM",
+        "category": "Dangerous Code Execution",
+        "location": {
+          "file": "test_tools.py",
+          "start_line": 731,
+          "end_line": 735
+        },
+        "snippet": "            conn.close()\n\n            env = dict(os.environ, HERMAGUARD_FEEDBACK_DB=db_path)\n            subprocess.run(\n                [sys.executable, str(self.compiler_path), \"--output\", out_path,\n                 \"--min-dismissals\", \"1\"],\n      "
+      },
+      {
+        "severity": "MEDIUM",
+        "category": "Dangerous Code Execution",
+        "location": {
+          "file": "tools/hermaguard-benchmark/bugs/004-command-injection/code/app.py",
+          "start_line": 4,
+          "end_line": 4
+        },
+        "snippet": "import subprocess\n\ndef ping_host(host: str) -> bytes:\n    return subprocess.check_output(f\"ping -c 1 {host}\", shell=True)"
+      },
+      {
+        "severity": "MEDIUM",
+        "category": "Dangerous Code Execution",
+        "location": {
+          "file": "tools/hermaguard-compile-rules/hermaguard-compile-rules.py",
+          "start_line": 83,
+          "end_line": 83
+        },
+        "snippet": "\n    output = {\n        \"version\": VERSION,\n        \"generated_at\": __import__(\"datetime\").datetime.now().isoformat(),\n        \"rules\": rules,\n        \"stats\": {\n            \"total_rules\": len(rules),"
+      },
+      {
+        "severity": "MEDIUM",
+        "category": "Dangerous Code Execution",
+        "location": {
+          "file": "tools/hermaguard-prescan/hermaguard-prescan.py",
+          "start_line": 358,
+          "end_line": 358
+        },
+        "snippet": "\n    cmd = tool_def[\"build_cmd\"](files, tmpdir)\n    try:\n        result = subprocess.run(cmd, capture_output=True, text=True, timeout=120)\n    except subprocess.TimeoutExpired:\n        return f\"{tool_def['name']} timed out\", []\n    except FileNotFoun"
+      },
+      {
+        "severity": "MEDIUM",
+        "category": "MCP Least Privilege",
+        "location": {
+          "file": "SKILL.md",
+          "start_line": 1,
+          "end_line": null
+        },
+        "snippet": ""
+      },
+      {
+        "severity": "LOW",
+        "category": "Excessive Agency",
+        "location": {
+          "file": "LICENSE",
+          "start_line": 16,
+          "end_line": null
+        },
+        "snippet": "copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT."
+      },
+      {
+        "severity": "MEDIUM",
+        "category": "Excessive Agency",
+        "location": {
+          "file": "SKILL.md",
+          "start_line": 225,
+          "end_line": null
+        },
+        "snippet": "**Persona:** You are a precise, professional reviewer looking for real vulnerabilities. No profanity, no personal attacks, no speculation without a concrete trigger scenario. But be relentless — if something can fail, say how.\n\n**Attack surfaces (che"
+      },
+      {
+        "severity": "HIGH",
+        "category": "Output Handling",
+        "location": {
+          "file": "tools/hermaguard-prescan/hermaguard-prescan.py",
+          "start_line": 358,
+          "end_line": null
+        },
+        "snippet": "\n    cmd = tool_def[\"build_cmd\"](files, tmpdir)\n    try:\n        result = subprocess.run(cmd, capture_output=True, text=True, timeout=120)\n    except subprocess.TimeoutExpired:\n        return f\"{tool_def['name']} timed out\", []\n    except FileNotFoun"
+      }
+    ]
+  },
+  {
+    "repo": "ReinaMacCredy/maestro",
+    "report": "/Users/khaledmac/project/SkillSpector/reports/hermesatlas-shortlist/ReinaMacCredy__maestro-static.json",
+    "issues": 87,
+    "severity": {
+      "medium": 35,
+      "low": 9,
+      "high": 43
+    },
+    "categories": {
+      "Data Exfiltration": 2,
+      "Excessive Agency": 18,
+      "Memory Poisoning": 8,
+      "Privilege Escalation": 10,
+      "Prompt Injection": 5,
+      "Rogue Agent": 17,
+      "Supply Chain": 7,
+      "Tool Misuse": 7,
+      "YARA Match": 13
+    },
+    "top": [
+      {
+        "severity": "MEDIUM",
+        "category": "Data Exfiltration",
+        "location": {
+          "file": ".claude/skills/mcp-builder/reference/node_mcp_server.md",
+          "start_line": 601,
+          "end_line": null
+        },
+        "snippet": "import axios, { AxiosError } from \"axios\";\n\n// Constants\nconst API_BASE_URL = \"https://api.example.com/v1\";\nconst CHARACTER_LIMIT = 25000;\n\n// Enums"
+      },
+      {
+        "severity": "MEDIUM",
+        "category": "Data Exfiltration",
+        "location": {
+          "file": ".claude/skills/mcp-builder/reference/python_mcp_server.md",
+          "start_line": 353,
+          "end_line": null
+        },
+        "snippet": "mcp = FastMCP(\"example_mcp\")\n\n# Constants\nAPI_BASE_URL = \"https://api.example.com/v1\"\n\n# Enums\nclass ResponseFormat(str, Enum):"
+      },
+      {
+        "severity": "MEDIUM",
+        "category": "Excessive Agency",
+        "location": {
+          "file": ".claude/skills/cli-for-agent/SKILL.md",
+          "start_line": 37,
+          "end_line": null
+        },
+        "snippet": "Options:\n  --env     Target environment (staging, production)\n  --tag     Image tag (default: latest)\n  --force   Skip confirmation\n\nExamples:\n  mycli deploy --env staging"
+      },
+      {
+        "severity": "MEDIUM",
+        "category": "Excessive Agency",
+        "location": {
+          "file": ".claude/skills/cli-for-agent/SKILL.md",
+          "start_line": 68,
+          "end_line": null
+        },
+        "snippet": "## Destructive actions\n\n- Add `--dry-run` (or equivalent) so agents can preview plans before committing.\n- Offer `--yes` / `--force` to skip confirmations while keeping the safe default for humans.\n\n## Predictable structure\n"
+      },
+      {
+        "severity": "MEDIUM",
+        "category": "Excessive Agency",
+        "location": {
+          "file": ".claude/skills/maestro%3Amission-planning/reference/boundary-capture.md",
+          "start_line": 70,
+          "end_line": null
+        },
+        "snippet": "\n3. Keep permission semantics unchanged because this feature is a pure refactor, not a product behavior change. Good location: `preconditions`.\n\nThree constraints, each in a different category (API, files, out-of-scope), each with a reason, each visi"
+      },
+      {
+        "severity": "LOW",
+        "category": "Excessive Agency",
+        "location": {
+          "file": ".claude/skills/mcp-builder/LICENSE.txt",
+          "start_line": 28,
+          "end_line": null
+        },
+        "snippet": "      exercising permissions granted by this License.\n\n      \"Source\" form shall mean the preferred form for making modifications,\n      including but not limited to software source code, documentation\n      source, and configuration files.\n\n      \"O"
+      },
+      {
+        "severity": "LOW",
+        "category": "Excessive Agency",
+        "location": {
+          "file": ".claude/skills/mcp-builder/LICENSE.txt",
+          "start_line": 33,
+          "end_line": null
+        },
+        "snippet": "\n      \"Object\" form shall mean any form resulting from mechanical\n      transformation or translation of a Source form, including but\n      not limited to compiled object code, generated documentation,\n      and conversions to other media types.\n\n  "
+      },
+      {
+        "severity": "LOW",
+        "category": "Excessive Agency",
+        "location": {
+          "file": ".claude/skills/mcp-builder/LICENSE.txt",
+          "start_line": 56,
+          "end_line": null
+        },
+        "snippet": "      or by an individual or Legal Entity authorized to submit on behalf of\n      the copyright owner. For the purposes of this definition, \"submitted\"\n      means any form of electronic, verbal, or written communication sent\n      to the Licensor or"
+      }
+    ]
+  },
+  {
+    "repo": "Agents365-ai/drawio-skill",
+    "report": "/Users/khaledmac/project/SkillSpector/reports/hermesatlas-shortlist/Agents365-ai__drawio-skill-static.json",
+    "issues": 81,
+    "severity": {
+      "medium": 17,
+      "high": 63,
+      "low": 1
+    },
+    "categories": {
+      "Dangerous Code Execution": 7,
+      "Data Flow": 2,
+      "Excessive Agency": 1,
+      "Memory Poisoning": 2,
+      "Output Handling": 6,
+      "Privilege Escalation": 5,
+      "Prompt Injection": 33,
+      "Rogue Agent": 3,
+      "Tool Misuse": 22
+    },
+    "top": [
+      {
+        "severity": "MEDIUM",
+        "category": "Dangerous Code Execution",
+        "location": {
+          "file": "skills/drawio-skill/scripts/autolayout.py",
+          "start_line": 154,
+          "end_line": 157
+        },
+        "snippet": "    of orthogonal control points dot computed for routing, endpoints included.\n    \"\"\"\n    try:\n        proc = subprocess.run(\n            [\"dot\", \"-Tplain\"], input=dot_src,\n            capture_output=True, text=True, check=True,\n        )"
+      },
+      {
+        "severity": "MEDIUM",
+        "category": "Dangerous Code Execution",
+        "location": {
+          "file": "skills/drawio-skill/scripts/goimports.py",
+          "start_line": 82,
+          "end_line": 83
+        },
+        "snippet": "    idx = {n: i for i, n in enumerate(nodes)}\n    dot = \"digraph{\" + \"\".join(f\"{idx[s]}->{idx[t]};\" for s, t in edges) + \"}\"\n    try:\n        out = subprocess.run([\"tred\"], input=dot, capture_output=True,\n                             text=True, check"
+      },
+      {
+        "severity": "MEDIUM",
+        "category": "Dangerous Code Execution",
+        "location": {
+          "file": "skills/drawio-skill/scripts/jsimports.py",
+          "start_line": 96,
+          "end_line": 97
+        },
+        "snippet": "    idx = {n: i for i, n in enumerate(nodes)}\n    dot = \"digraph{\" + \"\".join(f\"{idx[s]}->{idx[t]};\" for s, t in edges) + \"}\"\n    try:\n        out = subprocess.run([\"tred\"], input=dot, capture_output=True,\n                             text=True, check"
+      },
+      {
+        "severity": "MEDIUM",
+        "category": "Dangerous Code Execution",
+        "location": {
+          "file": "skills/drawio-skill/scripts/pyclasses.py",
+          "start_line": 78,
+          "end_line": 79
+        },
+        "snippet": "    idx = {n: i for i, n in enumerate(nodes)}\n    dot = \"digraph{\" + \"\".join(f\"{idx[s]}->{idx[t]};\" for s, t in edges) + \"}\"\n    try:\n        out = subprocess.run([\"tred\"], input=dot, capture_output=True,\n                             text=True, check"
+      },
+      {
+        "severity": "MEDIUM",
+        "category": "Dangerous Code Execution",
+        "location": {
+          "file": "skills/drawio-skill/scripts/pyimports.py",
+          "start_line": 97,
+          "end_line": 98
+        },
+        "snippet": "    idx = {n: i for i, n in enumerate(nodes)}\n    dot = \"digraph{\" + \"\".join(f\"{idx[s]}->{idx[t]};\" for s, t in edges) + \"}\"\n    try:\n        out = subprocess.run([\"tred\"], input=dot, capture_output=True,\n                             text=True, check"
+      },
+      {
+        "severity": "MEDIUM",
+        "category": "Dangerous Code Execution",
+        "location": {
+          "file": "skills/drawio-skill/scripts/rustimports.py",
+          "start_line": 150,
+          "end_line": 151
+        },
+        "snippet": "    idx = {n: i for i, n in enumerate(nodes)}\n    dot = \"digraph{\" + \"\".join(f\"{idx[s]}->{idx[t]};\" for s, t in edges) + \"}\"\n    try:\n        out = subprocess.run([\"tred\"], input=dot, capture_output=True,\n                             text=True, check"
+      },
+      {
+        "severity": "MEDIUM",
+        "category": "Dangerous Code Execution",
+        "location": {
+          "file": "tests/test_scripts.py",
+          "start_line": 40,
+          "end_line": 41
+        },
+        "snippet": "\ndef run(script, *args, **kw):\n    \"\"\"Run a script as a subprocess; return CompletedProcess.\"\"\"\n    return subprocess.run([sys.executable, os.path.join(SCRIPTS, script), *args],\n                          capture_output=True, text=True, **kw)\n\n"
+      },
+      {
+        "severity": "HIGH",
+        "category": "Data Flow",
+        "location": {
+          "file": "skills/drawio-skill/scripts/aiicons.py",
+          "start_line": 161,
+          "end_line": 161
+        },
+        "snippet": "            url = f\"{cdn}{file}.svg\"\n            if args.embed:\n                try:\n                    svg = urllib.request.urlopen(url, timeout=15).read()\n                except Exception as exc:                   # noqa: BLE001 - report and skip\n"
+      }
+    ]
+  },
+  {
+    "repo": "conorbronsdon/avoid-ai-writing",
+    "report": "/Users/khaledmac/project/SkillSpector/reports/hermesatlas-shortlist/conorbronsdon__avoid-ai-writing-static.json",
+    "issues": 4,
+    "severity": {
+      "medium": 2,
+      "low": 1,
+      "high": 1
+    },
+    "categories": {
+      "MCP Least Privilege": 1,
+      "Excessive Agency": 1,
+      "Rogue Agent": 1,
+      "Tool Misuse": 1
+    },
+    "top": [
+      {
+        "severity": "MEDIUM",
+        "category": "MCP Least Privilege",
+        "location": {
+          "file": "SKILL.md",
+          "start_line": 1,
+          "end_line": null
+        },
+        "snippet": ""
+      },
+      {
+        "severity": "LOW",
+        "category": "Excessive Agency",
+        "location": {
+          "file": "LICENSE",
+          "start_line": 16,
+          "end_line": null
+        },
+        "snippet": "copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT."
+      },
+      {
+        "severity": "MEDIUM",
+        "category": "Rogue Agent",
+        "location": {
+          "file": "README.md",
+          "start_line": 5,
+          "end_line": null
+        },
+        "snippet": "\n# avoid-ai-writing\n\nAudit & rewrite content to remove AI writing patterns. A practical skill for any AI agent. Supports detect-only and edit-in-place modes, plus voice profiles.\n\n[![GitHub stars](https://img.shields.io/github/stars/conorbronsdon/avo"
+      },
+      {
+        "severity": "HIGH",
+        "category": "Tool Misuse",
+        "location": {
+          "file": "detector/patterns.test.js",
+          "start_line": 98,
+          "end_line": null
+        },
+        "snippet": "});\n\ntest('em-dash detector ignores CLI flags like --save-dev', () => {\n  const text = 'Run npm install --save-dev and then npm run build --no-verify --silent. Takes about ten seconds on this machine. The package is installed into node_modules direct"
+      }
+    ]
+  },
+  {
+    "repo": "AkoliteZA/hermes-agent-idea-workflow",
+    "report": "/Users/khaledmac/project/SkillSpector/reports/hermesatlas-shortlist/AkoliteZA__hermes-agent-idea-workflow-static.json",
+    "issues": 5,
+    "severity": {
+      "low": 2,
+      "medium": 3
+    },
+    "categories": {
+      "Excessive Agency": 4,
+      "Rogue Agent": 1
+    },
+    "top": [
+      {
+        "severity": "LOW",
+        "category": "Excessive Agency",
+        "location": {
+          "file": "LICENSE",
+          "start_line": 16,
+          "end_line": null
+        },
+        "snippet": "copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT."
+      },
+      {
+        "severity": "MEDIUM",
+        "category": "Excessive Agency",
+        "location": {
+          "file": "idea-superpowers-suite/SKILL.md",
+          "start_line": 287,
+          "end_line": null
+        },
+        "snippet": "- unresolved technical decisions remain;\n- acceptance criteria are concrete;\n- done means is specific;\n- a fresh agent could build from the file without asking obvious questions;\n- testing and verification requirements are included;\n- non-goals preve"
+      },
+      {
+        "severity": "LOW",
+        "category": "Excessive Agency",
+        "location": {
+          "file": "idea-superpowers-suite/references/example-saas-web-app-build-handoff.md",
+          "start_line": 109,
+          "end_line": null
+        },
+        "snippet": "\n## Known Risks\n\n- Auth choices can expand scope.\n- Summary page complexity should stay minimal for v1.\n\n## Open Questions"
+      },
+      {
+        "severity": "MEDIUM",
+        "category": "Excessive Agency",
+        "location": {
+          "file": "idea-superpowers-suite/references/interview-question-bank.md",
+          "start_line": 115,
+          "end_line": null
+        },
+        "snippet": "\n## Technical defaults: recommend, then confirm\n\nUse this section after product direction, data location, and platform targets are clear enough. Do not ask the user to pick every technology from a blank slate. First propose sensible defaults, then as"
+      },
+      {
+        "severity": "MEDIUM",
+        "category": "Rogue Agent",
+        "location": {
+          "file": "README.md",
+          "start_line": 11,
+          "end_line": null
+        },
+        "snippet": "\n## What It Is\n\nThis repository contains Hermes Agent skills for moving from vague idea to build-ready specification. The workflow separates product thinking from implementation thinking so an agent can capture the user's intent, clarify the experien"
+      }
+    ]
+  }
+]

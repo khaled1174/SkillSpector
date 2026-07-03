@@ -1,0 +1,49 @@
+{
+  "skill": {
+    "name": "image-to-code-rtl",
+    "source": "/private/tmp/web3d-skills-files2-audit",
+    "scanned_at": "2026-06-16T06:42:16.770006+00:00"
+  },
+  "risk_assessment": {
+    "score": 0,
+    "severity": "LOW",
+    "recommendation": "SAFE"
+  },
+  "components": [
+    {
+      "path": "SKILL.md",
+      "type": "markdown",
+      "lines": 232,
+      "executable": false,
+      "size_bytes": 10809
+    },
+    {
+      "path": "image-direction.md",
+      "type": "markdown",
+      "lines": 142,
+      "executable": false,
+      "size_bytes": 6520
+    },
+    {
+      "path": "image-to-code-rtl.skill",
+      "type": "other",
+      "lines": 385,
+      "executable": false,
+      "size_bytes": 13371
+    },
+    {
+      "path": "rtl-implementation.md",
+      "type": "markdown",
+      "lines": 232,
+      "executable": false,
+      "size_bytes": 9807
+    }
+  ],
+  "issues": [],
+  "metadata": {
+    "has_executable_scripts": false,
+    "skillspector_version": "2.1.4",
+    "llm_requested": false,
+    "llm_available": false
+  }
+}

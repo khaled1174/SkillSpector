@@ -1,0 +1,158 @@
+{
+  "skill": {
+    "name": "video-spec-builder",
+    "source": "/private/tmp/video-spec-builder-adapted",
+    "scanned_at": "2026-06-28T08:57:47.850641+00:00"
+  },
+  "risk_assessment": {
+    "score": 5,
+    "severity": "LOW",
+    "recommendation": "SAFE"
+  },
+  "components": [
+    {
+      "path": "LICENSE",
+      "type": "other",
+      "lines": 21,
+      "executable": false,
+      "size_bytes": 1067
+    },
+    {
+      "path": "README.md",
+      "type": "markdown",
+      "lines": 216,
+      "executable": false,
+      "size_bytes": 12620
+    },
+    {
+      "path": "README.zh.md",
+      "type": "markdown",
+      "lines": 216,
+      "executable": false,
+      "size_bytes": 11521
+    },
+    {
+      "path": "SKILL.md",
+      "type": "markdown",
+      "lines": 361,
+      "executable": false,
+      "size_bytes": 21942
+    },
+    {
+      "path": "examples/video-spec-spacex.md",
+      "type": "markdown",
+      "lines": 465,
+      "executable": false,
+      "size_bytes": 38896
+    },
+    {
+      "path": "references/components-catalog.md",
+      "type": "markdown",
+      "lines": 490,
+      "executable": false,
+      "size_bytes": 39698
+    },
+    {
+      "path": "references/dialogue-style.md",
+      "type": "markdown",
+      "lines": 201,
+      "executable": false,
+      "size_bytes": 7375
+    },
+    {
+      "path": "references/pacing-rules.md",
+      "type": "markdown",
+      "lines": 311,
+      "executable": false,
+      "size_bytes": 12174
+    },
+    {
+      "path": "references/question-bank.md",
+      "type": "markdown",
+      "lines": 968,
+      "executable": false,
+      "size_bytes": 62683
+    },
+    {
+      "path": "references/scene-breakdown.md",
+      "type": "markdown",
+      "lines": 556,
+      "executable": false,
+      "size_bytes": 26368
+    },
+    {
+      "path": "references/spec-rules.md",
+      "type": "markdown",
+      "lines": 124,
+      "executable": false,
+      "size_bytes": 6732
+    },
+    {
+      "path": "references/workflow-0-1.md",
+      "type": "markdown",
+      "lines": 236,
+      "executable": false,
+      "size_bytes": 10160
+    },
+    {
+      "path": "references/workflow-iteration.md",
+      "type": "markdown",
+      "lines": 106,
+      "executable": false,
+      "size_bytes": 3569
+    },
+    {
+      "path": "spec-mono/design.md",
+      "type": "markdown",
+      "lines": 144,
+      "executable": false,
+      "size_bytes": 6206
+    },
+    {
+      "path": "spec-mono/spec-mono-components.md",
+      "type": "markdown",
+      "lines": 111,
+      "executable": false,
+      "size_bytes": 9822
+    },
+    {
+      "path": "spec-mono/tokens.css",
+      "type": "other",
+      "lines": 214,
+      "executable": false,
+      "size_bytes": 11496
+    },
+    {
+      "path": "templates/video-spec-template.md",
+      "type": "markdown",
+      "lines": 120,
+      "executable": false,
+      "size_bytes": 5646
+    }
+  ],
+  "issues": [
+    {
+      "id": "EA3",
+      "category": "Excessive Agency",
+      "pattern": "Scope Creep",
+      "severity": "LOW",
+      "confidence": 0.7,
+      "location": {
+        "file": "LICENSE",
+        "start_line": 16,
+        "end_line": null
+      },
+      "finding": "NOT LIMITED TO",
+      "explanation": "Skill's behavior or capabilities extend beyond its stated purpose. Scope creep allows an agent to perform actions unrelated to its documented functionality, increasing the attack surface.",
+      "remediation": "Limit the skill's scope to its documented purpose. Remove instructions that enable the agent to perform actions outside its stated functionality.",
+      "code_snippet": "copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,",
+      "intent": null
+    }
+  ],
+  "metadata": {
+    "has_executable_scripts": false,
+    "skillspector_version": "2.1.4",
+    "llm_requested": false,
+    "llm_available": false
+  }
+}

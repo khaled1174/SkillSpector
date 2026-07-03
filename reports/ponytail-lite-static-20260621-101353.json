@@ -1,0 +1,63 @@
+{
+  "skill": {
+    "name": "ponytail-lite",
+    "source": "/Users/khaledmac/.hermes/skills/software-development/ponytail-lite",
+    "scanned_at": "2026-06-21T07:13:53.763229+00:00"
+  },
+  "risk_assessment": {
+    "score": 20,
+    "severity": "LOW",
+    "recommendation": "SAFE"
+  },
+  "components": [
+    {
+      "path": "SKILL.md",
+      "type": "markdown",
+      "lines": 118,
+      "executable": false,
+      "size_bytes": 4631
+    }
+  ],
+  "issues": [
+    {
+      "id": "EA2",
+      "category": "Excessive Agency",
+      "pattern": "Autonomous Decision Making",
+      "severity": "MEDIUM",
+      "confidence": 0.75,
+      "location": {
+        "file": "SKILL.md",
+        "start_line": 61,
+        "end_line": null
+      },
+      "finding": "without verification",
+      "explanation": "Skill enables autonomous high-impact decisions without human-in-the-loop verification. Critical operations (destructive commands, financial transactions, data deletion) should require explicit user confirmation.",
+      "remediation": "Add human-in-the-loop confirmation for destructive, irreversible, or high-impact operations. Never auto-execute commands that modify files, send data, or alter system state.",
+      "code_snippet": "\n## Minimum verification\n\nLean code without verification is not done.\n\nFor non-trivial logic, leave one useful check:\n",
+      "intent": null
+    },
+    {
+      "id": "EA2",
+      "category": "Excessive Agency",
+      "pattern": "Autonomous Decision Making",
+      "severity": "MEDIUM",
+      "confidence": 0.85,
+      "location": {
+        "file": "SKILL.md",
+        "start_line": 70,
+        "end_line": null
+      },
+      "finding": "skip verification",
+      "explanation": "Skill enables autonomous high-impact decisions without human-in-the-loop verification. Critical operations (destructive commands, financial transactions, data deletion) should require explicit user confirmation.",
+      "remediation": "Add human-in-the-loop confirmation for destructive, irreversible, or high-impact operations. Never auto-execute commands that modify files, send data, or alter system state.",
+      "code_snippet": "- an assert-based self-check;\n- or the existing project test that covers the path.\n\nDo not create a large framework just to test a one-liner. Do not skip verification for branches, parsers, externally-facing boundaries, state transitions, or writes. For financial, destructive, public, or security-sensitive work, follow the higher-priority human-approval and safety policies before acting.\n\n## Review mode\n",
+      "intent": null
+    }
+  ],
+  "metadata": {
+    "has_executable_scripts": false,
+    "skillspector_version": "2.1.4",
+    "llm_requested": false,
+    "llm_available": false
+  }
+}

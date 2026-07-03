@@ -1,0 +1,28 @@
+{
+  "skill": {
+    "name": "claude-code-prompt-patterns",
+    "source": "/Users/khaledmac/.hermes/skills/software-development/claude-code-prompt-patterns",
+    "scanned_at": "2026-06-25T19:04:27.635720+00:00"
+  },
+  "risk_assessment": {
+    "score": 0,
+    "severity": "LOW",
+    "recommendation": "SAFE"
+  },
+  "components": [
+    {
+      "path": "SKILL.md",
+      "type": "markdown",
+      "lines": 296,
+      "executable": false,
+      "size_bytes": 11166
+    }
+  ],
+  "issues": [],
+  "metadata": {
+    "has_executable_scripts": false,
+    "skillspector_version": "2.1.4",
+    "llm_requested": false,
+    "llm_available": false
+  }
+}

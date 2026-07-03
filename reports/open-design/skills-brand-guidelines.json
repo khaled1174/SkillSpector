@@ -1,0 +1,28 @@
+{
+  "skill": {
+    "name": "brand-guidelines",
+    "source": "/private/tmp/open-design-review/skills/brand-guidelines",
+    "scanned_at": "2026-06-17T14:40:00.256293+00:00"
+  },
+  "risk_assessment": {
+    "score": 0,
+    "severity": "LOW",
+    "recommendation": "SAFE"
+  },
+  "components": [
+    {
+      "path": "SKILL.md",
+      "type": "markdown",
+      "lines": 42,
+      "executable": false,
+      "size_bytes": 1385
+    }
+  ],
+  "issues": [],
+  "metadata": {
+    "has_executable_scripts": false,
+    "skillspector_version": "2.1.4",
+    "llm_requested": false,
+    "llm_available": false
+  }
+}

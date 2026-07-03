@@ -1,0 +1,28 @@
+{
+  "skill": {
+    "name": "godmode",
+    "source": "/Users/khaledmac/.hermes/skills/red-teaming/godmode",
+    "scanned_at": "2026-07-03T14:33:15.419042+00:00"
+  },
+  "risk_assessment": {
+    "score": 0,
+    "severity": "LOW",
+    "recommendation": "SAFE"
+  },
+  "components": [
+    {
+      "path": "SKILL.md",
+      "type": "markdown",
+      "lines": 68,
+      "executable": false,
+      "size_bytes": 2569
+    }
+  ],
+  "issues": [],
+  "metadata": {
+    "has_executable_scripts": false,
+    "skillspector_version": "2.1.4",
+    "llm_requested": false,
+    "llm_available": false
+  }
+}

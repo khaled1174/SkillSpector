@@ -1,0 +1,320 @@
+{
+  "skill": {
+    "name": "unknown",
+    "source": "/private/tmp/agentmemory-test.tz2SdO/.agents/skills",
+    "scanned_at": "2026-06-25T05:06:48.382131+00:00"
+  },
+  "risk_assessment": {
+    "score": 100,
+    "severity": "CRITICAL",
+    "recommendation": "DO_NOT_INSTALL"
+  },
+  "components": [
+    {
+      "path": "agentmemory-agents/REFERENCE.md",
+      "type": "markdown",
+      "lines": 28,
+      "executable": false,
+      "size_bytes": 2720
+    },
+    {
+      "path": "agentmemory-agents/SKILL.md",
+      "type": "markdown",
+      "lines": 34,
+      "executable": false,
+      "size_bytes": 1605
+    },
+    {
+      "path": "agentmemory-architecture/SKILL.md",
+      "type": "markdown",
+      "lines": 33,
+      "executable": false,
+      "size_bytes": 1902
+    },
+    {
+      "path": "agentmemory-config/REFERENCE.md",
+      "type": "markdown",
+      "lines": 42,
+      "executable": false,
+      "size_bytes": 1449
+    },
+    {
+      "path": "agentmemory-config/SKILL.md",
+      "type": "markdown",
+      "lines": 37,
+      "executable": false,
+      "size_bytes": 1528
+    },
+    {
+      "path": "agentmemory-hooks/REFERENCE.md",
+      "type": "markdown",
+      "lines": 20,
+      "executable": false,
+      "size_bytes": 596
+    },
+    {
+      "path": "agentmemory-hooks/SKILL.md",
+      "type": "markdown",
+      "lines": 39,
+      "executable": false,
+      "size_bytes": 1774
+    },
+    {
+      "path": "agentmemory-mcp-tools/REFERENCE.md",
+      "type": "markdown",
+      "lines": 65,
+      "executable": false,
+      "size_bytes": 10313
+    },
+    {
+      "path": "agentmemory-mcp-tools/SKILL.md",
+      "type": "markdown",
+      "lines": 39,
+      "executable": false,
+      "size_bytes": 2177
+    },
+    {
+      "path": "agentmemory-rest-api/REFERENCE.md",
+      "type": "markdown",
+      "lines": 129,
+      "executable": false,
+      "size_bytes": 5026
+    },
+    {
+      "path": "agentmemory-rest-api/SKILL.md",
+      "type": "markdown",
+      "lines": 43,
+      "executable": false,
+      "size_bytes": 1615
+    },
+    {
+      "path": "commit-context/EXAMPLES.md",
+      "type": "markdown",
+      "lines": 71,
+      "executable": false,
+      "size_bytes": 1640
+    },
+    {
+      "path": "commit-context/SKILL.md",
+      "type": "markdown",
+      "lines": 64,
+      "executable": false,
+      "size_bytes": 2088
+    },
+    {
+      "path": "commit-history/EXAMPLES.md",
+      "type": "markdown",
+      "lines": 71,
+      "executable": false,
+      "size_bytes": 1513
+    },
+    {
+      "path": "commit-history/SKILL.md",
+      "type": "markdown",
+      "lines": 62,
+      "executable": false,
+      "size_bytes": 2096
+    },
+    {
+      "path": "forget/EXAMPLES.md",
+      "type": "markdown",
+      "lines": 75,
+      "executable": false,
+      "size_bytes": 1454
+    },
+    {
+      "path": "forget/SKILL.md",
+      "type": "markdown",
+      "lines": 66,
+      "executable": false,
+      "size_bytes": 2227
+    },
+    {
+      "path": "handoff/EXAMPLES.md",
+      "type": "markdown",
+      "lines": 56,
+      "executable": false,
+      "size_bytes": 1565
+    },
+    {
+      "path": "handoff/SKILL.md",
+      "type": "markdown",
+      "lines": 68,
+      "executable": false,
+      "size_bytes": 2541
+    },
+    {
+      "path": "recall/EXAMPLES.md",
+      "type": "markdown",
+      "lines": 74,
+      "executable": false,
+      "size_bytes": 1606
+    },
+    {
+      "path": "recall/SKILL.md",
+      "type": "markdown",
+      "lines": 60,
+      "executable": false,
+      "size_bytes": 1966
+    },
+    {
+      "path": "recap/EXAMPLES.md",
+      "type": "markdown",
+      "lines": 60,
+      "executable": false,
+      "size_bytes": 1488
+    },
+    {
+      "path": "recap/SKILL.md",
+      "type": "markdown",
+      "lines": 63,
+      "executable": false,
+      "size_bytes": 2041
+    },
+    {
+      "path": "remember/EXAMPLES.md",
+      "type": "markdown",
+      "lines": 67,
+      "executable": false,
+      "size_bytes": 1756
+    },
+    {
+      "path": "remember/SKILL.md",
+      "type": "markdown",
+      "lines": 61,
+      "executable": false,
+      "size_bytes": 2026
+    },
+    {
+      "path": "session-history/EXAMPLES.md",
+      "type": "markdown",
+      "lines": 59,
+      "executable": false,
+      "size_bytes": 1408
+    },
+    {
+      "path": "session-history/SKILL.md",
+      "type": "markdown",
+      "lines": 61,
+      "executable": false,
+      "size_bytes": 1866
+    },
+    {
+      "path": "write-agentmemory-skill/SKILL.md",
+      "type": "markdown",
+      "lines": 40,
+      "executable": false,
+      "size_bytes": 2268
+    }
+  ],
+  "issues": [
+    {
+      "id": "E1",
+      "category": "Data Exfiltration",
+      "pattern": "External Transmission",
+      "severity": "MEDIUM",
+      "confidence": 0.6,
+      "location": {
+        "file": "agentmemory-rest-api/SKILL.md",
+        "start_line": 13,
+        "end_line": null
+      },
+      "finding": "curl -fsS http://localhost:3111/agentmemory/livez\n\n# save\ncurl -X POST http://localhost:3111/agentmemory/remember \\\n  -H \"Content-Type: application/json\" \\\n  -d '{\"content\":\"chose JWT refresh rotation",
+      "explanation": "Data is being sent to an external URL. This could be legitimate telemetry or data exfiltration. Manual review is recommended.",
+      "remediation": "Verify the destination URL is trusted and necessary. Remove or replace with documented APIs. Ensure no secrets, tokens, or PII are transmitted.",
+      "code_snippet": "\n```bash\n# liveness\ncurl -fsS http://localhost:3111/agentmemory/livez\n\n# save\ncurl -X POST http://localhost:3111/agentmemory/remember \\",
+      "intent": null
+    },
+    {
+      "id": "MP3",
+      "category": "Memory Poisoning",
+      "pattern": "Memory Manipulation",
+      "severity": "HIGH",
+      "confidence": 0.8,
+      "location": {
+        "file": "forget/SKILL.md",
+        "start_line": 3,
+        "end_line": null
+      },
+      "finding": "delete memory",
+      "explanation": "Skill manipulates agent memory, state, or stored context. Memory corruption can alter personality, override safety rules, or cause unpredictable behavior.",
+      "remediation": "Protect agent memory and state from modification by untrusted content. Use read-only memory for critical instructions and validate all state changes.",
+      "code_snippet": "---\nname: forget\ndescription: Delete specific observations from agentmemory after showing them and getting explicit confirmation. Use when the user says \"forget this\", \"delete memory\", \"remove that note\", or wants to scrub specific data for privacy.\nargument-hint: \"[what to forget - session ID, file path, or search term]\"\nuser-invocable: true\n---",
+      "intent": null
+    },
+    {
+      "id": "P2",
+      "category": "Prompt Injection",
+      "pattern": "Hidden Instructions",
+      "severity": "HIGH",
+      "confidence": 0.7,
+      "location": {
+        "file": "agentmemory-agents/REFERENCE.md",
+        "start_line": 5,
+        "end_line": null
+      },
+      "finding": "<!-- AUTOGEN:agents START - generated by scripts/skills/generate.ts, do not edit by hand -->\n`agentmemory connect <agent>` wires the memory server into a host agent. 18 adapters:\n\n| Agent | Name | Pro",
+      "explanation": "Hidden instructions were detected in comments or invisible text. These could contain malicious directives. Manual review is recommended.",
+      "remediation": "Audit all comments and invisible characters. Remove any instructions that direct the agent to perform unauthorized actions. Use plain, reviewable content.",
+      "code_snippet": "\nGenerated from `src/cli/connect/index.ts`. Do not edit the block below by hand; run `npm run skills:gen` after adding or removing an adapter.\n\n<!-- AUTOGEN:agents START - generated by scripts/skills/generate.ts, do not edit by hand -->\n`agentmemory connect <agent>` wires the memory server into a host agent. 18 adapters:\n\n| Agent | Name | Protocol |",
+      "intent": null
+    },
+    {
+      "id": "P2",
+      "category": "Prompt Injection",
+      "pattern": "Hidden Instructions",
+      "severity": "HIGH",
+      "confidence": 0.7,
+      "location": {
+        "file": "agentmemory-hooks/REFERENCE.md",
+        "start_line": 5,
+        "end_line": null
+      },
+      "finding": "<!-- AUTOGEN:hooks START - generated by scripts/skills/generate.ts, do not edit by hand -->\nThe Claude Code plugin registers hooks on 12 lifecycle events to capture observations automatically:\n\n- `Not",
+      "explanation": "Hidden instructions were detected in comments or invisible text. These could contain malicious directives. Manual review is recommended.",
+      "remediation": "Audit all comments and invisible characters. Remove any instructions that direct the agent to perform unauthorized actions. Use plain, reviewable content.",
+      "code_snippet": "\nGenerated from `plugin/hooks/hooks.json`. Do not edit the block below by hand; run `npm run skills:gen` after changing the hook registration.\n\n<!-- AUTOGEN:hooks START - generated by scripts/skills/generate.ts, do not edit by hand -->\nThe Claude Code plugin registers hooks on 12 lifecycle events to capture observations automatically:\n\n- `Notification`",
+      "intent": null
+    },
+    {
+      "id": "P2",
+      "category": "Prompt Injection",
+      "pattern": "Hidden Instructions",
+      "severity": "HIGH",
+      "confidence": 0.7,
+      "location": {
+        "file": "agentmemory-mcp-tools/REFERENCE.md",
+        "start_line": 5,
+        "end_line": null
+      },
+      "finding": "<!-- AUTOGEN:tools START - generated by scripts/skills/generate.ts, do not edit by hand -->\nagentmemory exposes 53 MCP tools. 8 are in the lean core set (`--tools core` or `AGENTMEMORY_TOOLS=core`); t",
+      "explanation": "Hidden instructions were detected in comments or invisible text. These could contain malicious directives. Manual review is recommended.",
+      "remediation": "Audit all comments and invisible characters. Remove any instructions that direct the agent to perform unauthorized actions. Use plain, reviewable content.",
+      "code_snippet": "\nGenerated from `src/mcp/tools-registry.ts`. Do not edit the block below by hand; run `npm run skills:gen` after changing the registry.\n\n<!-- AUTOGEN:tools START - generated by scripts/skills/generate.ts, do not edit by hand -->\nagentmemory exposes 53 MCP tools. 8 are in the lean core set (`--tools core` or `AGENTMEMORY_TOOLS=core`); the rest load with `--tools all` (default).\n\n| Tool | Core | Parameters | Purpose |",
+      "intent": null
+    },
+    {
+      "id": "P2",
+      "category": "Prompt Injection",
+      "pattern": "Hidden Instructions",
+      "severity": "HIGH",
+      "confidence": 0.7,
+      "location": {
+        "file": "agentmemory-rest-api/REFERENCE.md",
+        "start_line": 5,
+        "end_line": null
+      },
+      "finding": "<!-- AUTOGEN:rest START - generated by scripts/skills/generate.ts, do not edit by hand -->\nThe REST API is the primary surface. All paths are under `http://localhost:3111` (override with `--port`). Wh",
+      "explanation": "Hidden instructions were detected in comments or invisible text. These could contain malicious directives. Manual review is recommended.",
+      "remediation": "Audit all comments and invisible characters. Remove any instructions that direct the agent to perform unauthorized actions. Use plain, reviewable content.",
+      "code_snippet": "\nGenerated from `src/triggers/api.ts`. Do not edit the block below by hand; run `npm run skills:gen` after changing the registered endpoints.\n\n<!-- AUTOGEN:rest START - generated by scripts/skills/generate.ts, do not edit by hand -->\nThe REST API is the primary surface. All paths are under `http://localhost:3111` (override with `--port`). When `AGENTMEMORY_SECRET` is set, send `Authorization: Bearer $AGENTMEMORY_SECRET`; localhost is otherwise open.\n\n117 registered endpoints:",
+      "intent": null
+    }
+  ],
+  "metadata": {
+    "has_executable_scripts": false,
+    "skillspector_version": "2.1.4",
+    "llm_requested": false,
+    "llm_available": false
+  }
+}

@@ -1,0 +1,208 @@
+{
+  "skill": {
+    "name": "unknown",
+    "source": "/var/folders/j3/gncvd3jn4rq3gtcsq8x6bwsm0000gn/T/skillspector_cdr4rnhb/repo",
+    "scanned_at": "2026-06-19T20:29:18.963981+00:00"
+  },
+  "risk_assessment": {
+    "score": 100,
+    "severity": "CRITICAL",
+    "recommendation": "DO_NOT_INSTALL"
+  },
+  "components": [
+    {
+      "path": "LICENSE",
+      "type": "other",
+      "lines": 21,
+      "executable": false,
+      "size_bytes": 1066
+    },
+    {
+      "path": "README.md",
+      "type": "markdown",
+      "lines": 286,
+      "executable": false,
+      "size_bytes": 9085
+    },
+    {
+      "path": "architecture-diagram.zip",
+      "type": "other",
+      "lines": 253,
+      "executable": false,
+      "size_bytes": 8646
+    },
+    {
+      "path": "architecture-diagram/SKILL.md",
+      "type": "markdown",
+      "lines": 177,
+      "executable": false,
+      "size_bytes": 8383
+    },
+    {
+      "path": "architecture-diagram/resources/template.html",
+      "type": "other",
+      "lines": 434,
+      "executable": false,
+      "size_bytes": 17492
+    },
+    {
+      "path": "examples/aws-serverless.html",
+      "type": "other",
+      "lines": 271,
+      "executable": false,
+      "size_bytes": 14534
+    },
+    {
+      "path": "examples/images/aws-serverless.png",
+      "type": "other",
+      "lines": 3406,
+      "executable": false,
+      "size_bytes": 123275
+    },
+    {
+      "path": "examples/images/claude-skills-settings.png",
+      "type": "other",
+      "lines": 1432,
+      "executable": false,
+      "size_bytes": 69596
+    },
+    {
+      "path": "examples/images/microservices.png",
+      "type": "other",
+      "lines": 3732,
+      "executable": false,
+      "size_bytes": 155153
+    },
+    {
+      "path": "examples/images/web-app.png",
+      "type": "other",
+      "lines": 2391,
+      "executable": false,
+      "size_bytes": 100890
+    },
+    {
+      "path": "examples/microservices.html",
+      "type": "other",
+      "lines": 322,
+      "executable": false,
+      "size_bytes": 18731
+    },
+    {
+      "path": "examples/web-app.html",
+      "type": "other",
+      "lines": 248,
+      "executable": false,
+      "size_bytes": 12819
+    }
+  ],
+  "issues": [
+    {
+      "id": "EA3",
+      "category": "Excessive Agency",
+      "pattern": "Scope Creep",
+      "severity": "LOW",
+      "confidence": 0.7,
+      "location": {
+        "file": "LICENSE",
+        "start_line": 16,
+        "end_line": null
+      },
+      "finding": "NOT LIMITED TO",
+      "explanation": "Skill's behavior or capabilities extend beyond its stated purpose. Scope creep allows an agent to perform actions unrelated to its documented functionality, increasing the attack surface.",
+      "remediation": "Limit the skill's scope to its documented purpose. Remove instructions that enable the agent to perform actions outside its stated functionality.",
+      "code_snippet": "copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,",
+      "intent": null
+    },
+    {
+      "id": "P2",
+      "category": "Prompt Injection",
+      "pattern": "Hidden Instructions",
+      "severity": "HIGH",
+      "confidence": 0.7,
+      "location": {
+        "file": "architecture-diagram/resources/template.html",
+        "start_line": 185,
+        "end_line": null
+      },
+      "finding": "<!-- Header -->\n    <div class=\"header\">\n      <div class=\"header-row\">\n        <div class=\"pulse-dot\"></div>\n        <h1>[PROJECT NAME] Architecture</h1>\n        <div class=\"toolbar\">\n          <div ",
+      "explanation": "Hidden instructions were detected in comments or invisible text. These could contain malicious directives. Manual review is recommended.",
+      "remediation": "Audit all comments and invisible characters. Remove any instructions that direct the agent to perform unauthorized actions. Use plain, reviewable content.",
+      "code_snippet": "</head>\n<body>\n  <div class=\"container\" id=\"report-container\">\n    <!-- Header -->\n    <div class=\"header\">\n      <div class=\"header-row\">\n        <div class=\"pulse-dot\"></div>",
+      "intent": null
+    },
+    {
+      "id": "P2",
+      "category": "Prompt Injection",
+      "pattern": "Hidden Instructions",
+      "severity": "HIGH",
+      "confidence": 0.7,
+      "location": {
+        "file": "examples/microservices.html",
+        "start_line": 98,
+        "end_line": null
+      },
+      "finding": "<!-- Kubernetes Cluster boundary -->\n        <rect x=\"280\" y=\"30\" width=\"640\" height=\"460\" rx=\"12\" fill=\"rgba(34, 211, 238, 0.03)\" stroke=\"#22d3ee\" stroke-width=\"1\" stroke-dasharray=\"8,4\"/>\n        <t",
+      "explanation": "Hidden instructions were detected in comments or invisible text. These could contain malicious directives. Manual review is recommended.",
+      "remediation": "Audit all comments and invisible characters. Remove any instructions that direct the agent to perform unauthorized actions. Use plain, reviewable content.",
+      "code_snippet": "\n        <rect width=\"100%\" height=\"100%\" fill=\"url(#grid)\" />\n\n        <!-- Kubernetes Cluster boundary -->\n        <rect x=\"280\" y=\"30\" width=\"640\" height=\"460\" rx=\"12\" fill=\"rgba(34, 211, 238, 0.03)\" stroke=\"#22d3ee\" stroke-width=\"1\" stroke-dasharray=\"8,4\"/>\n        <text x=\"295\" y=\"52\" fill=\"#22d3ee\" font-size=\"10\" font-weight=\"600\">Kubernetes Cluster</text>\n",
+      "intent": null
+    },
+    {
+      "id": "P2",
+      "category": "Prompt Injection",
+      "pattern": "Hidden Instructions",
+      "severity": "HIGH",
+      "confidence": 0.7,
+      "location": {
+        "file": "examples/web-app.html",
+        "start_line": 98,
+        "end_line": null
+      },
+      "finding": "<!-- Arrows (drawn first for z-order) -->\n        <line x1=\"130\" y1=\"200\" x2=\"248\" y2=\"200\" stroke=\"#64748b\" stroke-width=\"1.5\" marker-end=\"url(#arrowhead)\"/>\n        <text x=\"189\" y=\"190\" fill=\"#94a3",
+      "explanation": "Hidden instructions were detected in comments or invisible text. These could contain malicious directives. Manual review is recommended.",
+      "remediation": "Audit all comments and invisible characters. Remove any instructions that direct the agent to perform unauthorized actions. Use plain, reviewable content.",
+      "code_snippet": "\n        <rect width=\"100%\" height=\"100%\" fill=\"url(#grid)\" />\n\n        <!-- Arrows (drawn first for z-order) -->\n        <line x1=\"130\" y1=\"200\" x2=\"248\" y2=\"200\" stroke=\"#64748b\" stroke-width=\"1.5\" marker-end=\"url(#arrowhead)\"/>\n        <text x=\"189\" y=\"190\" fill=\"#94a3b8\" font-size=\"8\" text-anchor=\"middle\">HTTPS</text>\n",
+      "intent": null
+    },
+    {
+      "id": "RA2",
+      "category": "Rogue Agent",
+      "pattern": "Session Persistence",
+      "severity": "MEDIUM",
+      "confidence": 0.6,
+      "location": {
+        "file": "README.md",
+        "start_line": 175,
+        "end_line": null
+      },
+      "finding": "Create skill**, then **Upload a skill**\n4. Choose the zip file and toggle the skill on\n\n### Claude.ai Projects (Alternative)\n\n1. In your Claude.ai Project, upload the [`architecture-diagram.zip`](arch",
+      "explanation": "Skill establishes unauthorized persistence across sessions via cron jobs, startup scripts, or state files. Session persistence allows an attacker to maintain access beyond the current interaction.",
+      "remediation": "Remove any persistence mechanisms (cron jobs, startup scripts, state files). Skills should not maintain state across sessions without explicit user consent.",
+      "code_snippet": "\n1. Download [`architecture-diagram.zip`](architecture-diagram.zip)\n2. Go to **Customize** \u2192 **Skills**\n3. Click the **+** button, then **+ Create skill**, then **Upload a skill**\n4. Choose the zip file and toggle the skill on\n\n### Claude.ai Projects (Alternative)",
+      "intent": null
+    },
+    {
+      "id": "TM1",
+      "category": "Tool Misuse",
+      "pattern": "Tool Parameter Abuse",
+      "severity": "HIGH",
+      "confidence": 0.85,
+      "location": {
+        "file": "examples/images/aws-serverless.png",
+        "start_line": 37,
+        "end_line": null
+      },
+      "finding": "rm\u06fe\u000bJ\ufffd\ufffd\ufffd\ufffd:\ufffdw+\ufffd\ufffdDs\ufffdb\ufffdb\ufffd9I\ufffdr\ufffdZ\u0332tp\ufffd/",
+      "explanation": "Tool parameters are crafted to achieve unintended or unsafe behavior. Parameter abuse can bypass intended safety checks (e.g. shell=True, --force, dangerous glob patterns).",
+      "remediation": "Validate all tool parameters against an allowlist. Reject dangerous parameter values (shell=True, --force, -rf /) and use safe defaults.",
+      "code_snippet": "\ufffdR\ufffd\ufffd\u05e7\ufffd\ufffd[SY\ufffdv\ufffd\ufffd:\t\t\n\n\ufffd\ufffd\ufffd\u0019^l\ufffd\u001afP\u041b\u0011\ufffd&\u007f\\\ufffd\ufffd\u000f?\ufffd\"\ufffd\ufffd\u0018Lj\b\ufffd-\t\ufffd\u0000\t\ufffd\u0000\t\ufffd\u0000\t\ufffd\ufffdu\u0010`\ufffd \ufffdy\n\ufffd\ufffd\ufffd\ufffd\\\ufffd7\ufffd\\!\ufffd\ufffd0\ufffd\u0006F\ufffdn\u0772\ufffd\ufffdz\ufffd\ufffd\ufffd\ufffd\u0014*\ufffd_TP^\ufffdt\u0015%D|C!\u007f>\ufffd\ufffdZ\ufffd\u0016\ufffd|ys\ufffdtqvF\t\ufffdu\ufffdn\ufffd\ufffd\u001fnj\u042aM\ufffdS\ufffd\u03fd~\n4u\ufffd\ufffdg\ufffd^\ufffd\u0001$0 \ufffd\ufffd\ufffdk\u0530\u000e\u001aB\ufffd\ufffdC\ufffd\ufffd\ufffd\ufffd\ufffdG\ufffd\ufffd]\ufffd\ufffd\ufffd\ufffdn\ufffd\ufffd\u0011PBJE\u007f\ufffd\u0002\u0015!\ufffd\ufffd\ufffd=\ufffd\ufffd\ufffd\ufffd%7\ufffd\n;\ufffd\u007f\ufffd\ufffd\u0263\u0137-\ufffdYQ\u000e\ufffd\ufffd\u03df\ufffd\u0016C\ufffd}\ufffd: \ufffd\ufffd_\u007f,\ufffd|\ufffd \u0004\ufffdt\ufffdP\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd_a\u0003)V\ufffd\ufffdh\ufffd+\ufffd\ufffd3\u0019z\u0200~=tJT*W*7k\ufffd\ufffdc\ufffd\ufffd\ufffdv\ufffd\u021aU\ufffd:w\ufffd\ufffd\ufffd%\ufffd\u000f\ufffdB\ufffdf\ufffdG+\b\ufffd\ufffd\u007f\ufffd/\u000e\ufffd\ufffd\ufffd\ufffd\u0353\u0007\ufffdm\ufffd8~\ufffd\ufffd\ufffd\u0015\ufffd\ufffd=\ufffda\ufffdV!\ufffd\ufffd\u0005\ufffd2I\u0253;\ufffda\u0003v\ufffd\ufffd\u01ed\ufffd'\ufffd\u067a\ufffd\ufffdA_bh\ufffd[98\ufffd\u03dc>v\ufffd\ufffd\n\ufffd\u0010\ufffd\ufffd;\ufffdo\u04c6\ufffd\ufffdjVK\ufffde\ufffd\ufffd\ufffdi",
+      "intent": null
+    }
+  ],
+  "metadata": {
+    "has_executable_scripts": false,
+    "skillspector_version": "2.1.4",
+    "llm_requested": false,
+    "llm_available": false
+  }
+}

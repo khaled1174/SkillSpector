@@ -1,0 +1,46 @@
+{
+  "skill": {
+    "name": "last-day-skill-library-builder",
+    "source": "/var/folders/j3/gncvd3jn4rq3gtcsq8x6bwsm0000gn/T/skillspector_pawlg_61",
+    "scanned_at": "2026-07-03T00:21:06.792384+00:00"
+  },
+  "risk_assessment": {
+    "score": 10,
+    "severity": "LOW",
+    "recommendation": "SAFE"
+  },
+  "components": [
+    {
+      "path": "SKILL.md",
+      "type": "markdown",
+      "lines": 371,
+      "executable": false,
+      "size_bytes": 15108
+    }
+  ],
+  "issues": [
+    {
+      "id": "EA2",
+      "category": "Excessive Agency",
+      "pattern": "Autonomous Decision Making",
+      "severity": "MEDIUM",
+      "confidence": 0.75,
+      "location": {
+        "file": "SKILL.md",
+        "start_line": 312,
+        "end_line": null
+      },
+      "finding": "without approval",
+      "explanation": "Skill enables autonomous high-impact decisions without human-in-the-loop verification. Critical operations (destructive commands, financial transactions, data deletion) should require explicit user confirmation.",
+      "remediation": "Add human-in-the-loop confirmation for destructive, irreversible, or high-impact operations. Never auto-execute commands that modify files, send data, or alter system state.",
+      "code_snippet": "- git history does not support proposed incident stories;\n- the skill inventory would force duplication;\n- project instructions forbid this kind of local skill library;\n- generated skills would need to change files outside `.claude/skills/` without approval;\n- reviewers find unresolved blocking factual or doctrine issues.\n\n## Final report",
+      "intent": null
+    }
+  ],
+  "metadata": {
+    "has_executable_scripts": false,
+    "skillspector_version": "2.1.4",
+    "llm_requested": false,
+    "llm_available": false
+  }
+}

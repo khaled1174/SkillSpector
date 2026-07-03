@@ -1,0 +1,46 @@
+{
+  "skill": {
+    "name": "unknown",
+    "source": "/var/folders/j3/gncvd3jn4rq3gtcsq8x6bwsm0000gn/T/skillspector_5bomby38",
+    "scanned_at": "2026-06-15T16:31:35.957664+00:00"
+  },
+  "risk_assessment": {
+    "score": 10,
+    "severity": "LOW",
+    "recommendation": "SAFE"
+  },
+  "components": [
+    {
+      "path": "CLAUDE.md",
+      "type": "markdown",
+      "lines": 75,
+      "executable": false,
+      "size_bytes": 5164
+    }
+  ],
+  "issues": [
+    {
+      "id": "EA4",
+      "category": "Excessive Agency",
+      "pattern": "Unbounded Resource Access",
+      "severity": "MEDIUM",
+      "confidence": 0.75,
+      "location": {
+        "file": "CLAUDE.md",
+        "start_line": 43,
+        "end_line": null
+      },
+      "finding": "loop forever",
+      "explanation": "Skill allows unbounded resource consumption (API calls, storage, compute). Without rate limits or quotas, a compromised or misbehaving agent can cause denial-of-service or cost overruns.",
+      "remediation": "Set explicit rate limits, timeouts, and resource quotas for API calls, file operations, and compute. Implement circuit breakers for runaway loops.",
+      "code_snippet": "3. **Verification gates** \u2014 never mark a task done on vibes. A gate must convert\n   feedback into a binary verdict tied to ORACLE.\n4. **Termination condition** \u2014 DONE_WHEN is explicit. I do not stop early, and I do\n   not loop forever. If no progress for K iterations \u2192 treat as failure, surface.\n5. **Error handling** \u2014 on any tool/command failure: capture the error, decide\n   recover-or-abort, and NEVER leave the repo in a broken state. Roll back partial\n   changes if a step fails mid-way.",
+      "intent": null
+    }
+  ],
+  "metadata": {
+    "has_executable_scripts": false,
+    "skillspector_version": "2.1.4",
+    "llm_requested": false,
+    "llm_available": false
+  }
+}

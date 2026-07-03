@@ -1,0 +1,35 @@
+{
+  "skill": {
+    "name": "critique-theater",
+    "source": "/private/tmp/open-design-review/plugins/_official/atoms/critique-theater",
+    "scanned_at": "2026-06-17T14:40:02.979198+00:00"
+  },
+  "risk_assessment": {
+    "score": 0,
+    "severity": "LOW",
+    "recommendation": "SAFE"
+  },
+  "components": [
+    {
+      "path": "SKILL.md",
+      "type": "markdown",
+      "lines": 51,
+      "executable": false,
+      "size_bytes": 1488
+    },
+    {
+      "path": "open-design.json",
+      "type": "json",
+      "lines": 34,
+      "executable": false,
+      "size_bytes": 790
+    }
+  ],
+  "issues": [],
+  "metadata": {
+    "has_executable_scripts": false,
+    "skillspector_version": "2.1.4",
+    "llm_requested": false,
+    "llm_available": false
+  }
+}

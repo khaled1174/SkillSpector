@@ -1,0 +1,28 @@
+{
+  "skill": {
+    "name": "gpt-taste",
+    "source": "/private/tmp/taste-skill-inspect/repo/skills/gpt-tasteskill",
+    "scanned_at": "2026-06-25T18:11:58.856422+00:00"
+  },
+  "risk_assessment": {
+    "score": 0,
+    "severity": "LOW",
+    "recommendation": "SAFE"
+  },
+  "components": [
+    {
+      "path": "SKILL.md",
+      "type": "markdown",
+      "lines": 74,
+      "executable": false,
+      "size_bytes": 7857
+    }
+  ],
+  "issues": [],
+  "metadata": {
+    "has_executable_scripts": false,
+    "skillspector_version": "2.1.4",
+    "llm_requested": false,
+    "llm_available": false
+  }
+}

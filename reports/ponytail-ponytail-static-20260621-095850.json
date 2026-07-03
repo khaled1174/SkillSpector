@@ -1,0 +1,28 @@
+{
+  "skill": {
+    "name": "ponytail",
+    "source": "/private/tmp/ponytail-review-20260621-095805/skills/ponytail",
+    "scanned_at": "2026-06-21T06:58:50.697170+00:00"
+  },
+  "risk_assessment": {
+    "score": 0,
+    "severity": "LOW",
+    "recommendation": "SAFE"
+  },
+  "components": [
+    {
+      "path": "SKILL.md",
+      "type": "markdown",
+      "lines": 101,
+      "executable": false,
+      "size_bytes": 5199
+    }
+  ],
+  "issues": [],
+  "metadata": {
+    "has_executable_scripts": false,
+    "skillspector_version": "2.1.4",
+    "llm_requested": false,
+    "llm_available": false
+  }
+}

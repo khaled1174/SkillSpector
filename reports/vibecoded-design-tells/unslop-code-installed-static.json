@@ -1,0 +1,91 @@
+{
+  "skill": {
+    "name": "unslop-code",
+    "source": "/Users/khaledmac/project/web-3d/.claude/skills/unslop-code",
+    "scanned_at": "2026-06-28T07:19:57.829439+00:00"
+  },
+  "risk_assessment": {
+    "score": 26,
+    "severity": "MEDIUM",
+    "recommendation": "CAUTION"
+  },
+  "components": [
+    {
+      "path": "README.md",
+      "type": "markdown",
+      "lines": 73,
+      "executable": false,
+      "size_bytes": 3797
+    },
+    {
+      "path": "SKILL.md",
+      "type": "markdown",
+      "lines": 163,
+      "executable": false,
+      "size_bytes": 9879
+    },
+    {
+      "path": "references/fitting-the-codebase.md",
+      "type": "markdown",
+      "lines": 84,
+      "executable": false,
+      "size_bytes": 4875
+    },
+    {
+      "path": "references/tells.md",
+      "type": "markdown",
+      "lines": 381,
+      "executable": false,
+      "size_bytes": 18784
+    },
+    {
+      "path": "scripts/unslop_code_scan.py",
+      "type": "python",
+      "lines": 247,
+      "executable": true,
+      "size_bytes": 15987
+    }
+  ],
+  "issues": [
+    {
+      "id": "LP3",
+      "category": "MCP Least Privilege",
+      "pattern": null,
+      "severity": "MEDIUM",
+      "confidence": 0.7,
+      "location": {
+        "file": "SKILL.md",
+        "start_line": 1,
+        "end_line": null
+      },
+      "finding": null,
+      "explanation": "Without declared permissions the skill's intent is opaque and cannot be validated.",
+      "remediation": "Add a 'permissions' field to SKILL.md listing the capabilities this skill requires.",
+      "code_snippet": null,
+      "intent": null
+    },
+    {
+      "id": "RA2",
+      "category": "Rogue Agent",
+      "pattern": "Session Persistence",
+      "severity": "MEDIUM",
+      "confidence": 0.6,
+      "location": {
+        "file": "README.md",
+        "start_line": 4,
+        "end_line": null
+      },
+      "finding": "write the code for you\nor impose a style. Every rule is weighted by the Reddit analysis in this folder (11,906 posts +\n11,306 comments across 55 AI, coding, and SaaS subreddits, classified by an LLM i",
+      "explanation": "Skill establishes unauthorized persistence across sessions via cron jobs, startup scripts, or state files. Session persistence allows an attacker to maintain access beyond the current interaction.",
+      "remediation": "Remove any persistence mechanisms (cron jobs, startup scripts, state files). Skills should not maintain state across sessions without explicit user consent.",
+      "code_snippet": "# unslop-code\n\nA Claude skill that strips the tells that make source code read as AI-generated and forces code\nthat fits the project instead of the model's default average. It does not write the code for you\nor impose a style. Every rule is weighted by the Reddit analysis in this folder (11,906 posts +\n11,306 comments across 55 AI, coding, and SaaS subreddits, classified by an LLM into 19 tells\nand adversarially verified quote by quote).",
+      "intent": null
+    }
+  ],
+  "metadata": {
+    "has_executable_scripts": true,
+    "skillspector_version": "2.1.4",
+    "llm_requested": false,
+    "llm_available": false
+  }
+}
