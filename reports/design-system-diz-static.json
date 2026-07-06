@@ -1,0 +1,88 @@
+{
+  "skill": {
+    "name": "design-system",
+    "source": "/private/tmp/diz-skill-install/candidate/design-system",
+    "scanned_at": "2026-07-04T16:25:53.043968+00:00"
+  },
+  "risk_assessment": {
+    "score": 13,
+    "severity": "LOW",
+    "recommendation": "SAFE"
+  },
+  "components": [
+    {
+      "path": "SKILL.md",
+      "type": "markdown",
+      "lines": 208,
+      "executable": false,
+      "size_bytes": 13344
+    },
+    {
+      "path": "references/questions.md",
+      "type": "markdown",
+      "lines": 15,
+      "executable": false,
+      "size_bytes": 2364
+    },
+    {
+      "path": "references/schema.md",
+      "type": "markdown",
+      "lines": 117,
+      "executable": false,
+      "size_bytes": 6051
+    },
+    {
+      "path": "scripts/check_contrast.py",
+      "type": "python",
+      "lines": 203,
+      "executable": true,
+      "size_bytes": 7212
+    },
+    {
+      "path": "scripts/extract_colors.py",
+      "type": "python",
+      "lines": 103,
+      "executable": true,
+      "size_bytes": 3485
+    },
+    {
+      "path": "scripts/generate_html.py",
+      "type": "python",
+      "lines": 428,
+      "executable": true,
+      "size_bytes": 18153
+    },
+    {
+      "path": "scripts/validate.sh",
+      "type": "shell",
+      "lines": 41,
+      "executable": true,
+      "size_bytes": 1094
+    }
+  ],
+  "issues": [
+    {
+      "id": "LP3",
+      "category": "MCP Least Privilege",
+      "pattern": null,
+      "severity": "MEDIUM",
+      "confidence": 0.7,
+      "location": {
+        "file": "SKILL.md",
+        "start_line": 1,
+        "end_line": null
+      },
+      "finding": null,
+      "explanation": "Without declared permissions the skill's intent is opaque and cannot be validated.",
+      "remediation": "Add a 'permissions' field to SKILL.md listing the capabilities this skill requires.",
+      "code_snippet": null,
+      "intent": null
+    }
+  ],
+  "metadata": {
+    "has_executable_scripts": true,
+    "skillspector_version": "2.1.4",
+    "llm_requested": false,
+    "llm_available": false
+  }
+}
