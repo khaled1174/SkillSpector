@@ -1,0 +1,112 @@
+{
+  "skill": {
+    "name": "unknown",
+    "source": "/private/tmp/fable-advisor-review",
+    "scanned_at": "2026-07-06T04:16:11.835321+00:00"
+  },
+  "risk_assessment": {
+    "score": 10,
+    "severity": "LOW",
+    "recommendation": "SAFE"
+  },
+  "components": [
+    {
+      "path": ".claude-plugin/marketplace.json",
+      "type": "json",
+      "lines": 17,
+      "executable": false,
+      "size_bytes": 604
+    },
+    {
+      "path": ".claude-plugin/plugin.json",
+      "type": "json",
+      "lines": 12,
+      "executable": false,
+      "size_bytes": 556
+    },
+    {
+      "path": "LICENSE",
+      "type": "other",
+      "lines": 21,
+      "executable": false,
+      "size_bytes": 1068
+    },
+    {
+      "path": "README.md",
+      "type": "markdown",
+      "lines": 97,
+      "executable": false,
+      "size_bytes": 6295
+    },
+    {
+      "path": "agents/codex-implementer.md",
+      "type": "markdown",
+      "lines": 97,
+      "executable": false,
+      "size_bytes": 4789
+    },
+    {
+      "path": "agents/fable-advisor.md",
+      "type": "markdown",
+      "lines": 28,
+      "executable": false,
+      "size_bytes": 2141
+    },
+    {
+      "path": "agents/implementer.md",
+      "type": "markdown",
+      "lines": 44,
+      "executable": false,
+      "size_bytes": 2263
+    },
+    {
+      "path": "skills/orchestration/SKILL.md",
+      "type": "markdown",
+      "lines": 65,
+      "executable": false,
+      "size_bytes": 6286
+    }
+  ],
+  "issues": [
+    {
+      "id": "EA3",
+      "category": "Excessive Agency",
+      "pattern": "Scope Creep",
+      "severity": "LOW",
+      "confidence": 0.7,
+      "location": {
+        "file": "LICENSE",
+        "start_line": 16,
+        "end_line": null
+      },
+      "finding": "NOT LIMITED TO",
+      "explanation": "Skill's behavior or capabilities extend beyond its stated purpose. Scope creep allows an agent to perform actions unrelated to its documented functionality, increasing the attack surface.",
+      "remediation": "Limit the skill's scope to its documented purpose. Remove instructions that enable the agent to perform actions outside its stated functionality.",
+      "code_snippet": "copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,",
+      "intent": null
+    },
+    {
+      "id": "EA3",
+      "category": "Excessive Agency",
+      "pattern": "Scope Creep",
+      "severity": "LOW",
+      "confidence": 0.75,
+      "location": {
+        "file": "agents/fable-advisor.md",
+        "start_line": 28,
+        "end_line": null
+      },
+      "finding": "Expand scope",
+      "explanation": "Skill's behavior or capabilities extend beyond its stated purpose. Scope creep allows an agent to perform actions unrelated to its documented functionality, increasing the attack surface.",
+      "remediation": "Limit the skill's scope to its documented purpose. Remove instructions that enable the agent to perform actions outside its stated functionality.",
+      "code_snippet": "\n- Implement, edit, or write files. You advise; the working model builds.\n- Rubber-stamp. If you'd genuinely push back, push back.\n- Expand scope. Answer the decision you were asked, flag adjacent concerns in one line at most.",
+      "intent": null
+    }
+  ],
+  "metadata": {
+    "has_executable_scripts": false,
+    "skillspector_version": "2.1.4",
+    "llm_requested": false,
+    "llm_available": false
+  }
+}
